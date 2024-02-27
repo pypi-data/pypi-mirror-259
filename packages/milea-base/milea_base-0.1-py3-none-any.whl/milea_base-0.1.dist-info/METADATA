@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: milea-base
+Version: 0.1
+Summary: Milea Framework - Base Module
+Author: red-pepper-services
+Author-email: pypi@schiegg.at
+License: MIT
+Requires-Dist: Django >=5.0
+
