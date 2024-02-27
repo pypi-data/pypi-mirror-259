@@ -1,0 +1,31 @@
+from setuptools import setup
+
+setup(
+    name='xbx',
+    version='0.1.0',
+    description='xbx',
+    author='xbx',
+    install_requires=[
+        'ccxt==2.2.40',
+        'dataframe_image==0.1.5',
+        'DrissionPage==3.2.34',
+        'lxml==4.8.0',
+        'ntplib==0.4.0',
+        'httpx==0.26.0',
+        'bs4==0.0.2',
+        'scipy==1.7.3',
+        'tabulate==0.8.9',
+        'scikit-learn==1.3.0',
+        'py-mini-racer==0.6.0',
+        'psutil==5.9.6',
+        'matplotlib==3.7.2',
+        'joblib==1.3.2',
+        'numpy==1.22.4',
+        'pandas==1.5.3',
+        'requests==2.27.1',
+        'tqdm==4.66.1',
+        'plotly==5.6.0',
+        'pyarrow==14.0.0',
+        'retrying==1.3.3'
+    ],
+)
