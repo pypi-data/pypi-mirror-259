@@ -1,0 +1,16 @@
+evermore/__init__.py,sha256=duN0kgmil4k0eGzSmkEIGbC0F6a7AHB3O83Yi2RrlvM,1060
+evermore/custom_types.py,sha256=sG9xU0BeCE-nNsNKT2vdDET8B9UBtrCTUOQ03XZZTAY,395
+evermore/effect.py,sha256=1Wch4ogM4L634bGHhkEUcUcsM5AytywHAIy9RuD9Z_A,5767
+evermore/ipy_util.py,sha256=UbyJK9_eqe3TMtde-muTWIWTYYBy0IyEkt2z5dIldys,1234
+evermore/likelihood.py,sha256=2sQw47kA_kG8kFsqvQnY41SFG3L450UMLDxWv7QlCbY,3663
+evermore/model.py,sha256=yN6mIxKM3ZWbJn4suTx_l-H4oLg_ikpI0zB822qQxxQ,6005
+evermore/modifier.py,sha256=Egy49ka7bpYvQ_M-LJeb5jHECTIVsq41DrhWKHcl2EU,14298
+evermore/optimizer.py,sha256=uXcbHxVY1ToY87rZ7uAvUVi0lidj5aFsFx2H03HzA28,2869
+evermore/parameter.py,sha256=hDT6Za8ckoEIAU2X1-oT0b5UZE9LCeYZFZOx0IBvxKY,1094
+evermore/pdf.py,sha256=GGs19ujt7zrx5NSZBoLiLYk38ClTQkJa-ecZRwI9ung,3482
+evermore/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+evermore/util.py,sha256=OU_tKHwwBEBAUgfQmNKS_hUn7Dqa-DUgnx9xsTt4Lbc,9278
+evermore-0.2.0.dist-info/METADATA,sha256=yJ2Ho97AbNI9et4x5fbeXISk3Ug6I0BF2QnSxW7-t0k,5266
+evermore-0.2.0.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+evermore-0.2.0.dist-info/licenses/LICENSE,sha256=4xows4rGr78-PYNPXzzG6L5JjU3TkYGhkNi_8V5sWMY,1525
+evermore-0.2.0.dist-info/RECORD,,
