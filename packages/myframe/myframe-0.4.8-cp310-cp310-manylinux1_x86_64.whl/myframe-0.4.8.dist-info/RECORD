@@ -1,0 +1,13 @@
+myframe/__init__.py,sha256=IoPVgU1n-Mr3o9WJ1H5ayxI7mPsWZWVqOA_hDeHzv1o,1751
+myframe/config_casbin_model_rbac.conf,sha256=Sk1Q1s7gXoHQWlWDdnotYZz7itK-gl846dw27Wk3A6I,238
+myframe/_script/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+myframe/_script/script_config.py,sha256=lajpitsHEIKxKGrz3AQzTRsVsW6ZvZ4Zac2C8AMZ9A8,2023
+myframe/_script/script_token.py,sha256=PjMkUR7NxyULocFADuQtgGBWhu_C256GpEPUtSYqqDw,141
+myframe/service/__init__.c,sha256=Jk0dUK-Miqr3vfFy1yE3jWaA245uETRXkbJ69f86M7k,159221
+myframe/service/__init__.cpython-310-x86_64-linux-gnu.so,sha256=Cw2KtysR84SqDu_6EbaIKGJBZ5hq4DTSkHKOjOqzM7U,65632
+myframe/service/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+myframe-0.4.8.dist-info/METADATA,sha256=uRxraYwmWUkZ1WxRETAlPV7Xx10NTALkebFdj4LlfzY,813
+myframe-0.4.8.dist-info/WHEEL,sha256=cEpMJqGIBGZYrvbJnrc5LzF5cHiaOrMhhY4VA6wCk2Y,110
+myframe-0.4.8.dist-info/entry_points.txt,sha256=QXeV0gQ9B4fhSPH3S2YCiDyFGcji0gtTj3iKdWDVt8A,120
+myframe-0.4.8.dist-info/top_level.txt,sha256=PhB2uRIdWQY0HktNRt_9mNlKD51O-fVCiC1AEdOVynY,8
+myframe-0.4.8.dist-info/RECORD,,
