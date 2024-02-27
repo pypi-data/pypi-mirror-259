@@ -1,0 +1,6 @@
+README.md
+setup.py
+shopee_mmu_python_splib.egg-info/PKG-INFO
+shopee_mmu_python_splib.egg-info/SOURCES.txt
+shopee_mmu_python_splib.egg-info/dependency_links.txt
+shopee_mmu_python_splib.egg-info/top_level.txt
