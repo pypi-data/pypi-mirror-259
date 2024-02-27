@@ -1,0 +1,14 @@
+persistent_cache/__init__.py,sha256=HW3KlSKW6JSRxTZW3jRMlxsJF-k3a03Va2jwNQbydok,499
+persistent_cache/_version.py,sha256=zBVX2byWL6NrFlwjvahpnvSqDsdtebZW0K9WM_cj20U,411
+persistent_cache/cli.py,sha256=3cVe0fw917A9sIEiq0lUJAmC7nS6lNFXw8JmajO4wZU,1198
+persistent_cache/decorators.py,sha256=MAeDv2A-XiVP9_NS417Kn1wKs4f97K9nqvZlaNwOYL8,10045
+persistent_cache/backend/__init__.py,sha256=XzED9jpIv5HNt8ABp8116HBc3pbrcEWNuvL7EfitaDI,4122
+persistent_cache/backend/json.py,sha256=mGASko16Tv8oHBku8m5jfJyrfdy2zvtPDNgLLwynyRo,2971
+persistent_cache/backend/pickle.py,sha256=iDRvsz8U6JQFRZeqFeNjAzCJm6BwKKijHKeU6BhQM3E,1698
+persistent_cache/backend/sqlite.py,sha256=Ozf1lNuo85qZQuObYXuDyD-RU5hZf2rG0SuaoiWZU5k,4584
+persistent_cache/wrappers/__init__.py,sha256=3BPNIZRaT-4LJCp2CXq152Powa7wLTH6WO02cTkUA7A,1799
+persistent_cache_decorator-0.1.5.dist-info/METADATA,sha256=kwKYFKqF2SkjGA3quiz4hArCl0PswvpLEz_0fwOBYrc,5862
+persistent_cache_decorator-0.1.5.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+persistent_cache_decorator-0.1.5.dist-info/entry_points.txt,sha256=hcX_c4rUgKKhDW-8NnrPnVDWZ4LUB-9jblhzXJAMCuk,56
+persistent_cache_decorator-0.1.5.dist-info/licenses/LICENSE,sha256=hnwRw-SOiu-dsEIEedurFKcVZEL4uyF2XFBRE95vJGE,1063
+persistent_cache_decorator-0.1.5.dist-info/RECORD,,
