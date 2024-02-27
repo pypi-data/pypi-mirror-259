@@ -1,0 +1,8 @@
+README.md
+setup.py
+rzLyricFind/__init__.py
+rzLyricFind.egg-info/PKG-INFO
+rzLyricFind.egg-info/SOURCES.txt
+rzLyricFind.egg-info/dependency_links.txt
+rzLyricFind.egg-info/requires.txt
+rzLyricFind.egg-info/top_level.txt
