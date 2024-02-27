@@ -1,0 +1,8 @@
+pytest_result_log-1.2.2.dev0.dist-info/METADATA,sha256=snz9rpCOIxn6QKCf0330Or00ud59qKVfApepmWNB-Vg,1629
+pytest_result_log-1.2.2.dev0.dist-info/WHEEL,sha256=qwWmfKXUoq5bod-_aFjwLjFjSMQrRtv3HA25Z6vK21c,148
+pytest_result_log-1.2.2.dev0.dist-info/RECORD,,
+pytest_result_log-1.2.2.dev0.dist-info/entry_points.txt,sha256=cOjE5IkKx19Xp2XzUjuP3daBLVvkpq8-aEj_50zybzE,48
+pytest_result_log/plugin.cpython-311-x86_64-linux-gnu.so,sha256=cOPxPiRX1j2632Htapeeq-QeUCeowwsmfCNJQ4wCCtE,1104248
+pytest_result_log/__init__.cpython-311-x86_64-linux-gnu.so,sha256=dFea8O_ttENIAm9BRB_ZJbWb0uTtYwEQbEJLG0QWhlM,76632
+pytest_result_log/hooks.cpython-311-x86_64-linux-gnu.so,sha256=OYgEO-8K0W-qNI4nmhJYYu-XvKQtPuukML2lfoFKzE0,260200
+pytest_result_log/const.cpython-311-x86_64-linux-gnu.so,sha256=SjSG_GT7lz9erWbTB8_I803YjeAsVGuWLApXhvgGxjE,80848
