@@ -1,0 +1,8 @@
+pytest_result_log/const.cpython-310-darwin.so,sha256=BRfbBCpgBWqOxavlI1GZD0Zo_5JW7Ffm5-iqMQff584,40952
+pytest_result_log/hooks.cpython-310-darwin.so,sha256=mu2KkxK9OIukXZFWVf65_FKUI7L-jGg1eLRGxE3TgJ4,64328
+pytest_result_log/__init__.cpython-310-darwin.so,sha256=OM2cU59xka-6d0qlKkYOHx7IWy9npo1HIyWrT96uTEY,38928
+pytest_result_log/plugin.cpython-310-darwin.so,sha256=x5jdDgJ_PiKpsugSdMO3KAape3aSIqxiQoJieio-FoM,166360
+pytest_result_log-1.2.2.dev0.dist-info/RECORD,,
+pytest_result_log-1.2.2.dev0.dist-info/WHEEL,sha256=W_CW0Gh7cI8TCoi9PQ-JVYaEpiKOfbHXT3w-C6bufmg,106
+pytest_result_log-1.2.2.dev0.dist-info/entry_points.txt,sha256=cOjE5IkKx19Xp2XzUjuP3daBLVvkpq8-aEj_50zybzE,48
+pytest_result_log-1.2.2.dev0.dist-info/METADATA,sha256=snz9rpCOIxn6QKCf0330Or00ud59qKVfApepmWNB-Vg,1629
