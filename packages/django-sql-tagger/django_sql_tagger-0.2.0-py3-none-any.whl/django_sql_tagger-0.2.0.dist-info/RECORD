@@ -1,0 +1,9 @@
+django_sql_tagger/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_sql_tagger/apps.py,sha256=1c2w1IaR63F8EpraX_Hl_UXaMk6M2KwnfrrIbDDeEpI,550
+django_sql_tagger/tagging.py,sha256=T1WCVSJQfQq7Dmwp5Q-IqPEKAHmduPm1DKw9hfv_gz0,1694
+django_sql_tagger/transaction.py,sha256=AfSk4D2509dnNk2lYZfZnFhRT6Xr4PYDtTBGflzV0Tk,2370
+django_sql_tagger-0.2.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+django_sql_tagger-0.2.0.dist-info/METADATA,sha256=2AsLPmL7c6Wwg-Ki7hpqEPxN15NXybnBsvl7FEpOXYI,4020
+django_sql_tagger-0.2.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+django_sql_tagger-0.2.0.dist-info/top_level.txt,sha256=ojQB-U9LuBPrBps-se_9AJBYr1RRpx8CV-YaBCEYmoQ,18
+django_sql_tagger-0.2.0.dist-info/RECORD,,
