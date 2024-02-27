@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: pymoldis
+Version: 1.0.3
+Summary: A Python suite for data-mining the Quantum Chemistry Big Data developed through the MolDis project (https://moldis.tifrh.res.in/)
+Home-page: https://github.com/moldis-group/pymoldis
+Author: Raghunathan Ramakrishnan
+Author-email: raghu.rama.chem@gmail.com
+License: MIT License
+Description-Content-Type: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
