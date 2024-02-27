@@ -1,0 +1,7 @@
+plotly
+tensorflow
+pandas
+seaborn
+opencv-python
+scikit-learn
+tqdm
