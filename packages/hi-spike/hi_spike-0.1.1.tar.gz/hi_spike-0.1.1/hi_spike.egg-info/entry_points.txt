@@ -1,0 +1,3 @@
+[console_scripts]
+spike = spike.cmd_utils:main
+start = spike.run_exp_plan:run
