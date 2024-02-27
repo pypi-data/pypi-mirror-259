@@ -1,0 +1,11 @@
+README.md
+setup.py
+wagtail_Package.egg-info/PKG-INFO
+wagtail_Package.egg-info/SOURCES.txt
+wagtail_Package.egg-info/dependency_links.txt
+wagtail_Package.egg-info/not-zip-safe
+wagtail_Package.egg-info/requires.txt
+wagtail_Package.egg-info/top_level.txt
+wagtail_models/__init__.py
+wagtail_models/blocks.py
+wagtail_models/wagtail_models.py
