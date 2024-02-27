@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: k3_addons
+Version: 0.0.2
+Summary: Making Keras Equivalent to PyTorch
+Home-page: https://github.com/anas-rz/k3-addons
+Author: Muhammad Anas Raza
+Author-email: memanasraza@gmail.com
+License: Apache License 2.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: keras>=3.0.5
+
+# k3-addons: Additional multi-backend functionality for Keras 3.
+![Logo](.assets/k-addons.png)
+
+# Installation
+
+`pip install k3-addons`
+
+# Includes:
+## Layers
+- Pooling:
+    - `k3_addons.layers.AdaptiveAveragePooling1D`
+    - `k3_addons.layers.AdaptiveMaxPooling1D`
+    - `k3_addons.layers.AdaptiveAveragePooling2D`
+    - `k3_addons.layers.AdaptiveMaxPooling2D`
+- Attention:
+    - `k3_addons.layers.DoubleAttention`
+    - `k3_addons.layers.AFTFull`
+    - `k3_addons.layers.ChannelAttention2D`
+    - `k3_addons.layers.SpatialAttention2D`
+    - `k3_addons.layers.ECAAttention`
+    - `k3_addons.layers.ExternalAttention`
+    - `k3_addons.layers.ResidualAttention`
+    - `k3_addons.layers.MobileViTAttention`
