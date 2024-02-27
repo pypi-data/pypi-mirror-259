@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "danielssupergameforwinners"
+version = "0.1.7"
+authors = [
+  { name="Daniel Hutchings", email="thewakemaster@gmail.com" },
+]
+description = "The most hype game ever"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
