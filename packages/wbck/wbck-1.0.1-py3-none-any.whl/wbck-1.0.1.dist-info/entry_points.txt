@@ -1,0 +1,2 @@
+[console_scripts]
+wbck = wbck:cli
