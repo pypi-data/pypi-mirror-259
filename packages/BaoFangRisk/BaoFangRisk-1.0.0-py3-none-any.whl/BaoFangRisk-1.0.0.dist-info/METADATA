@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: BaoFangRisk
+Version: 1.0.0
+Summary: BaoFangRisk: performance attribution and optimizer tool based on Barra
+Home-page: 
+Author: xzr
+Author-email: 625180414@qq.com
+License: MIT
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+Requires-Dist: rqsdk
+Requires-Dist: pandas >=1.1.5
+
