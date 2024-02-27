@@ -1,0 +1,9 @@
+CHANGES.txt
+MANIFEST.in
+setup.py
+migrations/__init__.py
+milea_base.egg-info/PKG-INFO
+milea_base.egg-info/SOURCES.txt
+milea_base.egg-info/dependency_links.txt
+milea_base.egg-info/requires.txt
+milea_base.egg-info/top_level.txt
