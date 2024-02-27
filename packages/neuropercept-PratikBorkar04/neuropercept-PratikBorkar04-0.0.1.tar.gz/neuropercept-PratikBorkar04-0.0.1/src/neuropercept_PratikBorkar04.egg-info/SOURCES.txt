@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/neuropercept/__init__.py
+src/neuropercept/perceptron.py
+src/neuropercept_PratikBorkar04.egg-info/PKG-INFO
+src/neuropercept_PratikBorkar04.egg-info/SOURCES.txt
+src/neuropercept_PratikBorkar04.egg-info/dependency_links.txt
+src/neuropercept_PratikBorkar04.egg-info/requires.txt
+src/neuropercept_PratikBorkar04.egg-info/top_level.txt

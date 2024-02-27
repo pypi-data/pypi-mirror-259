@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: neuropercept-PratikBorkar04
+Version: 0.0.1
+Summary: Implementation of Perceptron
+Home-page: https://github.com/PratikBorkar04/neuropercept
+Author: PratikBorkar04
+Author-email: pratikab01@gmail.com
+Project-URL: Bug Tracker, https://github.com/PratikBorkar04/neuropercept/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: tqdm
+
+# neuropercept
+"NeuroPercept is a streamlined Python package designed for foundational neural network and perceptron models, offering intuitive functions for value prediction and basic neural computations. Ideal for both educational purposes and simple projects, it simplifies the process of training and predicting with perceptrons."
+## How to use this
+
+```python
+from neuropercept.perceptron import Perceptron
+
+## get X and y and then use below commands
+model = Perceptron(eta=eta, epochs=epochs)
+model.fit(X, y)
+```
