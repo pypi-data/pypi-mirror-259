@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: uvscem
+Version: 0.1.0
+Summary: 
+Home-page: https://github.com/macgeneral/uVSCEM/
+License: MIT
+Author: Arne Fahrenwalde
+Author-email: arne@fahrenwal.de
+Requires-Python: >=3.12,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: dependency-algorithm (>=0.1,<0.2)
+Requires-Dist: json5 (>=0.9.17,<0.10.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: typer (>=0.9.0,<0.10.0)
+Project-URL: Repository, https://github.com/macgeneral/uVSCEM/
+Description-Content-Type: text/markdown
+
+# uVSCEM
+unofficial VSCode Extension Manager
+
