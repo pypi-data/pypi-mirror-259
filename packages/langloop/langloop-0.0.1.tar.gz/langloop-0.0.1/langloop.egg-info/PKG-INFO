@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: langloop
+Version: 0.0.1
+Summary: LLM-Powered Human-in-the-Loop Processing Pipelines
+Home-page: https://github.com/jamalex/langloop
+Author: Jamie Alexandre
+Author-email: jamalex+python@gmail.com
+License: GPL
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# langloop
+## LLM-Powered Human-in-the-Loop Processing Pipelines
+
+Coming soon! (still under internal development before open-sourcing)
+
+

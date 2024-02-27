@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+langloop.egg-info/PKG-INFO
+langloop.egg-info/SOURCES.txt
+langloop.egg-info/dependency_links.txt
+langloop.egg-info/top_level.txt
