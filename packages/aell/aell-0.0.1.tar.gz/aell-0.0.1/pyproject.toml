@@ -1,0 +1,17 @@
+[project]
+name = "aell"
+version = "0.0.1"
+authors = [
+  { name="Fei Liu", email="fliu36-c@my.cityu.edu.hk" },
+]
+description = "Algorithm Evolution using Large Language Model"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/FeiLiu36/AEL"
