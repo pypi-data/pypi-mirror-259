@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: unique_queue
+Version: 0.1
+Summary: A UniqueQueue class - a FIFO queue, but which ignores attempts to re-add duplicate items, even after they're popped.
+Project-URL: Homepage, https://gitopia.com/StudioBreeze/UniqueQueue
+Project-URL: Issues, https://gitopia.com/StudioBreeze/UniqueQueue/issues
+Project-URL: License, https://gitopia.com/StudioBreeze/UniqueQueue/tree/main/LICENSE
+Author-email: StudioBreeze <StudioBreeze+unique_queue@proton.me>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+
+# UniqueQueue
+
+A Python UniqueQueue class - a FIFO queue, but which ignores attempts to re-add duplicate items, even after they're popped.
+
+## Example
+
+When doing activities like web scraping, you must keep a queue of pending pages to visit/scrape, based on links found on already-scraped pages. You must also avoid re-visiting already-visited pages, or risk duplicates in the output dataset.
+
+```python
+from unique_queue import UniqueQueue
+
+uq = UniqueQueue()
+```
