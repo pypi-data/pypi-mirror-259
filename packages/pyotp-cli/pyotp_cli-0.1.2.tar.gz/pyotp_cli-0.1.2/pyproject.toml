@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "pyotp-cli"
+version = "0.1.2"
+description = "Convenient CLIs for pyotp, supports TOTP & HTOP"
+authors = ["Teddy Xinyuan Chen <45612704+tddschn@users.noreply.github.com>"]
+readme = "README.md"
+license = "MIT"
+homepage = "https://github.com/tddschn/pyotp-cli"
+repository = "https://github.com/tddschn/pyotp-cli"
+classifiers = ["Topic :: Utilities"]
+keywords = ["OTP", "2FA", "TOTP", "HOTP", "CLI", "pyotp"]
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/tddschn/pyotp-cli/issues"
+[tool.poetry.scripts]
+pyotp-hotp = "pyotp_cli.cli_hotp:main"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pyotp = "^2.9.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
