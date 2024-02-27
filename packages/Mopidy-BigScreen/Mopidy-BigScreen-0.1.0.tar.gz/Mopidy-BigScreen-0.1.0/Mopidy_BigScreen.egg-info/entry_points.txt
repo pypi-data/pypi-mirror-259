@@ -1,0 +1,2 @@
+[mopidy.ext]
+bigscreen = mopidy_bigscreen:Extension

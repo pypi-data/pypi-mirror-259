@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/bigscreen/static/css/main.0140e641.css",
+    "main.js": "/bigscreen/static/js/main.94f28e7e.js",
+    "index.html": "/bigscreen/index.html",
+    "main.0140e641.css.map": "/bigscreen/static/css/main.0140e641.css.map",
+    "main.94f28e7e.js.map": "/bigscreen/static/js/main.94f28e7e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0140e641.css",
+    "static/js/main.94f28e7e.js"
+  ]
+}
