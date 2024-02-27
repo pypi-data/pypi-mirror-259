@@ -1,0 +1,3 @@
+[console_scripts]
+pyotp-hotp=pyotp_cli.cli_hotp:main
+
