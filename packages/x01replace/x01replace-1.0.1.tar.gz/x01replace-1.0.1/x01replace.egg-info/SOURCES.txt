@@ -1,0 +1,8 @@
+setup.py
+x01replace/__init__.py
+x01replace/script.py
+x01replace.egg-info/PKG-INFO
+x01replace.egg-info/SOURCES.txt
+x01replace.egg-info/dependency_links.txt
+x01replace.egg-info/entry_points.txt
+x01replace.egg-info/top_level.txt

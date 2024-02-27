@@ -1,0 +1,2 @@
+[console_scripts]
+x01replace = x01replace:main
