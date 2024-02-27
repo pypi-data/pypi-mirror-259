@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "oxtapus"
+version = "0.2.18"
+description = ""
+authors = ["Yaghoub Ghadri <y.ghaderi@outlook.com>"]
+readme = "README.md"
+repository = "https://github.com/yghaderi/oxtapus"
+
+[tool.coverage.run]
+source = ["oxtapus"]
+branch = true
+
+[tool.poetry.dependencies]
+python = "^3.10"
+polars = "^0.20.3"
+tarix = "^0.1.1"
+httpx = "^0.25.0"
+tenacity = "^8.2.3"
+pydantic = "^2.5.3"
+
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
+
