@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: julie
+Version: 0.1.0
+Summary: Julie is a blogging assistant and linter for AI Hackers wanting to make their work more accessible
+Author: Nirant Kasliwal
+Author-email: nirant.bits@gmail.com
+Requires-Python: >=3.9,<3.12
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: fastembed (>=0.1.3,<0.2.0)
+Requires-Dist: jupyter (>=1.0.0,<2.0.0)
+Requires-Dist: loguru (>=0.7.2,<0.8.0)
+Requires-Dist: nbformat (>=5.9.2,<6.0.0)
+Requires-Dist: openai (>=1.10.0,<2.0.0)
+Requires-Dist: python-dotenv (>=1.0.1,<2.0.0)
+Requires-Dist: qdrant-client (>=1.7.2,<2.0.0)
+Requires-Dist: shellingham (>=1.5.4,<2.0.0)
+Requires-Dist: tiktoken (>=0.5.2,<0.6.0)
+Requires-Dist: tqdm (>=4.66.1,<5.0.0)
+Requires-Dist: typer (>=0.9.0,<0.10.0)
+Description-Content-Type: text/markdown
+
+# julie
+Julie is a blogging assistant and linter for AI Hackers wanting to make their work more accessible
+
