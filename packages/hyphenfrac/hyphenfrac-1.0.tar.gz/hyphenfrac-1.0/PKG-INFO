@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: hyphenfrac
+Version: 1.0
+Summary: Uses a hyphen-minus character to visualize a fraction.
+Home-page: https://github.com/xyzpw/hyphenfrac/
+Author: xyzpw
+Maintainer: xyzpw
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Intended Audience :: Developers
+Description-Content-Type: text/markdown
+
+# hyphenfrac
+Uses a hyphen-minus character to visualize a fraction.
+## Usage
+Displaying a fraction
+```python
+>>> import hyphenfrac, random
+>>> hyphenfrac.display(random.randint(1, 100)/random.randint(1, 100))
+20
+-- + 1
+49
+>>>
+```
+You may also assign this value to a variable
+```python
+>>> import hyphenfrac
+>>> foo = hyphenfrac.make_pretty(1, 10)
+>>> print(foo)
+1
+--
+10
+>>>
+```
