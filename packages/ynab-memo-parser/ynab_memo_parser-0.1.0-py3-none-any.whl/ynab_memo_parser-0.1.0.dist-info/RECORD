@@ -1,0 +1,9 @@
+ynabmemoparser/__init__.py,sha256=8O9B3rmMGmMD9Z-bKCvtjJpjMZceLh9qbaQDYAt9QpQ,98
+ynabmemoparser/parser.py,sha256=q_hCQsozcLmSzPTrEfjBHx8Z1CUw8l9JW6AUqfKwFK0,318
+ynabmemoparser/recordbuilder.py,sha256=BSbqVG3HVqA9Ac2GPci_ED0cwRU4Lg2ZCftba1hBrxA,984
+ynabmemoparser/ynabmemoparser.py,sha256=6MLgcZfVEfVQF8qHbwYkliQ6KG0hG-JTn7GjGqK9_08,1340
+ynabmemoparser/ynabrecord.py,sha256=eDsDMmSQtLn4KeQgISHeOCxkHEyq3WGmyeXUme7OK0s,395
+ynab_memo_parser-0.1.0.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+ynab_memo_parser-0.1.0.dist-info/METADATA,sha256=ZGJ8TGq_3t21q9cAKk2ITi1ubyQF09QNg9C2NrnVheI,4225
+ynab_memo_parser-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+ynab_memo_parser-0.1.0.dist-info/RECORD,,
