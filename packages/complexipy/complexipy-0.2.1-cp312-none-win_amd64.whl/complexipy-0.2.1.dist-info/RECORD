@@ -1,0 +1,8 @@
+complexipy-0.2.1.dist-info/METADATA,sha256=7ZCf7kjdnTLIN_9jQzXs3PLttEKOWXqrDfWKUm4p5Lc,6128
+complexipy-0.2.1.dist-info/WHEEL,sha256=yJI21RgSFtgqtm9j1AeUXX045H75HDPQyXNVFThVOh8,95
+complexipy-0.2.1.dist-info/entry_points.txt,sha256=7BRIkSuvn7A9AIDAQhKigIXLQxrXjnz7bsB1wYis61g,49
+complexipy-0.2.1.dist-info/license_files/LICENSE,sha256=b9V0Fd9UX8GbtBEyaglrPjW1ihY1Vfl1QWOYzdCd1MA,1092
+complexipy/main.py,sha256=m4f4gVrwUx3iPY8YY_L0_MXLkXsqR7dRpR3q5zhaqDI,2919
+complexipy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+complexipy/rust.cp312-win_amd64.pyd,sha256=aZOgY-lpuoycjvqkSlQqqQQgFyy_1H6-MWPVAHyG0Jk,5560832
+complexipy-0.2.1.dist-info/RECORD,,
