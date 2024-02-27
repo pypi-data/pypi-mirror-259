@@ -1,0 +1,50 @@
+name: Rich-codex
+on: [push]
+permissions:
+  contents: write
+jobs:
+  rich_codex:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v3
+
+      - name: Upgrade pip
+        run: |
+          pip install --constraint=.github/workflows/constraints.txt pip
+          pip --version
+
+      - name: Install Rye
+        run: |
+          curl -sSf https://rye-up.com/get | RYE_INSTALL_OPTION="--yes" bash
+          source "$HOME/.rye/env"
+          rye --version
+
+      - name: Install project to generate image
+        run: |
+          source "$HOME/.rye/env"
+          rye sync -f
+
+      - name: Generate latest terminal images with rich-codex
+        uses: ewels/rich-codex@v1
+        with:
+          commit_changes: "false"
+          skip_git_checks: "true"
+          clean_img_paths: |
+            ./demo/latest.png
+
+      - name: Init new repo in dist folder and commit generated files
+        run: |
+          cd demo/
+          git init
+          git add -A
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit -m 'deploy'
+      - name: Force push to destination branch
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: example-image
+          force: true
+          directory: ./demo/
