@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/ngram/__init__.py
+src/ngramso.egg-info/PKG-INFO
+src/ngramso.egg-info/SOURCES.txt
+src/ngramso.egg-info/dependency_links.txt
+src/ngramso.egg-info/requires.txt
+src/ngramso.egg-info/top_level.txt
