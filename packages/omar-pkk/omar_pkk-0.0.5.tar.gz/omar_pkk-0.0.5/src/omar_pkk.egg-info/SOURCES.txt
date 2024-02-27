@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/mongodb_connect/__init__.py
+src/mongodb_connect/mongo_crud.py
+src/omar_pkk.egg-info/PKG-INFO
+src/omar_pkk.egg-info/SOURCES.txt
+src/omar_pkk.egg-info/dependency_links.txt
+src/omar_pkk.egg-info/requires.txt
+src/omar_pkk.egg-info/top_level.txt
