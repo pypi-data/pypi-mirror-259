@@ -1,0 +1,11 @@
+emanate/__init__.py,sha256=mdK5skC8KMQPXJT1ZDwmRd3cSnk9QLKtMi8asWACtk8,6336
+emanate/__main__.py,sha256=EwgrZujcMN1I6axkdOyOETWL-l1wZ1KyfhUc9hT9_gw,30
+emanate/cli.py,sha256=kQTj2q4wyPSI3WI2WnQXTVoZegdeo9J_Jl2QbIDXNHU,3704
+emanate/config.py,sha256=2UM0VhSLab43ZLxwJne8-ABp9zFsmqdzAtA6w6Ljv-Q,5095
+emanate/version.py,sha256=_o7DzWcGLRqwB38f8GGpQ_GhFoMuNM-1hEqzKmqxfBE,143
+emanate-8.0.1.dist-info/LICENSE.txt,sha256=fzJYdooYCK6zGsIgt8JGoZ0b_ddH9psTp99-YZaWLis,1083
+emanate-8.0.1.dist-info/METADATA,sha256=yHN43GnVmsDUKzC-KhFz2LxMrrRIOqs9JXIQholqzN4,3961
+emanate-8.0.1.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+emanate-8.0.1.dist-info/entry_points.txt,sha256=Aj90QSutp2KMkfHBrrnIkzK4asZ06C_D24_rnxf1fKs,45
+emanate-8.0.1.dist-info/top_level.txt,sha256=e2TqOzLLPhpiwLx8EKfVoKtS3nf0VNFmIwCjR7EOaeA,8
+emanate-8.0.1.dist-info/RECORD,,
