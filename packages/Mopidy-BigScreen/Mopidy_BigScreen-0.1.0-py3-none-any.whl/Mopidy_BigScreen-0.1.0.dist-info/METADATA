@@ -1,0 +1,99 @@
+Metadata-Version: 2.1
+Name: Mopidy-BigScreen
+Version: 0.1.0
+Summary: Mopidy frontend for big screens
+Home-page: https://github.com/benreid24/mopidy-bigscreen
+Author: Benjamin Reid
+Author-email: reidben24@gmail.com
+License: Apache License, Version 2.0
+Classifier: Environment :: No Input/Output (Daemon)
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Multimedia :: Sound/Audio :: Players
+Requires-Python: >=3.9
+License-File: LICENSE
+Requires-Dist: Mopidy >=3.0.0
+Requires-Dist: Pykka >=2.0.1
+Requires-Dist: setuptools
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: check-manifest ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: flake8-black ; extra == 'dev'
+Requires-Dist: flake8-bugbear ; extra == 'dev'
+Requires-Dist: flake8-isort ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: tox ; extra == 'dev'
+Provides-Extra: lint
+Requires-Dist: black ; extra == 'lint'
+Requires-Dist: check-manifest ; extra == 'lint'
+Requires-Dist: flake8 ; extra == 'lint'
+Requires-Dist: flake8-black ; extra == 'lint'
+Requires-Dist: flake8-bugbear ; extra == 'lint'
+Requires-Dist: flake8-isort ; extra == 'lint'
+Requires-Dist: isort ; extra == 'lint'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+
+****************************
+Mopidy-BigScreen
+****************************
+
+.. image:: https://img.shields.io/pypi/v/Mopidy-BigScreen
+    :target: https://pypi.org/project/Mopidy-BigScreen/
+    :alt: Latest PyPI version
+
+.. image:: https://img.shields.io/github/actions/workflow/status/benreid24/mopidy-bigscreen/CI?branch=main
+    :target: https://github.com/benreid24/mopidy-bigscreen/actions
+    :alt: CI build status
+
+.. image:: https://img.shields.io/codecov/c/gh/benreid24/mopidy-bigscreen
+    :target: https://codecov.io/gh/benreid24/mopidy-bigscreen
+    :alt: Test coverage
+
+Mopidy frontend for big screens
+
+
+Installation
+============
+
+Install by running::
+
+    python3 -m pip install Mopidy-BigScreen
+
+See https://mopidy.com/ext/bigscreen/ for alternative installation methods.
+
+
+Configuration
+=============
+
+Before starting Mopidy, you must add configuration for
+Mopidy-BigScreen to your Mopidy configuration file::
+
+    [bigscreen]
+    # TODO: Add example of extension config
+
+
+Project resources
+=================
+
+- `Source code <https://github.com/benreid24/mopidy-bigscreen>`_
+- `Issue tracker <https://github.com/benreid24/mopidy-bigscreen/issues>`_
+- `Changelog <https://github.com/benreid24/mopidy-bigscreen/blob/master/CHANGELOG.rst>`_
+
+
+Credits
+=======
+
+- Original author: `Benjamin Reid <https://github.com/benreid24>`__
+- Current maintainer: `Benjamin Reid <https://github.com/benreid24>`__
+- `Contributors <https://github.com/benreid24/mopidy-bigscreen/graphs/contributors>`_

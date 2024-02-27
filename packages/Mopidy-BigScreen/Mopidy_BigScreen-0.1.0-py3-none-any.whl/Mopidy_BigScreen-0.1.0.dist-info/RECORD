@@ -1,0 +1,16 @@
+mopidy_bigscreen/__init__.py,sha256=vxId6lA_e_bTe_35sbis7pAlV9ndVPJ6tgKt0P87kI4,1414
+mopidy_bigscreen/ext.conf,sha256=M-QHvAjECF_9LGTUWrNPumLdSO2LHvD3vTCYofedN3Y,37
+mopidy_bigscreen/static/asset-manifest.json,sha256=4CIVRai2yfiPBzHeB1LokagHDcjRIjygVu_GYTnt2sA,419
+mopidy_bigscreen/static/fish.webp,sha256=WjucNdMgMxz14NqhOFBu9QHX5hQDkp7UgNzQQKDynWU,16920
+mopidy_bigscreen/static/index.html,sha256=phwnsOi8GpxJMshX4Rvv1QUVtiOvOYLJaoRfxkqBo1Q,541
+mopidy_bigscreen/static/static/css/main.0140e641.css,sha256=W_Xe1SAsCvP6p2DKiggvukAlzS7JmfyPFfYI2ig1kFg,6529
+mopidy_bigscreen/static/static/css/main.0140e641.css.map,sha256=JtCzVQIpArpiwgJJXXp-qX3_eSGp-vdCKHJziAAUd74,14167
+mopidy_bigscreen/static/static/js/main.94f28e7e.js,sha256=JVwnzQdv_OLVM7zz9agygnP4Qmd4352YxuaVt1_zAgY,180813
+mopidy_bigscreen/static/static/js/main.94f28e7e.js.LICENSE.txt,sha256=vIOq_0PT75MBMxu_6qzE0thUnfyQKfeGvWq90yNjsCA,971
+mopidy_bigscreen/static/static/js/main.94f28e7e.js.map,sha256=C8Vece3ZoO_IMpKSaWbG2AmRndwoTYHdMf1dpmJuVxM,500735
+Mopidy_BigScreen-0.1.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+Mopidy_BigScreen-0.1.0.dist-info/METADATA,sha256=FURtFjWDIchwe3XJ0pm7OpqEW3AArB1elOPJBhzw-1w,3271
+Mopidy_BigScreen-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+Mopidy_BigScreen-0.1.0.dist-info/entry_points.txt,sha256=wWnGqRLYdYDSsxkF1ExiwW2MGIMNU50n7n6G5qcXnD0,52
+Mopidy_BigScreen-0.1.0.dist-info/top_level.txt,sha256=H0lVeniReXnk1H3bTnGTyQoYF1zL-x2hn_9jczQQH44,17
+Mopidy_BigScreen-0.1.0.dist-info/RECORD,,
