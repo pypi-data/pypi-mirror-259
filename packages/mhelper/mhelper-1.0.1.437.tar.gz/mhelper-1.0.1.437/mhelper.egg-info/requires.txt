@@ -1,0 +1,8 @@
+
+[deprecated]
+py-flags
+
+[everything]
+jsonpickle
+PyQt5
+mistune
