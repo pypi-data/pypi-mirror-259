@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: wagtail_models
+Version: 0.1
+Author: auth
+Author-email: bipuldawadi14@email.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Requires-Dist: Wagtail ==5.2.3
+
