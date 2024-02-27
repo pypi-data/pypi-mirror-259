@@ -1,0 +1,43 @@
+Metadata-Version: 2.3
+Name: pyo3-mixed
+Version: 2.1.5
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Rust
+Requires-Dist: boltons
+Summary: Implements a dummy function combining rust and python
+Author: konstin <konstin@mailbox.org>
+Author-email: konstin <konstin@mailbox.org>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# pyo3-mixed
+
+A package for testing maturin with a mixed pyo3/python project.
+
+## Usage
+
+```bash
+pip install .
+```
+
+```python
+import pyo3_mixed
+assert pyo3_mixed.get_42() == 42
+```
+
+## Testing
+
+Install tox:
+
+```bash
+pip install tox
+```
+
+Run it:
+
+```bash
+tox
+```
+
+The tests are in `test_pyo3_mixed.py`, while the configuration is in tox.ini
+
