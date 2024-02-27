@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/danielssupergameforwinners/__init__.py
+src/danielssupergameforwinners/__main__.py
+src/danielssupergameforwinners/danielssupergameforwinners.py
+src/danielssupergameforwinners.egg-info/PKG-INFO
+src/danielssupergameforwinners.egg-info/SOURCES.txt
+src/danielssupergameforwinners.egg-info/dependency_links.txt
+src/danielssupergameforwinners.egg-info/top_level.txt
+src/danielssupergameforwinners/images/__init__.py
