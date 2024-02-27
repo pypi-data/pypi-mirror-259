@@ -1,0 +1,87 @@
+# Licensed to the Apache Software Foundation (ASF) under one
+# or more contributor license agreements.  See the NOTICE file
+# distributed with this work for additional information
+# regarding copyright ownership.  The ASF licenses this file
+# to you under the Apache License, Version 2.0 (the
+# "License"); you may not use this file except in compliance
+# with the License.  You may obtain a copy of the License at
+#
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+#
+# Unless required by applicable law or agreed to in writing,
+# software distributed under the License is distributed on an
+# "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+# KIND, either express or implied.  See the License for the
+# specific language governing permissions and limitations
+# under the License.
+
+from aliyunsdkcore.request import RpcRequest
+
+class CreateAccessWhiteListGroupRequest(RpcRequest):
+
+	def __init__(self):
+		RpcRequest.__init__(self, 'jarvis', '2018-02-06', 'CreateAccessWhiteListGroup')
+		self.set_method('POST')
+
+	def get_Note(self): # String
+		return self.get_query_params().get('Note')
+
+	def set_Note(self, Note):  # String
+		self.add_query_param('Note', Note)
+	def get_ResourceOwnerId(self): # Long
+		return self.get_query_params().get('ResourceOwnerId')
+
+	def set_ResourceOwnerId(self, ResourceOwnerId):  # Long
+		self.add_query_param('ResourceOwnerId', ResourceOwnerId)
+	def get_SrcIP(self): # String
+		return self.get_query_params().get('SrcIP')
+
+	def set_SrcIP(self, SrcIP):  # String
+		self.add_query_param('SrcIP', SrcIP)
+	def get_DstPort(self): # Integer
+		return self.get_query_params().get('DstPort')
+
+	def set_DstPort(self, DstPort):  # Integer
+		self.add_query_param('DstPort', DstPort)
+	def get_SourceCode(self): # String
+		return self.get_query_params().get('SourceCode')
+
+	def set_SourceCode(self, SourceCode):  # String
+		self.add_query_param('SourceCode', SourceCode)
+	def get_SourceIp(self): # String
+		return self.get_query_params().get('SourceIp')
+
+	def set_SourceIp(self, SourceIp):  # String
+		self.add_query_param('SourceIp', SourceIp)
+	def get_ProductName(self): # String
+		return self.get_query_params().get('ProductName')
+
+	def set_ProductName(self, ProductName):  # String
+		self.add_query_param('ProductName', ProductName)
+	def get_InstanceInfoList(self): # String
+		return self.get_query_params().get('InstanceInfoList')
+
+	def set_InstanceInfoList(self, InstanceInfoList):  # String
+		self.add_query_param('InstanceInfoList', InstanceInfoList)
+	def get_Lang(self): # String
+		return self.get_query_params().get('Lang')
+
+	def set_Lang(self, Lang):  # String
+		self.add_query_param('Lang', Lang)
+	def get_WhiteListType(self): # Integer
+		return self.get_query_params().get('WhiteListType')
+
+	def set_WhiteListType(self, WhiteListType):  # Integer
+		self.add_query_param('WhiteListType', WhiteListType)
+	def get_InstanceIdList(self): # String
+		return self.get_query_params().get('InstanceIdList')
+
+	def set_InstanceIdList(self, InstanceIdList):  # String
+		self.add_query_param('InstanceIdList', InstanceIdList)
+	def get_LiveTime(self): # Integer
+		return self.get_query_params().get('LiveTime')
+
+	def set_LiveTime(self, LiveTime):  # Integer
+		self.add_query_param('LiveTime', LiveTime)

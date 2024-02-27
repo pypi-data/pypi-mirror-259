@@ -1,0 +1,62 @@
+# Licensed to the Apache Software Foundation (ASF) under one
+# or more contributor license agreements.  See the NOTICE file
+# distributed with this work for additional information
+# regarding copyright ownership.  The ASF licenses this file
+# to you under the Apache License, Version 2.0 (the
+# "License"); you may not use this file except in compliance
+# with the License.  You may obtain a copy of the License at
+#
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+#
+# Unless required by applicable law or agreed to in writing,
+# software distributed under the License is distributed on an
+# "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+# KIND, either express or implied.  See the License for the
+# specific language governing permissions and limitations
+# under the License.
+
+from aliyunsdkcore.request import RpcRequest
+
+class DescribeCdnSubscriptionRequest(RpcRequest):
+
+	def __init__(self):
+		RpcRequest.__init__(self, 'jarvis', '2018-02-06', 'DescribeCdnSubscription')
+		self.set_method('POST')
+
+	def get_SourceCode(self): # String
+		return self.get_query_params().get('SourceCode')
+
+	def set_SourceCode(self, SourceCode):  # String
+		self.add_query_param('SourceCode', SourceCode)
+	def get_SourceIp(self): # String
+		return self.get_query_params().get('SourceIp')
+
+	def set_SourceIp(self, SourceIp):  # String
+		self.add_query_param('SourceIp', SourceIp)
+	def get_SubscriptionState(self): # Integer
+		return self.get_query_params().get('SubscriptionState')
+
+	def set_SubscriptionState(self, SubscriptionState):  # Integer
+		self.add_query_param('SubscriptionState', SubscriptionState)
+	def get_PageSize(self): # Integer
+		return self.get_query_params().get('PageSize')
+
+	def set_PageSize(self, PageSize):  # Integer
+		self.add_query_param('PageSize', PageSize)
+	def get_Lang(self): # String
+		return self.get_query_params().get('Lang')
+
+	def set_Lang(self, Lang):  # String
+		self.add_query_param('Lang', Lang)
+	def get_CurrentPage(self): # Integer
+		return self.get_query_params().get('CurrentPage')
+
+	def set_CurrentPage(self, CurrentPage):  # Integer
+		self.add_query_param('CurrentPage', CurrentPage)
+	def get_VendorName(self): # String
+		return self.get_query_params().get('VendorName')
+
+	def set_VendorName(self, VendorName):  # String
+		self.add_query_param('VendorName', VendorName)

@@ -1,0 +1,82 @@
+# Licensed to the Apache Software Foundation (ASF) under one
+# or more contributor license agreements.  See the NOTICE file
+# distributed with this work for additional information
+# regarding copyright ownership.  The ASF licenses this file
+# to you under the Apache License, Version 2.0 (the
+# "License"); you may not use this file except in compliance
+# with the License.  You may obtain a copy of the License at
+#
+#
+#     http://www.apache.org/licenses/LICENSE-2.0
+#
+#
+# Unless required by applicable law or agreed to in writing,
+# software distributed under the License is distributed on an
+# "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+# KIND, either express or implied.  See the License for the
+# specific language governing permissions and limitations
+# under the License.
+
+from aliyunsdkcore.request import RpcRequest
+
+class DescribeRiskListDetailRequest(RpcRequest):
+
+	def __init__(self):
+		RpcRequest.__init__(self, 'jarvis', '2018-02-06', 'DescribeRiskListDetail')
+		self.set_method('POST')
+
+	def get_riskType(self): # String
+		return self.get_query_params().get('riskType')
+
+	def set_riskType(self, riskType):  # String
+		self.add_query_param('riskType', riskType)
+	def get_sourceCode(self): # String
+		return self.get_query_params().get('sourceCode')
+
+	def set_sourceCode(self, sourceCode):  # String
+		self.add_query_param('sourceCode', sourceCode)
+	def get_SourceIp(self): # String
+		return self.get_query_params().get('SourceIp')
+
+	def set_SourceIp(self, SourceIp):  # String
+		self.add_query_param('SourceIp', SourceIp)
+	def get_pageSize(self): # Integer
+		return self.get_query_params().get('pageSize')
+
+	def set_pageSize(self, pageSize):  # Integer
+		self.add_query_param('pageSize', pageSize)
+	def get_Lang(self): # String
+		return self.get_query_params().get('Lang')
+
+	def set_Lang(self, Lang):  # String
+		self.add_query_param('Lang', Lang)
+	def get_srcUid(self): # Long
+		return self.get_query_params().get('srcUid')
+
+	def set_srcUid(self, srcUid):  # Long
+		self.add_query_param('srcUid', srcUid)
+	def get_currentPage(self): # Integer
+		return self.get_query_params().get('currentPage')
+
+	def set_currentPage(self, currentPage):  # Integer
+		self.add_query_param('currentPage', currentPage)
+	def get_riskDescribe(self): # String
+		return self.get_query_params().get('riskDescribe')
+
+	def set_riskDescribe(self, riskDescribe):  # String
+		self.add_query_param('riskDescribe', riskDescribe)
+	def get_queryProduct(self): # String
+		return self.get_query_params().get('queryProduct')
+
+	def set_queryProduct(self, queryProduct):  # String
+		self.add_query_param('queryProduct', queryProduct)
+	def get_queryRegionId(self): # String
+		return self.get_query_params().get('queryRegionId')
+
+	def set_queryRegionId(self, queryRegionId):  # String
+		self.add_query_param('queryRegionId', queryRegionId)
+	def get_status(self): # String
+		return self.get_query_params().get('status')
+
+	def set_status(self, status):  # String
+		self.add_query_param('status', status)
