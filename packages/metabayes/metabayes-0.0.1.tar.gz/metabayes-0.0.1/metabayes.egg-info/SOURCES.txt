@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.py
+metabayes/__init__.py
+metabayes/gibbs_sampler.py
+metabayes/priors.py
+metabayes.egg-info/PKG-INFO
+metabayes.egg-info/SOURCES.txt
+metabayes.egg-info/dependency_links.txt
+metabayes.egg-info/requires.txt
+metabayes.egg-info/top_level.txt
