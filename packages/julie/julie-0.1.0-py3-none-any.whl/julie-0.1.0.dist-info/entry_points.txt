@@ -1,0 +1,3 @@
+[console_scripts]
+julie=julie.module:main
+
