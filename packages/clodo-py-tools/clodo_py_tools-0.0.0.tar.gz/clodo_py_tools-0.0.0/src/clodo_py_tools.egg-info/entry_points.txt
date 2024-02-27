@@ -1,0 +1,2 @@
+[console_scripts]
+performance_tracing = execute_module:performance_tracing
