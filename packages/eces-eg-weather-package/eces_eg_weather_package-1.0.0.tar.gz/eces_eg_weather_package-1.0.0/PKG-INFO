@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: eces_eg_weather_package
+Version: 1.0.0
+Summary: Weather forecast data
+Home-page: https://adawoud.com/
+Author: Ahmed Dawoud
+Author-email: ahmed.ismail2013@feps.edu.eg
+License: MIT
+Keywords: weather,forecast,openweather
+Requires-Dist: requests
+Requires-Dist: pandas
