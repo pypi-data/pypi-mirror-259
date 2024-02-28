@@ -1,0 +1,4 @@
+
+    [console_scripts]
+    pi-monitor=pi_monitor:main
+    
