@@ -1,0 +1,75 @@
+[tool.poetry]
+name = "pydoctrace"
+version = "0.3.0"
+description = "Generate sequence diagrams by tracing Python code execution"
+keywords = ["sequence diagram", "component diagram", "documentation", "tracing", "doc-as-code", "PlantUML"]
+readme = "README.md"
+repository = "https://github.com/lucsorel/pydoctrace"
+authors = ["Luc Sorel-Giffo"]
+maintainers = ["Luc Sorel-Giffo"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.2"
+pytest-cov = "^4.1.0"
+
+[tool.poetry.group.lint.dependencies]
+pre-commit = "^3.5"
+
+[tool.pytest.ini_options]
+console_output_style = "count"
+
+[tool.isort]
+py_version=38
+# maintain consistency with other quality tools
+line_length = 120
+# consistency with ruff-format: mode 3
+# from third_party import (
+#     lib1,
+#     lib2,
+#     [...]
+#     libn,
+# )
+multi_line_output = 3
+include_trailing_comma = true
+# TESTS->known_tests: create a specific section for imports of tests modules
+# (this is the reason why isort is still used alongside ruff-format)
+sections = ["FUTURE", "STDLIB", "THIRDPARTY", "FIRSTPARTY", "LOCALFOLDER", "TESTS"]
+known_tests = ["tests"]
+
+[tool.ruff]
+target-version = "py38"
+# maintain consistency with other quality tools
+line-length = 120
+# automatically fixes when possible
+fix = true
+
+[tool.ruff.lint]
+# activated families of verifications (https://beta.ruff.rs/docs/rules/
+select = ["B", "E", "F", "W", "N", "SIM", "C4"]
+# do not check:
+# - E501 line lengths: ruff formatter already handles them
+# - B905 zip(*, strict=True): strict was introduced in Python 3.10+
+extend-ignore = ["E501", "B905"]
+
+[tool.ruff.lint.isort]
+forced-separate = ["tests"]
+
+[tool.ruff.lint.per-file-ignores]
+# do not check unused imports in __init__.py files (they expose module features)
+"__init__.py" = ["E402"]
+# provided a more meaningful parameter name in the @classmethod than "cls"
+"pydoctrace/exporters/__init__.py" = ["N804"]
+
+[tool.ruff.format]
+indent-style = "space"
+line-ending = "lf"
+quote-style = "single"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
