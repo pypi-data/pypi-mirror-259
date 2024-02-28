@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: birdpressure
+Version: 0.0.1
+Summary: Calculate peak pressure due to bird impact
+Home-page: https://github.com/saullocastro/birdpressure
+Author: Jonas Bertholdt, Saullo G. P. Castro
+Author-email: jonas.bertholdt@gmail.com, S.G.P.Castro@tudelft.nl
+License: 3-Clause BSD
+Keywords: crashworthiness,bird strike,pressure,preliminary design
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Education
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX :: BSD
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: BSD License
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: sympy
+Requires-Dist: matplotlib
+
+TU Delft, CrashProofLab, Pressure due to Bird Strike
+---
+
+Github Actions status:
+[![pytest](https://github.com/saullocastro/birdpressure/actions/workflows/pytest.yml/badge.svg)](https://github.com/saullocastro/birdpressure/actions/workflows/pytest.yml)
+
+Coverage status:
+[![codecov](https://codecov.io/gh/saullocastro/birdpressure/graph/badge.svg?token=1uZk1WqyMU)](https://codecov.io/gh/saullocastro/birdpressure)
+
+
+Analytical approaches to calculate the peak pressure generated in bird strikes.
+
+
+License
+-------
+Distrubuted under the 3-Clause BSD license
+(https://raw.github.com/saullocastro/birdpressure/master/LICENSE).
+
+Contact: jonas.bertholdt@gmail.com
+
+Contact: S.G.P.Castro@tudelft.nl
+
