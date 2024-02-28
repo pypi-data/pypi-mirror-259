@@ -1,0 +1,112 @@
+Metadata-Version: 2.1
+Name: pyside6-drawer
+Version: 0.0.1
+Summary: PySide6 drawer
+Home-page: https://github.com/sw22m/PySide6-Drawer.git
+Author: Simon Wu
+Author-email: simonwu22@outlook.com
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: PySide6
+
+
+# PySide6-Drawer
+PySide6 drawer - based on pyqt-drawer
+
+You can set the widget to drawer.
+
+Opening, closing drawer involved animations of size change and drawer/parent window's opacity.
+
+## Requirements
+see requirements.txt
+
+## Setup
+`python -m pip install PySide6-Drawer`
+
+## Feature
+* `Drawer(parent, widget: QWidget, alignment)` Constructor.
+    * `parent` is parent window
+    * `widget` is the widget you want to set in the drawer.
+    * `alignment` Placement of drawer. Currently support Qt.AlignTop, Qt.AlignLeft, Qt.AlignRight, Qt.AlignBottom
+* Being able to set size/opacity duration with `drawer.setDuration(msc)`
+* Being able to set end size value with `drawer.setEndValue(size)`
+
+* Call <Drawer>.toggleDrawer to toggle the drawer's visibility. In the example below, the QPushButton clicked signal will call this;
+up to the user to handle the button state
+
+## Example
+Code Example
+```python
+from PySide6.QtCore import Qt
+from PySide6.QtWidgets import QMainWindow, QApplication, QWidget, QGridLayout, QPushButton, QSizePolicy
+from pyside6_drawer.drawer import Drawer
+
+
+class MainWindow(QMainWindow):
+    def __init__(self):
+        super().__init__()
+        self.__initUi()
+
+    def __initUi(self):
+        mainWidget = QWidget()
+        mainWidget.setLayout(QGridLayout())
+        
+        # Content behind widget
+        pb = QPushButton("Content", mainWidget)
+        pb.setSizePolicy(QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Expanding)
+        mainWidget.layout().addWidget(pb)
+        pb.clicked.connect(lambda: print("Content Clicked!"))
+
+        # Left side drawer and button
+        leftWidget = QPushButton("Left Drawer")
+        leftWidget.setSizePolicy(QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Expanding)
+        drawerLeft = Drawer(self, leftWidget, alignment=Qt.AlignmentFlag.AlignLeft)
+        mainWidget.layout().addWidget(drawerLeft, 0, 0, 1, 1)
+
+        pb = QPushButton("Open Drawer", mainWidget)
+        mainWidget.layout().addWidget(pb, 0, 0, 0, 0, Qt.AlignLeft)
+        pb.clicked.connect(drawerLeft.toggleDrawer)
+
+        # Top side drawer and button
+        topWidget = QPushButton("Top Drawer")
+        topWidget.setSizePolicy(QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Expanding)
+        drawerTop = Drawer(mainWidget, topWidget, alignment=Qt.AlignmentFlag.AlignTop)
+        mainWidget.layout().addWidget(drawerTop, 0, 0, 1, 1)
+
+        pb = QPushButton("Open Drawer", mainWidget)
+        mainWidget.layout().addWidget(pb, 0, 0, 0, 0, Qt.AlignTop|Qt.AlignCenter)
+        pb.clicked.connect(drawerTop.toggleDrawer)
+
+        # Right side drawer and button
+        rightWidget = QPushButton("Right Drawer")
+        rightWidget.setSizePolicy(QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Expanding)
+        drawerRight = Drawer(self, rightWidget, alignment=Qt.AlignmentFlag.AlignRight)
+        mainWidget.layout().addWidget(drawerRight, 0, 0, 1, 1)
+        pb = QPushButton("Open Drawer", mainWidget)
+        mainWidget.layout().addWidget(pb, 0, 0, 0, 0, Qt.AlignRight)
+        pb.clicked.connect(drawerRight.toggleDrawer)
+
+        # Bottom side drawer and button
+        bottomWidget = QPushButton("Bottom Drawer")
+        bottomWidget.setSizePolicy(QSizePolicy.Policy.Expanding, QSizePolicy.Policy.Expanding)
+        drawerBottom = Drawer(mainWidget, bottomWidget, alignment=Qt.AlignmentFlag.AlignBottom)
+        mainWidget.layout().addWidget(drawerBottom, 0, 0, 1, 1)
+
+        pb = QPushButton("Open Drawer", mainWidget)
+        mainWidget.layout().addWidget(pb, 0, 0, 0, 0, Qt.AlignBottom|Qt.AlignCenter)
+        pb.clicked.connect(drawerBottom.toggleDrawer)
+
+        mainWidget.layout().setContentsMargins(0, 0, 0, 0)
+        self.setCentralWidget(mainWidget)
+
+
+if __name__ == "__main__":
+    import sys
+    app = QApplication(sys.argv)
+    mainWindow = MainWindow()
+    mainWindow.setWindowTitle("PySide6 Drawer")
+    mainWindow.show()
+    mainWindow.setMinimumSize(600, 600)
+    app.exec()
+```
