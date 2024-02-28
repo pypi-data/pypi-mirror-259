@@ -1,0 +1,13 @@
+stellarmortis/__init__.py,sha256=RT6i1_XPABqaf5oPjWrJhIB0xgE08jYABcjVkboTRsw,170
+stellarmortis/galaxy.py,sha256=MPmrxDu0IcYsffljRNMTRjC793Yr5yz4k6woi9OiBOo,7414
+stellarmortis/kick.py,sha256=Y_r-54hGz4-KBJaU4AJqQuLGR_53lnEL2PveBzbp4rI,7099
+stellarmortis/mass.py,sha256=Xb273urLemVBG7JxNHRClKHuHP2FQcfRFJhvwI-YpGo,1211
+stellarmortis/underworld.py,sha256=-Kb9750dyPaEEIpdaK2GPo8jeLmuAHYhAjTP-uLLCsU,16418
+stellarmortis/utils.py,sha256=KfgKC84pM4BB9vlcNE_4yUCg5OjnOJq67zOB_5W80IM,5364
+stellarmortis/microlensing/__init__.py,sha256=htGn9JmK86BPbg6uEfXj5RzYpa_yRBUe4YJIFMaqCc0,105
+stellarmortis/microlensing/plot.py,sha256=T9TzdC18er6IZ_jno-efJ283PLOwps-TlCLEiryLYq8,35778
+stellarmortis/microlensing/simulate.py,sha256=909ZLndfemx_236blg12ZYRlZiV1qY8cuqr0ccenlwM,49703
+stellarmortis-0.0.5.dist-info/METADATA,sha256=LIvPBljSdGEZQ2_57UNh7afNJV9VtGfpy2yIkVTAS34,650
+stellarmortis-0.0.5.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+stellarmortis-0.0.5.dist-info/top_level.txt,sha256=uU0kiMpe8HkhE6OWlgQdr4n3e85FGADW2rPs38oGOnU,14
+stellarmortis-0.0.5.dist-info/RECORD,,
