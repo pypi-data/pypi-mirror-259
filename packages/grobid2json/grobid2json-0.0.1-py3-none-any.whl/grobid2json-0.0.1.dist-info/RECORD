@@ -1,0 +1,13 @@
+grobid2json/__init__.py,sha256=YtPOAvaivj51RM92hgjVt4fp62zxUs7fndgRSvb5e5I,49
+grobid2json/__version__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+grobid2json/citation_util.py,sha256=CufPORHVhxu_sDQiap8FEbseaDQoCVb1Eec9JjcLplk,1846
+grobid2json/grobid_util.py,sha256=OPcX1z_k64SIiXbHXmchI4gI65CFEFXW5kfgPJKikmI,8394
+grobid2json/main.py,sha256=265PUc5xgZzFG59L96KfPJzD13wZ8ZL2Y4WsxXt11pM,21857
+grobid2json/refspan_util.py,sha256=LU-c6oMGreDgqH2O9Z77dhmIXw0WMyl5rYV2XbbYVq8,2876
+grobid2json/s2orc.py,sha256=ObuNAO1A9-Cc43r06y51gfyuOmBPsuhB40GJ0leXMhw,11597
+grobid2json-0.0.1.dist-info/LICENSE,sha256=RFhQPdSOiMTguUX7JSoIuTxA7HVzCbj_p8WU36HjUQQ,10947
+grobid2json-0.0.1.dist-info/METADATA,sha256=bv4iMGO5v2k9XRuv3JpHB5F4htfwGdxSfpj3WWNB6p4,2504
+grobid2json-0.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+grobid2json-0.0.1.dist-info/entry_points.txt,sha256=HocJ-3NNUy9RyhkcVHhisS2zKhcb6iBdUtiAodYCD5M,69
+grobid2json-0.0.1.dist-info/top_level.txt,sha256=4iqG--QwNtRrtiOtKLP1zLgqXKbpZN4Cf8sQXTMVeSs,12
+grobid2json-0.0.1.dist-info/RECORD,,

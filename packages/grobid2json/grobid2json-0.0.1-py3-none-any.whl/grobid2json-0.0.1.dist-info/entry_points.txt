@@ -1,0 +1,2 @@
+[console_scripts]
+grobid2json = grobid2json.main:convert_xml_to_json
