@@ -1,0 +1,37 @@
+[project]
+name = "microslac-core"
+version = "0.0.0.2"
+authors = [
+    { name = "tanlda", email = "ledinhanhtan.stack@gmail.com" },
+]
+description = "microslac core"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/microslac/slac-core"
+Issues = "https://github.com/microslac/slac-core/issues"
+
+[tool.poetry]
+name = "microslac-core"
+version = "0.0.0.2"
+description = ""
+authors = ["tanlda <ledinhanhtan.stack@gmail.com>"]
+readme = "README.md"
+packages = [
+    { include = "src", from = "." }
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+
