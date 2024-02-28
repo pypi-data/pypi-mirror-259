@@ -1,0 +1,14 @@
+README.md
+setup.py
+osdata/__init__.py
+osdata/ai.py
+osdata/analytics.py
+osdata/module.py
+osdata.egg-info/PKG-INFO
+osdata.egg-info/SOURCES.txt
+osdata.egg-info/dependency_links.txt
+osdata.egg-info/requires.txt
+osdata.egg-info/top_level.txt
+osdata/data_loaders/__init__.py
+osdata/data_loaders/base.py
+tests/test_module.py
