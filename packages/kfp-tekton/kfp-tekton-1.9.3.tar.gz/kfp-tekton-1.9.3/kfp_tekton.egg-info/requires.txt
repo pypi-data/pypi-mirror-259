@@ -1,0 +1,4 @@
+kfp<1.8.23,>=1.8.10
+kfp-tekton-server-api==1.8.0rc8
+PyYAML<7,>=6
+setuptools>=69.1
