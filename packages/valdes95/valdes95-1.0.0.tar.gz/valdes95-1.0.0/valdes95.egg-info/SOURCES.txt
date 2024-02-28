@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+valdes95/__init__.py
+valdes95/version.py
+valdes95.egg-info/PKG-INFO
+valdes95.egg-info/SOURCES.txt
+valdes95.egg-info/dependency_links.txt
+valdes95.egg-info/requires.txt
+valdes95.egg-info/top_level.txt
+valdes95.egg-info/zip-safe
