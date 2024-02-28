@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+src/HGVStoFASTA.egg-info/PKG-INFO
+src/HGVStoFASTA.egg-info/SOURCES.txt
+src/HGVStoFASTA.egg-info/dependency_links.txt
+src/HGVStoFASTA.egg-info/requires.txt
+src/HGVStoFASTA.egg-info/top_level.txt
