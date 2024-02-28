@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/core/__init__.py
+src/core/utils.py
+src/microslac_core.egg-info/PKG-INFO
+src/microslac_core.egg-info/SOURCES.txt
+src/microslac_core.egg-info/dependency_links.txt
+src/microslac_core.egg-info/top_level.txt

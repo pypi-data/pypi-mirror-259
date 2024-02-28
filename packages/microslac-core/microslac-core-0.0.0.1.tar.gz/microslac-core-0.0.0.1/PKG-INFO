@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: microslac-core
+Version: 0.0.0.1
+Summary: microslac core
+Author-email: tanlda <ledinhanhtan.stack@gmail.com>
+Project-URL: Homepage, https://github.com/microslac/slac-core
+Project-URL: Issues, https://github.com/microslac/slac-core/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
