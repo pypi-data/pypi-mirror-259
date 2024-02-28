@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: kaviproject
+Version: 0.6
+Summary: A description of your library
+Home-page: https://github.com/kaviarasan2720/my_library
+Author: Kavi
+Author-email: arasansk54@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# MyLibrary
+
+A brief description of what your library does and why it's useful.
+
+## Installation
+
+You can install MyLibrary using pip:
+
+```bash
+pip install kaviproject==0.4
+```
+## Usage
+```python
+import mylibrary.subpackage.submodule1 from length
+def print_hi():
+    a=[2,4,34,54,64]
+    print(length(a))
+```
