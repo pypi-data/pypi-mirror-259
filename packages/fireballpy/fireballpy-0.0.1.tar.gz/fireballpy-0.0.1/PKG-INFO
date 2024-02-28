@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: fireballpy
+Version: 0.0.1
+Summary: Minimalistic Fireball for Python
+Author-email: José Ortega Mateo <jose.ortega@uam.es>, Linda Angela Zotti <linda.zotti@uam.es>, Jesús Ignacio Mendieta Moreno <jesus.mendieta@uam.es>, Daniel González Trabada <daniel.gonzalez@uam.es>, Jorge Vega Martín <jorge.vega@uam.es>, Carlos Roldán Piñero <carlos.roldanp@uam.es>
+License-File: LICENSE
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.11
+Requires-Dist: ase>=3.22.0
+Requires-Dist: mendeleev>=0.14.0
+Requires-Dist: numpy>=1.20.0
+Description-Content-Type: text/markdown
+
+[![lite-badge](https://jupyterlite.rtfd.io/en/latest/_static/badge.svg)](https://fireball-QMD.github.io/fireballpy/lab)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fireball-QMD/pyreball/HEAD?labpath=examples/fireballpy_skeleton.ipynb)
+
+git clone https://github.com/fireball-QMD/fireballpy
+
+
+Quitar V_intra_dip  AQUI
+ ! AQUI QUITAR idynmat iephc ?
+  !AQUI  ewaldqmmm dejar preguntar a Jesus
+quedarse con la mejor autoconsistencia Kscf AQUI 
