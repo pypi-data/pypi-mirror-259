@@ -1,0 +1,14 @@
+mitea_hires/__init__.py,sha256=Q0bZWgKp8fqjE2ixh2-Tppbt1C-rkMNo4OhVZHp0y7E,133
+mitea_hires/constants.py,sha256=1sTLg9nyiyMP32KaaFW9mv5AAhz4-_Dx1q1o7b18ajY,993
+mitea_hires/main.py,sha256=vGjpnk4cIgTUcK4DIdiZALZpQkypff8WIeNdVbJjD4A,16428
+mitea_hires/utils.py,sha256=cPX9A6VGkDGtCHXEf9m7sFbbs0gyYOIr1KgmrevcK0A,52456
+mitea_hires/miRTarBase/hsa_MTI.csv,sha256=xBJoaD6rR-IgBT_8HhW1cx5qZp51GeWAwePKc2JdcqI,53365514
+mitea_hires/miRTarBase/hsa_MTI_filtered.csv,sha256=vPAQ_qIaKItMMNVEy62YTNn3Vn4tpzSKlwQH9kJyJdg,2634458
+mitea_hires/miRTarBase/mmu_MTI.csv,sha256=TxaIWegcMA_uWKd3i0n93dpZ4NTNYwhxwvByOSF-Iek,5382326
+mitea_hires/miRTarBase/mmu_MTI_filtered.csv,sha256=n6tn2f4_TARQfVyBBUDWy5LreRBLuJKG-oWuaTNcuRE,251143
+mitea_hires-0.0.19.dist-info/LICENSE,sha256=MzLMnYMwyVgqSheJmXr4vNBYAmPPDnBz34MOCJszulM,1069
+mitea_hires-0.0.19.dist-info/METADATA,sha256=_8ofnESsuUI-DZw2OSB6Y8fBK_DTABEPK82wpKYcZWI,5322
+mitea_hires-0.0.19.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+mitea_hires-0.0.19.dist-info/entry_points.txt,sha256=BD6W34PKuBCE_-L3BJS7QXSC98oVSLLx8zxtN8WWyJE,54
+mitea_hires-0.0.19.dist-info/top_level.txt,sha256=M4aHV7TLEGzH9S0Qd8KiAdvhlqfTzRSaQRh9lIDDlGE,12
+mitea_hires-0.0.19.dist-info/RECORD,,

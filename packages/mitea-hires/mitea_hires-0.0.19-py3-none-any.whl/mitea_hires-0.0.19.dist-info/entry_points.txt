@@ -1,0 +1,2 @@
+[console_scripts]
+mitea-hires = mitea_hires.main:main
