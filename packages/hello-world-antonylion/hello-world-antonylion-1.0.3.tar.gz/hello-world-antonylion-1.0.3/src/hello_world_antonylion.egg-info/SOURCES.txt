@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/example_package/__init__.py
+src/example_package/example.py
+src/hello_world_antonylion.egg-info/PKG-INFO
+src/hello_world_antonylion.egg-info/SOURCES.txt
+src/hello_world_antonylion.egg-info/dependency_links.txt
+src/hello_world_antonylion.egg-info/requires.txt
+src/hello_world_antonylion.egg-info/top_level.txt
+tests/test_main.py
