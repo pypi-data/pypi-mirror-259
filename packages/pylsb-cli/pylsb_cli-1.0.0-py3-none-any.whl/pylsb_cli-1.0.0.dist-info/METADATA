@@ -1,0 +1,339 @@
+Metadata-Version: 2.1
+Name: pylsb-cli
+Version: 1.0.0
+Summary: Command line interface for reading the Legacy Standard Bible.
+Author-email: Matthew Rease <scubaventure101@hotmail.com>
+License: GNU General Public License v3 (GPLv3)
+Project-URL: Homepage, https://gitlab.com/Magicrafter13/pylsb-cli
+Project-URL: Issues, https://gitlab.com/Magicrafter13/pylsb-cli/-/issues
+Keywords: bible,lsb,cli,command line
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Topic :: Religion
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: pylsb
+
+# PyLSB CLI
+`pylsb-cli` is a convenient way to retrieve and view verses from the Legacy
+Standard Bible from your terminal! It works on all 3 of the major operating
+systems. The program does not come with any of the copyrighted content of the
+Legacy Standard Bible, and instead downloads it (piece by piece as needed) from
+the official website (https://read.lsbible.org/), using the [PyLSB]() library.
+Originally this was a single project, but I split it into two, so that the
+library side could be more easily integrated into other projects. If that didn't
+make any sense, just know that `pylsb-cli` is the friendly program for users,
+and `pylsb` is just for developers.
+
+This is not an official software of The Lockman Foundation or Three Sixteen
+Publishing Inc. (the copyright holders of the Legacy Standard Bible), nor
+affiliated with them in any way. I am not responsible for how you use this
+software. This was created as a hobby/mild-learning project for myself, as this
+is the translation I personally read. To support the translators and printers,
+consider [purchasing](https://316publishing.com/collections/lsb) your own copy
+of the LSB.
+- - -
+# Using
+## Dependencies
+This is a Python script, meaning you'll need Python installed on your system.
+This code requires Python 3.9 or later to work.
+
+- For Windows users, go to https://www.python.org/downloads/windows/ and
+download the latest release.
+- For Mac users, you should already have Python installed. Open the terminal
+app and run `python --version`. If you see an error, or the version number is
+less than 3.9, head to https://www.python.org/downloads/macos/ and download the
+latest release.
+- For Linux users, you should already know how to take care of this stuff. :)
+
+After installing Python the only dependency you should need is `pylsb`, which
+can be installed via `pip install pylsb`. On some newer operating systems,
+installing with `pip` is heavily discouraged as it can break the system package
+manager. For such cases you will either need to use a Python virtual
+environment, install from a community repository such as the AUR, or just
+download the `pylsb` module manually, and place it where `pylsb-cli` can see it.
+
+## Running
+**TODO:** add way to configure email
+
+First, modify bible.py, replacing `[EMAIL]` with your e-mail address. This is
+not an official way to use read.lsbible.org, so if you make too many page
+requests and they want you to stop, you should oblige.
+
+After doing that, simply run `./pylsb` with any combination of;
+- Scripture verses or verse ranges
+- flag arguments
+- or special strings
+There must be at least one verse, verse range, or Scripture printing special
+string specified.
+
+## Options (Flag Arguments)
+Valid options are:
+- `-r`, `--redownload`: Download the data from the web, even if its already cached.
+- `-b`, `--browser`: Open the verses in your browser. (Linux only I think.) [Not yet
+implemented.]
+- `-p`, `--paragraph`: Expands the output to show all verses in the paragraph(s)
+requested.
+- `-n`, `--nored`: Disables red text (after all, it's all the Word of God).
+- `-8` `--80columns`: Forces output to 80 columns (nice for wide terminals, or
+piping into other programs).
+- `-w`, `--web`: Modifies output to follow the conventions of the webpage, rather
+than the physical print. For example, book titles and chapter numbers are no
+longer red, and some things are indented more.
+- `-f`, `--preface`: Displays the Legacy Standard Bible's preface.
+- `-m`, `--highlight`: Followed by some positive integer `color`, will
+highlight every verse requested. The integer must either be between 0 and 255,
+or it should be a 6 digit hexadecimal value (which may be prefixed with 0x if
+desired). 0 removes the highlighter. Example:
+`--highlight 48` or `--highlight 0xe52c76`
+- `-2`, `--split`: Displays Scripture in 2 columns, separated one screen at a
+time.
+
+## Special Strings
+Valid special strings are:
+- `random`: Displays a randomly selected Bible verse.
+
+## Verse Strings
+Since arguments are separated by spaces in... hopefully every shell, its far
+easier to specify verses without using spaces. However you can, just make sure
+to quote the strings.
+
+```bash
+# These are valid
+./pylsb-cli john3:16
+./pylsb-cli "john 3:16"
+./pylsb-cli 1peter1
+./pylsb-cli "1 Peter1"
+./pylsb-cli "Romans 1:18 - 23"
+# These are NOT valid
+./pylsb-cli john 3:16
+./pylsb-cli 1 peter1
+./pylsb-cli romans1:18 - 23
+```
+
+Also, book names are not case sensitive, `matthew` is the same as `mAtThEw`.
+
+PyLSB even allows for shorthand, so long as it matches the starting characters
+of only one book in the Bible. For example: `./pylsb-cli Rom1:18` (Romans 1:18).
+
+### Ranges
+A range is specified by first doing a verse (as seen above), then placing a
+hyphen (`-`) next to that, followed by another verse. This system however, is
+very flexible. With that flexibility comes a complex set of rules.
+
+#### Multiple verses in the same chapter
+This is the most common and most simple. You simply do a full verse, followed
+by a single verse number:
+```bash
+./pylsb-cli Romans1:18-23
+```
+Here we simply extend a regular `Romans1:18` argument with `-23` to go to verse
+23.
+
+#### Multiple verses in multiple chapters
+This is where it starts to get more advanced. Assuming both chapters are in the
+same book, simply do the same as above, except with the chapter number and a
+colon before the ending verse:
+```bash
+./pylsb-cli 1Peter2:21-3:6
+```
+Here we prefix the `6` with a `3:` to indicate we want verse 6 from
+`1 Peter 3`.
+
+At the beginning of this section I said "assuming both chapters are in the same
+book", and that's because... they don't have to be! Here is a perfectly valid
+request:
+```bash
+./pylsb-cli matthew28:20-mark1:1
+```
+Is this a strange request? Yes! Will PyLSB happily fulfill it? Also yes! Could
+we download and display the entire Bible at once using this method? Yes,
+however, I don't believe The Lockman Foundation would appreciate that very
+much, so its probably best if you don't do that. Your call though.
+
+### Full chapters
+You don't need to specify a verse:
+```bash
+./pylsb-cli ephesians1
+```
+This will display the first chapter of Ephesians in its entirety. Not very
+groundbreaking, but this leads us into our final section. This also works with
+ranges, i.e.: `./pylsb-cli ephesians1-2` for the first 2 chapters of Ephesians.
+
+### Mixing and matching verse and chapter (range start only)
+Probably not the best section title but what I'm getting at, is that, on the
+left side of a range, you could specify an entire chapter, and the right side
+will follow context accordingly
+in another. Here are some examples:
+```bash
+./pylsb-cli 1peter1-2:12
+```
+The above command will display the entirety of 1 Peter 1, and the first 12
+chapters of 1 Peter 2. This is the same as `./pylsb-cli 1peter1:1-2:12`.
+
+Why is this left side only? Well, sure, `./pylsb-cli romans1:18-2` might clearly
+mean "display through chapter 2", but what about `./pylsb-cli romans 1:18-19`...
+Is that verse 19 or chapter 19? That's why this can't work here.
+
+# Display Features
+- Multi-line verses are properly broken up.
+```
+./pylsb-cli Matthew1:2
+Matthew 1:2
+  2  Abraham was ...
+     and Isaac ...
+     and Jacob ...
+```
+- Verses beginning with quotations are shifted into the margin, so the words
+line up.
+```
+./pylsb-cli John3:15-17
+John 3:15-17
+ 15  so that whoever believes ...
+ 16 "For God so loved the world ...
+ 17  For God did not send ...
+```
+- Poetry and full verse quotations are offset 2 spaces from normal.
+```
+./pylsb-cli Matthew2:5-7
+Matthew 2:5-7
+  5  And they said ...
+  6   'AND YOU, BETHLEHEM ...
+       ARE BY NO MEANS ...
+       FOR OUT OF YOU ...
+       WHO WILL SHEPHERD ...
+  7  Then Herod ...
+```
+- Paragraphs are indicated. In the actual print version they simply bold the
+verse number, however on my terminal at least, that was hard to see, so I also
+underline the number. There are some exceptions to this however, which we are
+forced to deal with due to how their website will not properly keep the end of
+one chapter and the start of another together when necessary. See 1 Kings 15-16
+as an example - 15:33-16:4 is a paragraph. This also affects `--paragraph`.
+- Other breaks in the text are also shown.
+```
+./pylsb-cli Psalm49:3-6
+Psalm 49:3-6
+                    PSALM 49
+
+  3  My mouth ...
+     And the ...
+  4  I will ...
+     I will ...
+
+  5  Why should ...
+     When the ...
+  6  Even those ...
+     And boast ...
+```
+- Selahs at the end of a verse are right-justified.
+```
+./pylsb-cli Psalm49:13-15 Psalm9:16
+Psalm 49:13-15
+                    PSALM 49
+
+ 13  This is ...
+     And of those ...
+                                            Selah.
+ 14  As sheep ...
+     Death will ...
+     And the upright ...
+     And their form ...
+     Far away ...
+ 15  But God ...
+     For He ...
+                                            Selah.
+
+Psalm 9:16
+                    PSALM 9
+ 16  Yahweh has ...
+     He has ...
+     In the ...
+                                   Higgaion Selah.
+```
+- Uninspired headings are displayed.
+```
+./pylsb-cli Romans1:18
+Romans 1:18
+
+                    God's Wrath on Unrighteousness
+ 18  For the wrath ...
+```
+- Also subheadings (which, at least in this example is from the inspired text I
+believe?).
+```
+./pylsb-cli Psalm49:1
+Psalm 49:1
+                                           PSALM 49
+                              Why Should I Fear in Days of Evil?
+                    For The Choir Director. Of The Sons Of Korah. A Psalm.
+  1  Hear this ...
+     Give ear ...
+```
+- Old testament quotations are shown in all caps (we can't show the upper-case
+letters due to terminal/font limitations - the best we could do is underline
+them, but that would look weird).
+```
+./pylsb-cli John1:23
+John 1:23
+ 23  He said, "I am A VOICE OF ONE CRYING OF ONE CRYING IN THE WILDERNESS...
+```
+- Words added for clarity, but not in the original text, are properly
+italicized.
+- "Red letter" text is shown by default, but can be disabled with `--nored`.
+- Acrostic poems will show the corresponding Hebrew letter for each section.
+```
+./pylsb-cli Lamentation1:1-2
+Lamentations 1:1-2
+                     THE LAMENTATIONS
+                        of Jeremiah
+                    ZION LAYS DESOLATE
+                         א  Aleph
+  1    How lonely ...
+       That was ...
+       She has ...
+       Who was ...
+       She who ...
+       Has become ...
+                          ב  Beth
+  2    She weeps ...
+       And her ...
+       She has ...
+       Among all ...
+       All her ...
+       They Have ...
+```
+
+# Troubleshooting
+"My argument(s) are valid but I get an error!"
+
+If you have ever updated your copy of PyLSB, there's a chance a breaking change
+was made, in terms of how the Scripture is cached. Try adding the
+`--redownload` flag to re-create the cached data for the chapter(s) you're
+trying to view. This may not work in all cases. For example, I recently renamed
+'psalms' internally to 'psalm' to more closely match the LSB, but this made
+viewing the Psalms impossible for me until I manually modified my cache file to
+remove the 's'. You could do this, or if you don't mind, just delete the entire
+cache file, which is located at:
+- Windows: `%LOCALAPPDATA%\PyLSB\lsbible.json`
+- macOS/Linux: `$XDG_CACHE_HOME/lsbible.json` (note: `$XDG_CACHE_HOME` defaults
+to `~/.cache`)
+
+If deleting your cache file does not solve the issue, then it may be a bug with
+the code, in which case you are encouraged to submit a bug report on the
+"issues" page. All that should be required is the exact command you're running,
+i.e. `./pylsb-cli John3:16`.
+
+# To-Do
+- Parse square brackets and add an option to disable showing of these added
+pieces of Scripture.
+- Actually write the code for the `--browser` option.
