@@ -1,0 +1,10 @@
+dangling_finder/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dangling_finder/__main__.py,sha256=L8oR9rftFNXWvit0rekmVREIjCeTid8secjB7SdWQOs,131
+dangling_finder/exceptions.py,sha256=GwmeVfgJrHbUjE3IaKmL7dRAKu-STOqpr3plucypNMY,141
+dangling_finder/listing.py,sha256=Zfu00TBegbQDhBWHpdHtGrwXUt-IZ1NZmFDXlnpEeWY,10279
+dangling_finder/main.py,sha256=YJ_G__8YV70t1zXR8cyerdOytc9X2417bPmtC0-svBE,2665
+dangling_finder-0.2.0.dist-info/LICENSE,sha256=_tLu9-RcNSCRmGqo17WOBMkg6zEpN68DKYuhk_dJvn4,1070
+dangling_finder-0.2.0.dist-info/METADATA,sha256=QFEzjeJOdOcTMYbG9vn_FVAMqyDPWKO3tN4RdhVfbX8,3002
+dangling_finder-0.2.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+dangling_finder-0.2.0.dist-info/entry_points.txt,sha256=02oFAkJqJv7wrN21ElCrnQl2b1SM4vc_BGTOeb2bfoU,60
+dangling_finder-0.2.0.dist-info/RECORD,,
