@@ -1,0 +1,10 @@
+numpy
+fastai>=2.7.13
+opencv_python
+setuptools
+tqdm
+torch
+albumentations
+architectures
+semtorch
+segmentation-models-pytorch
