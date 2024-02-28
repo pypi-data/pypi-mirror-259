@@ -1,0 +1,86 @@
+Metadata-Version: 2.1
+Name: teams-ai
+Version: 1.0.0rc0
+Summary: SDK focused on building AI based applications for Microsoft Teams.
+Author: Microsoft
+Author-email: teams@microsoft.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: aiohttp (>=3.8.5,<4.0.0)
+Requires-Dist: botbuilder-core (>=4.14.8,<5.0.0)
+Requires-Dist: botbuilder-integration-aiohttp (>=4.14.8,<5.0.0)
+Requires-Dist: botframework-connector (>=4.14.8,<5.0.0)
+Requires-Dist: dataclasses-json (>=0.6.4,<0.7.0)
+Requires-Dist: jsonschema (>=4.21.1,<5.0.0)
+Requires-Dist: openai (>=1.11.1,<2.0.0)
+Requires-Dist: pyyaml (>=6.0.1,<7.0.0)
+Requires-Dist: tiktoken (>=0.4.0,<0.5.0)
+Requires-Dist: types-pyyaml (>=6.0.12.12,<7.0.0.0)
+Description-Content-Type: text/markdown
+
+# Teams AI
+
+SDK focused on building AI based applications for Microsoft Teams.
+
+## Development
+
+### Prerequisites
+
+[Install Poetry](https://python-poetry.org/docs/)
+
+```bash
+$: pip install poetry
+```
+
+### Install Dependencies
+
+```bash
+$: poetry install
+```
+
+### Build
+
+```bash
+$: poetry build
+```
+
+### Test
+
+```bash
+$: poetry run test
+```
+
+### Lint
+
+```bash
+$: poetry run lint
+```
+
+## Format
+
+```bash
+$: poetry run fmt
+```
+
+## Clean
+
+```bash
+$: poetry run clean
+```
+
+### Install Local
+
+```bash
+$: pip install .
+```
+
+### Publish
+
+```bash
+$: poetry publish
+```
