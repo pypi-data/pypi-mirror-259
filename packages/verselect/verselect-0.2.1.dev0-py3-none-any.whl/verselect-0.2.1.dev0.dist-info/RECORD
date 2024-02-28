@@ -1,0 +1,11 @@
+verselect/__init__.py,sha256=VlKaNU1TMy8fACRxP47j2A2HzJkZbXIviRo5dssGvrQ,74
+verselect/app.py,sha256=0s7o3lr7X4rjmauWX6kWs9ynTUCTGHG6kzrFoGE1vQg,7344
+verselect/docs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+verselect/docs/docs.html,sha256=WNm5ANJVy51TcIUFOaqKf1Z8eF86CC85TTHPxACtkzw,3455
+verselect/middleware.py,sha256=DvxaRDBlJFRYpV2MCY4BLT7Ol6Dhtv_3yE54x8mabto,3390
+verselect/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+verselect/routing.py,sha256=ZDEZom18B4dJZ67VQcYJaXmeeyAgPEK5Fi0mys4YZpw,6134
+verselect-0.2.1.dev0.dist-info/LICENSE,sha256=eIQhGOA0sYJo_OhM7qhUN7diI7dylC1WStzEJab60HY,1068
+verselect-0.2.1.dev0.dist-info/METADATA,sha256=6qXp9Fj6APdZK7a3yTDdG-PrLU1gxj48gkj6ADAd2sQ,3830
+verselect-0.2.1.dev0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+verselect-0.2.1.dev0.dist-info/RECORD,,
