@@ -1,0 +1,9 @@
+numpy
+scipy
+pandas
+matplotlib
+pillow
+h5py
+
+[crtomo]
+crtomo_tools
