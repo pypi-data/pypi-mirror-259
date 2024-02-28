@@ -1,0 +1,6 @@
+qfc/__init__.py,sha256=ybIritR2yMJ1yBO3dM_b2U2n5bAvGhlJFqFpktycgG4,365
+qfc/qfc_compress.py,sha256=mpKIox0DWCuXDxl0Qn8oAyAQ_Bls4XB3qpcVQy-XU9A,10944
+qfc/qfc_multi_segment_compress.py,sha256=tcvIMTEeT68DQZ0tZKTGR1A7VFT04jkTg-JlUHAhNtc,5498
+qfc-0.2.2.dist-info/METADATA,sha256=88hv_g_M93aKkqe6ytu1K89nscfNzeRK_46PAVFun_w,4773
+qfc-0.2.2.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+qfc-0.2.2.dist-info/RECORD,,
