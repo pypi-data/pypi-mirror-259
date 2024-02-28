@@ -1,0 +1,12 @@
+jTWA/__init__.py,sha256=2ohanCxoF30i0dEfHcReCjH4TprxsW4jCPixltdv1hY,91
+jTWA/integrate.py,sha256=qW0kIU_qzCrWz2eaWg-236YWx1LYYcREkYE8rbRb6eQ,6218
+jTWA/util.py,sha256=71albN3ZH3WeEAci6AG1afVD19kZP4tEFXDmCfiW8x4,1212
+jTWA/visualization.py,sha256=ebsHKKxeJz9RNOWtGmHvkR6SHApg5Q7kUz7TnCfz4Oo,6242
+jTWA/spin1/__init__.py,sha256=HM9N-2yZr7DQsz7XwZ18VIvJR3VCVnM_lzRN2DrqLC0,76
+jTWA/spin1/hamiltonian.py,sha256=hMeclsFiQsE-o0eEfVpDg8wVmjWgzcOkUw8YjNKeo1s,3015
+jTWA/spin1/initState.py,sha256=oLFzyHjMJos_Yk3k2CfOQuY-cAoFvhATPkQCiUwsnj8,1287
+jTWA/spin1/observables.py,sha256=VVhYcnGBWEYQCIJv9FrRJEUoXsMJ__RWX-3ALIxLjqw,5182
+jtwa-0.0.1.dist-info/METADATA,sha256=E6LYZy87U1QG6w79lf33KO0DanK2P_NTFy-n9KJrXtg,3077
+jtwa-0.0.1.dist-info/WHEEL,sha256=ccEkY-EGGllEs7ySpwBlD8G4u70wR77CNej8Q6tzIqA,105
+jtwa-0.0.1.dist-info/licenses/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+jtwa-0.0.1.dist-info/RECORD,,
