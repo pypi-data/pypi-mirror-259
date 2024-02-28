@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+CreateData/__init__.py
+CreateData/create_data.py
+CreateData.egg-info/PKG-INFO
+CreateData.egg-info/SOURCES.txt
+CreateData.egg-info/dependency_links.txt
+CreateData.egg-info/top_level.txt
