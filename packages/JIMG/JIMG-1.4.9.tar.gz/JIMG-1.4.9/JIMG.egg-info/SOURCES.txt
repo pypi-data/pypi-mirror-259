@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+JIMG/__init__.py
+JIMG/jimg.py
+JIMG.egg-info/PKG-INFO
+JIMG.egg-info/SOURCES.txt
+JIMG.egg-info/dependency_links.txt
+JIMG.egg-info/requires.txt
+JIMG.egg-info/top_level.txt
+JIMG/icons/jbsicon.ico
