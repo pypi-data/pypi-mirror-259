@@ -1,0 +1,9 @@
+uvscem/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+uvscem/api_client.py,sha256=RiFGsO2692np3-njsALFfr-dTNZ3SdEgQsbyJcTyPKA,9621
+uvscem/code_manager.py,sha256=Ytw6h4OLcX1YCAu4tg_2E7MFlXhHxA44v193deQd0FI,4879
+uvscem/extension_manager.py,sha256=j2UD54AwQV6CdyFZH6mr_mXOlFrgWsBAr9iW5z5Ns5o,12617
+uvscem-0.1.2.dist-info/LICENSE,sha256=R2D1jq3Wb3_rrowe8K6vLpGL_ed0ag9T1uKSvgPc9yk,1073
+uvscem-0.1.2.dist-info/METADATA,sha256=0dUB9PoONmtqFbovgR8XFr10s8TLOzoA8NfucDVzzcY,3888
+uvscem-0.1.2.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+uvscem-0.1.2.dist-info/entry_points.txt,sha256=Xwxph0aZbiNZwQ9zM5LtJ0FV6DrmEeb8uNVdGXtClsI,56
+uvscem-0.1.2.dist-info/RECORD,,
