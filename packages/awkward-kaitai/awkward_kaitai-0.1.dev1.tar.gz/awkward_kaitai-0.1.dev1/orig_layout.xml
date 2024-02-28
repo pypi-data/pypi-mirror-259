@@ -1,0 +1,54 @@
+<RecordArray is_tuple='false' len='1'>
+    <content index='0' field='index_optionA__Zbank_header'>
+        <RecordArray is_tuple='false' len='1'>
+            <content index='0' field='bank_hdrA__Zall_bank_size'>
+                <NumpyArray dtype='uint32' len='1'>[100]</NumpyArray>
+            </content>
+            <content index='1' field='bank_hdrA__Zflags'>
+                <NumpyArray dtype='uint32' len='1'>[16]</NumpyArray>
+            </content>
+        </RecordArray>
+    </content>
+    <content index='1' field='index_optionA__Zbank1'>
+        <IndexedOptionArray len='1'>
+            <index><Index dtype='int64' len='1'>[-1]</Index></index>
+            <content><RecordArray is_tuple='false' len='0'>
+                <content index='0' field='0'>
+                    <ListOffsetArray len='0'>
+                        <offsets><Index dtype='int64' len='1'>[0]</Index></offsets>
+                        <content><NumpyArray dtype='uint8' len='0'>[]</NumpyArray></content>
+                    </ListOffsetArray>
+                </content>
+                <content index='1' field='1'>
+                    <NumpyArray dtype='uint16' len='0'>[]</NumpyArray>
+                </content>
+                <content index='2' field='2'>
+                    <NumpyArray dtype='uint16' len='0'>[]</NumpyArray>
+                </content>
+            </RecordArray></content>
+        </IndexedOptionArray>
+    </content>
+    <content index='2' field='index_optionA__Zbank2'>
+        <IndexedOptionArray len='1'>
+            <index><Index dtype='int64' len='1'>[0]</Index></index>
+            <content><RecordArray is_tuple='false' len='1'>
+                <content index='0' field='bank32A__Zname'>
+                    <ListOffsetArray len='1'>
+                        <parameter name='__array__'>'string'</parameter>
+                        <offsets><Index dtype='int64' len='2'>[0 4]</Index></offsets>
+                        <content><NumpyArray dtype='uint8' len='4'>
+                            <parameter name='__array__'>'char'</parameter>
+                            [ 66  97 110 107]
+                        </NumpyArray></content>
+                    </ListOffsetArray>
+                </content>
+                <content index='1' field='bank32A__Ztype'>
+                    <NumpyArray dtype='uint32' len='1'>[655361]</NumpyArray>
+                </content>
+                <content index='2' field='bank32A__Zsize'>
+                    <NumpyArray dtype='uint32' len='1'>[1802395970]</NumpyArray>
+                </content>
+            </RecordArray></content>
+        </IndexedOptionArray>
+    </content>
+</RecordArray>

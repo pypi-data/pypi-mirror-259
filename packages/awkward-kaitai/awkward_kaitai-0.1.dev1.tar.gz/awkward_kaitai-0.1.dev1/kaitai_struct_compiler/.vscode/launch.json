@@ -1,0 +1,23 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "scala",
+            "request": "launch",
+            "name": "Execute",
+            "mainClass": "io.kaitai.struct.JavaMain",
+            "args": [
+                "-t",
+                "awkward",
+                "--outdir",
+                "../test_artifacts",
+                "/home/ubuntu/kaitai/kaitai_struct_awkward_runtime/example_data/schemas/index_option.ksy"
+            ],
+            "jvmOptions": [],
+            "env": {}
+        }
+    ]
+}
