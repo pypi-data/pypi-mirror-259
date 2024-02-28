@@ -1,0 +1,6 @@
+torch
+transformers
+openai
+tiktoken
+bitsandbytes
+datasets
