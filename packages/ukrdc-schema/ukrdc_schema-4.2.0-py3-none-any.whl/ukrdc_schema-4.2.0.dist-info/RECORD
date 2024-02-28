@@ -1,0 +1,9 @@
+ukrdc_schema/__init__.py,sha256=x-ZiY5auxEa7yGruVpCrdycGzhA7hlsR3TBahNcmel0,21
+ukrdc_schema/pv_2_0_schema.py,sha256=QNOk5aX2qoKQXAz8J5mdG1bZ6uyBlgd8vqi5wqcEESE,245322
+ukrdc_schema/rrtf_schema.py,sha256=gm7yQcG1aBakyDY2RAaaNGfyxvAUVxMgmcANIDsD5iw,2996304
+ukrdc_schema/ukrdc_schema.py,sha256=APy3fwU0Ly2fUKJ52Q8aJtju2UqzjRaONt0qJ3DCJPQ,1089127
+ukrdc_schema/transforms/RR_XML_to_TXT.xsl,sha256=Y0icUxt4Cff1aujzzZACpKTvCoakdkuOnTbHH4NBo2M,1058
+ukrdc_schema-4.2.0.dist-info/METADATA,sha256=K4naSvvdAbvCfujh-MiosDLISYs-VpSb7UMUhbcLWiE,245
+ukrdc_schema-4.2.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+ukrdc_schema-4.2.0.dist-info/top_level.txt,sha256=7zNwKN28GdUNcaMLL8jwxBIhSdaLx8spLjOyIn1wdx4,13
+ukrdc_schema-4.2.0.dist-info/RECORD,,
