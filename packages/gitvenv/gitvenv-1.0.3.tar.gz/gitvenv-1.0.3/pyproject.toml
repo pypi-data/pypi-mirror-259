@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "gitvenv"
+version = "1.0.3"
+authors = [
+    {name="Aikawa Yataro", email="me@aikawayataro.com"}
+]
+description = "Simple tool to create virtual git environments (like a python's venv)."
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+keywords = ["git", "venv"]
+
+[project.scripts]
+gitvenv = "gitvenv:main_cli"
+
+[project.urls]
+Homepage = "https://gitlab.com/yataro/gitvenv"
+Repository = "https://gitlab.com/yataro/gitvenv.git"
+Issues = "https://gitlab.com/yataro/gitvenv/-/issues"
