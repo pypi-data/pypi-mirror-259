@@ -1,0 +1,9 @@
+absl-py
+anndata
+matplotlib
+numpy==1.23
+pandas
+scanpy
+scipy
+tqdm==4.64.1
+xlmhg
