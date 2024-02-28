@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+css_resolver/__init__.py
+css_resolver/resolver.py
+css_resolver.egg-info/PKG-INFO
+css_resolver.egg-info/SOURCES.txt
+css_resolver.egg-info/dependency_links.txt
+css_resolver.egg-info/requires.txt
+css_resolver.egg-info/top_level.txt
+test_css_resolver/__init__.py
+test_css_resolver/test_resolver.py

@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: css-resolver
+Version: 0.0.1
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: argparse
+Requires-Dist: colorama
+Requires-Dist: beautifulsoup4
+
+============
+CSS Resolver
+============
+
+Resolves css files to a single file.
+
+I officially have no idea what I'm doing.
