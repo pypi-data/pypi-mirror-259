@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+pylsb_cli/__init__.py
+pylsb_cli/__main__.py
+pylsb_cli/bible_format.py
+pylsb_cli/parse.py
+pylsb_cli.egg-info/PKG-INFO
+pylsb_cli.egg-info/SOURCES.txt
+pylsb_cli.egg-info/dependency_links.txt
+pylsb_cli.egg-info/entry_points.txt
+pylsb_cli.egg-info/requires.txt
+pylsb_cli.egg-info/top_level.txt
