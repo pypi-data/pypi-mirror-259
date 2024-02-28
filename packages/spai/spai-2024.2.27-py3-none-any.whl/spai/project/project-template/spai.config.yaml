@@ -1,0 +1,26 @@
+project: project-template
+storage: 
+  - name: data
+    type: local
+scripts:
+  - name: downloader
+    run_every: 1
+    run_on_start: True
+  - name: analytics
+    run_every: 1
+    run_on_start: False
+apis:
+  - name: analytics
+    port: 8011 
+  - name: xyz
+    port: 8012 
+uis:
+  - name: map
+    # command: streamlit run main.py --server.address 0.0.0.0 --server.port 80
+    command: streamlit run main.py --server.address localhost 
+    port: 8501
+    env: # use api names as url placeholders 
+      ANALYTICS_URL: api.analytics 
+      XYZ_URL: api.xyz 
+# notebooks:
+#   - name: analytics
