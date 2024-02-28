@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/PythonTableConsole/__init__.py
+src/PythonTableConsole/__main__.py
+src/PythonTableConsole.egg-info/PKG-INFO
+src/PythonTableConsole.egg-info/SOURCES.txt
+src/PythonTableConsole.egg-info/dependency_links.txt
+src/PythonTableConsole.egg-info/entry_points.txt
+src/PythonTableConsole.egg-info/requires.txt
+src/PythonTableConsole.egg-info/top_level.txt
