@@ -1,0 +1,2 @@
+aioconsole==0.7.0
+pyttsx3==2.71
