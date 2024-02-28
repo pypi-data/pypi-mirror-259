@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: nivis-python
+Version: 0.1.8
+Requires-Dist: ply >=3.11
+Requires-Dist: pip >=24.0
+License-File: COPYING
+Summary: Python implementation for Nivis.
+Home-Page: https://nivis.hydroroll.team/
+Author: HsiangNianian <i@jyunko.cn>
+Author-email: 简律纯 <i@jyunko.cn>
+License: MIT
+Requires-Python: >=3.11
+Description-Content-Type: text/x-rst; charset=UTF-8
+Project-URL: homepage, https://xn--tdi.hydroroll.team/
+Project-URL: repository, https://github.com/HydroRoll-Team/nivis-python
+Project-URL: documentation, https://nivis.hydroroll.team/
+
+|ruff|
+
+Nivis
+=======
+
+    ❄ Lightweight and easy-to-use multi-paradigm interactive scripting language.
+
+Welcome to nivis community!
+
+
+.. |ruff| image:: https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json
+    :target: https://github.com/astral-sh/ruff
+    :alt: Ruff
