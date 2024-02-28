@@ -1,0 +1,4 @@
+[console_scripts]
+Fortigate_Post_MOP = FortigateTools.Fortigate_Post_MOP:main
+Fortigate_Pre_MOP = FortigateTools.Fortigate_Pre_MOP:main
+Fortigate_csv_comparision = FortigateTools.Fortigate_csv_comparision:main

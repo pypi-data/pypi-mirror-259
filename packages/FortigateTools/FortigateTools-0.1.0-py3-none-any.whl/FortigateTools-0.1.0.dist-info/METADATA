@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: FortigateTools
+Version: 0.1.0
+Summary: A set of tools for Fortigate pre and post maintenance operations.
+Home-page: https://github.com/cisconomadic/FortiGateTools
+Author: Jeremiah Eastwood
+Author-email: cisconomadic@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: certifi ==2024.2.2
+Requires-Dist: charset-normalizer ==3.3.2
+Requires-Dist: idna ==3.6
+Requires-Dist: requests ==2.31.0
+Requires-Dist: urllib3 ==2.2.1
+
+# FortiGateTools
+Tools for FortiGate configuration comparison and MOP operations
