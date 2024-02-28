@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+discordpyclient.egg-info/PKG-INFO
+discordpyclient.egg-info/SOURCES.txt
+discordpyclient.egg-info/dependency_links.txt
+discordpyclient.egg-info/top_level.txt
+tests/test_methods.py
