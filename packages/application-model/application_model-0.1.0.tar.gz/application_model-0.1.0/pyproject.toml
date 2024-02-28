@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "application_model"
+version = "0.1.0"
+description = "Generate application score for new customers."
+authors = ["Wesllen Sousa Lima"]
+license = "Proprietary"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.2"
+
+[tool.semantic_release]
+version_toml = [
+    "pyproject.toml:tool.poetry.version",
+]                                                    # Location of version number for PSR to bump.
+branch = "main"                                      # Branch where releases should be made from.
+changelog_file = "CHANGELOG.md"                      # Location of changelog file for PSR to update using commit messages.
+build_command = "pip install poetry && poetry build" # How to build new distributions for the release.
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
