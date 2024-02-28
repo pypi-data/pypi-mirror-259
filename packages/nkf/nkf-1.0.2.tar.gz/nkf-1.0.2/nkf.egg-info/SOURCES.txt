@@ -1,0 +1,17 @@
+CHANGES
+MANIFEST.in
+Makefile
+README.md
+nkf.c
+nkf_codecs.py
+setup.cfg
+setup.py
+nkf-dist/config.h
+nkf-dist/nkf.c
+nkf-dist/nkf.h
+nkf-dist/utf8tbl.c
+nkf-dist/utf8tbl.h
+nkf.egg-info/PKG-INFO
+nkf.egg-info/SOURCES.txt
+nkf.egg-info/dependency_links.txt
+nkf.egg-info/top_level.txt
