@@ -1,0 +1,12 @@
+h5py
+docopt
+libsonata
+psutil
+
+[full]
+scipy
+morphio
+NEURON
+
+[plotting]
+matplotlib
