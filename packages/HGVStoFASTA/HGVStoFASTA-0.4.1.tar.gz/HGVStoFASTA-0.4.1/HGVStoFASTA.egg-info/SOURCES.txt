@@ -1,0 +1,12 @@
+README.rst
+setup.cfg
+setup.py
+HGVStoFASTA/HGVStoFASTA.py
+HGVStoFASTA/__init__.py
+HGVStoFASTA/__main__.py
+HGVStoFASTA.egg-info/PKG-INFO
+HGVStoFASTA.egg-info/SOURCES.txt
+HGVStoFASTA.egg-info/dependency_links.txt
+HGVStoFASTA.egg-info/entry_points.txt
+HGVStoFASTA.egg-info/requires.txt
+HGVStoFASTA.egg-info/top_level.txt
