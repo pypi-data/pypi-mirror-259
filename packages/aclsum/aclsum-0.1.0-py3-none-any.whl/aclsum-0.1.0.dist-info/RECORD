@@ -1,0 +1,8 @@
+aclsum-0.1.0.dist-info/METADATA,sha256=CEJ5sVrxWb4Tpgd_vMaZwA3sVKb_kqMNMFQdSzKK1yQ,1834
+aclsum-0.1.0.dist-info/WHEEL,sha256=N2J68yzZqJh3mI_Wg92rwhw0rtJDFpZj9bwQIMJgaVg,90
+aclsum/__init__.py,sha256=bQKMqMCAXE35m4uznhLfZiK8Ey4M4bBO_wrlddLPoL0,27
+aclsum/aclsum.py,sha256=ZUMwoNrgwpHzBInilaAzyikJwZ3YQV8bcDV_psHq7sQ,4551
+aclsum/dataset/test.jsonl,sha256=sTkCZdR7foRS3KH7f2Eq9RUZlT3PwcRvPndwcetfX2s,761989
+aclsum/dataset/train.jsonl,sha256=GxuF1Gt-O_36nQALPJ1IjStus1iZpr8G3AC4rtuR_EE,777500
+aclsum/dataset/val.jsonl,sha256=ZhjA1uqWpJB5xXXf5GHhXLCGZU3kvBTSBIy5oJ-5zFQ,400550
+aclsum-0.1.0.dist-info/RECORD,,
