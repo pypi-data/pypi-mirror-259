@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: ocrtoolkit
+Version: 0.0.1
+Summary: Parse bank cheques
+Home-page: https://github.com/ajkdrag/ocrtoolkit
+Author: ajkdrag
+Author-email: 
+Maintainer: ajkdrag
+Maintainer-email: 
+License: Apache Software License 2.0
+Keywords: ocrtoolkit
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: ==3.8.*
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: opencv-python
+Requires-Dist: matplotlib
+Requires-Dist: tqdm
+Requires-Dist: loguru
+Requires-Dist: h5py
+Provides-Extra: all
+Requires-Dist: ultralytics ==8.1.11 ; extra == 'all'
+Requires-Dist: python-doctr[torch] ==0.7.0 ; extra == 'all'
+Requires-Dist: paddleocr ==2.7.0.3 ; extra == 'all'
+Requires-Dist: paddlepaddle-gpu ==2.6.0 ; extra == 'all'
+Provides-Extra: doctr
+Requires-Dist: python-doctr[torch] ==0.7.0 ; extra == 'doctr'
+Provides-Extra: paddle
+Requires-Dist: paddleocr ==2.7.0.3 ; extra == 'paddle'
+Requires-Dist: paddlepaddle-gpu ==2.6.0 ; extra == 'paddle'
+Provides-Extra: ultralytics
+Requires-Dist: ultralytics ==8.1.11 ; extra == 'ultralytics'
+
+ocrtoolkit
+############
+
+Parse bank cheques
+
+
+Quickstart
+==========
+
+ocrtoolkit is available on PyPI and can be installed with `pip <https://pip.pypa.io>`_.
+
+.. code-block:: console
+
+    $ pip install ocrtoolkit
+
+After installing ocrtoolkit you can use it like any other Python module.
+
+Here is a simple example:
+
+.. code-block:: python
+
+    import ocrtoolkit
+    # Fill this section in with the common use-case.
+
+The `API Reference <http://ocrtoolkit.readthedocs.io>`_ provides API-level documentation.
+
+
+.. _change-log-label:
+
+Change Log
+==========
+
+Version History
+---------------
+
+0.0.1
+    * Project created.
+
+
