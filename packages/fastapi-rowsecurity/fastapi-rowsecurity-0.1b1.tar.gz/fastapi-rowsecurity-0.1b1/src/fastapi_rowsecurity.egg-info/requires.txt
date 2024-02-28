@@ -1,0 +1,14 @@
+alembic_utils>=0.8
+pydantic>=2.5
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[testing]
+setuptools
+pytest
+pytest-cov
+pytest_asyncio
+faker
+asyncpg
+greenlet
