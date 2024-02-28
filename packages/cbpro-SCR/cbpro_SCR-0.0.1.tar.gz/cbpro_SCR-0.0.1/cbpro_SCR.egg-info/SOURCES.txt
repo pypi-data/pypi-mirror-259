@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+cbpro/__init__.py
+cbpro/authenticated_client.py
+cbpro/cbpro_auth.py
+cbpro/order_book.py
+cbpro/public_client.py
+cbpro/websocket_client.py
+cbpro_SCR.egg-info/PKG-INFO
+cbpro_SCR.egg-info/SOURCES.txt
+cbpro_SCR.egg-info/dependency_links.txt
+cbpro_SCR.egg-info/requires.txt
+cbpro_SCR.egg-info/top_level.txt
+tests/test_authenticated_client.py
+tests/test_public_client.py
