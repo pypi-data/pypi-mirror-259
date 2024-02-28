@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/pysynapse/__init__.py
+src/pysynapse/__version__.py
+src/pysynapse/endpoints.py
+src/pysynapse/exceptions.py
+src/pysynapse/py.typed
+src/pysynapse.egg-info/PKG-INFO
+src/pysynapse.egg-info/SOURCES.txt
+src/pysynapse.egg-info/dependency_links.txt
+src/pysynapse.egg-info/requires.txt
+src/pysynapse.egg-info/top_level.txt
