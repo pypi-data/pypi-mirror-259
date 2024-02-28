@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: parcadfc
+Version: 1.0.7
+Summary: PARCA for Defender For Cloud
+Author: Julio Antonio Fresneda García
+Author-email: julioantonio.fresnedagarcia@telefonica.com
+License: MIT
+Requires-Python: >=3.9
+Requires-Dist: adal
+Requires-Dist: beautifulsoup4
+Requires-Dist: XlsxWriter
+Requires-Dist: docx2pdf
+Requires-Dist: docxcompose
+Requires-Dist: openpyxl
+Requires-Dist: python-docx
+Requires-Dist: docxtpl
+Requires-Dist: pandas
+
