@@ -1,0 +1,16 @@
+LICENSE.txt
+README.md
+pyproject.toml
+aiofoam/__init__.py
+aiofoam/_cases.py
+aiofoam/_cpus.py
+aiofoam/_subprocess.py
+aiofoam/py.typed
+aiofoam.egg-info/PKG-INFO
+aiofoam.egg-info/SOURCES.txt
+aiofoam.egg-info/dependency_links.txt
+aiofoam.egg-info/requires.txt
+aiofoam.egg-info/top_level.txt
+tests/test_basic.py
+tests/test_flange.py
+tests/test_pitz.py
