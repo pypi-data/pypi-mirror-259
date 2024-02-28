@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+grobid2json/__init__.py
+grobid2json/__version__.py
+grobid2json/citation_util.py
+grobid2json/grobid_util.py
+grobid2json/main.py
+grobid2json/refspan_util.py
+grobid2json/s2orc.py
+grobid2json.egg-info/PKG-INFO
+grobid2json.egg-info/SOURCES.txt
+grobid2json.egg-info/dependency_links.txt
+grobid2json.egg-info/entry_points.txt
+grobid2json.egg-info/not-zip-safe
+grobid2json.egg-info/requires.txt
+grobid2json.egg-info/top_level.txt
