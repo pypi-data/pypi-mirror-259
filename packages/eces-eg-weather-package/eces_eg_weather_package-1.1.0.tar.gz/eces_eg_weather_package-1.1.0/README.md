@@ -1,0 +1,90 @@
+# ECES Weather Package
+
+Welcome to the ECES Weather Package – the first official release from the ECES Data Analytics Unit led by Ahmed Dawoud. This Python package provides a simple and intuitive interface to interact with weather data using the OpenWeatherMap API. With it, you can fetch weather forecasts and analyze weather patterns.
+
+## Installation
+
+To install the ECES Weather Package, run the following command in your terminal:
+
+```bash
+pip install eces-weather-package
+```
+
+Make sure you have Python and pip already installed on your system.
+
+## Features
+
+- **Retrieve Weather Forecasts**: Easily get weather forecasts for the next five days.
+- **Temperature and Wind Data**: Access detailed temperature and wind data in a structured format.
+- **Data Analysis Ready**: Integrate with Pandas for further data analysis.
+
+## Quick Start
+
+Here's how to use the ECES Weather Package to retrieve weather forecast data for a specified city:
+
+```python
+from eces_weather_package import Weather
+
+# Initialize the Weather object with your API key and desired city
+weather = Weather(apikey='your_openweathermap_api_key_here', city='Cairo')
+
+# Get temperature forecast for the next 5 days
+temperature_data = weather.temp_next_5_days()
+print(temperature_data)
+
+# Get wind forecast for the next 5 days
+wind_data = weather.wind_next_5_days()
+print(wind_data)
+```
+
+## Usage
+
+### Initializing the Weather Object
+
+Before you can retrieve any data, you'll need to initialize the `Weather` object with your OpenWeatherMap API key and the city you're interested in:
+
+```python
+weather = Weather(apikey='your_api_key_here', city='Cairo')
+```
+
+### Getting Temperature Data
+
+To get the temperature forecast for the next five days:
+
+```python
+temperature_data = weather.temp_next_5_days()
+print(temperature_data)
+```
+
+This will return a Pandas DataFrame with the temperature and time data.
+
+### Getting Wind Data
+
+Similarly, to get the wind forecast:
+
+```python
+wind_data = weather.wind_next_5_days()
+print(wind_data)
+```
+
+This will return a Pandas DataFrame with wind speed and direction data.
+
+## Future Work
+
+We are excited to continue developing the ECES Weather Package. Future updates will include more features for weather analysis and prediction, harnessing the power of data science and machine learning.
+
+## Support
+
+For support, bug reports, or feature requests, please contact [support_email@example.com](mailto:support_email@example.com).
+
+## License
+
+This project is licensed under the [MIT License](LICENSE.txt) - see the LICENSE file for details.
+
+## Contributing
+
+We welcome contributions from the community. To contribute to the ECES Weather Package, please fork the repository, make your changes, and submit a pull request.
+
+## Author
+
+- **Ahmed Dawoud** - *Initial work* - [AhmedDawoud](https:adawoud.com)
