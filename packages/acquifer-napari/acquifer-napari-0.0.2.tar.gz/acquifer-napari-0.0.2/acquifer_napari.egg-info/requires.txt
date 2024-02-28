@@ -1,0 +1,6 @@
+acquifer
+napari
+numpy
+sortedcontainers
+dask-image
+xarray
