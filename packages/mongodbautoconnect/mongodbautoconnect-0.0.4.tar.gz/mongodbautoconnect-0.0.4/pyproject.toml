@@ -1,0 +1,16 @@
+# It is being used for configuration the python project it is a alternative of the setup.cfg file.
+# its contains configuration related to the build system
+# such as buld tool used package name version author license and dependencies
+
+[build-system]
+requires = ['setuptools>=42.0', "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.pytest.ini_options]
+testpaths = [
+    "tests" 
+    ] 
+
+[tool.mypy]
+mypy_path = "src"
+ignore_missing_imports = true
