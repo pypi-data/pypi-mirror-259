@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "dklfm"
+version = "0.1.4"
+description = ""
+authors = ["Jacob Moss <cob.mossy@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+exclude = [
+    "outputs"
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+torch = "^2.1.0"
+hydra-core = "^1.3.2"
+matplotlib = "3.7.0"
+pytorch-lightning = "^2.0.9.post0"
+tqdm = "*"
+gpytorch = "^1.11"
+alfi = "^1.0.2"
+python-dotenv = "*"
+seaborn = "*"
+scvelo = ">=0.2.5"
+tensorboard = "^2.14.1"
+llvmlite = "0.41.0"
+notebook = "^7.0.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
