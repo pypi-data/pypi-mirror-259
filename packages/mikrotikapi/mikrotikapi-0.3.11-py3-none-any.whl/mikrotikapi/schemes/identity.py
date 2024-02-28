@@ -1,0 +1,1 @@
+from pydantic import BaseModel, Field, ConfigDictclass IdentityScheme(BaseModel):    name: str    @staticmethod    def api_path():        return "/rest/system/identity"    model_config = ConfigDict(populate_by_name=True)
