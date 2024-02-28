@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: NexR_qc
+Version: 0.0.4
+Summary: PYPI tutorial package creation written by NexR-qc
+Home-page: https://github.com/mata-1223/NexR_qc
+Author: mata.lee
+Author-email: ldh3810@gmail.com
+License: UNKNOWN
+Keywords: qc,NexR,mata.lee,NexR_qc,python,python tutorial,pypi
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7
+
+UNKNOWN
+
