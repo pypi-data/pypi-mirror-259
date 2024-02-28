@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: rds-datasus
+Version: 1.0.0
+Summary: Biblioteca para serviços dados online do DATASUS usando a RDS do LAIS
+Home-page: https://github.com/lais-huol/rds-datasus-python
+Author: Kelson da Costa Medeiros
+Author-email: kelson.medeiros@lais.huol.ufrn.br
+License: UNKNOWN
+Download-URL: https://github.com/lais-huol/rds-datasus-python/tags
+Keywords: rds,datasus,cnes,cadsus
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.8
+License-File: LICENSE
+
+Framework para serviços dados online do DATASUS usando a RDS do LAIS
+

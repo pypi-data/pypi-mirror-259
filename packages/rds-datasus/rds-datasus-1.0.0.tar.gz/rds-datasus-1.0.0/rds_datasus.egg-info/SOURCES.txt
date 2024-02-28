@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+rds/datasus/__init__.py
+rds/datasus/cadsus/__init__.py
+rds/datasus/cnes/__init__.py
+rds/datasus/health/__init__.py
+rds_datasus.egg-info/PKG-INFO
+rds_datasus.egg-info/SOURCES.txt
+rds_datasus.egg-info/dependency_links.txt
+rds_datasus.egg-info/requires.txt
+rds_datasus.egg-info/top_level.txt
