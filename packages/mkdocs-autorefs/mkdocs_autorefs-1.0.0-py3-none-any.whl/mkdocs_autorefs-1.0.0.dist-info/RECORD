@@ -1,0 +1,10 @@
+mkdocs_autorefs-1.0.0.dist-info/METADATA,sha256=z-0QwIno5KDUR6-9zF5vUecBa2D6khhD-4EpfigW5E8,6870
+mkdocs_autorefs-1.0.0.dist-info/WHEEL,sha256=N2J68yzZqJh3mI_Wg92rwhw0rtJDFpZj9bwQIMJgaVg,90
+mkdocs_autorefs-1.0.0.dist-info/entry_points.txt,sha256=ysYsmQmb6qvuuOTHIRKWq8lyTd7ZGmePrR0L72sORsE,67
+mkdocs_autorefs-1.0.0.dist-info/licenses/LICENSE,sha256=xmCVls7Pzn5h3Ze0iqMkoIc4YJb-GrjtrqNZ1eLwUhg,786
+mkdocs_autorefs/__init__.py,sha256=pQ61Oa1vrvxVG9rK4wFZB3JpfoUe8xkKiSnH2pwF3OY,137
+mkdocs_autorefs/debug.py,sha256=sIKpb7MQntccO6GgTaxEzx2AzLfGtdC2JBFlIHf8wIQ,2716
+mkdocs_autorefs/plugin.py,sha256=YsSl8IvQhZR5HxMlz6N8FHs8MlE0GyXu-7BDepYn6w4,8944
+mkdocs_autorefs/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mkdocs_autorefs/references.py,sha256=PRRZDu0xV5LAUrFWUJ21a8Ndlhfn-PA1X42QUZ-cwCw,13146
+mkdocs_autorefs-1.0.0.dist-info/RECORD,,
