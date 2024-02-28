@@ -1,0 +1,10 @@
+name: brainrender-napari
+display_name: brainrender
+contributions:
+  commands:
+    - id: brainrender-napari.make_brainrender_widget
+      python_name: brainrender_napari.brainrender_widget:BrainrenderWidget
+      title: Make Brainrender Napari
+  widgets:
+    - command: brainrender-napari.make_brainrender_widget
+      display_name: Brainrender
