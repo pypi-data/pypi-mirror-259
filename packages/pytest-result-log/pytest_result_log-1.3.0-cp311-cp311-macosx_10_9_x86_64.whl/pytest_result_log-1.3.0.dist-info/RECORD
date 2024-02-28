@@ -1,0 +1,8 @@
+pytest_result_log-1.3.0.dist-info/RECORD,,
+pytest_result_log-1.3.0.dist-info/WHEEL,sha256=1LO1kSN6mor21iujzR1Z_Aa0UwxX6-6CmfsIBq_uQlM,106
+pytest_result_log-1.3.0.dist-info/entry_points.txt,sha256=cOjE5IkKx19Xp2XzUjuP3daBLVvkpq8-aEj_50zybzE,48
+pytest_result_log-1.3.0.dist-info/METADATA,sha256=57uFPhNYm81_Bj7iZz60Hw0-ItZ2x83vKF--ToUPCKE,1627
+pytest_result_log/const.cpython-311-darwin.so,sha256=bN-GMt98vrvvUUkNPz0aTu0C7wPuDlHC2Z26wXKul00,41144
+pytest_result_log/hooks.cpython-311-darwin.so,sha256=I9IlN2ovfv30yEjx309VQx3TR7ilIZ2SnwEDgFygrcU,64720
+pytest_result_log/__init__.cpython-311-darwin.so,sha256=FTUbKXcvQxZol6Ndl2xLwUIZR9jnq6ObUpJ8EYehNgE,38912
+pytest_result_log/plugin.cpython-311-darwin.so,sha256=RCTu8INdgp1cnGnFrQAkhr7eP_cZy1OOPKUJiZC6Drw,189408
