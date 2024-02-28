@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/babeltalk/__init__.py
+src/babeltalk.egg-info/PKG-INFO
+src/babeltalk.egg-info/SOURCES.txt
+src/babeltalk.egg-info/dependency_links.txt
+src/babeltalk.egg-info/requires.txt
+src/babeltalk.egg-info/top_level.txt
+src/babeltalk/asr/__init__.py
+src/babeltalk/asr/asr.py
+src/babeltalk/nlp/__init__.py
+src/babeltalk/tts/__init__.py
+src/babeltalk/tts/tts.py
+src/babeltalk/ui/__init__.py
+src/babeltalk/ui/tts_demo.py
