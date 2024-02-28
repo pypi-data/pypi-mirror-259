@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: Highlighted_PDF_2_Anki_FlashCards
+Version: 1.0.0
+Summary: No description yet
+Author-email: Ali Jalaali <a.jalali.248@gmail.com>
+Project-URL: Homepage, https://github.com/Jal-Ali/Highlighted_PDF_2_Anki_FlashCards
+Keywords: Anki
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tqdm
+Requires-Dist: googletrans
+
+
+Hi

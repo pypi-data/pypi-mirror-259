@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+src/Highlighted_PDF_2_Anki_FlashCards.egg-info/PKG-INFO
+src/Highlighted_PDF_2_Anki_FlashCards.egg-info/SOURCES.txt
+src/Highlighted_PDF_2_Anki_FlashCards.egg-info/dependency_links.txt
+src/Highlighted_PDF_2_Anki_FlashCards.egg-info/entry_points.txt
+src/Highlighted_PDF_2_Anki_FlashCards.egg-info/requires.txt
+src/Highlighted_PDF_2_Anki_FlashCards.egg-info/top_level.txt
+src/My_Package/GUI.py
+src/My_Package/Scan_PDF.py
+src/My_Package/Translate.py
+src/My_Package/__main__.py
