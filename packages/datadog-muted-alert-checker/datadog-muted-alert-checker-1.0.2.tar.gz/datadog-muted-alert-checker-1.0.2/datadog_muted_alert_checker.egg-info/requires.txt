@@ -1,0 +1,8 @@
+datadog
+google-api-python-client
+google-auth
+google-auth-httplib2
+opsgenie-sdk
+pytest
+requests
+urllib3
