@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: NexR-qc
+Version: 0.0.1
+Summary: PYPI tutorial package creation written by NexR-qc
+Home-page: https://github.com/mata-1223/Quality-Check-Module
+Author: mata.lee
+Author-email: ldh3810@gmail.com
+License: UNKNOWN
+Keywords: qc,NexR,mata.lee,QualityCheck,python,python tutorial,pypi
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+
+UNKNOWN
+
