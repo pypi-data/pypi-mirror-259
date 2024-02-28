@@ -1,0 +1,13 @@
+parcadfc/__init__.py,sha256=yVvWmT8f4YwHDJON-UiHeVqwPxg0C2Bns9Zv2I2DjvE,50
+parcadfc/parcadfc.py,sha256=sNl1Keon5pJhNmHqBASSPdQe6FUyTf7Oo2NmfZnpZUY,29147
+parcadfc/parcadfc_aux.py,sha256=BoMQ9yRt53w3qJAPpZPAQK6OtnqPnbjN0WtGzllAbNo,17317
+parcadfc/paux_material/templateCover.docx,sha256=38BpRUFX5PePSExLVvtwnJkWheX9mhfZNPqtVFPOSRU,8797262
+parcadfc/paux_material/templateRec.docx,sha256=cCgCcGNegFSSgkyNuu1nw0QTaa5wGwPJo-ehqdYdO4w,7758180
+parcadfc/paux_material/images/critical,sha256=zw5rauNTIeT_VS49aQ50R_vJ--45wDTNuix0BI63gJ8,37861
+parcadfc/paux_material/images/high,sha256=fpFKKxa44-MCBRU061W5cV3Np9Z_eeNWoP8QmQWvPKU,38364
+parcadfc/paux_material/images/low,sha256=-g0CI6fUq_mjshOFN8m6sGLO56mb49aKRk1OCKwcoaY,39989
+parcadfc/paux_material/images/medium,sha256=OeeitEx2AF7_UA1HWPYwAZ12hMe2m0PxakMZtwKi2vI,39928
+parcadfc-1.0.3.dist-info/METADATA,sha256=cCoBFBTG1a_9XU0JJgrbTSpIE-ou-il089LJWYUdoIg,464
+parcadfc-1.0.3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+parcadfc-1.0.3.dist-info/top_level.txt,sha256=fTqoyOE8jLX9G0A4BUnwlMmHYYA8xp4YU73Mq5GAIIM,9
+parcadfc-1.0.3.dist-info/RECORD,,
