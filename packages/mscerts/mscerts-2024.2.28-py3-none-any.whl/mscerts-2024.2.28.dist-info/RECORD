@@ -1,0 +1,11 @@
+mscerts/__init__.py,sha256=lRCUVtWNZpTs6k_qSMMVtSJOd9DrMnWlfKs-CuF8gL4,93
+mscerts/__main__.py,sha256=CqWV8F9ghN_WoT-z0PzqOewN2NiNhROBnvqrUvCqCXM,299
+mscerts/authroot.stl,sha256=pnUreFG1kVUORiW4MqOTqrzEKN4Y2D6Fk81UD318riI,179363
+mscerts/cacert.pem,sha256=JFKbnD0oU45PI0J6jWsxg4dDF-Qvm7qHyk4r7Zlvm9M,960787
+mscerts/core.py,sha256=3yCtYmG6D1QuQZ0Dfl3MQbD0MtEvp6Z8Sx1yAlLMkCs,4922
+mscerts/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mscerts-2024.2.28.dist-info/LICENSE,sha256=LcGxittEn9jNAPY_bL5M0yV-6685TKNhRpQjEKmDMRY,749
+mscerts-2024.2.28.dist-info/METADATA,sha256=JN8QjVd3FRzGjh5nBcapRmMs4m55TL2kHu0BFkIJEMg,2769
+mscerts-2024.2.28.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+mscerts-2024.2.28.dist-info/top_level.txt,sha256=_gAy59KBGBowK0H-QH1rOcQTl7xu0H8YxTG-AvB0V90,8
+mscerts-2024.2.28.dist-info/RECORD,,
