@@ -1,0 +1,45 @@
+on: [push, pull_request, workflow_dispatch]
+
+jobs:
+  test-rust:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install Rust
+        uses: dtolnay/rust-toolchain@master
+        with:
+          toolchain: stable
+          components: clippy, rustfmt
+
+      - name: Lint Rust implementation
+        run: cargo clippy
+
+      - name: Check Rust format
+        run: cargo fmt --check
+
+      - name: Test Rust implementation
+        run: cargo test --all-features
+
+  test-python:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.7", "3.8", "3.9", "3.10", "3.11"]
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Rust
+        uses: dtolnay/rust-toolchain@master
+        with:
+          toolchain: stable
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - run: pip install maturin
+      - run: pip install .
+
+      - name: Test Python implementation
+        run: python -m unittest test.py
