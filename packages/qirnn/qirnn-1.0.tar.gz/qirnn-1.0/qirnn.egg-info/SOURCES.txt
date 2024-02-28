@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+qirnn.egg-info/PKG-INFO
+qirnn.egg-info/SOURCES.txt
+qirnn.egg-info/dependency_links.txt
+qirnn.egg-info/requires.txt
+qirnn.egg-info/top_level.txt

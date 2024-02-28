@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: qirnn
+Version: 1.0
+Summary: Quantum-Inspired Recursive Neural Network
+Home-page: https://github.com/yourusername/qirnn
+Author: David Condrey
+Author-email: davidcondrey@protonmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch
+Requires-Dist: numpy
+
+A novel architecture inspired by principles from quantum computing and neural networks.
