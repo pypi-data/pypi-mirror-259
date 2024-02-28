@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/metric-log-influx-importer/__init__.py
+src/metric-log-influx-importer/import.py
+src/metric_log_influx_importer.egg-info/PKG-INFO
+src/metric_log_influx_importer.egg-info/SOURCES.txt
+src/metric_log_influx_importer.egg-info/dependency_links.txt
+src/metric_log_influx_importer.egg-info/top_level.txt
