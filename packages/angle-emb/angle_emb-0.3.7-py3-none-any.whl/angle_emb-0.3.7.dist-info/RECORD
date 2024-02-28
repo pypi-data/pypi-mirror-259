@@ -1,0 +1,10 @@
+angle_emb/__init__.py,sha256=lADcrKhBktG1SlmhZdQUur4puJom6VTX9BeXuK8zOyw,70
+angle_emb/angle.py,sha256=VxF7Fg21VOYPpxYGS_Djf-iFq3EektL4dIsqHWYD7fo,63827
+angle_emb/train_cli.py,sha256=HX1lzM4ow7R1mYV07Sd0tKATf4uZX2z3sruwx-1b2fQ,10427
+angle_emb/utils.py,sha256=DvGzUxNggfZ5UUBA4xPkht1vwLq96NgNVLdq2tDnt20,118
+angle_emb-0.3.7.dist-info/LICENSE,sha256=DfBcQEfFKfbQ4Bkt1kVA-gfQCigGIr-syjv4g_cf8N4,1061
+angle_emb-0.3.7.dist-info/METADATA,sha256=JU8emTQaQe0F_NeAiz5SYhjTrAu_cRZKdj1Pgt7EAxk,15500
+angle_emb-0.3.7.dist-info/WHEEL,sha256=2wepM1nk4DS4eFpYrW1TTqPcoGNfHhhO_i5m4cOimbo,92
+angle_emb-0.3.7.dist-info/entry_points.txt,sha256=Xl3bjaXKsAW6C5O9bTlnt_KPXQMukFllb7sR9wWDF7k,59
+angle_emb-0.3.7.dist-info/top_level.txt,sha256=PRrRJASyALPz9zdUIYXsLtECMfN3aUjiSCm86uxWQHY,10
+angle_emb-0.3.7.dist-info/RECORD,,
