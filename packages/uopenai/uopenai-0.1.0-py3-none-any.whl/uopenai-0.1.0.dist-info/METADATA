@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: uopenai
+Version: 0.1.0
+Summary: Minimalistic library to call OpenAI API, with httpx and type-hinting
+Author-Email: Grigory Bakunov <bobuk@rubedo.cloud>
+License: Unlicense
+Requires-Python: >=3.9
+Requires-Dist: httpx>=0.27.0
+Requires-Dist: pydantic>=2.6.2
+Description-Content-Type: text/markdown
+
+# uopenai
+Minimalistic wrapper for httpx to call OpenAI and have a type-hinted answers
