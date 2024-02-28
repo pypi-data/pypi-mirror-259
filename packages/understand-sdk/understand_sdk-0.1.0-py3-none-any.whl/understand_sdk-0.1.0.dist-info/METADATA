@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: understand-sdk
+Version: 0.1.0
+Summary: Python client for UnderstandLabs
+License: MIT
+Author: Understandlabs.com Team
+Author-email: it@understandlabs.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: pydantic (>=2.6.2,<3.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# Python client for UnderstandLabs
+
+TODO
