@@ -1,0 +1,3 @@
+[console_scripts]
+iac-validate=iac_init.cli.main:main
+
