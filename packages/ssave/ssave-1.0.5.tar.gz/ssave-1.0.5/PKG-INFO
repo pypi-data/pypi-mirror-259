@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ssave
+Version: 1.0.5
+Summary: SCOS Save Utility for Python3
+Home-page: https://github.com/SCOS-Apps/Save-Utility
+Author: SCOS-Apps
+Author-email: hsc100zz@gmail.com
+Description-Content-Type: text/markdown
+
+# SCOS Save Utility for Python 3
+
+## What is this?
+
+This utility is used for enabling access to `.ini` files to get a save like experience.
+
+Using this is easy and fast, that even somebody who doesn't know Python really well can use this.
