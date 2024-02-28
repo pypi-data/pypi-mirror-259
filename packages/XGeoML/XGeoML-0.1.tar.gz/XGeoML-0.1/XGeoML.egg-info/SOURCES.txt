@@ -1,0 +1,10 @@
+setup.py
+XGeoML/__init__.py
+XGeoML/fasttrain.py
+XGeoML/preprocess.py
+XGeoML/w_matrix.py
+XGeoML.egg-info/PKG-INFO
+XGeoML.egg-info/SOURCES.txt
+XGeoML.egg-info/dependency_links.txt
+XGeoML.egg-info/requires.txt
+XGeoML.egg-info/top_level.txt
