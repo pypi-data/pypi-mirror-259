@@ -1,0 +1,3 @@
+[console_scripts]
+PythonTableConsole=PythonTableConsole.__main__:main
+
