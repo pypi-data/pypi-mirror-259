@@ -1,0 +1,87 @@
+Metadata-Version: 2.1
+Name: openai_usage_logger
+Version: 0.1.1
+Summary: A utility for logging OpenAI API usage and costs.
+Author-email: Tal Darom <tal.darom@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2024 Tal Darom
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Bug Tracker, https://github.com/talda/openai-costs-logger/issues
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+# openai_usage_logger
+
+This library provides a simple way to log OpenAI API usage and costs. It maintains a record of the number of prompt and completion tokens used for different OpenAI models, as well as the associated costs.
+
+## Features
+
+- Tracks usage and costs for different tags and models.
+- Allows logging of token usage and costs in a structured format.
+- Provides flexibility to use a custom logger.
+
+## Usage
+
+### Basic Usage
+
+Use the library to log responses from OpenAI's completion API, including the model used and the associated costs.
+
+```python
+import openai
+from openai_usage_logger import usageLogger
+
+# Example OpenAI completion API call
+response = openai.ChatCompletion.create(
+    model='gpt-3.5-turbo-0125',
+    messages=messages,
+)
+```
+# Logging the response with a usage tag
+```python
+usageLogger().log(response, tag='usage_tag')
+```
+# Advanced Usage with Custom Logger
+You can also pass a custom logger to the log method if you want to use a specific logging configuration.
+
+```python
+import logging
+from openai_usage_logger import usageLogger
+```
+# Set up your custom logger
+```python
+custom_logger = logging.getLogger('my_custom_logger')
+logging.basicConfig(level=logging.INFO)
+```
+# Using the custom logger
+```python
+usageLogger().log(response, tag='usage_tag', logger=custom_logger)
+```
+Model Costs
+The package currently supports cost calculation for the following models:
+
+GPT-4 models (including various versions)
+GPT-3.5-Turbo models (including various versions)
+Costs are based on the number of tokens used for prompts and completions, with different rates for different models.
