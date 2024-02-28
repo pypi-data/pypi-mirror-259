@@ -1,0 +1,8 @@
+pytest_result_log/const.cp310-win_amd64.pyd,sha256=UWvJvNrWXTSu9RiiRbnoCTlQCkfeD4ZD0hNSDbLu4QI,21504
+pytest_result_log/hooks.cp310-win_amd64.pyd,sha256=5V67d6n9lNS_z5S8M9vS9U0TL5iR1Mn2Z4ZXE_mriMA,35840
+pytest_result_log/plugin.cp310-win_amd64.pyd,sha256=uvITkyUtZwC_CnOaOVvbLWXOiyEoszxlUnmK58fKaes,119296
+pytest_result_log/__init__.cp310-win_amd64.pyd,sha256=u6rhawrMqKV0mOsZ7JUFUm_OflNcUqwblow7EMFv2FA,19456
+pytest_result_log-1.3.0.dist-info/entry_points.txt,sha256=o2WxR0Af_yDz1jfFnP8zdKXIuCcTmE9saIBkP190iI0,51
+pytest_result_log-1.3.0.dist-info/METADATA,sha256=rGK8gLS24poxXKRCyAnmfVhluWiOnqAZRbGlyrxzKMU,1697
+pytest_result_log-1.3.0.dist-info/WHEEL,sha256=Mzqm0E0g0NyNZ6IHZ2APNHLwJd7IC0hMICCO7QZSLLU,101
+pytest_result_log-1.3.0.dist-info/RECORD,,
