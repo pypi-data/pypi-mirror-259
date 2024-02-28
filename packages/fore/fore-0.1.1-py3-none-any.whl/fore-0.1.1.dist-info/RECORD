@@ -1,0 +1,11 @@
+fore/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fore/foresight/__init__.py,sha256=DtjO6DnPWncejtzxq1J35ANHKAVKJAzqiv3dbP0PiwQ,178
+fore/foresight/client.py,sha256=M75EYCJI6m9rxNwX1l9lfCu06IcoyYzHQLKPiRAU2io,9736
+fore/foresight/client_test.py,sha256=QKVh3jo0-zktgtIPHGuT1Y2WGm73OprUAEWZuob6Pxk,13587
+fore/foresight/schema.py,sha256=rST3RYDl5fovclE7s5kk4pTPID8Qk-qZkYKR9doa9RY,3882
+fore/foresight/utils.py,sha256=IlNmpRxQSxpMUF4WYhc5Rtw_FOZsE1XrmjkX8zzvWxI,300
+fore-0.1.1.dist-info/LICENSE,sha256=VVIUi63nmkkr3102ChSY7_OoRUEjKgq3jg8Tn7v09a4,11344
+fore-0.1.1.dist-info/METADATA,sha256=ZzxxlmJSvfGol7_WPHrVafbnEdNJx-EFR0btTt45Mpc,4370
+fore-0.1.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+fore-0.1.1.dist-info/top_level.txt,sha256=S2Sn392aUEx6KFdhq4qa231sD-lnzaEtrbkSm9bcZEw,5
+fore-0.1.1.dist-info/RECORD,,
