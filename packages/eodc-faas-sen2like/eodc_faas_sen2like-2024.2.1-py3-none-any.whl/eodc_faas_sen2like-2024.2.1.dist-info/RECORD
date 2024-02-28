@@ -1,0 +1,5 @@
+sen2like_processor_bindings/__init__.py,sha256=Cw-PE7FQPj17jaqelx--7cdeyGnfzswI4oYazfK2QZs,105
+sen2like_processor_bindings/model.py,sha256=rtrmQbBfWWUXHyGKoKHMTLX0eWhn_HBAT8opvjHvVVo,3011
+eodc_faas_sen2like-2024.2.1.dist-info/METADATA,sha256=vjclEdgl0LYaIdna_It1yUCE3mbqnMtsEJD5DjSJiNY,568
+eodc_faas_sen2like-2024.2.1.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+eodc_faas_sen2like-2024.2.1.dist-info/RECORD,,
