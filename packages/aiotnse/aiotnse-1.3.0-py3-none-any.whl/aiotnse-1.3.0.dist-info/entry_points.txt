@@ -1,0 +1,2 @@
+[console_scripts]
+aiotnse-cli = aiotnse.__main__:main
