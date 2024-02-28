@@ -1,0 +1,9 @@
+adal
+beautifulsoup4
+XlsxWriter
+docx2pdf
+docxcompose
+openpyxl
+python-docx
+docxtpl
+pandas
