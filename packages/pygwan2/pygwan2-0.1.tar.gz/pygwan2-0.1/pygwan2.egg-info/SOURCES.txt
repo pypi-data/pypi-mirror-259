@@ -1,0 +1,10 @@
+LICENCE
+README.md
+setup.py
+pygwan2/__init__.py
+pygwan2/pygwan2.py
+pygwan2.egg-info/PKG-INFO
+pygwan2.egg-info/SOURCES.txt
+pygwan2.egg-info/dependency_links.txt
+pygwan2.egg-info/requires.txt
+pygwan2.egg-info/top_level.txt
