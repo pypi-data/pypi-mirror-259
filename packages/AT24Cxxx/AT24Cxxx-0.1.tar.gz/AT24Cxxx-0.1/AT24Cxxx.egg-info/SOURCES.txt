@@ -1,0 +1,7 @@
+setup.py
+AT24Cxxx/AT24Cxxx.py
+AT24Cxxx/__init__.py
+AT24Cxxx.egg-info/PKG-INFO
+AT24Cxxx.egg-info/SOURCES.txt
+AT24Cxxx.egg-info/dependency_links.txt
+AT24Cxxx.egg-info/top_level.txt
