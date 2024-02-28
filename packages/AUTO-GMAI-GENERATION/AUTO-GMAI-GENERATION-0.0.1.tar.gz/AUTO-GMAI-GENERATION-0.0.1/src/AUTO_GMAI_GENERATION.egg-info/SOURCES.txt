@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/app.py
+src/AUTO_GMAI_GENERATION.egg-info/PKG-INFO
+src/AUTO_GMAI_GENERATION.egg-info/SOURCES.txt
+src/AUTO_GMAI_GENERATION.egg-info/dependency_links.txt
+src/AUTO_GMAI_GENERATION.egg-info/top_level.txt
