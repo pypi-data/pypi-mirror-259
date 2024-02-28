@@ -1,0 +1,91 @@
+{
+  "type": ["null", "object"],
+  "properties": {
+    "id": { "type": ["integer", "null"] },
+    "code": { "type": ["string", "null"] },
+    "branchId": { "type": ["integer", "null"] },
+    "branchName": { "type": ["string", "null"] },
+    "createdDate": { "type": ["string", "null"], "format": "date-time" },
+    "customerCode": { "type": ["string", "null"] },
+    "customerName": { "type": ["string", "null"] },
+    "customerId": { "type": ["integer", "null"] },
+    "description": { "type": ["string", "null"] },
+    "discount": { "type": ["number", "null"] },
+    "discountRatio": { "type": ["number", "null"] },
+    "modifiedDate": { "type": ["string", "null"], "format": "date-time" },
+    "purchaseDate": { "type": ["string", "null"], "format": "date-time" },
+    "retailerId": { "type": ["integer", "null"] },
+    "soldById": { "type": ["integer", "null"] },
+    "soldByName": { "type": ["string", "null"] },
+    "status": { "type": ["integer", "null"] },
+    "statusValue": { "type": ["string", "null"] },
+    "total": { "type": ["number", "null"] },
+    "totalPayment": { "type": ["number", "null"] },
+    "usingCod": { "type": ["boolean", "null"] },
+    "PriceBookId": { "type": ["number", "null"] },
+    "Extra": { "type": ["string", "null"] },
+    "SaleChannelId": { "type": ["number", "null"] },
+    "SaleChannelName": { "type": ["string", "null"] },
+    "payments": {
+      "type": ["array", "null"],
+      "properties": {
+        "id": { "type": ["number", "null"] },
+        "code": { "type": ["string", "null"] },
+        "amount": { "type": ["number", "null"] },
+        "method": { "type": ["number", "null"] },
+        "status": { "type": ["number", "null"] },
+        "statusValue": { "type": ["string", "null"] },
+        "description": { "type": ["string", "null"] },
+        "transDate": { "type": ["string", "null"], "format": "date-time" },
+        "bankAccount": { "type": ["string", "null"] },
+        "accountId": { "type": ["number", "null"] }
+      }
+    },
+    "orderDetails": {
+      "type": ["array", "null"],
+      "properties": {
+        "productId": { "type": ["number", "null"] },
+        "returnQuantity": { "type": ["number", "null"] },
+        "productCode": { "type": ["string", "null"] },
+        "productName": { "type": ["string", "null"] },
+        "quantity": { "type": ["number", "null"] },
+        "price": { "type": ["number", "null"] },
+        "discountRatio": { "type": ["number", "null"] },
+        "discount": { "type": ["number", "null"] },
+        "viewDiscount": { "type": ["number", "null"] },
+        "note": { "type": ["string", "null"] },
+        "serialNumbers": { "type": ["number", "null"] },
+        "subTotal": { "type": ["number", "null"] },
+        "isMaster": { "type": ["boolean", "null"] }
+      }
+    },
+    "orderDelivery": {
+      "type": ["array", "null"],
+      "properties": {
+        "deliveryCode": { "type": ["number", "null"] },
+        "type": { "type": ["number", "null"] },
+        "price": { "type": ["number", "null"] },
+        "receiver": { "type": ["string", "null"] },
+        "contactNumber": { "type": ["string", "null"] },
+        "address": { "type": ["string", "null"] },
+        "locationId": { "type": ["number", "null"] },
+        "locationName": { "type": ["string", "null"] },
+        "weight": { "type": ["number", "null"] },
+        "length": { "type": ["number", "null"] },
+        "width": { "type": ["number", "null"] },
+        "height": { "type": ["number", "null"] },
+        "partnerDeliveryId": { "type": ["number", "null"] },
+        "partnerDelivery": {
+          "type": ["array", "null"],
+          "properties": {
+            "code": { "type": ["string", "null"] },
+            "name": { "type": ["string", "null"] },
+            "address": { "type": ["string", "null"] },
+            "contactNumber": { "type": ["string", "null"] },
+            "email": { "type": ["string", "null"] }
+          }
+        }
+      }
+    }
+  }
+}

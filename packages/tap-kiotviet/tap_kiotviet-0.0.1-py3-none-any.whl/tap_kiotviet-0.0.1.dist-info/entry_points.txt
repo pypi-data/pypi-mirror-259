@@ -1,0 +1,3 @@
+[console_scripts]
+tap-kiotviet=tap_kiotviet.tap:TapKiotViet.cli
+

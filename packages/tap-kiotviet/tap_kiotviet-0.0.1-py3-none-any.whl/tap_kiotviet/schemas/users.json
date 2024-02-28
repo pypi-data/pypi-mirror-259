@@ -1,0 +1,11 @@
+{
+  "type": ["null", "object"],
+  "properties": {
+    "id": { "type": ["number", "null"] },
+    "userName": { "type": ["string", "null"] },
+    "givenName": { "type": ["string", "null"] },
+    "address": { "type": ["string", "null"] },
+    "retailerId": { "type": ["number", "null"] },
+    "createdDate": { "type": ["string", "null"], "format": "date-time" }
+  }
+}

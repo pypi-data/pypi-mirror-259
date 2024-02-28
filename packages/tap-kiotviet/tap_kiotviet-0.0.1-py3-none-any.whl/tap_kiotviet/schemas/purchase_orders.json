@@ -1,0 +1,37 @@
+{
+    "type": ["null", "object"],
+    "properties": {
+      "id": { "type": ["number", "null"] },
+      "retailerId": { "type": ["number", "null"] },
+      "code": { "type": ["string", "null"] },
+      "description": { "type": ["string", "null"] },
+      "branchId": { "type": ["number", "null"] },
+      "branchName": { "type": ["string", "null"] },
+      "purchaseDate": { "type": ["string", "null"], "format": "date-time" },
+      "discount": { "type": ["number", "null"] },
+      "discountRatio": { "type": ["number", "null"] },
+      "total": { "type": ["number", "null"] },
+      "totalPayment": { "type": ["number", "null"] },
+      "status": { "type": ["number", "null"] },
+      "createdDate": { "type": ["string", "null"], "format": "date-time" },
+      "supplierId": { "type": ["number", "null"] },
+      "supplierName": { "type": ["string", "null"] },
+      "supplierCode": { "type": ["string", "null"] },
+      "purchaseById": { "type": ["number", "null"] },
+      "purchaseName": { "type": ["string", "null"] },
+      "exReturnSuppliers": { "type": ["number", "null"] },
+      "exReturnThirdParty": { "type": ["number", "null"] },
+      "purchaseOrderDetails": {
+        "type": ["array", "null"],
+        "properties": {
+          "productId": { "type": ["number", "null"] },
+          "productCode": { "type": ["string", "null"] },
+          "productName": { "type": ["string", "null"] },
+          "quantity": { "type": ["number", "null"] },
+          "price": { "type": ["number", "null"] },
+          "discount": { "type": ["number", "null"] }
+        }
+      }
+    }
+  }
+  

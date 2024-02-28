@@ -1,0 +1,24 @@
+{
+  "type": ["null", "object"],
+  "properties": {
+    "id": { "type": ["number", "null"] },
+    "code": { "type": ["string", "null"] },
+    "name": { "type": ["string", "null"] },
+    "birthDate": { "type": ["string", "null"], "format": "date-time" },
+    "contactNumber": { "type": ["string", "null"] },
+    "address": { "type": ["string", "null"] },
+    "retailerId": { "type": ["number", "null"] },
+    "branchId": { "type": ["number", "null"] },
+    "locationName": { "type": ["string", "null"] },
+    "wardName": { "type": ["string", "null"] },
+    "modifiedDate": { "type": ["string", "null"], "format": "date-time" },
+    "createdDate": { "type": ["number", "null"], "format": "date-time" },
+    "type": { "type": ["number", "null"] },
+    "organization": { "type": ["string", "null"] },
+    "groups": { "type": ["string", "null"] },
+    "debt": { "type": ["number", "null"] },
+    "totalInvoiced": { "type": ["number", "null"] },
+    "totalRevenue": { "type": ["number", "null"] },
+    "totalPoint": { "type": ["number", "null"] }
+  }
+}
