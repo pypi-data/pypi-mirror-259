@@ -1,0 +1,8 @@
+README.md
+setup.py
+straightemail/__init__.py
+straightemail/send_email.py
+straightemail.egg-info/PKG-INFO
+straightemail.egg-info/SOURCES.txt
+straightemail.egg-info/dependency_links.txt
+straightemail.egg-info/top_level.txt
