@@ -1,0 +1,2 @@
+fixinventorylib==4.0.0a2
+kubernetes
