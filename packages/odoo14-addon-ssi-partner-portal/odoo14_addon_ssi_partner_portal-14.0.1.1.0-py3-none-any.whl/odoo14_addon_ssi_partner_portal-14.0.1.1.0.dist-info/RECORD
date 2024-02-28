@@ -1,0 +1,17 @@
+odoo/addons/ssi_partner_portal/README.rst,sha256=xXlbEKDE25Cw7pDWQVWCQ8BWROck7RlGRrQ4rGZEBQo,1146
+odoo/addons/ssi_partner_portal/__init__.py,sha256=u6cxhood7AOsBIPdZ6XBF2ATx72b74cLVbwLdh3IrGE,198
+odoo/addons/ssi_partner_portal/__manifest__.py,sha256=O-fQYQISCMQuDqbPh1RLa7wi2UtEzZOpnKZKetIzRoo,648
+odoo/addons/ssi_partner_portal/controllers/__init__.py,sha256=qlkcNsvsxdpKYLRmHB6Q4crvEWr-XfXZZgLb1vFCEn4,172
+odoo/addons/ssi_partner_portal/controllers/portal.py,sha256=9DHJuB2YskGqx6Gl56NbZ37liU98TJ6SSTs-uv1VEj4,4344
+odoo/addons/ssi_partner_portal/models/__init__.py,sha256=1NezsYyyQxKuNabVg6Ot7MbDw2_dYzmmq96gZafnj7E,202
+odoo/addons/ssi_partner_portal/models/portal_partner_bank_account.py,sha256=6HSGKUQA1u7q4sZRtaS_SN6zwN8TDiFuGWi1BYfvTbI,408
+odoo/addons/ssi_partner_portal/security/ir.model.access.csv,sha256=ySno87_bgmfmqMx8fIVBnxZ5pC80lqemGuFoSB5UziA,216
+odoo/addons/ssi_partner_portal/security/ir_rule_data.xml,sha256=B-b3z__CkJ8SUCzIaJ3fB2l-D8BYtLj5rhSHQrc6uig,774
+odoo/addons/ssi_partner_portal/static/description/icon.png,sha256=lNGJOSg4cMRfwPTfFKVT6d5B2N1N83iVpEEN1blqu1I,48333
+odoo/addons/ssi_partner_portal/static/src/scss/portal.scss,sha256=FxxyVM056nhbYp8HJOrLN8cmSw-zTSrGunsuk87ZvI0,813
+odoo/addons/ssi_partner_portal/views/assets.xml,sha256=BOYdHNX7Q25ryiIR4bZ_Pcr-r-rMmq_-K86qkqXi6MA,461
+odoo/addons/ssi_partner_portal/views/portal_templates.xml,sha256=G9GIAaL31toSAIFcrF0LcHwLGgpLN790edlLGLuzSTk,7675
+odoo14_addon_ssi_partner_portal-14.0.1.1.0.dist-info/METADATA,sha256=wkZXVWZ4tkGVXBdI-1hMKhUxo9U7KmET54yNiDrsQek,1673
+odoo14_addon_ssi_partner_portal-14.0.1.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+odoo14_addon_ssi_partner_portal-14.0.1.1.0.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo14_addon_ssi_partner_portal-14.0.1.1.0.dist-info/RECORD,,
