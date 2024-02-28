@@ -1,0 +1,15 @@
+# Change Log
+
+### 0.0.6 - 27/02/2024
+
+Add:
+
+* response_error and response_data
+* VulcanBaseError
+
+### 0.0.5 - 03/01/2024
+
+Deprecated:
+
+* Remove torch dependencies
+* Remove JsonHandlerWithGpu and host_health_check
