@@ -1,0 +1,17 @@
+datasets/
+.idea/
+__pycache__/
+docs/_build
+own_tests/
+own_notebooks/
+*.egg-info
+build/
+dist/
+.ipynb_checkpoints
+.vscode/
+
+jupyter.sh
+slurm*
+tmp
+model/
+atlas
