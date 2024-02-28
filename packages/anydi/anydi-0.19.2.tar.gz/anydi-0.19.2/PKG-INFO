@@ -1,0 +1,105 @@
+Metadata-Version: 2.1
+Name: anydi
+Version: 0.19.2
+Summary: Dependency Injection library
+Home-page: https://github.com/antonrh/anydi
+License: MIT
+Keywords: dependency injection,dependencies,di,async,asyncio,application
+Author: Anton Ruhlov
+Author-email: antonruhlov@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Typing :: Typed
+Provides-Extra: async
+Provides-Extra: docs
+Requires-Dist: anyio (>=3.6.2,<4.0.0) ; extra == "async"
+Requires-Dist: mkdocs (>=1.4.2,<2.0.0) ; extra == "docs"
+Requires-Dist: mkdocs-material (>=9.1.13,<10.0.0) ; extra == "docs"
+Requires-Dist: typing-extensions (>=4.8.0,<5.0.0)
+Project-URL: Repository, https://github.com/antonrh/anydi
+Description-Content-Type: text/markdown
+
+# AnyDI
+
+> [!IMPORTANT]
+> Library renamed to `anydi` from `pyxdi` starting from version `0.19.0`.
+
+`AnyDI` is a lightweight Python Dependency Injection library that supports any synchronous or asynchronous code through type annotations ([PEP 484](https://peps.python.org/pep-0484/)).
+
+[![CI](https://github.com/antonrh/anydi/actions/workflows/ci.yml/badge.svg)](https://github.com/antonrh/anydi/actions/workflows/ci.yml)
+[![codecov](https://codecov.io/gh/antonrh/anydi/branch/main/graph/badge.svg?token=67CLD19I0C)](https://codecov.io/gh/antonrh/anydi)
+[![Documentation Status](https://readthedocs.org/projects/anydi/badge/?version=latest)](https://anydi.readthedocs.io/en/latest/?badge=latest)
+
+---
+Documentation
+
+http://anydi.readthedocs.io/
+
+---
+
+## Requirements
+
+Python 3.8+
+
+and optional dependencies:
+
+* [anyio](https://github.com/agronholm/anyio) (for supporting synchronous resources with an asynchronous runtime)
+
+
+## Installation
+
+Install using `pip`:
+
+```shell
+pip install anydi
+```
+
+or using `poetry`:
+
+```shell
+poetry add anydi
+```
+
+## Quick Example
+
+*app.py*
+
+```python
+from anydi import auto, Container
+
+container = Container()
+
+
+@container.provider(scope="singleton")
+def message() -> str:
+    return "Hello, world!"
+
+
+@container.inject
+def say_hello(message: str = auto()) -> None:
+    print(message)
+
+
+if __name__ == "__main__":
+    say_hello()
+```
+
