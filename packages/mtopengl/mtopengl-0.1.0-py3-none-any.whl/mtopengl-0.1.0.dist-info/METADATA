@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: mtopengl
+Version: 0.1.0
+Summary: Minh-Tri Pham's extra modules for dealing with OpenGL in Python
+Author: ['Minh-Tri Pham']
+License-File: LICENSE
+Requires-Dist: pyopengl
+Requires-Dist: glfw
+Requires-Dist: mtglm
+
