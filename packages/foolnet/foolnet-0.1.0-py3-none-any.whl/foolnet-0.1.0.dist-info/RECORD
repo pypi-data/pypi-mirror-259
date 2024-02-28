@@ -1,0 +1,10 @@
+foolnet/__init__.py,sha256=A4hKvhp_HhGr434Qogo13hIVV6loa4HcUsA16pcPLzw,164
+foolnet/activation.py,sha256=VKB55yaSgyyQ1h2X-tsdKvoT29tlvwvQSZOzSUEDJcE,1153
+foolnet/dataset/__init__.py,sha256=HpjRCD4sNLHQFpcq29myTDNyTIV414_HyXSRW4N3log,498
+foolnet/dataset/classification.py,sha256=bboBgF45ZSTRWgV9rGRWt8NTMwNLCbg7sf53Cy1F9ck,801
+foolnet/layers.py,sha256=Y48Lej2LhdLjA_oGIdn25idPym52jfB2iMFq69zOSmQ,811
+foolnet/lossfn.py,sha256=2g6KuLtxAvATBKhdVYDzN8ulETr87eLrAMDZJSUN85M,709
+foolnet-0.1.0.dist-info/LICENSE,sha256=_BhL7Mg0NvQdDXRmvydFUGySeMdnPwtoIn6OHK6ejJQ,1069
+foolnet-0.1.0.dist-info/METADATA,sha256=Aal4PzHsWW5DWsYEqmCMhJO9S8d3pYiUyQsDayRF-MQ,590
+foolnet-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+foolnet-0.1.0.dist-info/RECORD,,
