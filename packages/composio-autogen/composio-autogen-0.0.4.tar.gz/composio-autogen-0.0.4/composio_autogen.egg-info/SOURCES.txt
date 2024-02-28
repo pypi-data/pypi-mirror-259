@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+composio-autogen
+pyproject.toml
+requirements.txt
+setup.py
+composio_autogen.egg-info/PKG-INFO
+composio_autogen.egg-info/SOURCES.txt
+composio_autogen.egg-info/dependency_links.txt
+composio_autogen.egg-info/requires.txt
+composio_autogen.egg-info/top_level.txt
+lib/api.py
+lib/storage.py
+lib/__pycache__/api.cpython-310.pyc
+lib/__pycache__/storage.cpython-310.pyc
+lib/templates/skills.txt
