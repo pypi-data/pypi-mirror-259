@@ -1,0 +1,2 @@
+[console_scripts]
+HGVStoFASTA = src.HGVStoFASTA:main
