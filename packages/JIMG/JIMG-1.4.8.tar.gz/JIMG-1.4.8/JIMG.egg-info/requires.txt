@@ -1,0 +1,12 @@
+regex
+pandas
+numpy
+more-itertools
+opencv-python
+matplotlib
+Pillow
+tqdm
+tifffile
+joblib
+tk
+scikit-image
