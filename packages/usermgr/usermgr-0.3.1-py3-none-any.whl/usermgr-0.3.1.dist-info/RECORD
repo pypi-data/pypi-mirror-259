@@ -1,0 +1,10 @@
+usermgr/Factory.py,sha256=kl8RwlNxPq3727ZaJc5a5vIWD5vp4KKJ5b4SytHctAQ,339
+usermgr/__init__.py,sha256=TZkGuMIRSRmUY3XCIs5owt2o60vXyqYMHWIkhx65uYE,22
+usermgr/base.py,sha256=rIiOVd2KAS0RCInG15IFIT2SWo-Db4qMPaZSBdtUB1Y,994
+usermgr/providers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+usermgr/providers/cognito.py,sha256=_N4P0K-NCi_cIMwJh5Dt9WGCNjqckBS3Zt3PjhQJtFA,3652
+usermgr/providers/lambda.py,sha256=4F_fZrGEiuXhQ4is9VbAMF6sbYFsfWQY_AbUslshgK8,2217
+usermgr-0.3.1.dist-info/LICENSE,sha256=8B_Uti2dFMQy4jOETgRywa-I6Sfy0gxVG7UPJ1M2UNc,1063
+usermgr-0.3.1.dist-info/METADATA,sha256=-w1lzotjk2j-bzeA9GFQuXk3-SuVUdjo2f8p_qXebkg,5342
+usermgr-0.3.1.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+usermgr-0.3.1.dist-info/RECORD,,
