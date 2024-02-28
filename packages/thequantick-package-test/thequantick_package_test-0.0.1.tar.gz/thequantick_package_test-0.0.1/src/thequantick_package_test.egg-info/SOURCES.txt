@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/example_package_mchiuminatto/__init__.py
+src/example_package_mchiuminatto/example.py
+src/thequantick_package_test.egg-info/PKG-INFO
+src/thequantick_package_test.egg-info/SOURCES.txt
+src/thequantick_package_test.egg-info/dependency_links.txt
+src/thequantick_package_test.egg-info/requires.txt
+src/thequantick_package_test.egg-info/top_level.txt
