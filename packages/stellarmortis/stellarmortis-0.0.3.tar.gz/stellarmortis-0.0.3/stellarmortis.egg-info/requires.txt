@@ -1,0 +1,9 @@
+numpy
+pandas
+matplotlib
+ebfpy
+galpy
+astropy
+requests
+astroquery
+ray[default]
