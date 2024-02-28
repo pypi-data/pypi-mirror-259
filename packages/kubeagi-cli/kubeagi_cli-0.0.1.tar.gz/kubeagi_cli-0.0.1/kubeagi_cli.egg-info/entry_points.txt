@@ -1,0 +1,2 @@
+[console_scripts]
+convert = kubeagi_cli.cli:app

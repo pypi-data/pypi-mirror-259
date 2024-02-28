@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.py
+kubeagi_cli/__init__.py
+kubeagi_cli/cli.py
+kubeagi_cli.egg-info/PKG-INFO
+kubeagi_cli.egg-info/SOURCES.txt
+kubeagi_cli.egg-info/dependency_links.txt
+kubeagi_cli.egg-info/entry_points.txt
+kubeagi_cli.egg-info/requires.txt
+kubeagi_cli.egg-info/top_level.txt

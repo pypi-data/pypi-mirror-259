@@ -1,0 +1,30 @@
+[build-system]
+requires = [
+    "setuptools>=61.0",
+    "setuptools-scm"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kubeagi_cli"
+version = "0.0.1"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "typer==0.9.0",
+]
+
+[project.optional-dependencies]
+dev = ["black==23.3.0", "pylint==3.1.0"]
+
+[project.urls]
+Homepage = "https://github.com/kubeagi/core-library"
+Issues = "https://github.com/kubeagi/core-library/issues"
+
+[project.scripts]
+convert = "kubeagi_cli.cli:app"
