@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: learntester
+Version: 3.6
+Summary: virtual coin & task management for mobile app (specially for indonesia)
+Home-page: https://github.com/kathjade/learntester
+Maintainer: kath jade
+Maintainer-email: kathjade315@gmail.com
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: wechat
+Requires-Dist: youchat
+Requires-Dist: jsonfield
+Requires-Dist: youhat
+Requires-Dist: simplejson
+Requires-Dist: dicttoxml
+Requires-Dist: xmltodict
+
+virtual coin & task management for mobile app (specially for indonesia)

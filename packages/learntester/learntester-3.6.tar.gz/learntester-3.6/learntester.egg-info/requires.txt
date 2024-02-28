@@ -1,0 +1,8 @@
+requests
+wechat
+youchat
+jsonfield
+youhat
+simplejson
+dicttoxml
+xmltodict
