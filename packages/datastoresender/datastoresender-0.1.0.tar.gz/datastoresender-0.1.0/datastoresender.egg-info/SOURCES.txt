@@ -1,0 +1,13 @@
+README.md
+setup.py
+datastoresender/__init__.py
+datastoresender/client.py
+datastoresender/exceptions.py
+datastoresender/iterutils.py
+datastoresender/model.py
+datastoresender/status.py
+datastoresender.egg-info/PKG-INFO
+datastoresender.egg-info/SOURCES.txt
+datastoresender.egg-info/dependency_links.txt
+datastoresender.egg-info/requires.txt
+datastoresender.egg-info/top_level.txt
