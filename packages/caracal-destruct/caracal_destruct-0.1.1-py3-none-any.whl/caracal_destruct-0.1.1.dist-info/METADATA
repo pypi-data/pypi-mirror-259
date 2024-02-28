@@ -1,0 +1,92 @@
+Metadata-Version: 2.1
+Name: caracal-destruct
+Version: 0.1.1
+Summary: Batch runners for CARACal
+Home-page: https://github.com/caracal-pipeline/adestruction
+License: MIT
+Keywords: Astronomy,Slurm,Pipelines
+Author: sphemakh
+Author-email: sphemakh@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: caracal[all] (>=1.1.3,<2.0.0)
+Requires-Dist: click (>=8.1.3,<9.0.0)
+Requires-Dist: omegaconf (>=2.3.0,<3.0.0)
+Requires-Dist: simple-slurm (>=0.2.6,<0.3.0)
+Requires-Dist: stimela (>=1.7.9,<2.0.0)
+Project-URL: Repository, https://github.com/caracal-pipeline/adestruction
+Description-Content-Type: text/x-rst
+
+============
+adestruction
+============
+
+A Destruction of CARACals: Batch runners for CARACal
+
+==============
+Installation
+==============
+Installation from source_,
+working directory where source is checked out
+
+.. code-block:: bash
+  
+    pip install .
+
+This package is available on *PYPI*, allowing
+
+.. code-block:: bash
+  
+    pip install caracal-destruct
+
+=====
+Usage
+=====
+
+.. code-block:: bash
+
+    caracal-destruct --help
+
+.. code-block:: bash
+
+    Usage: caracal-destruct [OPTIONS] CONFIG_FILE
+
+    A destruction of CARACals: Batch runners for CARACal
+
+    CONFIG_FILE: CARACal configuration file
+
+  Options:
+    -bc, --batch-config FILE  YAML file with batch configuration. Generated
+                              automatically if unspecified.  [required]
+    -nb, --nband INTEGER      Number of frequency bands to split data into
+    -b, --bands TEXT          CASA-style comma separated bands (or spws) to
+                              parallize the pipeline over. Overide -nb/--nband.
+                              Example, '0:0~1023,0:1024~2048'
+    -s, --skip TEXT           Skip the listed steps. Specify as a comma
+                              separated list of integers (starting from zero) or
+                              ms names/paths.
+    --help                    Show this message and exit.
+
+=======
+License
+=======
+
+This project is licensed under the GNU General Public License v3.0 - see license_ for details.
+
+=============
+Contribute
+=============
+
+Contributions are always welcome! Please ensure that you adhere to our coding
+standards pep8_.
+
+.. _license: https://github.com/caracal-pipeline/adestruction/blob/main/LICENSE
+.. _pep8: https://www.python.org/dev/peps/pep-0008
+.. _source: https://github.com/caracal-pipeline/adestruction
+
