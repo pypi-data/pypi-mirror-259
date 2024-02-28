@@ -1,0 +1,16 @@
+main.py,sha256=Wi6jI6M6JWQSZo4ZUZBbVqur_tW4C49H_DbfTx3VeNs,6092
+css/app.css,sha256=2X58wxveT6RlX6gc3-AXeaRDH2zajGICA8mMv2ULt6Q,15449
+images/android-chrome-192x192.png,sha256=pdYC1VYgkHL-VaoEfwtKqvigRyi2Fn7myfDITnB3Rf8,53900
+images/android-chrome-512x512.png,sha256=a2xAYUiADTWMrcD2Fpws1cMY7qD_0Rm9_fAcZJu9wIg,326967
+images/apple-touch-icon.png,sha256=eQAF60xLO2YtPANUaQ5Ebv_iD2CqVX1Q6VPZkt6grQ0,48086
+images/favicon-16x16.png,sha256=7AftLVCyCjioVCTma8-xQW771DWPQFMvnUHMYqcKrxM,714
+images/favicon-32x32.png,sha256=wrDfnix0QensRrn7m3UO-aWmSprBC9keTn_jSJzXxdI,2247
+images/favicon.ico,sha256=BH2h1poVdiDyHpzigYRzS2__LQ2_Ey4xVU-3NH3_JgM,15406
+images/site.webmanifest,sha256=ep4Hzh9zhmiZF2At3Fp1dQrYQuYF_3ZPZxc1KcGBvwQ,263
+js/htmx.min.js,sha256=s73PXHQYl6U2SLEgf_8EaaDWGQFCm6H26I-Y69hOZp4,47755
+js/sse.js,sha256=mBTB0AX9JnTj7hW6iHNXlo-bklUzE4DwGxm2E6WFZTg,9533
+kiezbox_messages-0.2.dist-info/LICENSE,sha256=CpAmLAkBYjqN8nAPuFqpCgE3qsPWOHi3pnKv4eGH0Jo,1076
+kiezbox_messages-0.2.dist-info/METADATA,sha256=5Ig4I1EOpgMQSx_Zx0ZXBko7DsdViwZP2W5rwmbc_Vw,3473
+kiezbox_messages-0.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+kiezbox_messages-0.2.dist-info/top_level.txt,sha256=ptvQmpgIY4htOQEKFSx2v98Z1btLWqDWK7x2WFiAYo8,19
+kiezbox_messages-0.2.dist-info/RECORD,,
