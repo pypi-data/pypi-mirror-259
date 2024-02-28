@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+descartes/__init__.py
+descartes/descartes.py
+descartes/utils.py
+descartesfunc.egg-info/PKG-INFO
+descartesfunc.egg-info/SOURCES.txt
+descartesfunc.egg-info/dependency_links.txt
+descartesfunc.egg-info/requires.txt
+descartesfunc.egg-info/top_level.txt
