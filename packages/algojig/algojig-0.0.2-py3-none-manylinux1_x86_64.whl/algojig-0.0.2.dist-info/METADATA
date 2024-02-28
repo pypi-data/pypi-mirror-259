@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: algojig
+Version: 0.0.2
+Summary: A testing jig for the Algorand Virtual Machine.
+Home-page: https://github.com/Hipo/algojig
+License: MIT
+Keywords: algorand teal tealish
+Platform: macos-arm64
+Platform: linux-x64
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+License-File: LICENSE
+Requires-Dist: py-algorand-sdk >=2.0.0
+
