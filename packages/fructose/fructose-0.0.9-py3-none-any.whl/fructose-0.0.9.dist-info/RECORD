@@ -1,0 +1,11 @@
+fructose/__init__.py,sha256=zpfnWqANd3OHGWm7NCF5Y6m01BWG4NkNk8SK9Ex48nA,18
+fructose/ai.py,sha256=ahJ2h0ujI3IPciSD5qjTLMMijdU95kfuYC6QqFAUvPQ,7317
+fructose/function_helpers.py,sha256=xrXP4_PXsAk7aK76wmH6gvmvavxUxOO76Y95-n8IBzs,2258
+fructose/type_parser.py,sha256=3peAXG0QC3MfXdbSenMKEBRjDj6weDrEF4cKVmsWplo,6127
+fructose/templates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fructose/templates/chain_of_thought_json.jinja,sha256=_tqMrKCZ_fhALIDPmwTt5kQQSsLyvORWaI1y6bsssEQ,556
+fructose/templates/__pycache__/__init__.cpython-39.pyc,sha256=1A_ktPrOWdA37_YzuWdFiVJy3kQ4AkTAoYiGtG9LV_g,156
+fructose-0.0.9.dist-info/METADATA,sha256=0XEqZzgjlTgUiOe0zcs8DFS065hjzDm2v7XZ2kgnL3E,293
+fructose-0.0.9.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+fructose-0.0.9.dist-info/top_level.txt,sha256=xeL_HEHrB8iu2VRnnbDC2D3yCfhWr_A4HNCOEWvZg2g,9
+fructose-0.0.9.dist-info/RECORD,,
