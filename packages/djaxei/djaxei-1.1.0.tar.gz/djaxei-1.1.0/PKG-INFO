@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: djaxei
+Version: 1.1.0
+Summary: A django admin extension for importing exporting records from/to xls/ods
+Home-page: https://github.com/GigiusB/djaxei.git
+License: MIT
+Keywords: xls
+Author: Giovanni Bronzini
+Author-email: g.bronzini@gmail.com
+Requires-Python: >=3.8.7,<4
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: django (>=3.2,<5)
+Requires-Dist: openpyxl (>=3.0.0)
+Requires-Dist: pytz (>=2024.1,<2025.0)
+Project-URL: Repository, https://github.com/GigiusB/djaxei.git
+Description-Content-Type: text/markdown
+
+# A django admin extension for importing exporting records from/to xls/ods
+
+A Python library project using:
+* pytest
+* flake8
+* tox
+* bumpversion
+* isort
+
+* Free software: MIT license
+* Documentation: __TBD__
+
+
+# Features
+
+- Requires Python >=3.8, Django>=3.2
+- Currently work only with xlsxwriter
+
+- Could help if use [direnv](https://direnv.net/) in dev environment
+
+# Contributing
+
+See [demo](tests%2Fdemo) in tests folder
+
+* TODO
+
+# Dev setup
+
+1. install direnv
+2. install pyenv
+3. clone project: `git clone https://github.com/GigiusB/djaxei.git`
+4. `cd djaxei`
+5. ```pyenv install `cat .python-version` ```
+6. `pip install -U poetry` # this should install poetry in your pyenv python
+7. `cp .env.example .env`
+8. `cp .envrc.example .envrc`
+9. `direnv allow`
+10. ```poetry env use `pyenv which python` ```
+11. `cd .. ; cd -`  # see if it loads the env
+12. poetry install
+13. pytest
+
+Credits
+-------
+
+
