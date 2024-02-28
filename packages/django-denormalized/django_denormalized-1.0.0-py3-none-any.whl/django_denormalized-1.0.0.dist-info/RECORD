@@ -1,0 +1,9 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+denormalized/__init__.py,sha256=9128amoaBQ2-isWsOGqEY7Mjdp_fl0fg7B03-rliC2E,210
+denormalized/models.py,sha256=jxqUpsOdtNto_Z6Iok08v1ry0ORqdCOexQBP4WaGfSc,6319
+denormalized/tracker.py,sha256=ISkrGNsacaYSxz-O_XB49DQx2eKihnEXAfiz2wehOcg,9716
+denormalized/types.py,sha256=sQAl8EaCCWPwHMPMH5n74xKoyWODg3m-yh21DG2iydg,417
+django_denormalized-1.0.0.dist-info/METADATA,sha256=fTIGNA-UPVktC5HvvDXT8FHh-xJOAlR3Coy-nyu_7jw,2281
+django_denormalized-1.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+django_denormalized-1.0.0.dist-info/top_level.txt,sha256=sso1yHjUE-QbZOqmxOUi_YAG3w6MxKfcPQbZ52GNShs,22
+django_denormalized-1.0.0.dist-info/RECORD,,
