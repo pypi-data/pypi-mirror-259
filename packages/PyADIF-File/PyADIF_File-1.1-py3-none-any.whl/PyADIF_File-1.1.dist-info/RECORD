@@ -1,0 +1,11 @@
+adif_file/__init__.py,sha256=NsUZ9mC20H5ddt10NwsYuOibkEfZCV5iZ5NIAAjoQCg,450
+adif_file/__version__.py,sha256=xQ0nd0LZKCC0X22uhN_qo0CXOraoYxG_xoconeZ9fBA,57
+adif_file/adi.py,sha256=-M4kWVZHirtTY2ZHEVEs9qdRUPksI2XsRWBY4e-xSHI,9968
+adif_file/adx.py,sha256=tUh-YAayXq9YeXXxzFq2cZyCC8axtbp0fDBFLQHfA48,4191
+adif_file/xsd/adx314.xsd,sha256=RuPJj09Qe_riFwE2I5_nn5iIkCTQx-JG_Ql_HnRfj2I,43100
+adif_file/xsd/adx314generic.xsd,sha256=mPSnyq6ygQW6mRGq3zJxcD7214smjNz3A3yc9HK1dVg,42694
+PyADIF_File-1.1.dist-info/LICENSE,sha256=fwSM8CBxjEI404aGGj8Gfv6T9i8hOsbiAO7mAdPG5Ck,154
+PyADIF_File-1.1.dist-info/METADATA,sha256=M51jb456zA3KScCLEiZxxTRLSe1eA9za8sQ0o3O-O_E,3798
+PyADIF_File-1.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+PyADIF_File-1.1.dist-info/top_level.txt,sha256=4-98d_rd0st-HnamHw8MHVhbJRgbkXQrHb34_tn2Mhg,10
+PyADIF_File-1.1.dist-info/RECORD,,
