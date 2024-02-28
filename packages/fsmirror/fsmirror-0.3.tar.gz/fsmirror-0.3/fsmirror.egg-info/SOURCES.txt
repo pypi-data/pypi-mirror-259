@@ -1,0 +1,11 @@
+README.md
+setup.py
+fsmirror/__init__.py
+fsmirror/fs_mirror.py
+fsmirror.egg-info/PKG-INFO
+fsmirror.egg-info/SOURCES.txt
+fsmirror.egg-info/dependency_links.txt
+fsmirror.egg-info/not-zip-safe
+fsmirror.egg-info/requires.txt
+fsmirror.egg-info/top_level.txt
+tests/test_mirror.py
