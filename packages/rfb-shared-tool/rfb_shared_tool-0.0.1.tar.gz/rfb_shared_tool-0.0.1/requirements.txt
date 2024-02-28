@@ -1,0 +1,4 @@
+posix-ipc>=1.1.1
+PyYAML>=6.0.1
+rfb-config-tool>=0.0.1
+rfb-logger-tool>=0.0.1
