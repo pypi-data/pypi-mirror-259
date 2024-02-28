@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: babeltalk
+Version: 0.1.0
+Summary: Default template for PDM package
+Home-page: 
+Author: 
+Author-email: lili <fancyerii@gmail.com>
+License: MIT
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch >=2.2.1
+Requires-Dist: torchvision >=0.17.1
+Requires-Dist: torchaudio >=2.2.1
+Requires-Dist: transformers >=4.38.1
+Requires-Dist: datasets >=2.17.1
+Requires-Dist: gradio >=4.19.2
+
+# babeltalk
+BabelTalk, A speech to speech chatbot from ESL learning.

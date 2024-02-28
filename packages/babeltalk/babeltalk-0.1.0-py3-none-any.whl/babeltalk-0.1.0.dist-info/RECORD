@@ -1,0 +1,13 @@
+babeltalk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+babeltalk/asr/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+babeltalk/asr/asr.py,sha256=a9u_aP61JIj2jJIVd-srw5R5DW4xfezVVOLMuCLnSmw,706
+babeltalk/nlp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+babeltalk/tts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+babeltalk/tts/tts.py,sha256=Jdwyy-e9YaOFcVKwJcLYeSLaYfeYWTDiYBYlRs3j-wA,1224
+babeltalk/ui/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+babeltalk/ui/tts_demo.py,sha256=thn2uUqpRWrFfQTTGxoflOTZjfIcepsUPysRkTb5OiU,331
+babeltalk-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+babeltalk-0.1.0.dist-info/METADATA,sha256=tSuQh0FvLvz4HbLwCrTFf6HXOD93Hy_7x_DUwDnAYMU,525
+babeltalk-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+babeltalk-0.1.0.dist-info/top_level.txt,sha256=sHsDMBlFijXEzkySgMu_9gmTKgc9w0feFhuvIhPtWWg,10
+babeltalk-0.1.0.dist-info/RECORD,,
