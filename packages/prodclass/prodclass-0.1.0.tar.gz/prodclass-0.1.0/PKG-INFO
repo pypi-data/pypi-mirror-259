@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: prodclass
+Version: 0.1.0
+Summary: Uma biblioteca Python para auxiliar na vetorização e categorização de descrições de produto.
+Home-page: https://github.com/GHDaru/prodclass/tree/master
+Author: Gilsiley Henrique Darú
+Author-email: ghdaru@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pandas>=1.2
+Requires-Dist: numpy>=1.19
+Requires-Dist: scikit-learn>=0.24
+Requires-Dist: matplotlib>=3.3
+Requires-Dist: seaborn>=0.11
+Requires-Dist: statsmodels>=0.12
+
+# Meu Projeto de Modelo
+
+DescriÃ§Ã£o do projeto: Este projeto visa desenvolver, testar e implantar modelos de machine learning para classificaÃ§Ã£o de descriÃ§Ãµes de produtos. Utiliza tÃ©cnicas avanÃ§adas de vetorizaÃ§Ã£o de texto e algoritmos de classificaÃ§Ã£o para prever categorias de produtos baseadas em suas descriÃ§Ãµes.
+
+## Estrutura do Projeto
+
+O projeto estÃ¡ organizado da seguinte forma:
+
+- `data/`: ContÃ©m os datasets usados pelo modelo, incluindo dados brutos (`raw/`) e dados processados (`processed/`).
+- `notebooks/`: Jupyter notebooks para exploraÃ§Ã£o de dados, anÃ¡lises preliminares e prototipagem de modelos.
+- `src/`: CÃ³digo-fonte do projeto, incluindo scripts de manipulaÃ§Ã£o de banco de dados, gestÃ£o de experimentos, modelos de machine learning e funÃ§Ãµes utilitÃ¡rias.
+- `tests/`: Testes automatizados para garantir a qualidade e a confiabilidade do cÃ³digo.
+- `requirements.txt`: Lista de dependÃªncias necessÃ¡rias para executar o projeto.
+- `README.md`: Este arquivo, contendo a documentaÃ§Ã£o do projeto.
+
+### Como usar
+
+1. **InstalaÃ§Ã£o das DependÃªncias**
+
+   Para instalar as dependÃªncias necessÃ¡rias, execute:
+
+   pip install -r requirements.txt
+
+
+2. **PreparaÃ§Ã£o dos Dados**
+
+Coloque seus dados brutos em `data/raw/` e processe-os conforme necessÃ¡rio. O resultado deve ser salvo em `data/processed/` para uso posterior pelo modelo.
+
+3. **ExploraÃ§Ã£o de Dados e Prototipagem**
+
+Use os notebooks em `notebooks/` para explorar os dados e criar protÃ³tipos de modelos.
+
+4. **ExecuÃ§Ã£o do Modelo**
+
+O cÃ³digo-fonte para treinar e avaliar modelos estÃ¡ localizado em `src/`. Veja os scripts especÃ­ficos para instruÃ§Ãµes detalhadas sobre como executar cada modelo.
+
+5. **Testes**
+
+Execute os testes em `tests/` para garantir que as alteraÃ§Ãµes no cÃ³digo nÃ£o quebrem funcionalidades existentes.
+
+### Contribuindo
+
+Sinta-se livre para contribuir com o projeto. Por favor, envie um pull request ou abra uma issue para discutir o que vocÃª gostaria de mudar.
+
+### LicenÃ§a
+
+[Inserir tipo de licenÃ§a aqui] - Veja o arquivo LICENSE para mais detalhes.
+
+
+
