@@ -1,0 +1,7 @@
+kubeagi_cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kubeagi_cli/cli.py,sha256=l1YKUWxDfR_tbPzqN1PpTllMUTw5oEkrNv3vb4IZNsE,1098
+kubeagi_cli-0.0.1.dist-info/METADATA,sha256=-Kupuwghl7O4VPFwCBlyb7bOx7DijBdfIPm3kd-5y08,1081
+kubeagi_cli-0.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+kubeagi_cli-0.0.1.dist-info/entry_points.txt,sha256=W_WuISoaGrBZym_ncurChv4O86YzuVomyUc8RJMAVgM,48
+kubeagi_cli-0.0.1.dist-info/top_level.txt,sha256=0z9u37SgsCAaxpQqfhDltWRFI2TQ6bOXs4wRRI1diQM,12
+kubeagi_cli-0.0.1.dist-info/RECORD,,
