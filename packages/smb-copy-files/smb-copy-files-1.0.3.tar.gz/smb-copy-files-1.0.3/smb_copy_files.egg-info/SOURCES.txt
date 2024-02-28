@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+setup.py
+python_scripts/constants.py
+python_scripts/global_functions.py
+python_scripts/smb_file_puller.py
+python_scripts/smb_file_pusher.py
+smb_copy_files.egg-info/PKG-INFO
+smb_copy_files.egg-info/SOURCES.txt
+smb_copy_files.egg-info/dependency_links.txt
+smb_copy_files.egg-info/namespace_packages.txt
+smb_copy_files.egg-info/requires.txt
+smb_copy_files.egg-info/top_level.txt
+smb_copy_files.egg-info/zip-safe
