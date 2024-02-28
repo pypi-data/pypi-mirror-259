@@ -1,0 +1,13 @@
+Click>=6.0
+gdown
+matplotlib
+numpy
+pyshp
+richdem
+scikit-image
+scipy
+whitebox
+
+[all]
+geopandas
+rasterio
