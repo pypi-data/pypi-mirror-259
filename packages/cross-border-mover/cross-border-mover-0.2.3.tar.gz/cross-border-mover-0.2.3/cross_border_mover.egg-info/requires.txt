@@ -1,0 +1,10 @@
+numpy
+boto3
+Pillow
+pandas
+webuiapi
+selenium
+amazon_mws
+deep_translator
+webdriver_manager
+chromedriver_autoinstaller
