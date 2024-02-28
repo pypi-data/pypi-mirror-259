@@ -1,0 +1,7 @@
+LICENSE.txt
+README.md
+setup.py
+gamma_simulator.egg-info/PKG-INFO
+gamma_simulator.egg-info/SOURCES.txt
+gamma_simulator.egg-info/dependency_links.txt
+gamma_simulator.egg-info/top_level.txt
