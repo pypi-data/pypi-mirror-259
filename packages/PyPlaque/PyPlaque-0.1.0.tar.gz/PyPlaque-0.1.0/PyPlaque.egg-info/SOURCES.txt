@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+PyPlaque/__init__.py
+PyPlaque.egg-info/PKG-INFO
+PyPlaque.egg-info/SOURCES.txt
+PyPlaque.egg-info/dependency_links.txt
+PyPlaque.egg-info/requires.txt
+PyPlaque.egg-info/top_level.txt
+PyPlaque/experiment/experimentCVP.py
+PyPlaque/experiment/experimentFP.py
+PyPlaque/phenotypes/CrystalVioletPlaque.py
+PyPlaque/phenotypes/FluorescencePlaque.py
+PyPlaque/specimen/PlaquesImageGray.py
+PyPlaque/specimen/PlaquesImageRGB.py
+tests/test_utils.py
