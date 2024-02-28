@@ -1,0 +1,5 @@
+pydantic
+pyyaml>=6.0.1
+
+[dev]
+pytest
