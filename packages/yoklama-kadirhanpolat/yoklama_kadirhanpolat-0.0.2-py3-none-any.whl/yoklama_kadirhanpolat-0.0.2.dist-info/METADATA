@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: yoklama_kadirhanpolat
+Version: 0.0.2
+Summary: A package creating an excel table containing the course attendance list from an existing excel table
+Project-URL: Homepage, https://github.com/kadirhanpolat/Yoklama
+Project-URL: Issues, https://github.com/kadirhanpolat/Yoklama/issues
+Author-email: Kadirhan Polat <kadirhanpolat@hotmail.com>
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+This package creates an excel document containing the semester course attendance list using the student information table stored in an excel document.
