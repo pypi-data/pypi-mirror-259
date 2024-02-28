@@ -1,0 +1,14 @@
+verification/__init__.py,sha256=F5mW07pSyGrqDNY2Ehr-UpDzpBtN-FsYU0QGZWf6PJE,22
+verification/admin.py,sha256=VGEH6HOnoq7au3mfVqAcRH0TznGfhjAEvgjPO-O27WA,1081
+verification/apps.py,sha256=8qyRKQV_XdVfwJ514njlvclS9PgXDBjTgENd3L5V1R4,139
+verification/forms.py,sha256=NVAGUs2oTOXv1MYNnUylZoqOMMzajpZ1muhBM4KAaMU,186
+verification/generators.py,sha256=XxWPE3A1oaiqdMM1BhbNy_Z7kcqLC9QZUCTJuAQT0qU,6126
+verification/models.py,sha256=avSsRFxMxAjXHwIZCRShBhjd2FRI3DQwRHw36aJWBcU,7042
+verification/signals.py,sha256=lcaeLWhYsS7xKuVksiIOgZRK9qZs_uWYdZHiCUeMgt0,167
+verification/urls.py,sha256=nBJnE0h7IACWRiB5eThcm3QrWaE63IDyF_HHrCwFJmE,345
+verification/views.py,sha256=BAzR4P0O5eHJQnEKxHEiSXckkgxD0V5lz5SxZf1u1aA,5378
+verification/migrations/0001_initial.py,sha256=88g9n56MEtildAs9IlnNp87sgXpxYAmDQDbUc1U5PaY,4182
+verification/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_verification-1.3.0.dist-info/METADATA,sha256=Ulv0xiYDPXzFvv_zrEsGdVeEhv3Cdq9fVG-LJy0JxaQ,4087
+django_verification-1.3.0.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+django_verification-1.3.0.dist-info/RECORD,,
