@@ -1,0 +1,15 @@
+{
+  "type": ["null", "object"],
+  "properties": {
+    "id": { "type": ["number", "null"] },
+    "branchName": { "type": ["string", "null"] },
+    "address": { "type": ["string", "null"] },
+    "locationName": { "type": ["string", "null"] },
+    "wardName": { "type": ["string", "null"] },
+    "contactNumber": { "type": ["string", "null"] },
+    "retailerId": { "type": ["number", "null"] },
+    "email": { "type": ["string", "null"] },
+    "modifiedDate": { "type": ["string", "null"], "format": "date-time" },
+    "createdDate": { "type": ["string", "null"], "format": "date-time" }
+  }
+}

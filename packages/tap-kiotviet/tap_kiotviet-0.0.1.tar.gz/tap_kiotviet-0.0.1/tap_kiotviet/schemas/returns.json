@@ -1,0 +1,36 @@
+{
+  "type": ["null", "object"],
+  "properties": {
+    "id": { "type": ["number", "null"] },
+    "code": { "type": ["string", "null"] },
+    "invoiceId": { "type": ["number", "null"] },
+    "returnDate": { "type": ["string", "null"], "format": "date-time" },
+    "branchId": { "type": ["number", "null"] },
+    "branchName": { "type": ["string", "null"] },
+    "receivedById": { "type": ["number", "null"] },
+    "soldByName": { "type": ["string", "null"] },
+    "customerId": { "type": ["number", "null"] },
+    "customerCode": { "type": ["string", "null"] },
+    "customerName": { "type": ["string", "null"] },
+    "returnTotal": { "type": ["number", "null"] },
+    "returnDiscount": { "type": ["number", "null"] },
+    "totalPayment": { "type": ["number", "null"] },
+    "returnFee": { "type": ["number", "null"] },
+    "status": { "type": ["number", "null"] },
+    "statusValue": { "type": ["string", "null"] },
+    "description": { "type": ["string", "null"] },
+    "modifiedDate": { "type": ["string", "null"], "format": "date-time" },
+    "createdDate": { "type": ["string", "null"], "format": "date-time" },
+    "returnDetails": {
+      "type": ["array", "null"],
+      "properties": {
+        "productId": { "type": ["number", "null"] },
+        "productCode": { "type": ["string", "null"] },
+        "productName": { "type": ["string", "null"] },
+        "quantity": { "type": ["number", "null"] },
+        "price": { "type": ["number", "null"] },
+        "subTotal": { "type": ["number", "null"] }
+      }
+    }
+  }
+}

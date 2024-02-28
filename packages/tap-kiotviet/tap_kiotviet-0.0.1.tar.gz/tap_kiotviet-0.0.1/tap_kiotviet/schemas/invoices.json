@@ -1,0 +1,114 @@
+{
+  "type": ["null", "object"],
+  "properties": {
+    "id": { "type": ["number", "null"] },
+    "code": { "type": ["string", "null"] },
+    "uuid": { "type": ["string", "null"] },
+    "branchId": { "type": ["number", "null"] },
+    "branchName": { "type": ["string", "null"] },
+    "createdDate": { "type": ["string", "null"], "format": "date-time" },
+    "customerCode": { "type": ["string", "null"] },
+    "customerName": { "type": ["string", "null"] },
+    "customerId": { "type": ["number", "null"] },
+    "orderCode": { "type": ["string", "null"] },
+    "description": { "type": ["string", "null"] },
+    "discount": { "type": ["number", "null"] },
+    "discountRatio": { "type": ["number", "null"] },
+    "modifiedDate": { "type": ["string", "null"], "format": "date-time" },
+    "purchaseDate": { "type": ["string", "null"], "format": "date-time" },
+    "retailerId": { "type": ["number", "null"] },
+    "soldById": { "type": ["number", "null"] },
+    "soldByName": { "type": ["string", "null"] },
+    "status": { "type": ["number", "null"] },
+    "statusValue": { "type": ["string", "null"] },
+    "total": { "type": ["number", "null"] },
+    "totalPayment": { "type": ["number", "null"] },
+    "usingCod": { "type": ["boolean", "null"] },
+    "PriceBookId": { "type": ["number", "null"] },
+    "Extra": { "type": ["string", "null"] },
+    "SaleChannelId": { "type": ["number", "null"] },
+    "SaleChannelName": { "type": ["string", "null"] },
+    "payments": {
+      "type": ["array", "null"],
+      "properties": {
+        "id": { "type": ["number", "null"] },
+        "code": { "type": ["string", "null"] },
+        "amount": { "type": ["number", "null"] },
+        "method": { "type": ["number", "null"] },
+        "status": { "type": ["number", "null"] },
+        "statusValue": { "type": ["string", "null"] },
+        "description": { "type": ["string", "null"] },
+        "transDate": { "type": ["string", "null"], "format": "date-time" },
+        "bankAccount": { "type": ["string", "null"] },
+        "accountId": { "type": ["number", "null"] }
+      }
+    },
+    "invoice_details": {
+      "type": ["array", "null"],
+      "properties": {
+        "productId": { "type": ["number", "null"] },
+        "returnQuantity": { "type": ["number", "null"] },
+        "productCode": { "type": ["string", "null"] },
+        "productName": { "type": ["string", "null"] },
+        "quantity": { "type": ["number", "null"] },
+        "price": { "type": ["number", "null"] },
+        "discountRatio": { "type": ["number", "null"] },
+        "discount": { "type": ["number", "null"] },
+        "note": { "type": ["string", "null"] },
+        "serialNumbers": { "type": ["number", "null"] },
+        "subTotal": { "type": ["number", "null"] }
+      }
+    },
+    "invoiceDelivery": {
+      "type": ["array", "null"],
+      "properties": {
+        "serviceType": { "type": ["string", "null"] },
+        "serviceTypeText": { "type": ["string", "null"] },
+        "status": { "type": ["number", "null"] },
+        "statusValue": { "type": ["string", "null"] },
+        "latestStatus": { "type": ["string", "null"] },
+        "deliveryCode": { "type": ["number", "null"] },
+        "priceCodPayment": { "type": ["number", "null"] },
+        "usingPriceCod": { "type": ["boolean", "null"] },
+        "type": { "type": ["number", "null"] },
+        "price": { "type": ["number", "null"] },
+        "receiver": { "type": ["string", "null"] },
+        "contactNumber": { "type": ["string", "null"] },
+        "address": { "type": ["string", "null"] },
+        "locationId": { "type": ["number", "null"] },
+        "locationName": { "type": ["string", "null"] },
+        "wardName": { "type": ["string", "null"] },
+        "wardId": { "type": ["number", "null"] },
+        "weight": { "type": ["number", "null"] },
+        "length": { "type": ["number", "null"] },
+        "width": { "type": ["number", "null"] },
+        "height": { "type": ["number", "null"] },
+        "expectedDelivery": { "type": ["string", "null"] },
+        "partnerDeliveryId": { "type": ["number", "null"] },
+        "partnerDelivery": {
+          "type": ["array", "null"],
+          "properties": {
+            "code": { "type": ["string", "null"] },
+            "name": { "type": ["string", "null"] },
+            "address": { "type": ["string", "null"] },
+            "contactNumber": { "type": ["string", "null"] },
+            "email": { "type": ["string", "null"] }
+          }
+        }
+      }
+    },
+
+    "invoiceOrderSurcharges": {
+      "type": ["array", "null"],
+      "properties": {
+        "id": { "type": ["number", "null"] },
+        "invoiceId": { "type": ["number", "null"] },
+        "surchargeId": { "type": ["number", "null"] },
+        "surchargeName": { "type": ["string", "null"] },
+        "surValue": { "type": ["number", "null"] },
+        "price": { "type": ["number", "null"] },
+        "createdDate": { "type": ["string", "null"], "format": "date-time" }
+      }
+    }
+  }
+}

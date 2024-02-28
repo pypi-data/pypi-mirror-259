@@ -1,0 +1,27 @@
+{
+  "type": ["null", "object"],
+  "properties": {
+    "createdDate": { "type": ["string", "null"], "format": "date-time" },
+    "tradeMarkName": { "type": ["string", "null"] },
+    "tradeMarkId": { "type": ["number", "null"] },
+    "id": { "type": ["number", "null"] },
+    "retailerId": { "type": ["number", "null"] },
+    "code": { "type": ["string", "null"] },
+    "name": { "type": ["string", "null"] },
+    "fullName": { "type": ["string", "null"] },
+    "categoryId": { "type": ["number", "null"] },
+    "categoryName": { "type": ["string", "null"] },
+    "allowsSale": { "type": ["boolean", "null"] },
+    "type": { "type": ["number", "null"] },
+    "hasVariants": { "type": ["boolean", "null"] },
+    "basePrice": { "type": ["number", "null"] },
+    "weight": { "type": ["number", "null"] },
+    "unit": { "type": ["string", "null"] },
+    "conversionValue": { "type": ["number", "null"] },
+    "description": { "type": ["string", "null"] },
+    "modifiedDate": { "type": ["string", "null"], "format": "date-time" },
+    "isActive": { "type": ["boolean", "null"] },
+    "isLotSerialControl": { "type": ["boolean", "null"] },
+    "isBatchExpireControl": { "type": ["boolean", "null"] }
+  }
+}
