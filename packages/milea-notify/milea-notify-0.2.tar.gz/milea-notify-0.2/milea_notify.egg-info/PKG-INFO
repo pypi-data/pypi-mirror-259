@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: milea-notify
+Version: 0.2
+Summary: Milea Framework - Milea Notify Module
+Author: red-pepper-services
+Author-email: pypi@schiegg.at
+License: MIT
+Requires-Dist: milea_base>=0.1
