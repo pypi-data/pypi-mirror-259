@@ -1,0 +1,2 @@
+[console_scripts]
+https://github.com/sklfihggczx/every_hello_tools = run.py:run
