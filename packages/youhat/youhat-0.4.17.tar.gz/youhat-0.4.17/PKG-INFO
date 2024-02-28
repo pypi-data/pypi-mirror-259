@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: youhat
+Version: 0.4.17
+Summary: Wechat Python SDK
+Home-page: https://github.com/jalu017/youchat
+Maintainer: jalu 017
+Maintainer-email: bebeknganjian@gmail.com
+License-File: LICENSE
+Requires-Dist: requests
+
+Wechat Python SDK
