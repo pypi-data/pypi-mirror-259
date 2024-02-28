@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: url_short
+Version: 0.1.0
+Summary: A python module that shorterns urls using TinyURL API, no API token required.
+Project-URL: Homepage, https://github.com/rufus-gh/url-short/
+Project-URL: Issues, https://github.com/rufus-gh/url-short/issues
+Author-email: Rufus Gordon-Heywood <rufus.gordonheywood@education.nsw.gov.au>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+
+# URL Shortener Module
+
+This Python module, `url_short`, is a convenient tool designed to shorten URLs using the TinyURL API. This module aims to provide a simple and efficient way to generate shortened URLs for any given long URL.
+
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Documentation](#documentation)
+- [Features](#features)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Installation
+
+To use the `url_short` module, you can install it via pip from the command line. Ensure that you have the correct Python version (3.x) before installation. The necessary dependencies will be automatically installed when you use pip.
+
+```bash
+pip install url_short
+```
+
+## Usage
+You can utilize the `shorten_url` function provided by the `url_short` module to shorten any given URL using the TinyURL API. Here's a basic example:
+
+```python
+import url_short as u
+
+shortened_url = u.shorten_url('https://www.example.com/very-long-url')
+print(shortened_url)
+# Output: 'https://tinyurl.com/abc123'
+```
+
+## Documentation
+The `url_short` module includes detailed documentation in the form of docstrings. These docstrings offer insights into the module's purpose, function arguments, return values, and usage examples. You can access this documentation using Python's `help()` function or by viewing the docstrings directly in your code editor.
+
+```python
+import url_short as u
+help(u.shorten_url)
+```
+
+## Features
+- **URL Shortening**: The module efficiently shortens long URLs using the TinyURL API.
+- **Error Handling**: Robust error handling ensures smooth operation even in case of invalid URLs.
+- **Customization**: Users can customize the shortened URLs for specific needs.
+- **Documentation**: Detailed docstrings provide comprehensive information for easy understanding and usage.
+
+## Contributing
+Contributions to this project are encouraged! If you wish to enhance the module, fix any issues, or introduce new features, please follow these steps:
+1. Fork the repository.
+2. Create a new branch for your changes.
+3. Implement and thoroughly test your modifications.
+4. Commit your changes and push them to your fork.
+5. Open a pull request against the original repository.
+
+## License
+This project is licensed under the MIT License. For more details, refer to the [LICENSE](LICENSE) file.
+
+Feel free to customize this `README.md` template to suit the specific requirements of your URL shortener module. Good luck with your project!
