@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.cfg
+src/otestefoimeuenaoteu/__init__.py
+src/otestefoimeuenaoteu.egg-info/PKG-INFO
+src/otestefoimeuenaoteu.egg-info/SOURCES.txt
+src/otestefoimeuenaoteu.egg-info/dependency_links.txt
+src/otestefoimeuenaoteu.egg-info/top_level.txt
