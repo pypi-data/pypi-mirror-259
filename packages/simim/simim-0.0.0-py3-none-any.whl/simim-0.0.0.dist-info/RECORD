@@ -1,0 +1,15 @@
+simim/__init__.py,sha256=RSk2ip73hLDmYvZJMVarv-hTwvkPsNXwKLMQWykFvks,184
+simim/_paths.py,sha256=CSVJeUlMZG5x75m3nfiaUZKzRkscPWgxHdfBO6ZkrC0,9386
+simim/siminterface/__init__.py,sha256=ezmekZzW4UquX68-HZxEvnBYgfSf8ma63WXDgUBf-Jg,142
+simim/siminterface/_rawsiminterface.py,sha256=ERxFT4xfXhcLGW8oJWlVs7IQxsCDwNooruGQjiIaVGs,27068
+simim/siminterface/_sims.py,sha256=9Is5v0vecS_uZkR5zv6V_kEwMX635cO_FeYs0jHMXNM,910
+simim/siminterface/illustris.py,sha256=jsbfPvHprAvuFQVLRGYXdSExIvRuP-MOTWwGL47R-vs,25878
+simim/siminterface/illustris_datahandling.py,sha256=6kpEWYFlNic_dn4qdtf_1xu987k4Cl9gVMmDyYmgttk,5393
+simim/siminterface/simhandler.py,sha256=6inPNkNxeeDNMyYBWI2pK87aIyeQMrLZ16a0V8X5Hj0,23542
+simim/siminterface/universemachine.py,sha256=NWW1dNPUHyBHWQcpw1aEAhCb6AiMvKKiZgOav24A7qM,16896
+simim-0.0.0.dist-info/LICENSE,sha256=P-z8iEdlEmPr4lpbpgO7oiIg1uJX2v_0KvQpGyVE3TA,1065
+simim-0.0.0.dist-info/METADATA,sha256=y7PLYz92lX-YuBvzquI3muFVTbTLv9tOc8bVL6U6UOA,2159
+simim-0.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+simim-0.0.0.dist-info/entry_points.txt,sha256=OaLqSz_9rEKwSU9cAUX-nXbm3BslG62NVsnxI9VayzY,48
+simim-0.0.0.dist-info/top_level.txt,sha256=jwzKzvYZ4neiG6W1E70SAp4pnbsUljxYJaPY9b3GADY,6
+simim-0.0.0.dist-info/RECORD,,
