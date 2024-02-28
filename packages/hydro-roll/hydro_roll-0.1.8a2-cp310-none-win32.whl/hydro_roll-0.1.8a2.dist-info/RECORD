@@ -1,0 +1,14 @@
+hydro_roll-0.1.8a2.dist-info/METADATA,sha256=GWalpJKNIH3pclD0KPiKMdngFOtoRsrvism5T2WlWDg,1374
+hydro_roll-0.1.8a2.dist-info/WHEEL,sha256=zWYjyrndoXjOoElok3d6rrB-N0Fv2I_2mGtMRzMv-Lk,91
+hydro_roll-0.1.8a2.dist-info/license_files/LICENSE,sha256=Y_QCynEYV-NuyYPTyhxSzUfT2fzmuxQ3Zc0IKSHzp-c,1092
+hydro_roll/cli.py,sha256=3BhXQYvMtOrbElliJNPoX8cxVHeKf6Ux8eviAAV36L8,6256
+hydro_roll/config.py,sha256=pDu4uBh_DTy14GMjxLSHWdau4y3-8MHsSzhQk4lRj1g,3325
+hydro_roll/exceptions.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hydro_roll/models/hola.pkl,sha256=xTQ9PrjGbnP6-HmgGSL0PoRzJKk428T-n1gY4Xw89S0,209
+hydro_roll/models/utils.py,sha256=Rm9nKgR-s_9G9-8FusNa1x5bqOchyEKshNPOhf7Bqew,407
+hydro_roll/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hydro_roll/typing.py,sha256=TIFyBBJ2th0VSL4DhzCnI9zrbzQyKTlaIttAwkizeKM,899
+hydro_roll/utils.py,sha256=_kbdSbbZLEGsoT_rp_4bzF1PibGHrzWq7mOFmhDznHM,5622
+hydro_roll/__init__.py,sha256=ixRaDobONqiz_4S5XaRsNleg3neb0MHj38WM0eOkv0U,2474
+hydro_roll/hydro_roll.cp310-win32.pyd,sha256=-4h0ShXFhy5qcOoTtOHM4GMJ4UvT2R9qY3eHq0KObGc,199680
+hydro_roll-0.1.8a2.dist-info/RECORD,,
