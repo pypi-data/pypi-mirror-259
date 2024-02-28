@@ -1,0 +1,34 @@
+name: guess
+channels:
+  - conda-forge
+  - nvidia
+dependencies:
+  - python=3.10
+  - numpy=1.23.*
+  - scipy
+  - matplotlib
+  - xarray
+  - metpy
+  - netcdf4
+  - pandas
+  - pyyaml
+  - pytest
+  - pip
+  - pyproj
+  - jupyter
+  - jupyterlab
+  - cartopy
+  - tqdm
+  - seaborn
+  - sphinx
+  - numba
+  - imbalanced-learn
+  - pyarrow
+  - properscoring
+  - pip:
+    - tensorflow[and-cuda]
+    - echo-opt
+    - hagelslag
+    - bridgescaler
+    - -e git+https://github.com/ai2es/ptype-physical.git#egg=ptype
+    - -e .

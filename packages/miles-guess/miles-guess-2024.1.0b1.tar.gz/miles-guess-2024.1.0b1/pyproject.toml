@@ -1,0 +1,52 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "miles-guess"
+authors = [{name = "John Schreck, David John Gagne, Charlie Becker, Gabrielle Gantos", email = "miles@ucar.edu"}]
+readme = "README.md"
+license = {file = "LICENSE"}
+dynamic = ["version"]
+requires-python = ">=3.8"
+dependencies = [
+    "numpy<1.24",
+    "scipy",
+    "matplotlib",
+    "pandas",
+    "xarray",
+    "keras",
+    "scikit-learn",
+    "netcdf4",
+    "pyyaml",
+    "tqdm",
+    "sphinx",
+    "numba",
+    "properscoring",
+    "pyarrow",
+    "imbalanced-learn",
+    "bridgescaler",
+    "echo-opt",
+    "hagelslag",
+    "jupyter",
+    "nbsphinx",
+    "myst_parser",
+    "sphinx_book_theme",
+    "pytest"
+    ]
+
+[project.optional-dependencies]
+tensorflow = ["tensorflow>=2.12"]
+
+tensorflow_gpu = ["tensorflow[and-cuda]"]
+
+torch = ["torch"]
+
+
+
+[tool.setuptools]
+packages = ["mlguess", "mlguess.keras", "mlguess.torch"]
+
+[tool.setuptools.dynamic]
+version = {file = "mlguess/VERSION"}
+readme = {file = ["README.md"]}
