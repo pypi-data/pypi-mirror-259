@@ -1,0 +1,147 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-27 10:32+0100\n"
+"PO-Revision-Date: 2024-02-27 10:33+0100\n"
+"Last-Translator: Manuel Schiegg <mail@schiegg.at>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Translated-Using: django-rosetta 0.10.0\n"
+
+#: .\milea_accounts\admin.py:89 .\milea_accounts\models.py:17
+#: .\milea_accounts\models.py:91
+msgid "Type"
+msgstr "Typ"
+
+#: .\milea_accounts\apps.py:8
+msgid "Accounts"
+msgstr "Kontakte"
+
+#: .\milea_accounts\apps.py:11
+msgid "Configuration"
+msgstr "Konfiguration"
+
+#: .\milea_accounts\models.py:18
+msgid "Logo"
+msgstr "Logo"
+
+#: .\milea_accounts\models.py:19
+msgid "Company name"
+msgstr "Firmenname"
+
+#: .\milea_accounts\models.py:20
+msgid "Street"
+msgstr "Strasse"
+
+#: .\milea_accounts\models.py:21
+msgid "Housenumber"
+msgstr "Hausnummer"
+
+#: .\milea_accounts\models.py:22
+msgid "ZIP"
+msgstr "PLZ"
+
+#: .\milea_accounts\models.py:23
+msgid "City"
+msgstr "Ort"
+
+#: .\milea_accounts\models.py:25
+msgid "Phone"
+msgstr "Telefonnummer"
+
+#: .\milea_accounts\models.py:26
+msgid "E-Mail"
+msgstr "E-Mail Adresse"
+
+#: .\milea_accounts\models.py:27
+msgid "Web"
+msgstr "Web"
+
+#: .\milea_accounts\models.py:28
+msgid "Notes"
+msgstr "Notizen"
+
+#: .\milea_accounts\models.py:29
+msgid "VAT Number"
+msgstr "MwSt Nummer"
+
+#: .\milea_accounts\models.py:37 .\milea_accounts\models.py:45
+msgid "Company"
+msgstr "Unternehmen"
+
+#: .\milea_accounts\models.py:38
+msgid "Companies"
+msgstr "Unternehmen"
+
+#: .\milea_accounts\models.py:46
+msgid "Male"
+msgstr "Herr"
+
+#: .\milea_accounts\models.py:46
+msgid "Female"
+msgstr "Frau"
+
+#: .\milea_accounts\models.py:46
+msgid "Salutation"
+msgstr "Anrede"
+
+#: .\milea_accounts\models.py:47
+msgid "First name"
+msgstr "Vorname"
+
+#: .\milea_accounts\models.py:48
+msgid "Last name"
+msgstr "Nachname"
+
+#: .\milea_accounts\models.py:49
+msgid "Phone number"
+msgstr "Telefonnummer"
+
+#: .\milea_accounts\models.py:50
+msgid "email address"
+msgstr "E-Mail Adresse"
+
+#: .\milea_accounts\models.py:56
+msgid "Full name"
+msgstr "Name"
+
+#: .\milea_accounts\models.py:68
+msgid "Contact"
+msgstr "Kontakt"
+
+#: .\milea_accounts\models.py:69
+msgid "Contacts"
+msgstr "Kontakte"
+
+#: .\milea_accounts\models.py:98
+#| msgid "Contact"
+msgid "Contact type"
+msgstr "Kategorie"
+
+#: .\milea_accounts\models.py:99
+#| msgid "Contacts"
+msgid "Contact types"
+msgstr "Kategorien"
+
+#~ msgid "Customer"
+#~ msgstr "Kunde"
+
+#~ msgid "Agency"
+#~ msgstr "Agentur"
+
+#~ msgid "Supplier"
+#~ msgstr "Lieferant"
+
+#~ msgid "Lead"
+#~ msgstr "Lead"

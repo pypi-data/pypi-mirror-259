@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: milea-accounts
+Version: 0.2
+Summary: Milea Framework - Milea Accounts Module
+Author: red-pepper-services
+Author-email: pypi@schiegg.at
+License: MIT
+Requires-Dist: milea-base >=0.2
+
