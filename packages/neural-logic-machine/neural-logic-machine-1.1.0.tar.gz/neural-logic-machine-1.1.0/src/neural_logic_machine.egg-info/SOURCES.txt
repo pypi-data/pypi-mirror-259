@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/neural_logic_machine/__init__.py
+src/neural_logic_machine/padded_NLM.py
+src/neural_logic_machine/unpadded_NLM.py
+src/neural_logic_machine.egg-info/PKG-INFO
+src/neural_logic_machine.egg-info/SOURCES.txt
+src/neural_logic_machine.egg-info/dependency_links.txt
+src/neural_logic_machine.egg-info/requires.txt
+src/neural_logic_machine.egg-info/top_level.txt
