@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+scMapping.egg-info/PKG-INFO
+scMapping.egg-info/SOURCES.txt
+scMapping.egg-info/dependency_links.txt
+scMapping.egg-info/top_level.txt
