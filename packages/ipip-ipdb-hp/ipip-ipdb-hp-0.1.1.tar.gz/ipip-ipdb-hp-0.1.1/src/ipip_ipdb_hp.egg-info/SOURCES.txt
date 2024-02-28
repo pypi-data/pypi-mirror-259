@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+src/ipdb/__init__.py
+src/ipdb/ipdb.c
+src/ipdb/ipdb.h
+src/ipdb/py-ipdb.c
+src/ipip_ipdb_hp.egg-info/PKG-INFO
+src/ipip_ipdb_hp.egg-info/SOURCES.txt
+src/ipip_ipdb_hp.egg-info/dependency_links.txt
+src/ipip_ipdb_hp.egg-info/top_level.txt
