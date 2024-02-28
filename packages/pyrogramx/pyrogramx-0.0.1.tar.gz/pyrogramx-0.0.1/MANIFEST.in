@@ -1,0 +1,11 @@
+## Include
+include README.md requirements.txt
+recursive-include compiler *.py *.tl *.tsv *.txt
+recursive-include tests *.py
+
+## Exclude
+prune pyrogramx/errors/exceptions
+prune pyrogramx/raw/functions
+prune pyrogramx/raw/types
+prune pyrogramx/raw/base
+exclude pyrogramx/raw/all.py
