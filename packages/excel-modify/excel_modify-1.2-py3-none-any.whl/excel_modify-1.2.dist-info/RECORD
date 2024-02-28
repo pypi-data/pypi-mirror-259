@@ -1,0 +1,9 @@
+excel_modify/__init__.py,sha256=CcSQWj1M4a2oW1CFwj30CJUtFvWJQT1GBxYovaZNT98,170
+excel_modify/edit_excel.py,sha256=Q031GOQGB4fYTXmD8VnoH_gpSfYD0nMLdOnkhqgXbAQ,1468
+excel_modify/edit_main_comment.py,sha256=IoOE9hqUoN18R-jSRPISIMSZrBAL7GnZGwwqpZ4M7VY,2129
+excel_modify/edit_shared_comment.py,sha256=doI0xTMXEHtmbYPAmsYtxNtqroilNWRYgzcncxyf7mM,693
+excel_modify/excel_mode.py,sha256=gU8SJYRO0Jy_UnNdE4v6kK4uPfe3IdtKuFXUfQgCFDo,676
+excel_modify-1.2.dist-info/METADATA,sha256=SPfB4lPmlSZmCToqYHtfz0yU8XKR4R1CHCLSgJhWKSU,2003
+excel_modify-1.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+excel_modify-1.2.dist-info/top_level.txt,sha256=DUj5SXfm39Itm3Mw0EVRWm-GlpMM2M8s63_BOsyl-bg,13
+excel_modify-1.2.dist-info/RECORD,,
