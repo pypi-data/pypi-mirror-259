@@ -1,0 +1,7 @@
+scipy
+xsarsea
+xarray
+h5netcdf
+xarray-datatree
+importlib_resources
+tqdm
