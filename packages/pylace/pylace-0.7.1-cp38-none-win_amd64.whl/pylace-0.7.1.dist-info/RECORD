@@ -1,0 +1,16 @@
+pylace-0.7.1.dist-info/METADATA,sha256=c02xuZubaDGLdaxBSJy1zEPjeXm3dJ50F0PcZja9APw,2798
+pylace-0.7.1.dist-info/WHEEL,sha256=ka_xdhjDAD0jh7O0gmPsH4oeiJakrFO0KRJuSdbS2v8,95
+pylace-0.7.1.dist-info/license_files/LICENSE,sha256=VyJWu_H4M9FeEUzrKkvOCbZjvo7mUuiM6oCYXnNlpc4,5310
+lace/analysis.py,sha256=kXeGCW7nWFFvtV7uWxnQ_jv4u40gZpx7qkvXxauN-CY,36893
+lace/codebook.py,sha256=6R7FgfJ-yjKRMf1_knViZS7F0sCtCr7fDfI6bQsXW_k,13983
+lace/engine.py,sha256=mf5nFaziruYUnFIzDIscZ9VILwLU1UOjWX8jasisKz8,95081
+lace/examples.py,sha256=rsWTbZNKgwv_N8_dXz93-e383rqHJocTX82PWdgtsOY,4913
+lace/plot.py,sha256=_BeSuVPNLkjAkCbUDkKVDdTskotqVPeZ1rGcz0UphbU,18041
+lace/resources/datasets/animals/codebook.yaml,sha256=_byZzbjcN9CBgqvyxlZOWDC9bAXKJSK0xE-xUS9HoG8,18238
+lace/resources/datasets/animals/data.csv,sha256=6L2q9RRnkMYQie-LC9aXM2muR2Fc75JMQEVBYm6P5Lc,9569
+lace/resources/datasets/satellites/codebook.yaml,sha256=PCSkqkijO4xawkW5KYQ4BBbYRb7TLdLyY1hbWQTlf8k,57452
+lace/resources/datasets/satellites/data.csv,sha256=wE0Q18AuzuoW8cB0OakVFkt_zeokDspEGgx5F6SZj7I,242282
+lace/utils.py,sha256=ErFZgejoPxjcntgyqzJ6jZW9xfBYMV5N3I39zal6hx4,5496
+lace/__init__.py,sha256=EYz1nvmppXrtwStbTVCWRl_RZfugkJv6c1fGazVK_RI,813
+lace/core.cp38-win_amd64.pyd,sha256=ZKwgradbWyXsVF7de1PNFPvB9nbfeBjwIl91ZoOK9X8,17705472
+pylace-0.7.1.dist-info/RECORD,,
