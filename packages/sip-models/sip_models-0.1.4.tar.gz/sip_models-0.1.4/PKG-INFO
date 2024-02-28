@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: sip_models
+Version: 0.1.4
+Summary: Spectral induced polarization (SIP) models based on the Cole-Cole model
+Home-page: https://github.com/m-weigand/sip_models
+Author: Maximilian Weigand
+Author-email: mweigand@geo.uni-bonn.de
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Intended Audience :: Science/Research
+License-File: LICENCE
