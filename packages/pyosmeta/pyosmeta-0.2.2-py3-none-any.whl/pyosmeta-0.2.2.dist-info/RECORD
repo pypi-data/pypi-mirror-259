@@ -1,0 +1,14 @@
+pyosmeta/__init__.py,sha256=_KljYc2BUes4CU0Zxc9xe-7aVRuOeTA1WtYQGyJa4Qo,423
+pyosmeta/_version.py,sha256=RrHB9KG1O3GPm--rbTedqmZbdDrbgeRLXBmT4OBUqqI,411
+pyosmeta/contributors.py,sha256=Cp6jQrhrxp7QkNY6g6Z4nBxluR9Lg4WQtG0zIGfN6F0,14784
+pyosmeta/file_io.py,sha256=7FFAPcLtGwdTmUM9vA2aIUzjfvDZAZtGbYgn5yDIKmI,4882
+pyosmeta/parse_issues.py,sha256=rsIj5ttcRHyPqpOU2-zgTg1VJyIQuovj298Ula6GPyA,25533
+pyosmeta/cli/parse_history.py,sha256=NeS7q30xs61v1kALJyA8Xk1sFRAQDCX91zRTcTmUJbM,2459
+pyosmeta/cli/process_reviews.py,sha256=8dubXnt82hQxU_tO0iRJyqbHd9_EGZTVX47YoMlwYNQ,1888
+pyosmeta/cli/update_contributors.py,sha256=tjmTtQHYvO3x7stvqhBC3QyC1LC3jzZSVS46wfoY1_o,4019
+pyosmeta/cli/update_review_teams.py,sha256=5l6UdRhkBj3Lohnt8XQt-btkeeVEi6WAiDEXLgmDc3I,5569
+pyosmeta-0.2.2.dist-info/METADATA,sha256=6Wk25unS68U4gg8WJFxkJVQat4dliAzvTiKYc7j2HNE,10040
+pyosmeta-0.2.2.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+pyosmeta-0.2.2.dist-info/entry_points.txt,sha256=7mvijJEvKUCaQkXAmIZAF_4zmOGAFOT0y44n_9a8DGE,237
+pyosmeta-0.2.2.dist-info/licenses/LICENSE,sha256=GCeeD2PDenI4xfuoD5r1FfqGRIKtwVbAn2Z3zhPm8Bk,1097
+pyosmeta-0.2.2.dist-info/RECORD,,
