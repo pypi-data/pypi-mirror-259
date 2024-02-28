@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: autotda
+Version: 0.0.1
+Summary: Human in the loop Data Augmentation
+Home-page: https://github.com/delftdata/hci-auto-feat
+Download-URL: https://github.com/delftdata/hci-auto-feat/archive/refs/tags/0.0.1.tar.gz
+Author: Zeger Mouw
+Author-email: z.f.mouw@student.tudelft.nl
+License: MIT
+Keywords: SOME,MEANINGFULL,KEYWORDS
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE.txt
+Requires-Dist: autogluon
+Requires-Dist: deprecation
+Requires-Dist: dsplot
+Requires-Dist: graphviz
+Requires-Dist: ITMO-FS
+Requires-Dist: joblib
+Requires-Dist: matplotlib
+Requires-Dist: neo4j
+Requires-Dist: networkx
+Requires-Dist: notebook
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pydot
+Requires-Dist: pyvis
+Requires-Dist: qpsolvers[daqp]
+Requires-Dist: scikit-learn
+Requires-Dist: seaborn
+Requires-Dist: tqdm
+Requires-Dist: typer
+Requires-Dist: valentine
