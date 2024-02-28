@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: simplebets
+Version: 1.0.1
+Summary: Same Game Multi Engine
+Home-page: https://github.com/JarrodMccarthy/SimpleBets.git
+Author: Jarrod McCarthy
+Platform: any
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: trueskill ==0.4.5
+
