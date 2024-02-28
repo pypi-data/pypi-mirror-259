@@ -1,0 +1,11 @@
+LICENSE
+README.MD
+pyproject.toml
+src/palx/__init__.py
+src/palx/main.py
+src/palx.egg-info/PKG-INFO
+src/palx.egg-info/SOURCES.txt
+src/palx.egg-info/dependency_links.txt
+src/palx.egg-info/entry_points.txt
+src/palx.egg-info/requires.txt
+src/palx.egg-info/top_level.txt

@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "palx"
+version = "0.0.1"
+authors = [
+  { name="Anton Vice", email="antonvice@gmail.com" },
+]
+description = "Palx - extract color palette from an image and reattach it to the image"
+readme = "README.MD"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: MacOS",
+]
+dependencies =[
+'Pillow', 'numpy', 'scikit-learn'  
+]
+
+[project.urls]
+Homepage = "https://github.com/antonvice/palx"
+Issues = "https://github.com/pypa/antonvice/palx"
+
+[project.scripts]
+palx = "palx.main:main"
