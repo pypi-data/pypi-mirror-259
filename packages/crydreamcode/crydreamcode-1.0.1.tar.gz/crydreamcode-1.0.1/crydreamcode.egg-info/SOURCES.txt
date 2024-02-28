@@ -1,0 +1,17 @@
+LICENSE
+setup.py
+Code/__init__.py
+Code/mainsad.py
+crydreamcode.egg-info/PKG-INFO
+crydreamcode.egg-info/SOURCES.txt
+crydreamcode.egg-info/dependency_links.txt
+crydreamcode.egg-info/requires.txt
+crydreamcode.egg-info/top_level.txt
+test/__init__.py
+test/test.py
+utils/__init__.py
+utils/codeEncrypt/__init__.py
+utils/codeEncrypt/codeEncrypt.py
+utils/removeComments/__init__.py
+utils/removeComments/removeComments.py
+utils/removeComments/test.py
