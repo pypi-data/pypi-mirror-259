@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+tasksqwerty/__init__.py
+tasksqwerty.egg-info/PKG-INFO
+tasksqwerty.egg-info/SOURCES.txt
+tasksqwerty.egg-info/dependency_links.txt
+tasksqwerty.egg-info/top_level.txt
