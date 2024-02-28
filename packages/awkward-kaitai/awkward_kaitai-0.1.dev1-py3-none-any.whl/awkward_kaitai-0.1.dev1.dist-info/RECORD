@@ -1,0 +1,14 @@
+awkward_kaitai/__init__.py,sha256=dOM66LWyb_Jg3hlCYC4Q5T_VCIYrsvglRG5Pd2Gk68M,269
+awkward_kaitai/_version.py,sha256=uLqBlyauSImVR9zc6L9nHYd6kdpU1wTYvz_GwmJ1kVU,419
+awkward_kaitai/_version.pyi,sha256=j5kbzfm6lOn8BzASXWjGIA1yT0OlHTWqlbyZ8Si_o0E,118
+awkward_kaitai/builder.py,sha256=K28e_fAJOAAAadP6bY0uJzfaMPT-az7n6fxBJZ5CLYA,4903
+awkward_kaitai/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+awkward_kaitai/reader.py,sha256=jW7z_48X4iL_wLKrRaaNRDkIcE16nsDN3UcUavoMKSY,3078
+awkward_kaitai/data/CMakeLists.txt,sha256=mcfcvcAfsDpOfhrG5noS2pdIieMBYe7_GVZmCL-eKxU,2588
+awkward_kaitai/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+awkward_kaitai/data/kaitai_struct_cpp_stl_runtime-CMakeLists.txt,sha256=bPOcV4ijalzoqjordR--uQ5dgJNlJdaE1taJe6Oh90g,1350
+awkward_kaitai-0.1.dev1.dist-info/METADATA,sha256=TMccwiVRPVgKo6mxevSjpR6RmONP7YRoGkUSg3E29iA,4356
+awkward_kaitai-0.1.dev1.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+awkward_kaitai-0.1.dev1.dist-info/entry_points.txt,sha256=_QgWWnlLjqEoyfSOPeWExGOiDy3V2PQf7sMr5hli66U,69
+awkward_kaitai-0.1.dev1.dist-info/licenses/LICENSE,sha256=eOW9gj3bE-JaDqh_v32FzXDiv3W_Hmzth6GKDLXf0LA,1047
+awkward_kaitai-0.1.dev1.dist-info/RECORD,,
