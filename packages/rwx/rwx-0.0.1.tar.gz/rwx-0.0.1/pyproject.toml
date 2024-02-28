@@ -1,0 +1,32 @@
+[build-system]
+requires = ['hatchling']
+build-backend = 'hatchling.build'
+
+[project]
+authors = [
+    { name = 'Marc Beninca', email = 'git@marc.beninca.link' },
+]
+maintainers = [
+    { name = 'Marc Beninca', email = 'git@marc.beninca.link' },
+]
+classifiers = [
+    'Programming Language :: Python :: 3',
+    'License :: OSI Approved :: GNU Affero General Public License v3',
+    'Operating System :: OS Independent',
+]
+dependencies = []
+description = 'Read Write eXecute'
+dynamic = ['version']
+keywords = []
+license-files = { paths = ['license.md'] }
+name = 'rwx'
+readme = 'readme.md'
+requires-python = '>= 3.10'
+
+[project.scripts]
+# command = 'package.module:function'
+
+[project.urls]
+
+[tool.hatch.version]
+path = 'rwx/__init__.py'
