@@ -1,0 +1,16 @@
+
+[bork]
+bork~=7.0.1
+
+[docs]
+sphinx
+sphinx-rtd-theme
+sphinx-argparse
+
+[test]
+emanate[bork]
+pytest~=7.4
+pylint~=3.0
+pytest-pylint~=0.21.0
+mypy~=1.6.1
+pytest-mypy~=0.10.3
