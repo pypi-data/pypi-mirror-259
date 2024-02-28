@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: django-openstax-healthcheck
+Version: 1.0
+Summary: A Django app to respond to AWS health checks
+Home-page: https://www.openstax.org/
+Author: Michael Volo
+Author-email: volo@rice.edu
+License: GNU Affero General Public License v3
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: Django>=3.0
+
+===========================
+django-openstax-healthcheck
+===========================
+
+``django-openstax-healthcheck`` is a Django middleware to intercept ``/ping`` and ``/ping/`` requests from AWS.
+This is required when using OpenStax IaC for deployment.
+
+Quick start
+-----------
+
+Add the following settings to your settings file:::
+
+    # Add to middleware, be sure it's before CommonMiddleware
+    MIDDLEWARE = [
+        # ... (optional before)
+        'healthcheck.middleware.HealthCheckMiddleware',
+        # ... (optional between)
+        'django.middleware.common.CommonMiddleware',
+        # ... (optional after CommonMiddleware)
+    ]
+
+
+Usage
+-----
+
+Add something like this to your logging configuration::
+
+    import logging
+    logging.config.dictConfig({
+        # ...
+        'filters': {
+            'healthcheck_filter': {
+                '()': 'healthcheck.filter.HealthCheckFilter'
+            },
+        },
+        # ...
+    })
+
