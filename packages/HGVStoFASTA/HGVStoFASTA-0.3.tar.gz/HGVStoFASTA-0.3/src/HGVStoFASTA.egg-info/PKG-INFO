@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: HGVStoFASTA
+Version: 0.3
+Home-page: https://github.com/karagol-taner/HGVS-missense-variants-to-FASTA
+Author: Taner Karagol
+Author-email: taner.karagol@gmail.com
+License: GPL-3.0
+Keywords: HGVS,FASTA
+Requires-Dist: biopython
