@@ -1,0 +1,10 @@
+composio_autogen-0.0.4.data/scripts/composio-autogen,sha256=BiPWuuTGt99qtvqyrqYxLvtGL4BjOnEuYdRBVBRKdeg,8832
+lib/api.py,sha256=_U4C99bQxEwRP45KO1UrW0z5yefZPy1RYWIA9GGgCys,3167
+lib/storage.py,sha256=lzUf48LQNEOXfvC-X8e4Q6pZeF0slAFwf3RT4oYw730,388
+lib/__pycache__/api.cpython-310.pyc,sha256=QtZxiI4Bybh385OLzcuv0ezWT6LBK2C5rOouBOJQwYU,3030
+lib/__pycache__/storage.cpython-310.pyc,sha256=pa548e6j4I6TqTh9JCmNwxlDa39kg4bErNJfhuW8a0k,692
+lib/templates/skills.txt,sha256=dr8GAXkIxMddH73EW7a8X06ZrZbri2biy_DtDZGOz14,738
+composio_autogen-0.0.4.dist-info/METADATA,sha256=0Rw54NtfainlstRjw9wnsUVMVvC_lfC0lP93_rKGE1Q,728
+composio_autogen-0.0.4.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+composio_autogen-0.0.4.dist-info/top_level.txt,sha256=oyXcrLgLICoBS0ILk_wZBhkAAY-M4hbQoMsA1hDsf5c,4
+composio_autogen-0.0.4.dist-info/RECORD,,
