@@ -1,0 +1,60 @@
+[project]
+name = "f8s"
+version = "0.2.2"
+description = "Framework for building K8s-ready Flask applications."
+readme = "README.md"
+license = "MIT"
+keywords = [
+    "Flask",
+    "Kubernetes",
+    "K8s",
+    "F8s",
+    "Helm",
+    "ArgoCD",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Typing :: Typed",
+]
+requires-python = ">=3.10"
+dependencies = [
+    "click>=8.1.3",
+    "flasgger",
+    "flask",
+    "flask-healthz",
+    "pyyaml>=6.0.1",
+    "gunicorn>=21.2.0",
+]
+authors = [
+    { name = "Alex Braun", email = "alexander.g.braun@gmail.com" },
+]
+
+[project.urls]
+repository = "https://github.com/the-new-flesh/f8s"
+documentation = "https://theNewFlesh.github.io/f8s"
+
+[project.scripts]
+f8s = "f8s.command:main"
+
+[build-system]
+requires = [
+    "pdm-pep517>=1.0.0",
+]
+build-backend = "pdm.pep517.api"
+
+[tool.coverage.report]
+show_missing = true
+omit = [
+    "*/__init__.py",
+    "*/*_test_base.py",
+    "*/*_test.py",
+    "*/*_tests.py",
+    "*/cli.py",
+    "*/command.py",
+    "*/mock_*.py",
+    "*/conftest.py",
+]
