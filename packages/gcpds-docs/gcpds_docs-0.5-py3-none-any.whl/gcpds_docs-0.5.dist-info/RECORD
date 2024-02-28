@@ -1,0 +1,8 @@
+gcpds/docs/__init__.py,sha256=LdJTR9Qhjqq8g5uKpjwRSH2NQFKZ8-ofaAEDjXjM2DU,24801
+gcpds/docs/workflows/automated-setup.yml,sha256=R3exAcalay923-LcKAXuw9RlAQKLt8NOsoOxUWu-SJ4,2158
+gcpds/docs/workflows/automated-sphinx-docs.yml,sha256=MuCTzh4KcR4SKzL-2LmSS83DxzDwRIBZZ9NkDJ5E8b4,3019
+gcpds_docs-0.5.dist-info/LICENSE,sha256=0UAuHePxyAymNP7UHaQ3ZYJnw_JQVSiifEEaCHDc0oc,1293
+gcpds_docs-0.5.dist-info/METADATA,sha256=msshj-TeKZPP2YKG7cmMdC-oqFhsYQdCNYGE_8sBByw,4807
+gcpds_docs-0.5.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+gcpds_docs-0.5.dist-info/top_level.txt,sha256=c5Ju3Hjk6AePrcCLPGc8E9T1HqJzhC98qF1ItwDV89w,6
+gcpds_docs-0.5.dist-info/RECORD,,
