@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: mtskimage
+Version: 0.2.2
+Summary: Minh-Tri Pham's extra modules for scikit-image
+Home-page: https://github.com/inteplus/mtskimage
+Author: ['Minh-Tri Pham']
+Project-URL: Documentation, https://mtdoc.readthedocs.io/en/latest/mt.skimage/mt.skimage.html
+Project-URL: Source Code, https://github.com/inteplus/mtskimage
+License-File: LICENSE
+Requires-Dist: scikit-image >=0.15.0
+Requires-Dist: mtgeo >=0.9.0
+
