@@ -1,0 +1,10 @@
+{
+    "name": "Together llama2 7b chat",
+    "url": "https://api.together.xyz/inference",
+    "prompt_handler": {
+        "model": "meta-llama/Llama-2-7b-chat-hf",
+        "prompt": "$PROMPT",
+        "max_tokens": 500
+    },
+    "output_handler": "def parse(response): return response.json()['output']['choices'][0]['text']"
+}
