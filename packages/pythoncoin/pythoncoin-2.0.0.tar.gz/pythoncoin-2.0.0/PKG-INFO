@@ -1,0 +1,307 @@
+Metadata-Version: 2.1
+Name: pythoncoin
+Version: 2.0.0
+Summary: a lovable data analysis and algorithmic trading library for cryptocurrencies,including tools for deploying and analyzing any strategy
+Home-page: https://github.com/hadif1999/pycoin
+Author: Hadi Fathipour
+Author-email: hadi9628983@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: aiodns>=3.1.1
+Requires-Dist: aiofiles>=23.2.1
+Requires-Dist: aiohttp>=3.9.3
+Requires-Dist: aiosignal>=1.3.1
+Requires-Dist: amqp>=5.2.0
+Requires-Dist: annotated-types>=0.6.0
+Requires-Dist: anyio>=4.3.0
+Requires-Dist: arrow>=1.3.0
+Requires-Dist: ast-comments>=1.2.1
+Requires-Dist: asttokens>=2.4.1
+Requires-Dist: async-timeout>=4.0.3
+Requires-Dist: asyncer>=0.0.5
+Requires-Dist: attrs>=23.2.0
+Requires-Dist: billiard>=4.2.0
+Requires-Dist: cachetools>=5.3.2
+Requires-Dist: ccxt>=4.2.51
+Requires-Dist: celery>=5.3.6
+Requires-Dist: certifi>=2024.2.2
+Requires-Dist: cffi>=1.16.0
+Requires-Dist: charset-normalizer>=3.3.2
+Requires-Dist: click>=8.1.7
+Requires-Dist: click-didyoumean>=0.3.0
+Requires-Dist: click-plugins>=1.1.1
+Requires-Dist: click-repl>=0.3.0
+Requires-Dist: colorama>=0.4.6
+Requires-Dist: comm>=0.2.1
+Requires-Dist: cryptography>=42.0.5
+Requires-Dist: debugpy>=1.8.1
+Requires-Dist: decorator>=5.1.1
+Requires-Dist: exceptiongroup>=1.2.0
+Requires-Dist: executing>=2.0.1
+Requires-Dist: fastapi>=0.110.0
+Requires-Dist: freqtrade>=2024.1
+Requires-Dist: frozenlist>=1.4.1
+Requires-Dist: greenlet>=3.0.3
+Requires-Dist: h11>=0.14.0
+Requires-Dist: httpcore>=1.0.4
+Requires-Dist: httpx>=0.26.0
+Requires-Dist: idna>=3.6
+Requires-Dist: ipykernel>=6.29.2
+Requires-Dist: ipython>=8.22.1
+Requires-Dist: janus>=1.0.0
+Requires-Dist: jedi>=0.19.1
+Requires-Dist: Jinja2>=3.1.3
+Requires-Dist: joblib>=1.3.2
+Requires-Dist: jsonschema>=4.21.1
+Requires-Dist: jsonschema-specifications>=2023.12.1
+Requires-Dist: jupyter_client>=8.6.0
+Requires-Dist: jupyter_core>=5.7.1
+Requires-Dist: kombu>=5.3.5
+Requires-Dist: markdown-it-py>=3.0.0
+Requires-Dist: MarkupSafe>=2.1.5
+Requires-Dist: matplotlib-inline>=0.1.6
+Requires-Dist: mdurl>=0.1.2
+Requires-Dist: multidict>=6.0.5
+Requires-Dist: nest-asyncio>=1.6.0
+Requires-Dist: numpy>=1.26.4
+Requires-Dist: orjson>=3.9.15
+Requires-Dist: packaging>=23.2
+Requires-Dist: pandas>=2.2.1
+Requires-Dist: pandas_ta>=0.3.14b0
+Requires-Dist: parso>=0.8.3
+Requires-Dist: pexpect>=4.9.0
+Requires-Dist: platformdirs>=4.2.0
+Requires-Dist: prompt-toolkit>=3.0.41
+Requires-Dist: psutil>=5.9.8
+Requires-Dist: ptyprocess>=0.7.0
+Requires-Dist: pure-eval>=0.2.2
+Requires-Dist: py_find_1st>=1.1.6
+Requires-Dist: pyarrow>=15.0.0
+Requires-Dist: pycares>=4.4.0
+Requires-Dist: pycoingecko>=3.1.0
+Requires-Dist: pycparser>=2.21
+Requires-Dist: pydantic>=2.6.2
+Requires-Dist: pydantic_core>=2.16.3
+Requires-Dist: Pygments>=2.17.2
+Requires-Dist: PyJWT>=2.8.0
+Requires-Dist: python-dateutil>=2.8.2
+Requires-Dist: python-rapidjson>=1.14
+Requires-Dist: python-telegram-bot>=20.8
+Requires-Dist: pytz>=2024.1
+Requires-Dist: pyzmq>=25.1.2
+Requires-Dist: questionary==1.10.0
+Requires-Dist: referencing>=0.33.0
+Requires-Dist: requests>=2.31.0
+Requires-Dist: rich>=13.7.0
+Requires-Dist: rpds-py>=0.18.0
+Requires-Dist: schedule>=1.2.1
+Requires-Dist: scipy>=1.12.0
+Requires-Dist: sdnotify>=0.3.2
+Requires-Dist: six>=1.16.0
+Requires-Dist: sniffio>=1.3.1
+Requires-Dist: SQLAlchemy>=2.0.27
+Requires-Dist: stack-data>=0.6.3
+Requires-Dist: starlette>=0.36.3
+Requires-Dist: ta>=0.11.0
+Requires-Dist: TA-Lib>=0.4.28
+Requires-Dist: tabulate>=0.9.0
+Requires-Dist: technical>=1.4.3
+Requires-Dist: tornado>=6.4
+Requires-Dist: traitlets>=5.14.1
+Requires-Dist: typeguard>=4.1.5
+Requires-Dist: types-python-dateutil>=2.8.19.20240106
+Requires-Dist: typing_extensions>=4.10.0
+Requires-Dist: tzdata>=2024.1
+Requires-Dist: urllib3>=2.2.1
+Requires-Dist: uvicorn>=0.27.1
+Requires-Dist: vine>=5.1.0
+Requires-Dist: wcwidth>=0.2.13
+Requires-Dist: websockets>=12.0
+Requires-Dist: yarl>=1.9.4
+Requires-Dist: nbformat>=4.2.0
+Requires-Dist: setuptools>=64.0.0
+Provides-Extra: plot
+Requires-Dist: plotly>=4.0; extra == "plot"
+Provides-Extra: ai
+Requires-Dist: tensorflow; extra == "ai"
+Requires-Dist: catboost; platform_machine != "aarch64" and extra == "ai"
+Requires-Dist: xgboost; extra == "ai"
+Requires-Dist: tensorboard; extra == "ai"
+Provides-Extra: jupyter
+Requires-Dist: jupyter; extra == "jupyter"
+Requires-Dist: nbstripout; extra == "jupyter"
+Requires-Dist: ipykernel; extra == "jupyter"
+Requires-Dist: nbconvert; extra == "jupyter"
+Provides-Extra: hdf5
+Requires-Dist: tables; extra == "hdf5"
+Requires-Dist: blosc; extra == "hdf5"
+Provides-Extra: all
+Requires-Dist: plotly>=4.0; extra == "all"
+Requires-Dist: coveralls; extra == "all"
+Requires-Dist: mypy; extra == "all"
+Requires-Dist: ruff; extra == "all"
+Requires-Dist: pre-commit; extra == "all"
+Requires-Dist: pytest; extra == "all"
+Requires-Dist: pytest-asyncio; extra == "all"
+Requires-Dist: pytest-cov; extra == "all"
+Requires-Dist: pytest-mock; extra == "all"
+Requires-Dist: pytest-random-order; extra == "all"
+Requires-Dist: isort; extra == "all"
+Requires-Dist: time-machine; extra == "all"
+Requires-Dist: types-cachetools; extra == "all"
+Requires-Dist: types-filelock; extra == "all"
+Requires-Dist: types-requests; extra == "all"
+Requires-Dist: types-tabulate; extra == "all"
+Requires-Dist: types-python-dateutil; extra == "all"
+Requires-Dist: jupyter; extra == "all"
+Requires-Dist: nbstripout; extra == "all"
+Requires-Dist: ipykernel; extra == "all"
+Requires-Dist: nbconvert; extra == "all"
+Requires-Dist: tensorflow; extra == "all"
+Requires-Dist: catboost; platform_machine != "aarch64" and extra == "all"
+Requires-Dist: xgboost; extra == "all"
+Requires-Dist: tensorboard; extra == "all"
+
+# pycoin
+### a lovable data analysis and algorithmic trading library for cryptocurrencies
+including tools for deploying any strategies including pattern based strategies,
+price action strategies, indicator based strategies and also Machine learning based strategies. 
+able to run multi strategy instances on a single bot as a webapp and a lot more...
+### what can this package do:
+1. download market historical data for all symbols from almost all exchanges thanks to ccxt.
+2. visualizing capabilities to easily analysis market.
+3. able to perform some useful analysis such as finding market trend according to market past high and lows, finding market important levels (like support and resistance) and more .
+4. able to define your strategy, backtest it, run it in dry run mode and also in real mode.
+5. using telegram bot and webapp to control and monitor your bot. (soon)  
+6. run multiple strategy instances for each user as a single bot (soon) 
+
+Note: for documentation please refer to examples folder.
+
+## Install
+```bash
+!pip install pythoncoin
+```
+## Quick start
+
+after installation you can run below:
+
+```python 
+
+from pycoin.market_data_gathering.market_processing import Market_Processing
+market_obj = Market_Processing(symbol = "BTC-USDT", interval = "4hour")
+
+```
+### download "4hour" interval of market dataframe:
+```python
+
+import datetime as dt
+
+btcusd_h4_df = market_obj.download_kline_as_df(reverse_df = True, 
+               start_timestamp= dt.datetime(2017, 1, 1).timestamp().__int__(), inplace= True,
+               verbose=True
+               ) 
+
+```
+the important arguments of download_kline_as_df method is :
+
+start_timestamp: the first data timestamp that will be downloaded, if not defined the start_timestamp will be the first data exists for that symbol.
+
+end_timestamp: the data will be extracted till this timestamp, if not defined it will download data until current timestamp.
+
+reverse_df : whether to reverse the final dataframe or not.
+
+inplace: every Market_Processing object will have its own symbol dataframe. 
+with this arg you can define if you want to replace current Market_Processing object dataframe with new one.
+
+### saving the current Market_Processing object dataframe:
+```python
+
+market_obj.save_market(path = ".", as_csv = False)
+
+```
+as_csv: whether to save dataframe as csv or excel file.
+path: where to save the dataframe (default is current dir)
+
+### loading the the market dataframe:
+```python
+
+btc_h4_df = market_obj.load_kline_data('BTC-USDT|15min.csv', reverse = True)
+
+# accessing market_obj dataframe
+market_obj.df
+
+```
+### ploting the candlestick data
+```python
+
+from pycoin.market_data_kline_plots.market_plotter import Market_Plotter
+plots = Market_Plotter(market_obj)
+
+# if plot_by_grp is False then it will plot the whole candlestick data (market_obj.df)
+figure, _ = plots.plot_market( plot_by_grp = False,fig_size = [1100,600], slider = False)
+
+
+# if plot_by_grp is True you can plot candlestick data by group and plot a specific year, month, day
+figure, grp_df = plots.plot_market( plot_by_grp = True, year = 2023,
+                                    fig_size = [1100,600],
+                                    replace_df_with_grp = True, 
+                                    slider = False
+                                  )
+
+
+figure.show()
+
+```
+
+![alt text](https://github.com/hadif1999/pycoin/blob/master/pics/btc_h4_2023_candlestick.png?raw=true)
+
+### evaluating market high & lows
+```python
+max_indices, min_indices = market_obj.get_market_high_lows( candle_range = 100 , 
+                                                            min_time_dist = dt.timedelta(hours=13),
+                                                          ) 
+                                                          
+```
+candle_range : range of candles to look for high and lows 
+min_time: remove the high or low that is very close to previous one if their time distance is below than min_time.
+### ploting market high and lows
+```python
+
+plots.plot_high_lows(R = 5000, y_scale = 0.1)
+
+```
+![alt text](https://github.com/hadif1999/pycoin/blob/master/pics/btc_h4_2023_high_lows.png?raw=true)
+
+the method above puts a circle for each high and low. 
+R is the radius and y_scale can scale the price in y axis for better visualizing.
+
+### evaluate market trend with high and lows
+every trend that is found with any method such as high & lows, SMA,etc. adds a new column that holds the trend label for each row of data, and when you want to plot these trend you should give this column name to draw_trend_highlight method.
+
+```python
+# finding trend 
+process.eval_trend_with_high_lows()
+
+# ploting trend
+plots.draw_trend_highlight(column = "high_low_trend", add_high_lows = True, R = 3000, 
+                           y_scale = 0.1, add_high_lows_shapes = True
+                           )
+
+```
+![alt text](https://github.com/hadif1999/pycoin/blob/master/pics/btc_h4_2023_trend.png?raw=true)
+### evaluate trend with SMA
+```python
+
+market_analysis.eval_trend_with_MAs(drop_MA_cols = True , windows=[50, 200])
+plots.draw_trend_highlight(column = "MA_trend")
+
+```
+![alt text](https://github.com/hadif1999/pycoin/blob/master/pics/btc_h4_2023_MA_trend.png?raw=true)
+
+
+
+
