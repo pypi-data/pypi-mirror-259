@@ -1,0 +1,10 @@
+simple_config_sync-0.1.4.dev1.dist-info/METADATA,sha256=XWbFffr4AmUCezwt-WcuFY8xDzWSB6m-BYm8q_Cf-uQ,452
+simple_config_sync-0.1.4.dev1.dist-info/WHEEL,sha256=N2J68yzZqJh3mI_Wg92rwhw0rtJDFpZj9bwQIMJgaVg,90
+simple_config_sync-0.1.4.dev1.dist-info/entry_points.txt,sha256=9O_G2EbhSBmF4YK_lVbkujkzKvBDLkEcg72XMggXrMc,60
+simple_config_sync/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simple_config_sync/core/__init__.py,sha256=Ngf4ldcg8zmmdcqJ4ysNj1k1A6DijtjJrxX7IvjfmDo,146
+simple_config_sync/core/assets/tui.tcss,sha256=_qvifpA1ghdvzRIauUIbEdHO7sWlTqev7syKmWmm0jc,1119
+simple_config_sync/core/config.py,sha256=5kZJSq5i6Bo2lT2nxAfljekPUHb8Ktk971Z6Vkg-47k,4799
+simple_config_sync/core/scripts.py,sha256=9NPX9Ogt8TnjzVfnsTffcwtvUdqDgHsDPKNlUGAr6qg,265
+simple_config_sync/core/tui.py,sha256=nezPINXFobg_EWIyEsmbuIrMu2a6M9LZCVvSiJ7KUWg,3147
+simple_config_sync-0.1.4.dev1.dist-info/RECORD,,
