@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: py_func_openapi
+Version: 0.0.3
+Summary: A simple tool to generate openapi json from python function
+Home-page: https://pypi.org/project/py-func-openapi/
+Author: chendefine
+Author-email: chendefine@gmail.com
