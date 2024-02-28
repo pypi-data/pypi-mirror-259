@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: wechat_work_cli
+Version: 0.0.2
+Summary: A tool for Wechat Work
+Home-page: https://github.com/crz28/wechat_work_cli
+Author: crz28
+Author-email: 
+License: MIT
+Project-URL: Documentation, https://github.com/crz28/wechat_work_cli
+Project-URL: Source, https://github.com/crz28/wechat_work_cli
+Keywords: wechat,wechat work,message,notification
+Platform: any
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: requests_toolbelt
+
+# 企业微信推送命令行工具

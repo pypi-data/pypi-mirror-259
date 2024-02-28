@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+wechat_work_cli.egg-info/PKG-INFO
+wechat_work_cli.egg-info/SOURCES.txt
+wechat_work_cli.egg-info/dependency_links.txt
+wechat_work_cli.egg-info/requires.txt
+wechat_work_cli.egg-info/top_level.txt
