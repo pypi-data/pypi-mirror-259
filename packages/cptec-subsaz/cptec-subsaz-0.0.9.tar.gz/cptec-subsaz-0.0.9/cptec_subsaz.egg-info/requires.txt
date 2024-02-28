@@ -1,0 +1,7 @@
+numpy
+pandas
+datetime
+xarray
+requests
+matplotlib
+NetCDF4
