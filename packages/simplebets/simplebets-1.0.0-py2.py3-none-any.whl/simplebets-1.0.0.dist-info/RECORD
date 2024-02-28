@@ -1,0 +1,12 @@
+simplebets/bet.py,sha256=NtWoTP4JQOX_CyVhWP2CvlZcqsKj3R9I_orffQIsPIg,1220
+simplebets/head_to_head.py,sha256=zgZUKZNZA-lyWSWXDmE5e1lDsoYRGjbL9npemvetGsM,1239
+simplebets/individual_metrics.py,sha256=s4S5MzdHoKi5JETSEusIxAcUUTZepoU9AQ6kh_VPM7U,433
+simplebets/league.py,sha256=HRZXhDUK34A0aHK7KDUPQHvptnquO4RUouqbUjEg4xE,237
+simplebets/market.py,sha256=lDQjqK-x1X5xrn65sfwRegnTKEemE07Uyz9qDf475Fw,579
+simplebets/participant.py,sha256=bPjnVFs5XkmwpXoeD46UUtdCagwpxuy7fIGk-hSrgfM,167
+simplebets/same_game_multi.py,sha256=hAs9ZVFJHHvnyEnWnv4uzID6qQxA3Tzwog1Q-TkhthE,917
+simplebets-1.0.0.dist-info/METADATA,sha256=jWYs531As4OYQarbxRVVQ6sBhv8DB71mKVQSCCHMaV8,491
+simplebets-1.0.0.dist-info/WHEEL,sha256=-G_t0oGuE7UD0DrSpVZnq1hHMBV9DD2XkS5v7XpmTnk,110
+simplebets-1.0.0.dist-info/top_level.txt,sha256=sa9aVKpd-s8hgpcqFWLtQKMRGgK0P6JNJO4I14JJdh0,11
+simplebets-1.0.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+simplebets-1.0.0.dist-info/RECORD,,
