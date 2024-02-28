@@ -1,0 +1,15 @@
+pycli/__init__.py,sha256=zZO6MTd_SFbl7qfAe4jGaUrzcCxlf_ZEi8jr06nT94k,122
+pycli/core.py,sha256=sridLkiWM-PbjYtJK225p7lMoWC8noh1X0kyW8-nQrU,13777
+pycli/default_handlers.py,sha256=zpOgvrjOtc1iuAluAcqwioQN43wzlh47Inrjw31aPkU,817
+pycli/exceptions.py,sha256=qnYh-CQvWTj5Jnf7Fk7UqB2NAyJEnX9LcIa43vjlrM4,1220
+pycli/ext/audio/__init__.py,sha256=0wYM0oVZNBb8qoGKxiLUJf7tvRy0Jpy7ZLpHbOHFy04,95
+pycli/ext/audio/output/__init__.py,sha256=wlCKtPpBQm9lqi7BKVBMyl3CieYsQO60f7DiyznO2pM,1284
+pycli/utils/__init__.py,sha256=jG4_jsLW8OAMWYkGc9N0Dg_v4jc93i6t2af1panMGV8,85
+pycli/utils/load_extension.py,sha256=6s6ku9ROt0NCeM-R7lF7UDaqdkUqy8R2uhSVLPmZQOw,413
+pycli/utils/transformer.py,sha256=B3sl0LYqLrnwxIQB8IM0ApYFaoILoCX2glxgqRHt4H4,2230
+pycli/utils/utils.py,sha256=LVVJG2SEj-uRLOR-mDoyQgNEWsP1YM0sCpgqsDYQDwY,336
+skycli.py-0.0.1.dist-info/LICENCE,sha256=I6JrcYuulgBZWhyCnCrJrUnj0bQutY61MHOjKsQhcU0,1090
+skycli.py-0.0.1.dist-info/METADATA,sha256=w2uVoiUqFeXuZ1kQLCOZhU9fPk17DsjNX0-f-NGdFFQ,853
+skycli.py-0.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+skycli.py-0.0.1.dist-info/top_level.txt,sha256=CQWn59fjzHuljQowRD0j78_ZW6_e7dNwsYi65z7xSl8,6
+skycli.py-0.0.1.dist-info/RECORD,,

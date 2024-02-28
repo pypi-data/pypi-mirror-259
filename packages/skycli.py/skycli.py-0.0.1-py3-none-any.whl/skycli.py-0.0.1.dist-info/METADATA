@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: skycli.py
+Version: 0.0.1
+Summary: A CLI package which attempts to mimic the style of discord.py
+Author-email: SkyTheCodeMaster <sky@skystuff.cc>
+Project-URL: Homepage, https://github.com/skythecodemaster/pycli-lib/
+Project-URL: Issues, https://github.com/skythecodemaster/pycli-lib/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: aioconsole ==0.7.0
+Requires-Dist: pyttsx3 ==2.71
+
+# cli.py
+A simple package that allows "CLI"-style interfaces for users.
+Styled like [discord.py](https://github.com/Rapptz/discord.py), code-wise.
+
+It is in a pretty alpha state right now, it is functional, but very rough around the edges.
