@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+pyside6_drawer/__init__.py
+pyside6_drawer/drawer.py
+pyside6_drawer.egg-info/PKG-INFO
+pyside6_drawer.egg-info/SOURCES.txt
+pyside6_drawer.egg-info/dependency_links.txt
+pyside6_drawer.egg-info/requires.txt
+pyside6_drawer.egg-info/top_level.txt
+pyside6_drawer/resources/__init__.py
