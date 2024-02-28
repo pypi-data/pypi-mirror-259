@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/gitvenv/__init__.py
+src/gitvenv/__main__.py
+src/gitvenv/gitvenv.py
+src/gitvenv/main_cli.py
+src/gitvenv.egg-info/PKG-INFO
+src/gitvenv.egg-info/SOURCES.txt
+src/gitvenv.egg-info/dependency_links.txt
+src/gitvenv.egg-info/entry_points.txt
+src/gitvenv.egg-info/top_level.txt
+src/gitvenv/scripts/Activate.ps1
+src/gitvenv/scripts/activate
