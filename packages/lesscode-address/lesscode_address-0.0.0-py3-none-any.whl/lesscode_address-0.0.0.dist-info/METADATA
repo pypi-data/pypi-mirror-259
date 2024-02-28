@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: lesscode-address
+Version: 0.0.0
+Summary: lesscode-address是处理地址
+Home-page: https://gitee.com/yongchao9/lesscode-address
+Author: Chao.yy
+Author-email: yuyc@ishangqi.com
+Platform: python
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# lesscode_address
+lesscode-address是用于处理地址的包
