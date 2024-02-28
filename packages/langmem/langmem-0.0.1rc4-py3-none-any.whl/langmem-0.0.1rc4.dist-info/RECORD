@@ -1,0 +1,8 @@
+langmem/__init__.py,sha256=kD1U_No4UJ-pjLeYSxi429F8hCJu0ED7DyUzxr7EGug,85
+langmem/_internal/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+langmem/_internal/utils.py,sha256=YbGsnn5HvMPQ1v3pLNC_Xzz2W4RZsDSB8dlkdmJLCWc,211
+langmem/client.py,sha256=AR0n9-Ke-ZAauky3HDo51uWfp5tzwKgIDJ50wtDm99o,27367
+langmem/schemas.py,sha256=kIlXKzzjqoh9KvQ94jOkOI1w9SxJlS9-p6PWSkhlhQ8,288
+langmem-0.0.1rc4.dist-info/METADATA,sha256=oaIr7QdyncP43tG-M2VwfmsDdwd5YwTDQboDzuQ3wXw,680
+langmem-0.0.1rc4.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+langmem-0.0.1rc4.dist-info/RECORD,,
