@@ -1,0 +1,7 @@
+pyTermTk>=0.39.0a6
+appdirs
+pygments
+pyyaml
+
+[Clipboard Support]
+pyperclip
