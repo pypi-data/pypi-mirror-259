@@ -1,0 +1,11 @@
+MANIFEST.in
+packrect.c
+setup.py
+stb_rect_pack.h
+packrect/__init__.py
+packrect/packrect.pyi
+packrect/py.typed
+packrect.egg-info/PKG-INFO
+packrect.egg-info/SOURCES.txt
+packrect.egg-info/dependency_links.txt
+packrect.egg-info/top_level.txt
