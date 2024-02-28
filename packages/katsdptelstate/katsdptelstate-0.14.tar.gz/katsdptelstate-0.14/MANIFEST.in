@@ -1,0 +1,8 @@
+exclude Jenkinsfile
+exclude *requirements.txt
+exclude .gitignore
+include Dockerfile
+include redis.conf
+include doc/*
+include NEWS.rst
+include pytest.ini
