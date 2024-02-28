@@ -1,0 +1,2 @@
+[console_scripts]
+HGVStoFASTA = __main__:main
