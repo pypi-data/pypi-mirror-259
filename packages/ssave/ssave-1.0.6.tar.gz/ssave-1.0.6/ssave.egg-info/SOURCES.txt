@@ -1,0 +1,8 @@
+README.md
+setup.py
+ssave/__cui__.py
+ssave/__init__.py
+ssave.egg-info/PKG-INFO
+ssave.egg-info/SOURCES.txt
+ssave.egg-info/dependency_links.txt
+ssave.egg-info/top_level.txt
