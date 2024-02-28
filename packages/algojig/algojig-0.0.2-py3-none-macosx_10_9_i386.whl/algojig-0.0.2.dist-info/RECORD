@@ -1,0 +1,15 @@
+algojig/__init__.py,sha256=Y-wz16byFl3wWWQYz1tTORydxQLcp9MtiBWTUj-vE_s,1810
+algojig/algojig,sha256=o68uQ9DcKjanNqjw9puh9byCT54-e3LnupgLxIN2hYk,35263592
+algojig/check.py,sha256=n44V2s97ZSaAJPXBENSfLiHy35nXW5gam6VyVdUHTnY,525
+algojig/dryrun.py,sha256=Nc_GwLgc5U3AaSWuifF1Wr42CIbMtL4UamQYnKQq9bA,15213
+algojig/exceptions.py,sha256=1UqXoObXpUfvoYuNjDC8RTbOwZldeMo_S_tPPbPZ4xA,964
+algojig/gojig.py,sha256=Hwa8XbWPJj6oBIzS0vqEgzDggXYW8fyh5wUUqgEXC0I,1893
+algojig/ledger.py,sha256=QpLfS1sc4q9FIo7VsfjqQPpQpyfoxzONAbRGv93-Xgc,18678
+algojig/program.py,sha256=kF1EA6yRFiIcNbCEluCM3D8FpvyUDz7VJvCSPF0u57o,480
+algojig/teal.py,sha256=uwNIa1kuBWuAkDMcYYRU2iWh7QzFigS_8fKR8EBbcJE,1494
+algojig/tealish.py,sha256=ooOTLJJkKA4yEWsOMO2IS6HjQXo8Y7uFmeLfQNnfMMU,1724
+algojig-0.0.2.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+algojig-0.0.2.dist-info/METADATA,sha256=AEshpJjCXU0j5oa4Jw2Oke6isNVtmFXed_3I1yDx3mA,875
+algojig-0.0.2.dist-info/WHEEL,sha256=bHkOfcOgXU5awVnxyry7eA7JVWWmfbKWXXd9KfWMgQ4,115
+algojig-0.0.2.dist-info/top_level.txt,sha256=pGF5KvgeFQlkOsMBkiE6o5us9mpkYXsMlZeDNH6sd20,8
+algojig-0.0.2.dist-info/RECORD,,
