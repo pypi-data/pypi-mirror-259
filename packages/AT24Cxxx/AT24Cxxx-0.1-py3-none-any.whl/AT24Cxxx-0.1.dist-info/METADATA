@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: AT24Cxxx
+Version: 0.1
+Summary: A simple Python library for comunication with AT24Cxxx I2C EEPROM IC. This library is intended to be used in RasPi PC.
+Author: Frantisek Beranek
+
