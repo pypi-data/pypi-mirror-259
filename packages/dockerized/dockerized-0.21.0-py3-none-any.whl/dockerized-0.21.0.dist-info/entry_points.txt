@@ -1,0 +1,3 @@
+[console_scripts]
+dockerized=dockerized.ui.cli:main
+
