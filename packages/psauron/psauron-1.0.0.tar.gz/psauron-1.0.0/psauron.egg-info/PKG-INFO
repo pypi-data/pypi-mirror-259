@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: psauron
+Version: 1.0.0
+Summary: A tool to assess protein coding gene annotation
+Home-page: https://github.com/Markusjsommer/psauron
+Author: markus
+Author-email: markusjsommer@gmail.com
+License: MIT
+Description: PSAURON
+        ===========
+        
+        ![License](https://img.shields.io/badge/license-MIT-blue.svg "License")
+        
+        **PSAURON** is a machine learning model for rapid assessment of protein coding gene annotation. Link to paper coming soon...
+        
+        Installation
+        ------------------
+        
+        Pip Installation:
+        
+        ```bash
+        $ pip install psauron
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: dev
