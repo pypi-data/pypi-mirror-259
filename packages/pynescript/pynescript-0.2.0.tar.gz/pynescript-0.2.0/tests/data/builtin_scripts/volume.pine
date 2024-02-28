@@ -1,0 +1,7 @@
+//@version=5
+indicator(title="Volume", shorttitle="Vol", format=format.volume, timeframe="", timeframe_gaps=true)
+showMA = input(true)
+barColorsOnPrevClose = input(title="Color bars based on previous close", defval=false)
+palette = barColorsOnPrevClose ? close[1] > close ? color.red : color.green : open > close ? color.red : color.green
+plot(volume, color = color.new(palette,65), style=plot.style_columns, title="Volume")
+plot(showMA ? ta.sma(volume,20) : na, style=plot.style_area, color=color.new(color.blue,65), title="Volume MA")

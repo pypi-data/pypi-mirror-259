@@ -1,0 +1,8 @@
+//@version=5
+indicator(title="Correlation Coeff", shorttitle="CC", format=format.price, precision=2)
+sym = input.symbol(title="Symbol", defval="GOOG", confirm=true)
+src = input(close, title="Source")
+length = input.int(20, minval=1)
+res=timeframe.period
+ovr = request.security(sym, res, src)
+plot(ta.correlation(src, ovr, length), "Correlation", color=#2962FF, style=plot.style_area)
