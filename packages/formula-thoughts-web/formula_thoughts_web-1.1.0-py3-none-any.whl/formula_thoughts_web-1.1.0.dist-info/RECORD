@@ -1,0 +1,12 @@
+formula_thoughts_web/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+formula_thoughts_web/abstractions.py,sha256=pNMrsvXRr2RIGfuh_hV2odvhXONsMfDIxLikUTvQg3A,2208
+formula_thoughts_web/application.py,sha256=ZDvW_cRUFE-caAYxR_glccjzF41hdMMPmDci7K1L2wk,4936
+formula_thoughts_web/crosscutting.py,sha256=Q0yx0YXvECfPlovfavIaL4uMWSeMLfzu7YrynVEUIBM,7236
+formula_thoughts_web/events.py,sha256=80-N9V2dVeaudphp_BHaevPnB13bVXLE7SvH9IM3ReY,4129
+formula_thoughts_web/exceptions.py,sha256=vEPSdTB9ZRwK2tp45z2PUB36CXXXN4F45kbGm3vKTEo,208
+formula_thoughts_web/ioc.py,sha256=4QC3GuuderD0qMS_y4p-vCKyDSgdRoh7DD2zh9_EAXw,4020
+formula_thoughts_web/web.py,sha256=DFz9yCdBZvW8MPb9tzWxk4VzrYLIRsfXHBi8Xa7tSrk,4320
+formula_thoughts_web-1.1.0.dist-info/METADATA,sha256=0RslCXDx1Sv2_KDMrORLLlCuaOJpat3aCPzx7Ct3C7o,675
+formula_thoughts_web-1.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+formula_thoughts_web-1.1.0.dist-info/top_level.txt,sha256=7oCVLqDAZwF5xu6tMlELG-B_FbyOQu8h2Of6FwsnUqw,21
+formula_thoughts_web-1.1.0.dist-info/RECORD,,
