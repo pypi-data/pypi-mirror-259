@@ -1,0 +1,5 @@
+setup.py
+majd.egg-info/PKG-INFO
+majd.egg-info/SOURCES.txt
+majd.egg-info/dependency_links.txt
+majd.egg-info/top_level.txt
