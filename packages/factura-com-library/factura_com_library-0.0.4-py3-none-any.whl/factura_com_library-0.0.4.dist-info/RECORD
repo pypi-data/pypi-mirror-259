@@ -1,0 +1,11 @@
+factura_com/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+factura_com/api/__init__.py,sha256=V7ZAMFjlSEg6ljF8MSD75gehu3QYzpmbiUrgVpT2qrk,37
+factura_com/api/cfdi_requests.py,sha256=ICl8dIg9UskUOTozqDcnakz-_9aTOUMpD312yxwoYc4,1580
+factura_com/api/client.py,sha256=8ThZ1X_Gqdj16Gap01nyofDz0lk9j12fLQoCHiQY3aw,7029
+factura_com/api/endpoints.py,sha256=nT46N9T8gMY9LpPrAaqcaJ-TIfKjEPblZwX0R7yLcVs,3278
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/tests_main.py,sha256=3OMewTD1xv4DxYH5N_D7PSUbDPFmLUeSiREHhfRRRuw,3365
+factura_com_library-0.0.4.dist-info/METADATA,sha256=gaaukXhTC_XXqNteG9vZ_a4VsWFjm9PIu_LbvKGQOZw,5757
+factura_com_library-0.0.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+factura_com_library-0.0.4.dist-info/top_level.txt,sha256=AvJdgYaSI6OJ9_uR0Q8WfYaB_FnB6JUqP2VFcoqzkGQ,18
+factura_com_library-0.0.4.dist-info/RECORD,,
