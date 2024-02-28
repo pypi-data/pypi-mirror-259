@@ -1,0 +1,257 @@
+Metadata-Version: 2.1
+Name: cwstorm
+Version: 0.2.0b2
+Summary: Core functionality for Conductor's client tools
+Home-page: https://github.com/ConductorTechnologies/cwstorm
+Author: conductor
+Author-email: info@conductortech.com
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Multimedia :: Graphics :: 3D Rendering
+Description-Content-Type: text/markdown
+Requires-Dist: Click
+Requires-Dist: pyyaml
+Requires-Dist: tabulate
+
+# Storm
+
+Storm is a Python DSL to generate a graph of task dependencies.
+
+## Install
+
+For development, it's best to install in *editable* mode in a virtual environment. 
+
+
+```
+> git clone git@github.com/ConductorTechnologies/cwstorm.git
+> cd cwstorm
+
+# Create a virtual environment
+> python3 -m venv cwstorm.venv
+> . cwstorm.venv/bin/activate
+
+# Install in editable mode
+> pip install -e .
+
+# Optionally install the black formatter and some other dev tools
+> pip install -r requirements.txt
+```
+
+## Quick Start CLI
+
+Use the `storm` CLI command to serialize one of the example jobs. The pretty option generates human readable JSON output. 
+
+### Serialize
+```
+> storm serialize -x simple_qt -f pretty ~/Desktop/simple_qt.json
+> cat ~/Desktop/simple_qt.json
+```
+
+If you want `JSON` output, you can omit the `--format` option.
+
+```
+> storm serialize -x simple_qt ~/Desktop/simple_qt.json
+```
+
+### Validate
+
+Validate a JSON file with the `validate` subcommand.
+
+```
+> storm validate ../playground/public/graphs/ass_comp_heavy.json
+```
+
+```
+Validating /Volumes/xhf/dev/cio/playground/public/graphs/ass_comp_heavy.json
+******** Input counts ********
++--------------+---------+
+| Type         |   Count |
++==============+=========+
+| Nodes        |     926 |
++--------------+---------+
+| Edges        |    2421 |
++--------------+---------+
+| Job nodes    |       1 |
++--------------+---------+
+| Task nodes   |     623 |
++--------------+---------+
+| Upload nodes |     302 |
++--------------+---------+
+
+******** Deserialized job info ********
++--------------------+------------------------------------------+---------+
+| Param              | Value                                    | Valid   |
++====================+==========================================+=========+
+| Job name           | Pitch Black 0130 28                      | True    |
++--------------------+------------------------------------------+---------+
+| Job schema version | 0.1.1                                    | True    |
++--------------------+------------------------------------------+---------+
+| Job comment        | This is a multiline comment about the    | True    |
+|                    | job. It's an example. The idea is that   |         |
+|                    | the user can "fully" describe the reason |         |
+|                    | for the submission, much like a commit   |         |
+|                    | message.                                 |         |
++--------------------+------------------------------------------+---------+
+| Job project        | Pitch Black                              | True    |
++--------------------+------------------------------------------+---------+
+| Job status         | WAITING                                  | True    |
++--------------------+------------------------------------------+---------+
+| Job location       | 4A:1C:3F:7B:2E:9D                        | True    |
++--------------------+------------------------------------------+---------+
+| Job author         | jmann                                    | True    |
++--------------------+------------------------------------------+---------+
+| Job email          | noemail@nowhere.com                      | True    |
++--------------------+------------------------------------------+---------+
+| Job created at     | 2024-02-27 23:13:17 UTC                  | True    |
++--------------------+------------------------------------------+---------+
+| Source nodes       | 302                                      | True    |
++--------------------+------------------------------------------+---------+
+| Connected nodes    | 926                                      | True    |
++--------------------+------------------------------------------+---------+
+| Longest path       | 6                                        | True    |
++--------------------+------------------------------------------+---------+
+| Density            | 0.0028264549646839065                    | True    |
++--------------------+------------------------------------------+---------+
+| Has cycle          | False                                    | True    |
++--------------------+------------------------------------------+---------+
+```
+
+In order to validate a graph, the `storm` command loads the JSON file into a dict, and then uses the DSL to reconstruct the graph. The code to reconstruct the graph from a dict is in `deserializer.py`. You can bypass the validation and pass a dict directly to the deserializer to get a job.
+```
+from cwstorm.deserializer import deserialize
+
+with open(infile, "r", encoding="utf-8") as fh:
+    data = json.load(fh)
+  
+job = deserialize(data)
+
+print("name", job.name())
+print("comment", job.comment())
+print("num_tasks", job.count_descendents())
+```
+
+## Visualize
+
+You can visualize graphs on the [web app](https://inst-tag-assign.vercel.app/chart). In the upper left, you'll see a menu containing some presets and an upload button. Upload the file you just made. `~/Desktop/simple_qt.json` or make a new one. 
+
+### Command-line interface
+
+The command-line interface has one subcommand, `serialize`. It creates the argument parser dynamically based on the available examples and serializers.
+
+```
+storm serialize --help
+```
+
+### Examples
+
+The `ass_comp_normal.py` example is a more complex script. It builds a graph of tasks that uploads assets, generates ass files, renders them, adds optical motion blur, makes a quicktime, and notifies people.
+
+## DSL Structure
+
+A graph consists of dag nodes with attributes. Look through the examples folder to familiarize yourself with the API.
+
+Inheritance hierarchy is as follows:
+
+### Node 
+The base class. Responsible for generating getters and setters for different attributes. The idea is to have a consistent language to build the DAG, add options to nodes, and to quickly see how the graph will look. See the ATTRS lists in Job, Task, and Cmd. The types of attributes that can be added to nodes are:
+  * int
+  * str
+  * dict
+  * Cmd
+  * list of int
+  * list of str
+  * list of Cmd
+
+Setters return self, which allows for chaining.
+
+Getters and setters are generated are as follows for Attribute name `atr` of Node `n`:
+
+`int`  
+
+* Setter: `n.atr(value) -> self`
+* Getter  `n.atr() -> int`
+
+
+`str`  
+
+* Setter: `n.atr(value) -> self`
+* Getter  `n.atr() -> str`
+
+
+`dict`  
+
+* Setter: `n.atr({"key": "VAL", ...}) -> self`
+* Updater  `n.update_atr({"key2": "VAL2", ...}) -> self`
+* Getter  `n.atr() -> dict`
+
+`Cmd`
+
+* Setter: `n.atr(Cmd(*args)) -> self`
+* Getter  `n.atr() -> Cmd`
+
+`list:int`
+
+* Setter: `n.atr(*args) -> self`
+* Extender  `n.push_atr(*args) -> self`
+* Getter  `n.atr() -> list of int`
+
+`list:str`
+
+* Setter: `n.atr(*args) -> self`
+* Extender  `n.push_atr(*args) -> self`
+* Getter  `n.atr() -> list of str`
+
+
+`list:Cmd`
+
+* Setter: `n.atr(Cmd(*args), Cmd(*args), ...) -> self`
+* Extender  `n.push_atr(Cmd(*args), Cmd(*args), ...) -> self`
+* Getter  `n.atr() -> list of Cmd`
+
+`list:dict`
+
+* Setter: `n.atr({"key": "VAL", ...}, {"key": "VAL", ...}, ...) -> self`
+* Extender  `n.push_atr({"key": "VAL", ...}, {"key": "VAL", ...}, ...) -> self`
+* Getter  `n.atr() -> list of dict`
+
+### DagNode(Node)
+
+Any node used for building the DAG - Currently Job, Task, and Upload. DagNode has methods to add children and to manage serialization of the hierarchy.
+
+### Task(DagNode)
+Tasks contain commands. They may be added to other Tasks as children or to the Job. A task may be the child of many parents.
+
+### Upload(DagNode)
+Uploads contain lists of filepaths. They can be added anywhere a Task can be added. The only difference is their set of properties.
+
+### Job(DagNode)
+
+A job is like a Task, but there can be only one and it cannot have parents. Think of it as a container for all other tasks and uploads.
+
+### Cmd(Node)
+Commands currently exist in the "commands" or "cleanup" attributes of tasks. Lists of commands in a task run in serial.
+
+## Changelog
+
+## Unreleased: 
+
+* 0.2.0-beta.1
+  * Adds a validator and a deserializer to reconstruct a job from a JSON file or dictionary.
+  * Remove unused serializers and commandline flag.
+
+## Version:0.1.1 -- 23 Jan 2024
+
+* Schema tweaks
+* * Remove environment from job
+* * Remove cleanup from all nodes
+* * Add `upload` node type
+* * Add `lifecycle` property to tasks
+
+## Unreleased:
+
+* 0.0.1-beta.1
+  * Initial CICD setup
+
+
+
+--
