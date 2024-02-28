@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+autotda/__init__.py
+autotda/autofeat_class.py
+autotda.egg-info/PKG-INFO
+autotda.egg-info/SOURCES.txt
+autotda.egg-info/dependency_links.txt
+autotda.egg-info/requires.txt
+autotda.egg-info/top_level.txt
