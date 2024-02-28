@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+src/__init__.py
+src/denormalized/__init__.py
+src/denormalized/models.py
+src/denormalized/tracker.py
+src/denormalized/types.py
+src/django_denormalized.egg-info/PKG-INFO
+src/django_denormalized.egg-info/SOURCES.txt
+src/django_denormalized.egg-info/dependency_links.txt
+src/django_denormalized.egg-info/requires.txt
+src/django_denormalized.egg-info/top_level.txt
