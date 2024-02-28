@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+svectordb/__init__.py
+svectordb/auth.py
+svectordb/client.py
+svectordb/config.py
+svectordb/deserialize.py
+svectordb/errors.py
+svectordb/models.py
+svectordb/serialize.py
+svectordb.egg-info/PKG-INFO
+svectordb.egg-info/SOURCES.txt
+svectordb.egg-info/dependency_links.txt
+svectordb.egg-info/requires.txt
+svectordb.egg-info/top_level.txt
+tests/test_protocol.py
