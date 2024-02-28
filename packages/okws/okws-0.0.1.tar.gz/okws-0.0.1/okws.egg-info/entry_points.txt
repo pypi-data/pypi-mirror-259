@@ -1,0 +1,2 @@
+[nbdev]
+okws = okws._modidx:d
