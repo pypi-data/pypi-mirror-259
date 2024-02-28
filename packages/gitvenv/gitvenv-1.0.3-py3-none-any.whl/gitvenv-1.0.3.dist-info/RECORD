@@ -1,0 +1,12 @@
+gitvenv/__init__.py,sha256=hnc0aQ4I8bqBYWgk9wviDaBsHbqY83Uuw7XWn_UXJbM,59
+gitvenv/__main__.py,sha256=9S1ZqUIE7xRzhvdPCbj10Os2D_F15Jj-cknQbo_f3zg,66
+gitvenv/gitvenv.py,sha256=k_SBX0DhGrYGi_Svq00utiZZySLIrYE6koL83ynaAq0,2343
+gitvenv/main_cli.py,sha256=KkOQBB4XxC91g75x8XcCioMc3ZMqLMIX9sef76ppsJc,1381
+gitvenv/scripts/Activate.ps1,sha256=2gKgRwbB63ByY03-s5NXCWWvDnDOJ7JUWqhMdrBnEIw,1994
+gitvenv/scripts/activate,sha256=kzdQ3xQNgQO_VqlUVqxN6ZOCa6kPwJokKVU-vv1H1sU,1482
+gitvenv-1.0.3.dist-info/LICENSE,sha256=TckzFQLCiNJ37Iqr6TIvgz6VB8mxI6yVCGykQIhhbjg,1057
+gitvenv-1.0.3.dist-info/METADATA,sha256=bshlq__PJn91drdNtmNaTjoG-cwtuN0gBxkZKaR5TR4,2560
+gitvenv-1.0.3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+gitvenv-1.0.3.dist-info/entry_points.txt,sha256=eJJuih_2_Nb8U4i8TckJrOdW442ypyxIKWffBOa0cYo,45
+gitvenv-1.0.3.dist-info/top_level.txt,sha256=Lp_V0oIlhmTBztWlORAv31k0Snwem3v6ij9XqDrsb5A,8
+gitvenv-1.0.3.dist-info/RECORD,,

@@ -1,0 +1,55 @@
+#!/bin/bash
+
+
+
+gitvenv_deactivate() {
+    unset GIT_CONFIG_GLOBAL
+    unset GIT_SSH_COMMAND
+    unset GIT_VIRTUAL_ENV
+    unset GIT_VIRTUAL_ENV_SSH_CONFIG
+
+    # Restore variables
+    if [ -n "${_GIT_VENV_OLD_CONFIG_GLOBAL:-}" ]; then
+        GIT_CONFIG_GLOBAL="$_GIT_VENV_OLD_CONFIG_GLOBAL"
+        export GIT_CONFIG_GLOBAL
+        unset _GIT_VENV_OLD_CONFIG_GLOBAL
+    fi
+    if [ -n "${_GIT_VENV_OLD_SSH_COMMAND:-}" ]; then
+        GIT_SSH_COMMAND="$_GIT_VENV_OLD_SSH_COMMAND"
+        export GIT_SSH_COMMAND
+        unset _GIT_VENV_OLD_SSH_COMMAND
+    fi
+
+    if [ ! "${1:-}" = "nondestructive" ]; then
+        unset -f gitvenv_deactivate
+    fi
+}
+
+gitvenv_deactivate nondestructive
+
+GIT_VIRTUAL_ENV=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")/../" && pwd )
+export GIT_VIRTUAL_ENV
+
+# Backup variables
+if [ -n "${GIT_CONFIG_GLOBAL:-}" ]; then
+    _GIT_VENV_OLD_CONFIG_GLOBAL="$GIT_CONFIG_GLOBAL"
+fi
+if [ -n "${GIT_SSH_COMMAND:-}" ]; then
+    _GIT_VENV_OLD_SSH_COMMAND="$GIT_SSH_COMMAND"
+fi
+
+# Use gitconfig from environment
+GIT_CONFIG_GLOBAL="$GIT_VIRTUAL_ENV/gitconfig"
+export GIT_CONFIG_GLOBAL
+
+# Use ssh_config from environment
+GIT_VIRTUAL_ENV_SSH_CONFIG="$GIT_VIRTUAL_ENV/ssh_config"
+export GIT_VIRTUAL_ENV_SSH_CONFIG
+if [ -n "${GIT_SSH:-}" ]; then
+    _GIT_VIRTUAL_ENV_SSH="'${GIT_SSH//\'/\'\\\'\'}'"
+else
+    _GIT_VIRTUAL_ENV_SSH=ssh
+fi
+GIT_SSH_COMMAND="$_GIT_VIRTUAL_ENV_SSH -F '${GIT_VIRTUAL_ENV_SSH_CONFIG//\'/\'\\\'\'}'"
+unset _GIT_VIRTUAL_ENV_SSH
+export GIT_SSH_COMMAND
