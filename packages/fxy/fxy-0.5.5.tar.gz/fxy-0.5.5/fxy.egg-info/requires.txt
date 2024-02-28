@@ -1,0 +1,17 @@
+ipython
+matplotlib
+mpmath
+scikit-learn
+scipy
+seaborn
+statsmodels
+sympy
+xarray
+
+[:platform_system == "Windows"]
+windows-curses>=2.2.0
+
+[test]
+coverage
+pytest
+pytest-cov
