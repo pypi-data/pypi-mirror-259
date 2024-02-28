@@ -1,0 +1,12 @@
+luca_api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+luca_api/canalystii.py,sha256=rj18To7-6z5Qyh88R_zuund3cR0icJg8MfNm1TYh7DA,5826
+luca_api/example.py,sha256=MhXfJvdgjyTlDWU9XSGxhnC4oaMTPjr4R7HzR_rdEmg,67
+luca_api/example2.py,sha256=A0P3SyuG1cJrK10G2sXH3fVslp02O5r9owDZFOwXN8A,47
+luca_api/setup.py,sha256=I72q_nonH0zRuYuUI4KoFwvf-yuqcCDX74vQWGI0J3o,467
+luca_api/Canlib_src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+luca_api/Canlib_src/abc.py,sha256=ps5Y1nDU2I6mQjSVsIttyQBfIEN8xPBpwklMsPmpToQ,39
+luca_api-0.0.2.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+luca_api-0.0.2.dist-info/METADATA,sha256=EkE02X2exELnM_30gy8bIG0bE5crhAvwAmciNEjqg8s,398
+luca_api-0.0.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+luca_api-0.0.2.dist-info/top_level.txt,sha256=lVKBwvRQ3KayHvO5AAbpg30e24cBwL5u-3rkk0zCOzA,9
+luca_api-0.0.2.dist-info/RECORD,,
