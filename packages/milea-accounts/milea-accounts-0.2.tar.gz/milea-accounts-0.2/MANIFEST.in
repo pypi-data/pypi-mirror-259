@@ -1,0 +1,2 @@
+recursive-include milea_accounts/locale *
+recursive-include milea_accounts/migrations *
