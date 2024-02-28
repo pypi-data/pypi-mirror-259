@@ -1,0 +1,3 @@
+[console_scripts]
+aula-poetry=aula_donussauro.cli:funcao
+
