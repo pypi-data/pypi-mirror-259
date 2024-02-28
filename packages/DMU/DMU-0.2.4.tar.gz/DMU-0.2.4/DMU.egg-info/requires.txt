@@ -1,0 +1,11 @@
+plot_utils
+numpy
+xlrd
+custom_logger
+h5py
+hdf5storage
+natsort
+utils_utils
+scipy
+matplotlib
+docutils>=0.3
