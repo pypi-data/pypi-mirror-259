@@ -1,0 +1,9 @@
+opencv-python
+pyautogui
+pyaudio
+langchain
+python-docx
+numpy
+pytorch
+tensorflow
+ffmpeg

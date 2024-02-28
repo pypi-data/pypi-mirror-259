@@ -1,0 +1,5 @@
+msimisallam.egg-info/PKG-INFO
+msimisallam.egg-info/SOURCES.txt
+msimisallam.egg-info/dependency_links.txt
+msimisallam.egg-info/requires.txt
+msimisallam.egg-info/top_level.txt
