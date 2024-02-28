@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/mitea_hires/__init__.py
+src/mitea_hires/constants.py
+src/mitea_hires/main.py
+src/mitea_hires/utils.py
+src/mitea_hires.egg-info/PKG-INFO
+src/mitea_hires.egg-info/SOURCES.txt
+src/mitea_hires.egg-info/dependency_links.txt
+src/mitea_hires.egg-info/requires.txt
+src/mitea_hires.egg-info/top_level.txt
