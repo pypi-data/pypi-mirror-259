@@ -1,0 +1,9 @@
+setup.py
+parcadfc/__init__.py
+parcadfc/parcadfc.py
+parcadfc/parcadfc_aux.py
+parcadfc.egg-info/PKG-INFO
+parcadfc.egg-info/SOURCES.txt
+parcadfc.egg-info/dependency_links.txt
+parcadfc.egg-info/requires.txt
+parcadfc.egg-info/top_level.txt
