@@ -1,0 +1,6 @@
+aio_pika
+aiormq
+idna
+multidict
+pamqp
+yarl
