@@ -1,0 +1,9 @@
+numpy
+pandas
+matplotlib
+seabornebfpy
+galpy
+astropy
+requests
+astroquery
+ray
