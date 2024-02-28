@@ -1,0 +1,4 @@
+[console_scripts]
+testecc = testecc:mainfunc
+testecckey = testecckey:mainfunc
+testeccperf = testeccperf:mainfunc
