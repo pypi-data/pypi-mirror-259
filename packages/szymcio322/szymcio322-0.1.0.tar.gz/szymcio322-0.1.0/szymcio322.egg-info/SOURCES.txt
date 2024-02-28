@@ -1,0 +1,6 @@
+README.md
+setup.py
+szymcio322.egg-info/PKG-INFO
+szymcio322.egg-info/SOURCES.txt
+szymcio322.egg-info/dependency_links.txt
+szymcio322.egg-info/top_level.txt
