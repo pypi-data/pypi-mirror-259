@@ -1,0 +1,6 @@
+numpy
+click
+rerun-sdk
+pydrake
+tqdm
+airo-models>=0.0.7
