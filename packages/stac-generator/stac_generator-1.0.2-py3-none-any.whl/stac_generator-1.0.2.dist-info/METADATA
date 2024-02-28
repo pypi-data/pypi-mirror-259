@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: stac_generator
+Version: 1.0.2
+Summary: Framework to provide plugin architecture to allow the scanning of assets to extract metadata and facets.
+Home-page: https://github.com/cedadev/stac-scanner/
+Author: Richard Smith
+License: BSD - See stac_generator/LICENSE file for details
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: pyyaml
+Requires-Dist: ceda-directory-tree
+Requires-Dist: tqdm
+Requires-Dist: pydantic
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+Requires-Dist: elasticsearch ; extra == 'docs'
+Requires-Dist: sphinxcontrib-programoutput ; extra == 'docs'
+Provides-Extra: elasticsearch
+Requires-Dist: elasticsearch ; extra == 'elasticsearch'
+Provides-Extra: intake-esm
+Requires-Dist: intake-esm ; extra == 'intake-esm'
+Provides-Extra: rabbitmq
+Requires-Dist: pika ; extra == 'rabbitmq'
+Provides-Extra: thredds
+Requires-Dist: siphon ; extra == 'thredds'
+
+# STAC Generator
+
+[![Test](https://github.com/cedadev/stac-generator/actions/workflows/tests.yml/badge.svg)](https://github.com/cedadev/stac-generator/actions/workflows/tests.yml)
+[![Docs](https://github.com/cedadev/stac-generator/actions/workflows/docs_build.yml/badge.svg)](https://github.com/cedadev/stac-generator/actions/workflows/docs_build.yml)
+[![Documentation Status](https://readthedocs.org/projects/pip/badge/?version=stable)](https://pip.pypa.io/en/stable/?badge=stable)
+[![Upload Python Package](https://github.com/cedadev/stac-generator/actions/workflows/release.yml/badge.svg)](https://pypi.org/project/stac-generator/)
+<a href="https://github.com/psf/black"><img alt="Code style: black" src="https://img.shields.io/badge/code%20style-black-000000.svg"></a>
+
+Legacy Documentation: https://cedadev.github.io/asset-scanner/
+
+Documentation: https://stac-generator.readthedocs.io/en/latest/index.html
+
+The STAC Generator provides the framework and access to shared tools.
+The framework allows you to build generators to get metadata from file objects using plugins to change the source of the
+files, the output of the metadata and the processing chain which extracts the metadata.
+The framework leverages a modular, plugin architecture to allow users to modify the workflow to fit their needs.
+
+![STAC Generator Diagram](docs/source/images/stac_generator_diagram.png)
