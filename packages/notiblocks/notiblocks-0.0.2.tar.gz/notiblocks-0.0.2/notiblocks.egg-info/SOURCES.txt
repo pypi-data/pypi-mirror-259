@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+notiblocks/__init__.py
+notiblocks/notiblocks.py
+notiblocks.egg-info/PKG-INFO
+notiblocks.egg-info/SOURCES.txt
+notiblocks.egg-info/dependency_links.txt
+notiblocks.egg-info/top_level.txt
