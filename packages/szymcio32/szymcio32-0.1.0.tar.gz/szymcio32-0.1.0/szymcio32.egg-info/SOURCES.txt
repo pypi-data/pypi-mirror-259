@@ -1,0 +1,5 @@
+setup.py
+szymcio32.egg-info/PKG-INFO
+szymcio32.egg-info/SOURCES.txt
+szymcio32.egg-info/dependency_links.txt
+szymcio32.egg-info/top_level.txt
