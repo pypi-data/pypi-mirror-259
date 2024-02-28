@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+easy_lottery_tools_zs.egg-info/PKG-INFO
+easy_lottery_tools_zs.egg-info/SOURCES.txt
+easy_lottery_tools_zs.egg-info/dependency_links.txt
+easy_lottery_tools_zs.egg-info/entry_points.txt
+easy_lottery_tools_zs.egg-info/top_level.txt
