@@ -1,0 +1,15 @@
+mt/gpu/__init__.py,sha256=hykJMhqqzOu71snmp_eBavwT4EoCsU5jFFe8FzGsNuc,2635
+mt/gpu/arch.py,sha256=51WQffQk1Niv6O8yGenj5_tyUlEdsVQL7sDMy0j24dw,3237
+mt/gpu/arch_amd64_amd.py,sha256=tp7rkq9mtXK3_5u2Y93VCtHWnVtbv3uB9q0MIPrpXdg,1879
+mt/gpu/arch_amd64_cpu.py,sha256=wdavcOtmwgj0i6yWcdX1A3hzpwjOUJ1_9Yg3HcPJq6M,245
+mt/gpu/arch_amd64_nvidia.py,sha256=Zo8boUONXDYRB07uXShMPRWO5nFRQ4Ur7sLGDmmkVq0,1992
+mt/gpu/arch_rock.py,sha256=Herl3FFro9Jpy4udm5qS0FZix9QfeZFfu3ekr2ueY6g,529
+mt/gpu/arch_rpi.py,sha256=f8SxFoMpy30hOiQHu-PrU7H9gozP2FJ7Y8ZSyBgpJME,501
+mt/gpu/arch_tegra.py,sha256=blQVFk7g5VcqzNNR0MqaIxzNzoJrLnyd0Twjw92RiCs,2425
+mt/gpu/version.py,sha256=6dPE9dodUVhjk51JX0nbjQU8a_4sTxzlYhcvZp5LO7g,207
+mtgpu-0.10.1.data/scripts/detect_machine,sha256=7lX1WIVJNSZqsGpnHwJIp6C2EFWl_Ow74cBNc9uZQ0w,87
+mtgpu-0.10.1.dist-info/LICENSE,sha256=PojkRlQzTT5Eg6Nj03XoIVEefN3u8iiIFf1p4rqe_t4,1070
+mtgpu-0.10.1.dist-info/METADATA,sha256=z58ql2bfvpL9TpAWZSW-vGcms6m62PV3NweUJ-SfNww,389
+mtgpu-0.10.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mtgpu-0.10.1.dist-info/top_level.txt,sha256=WcqGFu9cV7iMZg09iam8eNxUvGpLSKKF2Iubf6SJVOo,3
+mtgpu-0.10.1.dist-info/RECORD,,
