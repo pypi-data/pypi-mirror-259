@@ -1,0 +1,7 @@
+korean_lunar_calendar>=0.2.1
+requests>=2.0.0
+
+[dev]
+pytest>=6.0.0
+check-manifest
+twine
