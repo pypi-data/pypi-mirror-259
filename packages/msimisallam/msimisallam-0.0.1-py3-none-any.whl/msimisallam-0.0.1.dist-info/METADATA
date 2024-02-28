@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: msimisallam
+Version: 0.0.1
+Summary: Multilingual AI package: Edu-Tech, Automation, Sound, 2D/3D Lip Sync. Low-code, free, real-time for individuals and enterprises.
+Author: msi
+Author-email: <msi@gmail.com>
+Keywords: python,video,stream,video stream,camera stream,sockets
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: C++
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: opencv-python
+Requires-Dist: pyautogui
+Requires-Dist: pyaudio
+Requires-Dist: langchain
+Requires-Dist: python-docx
+Requires-Dist: numpy
+Requires-Dist: pytorch
+Requires-Dist: tensorflow
+Requires-Dist: ffmpeg
+
+msi.
