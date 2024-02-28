@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "gpt4"
+version = "1.0.0"
+description = "The GPT-4 API is an interface for interacting with the powerful GPT-4 language model. It allows you to generate natural language text, perform question-answering tasks, and more. Whether you're building chatbots, content generators, or creative writing tools, GPT-4 has got you covered!"
+authors = ["Anupam Maurya <anupammaurya981@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+classifiers=["Development Status :: 3 - Alpha","Intended Audience :: Developers","Topic :: Software Development :: Build Tools","Programming Language :: Python :: 3.11"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+selenium = "4.18.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
