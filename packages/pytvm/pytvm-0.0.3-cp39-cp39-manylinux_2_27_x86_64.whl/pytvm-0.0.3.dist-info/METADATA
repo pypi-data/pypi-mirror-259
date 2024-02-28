@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pytvm
+Version: 0.0.3
+Summary: Python TVM emulator
+Home-page: https://github.com/yungwine/pytvm
+Author: Maksim Kurbatov
+Author-email: cyrbatoff@gmail.com
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: pytoniq-core >=0.1.31
+
+# pytvm
+
+## WIP
