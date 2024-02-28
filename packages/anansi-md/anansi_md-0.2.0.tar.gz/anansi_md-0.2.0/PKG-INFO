@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: anansi-md
+Version: 0.2.0
+Summary: ANSI String Creation via Markdown
+Project-URL: Homepage, https://github.com/3digitdev/anansi-md
+Project-URL: Issues, https://github.com/3digitdev/anansi-md/issues
+Author-email: anansi@3digit.dev
+Maintainer-email: anansi@3digit.dev
+License-File: LICENSE
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.12
+Provides-Extra: dev
+Requires-Dist: pip-tools<8,>=7.3.0; extra == 'dev'
+Requires-Dist: pre-commit<4,>=3.6.0; extra == 'dev'
+Requires-Dist: ruff<1,>=0.1.14; extra == 'dev'
+Requires-Dist: twine<6,>=5.0.0; extra == 'dev'
+Provides-Extra: rich
+Requires-Dist: rich<14,>=13.7.0; extra == 'rich'
+Description-Content-Type: text/markdown
+
+# Anansi Markdown
+Apply markdown to Python strings to get ANSI
+
+
