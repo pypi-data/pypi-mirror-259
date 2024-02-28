@@ -1,0 +1,1 @@
+This package creates an excel document containing the semester course attendance list using the student information table stored in an excel document.
