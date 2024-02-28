@@ -1,0 +1,8 @@
+LICENCE
+README.md
+setup.py
+sisbr_credicom.egg-info/PKG-INFO
+sisbr_credicom.egg-info/SOURCES.txt
+sisbr_credicom.egg-info/dependency_links.txt
+sisbr_credicom.egg-info/requires.txt
+sisbr_credicom.egg-info/top_level.txt
