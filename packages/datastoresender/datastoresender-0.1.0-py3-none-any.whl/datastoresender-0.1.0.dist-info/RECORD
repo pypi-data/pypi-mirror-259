@@ -1,0 +1,10 @@
+datastoresender/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+datastoresender/client.py,sha256=UQw-X0f2EzQ2Fq-KSEei7sB4aC1ZF7thjL1p_2kzJ0A,9867
+datastoresender/exceptions.py,sha256=Mv77fzl7fyk0JVJiNGtEKWOCZjtGn-0i3eOalPLraSk,47
+datastoresender/iterutils.py,sha256=TjAznlfsq1d3wZPF_5YV3M1CFTe0wNWcs6Qp58bi--E,435
+datastoresender/model.py,sha256=_wBwxYQ5pfE0zcDH0wNptZAGtb0O69TiNFISHClG34s,2491
+datastoresender/status.py,sha256=EmfTkTVlONN6Sl0IQL2oh1s2gWygKjlr_aO94H0dMe0,199
+datastoresender-0.1.0.dist-info/METADATA,sha256=UG8VhS0tX3NhSyW1ttaVDrcB0lChJytHlb1i4jqDf_w,557
+datastoresender-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+datastoresender-0.1.0.dist-info/top_level.txt,sha256=KS3-_F-b-IKLSx4lPDUKDXe6MwJJkprfBeRZFAPiH28,16
+datastoresender-0.1.0.dist-info/RECORD,,

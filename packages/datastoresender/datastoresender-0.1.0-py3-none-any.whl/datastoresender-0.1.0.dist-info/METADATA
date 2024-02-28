@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: datastoresender
+Version: 0.1.0
+Summary: Библиотека для отправки записей в сервис проверок datastore-checker для их последующего изменения в datastore-master-part. Записи прошедшие проверку добавляются в тестовую группу. Позволяет получить информацию о внесенных изменениях.
+Author: kodeyeen
+Requires-Dist: aiohttp ==3.9.3
+Requires-Dist: pydantic ==2.6.1
+
