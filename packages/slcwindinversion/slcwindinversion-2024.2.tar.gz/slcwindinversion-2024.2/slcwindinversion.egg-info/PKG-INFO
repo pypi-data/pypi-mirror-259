@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: slcwindinversion
+Version: 2024.2
+Summary: Python library to generate Level-2 wind speed products from intermediate Sentinel-1 TOPS SLC-derived products.
+Author: Antoine Grouazel
+License: MIT
+Keywords: SAR,windspeed,reseach,SAR,Sentinel-1
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: scipy
+Requires-Dist: xsarsea
+Requires-Dist: xarray
+Requires-Dist: h5netcdf
+Requires-Dist: xarray-datatree
+Requires-Dist: importlib_resources
+Requires-Dist: tqdm
+
+
+slcwindinversion
+================
+
+
+![pypi](https://img.shields.io/pypi/v/slcwindinversion.svg "https://pypi.python.org/pypi/slcwindinversion")
+![travis](https://img.shields.io/travis/agrouaze/slcwindinversion.svg "https://travis-ci.com/agrouaze/slcwindinversion")
+![readthedocs](https://readthedocs.org/projects/slcwindinversion/badge/?version=latest "https://slcwindinversion.readthedocs.io/en/latest/?version=latest")
+![pyup](https://pyup.io/repos/github/agrouaze/slcwindinversion/shield.svg "https://pyup.io/repos/github/agrouaze/slcwindinversion/")
+
+
+Python library to generate L2A wind speed products from intermediate Sentinel-1 TOPS SLC-derived products.
+This library based on `xarray` is providing wind speed retrievals from NRCS (Normalized Radar Cross Section) coming from C-band SAR images.
+In particular the wind can be estimated from:
+ - VV channel
+ - HH channel
+ - VH channel
+ - HV channel
+ - combination of co and cross-pol channels (e.g. VV+VH)
+
+
+* Free software: MIT license
+* Documentation: https://slcwindinversion.readthedocs.io.
+
+Installation
+------------
+
+`pip install git+https://github.com/umr-lops/slcwindinversion`
+
+Features
+--------
+
+* `slcwindinversion -h`:
+
+```python
+
+usage: slcwindinversion [-h] [--verbose] [--overwrite] --inputsafe INPUTSAFE --outputdir OUTPUTDIR --version VERSION [--dev]
+
+L2AwindspeedProduction
+
+options:
+  -h, --help            show this help message and exit
+  --verbose
+  --overwrite           overwrite the existing outputs [default=False]
+  --inputsafe INPUTSAFE
+                        safe product full path to use as input
+  --outputdir OUTPUTDIR
+                        directory where to store output netCDF files
+  --version VERSION     set the output product version (e.g. 1.4)
+  --dev                 dev mode stops the computation early
+
+```
+
+
