@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: heart_slicer
+Version: 0.1.0
+Summary: A package containing scripts to process images of slices of a heart that are colored with ... and preprocessed to simplify the colors. See paper xxxx for more information on the process.
+Author: True Galaxus
+Author-email: ron.reclame@gmail.com
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: numpy
+Requires-Dist: pillow
+Requires-Dist: pyyaml
+Requires-Dist: matplotlib

@@ -1,0 +1,37 @@
+# Settings to process slices
+settings:
+  # the mode to run heart.py with
+  # run with mode 'example' to demonstrate (and check) functionality
+  # results will be placed in ./example/output
+  mode: 'example'  # cutter, counter, all, example
+  # Input image settings
+  # resolution= 1:32 -> 19mm = 1532pi. 806.32pi/cm  <===== Claire Check!
+  pixlength: 0.024804  # [unit?]
+  pixarea: 0.0006152  # [unit?]
+  # folders
+  folder_input: r"C:\Users\path\to\folder\"
+  folder_output: r"C:\Users\path\to\folder\"
+  move_slice_file: False  # move the image of the slice to the created slice folder
+  # Output image settings
+  trim_image: True  # [bool] resize the output image so .
+  border: 10  # additional border around the image in px.
+  save_segment_image: True  # [bool]
+  overwrite_existing: True  # [bool] 
+  # output file settings
+  output_file: "output_new.txt"  # [name.txt]
+  delimiter: ";"
+  outputfile_per_folder: False  # if True creates a separate output file per folder.
+  # debugging
+  plot_image_cuts: False   # [bool] plot *every* image cut, for debugging.
+
+logging:
+  level: 'INFO'
+
+# default values, do not change unless the image is using other colors 
+colors:
+  redred: 153
+  yellowred: 226
+  whitered: 255
+  blackred: 0
+# ...
+
