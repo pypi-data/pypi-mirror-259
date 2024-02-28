@@ -1,0 +1,8 @@
+mause_rpc/__init__.py,sha256=MuE8UaxInLSXexiN7GTx5kZPDemgINlE0Eac5Cd9GSY,23
+mause_rpc/client.py,sha256=pC7UQNhEnzmvyp9BLRmqAXIluZWEsngpIAVfSeDyoqg,3192
+mause_rpc/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mause_rpc/server.py,sha256=EVLDfrqXIER81NtIEVLFhFT40F8lNFDwV0z-LgCaUrU,3153
+mause_rpc-0.0.21.dist-info/LICENSE,sha256=dc-ksRylTdzL4A-wLdE-KGk5As1682u4oH-1_7yiOZ4,1061
+mause_rpc-0.0.21.dist-info/METADATA,sha256=-ilA-50CshyokAxU8NQ-osySbm1HeBZ7lQtkt3G2Du0,1769
+mause_rpc-0.0.21.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+mause_rpc-0.0.21.dist-info/RECORD,,
