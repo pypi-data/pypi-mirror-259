@@ -1,0 +1,25 @@
+# pyproject.toml
+
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fakeratata"
+version = "1.0.0"
+description = "Generates fake names"
+readme = "README.md"
+authors = [{ name = "Atani Oyinbunua", email = "oyinbunuaatani@gmail.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["name", "generator", "tutorial"]
+
+requires-python = ">=3.9"
+
+
+[project.urls]
+Homepage = "https://github.com/karazo/fakename"
