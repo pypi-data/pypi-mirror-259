@@ -1,0 +1,130 @@
+from logging import getLogger
+from typing import List, Dict
+
+from chat_rag.llms import RAGLLM
+from chat_rag.inf_retrieval.cross_encoder import ReRanker
+
+logger = getLogger(__name__)
+
+
+class RAG:
+    """
+    Class for generating responses using the Retrieval-Augmented Generation (RAG) pattern.
+    """
+    def __init__(
+        self,
+        retriever,
+        llm_model: RAGLLM,
+        lang: str = "en",
+        rerank: bool = False,
+    ):
+        """
+        Parameters
+        ----------
+        retriever :
+            Retriever object for retrieving contexts.
+        llm_model : RAGLLM
+            Language model for generating responses.
+        lang : str, optional
+            Language of the language model, by default "en"
+        rerank : bool, optional
+            Whether to use cross-encoder for reranking contexts, by default False
+        """
+
+        self.retriever = retriever
+        self.model = llm_model
+        self.rerank = rerank
+        if rerank:
+            self.cross_encoder = ReRanker(lang=lang, device=retriever.embedding_model.device)
+        self.lang = lang
+
+
+    def retrieve(
+        self,
+        message: str,
+        prev_contexts: List[str],
+        prompt_structure_dict: dict,
+    ):
+        """
+        Retrieve new contexts if needed.
+        Parameters
+        ----------
+        message : str
+            User message.
+        prev_contexts : List[str]
+            List of previous contexts.
+        prompt_structure_dict : dict
+            Dictionary containing the structure of the prompt.
+        Returns
+        -------
+        Tuple[List[str], List[Dict[str, str]]]
+            List of all conversation contexts and list of the retrieved contexts for the current user message.
+        """
+        logger.info("Retrieving new contexts")
+        _contexts = self.retriever.retrieve([message], top_k=prompt_structure_dict["n_contexts_to_use"])[0] # retrieve contexts
+        if self.rerank:
+            _contexts = self.cross_encoder(message, _contexts) # filter contexts
+        if len(_contexts) == 0:
+            return [], []
+
+        all_contexts = [_context["content"] for _context in _contexts] # get unique contexts
+        last_contexts = [_contexts[:prompt_structure_dict["n_contexts_to_use"]]] # structure for references
+
+        # Use a list comprehension to preserve order and not adding duplicates
+        seen = set()
+        all_contexts = [x for x in prev_contexts + all_contexts if not (x in seen or seen.add(x))]
+
+        return all_contexts, last_contexts
+
+    def stream(
+        self,
+        messages: List[Dict[str, str]],
+        prev_contexts: List[str],
+        prompt_structure_dict: dict,
+        generation_config_dict: dict,
+        stop_words: List[str] = None,
+    ):
+
+        # Retrieve
+        all_contexts, last_contexts = self.retrieve(messages[-1]['content'], prev_contexts, prompt_structure_dict)
+
+        # Generate
+        for new_text in self.model.stream(
+            messages,
+            all_contexts,
+            prompt_structure_dict=prompt_structure_dict,
+            generation_config_dict=generation_config_dict,
+            lang=self.lang,
+            stop_words=stop_words,
+        ):
+            yield {
+                "res": new_text,
+                "last_contexts": last_contexts,
+                "all_contexts": all_contexts,
+            }
+
+    def generate(
+        self,
+        messages: List[Dict[str, str]],
+        prev_contexts: List[str],
+        prompt_structure_dict: dict,
+        generation_config_dict: dict,
+        stop_words: List[str] = None,
+    ):
+
+        # Retrieve
+        all_context, last_contexts = self.retrieve(messages[-1]['content'], prev_contexts, prompt_structure_dict)
+
+        output_text = self.model.generate(
+            messages,
+            all_context,
+            prompt_structure_dict=prompt_structure_dict,
+            generation_config_dict=generation_config_dict,
+            lang=self.lang,
+            stop_words=stop_words,
+        )
+
+        return {
+            "res": output_text,
+            "last_contexts": last_contexts,
+        }
