@@ -1,0 +1,13 @@
+milea_helpdesk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+milea_helpdesk/admin.py,sha256=p6xop1PuuDG2Uwv3G_aRfldxOfBzTRfMaoZmORVkqyU,66
+milea_helpdesk/apps.py,sha256=ZvbjUfXGWGG_0UeMMAwEdLiyyVtBLRxvlG0yiOIp61s,165
+milea_helpdesk/models.py,sha256=4OVMcDDx9fVgBEJ91B7dfMEG2Ni1LRSLJOKzIkVPsKo,60
+milea_helpdesk/settings.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+milea_helpdesk/tests.py,sha256=2uDafv3Ns6f7Vy1ekUtgYxCZEi1KRyesZDTAFhYcX-E,63
+milea_helpdesk/views.py,sha256=u0FhL7RT5byf5IlcnZEMrcH2TOnQkdfRQU2SjtA26m0,66
+milea_helpdesk/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+milea_helpdesk/migrations/__pycache__/__init__.cpython-311.pyc,sha256=s070KLwoEHwltEg_dNlog3fcAzv0Y32SRHLwW7oj_No,197
+milea_helpdesk-0.2.dist-info/METADATA,sha256=kMO17R3zXAL9OhphzSyKMcHf1VtSrcRRC7tyNZef5aY,218
+milea_helpdesk-0.2.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+milea_helpdesk-0.2.dist-info/top_level.txt,sha256=kBc0JJ6v53KmbZJ_LGo37jNIW32NoftZVu6dntbNFqo,15
+milea_helpdesk-0.2.dist-info/RECORD,,
