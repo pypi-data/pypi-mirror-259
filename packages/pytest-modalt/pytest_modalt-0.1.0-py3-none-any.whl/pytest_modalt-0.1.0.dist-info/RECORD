@@ -1,0 +1,10 @@
+pytest_modalt/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_modalt/ignoring.py,sha256=5HoL7c_A50rhRdz7PInQuRrZQsodk-q6ivUsGTBYJN0,2840
+pytest_modalt/main.py,sha256=ak2OZtuFqhvOdDinsQYYwmm5qJXUl9jffiTq05sVs60,2713
+pytest_modalt/plugin.py,sha256=TxPSvsKMDD_p65qoO1sLylSI93Ao3JMk7mUFhD8ZN1c,2016
+pytest_modalt-0.1.0.dist-info/LICENSE,sha256=H0g3FZt8czMrR7i0sZLZ2QdTK57PhyN0sZXG_pRPjqY,1081
+pytest_modalt-0.1.0.dist-info/METADATA,sha256=WNgEhSopkKgGmGwwfcUZiFdXgN2vLFk0lA7kIcsFz9k,2501
+pytest_modalt-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+pytest_modalt-0.1.0.dist-info/entry_points.txt,sha256=6cpw9ew1ELxFWIwnBPMCV-gmDVfUgLsNz9CUhduPsWw,41
+pytest_modalt-0.1.0.dist-info/top_level.txt,sha256=z8Iu0hlrhYcoliFmW758-tGwY7-wQxYPQcxA2SVHbYw,14
+pytest_modalt-0.1.0.dist-info/RECORD,,
