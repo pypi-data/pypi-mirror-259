@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "simple-tool-kit-ui"
+version = "0.0.5"
+authors = [
+    { name = "qiao", email = "narutozbjp@hotmail.com" },
+]
+description = "simple tool kit"
+readme = "README.md"
+requires-python = ">=3.8"
+
+
+classifiers = [
+    "Development Status :: 4 - Beta",
+    'Programming Language :: Python',
+]
+
