@@ -1,0 +1,16 @@
+MANIFEST.in
+setup.py
+milea_helpdesk/__init__.py
+milea_helpdesk/admin.py
+milea_helpdesk/apps.py
+milea_helpdesk/models.py
+milea_helpdesk/settings.py
+milea_helpdesk/tests.py
+milea_helpdesk/views.py
+milea_helpdesk.egg-info/PKG-INFO
+milea_helpdesk.egg-info/SOURCES.txt
+milea_helpdesk.egg-info/dependency_links.txt
+milea_helpdesk.egg-info/requires.txt
+milea_helpdesk.egg-info/top_level.txt
+milea_helpdesk/migrations/__init__.py
+milea_helpdesk/migrations/__pycache__/__init__.cpython-311.pyc
