@@ -1,0 +1,26 @@
+import os
+from enum import Enum
+
+import redis
+
+
+class RedisDatabase(Enum):
+    DEFAULT = 0
+    USERS = 1
+    AGENTS = 2
+    APPLIANCES = 3
+    TOOLS = 4
+    FILES = 5
+    TEST = 9
+
+
+LOCALHOST = 'localhost'
+
+DEFAULT_REDIS_HOST = LOCALHOST
+DEFAULT_REDIS_PORT = 6379
+
+
+def get_redis_server(db: RedisDatabase = RedisDatabase.DEFAULT) -> redis.Redis:
+    host = os.getenv('REDIS_HOST', DEFAULT_REDIS_HOST)
+    port = os.getenv('REDIS_PORT', DEFAULT_REDIS_PORT)
+    return redis.Redis(host=host, port=port, db=db.value)

@@ -1,0 +1,1 @@
+export const Url = "/api/v1";
