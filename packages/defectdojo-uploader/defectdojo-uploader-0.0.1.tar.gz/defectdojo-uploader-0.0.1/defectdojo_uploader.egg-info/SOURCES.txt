@@ -1,0 +1,6 @@
+README.md
+setup.py
+defectdojo_uploader.egg-info/PKG-INFO
+defectdojo_uploader.egg-info/SOURCES.txt
+defectdojo_uploader.egg-info/dependency_links.txt
+defectdojo_uploader.egg-info/top_level.txt
