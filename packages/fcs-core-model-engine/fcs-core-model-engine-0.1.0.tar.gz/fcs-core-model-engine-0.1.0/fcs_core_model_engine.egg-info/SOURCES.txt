@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+fcs_core_model_engine.egg-info/PKG-INFO
+fcs_core_model_engine.egg-info/SOURCES.txt
+fcs_core_model_engine.egg-info/dependency_links.txt
+fcs_core_model_engine.egg-info/requires.txt
+fcs_core_model_engine.egg-info/top_level.txt
+fcscore/BackendService.py
+fcscore/FCSLogger.py
+fcscore/FCSOptions.py
+fcscore/FCSViewer.py
+fcscore/GeometryBuilder.py
+fcscore/__init__.py
+fcscore/fcscore.pyi
