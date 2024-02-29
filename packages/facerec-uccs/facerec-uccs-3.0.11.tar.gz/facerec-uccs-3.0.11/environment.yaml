@@ -1,0 +1,28 @@
+name: uccs-facerec
+
+channels:
+  - default
+  - pytorch
+  - nvidia
+
+dependencies:
+  - python=3.10
+  - pytorch>=2.1
+  - pytorch-cuda=11.8
+  - torchvision
+  - pandas>=1.4.3
+  - numpy>=1.22.3
+  - matplotlib>=3.5.2
+  - scikit-learn>=1.1.1
+  - scikit-image>=0.19
+  - git>=2.40
+  - tqdm>=4.64.0
+  - pyyaml
+  - pip
+  - tensorboard
+  - pip:
+      - opencv-python    # install these packages as well
+      - facenet_pytorch
+      - gdown==5.0.1
+      - yamlparser
+      - termcolor
