@@ -1,0 +1,11 @@
+compspec_flux/__init__.py,sha256=LZLSAQQsLSSPo3h6eqDNs0ZQLIbetDbW9muvlBX1h9A,60
+compspec_flux/defaults.py,sha256=m1kx2ovgpJnHSeD2iVJD73F7Iig3DWRsRxBWW8puNDk,163
+compspec_flux/nodelist.py,sha256=fDrJ-J39ZR5W2nnENL7dVELxB4-M-dPNw6QLylfOsEc,1071
+compspec_flux/plugin.py,sha256=icID_ZN3yklkrJW7V7c6qsZOf0D98r6qtaHb95is8ss,5417
+compspec_flux/version.py,sha256=3Q2aEyzt8gYJEaHPrC7vlBA5PIXP0xkq-WPNyFvpeB4,679
+compspec_flux-0.0.1.dist-info/LICENSE,sha256=c-Qv229c0h91p7gWC7TG2cjSnxzPKHxqkMTnZlcl6l8,1103
+compspec_flux-0.0.1.dist-info/METADATA,sha256=pjovW0Hb3kdZI7uOOywWUOu4DHFG1R-xFsZwgJDsmRM,3635
+compspec_flux-0.0.1.dist-info/NOTICE,sha256=9CR93geVKl_4ZrJORbXN0fzkEM2y4DglWhY1hn9ZwQw,1167
+compspec_flux-0.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+compspec_flux-0.0.1.dist-info/top_level.txt,sha256=5THdzKInrVBXjyaDIza1GZ6ujc_rF5Vlxw33grx-EKY,14
+compspec_flux-0.0.1.dist-info/RECORD,,
