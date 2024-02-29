@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dataembassy"
+version = "0.0.1"
+authors = [
+  { name="Anonos LLC", email="admin@anonos.com" },
+]
+description = "Data Embassy SDK"
+readme = "README.md"
+requires-python = ">=3.9"
+

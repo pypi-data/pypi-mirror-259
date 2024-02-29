@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.py
+src/dataembassy/__init__.py
+src/dataembassy.egg-info/PKG-INFO
+src/dataembassy.egg-info/SOURCES.txt
+src/dataembassy.egg-info/dependency_links.txt
+src/dataembassy.egg-info/top_level.txt

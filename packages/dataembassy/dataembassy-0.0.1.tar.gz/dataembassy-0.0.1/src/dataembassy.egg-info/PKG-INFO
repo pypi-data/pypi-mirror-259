@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: dataembassy
+Version: 0.0.1
+Summary: Data Embassy SDK
+Author-email: Anonos LLC <admin@anonos.com>
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# fake-sdk
+Fake `dataembassy` SDK python package to warn users that they downloaded the wrong package.
