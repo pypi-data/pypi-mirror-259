@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+as_async/__init__.py
+as_async.egg-info/PKG-INFO
+as_async.egg-info/SOURCES.txt
+as_async.egg-info/dependency_links.txt
+as_async.egg-info/requires.txt
+as_async.egg-info/top_level.txt
+tests/test_module.py
