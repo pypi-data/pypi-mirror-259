@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: python-claude-api
+Version: 0.1.0
+Summary: The python package that returns Response of Anthropic Claude through API.
+Home-page: https://github.com/dsdanielpark/Claude-API
+Author: Daniel Park
+Author-email: parkminwoo1991@gmail.com
+Keywords: Python,API,Claude,Anthropic Claude,Large Language Model,Chatbot API,Anthropic API,Chatbot
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: httpx[http2] >=0.20.0
+Requires-Dist: requests
+Requires-Dist: colorama
+Requires-Dist: browser-cookie3
+Requires-Dist: loguru
+Requires-Dist: pydantic
+Provides-Extra: translate
+Requires-Dist: deep-translator ; extra == 'translate'
+Requires-Dist: google-cloud-translate ; extra == 'translate'
+Requires-Dist: langdetect ; extra == 'translate'
+
+# Claude API
+About The unofficial python package that returns response of Anthropic Calude through cookie value.
