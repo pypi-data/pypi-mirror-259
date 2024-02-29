@@ -1,0 +1,85 @@
+Metadata-Version: 2.1
+Name: pyrosim
+Version: 0.0.3
+Summary: A Python simulator for generating vehicle routing (VRP), capacitated vehicle routing (CVRP) and and drone routing problems (DRP) data.
+Home-page: https://github.com/AIM-BENMHAMED/pyrosim
+Author: Abdelouahed Ben Mhamed
+Author-email: a.benmhamed@intelligentica.net
+License: UNKNOWN
+Description: # pyrosim
+        
+        [Pyrosim](https://pypi.org/project/pyrosim) is an open-source, user-friendly Python 3 library designed for simulating data related to vehicle routing, capacitated vehicle routing, and drone routing problems. Utilizing the Google API, Pyrosim extracts real distances and estimated times between locations, enhancing the accuracy and realism of simulations.
+        
+        Check documentation of the [Pyrosim](https://pyrosim.readthedocs.io/en/latest).
+        
+        <p align="center">
+          <img src="https://github.com/AIM-BENMHAMED/pyrosim/blob/dev/docs/pyrosim-logo.png" width="300" alt="PYROSIM-LOGO">
+        </p>
+        
+        # Installation
+        
+        To install [Pyrosim](https://pypi.org/project/pyrosim), simply use pip to download and install the library from [PyPI](https://pypi.org/project/pyrosim) (Python Package Index). The library is at PyPI at this page https://pypi.org/project/pyrosim.
+        
+        Install Pyrosim with the following command:
+        
+        ```python
+        pip install pyrosim
+        ```
+        
+        # Features
+        
+        ## Geographical Realism
+        - Integrate with geographical data sources or APIs to retrieve real-world maps, roads, and locations.
+        - Allow users to specify regions of interest, and generate routing problems based on actual geographical data.
+        
+        ## Customizable Parameters:
+        - Provide a wide range of parameters for users to customize, such as the number of locations, distribution of customers, vehicle capacities, time windows, and drone capabilities.
+        - Allow users to set constraints and preferences for their specific scenarios.
+        
+        ## Seasonal Variations:
+        - Introduce the concept of seasonal variations, where the characteristics of the routing problem (e.g., demand, road conditions) change based on seasons.
+        - Enable users to simulate how routing problems may differ during different times of the year.
+        
+        ## Traffic Conditions:
+        - Incorporate options to simulate varying traffic conditions throughout the day.
+        - Allow users to set peak hours, road closures, or traffic congestion parameters to make the generated data more dynamic.
+        
+        ## Dynamic Customer Behavior:
+        - Model dynamic customer behavior, such as changing demand patterns, cancellations, or urgency levels.
+        - Introduce randomness in customer behavior to simulate real-world uncertainties.
+        
+        ## Integration with External APIs:
+        - Allow users to integrate external APIs for additional data, such as weather conditions, special events, or road closures, that can impact routing decisions.
+        
+        ## Drone-Specific Parameters:
+        - Extend the data generation for Drone Routing Problems by including parameters specific to drones, such as flight range, recharge time, and restrictions on flying over certain areas.
+        
+        ## Data Validation:
+        - Implement mechanisms to validate generated data for consistency and realism.
+        - Provide feedback to users if the specified parameters result in unrealistic or impractical routing problems.
+        
+        ## Exporting to Standard Formats:
+        - Provide a visual preview of the generated data, allowing users to inspect the distribution of customers, road networks, and other relevant details before exporting.
+        
+        ## Documentation and Examples:
+        - Include comprehensive documentation with examples demonstrating how to use the data generation features effectively.
+        - Provide guidance on how users can incorporate the generated data into their own projects.
+        
+        
+        # Usage
+        
+        Examples here.
+        
+        # Documentation
+        
+        Documentation sources here.
+        
+        # License
+        
+        My license here.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
