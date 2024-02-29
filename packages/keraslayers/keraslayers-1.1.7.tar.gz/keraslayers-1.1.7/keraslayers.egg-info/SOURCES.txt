@@ -1,0 +1,7 @@
+README.md
+setup.py
+keraslayers.egg-info/PKG-INFO
+keraslayers.egg-info/SOURCES.txt
+keraslayers.egg-info/dependency_links.txt
+keraslayers.egg-info/requires.txt
+keraslayers.egg-info/top_level.txt
