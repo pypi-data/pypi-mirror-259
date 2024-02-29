@@ -1,0 +1,10 @@
+mask2bbox/__init__.py,sha256=Tpw3l_5ikWallLNLmG_0ZJdXW3Y1YnZYV2w6wlRDRbQ,61
+mask2bbox/__main__.py,sha256=LtZDy0zqYBXdv4uvG41IlCOlGbC6SJxAlyc7scQ9NXw,10427
+mask2bbox/_bboxes.py,sha256=Whje4DVpzM_VpTRrJAQ_UB5i321ucC64g2sXxWK2aWI,24375
+mask2bbox/logger.py,sha256=pVPzQpIi2l9iIcOtnYO3rE25QeFvUx20EozN73qK820,1413
+mask2bbox/version.py,sha256=71Tw8stu19MsLPyF1q_DF5mb_BefzOTPYggLlSLvCms,23
+mask2bbox-0.0.14.dist-info/LICENSE.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mask2bbox-0.0.14.dist-info/METADATA,sha256=9PBqQcA1b-QJGf9_Srzo8H2KhgzreLeAg9-TzM7w5nU,7726
+mask2bbox-0.0.14.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+mask2bbox-0.0.14.dist-info/top_level.txt,sha256=WJ04_7r1a-BQskGt-swOJNAmVXcrR3ALuo0Yjk3NVzY,10
+mask2bbox-0.0.14.dist-info/RECORD,,
