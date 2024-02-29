@@ -1,0 +1,14 @@
+changelist/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+changelist/__main__.py,sha256=B2tlmXzhifmjzTqWyU_2jU__TYTzF20FRduK6phAwGI,251
+changelist/_cli.py,sha256=4UeTPHI0E16zvj_7bSs9WYR9m_W8i_0ORkTgS2as2_U,5806
+changelist/_config.py,sha256=3RYxUboXLfvqDNj9J88INcpKdD-0-EDDkYQmOGLf0H0,1686
+changelist/_format.py,sha256=CItPfXJQ50K1vID_YkjQ2vXhP9P4aaVEpX79VOLzwEI,6640
+changelist/_objects.py,sha256=MhyAsWhRT533Oy05Dd0FKT89gSoBb4KdfRE2Zkr1Qb8,3986
+changelist/_query.py,sha256=7kd-Pt9TOdgp_6bXPTrw6GCicuBU2twqiYJ2VN3cx-M,5899
+changelist/default_config.toml,sha256=5mI864HA_PrLwfMrwoj9LGGSgrJj8e4B-3_0NuTGbLg,3145
+changelist-0.5.dist-info/LICENSE.txt,sha256=Nhrk7t82VNxsosvWGs83lfDPLK-XN0sbhu6DgF_AfCc,1504
+changelist-0.5.dist-info/METADATA,sha256=CF8XcrMPKfzoymLipOtlBjqK8ochzia7brZbZcfBiwU,10456
+changelist-0.5.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+changelist-0.5.dist-info/entry_points.txt,sha256=FSUleY-UlllTiGxAGaSz_f6OMEoje4wE0WRQIKF-u0w,56
+changelist-0.5.dist-info/top_level.txt,sha256=bupk_blPCU-dzbo4tnm6IsqRGX4z3wxXS4nE9rhy5fk,11
+changelist-0.5.dist-info/RECORD,,
