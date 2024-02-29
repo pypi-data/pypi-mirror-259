@@ -1,0 +1,7 @@
+name: test-name
+image: test-image
+applications:
+  - import_path: main:app
+compute_config: test-compute-config
+working_dir: test-working-dir
+requirements: [pip-install-test]
