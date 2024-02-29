@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/hypixel.py
+src/py_api_hypixel.egg-info/PKG-INFO
+src/py_api_hypixel.egg-info/SOURCES.txt
+src/py_api_hypixel.egg-info/dependency_links.txt
+src/py_api_hypixel.egg-info/top_level.txt

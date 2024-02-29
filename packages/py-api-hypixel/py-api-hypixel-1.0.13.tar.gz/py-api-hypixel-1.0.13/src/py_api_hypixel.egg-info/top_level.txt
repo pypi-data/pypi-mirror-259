@@ -1,0 +1,2 @@
+hypixel
+py-api-hypixel
