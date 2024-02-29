@@ -1,0 +1,154 @@
+import datetime
+import hashlib
+import os
+import pathlib
+import shelve
+from threading import Lock
+
+mutex = Lock()
+
+PARENT_LOCATION = pathlib.Path.home() / ".dateroll/"
+PARENT_LOCATION.mkdir(exist_ok=True)
+MODULE_LOCATION = PARENT_LOCATION / "calendars/"
+MODULE_LOCATION.mkdir(exist_ok=True)
+DATA_LOCATION_FILE = MODULE_LOCATION / "holiday_lists"
+
+
+class Calendars:
+    def __init__(self, home=DATA_LOCATION_FILE):
+        self.home = home
+        self.db = lambda: shelve.open(str(self.home))
+
+        mutex.acquire()
+        with self.db() as db:
+            if "WE" not in db and "ALL" not in db:
+                self.load_all_and_we()
+        mutex.release()
+
+    def keys(self):
+        mutex.acquire()
+        with self.db() as db:
+            return list(db.keys())
+        mutex.release()
+
+    @property
+    def hash(self):
+        with open(self.home.with_suffix(".db"), "rb") as f:
+            return hashlib.md5(
+                f.read(),
+            ).hexdigest()
+
+    def __setitem__(self, k, v):
+        from dateroll.calendars.calendarmath import \
+            DATA_LOCATION_FILE as calendar_math_file
+
+        if calendar_math_file.exists():
+            os.remove(calendar_math_file)
+
+        # key must be 2-3 letter string in uppercase
+        if not isinstance(k, str):
+            raise Exception(f"Cal name must be string (got {type(k).__name__})")
+        if len(k) < 2 or len(k) > 3:
+            raise Exception(f"Cal name be 2 or 3 charts (got {len(k)})")
+        if not k.isupper():
+            raise Exception(f"Cal name must be all uppercase")
+        # value must be a list of dates
+        if not isinstance(v, (set, list, tuple)):
+            raise Exception(
+                f"Cal values must be a set/list/tuple (got {type(v).__name__})"
+            )
+
+        processed = []
+        for i in v:
+            if isinstance(i, datetime.datetime):
+                dt = datetime.date(i.year, i.month, i.day)
+                processed.append(dt)
+            elif isinstance(i, datetime.date):
+                dt = i
+                processed.append(dt)
+            elif hasattr(type(i),'__class__') and type(i).__class__.__name__ == 'Date':
+                dt = dt.date
+                processed.append(dt)
+            else:
+                raise Exception(
+                    f"All cal dates must be of dateroll.Date or datetime.date{{time}} (got {type(i).__name__})"
+                )
+        mutex.acquire()
+        with self.db() as db:
+            if k in db.keys():
+                raise Exception(
+                    f"{k} exists already, delete first.if you want to replace."
+                )
+            s = list(sorted(list(set(processed))))
+            db[k] = s
+        mutex.release()
+
+    def __getitem__(self, k):
+        return self.get(k)
+
+    def __getattr__(self, k):
+        return self.get(k)
+
+    def __contains__(self, k):
+        mutex.acquire()
+        with self.db() as db:
+            result = str(k) in db
+        mutex.release()
+        return result
+
+    def __delitem__(self, k):
+        mutex.acquire()
+        with self.db() as db:
+            del db[k]
+        mutex.release()
+
+    def get(self, k):
+        mutex.acquire()
+        with self.db() as db:
+            obj = db[k]
+        mutex.release()
+        return obj
+
+    def clear(self):
+        mutex.acquire()
+        with self.db() as db:
+            db.clear()
+
+    def __repr__(self):
+        self.info
+        return f'{self.__class__.__name__}(home="{self.home}.db")'
+
+    def load_all_and_we(self):
+        from dateroll.calendars.sampledata import generate_ALL_and_WE
+
+        ALL, WE = generate_ALL_and_WE()
+        self["ALL"] = ALL
+        self["WE"] = WE
+
+    def load_sample_data(self):
+        from dateroll.calendars.sampledata import load_sample_data as lsd
+        lsd(self)
+        self.info
+
+    @property
+    def info(self):
+        pattern = lambda a,b,c,d: f'{a:6}|{b:>8}|{c:12}|{d:12}'
+        mutex.acquire()
+        with self.db() as db:
+            stats = []
+            print(pattern('name','#dates','min date','max date'))
+            print(pattern('-'*6,'-'*8,'-'*12,'-'*12))
+            for i in db.keys():
+                l = db.get(i)
+                n = len(l)
+                mn = min(l)
+                mx = max(l)
+                print(pattern(str(i),str(n),str(mn),str(mx)))
+        mutex.release()
+
+
+if __name__ == "__main__":
+    cals = Calendars()
+    cals.load_sample_data()
+
+    # import code;code.interact(local=locals())
