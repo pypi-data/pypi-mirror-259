@@ -1,0 +1,2 @@
+odoo12-addon-auth_oidc
+odoo<12.1dev,>=12.0a
