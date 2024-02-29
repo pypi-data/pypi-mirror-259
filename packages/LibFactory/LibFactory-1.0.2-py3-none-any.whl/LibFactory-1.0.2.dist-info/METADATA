@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: LibFactory
+Version: 1.0.2
+Summary: LibFactory is a wrapper above FactoryBoy to allow the generation of Factory class with mandatory parameter filed.
+Author-email: Baboin Arthur <baboin.arthur@gmail.com>
+Project-URL: Homepage, https://gitlab.com/Tagashy/autofactory
+Project-URL: Bug Tracker, https://gitlab.com/Tagashy/autofactory/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12
+License-File: LICENSE
+Requires-Dist: factory-boy ~=3.3.0
+Requires-Dist: SQLAlchemy ~=2.0.23
+Requires-Dist: pydantic ~=2.5.2
+Provides-Extra: tests
+Requires-Dist: pytest ~=7.2.1 ; extra == 'tests'
+Requires-Dist: pytest-cov ~=4.0.0 ; extra == 'tests'
+
