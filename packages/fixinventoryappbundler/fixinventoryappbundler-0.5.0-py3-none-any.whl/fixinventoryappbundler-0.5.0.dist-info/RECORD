@@ -1,0 +1,10 @@
+fixinventoryappbundler/__init__.py,sha256=z_nA0xdL2-i93EKND0iMxX9kh3-aLtlrT8Jl9cS0wR8,490
+fixinventoryappbundler/__main__.py,sha256=ghZ9y_aYWDKFLEkoS7xY35FtnyaqH_Np8stnZ1kou1k,2092
+fixinventoryappbundler/bundler.py,sha256=-26bH8F8qR62FqU4Vt6AN6bS3MYOD1bYr7f7R7t-AI4,1571
+fixinventoryappbundler/runner.py,sha256=VMQSQ0AsHY5ISTrlD3tjcP4P03McW1LJDywmBjDroJg,3809
+fixinventoryappbundler-0.5.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+fixinventoryappbundler-0.5.0.dist-info/METADATA,sha256=nEH4TYRcM9ATuQ5YleO1y06vyRFXi7fuBNaEUCjD8aE,4569
+fixinventoryappbundler-0.5.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+fixinventoryappbundler-0.5.0.dist-info/entry_points.txt,sha256=m0LeTNM0FbETMLwVCgfldz2M28jRoJiuJlOBxLiYchw,142
+fixinventoryappbundler-0.5.0.dist-info/top_level.txt,sha256=1wlR9wUjzPNMw6O1efHyKe6z19SfVF7-uszquGWaKOM,23
+fixinventoryappbundler-0.5.0.dist-info/RECORD,,

@@ -1,0 +1,3 @@
+[console_scripts]
+fixinventoryappbundler = fixinventoryappbundler.__main__:bundle
+fixinventoryapprunner = fixinventoryappbundler.__main__:run
