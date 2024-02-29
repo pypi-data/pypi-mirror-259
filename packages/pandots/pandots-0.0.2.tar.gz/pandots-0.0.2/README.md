@@ -1,0 +1,50 @@
+# PanDots
+
+
+## Description
+Pangenome Dotplots. Visualize pangenome chromosome structures by generating dotplots from sequence aligmnets in PAF format.
+Sequences should be aligned using an anchoring genome.
+
+## Installation
+### In a conda environment
+Fist create an environment that includes all dependencies:
+```
+conda create -c conda-forge -c bioconda -n pandots \
+  python pandas numpy seaborn plotnine 
+```
+Then install with `pip`:
+```
+conda activate pandots
+pip install pandots
+```
+
+### With just pip
+Install  with `pip`:
+```
+pip install pandots
+```
+
+## Usage
+### Generate input files
+Create PAF pairwise alignments to an anchor genome for all genomes using minimap2 or your prefered method.
+Extract your chromosome of interest from all PAF files and concatenate into a single file.
+
+### Visualize with PanDots
+Once you have your chromosome PAF file, you can generate the plot.
+```
+python pandots.py --paf <chromosome.paf> --ref <anchor_chromosome> --out <output_suffix>
+```
+After completion the plot will be saved as `<output_suffix>.pandots.svg`.
+
+### Aditional arguments
+- `--key`: show genome key or not. Default: False
+- `--pad`: integer value to adjust spacing between genomes. Default: 10000000
+- `--flip`: designates if PAF column 1 is the anchor or the query. Default: False (column 1 is anchor)
+- `--invert`: inverts the anchor coordinates in relation to the pangenome. Default: False
+- `--reorder`: adjust the order of genomes plotted using length and number of inversions. Default False
+- `--recolor`: recolor genomes to an alternating color scheme. Default: False
+
+
+## License
+
+PanDots is licensed under a [Salk Institute BSD license](LICENSE)
