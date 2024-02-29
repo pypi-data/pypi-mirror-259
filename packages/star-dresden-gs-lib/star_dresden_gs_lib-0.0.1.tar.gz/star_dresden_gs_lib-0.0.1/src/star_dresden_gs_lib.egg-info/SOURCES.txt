@@ -1,0 +1,14 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/star_dresden_gs_lib/__init__.py
+src/star_dresden_gs_lib/main.py
+src/star_dresden_gs_lib.egg-info/PKG-INFO
+src/star_dresden_gs_lib.egg-info/SOURCES.txt
+src/star_dresden_gs_lib.egg-info/dependency_links.txt
+src/star_dresden_gs_lib.egg-info/top_level.txt
+src/star_dresden_gs_lib/math/__init__.py
+src/star_dresden_gs_lib/math/example.py
+src/star_dresden_gs_lib/math/qtTest.py
