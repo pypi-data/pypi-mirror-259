@@ -1,0 +1,14 @@
+rdkit
+
+[dev]
+ruff
+mypy
+numpy
+polars
+pytest
+pytest-cov
+sphinx
+sphinx-copybutton
+build
+twine
+furo
