@@ -1,0 +1,10 @@
+cicconf/__init__.py,sha256=0NIXSonKMnSGN5wdp2Bpq6M9lYUzm3et-w43F9rpV-k,90
+cicconf/cmdip.py,sha256=xPaOx56zELT-Y0_VQMgri0kKjpnoBr-Apua8upYkgP4,4780
+cicconf/command.py,sha256=lchZG1bKg3ssjHhJbzXXvBLk1c0S0kLXeiPq5_yTaMc,3175
+cicconf/config.py,sha256=5cTCnD6U1Zr5FfWeMscLgVu4SmGJYtNW_C13ijHANLU,6105
+cicconf/entry.py,sha256=Jq_IaQbWTQB1qsGouiOG787135Z9NqvwrkDUpZ5KZ2s,1563
+cicconf-0.1.6.dist-info/METADATA,sha256=XQGfD2Yo0Jy9dbo-w66mNxB22T25_QN5ZKYhyEDA4DA,681
+cicconf-0.1.6.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+cicconf-0.1.6.dist-info/entry_points.txt,sha256=vt2jK7RD3wFOdBtapLHBBFwrIwuJcAD0_WHV6azbRHE,46
+cicconf-0.1.6.dist-info/top_level.txt,sha256=RhKu5Mzd32BVvGcAlPRVoObpT7Zlgo3nN-ANKeVoi_Q,8
+cicconf-0.1.6.dist-info/RECORD,,
