@@ -1,0 +1,10 @@
+gradio_model4dgs/__init__.py,sha256=3WDNwbzpblRwZc-gImKywToBUiKe8poIyTTJrEuli00,59
+gradio_model4dgs/model4dgs.py,sha256=0HP9DVx0kRGKL6bkYa001i5VQZwnKa9ObaqbQZQYN7w,2685
+gradio_model4dgs/model4dgs.pyi,sha256=hlZ4Yh3LO46sFnCRfBZGky9k0lczpBv9asDIXCROqBE,23120
+gradio_model4dgs/templates/component/index.js,sha256=CLL_lKVjvw6QEpW5xYyWx0aVWGwK7pOXEW_oR12IpGo,788172
+gradio_model4dgs/templates/component/style.css,sha256=3Hse_fso4O9a2yRiie3bkA422VvXkOrTQ634qn03WE0,12477
+gradio_model4dgs/templates/example/index.js,sha256=AcEKu2d4hjZyQsKf4pvOMqUT-QB_uFGbfbtGYc7mf9o,1549
+gradio_model4dgs/templates/example/style.css,sha256=Aj4k-S41TV83pot-J9j9Fi2UonrXHFC1Jl4Zb1xaYo4,61
+gradio_model4dgs-0.0.1.dist-info/METADATA,sha256=uRmX-PEzFeBSj4JQ3tvHxtQ6RHQ4Om1uU9O7_Ahz1Dk,4428
+gradio_model4dgs-0.0.1.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+gradio_model4dgs-0.0.1.dist-info/RECORD,,
