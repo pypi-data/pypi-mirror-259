@@ -1,0 +1,12 @@
+microjson/__init__.py,sha256=t52wM2U8-SMf7P1EMadfwrLG0cVbPg0fKCACavunEe8,179
+microjson/automodel.py,sha256=4pjDrrQLmuWGCgmagNHDZ1jY2cj5V0OWn9kPixZJcok,1480
+microjson/geojson.py,sha256=hTQUnvSOD1lx2PKBTjT0Jpyt2GYbNSauSytDM0eaDBs,8123
+microjson/model.py,sha256=gh0gIP1TTlsUkjLPmhNJC-7Var_Ptr_1DKaqgBR879s,5530
+microjson/provenance.py,sha256=OKwUYHGxEoZxNJfbFwrUH1vCMCxLKDoyVM02vf2myWo,1529
+microjson/roundtrip.py,sha256=8NzTWK6ha7_HpfgdBqqudiMiaHMiRRhJ1FuBWJiu1aU,6347
+microjson/tile.py,sha256=rYMMVLywudyLZsBzeXznsD06YPXjfT5VmIEXmDwFTcs,1172
+microjson/utils.py,sha256=8bw9oPuK9mq2W4ZXOzG8G4PUPytEpMOWN5F3dWw2Ag4,16721
+microjson-0.1.10.dist-info/LICENSE,sha256=Fg4kOwqZrHdNpYuaPay-zI5aNJNXmBfi8ev4u0eytdo,1064
+microjson-0.1.10.dist-info/METADATA,sha256=IDgKYPskeaqgCSvo6wS8-3yKsA6jPvgP_4I792ERMpA,3394
+microjson-0.1.10.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+microjson-0.1.10.dist-info/RECORD,,
