@@ -1,0 +1,30 @@
+{
+  "api_url": "",
+  "register": {
+    "application_token": "",
+    "position_uid": "",
+    "inference_client_uid": ""
+  },
+  "closed_loop": {
+    "application_uid": "",
+    "position_uid": "",
+    "packet_uid": "",
+    "inference_client_uid": "",
+    "value": 0
+  },
+  "certificate_receiver": {
+    "status": "",
+    "certificate": ""
+  },
+  "result_receiver": {
+    "status": "",
+    "value": ""
+  },
+  "raw_data": {
+    "application_uid": "",
+    "position_uid": "",
+    "packet_uid": "1124",
+    "inference_client_uid": "",
+    "value":""
+  }
+}
