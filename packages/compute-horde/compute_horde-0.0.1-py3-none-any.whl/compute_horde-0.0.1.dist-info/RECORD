@@ -1,0 +1,17 @@
+compute_horde-0.0.1.dist-info/METADATA,sha256=3noEjqwZ6fVLjHxjK6c4YGSH4JZgA2kpumoFKDJQBds,306
+compute_horde-0.0.1.dist-info/WHEEL,sha256=N2J68yzZqJh3mI_Wg92rwhw0rtJDFpZj9bwQIMJgaVg,90
+compute_horde/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+compute_horde/base/__init__.py,sha256=92lqsb3o-AyAkl96Vctl7taJkoe0OXuLdrnL_UtRubg,135
+compute_horde/base_requests.py,sha256=URV6kVLOlpJi3XAaVHBr1F8cQRBRAuO0OXbx0WpBOqI,1998
+compute_horde/em_protocol/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+compute_horde/em_protocol/executor_requests.py,sha256=66CojIWnhCHt_a2vLtm9km-vXGbbj1TJwladConXd1s,1249
+compute_horde/em_protocol/miner_requests.py,sha256=v1xRTt7A3Kh9tnS6wjuimG2KeyD0ZieumO9ZXEUNRJ0,1585
+compute_horde/miner_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+compute_horde/miner_client/base.py,sha256=TknjCV-rtBsHOEuEC3Q6u2MimGZwF4LA-eHUB6wZaTI,4828
+compute_horde/mv_protocol/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+compute_horde/mv_protocol/miner_requests.py,sha256=8bT7VRmpzBro-OXOlDawtm_nuKv3JrNUaYljZ8xUwwo,2010
+compute_horde/mv_protocol/validator_requests.py,sha256=OvyI6OwrV8lbvM-5090lxuE2u4TbI8EEO5cbclgaiHU,2065
+compute_horde/test_base/LICENSE,sha256=DwMaO2PlWGegA0IwHMRUUwvSwEY0GjxEzYrW1RbAz_I,1066
+compute_horde/test_base/NOTICE,sha256=3ZoHW2AXRUKHZolXFRwuePConY54ThIac2gEUWUUEkM,72
+compute_horde/test_base/__init__.py,sha256=iHDcd7Zq2by7Qb0gg9ZtA44FbsL9sYmoQjT-w63VMps,5009
+compute_horde-0.0.1.dist-info/RECORD,,
