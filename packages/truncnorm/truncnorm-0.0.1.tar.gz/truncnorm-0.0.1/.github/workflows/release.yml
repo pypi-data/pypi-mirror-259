@@ -1,0 +1,46 @@
+name: Release
+
+on:
+  create:
+    tags:
+    - '*'
+
+jobs:
+
+  release-build:
+    runs-on: ubuntu-latest
+    environment: release
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.x"
+      - name: Install dependecies
+        run: |
+          pip install setuptools_scm
+      - name: Build release distributions
+        run: |
+          python setup.py egg_info -Db '' sdist
+      - name: Upload distributions
+        uses: actions/upload-artifact@v4
+        with:
+          name: release-dists
+          path: dist/
+
+  pypi-publish:
+    runs-on: ubuntu-latest
+    environment: release
+    needs:
+      - release-build
+    permissions:
+      id-token: write
+    steps:
+      - name: Retrieve release distributions
+        uses: actions/download-artifact@v4
+        with:
+          name: release-dists
+          path: dist/
+      - name: Publish release distributions to PyPI
+        uses: pypa/gh-action-pypi-publish@release/v1
