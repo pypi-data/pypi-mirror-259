@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pmk-probes
+Version: 1.0.2
+Summary: A Python package to control PMK probes.
+Project-URL: Homepage, http://www.pmk.de/
+Author-email: Felix Wenk <felix.wenk@pmk.de>
+License-Expression: BSD-3-Clause
+License-File: LICENSE
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# PMK Probes
+
+## Description
+
+The PMK Probes package is an easy-to-use interface for Python to control probes by PMK.
