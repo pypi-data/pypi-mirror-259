@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: oxpecker
+Version: 0.0.1
+Summary: Oxpecker CLI.
+Author-email: Oxpecker team <oxpecker@example.com>
+Project-URL: Homepage, https://example.com
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: Free for non-commercial use
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Security
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: Click
+Requires-Dist: requests
+Requires-Dist: websocket-client
+Requires-Dist: rel
+Requires-Dist: rich-click
+Requires-Dist: click-spinner
+Requires-Dist: python-daemon
+
+## Name
+Oxpecker CLI.
+
+## Description
+CLI of Oxpecker service.
+
+## Installation
+开发环境推荐：Editable模式（安装目录链接到源码目录）：
+```sh
+pip install -e .
+```
+
+生产环境推荐：构建wheel包再安装：
+```sh
+pip install build
+python -m build --wheel
+pip install dist/oxpecker-<version>-py3-none-any.whl
+```
+
+## Usage
+```sh
+oxpecker --help
+```
+## Development
+
+
+## Roadmap
+None yet.
+
+## Project status
+Alpha.
