@@ -1,0 +1,7 @@
+setup.py
+jdbs/__init__.py
+jdbs.egg-info/PKG-INFO
+jdbs.egg-info/SOURCES.txt
+jdbs.egg-info/dependency_links.txt
+jdbs.egg-info/requires.txt
+jdbs.egg-info/top_level.txt

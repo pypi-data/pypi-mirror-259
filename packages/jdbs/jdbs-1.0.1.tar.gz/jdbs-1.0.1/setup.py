@@ -1,0 +1,37 @@
+from setuptools import setup, find_packages
+
+long_description = """The `jdbs` Python package provides a versatile and user-friendly solution for managing data with JSON files, offering a lightweight yet powerful alternative to traditional relational database management systems. Designed with simplicity and flexibility in mind, `jdbs` enables developers to handle various database operations seamlessly within their Python applications, catering to a wide range of use cases across different industries and project scopes.
+
+At the core of `jdbs` is its ability to facilitate the creation, manipulation, and querying of data stored in JSON format, offering an intuitive API that abstracts away the complexities of interacting with raw JSON structures. Developers can effortlessly define tables, insert and retrieve data, and perform updates or deletions, all while leveraging the familiar syntax and semantics of Python.
+
+One of the standout features of `jdbs` is its support for encryption, providing an additional layer of security for sensitive data stored within the database. By integrating encryption capabilities, `jdbs` empowers users to safeguard their information against unauthorized access, ensuring compliance with data protection regulations and enhancing overall data privacy.
+
+With `jdbs`, developers can streamline their database workflows and accelerate application development, thanks to its lightweight nature and minimal dependencies. Whether building prototypes, developing small to medium-sized projects, or managing data-intensive applications, `jdbs` offers a robust foundation for efficiently storing and accessing data, all while maintaining the flexibility and scalability required to adapt to evolving project requirements.
+
+In summary, `jdbs` represents a versatile and accessible solution for database management in Python, combining the simplicity of JSON with the power of a full-featured database system. With its rich set of features, intuitive interface, and focus on security and usability, `jdbs` empowers developers to unleash the full potential of their applications while ensuring the integrity and confidentiality of their data.
+
+For more information and to contribute, visit the [GitHub repository](https://github.com/rakibmia7254/jdbs).
+"""
+
+setup(
+    name='jdbs',
+    version='1.0.1',
+    author='Rakib Hossain',
+    author_email='rakib4ggp@gmail.com',
+    description='jdbs is a lightweight Python package for managing data with JSON files, offering essential database functionalities and encryption features for added security.',
+    long_description=long_description,
+    url='https://github.com/rakibmia7254/jdbs',
+    packages=['jdbs'],
+    classifiers=[
+        'Development Status :: 5 - Production/Stable',
+        'Intended Audience :: Developers',
+        'License :: OSI Approved :: MIT License',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.6',
+        'Programming Language :: Python :: 3.7',
+        'Programming Language :: Python :: 3.8',
+    ],
+    install_requires=[
+        'pycryptodome',
+    ],
+)
