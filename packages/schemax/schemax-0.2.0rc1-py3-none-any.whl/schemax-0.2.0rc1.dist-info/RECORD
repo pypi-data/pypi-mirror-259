@@ -1,0 +1,14 @@
+schemax/__init__.py,sha256=zR0I6a8vQFs7waG5bLJFu98u-gMzUleD9QimNZb8O3s,1071
+schemax/__main__.py,sha256=f7U2kGIT3tzsa3fMOyY-L3kSQPpMmKkgGeoB_6YJ3A8,2931
+schemax/_data_collector.py,sha256=aVEQz1yXRsUYJCkPj89PljAPRvN7Zrb_r6DfSzaCo9M,4010
+schemax/_from_json_schema.py,sha256=P6f-fyM4zMEvAENFI0OfK4-VODic7OydIwN2BMxjmCs,6723
+schemax/_generator.py,sha256=p54WEDONBbgd1_1nz7FMuu_8S_6y3d4YVWHfFORh9yU,5702
+schemax/_translator.py,sha256=Ili0yvb1kGYEoe3kS2gKEmH2aFsjddkTQoiSGA9Jjkg,7387
+schemax/_version.py,sha256=-0pBr2Zx7T8BgyaP9OrlRjSgNEnYEvP0WOXHOMv8ahM,21
+schemax/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+schemax/supported_props.py,sha256=RDW2JYht1j0wDk6GsEIF-RFbx1rlkhba55Wm1PANJV4,417
+schemax-0.2.0rc1.dist-info/LICENSE.txt,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+schemax-0.2.0rc1.dist-info/METADATA,sha256=-iY5s0xAkWbtHx1kPd9hiIiTbEIcBR-G7lVdjOBk6e4,8117
+schemax-0.2.0rc1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+schemax-0.2.0rc1.dist-info/top_level.txt,sha256=GS7YK_QA5u6Fwy4DCk1qx687r8COAg5FMRTsCAMfZCw,8
+schemax-0.2.0rc1.dist-info/RECORD,,
