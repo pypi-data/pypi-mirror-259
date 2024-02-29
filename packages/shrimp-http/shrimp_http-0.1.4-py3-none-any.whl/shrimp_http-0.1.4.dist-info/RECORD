@@ -1,0 +1,15 @@
+shrimp/__init__.py,sha256=FrYwYgiqx706xqMX3pEIeU05mM1F0tAhkbNhnskLdE8,89
+shrimp/_parsers.py,sha256=ATijeemHLUsTcv2F6LF_BDhVpgdCSh5DNE0KzLJiNNw,485
+shrimp/errors.py,sha256=8LKW1J-G1l_U89JdpR6mImeWlNsEdK8Tnm-Mjkh08jw,297
+shrimp/httpmethod.py,sha256=XuIXIkmChSeC8hHMxc4o_3M5WU4cKlVvy3GK-WaIaGE,1100
+shrimp/httpstatus.py,sha256=PUFUwTiaK487celnsKQuer8uraI4VzgeKMRqIYx1X-8,368
+shrimp/request.py,sha256=HPOO1Kq7LPdW1JY-VPgf9t1p2AmdOR2MIrUI2vZnq24,543
+shrimp/response.py,sha256=vJd1OrhJims35aAjL6dQN-K8dPCYXhGKevBQRfo3b2c,4018
+shrimp/route.py,sha256=q72JL260-0AX0nfJhHJYNFMt-DqIyusGowKQkil1YRY,610
+shrimp/shrimp.py,sha256=LePB44oYxjMU5VOeT6KtWTsGpUEGI5AubK067vcGSQM,5085
+shrimp/_tools/maybe_coroutine.py,sha256=DytKhbFd4uGM9m5lT2pCXKtzxgf82AQXSyo68LCmNEc,698
+shrimp_http-0.1.4.dist-info/LICENSE,sha256=U0yHoMXSVwuxDAy3bDVxVbLICi1BQshW7GgJCzJ4pAA,1074
+shrimp_http-0.1.4.dist-info/METADATA,sha256=Bk96zgTtkkxlFeh1K8n-4e3pt9HAe8IgduCbmIChA-U,4721
+shrimp_http-0.1.4.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+shrimp_http-0.1.4.dist-info/top_level.txt,sha256=xyRmwvLaxs8l81KVuasJueV7eaTvRPhny6nWXcs3Sjs,7
+shrimp_http-0.1.4.dist-info/RECORD,,
