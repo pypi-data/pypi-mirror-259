@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/example_package_lhc/__init__.py
+src/example_package_lhc/example.py
+src/finexexample_package_lhcten.egg-info/PKG-INFO
+src/finexexample_package_lhcten.egg-info/SOURCES.txt
+src/finexexample_package_lhcten.egg-info/dependency_links.txt
+src/finexexample_package_lhcten.egg-info/top_level.txt
