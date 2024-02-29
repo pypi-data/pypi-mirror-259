@@ -1,0 +1,6 @@
+[console_scripts]
+
+
+[nbdev]
+singleline_dataset = singleline_dataset._modidx:d
+
