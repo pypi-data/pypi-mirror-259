@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+emailspoofergui.egg-info/PKG-INFO
+emailspoofergui.egg-info/SOURCES.txt
+emailspoofergui.egg-info/dependency_links.txt
+emailspoofergui.egg-info/entry_points.txt
+emailspoofergui.egg-info/top_level.txt
