@@ -1,0 +1,10 @@
+LICENCE
+README.md
+setup.py
+credicom_rpa/__init__.py
+credicom_rpa/orchestrator.py
+sisbr_credicom.egg-info/PKG-INFO
+sisbr_credicom.egg-info/SOURCES.txt
+sisbr_credicom.egg-info/dependency_links.txt
+sisbr_credicom.egg-info/requires.txt
+sisbr_credicom.egg-info/top_level.txt
