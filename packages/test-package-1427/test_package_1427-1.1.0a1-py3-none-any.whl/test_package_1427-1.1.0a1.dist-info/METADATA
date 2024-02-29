@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: test-package-1427
+Version: 1.1.0a1
+Summary: 
+Author: Moritz Enderle
+Author-email: moritz.enderle@stud.th-deg.de
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: beautifulsoup4 (>=4.12.3,<5.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+
