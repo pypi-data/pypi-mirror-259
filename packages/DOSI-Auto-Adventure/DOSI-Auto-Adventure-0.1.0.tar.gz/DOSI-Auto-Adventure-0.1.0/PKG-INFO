@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: DOSI-Auto-Adventure
+Version: 0.1.0
+Summary: Simple Auto Adventure for DOSI platform
+Home-page: https://github.com/OniCrypto/DOSI
+Author: monkeybosking
+Author-email: monkeybosking55@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# DOSI Auto Adventure
+
+Simple Auto Adventure DOSI
+
+Created by viloid ( github.com/vsec7 )
+
+## â€¢ Features
+- Auto Claim DON / Attend Check
+- Auto Participate Adventure
+
+## â€¢ Requirements
+- Python3
+
+## â€¢ Installation
+
+```bash
+git clone https://github.com/vsec7/DOSI.git
+```
+
+## â€¢ Edit *session_lists.txt* file with DOSI_SES
+
+## â€¢ How to find DOSI_SES ?
+DOSI session in Header Cookie DOSI_SES=<value>;
+
+multi accounts : put <value> with separated newline .
+
+E.g: 
+```
+TXiX6t..........
+TXiXab..........
+```
+
+## â€¢ How to Run?
+```bash
+cd DOSI
+pip install -r requirements.txt
+python dosi.py
+```
+
+## â€¢ Donate
+
+SOL Address : viloid.sol
+
+BSC Address : 0xd3de361b186cc2Fc0C77764E30103F104a6d6D07

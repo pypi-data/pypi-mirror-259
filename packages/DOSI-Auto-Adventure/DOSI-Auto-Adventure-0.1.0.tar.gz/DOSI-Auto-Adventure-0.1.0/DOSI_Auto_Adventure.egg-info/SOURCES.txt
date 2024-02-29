@@ -1,0 +1,8 @@
+README.md
+setup.py
+DOSI_Auto_Adventure.egg-info/PKG-INFO
+DOSI_Auto_Adventure.egg-info/SOURCES.txt
+DOSI_Auto_Adventure.egg-info/dependency_links.txt
+DOSI_Auto_Adventure.egg-info/entry_points.txt
+DOSI_Auto_Adventure.egg-info/requires.txt
+DOSI_Auto_Adventure.egg-info/top_level.txt
