@@ -1,0 +1,11 @@
+description: British Columbia provides the following non-refundable tax credits.
+values:
+  2022-01-01:
+    - bc_tax_reduction_credit
+    - bc_age_credit
+    - bc_basic_personal_amount
+
+metadata:
+  unit: list
+  period: year
+  label: British Columbia non-refundable tax credits
