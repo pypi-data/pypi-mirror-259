@@ -1,0 +1,16 @@
+scipy
+numpy
+scikit-learn
+matplotlib
+numba
+seaborn
+pandas
+igraph
+tqdm
+scikit-image
+
+[doc]
+sphinx~=4.2.0
+myst_parser
+furo
+nbsphinx
