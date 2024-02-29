@@ -1,0 +1,9 @@
+LICENSE.txt
+README.txt
+setup.py
+arslaanhttp/ArslaanHTTP.py
+arslaanhttp/__init__.py
+arslaanhttp.egg-info/PKG-INFO
+arslaanhttp.egg-info/SOURCES.txt
+arslaanhttp.egg-info/dependency_links.txt
+arslaanhttp.egg-info/top_level.txt
