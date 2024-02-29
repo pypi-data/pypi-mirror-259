@@ -1,0 +1,6 @@
+README.md
+setup.py
+findstars.egg-info/PKG-INFO
+findstars.egg-info/SOURCES.txt
+findstars.egg-info/dependency_links.txt
+findstars.egg-info/top_level.txt
