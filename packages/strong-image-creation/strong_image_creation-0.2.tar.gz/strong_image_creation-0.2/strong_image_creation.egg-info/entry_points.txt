@@ -1,0 +1,2 @@
+[console_scripts]
+strong_image_creation = strong_image_creation.strong_image_creation:main
