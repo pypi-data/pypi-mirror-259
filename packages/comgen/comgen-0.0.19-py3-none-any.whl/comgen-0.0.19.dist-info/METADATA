@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: comgen
+Version: 0.0.19
+Summary: explore chemical compositions
+Requires-Dist: pymatgen (>=2022.5.26)
+Requires-Dist: z3-solver (>=4.8.17.0)
+Requires-Dist: onnx (>=1.15.0)
+
