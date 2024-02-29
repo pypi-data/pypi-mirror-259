@@ -1,0 +1,12 @@
+importlib-metadata<5.0
+numpy<1.24
+gym
+matplotlib
+seaborn
+
+[open-spiel]
+open-spiel
+
+[rllib]
+tensorflow
+ray[rllib]==2.0.0
