@@ -1,0 +1,7 @@
+lxml
+
+[:python_version < "3.5"]
+typing
+
+[doc]
+sphinxcontrib-bibtex
