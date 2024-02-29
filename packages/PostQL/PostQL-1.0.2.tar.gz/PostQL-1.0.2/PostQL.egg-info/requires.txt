@@ -1,0 +1,7 @@
+psycopg2-binary
+tabulate
+prompt_toolkit
+termcolor
+boto3
+openpyxl
+pyarrow
