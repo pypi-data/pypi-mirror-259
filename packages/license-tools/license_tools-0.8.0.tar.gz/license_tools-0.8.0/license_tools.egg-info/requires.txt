@@ -1,0 +1,19 @@
+scancode-toolkit
+typecode-libmagic
+joblib
+fontTools[woff]
+pip-licenses-lib
+
+[dev]
+flake8
+flake8-bugbear
+pep8-naming
+mypy
+requests
+types-requests
+
+[dev:python_version < "3.9"]
+importlib_resources
+
+[extended_rpm]
+rpmfile
