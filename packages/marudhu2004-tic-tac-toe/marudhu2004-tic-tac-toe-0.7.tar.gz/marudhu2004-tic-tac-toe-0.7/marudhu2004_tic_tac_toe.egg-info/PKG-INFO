@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: marudhu2004-tic-tac-toe
+Version: 0.7
+Summary: A simple terminal tictactoe game
+Author-email: marudhu2004 <marudhupaandian@gmail.com>, sidz2004 <igauthamsiddharthtantri@gmail.com>
+License: BSD-3-Clause
+Project-URL: Homepage, https://github.com/marudhu2004/python-tic-tac-toe
+Project-URL: Issues, https://github.com/marudhu2004/python-tic-tac-toe
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# TIC-TAC-TOE
+
+### This is our version of Tic-Tac-Toe which was implemented using Python and basic AI. Made by Marudhu2004 and assisted by Sidz2007. 
+
