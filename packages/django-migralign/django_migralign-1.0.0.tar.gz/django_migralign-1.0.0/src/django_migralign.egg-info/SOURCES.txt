@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+src/django_migralign/__init__.py
+src/django_migralign/apps.py
+src/django_migralign.egg-info/PKG-INFO
+src/django_migralign.egg-info/SOURCES.txt
+src/django_migralign.egg-info/dependency_links.txt
+src/django_migralign.egg-info/top_level.txt
+src/django_migralign/management/commands/helper.py
+src/django_migralign/management/commands/migralign.py
