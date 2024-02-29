@@ -1,0 +1,4 @@
+**/__pycache__
+wiki/
+dist/
+testflows.*.egg-info/
