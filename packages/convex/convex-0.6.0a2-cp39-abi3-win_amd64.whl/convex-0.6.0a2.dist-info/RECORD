@@ -1,0 +1,13 @@
+convex-0.6.0a2.dist-info/METADATA,sha256=ArZVJen4VPq8eH6FGOq30-lNsIPQqyfz05AKSqy6ZVk,9051
+convex-0.6.0a2.dist-info/WHEEL,sha256=4__Pswb1xdtW_ZwzgMH2iwWQzdNvF9P9aWyBS7Zp7gg,94
+convex-0.6.0a2.dist-info/license_files/LICENSE,sha256=NHEK33r1aFgeQhP-CsChz7Mo56Zzva1KSyAZJQIFSIk,11545
+_convex/int64.py,sha256=TRoPorxlx3-Rpi95T7tHRr1gwDq3aNkEVzFoQLENR7I,1339
+_convex/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+_convex/_convex.pyi,sha256=-4mRh2OgPgHxEoxUmIi7PzOUpqki57aUJZBQpBoNNaQ,1865
+_convex/__init__.py,sha256=7SzFrTfEeQAQxL4plzSLTYpSkSU5oFWzIBirGB5nyWk,341
+convex/http_client.py,sha256=AoEaRgZIP2GMfDTNez64tGXNt6-nxVpIdiJSEwEZU8g,5379
+convex/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+convex/values.py,sha256=Ish9shDRJlSxEHnkTTqknZpVxtPydNLTa_DPMQ2Mix8,14134
+convex/__init__.py,sha256=jviOqAACGc5_3Oh2e7jTNwSJlj_cJpFzefOmn6tyP8U,9153
+_convex/_convex.pyd,sha256=TAaNs9E6fPmZOA3mT7sWUOWw-qnx3r4Qu2HRHVK6VSU,1835008
+convex-0.6.0a2.dist-info/RECORD,,
