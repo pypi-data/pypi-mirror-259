@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: darkskyutils
+Version: 0.1.0
+Summary: Useful tool classes including log, config, tcp, etc.
+Home-page: https://github.com/DarkskyX15/darkskyutils
+Author: Darksky
+Author-email: 2290168728@qq.com
+License: BSD License
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires: pycryptodome
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# darkskyutils
+Some Python files providing useful tool classes.
+
+*文档参见: https://blog.wscraft.fun/Projects/Python/SkyLib-8b17b5a289c1/*
+
