@@ -1,0 +1,7 @@
+LICENSE
+setup.py
+kakao_chat_parser/__init__.py
+kakao_chat_parser.egg-info/PKG-INFO
+kakao_chat_parser.egg-info/SOURCES.txt
+kakao_chat_parser.egg-info/dependency_links.txt
+kakao_chat_parser.egg-info/top_level.txt

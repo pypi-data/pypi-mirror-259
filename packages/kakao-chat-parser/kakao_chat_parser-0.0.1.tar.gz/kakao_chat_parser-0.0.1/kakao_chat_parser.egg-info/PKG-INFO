@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: kakao-chat-parser
+Version: 0.0.1
+Summary: A python kakaotalk chat parser and utility for analyzing kakaotalk chats
+Home-page: https://github.com/gks26/kakao_chat_parser
+Author: Donghyeon Han
+Author-email: dhn2416@gmail.com
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+
