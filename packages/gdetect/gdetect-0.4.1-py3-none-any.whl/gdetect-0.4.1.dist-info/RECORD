@@ -1,0 +1,13 @@
+gdetect/__init__.py,sha256=VCM01WFEsBi6T74Y6OwwQ5ZfclmtfAFGDt9G2kofspI,293
+gdetect/__main__.py,sha256=OHiu7dlSPuWN-DAiPEzuggCdLUmHbgsC2Pj0vwgjeoU,179
+gdetect/api.py,sha256=2qf9llzI1YkLHm9NDv_KVg1n9LyZTGj8_oXWnexqA8E,14700
+gdetect/cli.py,sha256=lmXlzBfH6lm8lPVL-BBBHVb2asx2w2enLooMmix_hIo,6622
+gdetect/exceptions.py,sha256=fD3-IYgaO24Yx3Ftv2iqeTNQeHw66BLby6S3KKfL4v8,1483
+gdetect/log.py,sha256=71kA2E1WQLx8DDp0-SOONrDxXbvlrkT3eoGV_QY4BGM,785
+gdetect/stream.py,sha256=CXwPeKJHDnsk4yLYMX5lckd_uotXzgNucn5Pe0VOuyU,709
+gdetect-0.4.1.dist-info/LICENSE,sha256=CIJ4SSQVFwUjx_cpEv47pDi53r13kcO7lIonwid8z3Y,1068
+gdetect-0.4.1.dist-info/METADATA,sha256=jSuqJChOVPfIGCKSGbGX3IotS7TnilS-LAInRteTfpk,4442
+gdetect-0.4.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+gdetect-0.4.1.dist-info/entry_points.txt,sha256=do3rNFWJbO57y9xXF7Bv4KZ9sy7auP8BOMCyPfYiaww,48
+gdetect-0.4.1.dist-info/top_level.txt,sha256=VBoHAt9WgEBOzVcps0Rmlj7i2Xr_iZWwAI7a7YS1boM,8
+gdetect-0.4.1.dist-info/RECORD,,
