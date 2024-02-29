@@ -1,0 +1,19 @@
+numpy
+torch
+transformers>=4.38.1
+
+[dev]
+pytest
+pytest-xdist
+pytest-cov
+scikit-learn
+sphinx
+breathe
+sphinx-book-theme
+myst-parser
+ghp-import
+pyroma
+mypy
+
+[dev:sys_platform == "darwin"]
+pre-commit
