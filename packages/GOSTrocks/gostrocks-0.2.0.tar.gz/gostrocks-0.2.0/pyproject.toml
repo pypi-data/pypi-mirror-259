@@ -1,0 +1,59 @@
+[build-system]
+requires = ["hatchling>=1.21.0", "hatch-vcs>=0.3.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "GOSTrocks"
+description = "Miscellaneous geospatial functions concerning vector, raster, and network analysis"
+readme = { file = "README.md", content-type = "text/markdown" }
+license = { file = "LICENSE" }
+keywords = ["gostrocks", "raster", "GOST"]
+
+authors = [
+	{ name = "Benjamin P. Stewart", email = "ben.gis.stewart@gmail.com" },
+	{ name = "Andres Chamorro", email = "afche18@gmail.com" }
+]
+classifiers = [
+	"Programming Language :: Python :: 3",
+	"Programming Language :: Python :: 3.7",
+	"Programming Language :: Python :: 3.8",
+	"Programming Language :: Python :: 3.9",
+	"Programming Language :: Python :: 3.10",
+	"Programming Language :: Python :: 3.11",
+	"Programming Language :: Python :: 3 :: Only",
+	"License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)",
+	"Operating System :: OS Independent",
+	"Intended Audience :: Developers",
+	"Topic :: Scientific/Engineering",
+]
+dynamic = ["dependencies", "version"]
+
+requires-python = ">=3.7"
+
+[tool.setuptools.dynamic]
+dependencies = {file = ["requirements.txt"]}
+
+[project.optional-dependencies]
+docs = [
+	"docutils==0.17.1",    # https://jupyterbook.org/en/stable/content/citations.html?highlight=docutils#citations-and-bibliographies
+	"jupyter-book >=1,<2",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/worldbank/GOSTrocks"
+"Bug Reports" = "https://github.com/worldbank/GOSTrocks/issues"
+"Source" = "https://github.com/worldbank/GOSTrocks"
+
+[tool.codespell]
+skip = 'docs/_build,docs/references.bib,*.png,*.gz,*.whl'
+ignore-regex = '^\s*"image\/png":\s.*'
+ignore-words-list = "gost,"
+
+[tool.hatch.version]
+source = "vcs"
+
+[tool.hatch.build.hooks.vcs]
+version-file = "src/GOSTrocks/_version.py"
+
+[tool.ruff.lint.pydocstyle]
+convention = "numpy"

@@ -1,0 +1,8 @@
+format: jb-book
+root: README
+
+parts:
+  - caption: Examples
+    numbered: True
+    chapters:
+      - file: notebooks/GOSTrocks_Usage.ipynb
