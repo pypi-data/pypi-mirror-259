@@ -1,0 +1,7 @@
+README.md
+setup.py
+TradingB.egg-info/PKG-INFO
+TradingB.egg-info/SOURCES.txt
+TradingB.egg-info/dependency_links.txt
+TradingB.egg-info/requires.txt
+TradingB.egg-info/top_level.txt
