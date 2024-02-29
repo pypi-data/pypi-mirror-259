@@ -1,0 +1,13 @@
+langchain_google_cloud_sql_pg/__init__.py,sha256=yVycmSGw-P-NrIGxeJ0hkYeqxGPfaZjsMot2SuC9zPI,1045
+langchain_google_cloud_sql_pg/chat_message_history.py,sha256=P5tDXVUF7o_yLNAMQ7VTzmKmIBR74FDs6DTI-Jh7BEg,4964
+langchain_google_cloud_sql_pg/engine.py,sha256=DwTSD14Uiv4tvlKny_Ph0aEhKAu3yoq08R77tbsXnUA,13341
+langchain_google_cloud_sql_pg/indexes.py,sha256=UYbXMcZXBvaU7FFa7IjhXvBvCuDdxr0Tq2pgyQrKVtU,2580
+langchain_google_cloud_sql_pg/postgresql_loader.py,sha256=G2yI3QiS2mHxYSUgVIQPDhgCBw1-ARlCvLZJrEQt-HM,17740
+langchain_google_cloud_sql_pg/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+langchain_google_cloud_sql_pg/vectorstore.py,sha256=aSG8LlOvkvbY7fQ38MIZJMiGtAHML-TgUs7JUv_JoPk,29627
+langchain_google_cloud_sql_pg/version.py,sha256=ymvTeJlPbTMB4nt_l6bQi6U84UMT_Bn7RCqI9sxmOmk,622
+langchain_google_cloud_sql_pg-0.1.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+langchain_google_cloud_sql_pg-0.1.0.dist-info/METADATA,sha256=pwe7TY3vK_zzpbZ38QkPM0hwdchWmabzW1h73Jui5gg,18701
+langchain_google_cloud_sql_pg-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+langchain_google_cloud_sql_pg-0.1.0.dist-info/top_level.txt,sha256=B0E28f-0MRQQTiqWKALorDWbFG2scm-DwzRuYdQHOOA,30
+langchain_google_cloud_sql_pg-0.1.0.dist-info/RECORD,,
