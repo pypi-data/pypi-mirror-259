@@ -1,0 +1,12 @@
+photerr/__init__.py,sha256=2s07H5_CExtIVfE0v5FEKs7W_16ASim5UzpBITo0YyA,554
+photerr/euclid.py,sha256=3fA4QqIjEMFNQ1oI71GmBP-nECEei9YC0Y7rS1oc-no,1142
+photerr/lsst.py,sha256=Ysm-p_G4ECWvDIX_mfjZfKKSJNQXlr29r4kLUoODn8o,2251
+photerr/lsstV1.py,sha256=aflo-OGXyeGHoguyFhKhAuByh3nwydQ5VnON2TZjOlw,2853
+photerr/lsstV2.py,sha256=b6ul4DOOGHIgHY536hxb8JN-4_daCYb3nh3KFKBTZeA,3457
+photerr/model.py,sha256=r3z202b7WgZGryEZq_B-vs5A4SHjpZ4C3iRe6u6guKs,19594
+photerr/params.py,sha256=2XN9K4Xk8qYvAVCqLWNcMF2t5q3Q7QUIpOngXO9liEc,22037
+photerr/roman.py,sha256=lupmWf98oKhAQwcMBXmQFHjDXA8u_is4w-06Nu1_aj4,1159
+photerr-1.2.0.dist-info/LICENSE,sha256=L8UtrsUobTeIo2cYywQntsowAJT7MIuN9vMT8FJKidg,1079
+photerr-1.2.0.dist-info/METADATA,sha256=cK-UJeaa7vIh-ImCTaFOE1lOgwxLgnHQYb043Ql28W4,12519
+photerr-1.2.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+photerr-1.2.0.dist-info/RECORD,,
