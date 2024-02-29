@@ -1,0 +1,15 @@
+.gitignore
+LICENSE
+README.md
+default.nix
+setup.py
+shell.nix
+.github/workflows/release.yml
+truncnorm/__init__.py
+truncnorm/_meta.py
+truncnorm/truncnorm.py
+truncnorm.egg-info/PKG-INFO
+truncnorm.egg-info/SOURCES.txt
+truncnorm.egg-info/dependency_links.txt
+truncnorm.egg-info/requires.txt
+truncnorm.egg-info/top_level.txt
