@@ -1,0 +1,3 @@
+[console_scripts]
+verify_domain_cert=verify_domain_cert.check:main
+
