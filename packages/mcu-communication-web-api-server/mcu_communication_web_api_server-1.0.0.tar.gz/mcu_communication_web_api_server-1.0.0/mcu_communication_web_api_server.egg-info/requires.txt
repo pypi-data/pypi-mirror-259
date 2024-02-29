@@ -1,0 +1,6 @@
+flatbuffers
+uvicorn
+uvloop
+python-multipart
+mcu_communication_tcp
+fastapi[swagger]
