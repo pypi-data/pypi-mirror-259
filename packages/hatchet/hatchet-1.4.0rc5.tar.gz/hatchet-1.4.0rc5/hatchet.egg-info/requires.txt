@@ -1,0 +1,11 @@
+caliper-reader
+matplotlib
+multiprocess
+numpy
+pandas
+pydot
+pyyaml
+textx
+
+[:python_version >= "3.6"]
+pycubexr
