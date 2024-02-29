@@ -1,0 +1,13 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.md
+setup.py
+tanvircalculator/__init__.py
+tanvircalculator/calculator.py
+tanvircalculator.egg-info/PKG-INFO
+tanvircalculator.egg-info/SOURCES.txt
+tanvircalculator.egg-info/dependency_links.txt
+tanvircalculator.egg-info/top_level.txt
+test/main.py
+test/new.txt

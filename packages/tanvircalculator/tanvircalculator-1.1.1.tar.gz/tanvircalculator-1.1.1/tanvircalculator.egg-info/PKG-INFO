@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: tanvircalculator
+Version: 1.1.1
+Summary: A simple calculator package
+Home-page: https://github.com/Tanvir-yzu/simplecalculator.git
+Author: Tanvir-yzu
+Author-email: 2020tanvir1971@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENCE.txt
+
+```
+from tanvircalculator import calculator
+
+result = calculator.add(5, 3)
+print(result)  # Output: 8
+
+```
+```
+from tanvircalculator import calculator
+
+result = calculator.subtract(5, 3)
+print(result)  # Output: 2
+
+```
+```
+from tanvircalculator import calculator
+
+result = calculator.multiply(5, 3)
+print(result)  # Output: 15
+
+```
+```
+from simple-calculator-py import calculator
+
+result = calculator.divide(10, 2)
+print(result)  # Output: 5
+
+```
+
