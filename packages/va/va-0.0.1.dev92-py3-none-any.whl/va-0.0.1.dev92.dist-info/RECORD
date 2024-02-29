@@ -1,0 +1,16 @@
+va/__init__.py,sha256=gHi6sjjnvd4J1-hcYShVW1RQAAZOcbHYxhQZzo7SX4E,268
+va/mainva.py,sha256=9Zlh5FtyefZElH1BmoZkd5qk7WgEVznAsrqLo7I031A,9967
+va/preparation.py,sha256=VO6x_TQHLEoKnmhxc8MW7ybjHfMkh-XF_UqShiZ58jk,71043
+va/validationanalysis.py,sha256=Tz4IBVxnEDSNbsHp1MK4eR2s8KPpvO54-ZB6CNCr0mg,330604
+va/version.py,sha256=_E_e-8c8UmxGlgJYeTV2dJHDnGyBoCFnHvQhNf3G5YY,904
+va/metrics/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+va/metrics/emda_mmcc.py,sha256=y9qLuAUc7PO1OlBBQhrwoAem9UaB8m44Ezy03UIDDtQ,421
+va/metrics/emringer.py,sha256=IkybpIg2HG-qVfQvemouWpCLpSuVZem4tYYlnb4D4ig,1297
+va/metrics/qscore.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+va/metrics/strudel.py,sha256=ki5ocH94U2GMFvDgBnVhDQcVE2CT7ejgrvSahqBthAo,4674
+va/metrics/threedfsc.py,sha256=-Lp91xy_HOLvOjcXrGI1qXw-tPW7NW7WAKy_J4T41XQ,1559
+va-0.0.1.dev92.dist-info/METADATA,sha256=n3TqezK_immxV8xqj6YpeszvluyPl6rn7j1ozlYn-SY,969
+va-0.0.1.dev92.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+va-0.0.1.dev92.dist-info/entry_points.txt,sha256=3GDgE_RPnedndxYSN7AbQ6ojnQR8dYM3VvJrR_mShSw,38
+va-0.0.1.dev92.dist-info/top_level.txt,sha256=XkRzdik-cabgu1rSDVUmRKNy0pF_RGh-XAviUV9H0p8,3
+va-0.0.1.dev92.dist-info/RECORD,,
