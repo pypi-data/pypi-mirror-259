@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/config.py
+src/dated_entries_group.py
+src/dated_entry.py
+src/errors.py
+src/librarian.py
+src/main.py
+src/utils.py
+src/daylio_obsidian_parser.egg-info/PKG-INFO
+src/daylio_obsidian_parser.egg-info/SOURCES.txt
+src/daylio_obsidian_parser.egg-info/dependency_links.txt
+src/daylio_obsidian_parser.egg-info/top_level.txt
+src/entry/mood.py
