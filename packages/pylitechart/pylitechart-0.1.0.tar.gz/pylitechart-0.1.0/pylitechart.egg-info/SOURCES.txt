@@ -1,0 +1,12 @@
+LICENSE
+setup.py
+pylite/Chart.py
+pylite/__init__.py
+pylite/scripts/chart.js
+pylite/scripts/lightweight-charts.standalone.js
+pylite/scripts/lightweight_chart.html
+pylitechart.egg-info/PKG-INFO
+pylitechart.egg-info/SOURCES.txt
+pylitechart.egg-info/dependency_links.txt
+pylitechart.egg-info/requires.txt
+pylitechart.egg-info/top_level.txt
