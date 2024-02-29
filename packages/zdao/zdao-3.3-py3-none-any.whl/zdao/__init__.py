@@ -1,0 +1,1 @@
+from .__cls_aide_dao_model_base__ import __cls_aide_dao_model_base__ as model
