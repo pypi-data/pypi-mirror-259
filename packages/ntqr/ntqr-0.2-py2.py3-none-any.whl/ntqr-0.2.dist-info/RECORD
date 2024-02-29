@@ -1,0 +1,12 @@
+ntqr/__init__.py,sha256=8vvbknbGDAKRq8YPpyemQ5iwuAwMthm7ItOuad2rHMc,414
+ntqr/r2/__init__.py,sha256=QeIjLAeQG7z_52H_MMTn0XZhjcX5JVswuWuFgqaJIyY,40
+ntqr/r2/datasketches.py,sha256=EUGZjY4_RysHOv0QLmYMWHOtrOx3LtWyVss6LOfa5do,12158
+ntqr/r2/evaluators.py,sha256=eULaqkmM5zN0a-K_f6ZKPqnK4PKVF5VSK5l607hm8Jo,25541
+ntqr/r2/examples.py,sha256=ilrHEff8Ft2kXqjWIID-ssewmR6MRO9RusZmDvZ8pd0,658
+ntqr/r2/postulates.py,sha256=s-nTCUq3Kl1rTEsHjOkP5EeJSrtodZ0uiqEPjZDZLvo,8199
+ntqr/r3/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ntqr/r3/postulates.py,sha256=pHXZC1Wa6f0_Ck7GCn6ngVsroni6bk8QO4KEZtwOg6c,1949
+ntqr-0.2.dist-info/LICENSE.txt,sha256=Ib7_i7f5jLjdg_CdyrrKjzsAOw8-MZcxpSt-Yy7x0pw,1086
+ntqr-0.2.dist-info/WHEEL,sha256=Sgu64hAMa6g5FdzHxXv9Xdse9yxpGGMeagVtPMWpJQY,99
+ntqr-0.2.dist-info/METADATA,sha256=2UxP2gqs2eyDiQ5qT9lQ3vKMTErPSW3R5E_WmOlwSz8,4898
+ntqr-0.2.dist-info/RECORD,,
