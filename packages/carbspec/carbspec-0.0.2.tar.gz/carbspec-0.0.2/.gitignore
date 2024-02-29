@@ -1,0 +1,10 @@
+ML_data/*
+spec_data/*
+DyeCalibration/*
+.ipynb_checkpoints/*
+*.pyc
+*.egg-info/*
+*.ipynb_checkpoints
+build/*
+SI/*
+.vscode/*
