@@ -1,0 +1,16 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+run_DuSC_explorer.py
+.github/workflows/publish-to-pypi.yml
+DuSC_explorer/__init__.py
+DuSC_explorer/minimum_gui.py
+DuSC_explorer/rotatable.py
+DuSC_explorer.egg-info/PKG-INFO
+DuSC_explorer.egg-info/SOURCES.txt
+DuSC_explorer.egg-info/dependency_links.txt
+DuSC_explorer.egg-info/entry_points.txt
+DuSC_explorer.egg-info/requires.txt
+DuSC_explorer.egg-info/top_level.txt
+DuSC_explorer/images/DuSC_icon_small.ico
