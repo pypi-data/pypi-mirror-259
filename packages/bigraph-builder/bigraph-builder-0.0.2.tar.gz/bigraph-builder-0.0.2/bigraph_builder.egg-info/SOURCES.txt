@@ -1,0 +1,14 @@
+AUTHORS.md
+LICENSE
+README.md
+setup.py
+bigraph_builder.egg-info/PKG-INFO
+bigraph_builder.egg-info/SOURCES.txt
+bigraph_builder.egg-info/dependency_links.txt
+bigraph_builder.egg-info/requires.txt
+bigraph_builder.egg-info/top_level.txt
+builder/__init__.py
+builder/builder_api.py
+builder/toy_processes.py
+builder/out/__init__.py
+builder/out/nodebuilder_api.py
