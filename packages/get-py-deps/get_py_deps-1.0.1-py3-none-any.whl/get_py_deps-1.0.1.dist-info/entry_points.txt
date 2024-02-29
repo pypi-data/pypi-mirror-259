@@ -1,0 +1,2 @@
+[console_scripts]
+get-py-deps = get_py_deps.get_py_deps:_cli
