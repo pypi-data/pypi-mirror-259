@@ -1,0 +1,17 @@
+edureporter/__init__.py,sha256=BX0gMm9L_q8do7u6zPc4MgthvodY9TP74Yxc5He-sY4,17949
+edureporter/reporter.py,sha256=ngcbOFwL_D_XznjZ39noG0W9sr8FgciGcAZtF1o-oPM,10219
+edureporter/utils.py,sha256=6jbhuL0UZxFP-nU5Op0UWy_A6GH0tlAqybBeSbtkyzg,10013
+edureporter/fonts/__init__.py,sha256=baWYGqmktKbKUY3DGvb3zFA841y2YbKcnBKn577dbpM,4813
+testapp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+testapp/manage.py,sha256=QMgCiHVj8Dq1LvFFsXyWsTfYRWQp9MB1wS-s7HwD9RE,694
+testapp/settings.py,sha256=SfrivssQqGoz3g3xdo7QBeMMkjogesNEQHimS_7SiJg,3378
+testapp/urls.py,sha256=0oF7mj_HMpigt_tPr2yMVS5zZ-v8NF85mF06HTu7K-c,138
+testapp/wsgi.py,sha256=-aiIqmkUBAn9DTBEajIWrw_wXrlWHGeGcspG8jucVZk,178
+testapp/app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+testapp/app/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+testapp/app/tests/test_report.py,sha256=YWJzb9ZHJSELmRwCO9C9EcpVMtTMDx6oV8h6vDLtkKA,14457
+edureporter-1.0.0.dist-info/LICENSE,sha256=0zKfF9T4I09JJaVlhBi2CsLMifdkJuPqLjtSMPEEe4o,3457
+edureporter-1.0.0.dist-info/METADATA,sha256=rXv3MPHIOe4ayKlW52uGHAZsSjRcAmPxUrsstQNpsOk,1455
+edureporter-1.0.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+edureporter-1.0.0.dist-info/top_level.txt,sha256=eZrpfdCWuUzG7bYlRNCE5UWj0UR0eBA_41LFReQVVJI,20
+edureporter-1.0.0.dist-info/RECORD,,
