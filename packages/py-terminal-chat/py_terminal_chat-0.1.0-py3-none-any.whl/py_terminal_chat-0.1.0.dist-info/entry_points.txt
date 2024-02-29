@@ -1,0 +1,4 @@
+[console_scripts]
+ptc-client=py_terminal_chat.client.__main__:main
+ptc-server=py_terminal_chat.server.__main__:main
+
