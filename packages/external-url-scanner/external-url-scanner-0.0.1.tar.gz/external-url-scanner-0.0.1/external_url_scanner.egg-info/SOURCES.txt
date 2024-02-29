@@ -1,0 +1,5 @@
+setup.py
+external_url_scanner.egg-info/PKG-INFO
+external_url_scanner.egg-info/SOURCES.txt
+external_url_scanner.egg-info/dependency_links.txt
+external_url_scanner.egg-info/top_level.txt
