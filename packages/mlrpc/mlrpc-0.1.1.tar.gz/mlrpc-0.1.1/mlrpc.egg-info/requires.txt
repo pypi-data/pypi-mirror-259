@@ -1,0 +1,6 @@
+pathspec
+mlflow-skinny[databricks]
+fastapi
+pandas
+httpx
+databricks-sdk
