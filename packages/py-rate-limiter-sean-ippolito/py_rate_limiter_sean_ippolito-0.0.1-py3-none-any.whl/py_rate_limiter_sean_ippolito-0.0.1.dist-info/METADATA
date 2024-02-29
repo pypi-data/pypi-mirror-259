@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: py_rate_limiter_sean_ippolito
+Version: 0.0.1
+Summary: python rate limiter
+Author: Sean Ippolito
+Author-email: ippolitosean@gmail.com
+Classifier: Framework :: Flask
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.12
+License-File: LICENSE
+Requires-Dist: flask
+Requires-Dist: requests
+Requires-Dist: blinker
+Requires-Dist: certifi
+Requires-Dist: charset-normalizer
+Requires-Dist: click
+Requires-Dist: colorama
+Requires-Dist: dnspython
+Requires-Dist: idna
+Requires-Dist: itsdangerous
+Requires-Dist: Jinja2
+Requires-Dist: MarkupSafe
+Requires-Dist: pymongo
+Requires-Dist: urllib3
+Requires-Dist: Werkzeug
+
