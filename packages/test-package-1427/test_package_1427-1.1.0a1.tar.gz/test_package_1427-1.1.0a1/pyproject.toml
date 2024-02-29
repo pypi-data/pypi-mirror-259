@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "test-package-1427"
+version = "1.1.0-alpha.1"
+description = ""
+authors = ["Moritz Enderle <moritz.enderle@stud.th-deg.de>"]
+readme = "README.md"
+packages = [{include = "test", from="src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+beautifulsoup4 = "^4.12.3"
+requests = "^2.31.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
