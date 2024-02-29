@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+dydone/__init__.py
+dydone/cli.py
+dydone/path.py
+dydone.egg-info/PKG-INFO
+dydone.egg-info/SOURCES.txt
+dydone.egg-info/dependency_links.txt
+dydone.egg-info/top_level.txt
