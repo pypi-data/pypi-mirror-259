@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+xmailx/__init__.py
+xmailx.egg-info/PKG-INFO
+xmailx.egg-info/SOURCES.txt
+xmailx.egg-info/dependency_links.txt
+xmailx.egg-info/top_level.txt
