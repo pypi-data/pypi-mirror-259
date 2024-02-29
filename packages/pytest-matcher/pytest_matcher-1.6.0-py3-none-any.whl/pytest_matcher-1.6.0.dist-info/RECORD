@@ -1,0 +1,6 @@
+matcher/__init__.py,sha256=3SnWJG7VNGgqmHnH3ZNKoOdxEG1L35zY3YYER1Sz_Z8,335
+matcher/plugin.py,sha256=eu4iU10woctqb3NSCbOl-93aVt7tLptVTtQEASTqUZI,13620
+pytest_matcher-1.6.0.dist-info/METADATA,sha256=cUdxleqVV9Jm0sWKSybMvjxM745XKfLfOlM1dUsOShY,43787
+pytest_matcher-1.6.0.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+pytest_matcher-1.6.0.dist-info/entry_points.txt,sha256=q0x0pOWTTCHvJCervGcJGMCn5gm_Nx3rCs8g4ttXnqE,43
+pytest_matcher-1.6.0.dist-info/RECORD,,
