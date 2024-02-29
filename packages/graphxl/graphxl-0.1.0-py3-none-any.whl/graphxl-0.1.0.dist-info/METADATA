@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: graphxl
+Version: 0.1.0
+Summary: Workbench for Deep Learning on network datasets
+Author: ybangaru
+Author-email: yaswanthbangaru13@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: dash (>=2.15.0,<3.0.0)
+Requires-Dist: geopandas (==0.13.2)
+Requires-Dist: kaleido (==0.2.1)
+Requires-Dist: mlflow (>=2.10.2,<3.0.0)
+Requires-Dist: opencv-python (>=4.9.0.80,<5.0.0.0)
+Requires-Dist: pandas (==1.4.4)
+Requires-Dist: plotly (>=5.19.0,<6.0.0)
+Requires-Dist: rtree (>=1.2.0,<2.0.0)
+Requires-Dist: scanpy (>=1.9.8,<2.0.0)
+Requires-Dist: shapely (>=2.0.3,<3.0.0)
+Requires-Dist: squidpy (==1.2.2)
+Requires-Dist: torch (>=1.13.0)
+Requires-Dist: torch_geometric (>=2.2.0)
+Requires-Dist: torchviz (>=0.0.2,<0.0.3)
+Description-Content-Type: text/markdown
+
+Python env setup
+load python 3.8 module
+in SLURM - module load python/3.8.18 (verify the version using "module avail" command)
+
+<!-- to ensure virtual environments are created in the local directory -->
+use "poetry config virtualenvs.in-project true"
+to install - "poetry install"
+
+activate virtual environment created by poetry in the project directory
+source .venv/bin/activate
+
+<!-- to be able to install torch-scatter, open issue at https://github.com/rusty1s/pytorch_sparse/issues/156 -->
+<!-- please refer here for different options -->
+https://pytorch-geometric.readthedocs.io/en/latest/install/installation.html
+
+poetry config repositories.torch-wheels https://data.pyg.org/whl/torch-2.2.0+cpu.html
+
+poetry source add torch-wheels https://data.pyg.org/whl/torch-2.2.0+cpu.html
+
+if using slurm jobs, create directory for logs using mkdir logs
+
+
+jupyterlab setup details can be found at https://jejjohnson.github.io/research_journal/tutorials/remote_computing/vscode_jlab/
+
+docs setup
+---------------
+mkdir docs
+cd docs
+sphinx-quickstart
+-- update conf.py
+
+from project directory
+sphinx-apidoc -o docs/source/ graphxl/
+sphinx-build -b html docs/source docs/build
+
+from docs directory
+./make.sh html
+
+from docs/build directory
+python -m http.server to run the docs server locally
+
+
