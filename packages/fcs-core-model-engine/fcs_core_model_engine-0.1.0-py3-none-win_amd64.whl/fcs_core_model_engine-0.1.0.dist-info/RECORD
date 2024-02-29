@@ -1,0 +1,12 @@
+fcscore/BackendService.py,sha256=jQgfPJd6-CGVz4u7d6cJGzJW7m6PQ212nY2KwtkF9Y0,2274
+fcscore/FCSLogger.py,sha256=gpHOFjIdBuRUgArWMU4Ap01_XdG2UOoY-sOjAbQkg8o,3390
+fcscore/FCSOptions.py,sha256=uQtv0QCDRyWYg40Qd9wAPuD0XKAP5SouQYdD87wnOIA,704
+fcscore/FCSViewer.py,sha256=5LGVVIBpWTvHg5ohDDFTiFoomRYYd8lZChMyd6SR65c,40584
+fcscore/GeometryBuilder.py,sha256=qXRXOVs5Q2BUlNc9PkfFysmjmTcG_RvgE3wu3nUBmKo,79423
+fcscore/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fcscore/fcscore.pyi,sha256=TjMCtrPrjRf3rZbmccvIk4PJjcAAcYQRC5GDcJpLkG4,46120
+fcs_core_model_engine-0.1.0.dist-info/LICENSE,sha256=V0n5r0SqixrM2X7iJycjjA5T4ID82y6t8arXFqDC8jA,1070
+fcs_core_model_engine-0.1.0.dist-info/METADATA,sha256=d-N-bgXrYwZdiMzn8fm4UNre0dKs9-n5nfBIMJCk-Rw,688
+fcs_core_model_engine-0.1.0.dist-info/WHEEL,sha256=6iYPr8vTHsyDK75jr9X0V3I9wPSVmtwr_8fdATBciGk,98
+fcs_core_model_engine-0.1.0.dist-info/top_level.txt,sha256=CtcRDebMvLGq7YPRfcDM5bT2uzoKp3gZtHgyYwhSdAE,8
+fcs_core_model_engine-0.1.0.dist-info/RECORD,,
