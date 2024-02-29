@@ -1,0 +1,23 @@
+numpy
+pandas
+scikit-learn
+lightgbm
+xgboost
+optuna
+
+[:python_version < "3.10"]
+importlib-metadata
+
+[dev]
+customersatisfactionpackagedemo[release,static-code-qa,test]
+
+[release]
+build
+twine
+
+[static-code-qa]
+pre-commit
+
+[test]
+pytest
+pytest-cov
