@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en" id="htmldoc" data-bs-theme="dark">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>{% block title %}Flask App{% endblock %}</title>
+        <link
+            href="{{ url_for('custom_static', filename='css/bootstrap.min.css') }}"
+            rel="stylesheet"
+        />
+        <link
+            href="{{ url_for('custom_static', filename='font/bootstrap-icons.css') }}"
+            rel="stylesheet"
+        />
+        <script src="{{ url_for('custom_static', filename='js/bootstrap.min.js') }}"></script>
+        <script src="{{ url_for('custom_static', filename='js/jquery-3.7.1.min.js') }}"></script>
+        <style>
+            html {
+                overflow: hidden;
+            }
+        </style>
+        <style>
+            .scrollable-form {
+                max-height: 600px; /* Adjust the height as needed */
+                overflow-y: auto; /* Enables vertical scrolling */
+                overflow-x: hidden; /* Disables horizontal scrolling */
+            }
+            .custom-tooltip-container {
+                position: fixed;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                z-index: 1050; /* Ensure it's above most other content */
+                background-color: rgba(0, 0, 0, 0.8);
+                color: white;
+                padding: 15px;
+                border-radius: 5px;
+                display: none; /* Hidden by default */
+              }
+              
+              .custom-tooltip-content {
+                text-align: center;
+              }
+              .tooltip-icon {
+                font-size: 1.5rem; /* Adjusts the size of the icon */
+                cursor: pointer; /* Changes cursor to pointer to indicate it's clickable */
+            }
+        </style>
+    </head>
+    <body class="d-flex flex-column">
+        <div class="container py-4">
+            {% if settings_string %}
+            <div class="mb-3">
+                <textarea id="settingsOutput" class="form-control bg-light text-dark" style="display: none;">{{ settings_string }}</textarea>
+            </div>        
+            {% endif %}
+
+            <!-- Search Field and Generate Settings Button -->
+            <div class="row mb-3 align-items-center">
+                <div class="col">
+                    <input type="text" id="searchField" onkeyup="filterSettings()" placeholder="Search Settings..." class="form-control">            
+                </div>
+                <div class="col-auto">
+                    <button type="button" class="btn btn-primary" onclick='submitForm("settingsgen")'>Generate Settings</button>
+                </div>
+            </div>
+
+            
+            <div class="mb-3 text-center">
+                <!-- Submit buttons -->
+                <button id="copyButton" type="button" class="btn btn-secondary" onclick="copyToClipboard()">Copy to Clipboard</button>
+                <button id="downloadButton" type="button" class="btn btn-secondary" onclick="downloadSettings()">Download PalWorldSettings.ini</button>
+                <button type="button" class="btn btn-secondary" onclick="submitForm('generate_sav')">Download WorldOption.sav</button>
+            </div>
+
+            <form method="post" id="settingsForm" class="scrollable-form pe-3">
+                <div class="row">
+                    <!-- First Column -->
+                    <div class="col">
+                        {% for key, value in defaults.items() %}
+                            <div class="form-section mb-3 p-1 border border-light rounded">
+                                <div class="row align-items-center">
+                                    <!-- Label Column -->
+                                    <div class="col-md-6">
+                                        <label for="{{ key }}" class="form-label">{{ key }}</label>
+                                    </div>
+
+                                    <!-- Setting Value Column -->
+                                    <div class="col-md-3">
+                                        {% if value == "True" or value == "False" %}
+                                        <select id="{{ key }}" name="{{ key }}" class="form-select">
+                                            <option value="True" {% if request.form[key] == "True" %}selected{% elif not request.form[key] and value == "True" %}selected{% endif %}>True</option>
+                                            <option value="False" {% if request.form[key] == "False" %}selected{% elif not request.form[key] and value == "False" %}selected{% endif %}>False</option>
+                                        </select>
+                                        {% elif key == "DeathPenalty" %}
+                                        <select id="{{ key }}" name="{{ key }}" class="form-select">
+                                            <option value="None" {% if request.form[key] == "None" %}selected{% elif not request.form[key] and value == "None" %}selected{% endif %}>None</option>
+                                            <option value="Item" {% if request.form[key] == "Item" %}selected{% elif not request.form[key] and value == "Item" %}selected{% endif %}>Item</option>
+                                            <option value="ItemAndEquipment" {% if request.form[key] == "ItemAndEquipment" %}selected{% elif not request.form[key] and value == "ItemAndEquipment" %}selected{% endif %}>ItemAndEquipment</option>
+                                            <option value="All" {% if request.form[key] == "All" %}selected{% elif not request.form[key] and value == "All" %}selected{% endif %}>All</option>
+                                        </select>
+                                        {% else %}
+                                        <input type="text" id="{{ key }}" name="{{ key }}" value="{{ request.form[key] if request.form[key] else value }}" class="form-control" />
+                                        {% endif %}
+                                    </div>
+
+                                    <!-- Buttons Column -->
+                                    <div class="col-md-auto d-flex align-items-center justify-content-end">
+                                        <div class="ms-3">
+                                            <button type="button" class="btn btn-light btn-sm" onclick="document.getElementById('{{ key }}').value='{{ value }}';">Default</button>
+                                        </div>
+                                        <div class="ms-4">
+                                            <i class="bi bi-question-circle tooltip-icon" onclick="showCustomTooltip('{{ descriptions[key] | escape }}')" onmouseover="showCustomTooltip('{{ descriptions[key] | escape }}')" onmouseout="hideCustomTooltip()"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        {% endfor %}                
+                    </div>
+                </div>
+            </form>        
+        </div>
+        <!-- Custom Tooltip Container -->
+        <div id="customTooltip" class="custom-tooltip-container" style="display:none;">
+            <div class="custom-tooltip-content"></div>
+        </div>
+        <!-- Toast Notification -->
+        <div aria-live="polite" aria-atomic="true" class="position-relative">
+            <!-- Position it at the bottom right corner -->
+            <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                <!-- Toast -->
+                <div class="toast" id="copyToast">
+                    <div class="toast-header">
+                        <strong class="me-auto">Notification</strong>
+                        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                    </div>
+                    <div class="toast-body">
+                        <!-- The message will be set by the JavaScript function -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script>
+            var settingsOutput = document.getElementById('settingsOutput').value;
+
+            function resetToDefault(elementId, defaultValue) {
+                var element = document.getElementById(elementId);
+                if (element.tagName === 'SELECT') {
+                    element.value = defaultValue;
+                } else {
+                    element.value = defaultValue;
+                }
+            };
+
+            // Download settings as INI file
+            function downloadSettings() {
+                var text = document.getElementById("settingsOutput").value;
+                var element = document.createElement('a');
+                element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+                element.setAttribute('download', 'PalWorldSettings.ini');
+
+                element.style.display = 'none';
+                document.body.appendChild(element);
+
+                element.click();
+
+                document.body.removeChild(element);
+            };
+
+            function submitForm(action) {
+                var form = document.getElementById('settingsForm');
+                form.action = '/' + action;
+                form.submit();
+            };
+
+            function filterSettings() {
+                var input, filter, formSections, labels, i;
+                input = document.getElementById('searchField');
+                filter = input.value.toUpperCase();
+                formSections = document.getElementsByClassName('form-section');
+                
+                // Loop through all form sections and hide those who don't match the search query
+                for (i = 0; i < formSections.length; i++) {
+                    labels = formSections[i].getElementsByTagName('label');
+                    if (labels[0].innerHTML.toUpperCase().indexOf(filter) > -1) {
+                        formSections[i].style.display = "";
+                    } else {
+                        formSections[i].style.display = "none";
+                    }
+                }
+            }
+
+            function toggleTooltip(element) {
+                var tooltip = bootstrap.Tooltip.getInstance(element); // Get the tooltip instance
+                if (!tooltip) {
+                // Initialize if it does not exist
+                tooltip = new bootstrap.Tooltip(element, {
+                    trigger: 'manual' // Manual triggering
+                });
+                }
+                tooltip.toggle(); // Toggle the visibility
+            }
+            
+            // Initialize tooltips without automatic triggers
+            document.querySelectorAll('[data-bs-toggle="tooltip"]').forEach(function (element) {
+            new bootstrap.Tooltip(element, {
+                trigger: 'manual' // Avoid automatic triggering
+            });
+            });
+
+            function showCustomTooltip(description) {
+            var tooltip = document.getElementById('customTooltip');
+            tooltip.style.display = 'block';
+            tooltip.querySelector('.custom-tooltip-content').innerHTML = description;
+            }
+            
+            function hideCustomTooltip() {
+            var tooltip = document.getElementById('customTooltip');
+            tooltip.style.display = 'none';
+            }
+
+            function showToastNotification(message) {
+                // Set the toast body content
+                var toastBody = document.getElementById('copyToast').querySelector('.toast-body');
+                toastBody.textContent = message;
+            
+                // Show the toast notification
+                var toastEl = document.getElementById('copyToast');
+                var toast = new bootstrap.Toast(toastEl);
+                toast.show();
+            }
+
+            function showGenerateSettingsToast() {
+                // Define the toast message
+                var toastMessage = "Settings Generated, You can now copy the string to the clipboard to add to your PalWorldSettings.ini, Download the ini or download the corresponding WorldOption.sav";
+                
+                // Set the toast body content
+                var toastBody = document.getElementById('copyToast').querySelector('.toast-body');
+                toastBody.textContent = toastMessage;
+            
+                // Show the toast notification
+                var toastEl = document.getElementById('copyToast');
+                var toast = new bootstrap.Toast(toastEl);
+                toast.show();
+            }
+
+            function copyToClipboard() {
+                navigator.clipboard.writeText(settingsOutput)
+                .then(() => {
+                    showToastNotification("Copied to clipboard!");
+                });
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en" id="htmldoc" data-bs-theme="dark">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>{% block title %}Flask App{% endblock %}</title>
+        <link
+            href="{{ url_for('custom_static', filename='css/bootstrap.min.css') }}"
+            rel="stylesheet"
+        />
+        <link
+            href="{{ url_for('custom_static', filename='font/bootstrap-icons.css') }}"
+            rel="stylesheet"
+        />
+        <script src="{{ url_for('custom_static', filename='js/bootstrap.min.js') }}"></script>
+        <script src="{{ url_for('custom_static', filename='js/jquery-3.7.1.min.js') }}"></script>
+        <style>
+            html {
+                overflow: hidden;
+            }
+        </style>
+    </head>
+    <body class="d-flex flex-column">
+        <div
+            class="container-fluid ms-0 me-0 ps-0 pe-0"
+            style="overflow: hidden"
+        >
+            <!-- This should be container-fluid to take full width -->
+            <div class="container-fluid row pt-3 mb-1">
+                <div class="container-fluid col text-center">
+                    {% if management_mode == "local" %}
+                    <h6>Local Server Manager</h6>
+                    {% else %}
+                    <h6>Remote Server Manager</h6>
+                    {% endif %}
+                </div>
+            </div>
+            <!-- Installation and Uninstallation Buttons -->
+            <div class="container-fluid mt-2 ms-0 ps-0 pe-0">
+                <div class="row ms-0 ps-0">
+                    <div class="col d-flex justify-content-between ms-0 ps-0">
+                        <!-- This wraps the installation button and checkboxes -->
+                        <div
+                            class="d-flex align-items-center border rounded ms-0 ps-0"
+                        >
+                            <div class="p-2">
+                                <button
+                                    type="button"
+                                    class="btn btn-primary"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#installModal"
+                                    id="installBtn"
+                                >
+                                    Install | Update
+                                </button>
+                            </div>
+                            <div class="p-2">
+                                <button
+                                    type="button"
+                                    class="btn btn-warning"
+                                    id="backupBtn"
+                                    disabled
+                                >
+                                    Backup
+                                </button>
+                            </div>
+                            <div class="p-2">
+                                <button
+                                    type="button"
+                                    class="btn btn-light"
+                                    id="restoreBtn"
+                                    disabled
+                                >
+                                    Restore
+                                </button>
+                            </div>
+                        </div>
+                        <!-- This wraps the uninstall button -->
+                        <div
+                            class="d-flex align-items-center border rounded p-2"
+                        >
+                            <button
+                                type="button"
+                                class="btn btn-danger"
+                                data-bs-toggle="modal"
+                                data-bs-target="#uninstallModal"
+                                id="uninstallBtn"
+                                disabled
+                            >
+                                Uninstall
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Server Settings -->
+            <div
+                class="border rounded mt-3 p-2"
+                style="height: auto; resize: none"
+            >
+                <div class="row">
+                    <div class="col-md-9 text-start">
+                        <button
+                            type="button"
+                            class="btn btn-primary"
+                            id="updateSettingsBtn"
+                            disabled
+                        >
+                            Update PalworldSettings.ini
+                        </button>
+                    </div>
+                    <div class="pt-2 col-md-3 text-end">
+                        <p class="text-body-tertiary">Server Settings</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- Server Name Field -->
+                    <div class="col-md-8">
+                        <div class="input-group">
+                            <span class="input-group-text" id="serverName"
+                                >Server Name:</span
+                            >
+                            <input
+                                type="text"
+                                class="form-control"
+                                placeholder="Server not Installed"
+                                aria-label="Name"
+                                aria-describedby="serverName"
+                                id="serverNameInput"
+                                disabled
+                            />
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="input-group">
+                            <span class="input-group-text" id="serverPassword"
+                                >Password:</span
+                            >
+                            <input
+                                type="password"
+                                class="form-control"
+                                placeholder="Server Password"
+                                aria-label="Password"
+                                aria-describedby="serverPassword"
+                                id="serverPasswordInput"
+                                disabled
+                            />
+                        </div>
+                    </div>
+                </div>
+                <!-- Server Description Field -->
+                <div class="row mt-2">
+                    <div class="col-9">
+                        <div class="input-group">
+                            <span
+                                class="input-group-text"
+                                id="serverDescription"
+                                >Description:</span
+                            >
+                            <input
+                                type="text"
+                                class="form-control"
+                                placeholder="Server Description"
+                                aria-label="Description"
+                                aria-describedby="serverDescriptionInput"
+                                id="serverDescriptionInput"
+                                disabled
+                            />
+                        </div>
+                    </div>
+                    <div class="col-3">
+                        <div class="input-group">
+                            <span class="input-group-text" id="serverMaxPlayers"
+                                >Max Players:</span
+                            >
+                            <input
+                                type="text"
+                                class="form-control"
+                                placeholder="32 Max"
+                                aria-label="serverMaxPlayers"
+                                aria-describedby="serverMaxPlayersInput"
+                                id="serverMaxPlayersInput"
+                                disabled
+                            />
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <!-- IP Field -->
+                    <div class="col-md-4">
+                        <div class="input-group">
+                            <span class="input-group-text" id="serverLocalIP"
+                                >Local IP:</span
+                            >
+                            <input
+                                type="text"
+                                class="form-control"
+                                placeholder="XXX.XXX.XXX.XXX"
+                                aria-label="LocalIP"
+                                aria-describedby="serverLocalIP"
+                                id="serverLocalIPInput"
+                                disabled
+                                readonly
+                            />
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="input-group">
+                            <span class="input-group-text" id="serverPublicIP"
+                                >Public IP:</span
+                            >
+                            <input
+                                type="text"
+                                class="form-control"
+                                placeholder="XXX.XXX.XXX.XXX"
+                                aria-label="PublicIP"
+                                aria-describedby="serverPublicIP"
+                                id="serverPublicIPInput"
+                                disabled
+                                readonly
+                            />
+                        </div>
+                    </div>
+                    <!-- Port Field -->
+                    <div class="col-md-4">
+                        <div class="input-group">
+                            <span class="input-group-text" id="serverPort"
+                                >Game Port:</span
+                            >
+                            <input
+                                type="text"
+                                class="form-control"
+                                placeholder="8211"
+                                aria-label="Port"
+                                aria-describedby="serverPortInput"
+                                id="serverPortInput"
+                                disabled
+                            />
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-md-4">
+                        <div class="input-group">
+                            <!-- RCON Enabled dropdown true or false -->
+                            <span
+                                class="input-group-text"
+                                id="serverRconEnabled"
+                                >RCON Enabled:</span
+                            >
+                            <select
+                                class="form-select"
+                                id="rconEnabledSelect"
+                                aria-label="RCON Enabled"
+                                disabled
+                            >
+                                <option value="true">True</option>
+                                <option value="false">False</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="input-group">
+                            <span class="input-group-text" id="adminPassword"
+                                >Password:</span
+                            >
+                            <input
+                                type="password"
+                                class="form-control"
+                                placeholder="Admin Password"
+                                aria-label="Admin Password"
+                                aria-describedby="adminPassword"
+                                id="adminPasswordInput"
+                                disabled
+                            />
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="input-group">
+                            <span class="input-group-text" id="serverRconPort"
+                                >RCON Port:</span
+                            >
+                            <input
+                                type="text"
+                                class="form-control"
+                                placeholder="25575"
+                                aria-label="RCON Port"
+                                aria-describedby="serverRconPort"
+                                id="rconPortInput"
+                                disabled
+                            />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-muted mt-1" id="footnote" style="display: none">
+                <small>
+                    Admin Password must be at least 8 characters long.
+                </small>
+            </div>
+            <!-- Server Launcher -->
+            <div
+                class="border rounded mt-3 p-2"
+                style="height: auto; resize: none"
+            >
+                <div class="row mb-0 pt-0">
+                    <div class="col-md-3">
+                        <button
+                            type="button"
+                            class="btn btn-success"
+                            id="launchBtn"
+                            disabled
+                        >
+                            Start Server
+                        </button>
+                    </div>
+                    <div class="col-md-3">
+                        <button
+                            type="button"
+                            class="btn btn-danger"
+                            id="restartServerBtn"
+                            disabled
+                        >
+                            Restart Server
+                        </button>
+                    </div>
+                    <div class="col-md-3"></div>
+                    <div class="col-md-3 pt-2 text-end">
+                        <p class="text-body-tertiary">Launch Options</p>
+                    </div>
+                </div>
+                <div class="row mt-0 mb-1">
+                    <div class="col-md-3">
+                        <div class="form-check">
+                            <input
+                                class="form-check-input"
+                                type="checkbox"
+                                id="checkEnableEpicApp"
+                                disabled
+                                checked
+                            />
+                            <label
+                                class="form-check-label"
+                                for="checkEnableEpicApp"
+                                >EpicApp=PalServer</label
+                            >
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-check">
+                            <input
+                                class="form-check-input"
+                                type="checkbox"
+                                id="checkuseperfthreads"
+                                disabled
+                                checked
+                            />
+                            <label
+                                class="form-check-label"
+                                for="checkuseperfthreads"
+                                >useperfthreads</label
+                            >
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-check">
+                            <input
+                                class="form-check-input"
+                                type="checkbox"
+                                id="checkNoAsyncLoadingThread"
+                                \
+                                disabled
+                                checked
+                            />
+                            <label
+                                class="form-check-label"
+                                for="checkNoAsyncLoadingThread"
+                                >NoAsyncLoadingThread</label
+                            >
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-check">
+                            <input
+                                class="form-check-input"
+                                type="checkbox"
+                                id="checkUseMultithreadForDS"
+                                disabled
+                                checked
+                            />
+                            <label
+                                class="form-check-label"
+                                for="checkUseMultithreadForDS"
+                                >UseMultithreadForDS</label
+                            >
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-start">
+                    <div class="col mt-2">
+                        <div class="form-check">
+                            <input
+                                class="form-check-input"
+                                type="checkbox"
+                                id="checkSwitchToRCON"
+                                checked
+                                disabled
+                            />
+                            <label
+                                class="form-check-label"
+                                for="checkSwitchToRCON"
+                                >Launch RCON</label
+                            >
+                        </div>
+                    </div>
+                    <div class="col mt-2">
+                        <div class="form-check">
+                            <input
+                                class="form-check-input"
+                                type="checkbox"
+                                id="checkAutoBackup"
+                                checked
+                                disabled
+                            />
+                            <label
+                                class="form-check-label"
+                                for="checkAutoBackup"
+                                >Auto Backup</label
+                            >
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="input-group">
+                            <span
+                                class="input-group-text"
+                                id="serverAutoBackupInterval"
+                                >Every:</span
+                            >
+                            <input
+                                type="text"
+                                class="form-control"
+                                placeholder="Seconds"
+                                aria-label="serverAutoBackupInterval"
+                                aria-describedby="serverAutoBackupIntervalInput"
+                                id="serverAutoBackupIntervalInput"
+                                disabled
+                            />
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="input-group">
+                            <span
+                                class="input-group-text"
+                                id="serverAutoBackupQuantity"
+                                >Keep:</span
+                            >
+                            <input
+                                type="text"
+                                class="form-control"
+                                placeholder="Quantity"
+                                aria-label="serverAutoBackupQuantity"
+                                aria-describedby="serverAutoBackupQuantityInput"
+                                id="serverAutoBackupQuantityInput"
+                                disabled
+                            />
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-start">
+                    <div class="col mt-2">
+                        <div class="form-check">
+                            <input
+                                class="form-check-input"
+                                type="checkbox"
+                                id="checkAutoRestartTriggers"
+                                checked
+                                disabled
+                            />
+                            <label
+                                class="form-check-label"
+                                for="checkAutoRestartTriggers"
+                                >Auto-Restart Triggers</label
+                            >
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="input-group">
+                            <span
+                                class="input-group-text"
+                                id="serverAutoRestartRam"
+                                >RAM ≥</span
+                            >
+                            <input
+                                type="text"
+                                class="form-control"
+                                placeholder="GB"
+                                aria-label="serverAutoRestartRam"
+                                aria-describedby="serverAutoRestartRamInput"
+                                id="serverAutoRestartRamInput"
+                                disabled
+                            />
+                        </div>
+                    </div>
+                    <div class="col"></div>
+                    <div class="col"></div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
