@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+defaults/banner-top.png
+defaults/banner.png
+defaults/icon.ico
+resources/diagram.png
+resources/logo-github.png
+src/__init__.py
+src/main.py
+src/distrolock.egg-info/PKG-INFO
+src/distrolock.egg-info/SOURCES.txt
+src/distrolock.egg-info/dependency_links.txt
+src/distrolock.egg-info/requires.txt
+src/distrolock.egg-info/top_level.txt

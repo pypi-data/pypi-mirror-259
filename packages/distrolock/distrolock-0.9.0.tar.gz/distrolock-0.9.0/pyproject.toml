@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "distrolock"
+version="0.9.0"
+description = "Serverless distributable authentication."
+readme = "README.md"
+authors = [{ name = "ColonelParrot" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["authentication", "distributable", "serverless"]
+dependencies = [
+    "pillow >= 10.2.0",
+    'requests >= 2.31.0',
+]
+requires-python = ">=3.9"
+
+[project.urls]
+Homepage = "https://github.com/ColonelParrot/distrolock"
+[tool.bumpver]
+current_version = "0.9.0"
+version_pattern = "MAJOR.MINOR.PATCH"
+commit_message = "bump version {old_version} -> {new_version}"
+tag_message = "{new_version}"
+tag_scope = "default"
+pre_commit_hook = ""
+post_commit_hook = ""
+commit = true
+tag = true
+push = true
+
+[tool.bumpver.file_patterns]
+"pyproject.toml" = [
+    'version = {"version}"',
+    'current_version = "{version}"',
+]
+"README.md" = [
+    "{version}",
+    "{pep440_version}",
+]
+
