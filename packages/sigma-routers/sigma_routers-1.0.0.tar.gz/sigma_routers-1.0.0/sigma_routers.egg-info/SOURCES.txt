@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+sigma_routers.egg-info/PKG-INFO
+sigma_routers.egg-info/SOURCES.txt
+sigma_routers.egg-info/dependency_links.txt
+sigma_routers.egg-info/requires.txt
+sigma_routers.egg-info/top_level.txt
