@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: aprsd-irc-extension
+Version: 0.0.2
+Summary: An Extension to Ham radio APRSD Daemon to act like an irc server for APRS
+Home-page: http://aprsd.readthedocs.org
+Author: Walter A. Boring IV
+Author-email: waboring@hemna.com
+License: Apache
+Project-URL: Source, https://github.com/hemna/aprsd-irc
+Project-URL: Tracker, https://github.com/hemna/aprsd-irc/issues
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Communications :: Ham Radio
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: certifi==2024.2.2
+Requires-Dist: charset-normalizer==3.3.2
+Requires-Dist: click==8.1.7
+Requires-Dist: debtcollector==3.0.0
+Requires-Dist: idna==3.6
+Requires-Dist: netaddr==1.2.1
+Requires-Dist: oslo-config==9.4.0
+Requires-Dist: oslo-i18n==6.3.0
+Requires-Dist: pbr==6.0.0
+Requires-Dist: pyyaml==6.0.1
+Requires-Dist: requests==2.31.0
+Requires-Dist: rfc3986==2.0.0
+Requires-Dist: stevedore==5.2.0
+Requires-Dist: urllib3==2.2.1
+Requires-Dist: wrapt==1.16.0
+
+APRSD extension to add irc server via APRS!
+
