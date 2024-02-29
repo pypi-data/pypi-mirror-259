@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/libWiiPy/__init__.py
+src/libWiiPy/commonkeys.py
+src/libWiiPy/shared.py
+src/libWiiPy/tmd.py
+src/libWiiPy/wad.py
+src/libWiiPy.egg-info/PKG-INFO
+src/libWiiPy.egg-info/SOURCES.txt
+src/libWiiPy.egg-info/dependency_links.txt
+src/libWiiPy.egg-info/top_level.txt
