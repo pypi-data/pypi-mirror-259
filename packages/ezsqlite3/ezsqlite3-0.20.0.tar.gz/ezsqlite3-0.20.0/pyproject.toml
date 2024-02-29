@@ -1,0 +1,74 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "ezsqlite3"
+readme = "README.rst"
+license = {file="LICENSE"}
+dynamic = ["version", "description"]
+authors = [
+    {name="Timo"},
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Framework :: AsyncIO",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Software Development :: Libraries",
+]
+requires-python = ">=3.8"
+dependencies = [
+    "typing_extensions >= 4.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "attribution==1.7.0",
+    "black==24.2.0",
+    "coverage[toml]==7.4.1",
+    "flake8==7.0.0",
+    "flake8-bugbear==24.2.6",
+    "flit==3.9.0",
+    "mypy==1.8.0",
+    "ufmt==2.3.0",
+    "usort==1.0.8.post1",
+]
+docs = [
+    "sphinx==7.2.6",
+    "sphinx-mdinclude==0.5.3",
+]
+
+[project.urls]
+Documentation = "https://ezsqlite3.readthedocs.io/en/latest/"
+Github = "https://github.com/timoo4devv/ezsqlite3"
+
+[tool.flit.sdist]
+exclude = [
+    ".github/",
+]
+
+[tool.attribution]
+name = "ezsqlite3"
+package = "ezsqlite3"
+ignored_authors = ["dependabot"]
+signed_tags = true
+version_file = true
+
+[tool.coverage.run]
+branch = true
+include = ["ezsqlite3/*"]
+omit = ["ezsqlite3/tests/*"]
+
+[tool.coverage.report]
+fail_under = 75
+precision = 1
+show_missing = true
+skip_covered = true
+
+[tool.mypy]
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = "ezsqlite3.tests.perf"
+follow_imports = "silent"
