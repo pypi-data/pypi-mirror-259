@@ -1,0 +1,9 @@
+gradio_multichat/__init__.py,sha256=P4eojdrcgEr35MvOuPCzWvGZseca0rphcFtlKQCbUgo,59
+gradio_multichat/multichat.py,sha256=wnq0r1RRFumzOAlI8ZkeyuInIkAbftdIcBmxgxUwdL0,14131
+gradio_multichat/templates/component/index.js,sha256=C62dCM9NutnkHmIoFP02Wmj8DGt5sndtEska-41dfbw,750273
+gradio_multichat/templates/component/style.css,sha256=8QuqgF_nODL_aYQs7WCFZAxz4B9WFdyzV0FbdZIs6bs,1482696
+gradio_multichat/templates/component/assets/worker-43d19264.js,sha256=t2H7ERfi6C1zImIL1tZmxLdtySPkGq4bnYOycKNU1uU,2374
+gradio_multichat-0.0.3.dist-info/METADATA,sha256=PCP7XaU2zpSwvhbNYS6bCha5SeQbXb42ix1zZTkWHNI,14022
+gradio_multichat-0.0.3.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+gradio_multichat-0.0.3.dist-info/licenses/LICENSE,sha256=tav8HDIKh7LSsj1KZW6_uAsVz5zKr2nH0YNlbryL6qA,1063
+gradio_multichat-0.0.3.dist-info/RECORD,,
