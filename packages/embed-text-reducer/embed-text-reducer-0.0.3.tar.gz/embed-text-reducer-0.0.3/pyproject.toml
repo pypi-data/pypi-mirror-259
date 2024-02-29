@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "embed-text-reducer"
+version = "0.0.3"
+description = "A simple text simplification tool using advanced NLP techniques."
+authors = [
+    {name = "Danil Emelyanov", email = "d.emelianov1991@gmail.com"},
+]
+readme = "README.md"
+keywords = ["text", "simplification", "NLP"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Topic :: Text Processing :: Linguistic",
+]
+dependencies = [
+    "numpy",
+    "tiktoken",
+    "sentence-transformers",
+    "scikit-learn",
+]
+
+[project.urls]
+homepage = "https://github.com/brokencop23/embed-text-reducer.git "
+repository = "https://github.com/brokencop23/embed-text-reducer.git "
+documentation = "https://github.com/brokencop23/embed-text-reducer.git#readme"
+

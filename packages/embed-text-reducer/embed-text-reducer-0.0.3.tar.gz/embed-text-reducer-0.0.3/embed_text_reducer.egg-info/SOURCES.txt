@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+embed_text_reducer/__init__.py
+embed_text_reducer/reducer.py
+embed_text_reducer.egg-info/PKG-INFO
+embed_text_reducer.egg-info/SOURCES.txt
+embed_text_reducer.egg-info/dependency_links.txt
+embed_text_reducer.egg-info/requires.txt
+embed_text_reducer.egg-info/top_level.txt
+tests/test_textreducer.py
