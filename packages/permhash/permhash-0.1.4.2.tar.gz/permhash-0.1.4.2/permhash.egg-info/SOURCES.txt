@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+permhash/__init__.py
+permhash/functions.py
+permhash/helpers.py
+permhash.egg-info/PKG-INFO
+permhash.egg-info/SOURCES.txt
+permhash.egg-info/dependency_links.txt
+permhash.egg-info/entry_points.txt
+permhash.egg-info/requires.txt
+permhash.egg-info/top_level.txt
+permhash/scripts/__init__.py
+permhash/scripts/cli.py
+tests/test_permhash_against_samples.py

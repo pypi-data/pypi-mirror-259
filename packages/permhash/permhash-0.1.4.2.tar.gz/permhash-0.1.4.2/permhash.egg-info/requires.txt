@@ -1,0 +1,4 @@
+androguard>=3.3.5
+python-magic>=0.4.27
+bs4>=0.0.1
+jstyleson>=0.0.2
