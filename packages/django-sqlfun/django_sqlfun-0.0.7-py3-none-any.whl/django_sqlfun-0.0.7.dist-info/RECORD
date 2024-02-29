@@ -1,0 +1,12 @@
+sqlfun/__init__.py,sha256=dd5i-WcxkoMVXO3oBN64hdDxmVHW_JbGQodOpHsg5J4,76
+sqlfun/apps.py,sha256=z_xtIr6ZZYYohTBgMv3W3c4Tu2eSjAzXTnwDV_OkS6I,174
+sqlfun/core.py,sha256=SOnUgdebrWY8IxgmLmX3qGOb1Eim3JAt4bMAdag5dpk,2013
+sqlfun/management/commands/makemigrations.py,sha256=Sapt5d1JtE4egdxMhjODZd0zya09hD8b9_bFzjKiGKA,1207
+sqlfun/migrations/0001_initial.py,sha256=Q2XIhe9YGnGXyiN0RtFIHVnHXt0cpDdehwdgihSwMww,811
+sqlfun/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sqlfun/models.py,sha256=sreyjS4sAIRydbkltaZdIxJbmeWv_JEfmmT3ylyhyQA,328
+sqlfun/utils.py,sha256=KdN4obCx3r4mAn_u4iepFRq4ecXpbiONmoUG5SPZ2lc,6560
+django_sqlfun-0.0.7.dist-info/WHEEL,sha256=B19PGBCYhWaz2p_UjAoRVh767nYQfk14Sn4TpIZ-nfU,87
+django_sqlfun-0.0.7.dist-info/METADATA,sha256=JoNpy3dbTylOUI2PTqD0wp2uouV-0PqCoxHoe5PQIKE,4280
+django_sqlfun-0.0.7.dist-info/licenses/LICENSE,sha256=mhZ8d0VFCdyQthfh6OSpXzPxIlTMrfoKinb6lEM4Aws,1067
+django_sqlfun-0.0.7.dist-info/RECORD,,
