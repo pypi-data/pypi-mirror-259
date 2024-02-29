@@ -1,0 +1,14 @@
+numpy>=1.21.1
+
+[bench]
+msgpack>=1.0.4
+numpy
+safetensors
+msgpack-numpy
+
+[dev]
+ruff>=0.2.2
+pytest>=7.1
+
+[msgpack]
+msgpack>=1.0.4
