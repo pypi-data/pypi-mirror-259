@@ -1,0 +1,9 @@
+django_set_field/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_set_field/admin.py,sha256=PW9izUOSWHAumvYBFwsdvZ1JXphypYptjVwb5mFqF2Y,1168
+django_set_field/debug.py,sha256=VjEDKwH7VXNXQjojB2QOObyc-8mJhrwqk5VUfnXZ47I,1989
+django_set_field/fields.py,sha256=HwrfwcD6HkOTWWnGLTxaUvO79-kY1gx-EEMD9thma6s,5630
+django_set_field/forms.py,sha256=Hk6XO72xI3UUtRBCv8wm1JIKDdyOB-nM3xUdP2OJMFc,519
+django_setfield-0.3.0.dist-info/LICENSE,sha256=lOQJT0pi8OOYg4V3cyWaoDviYD2_Up2Ta_0VK8tDv5E,1060
+django_setfield-0.3.0.dist-info/METADATA,sha256=usKjoiwqnP1aCgq30clUsWQSu4OSFhbd1toOQMZl9mg,455
+django_setfield-0.3.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+django_setfield-0.3.0.dist-info/RECORD,,

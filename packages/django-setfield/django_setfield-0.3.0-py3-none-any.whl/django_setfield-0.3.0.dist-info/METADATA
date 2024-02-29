@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: django-setfield
+Version: 0.3.0
+Summary: Django model field to handle sets (in the python/math sense)
+License: MIT
+Author: Alban Siffer
+Author-email: alban.siffer@irisa.fr
+Requires-Python: >=3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: Django (>=5,<6)
