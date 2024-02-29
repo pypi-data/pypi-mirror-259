@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: mlrpc
+Version: 0.1.0
+Summary: Deploy FastAPI applications on MLFlow
+Home-page: https://github.com/stikkireddy/mlflow-rpc
+Author: Sri Tikkireddy
+Author-email: sri.tikkireddy@databricks.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: pathspec
+Requires-Dist: mlflow-skinny[databricks]
+Requires-Dist: fastapi
+Requires-Dist: pandas
+Requires-Dist: httpx
+Requires-Dist: databricks-sdk
+
+# mlflow rpc
+
+Host REST APIs in Databricks Serverless Model serving via this rpc framework.
+
+This framework offers you a restapi spec to be able to submit rpc calls and retrieve results.
