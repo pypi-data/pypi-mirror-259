@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: arslaanhttp
+Version: 0.0.1
+Summary: A simple HTTP server.
+Home-page: 
+Author: Arslaan Pathan
+Author-email: xminecrafterfun@gmail.com
+License: MIT
+Keywords: http
+License-File: LICENSE.txt
+
+ArslaanHTTP is a simple HTTP server based on Python's http.server module.
+
+Changelog
+=========
+
+0.0.1 (29/02/2024)
+------------------
+- First Release
