@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: PythonPermission
+Version: 0.0.1
+Project-URL: Homepage, https://github.com/maxland255/PythonPermission
+Project-URL: Bug Tracker, https://github.com/maxland255/PythonPermission/issues
+Author-email: Maxland255 <developer@pieteraerens.eu>
+License-File: LICENSE
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Software Development :: Localization
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# PythonPermission
+
+## Description
+
+This package provide a simple way to manage element permissions in python. That is equivalent of the private, protected and protected access modifiers in other languages.
+
+## Installation
+
+```bash
+pip install python-permission
+```
+
+## Usage
+
+```python
+
+```
+
+## License
+
+GNU General Public License v3.0
+
+## Author
+
+- [Maxland255](https://pieteraerens.eu)
