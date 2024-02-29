@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: ctk-components
+Version: 0.1
+Requires-Dist: customtkinter ==5.2.2
+Requires-Dist: pillow ==10.2.0
+Requires-Dist: pywinstyles ==1.7
+

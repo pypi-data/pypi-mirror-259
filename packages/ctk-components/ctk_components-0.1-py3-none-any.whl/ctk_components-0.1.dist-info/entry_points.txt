@@ -1,0 +1,2 @@
+[console_scripts]
+demo = ctk_components:demo
