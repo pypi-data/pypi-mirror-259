@@ -1,0 +1,2 @@
+All movies are now forced to have an even number of pixels in each dimension. This is a requirement of the H.264 codec; if the dimensions
+are odd then some players/browsers will be unable to play the movies.

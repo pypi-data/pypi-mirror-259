@@ -1,0 +1,1 @@
+Update object-clerk to 0.1.1 to remove the logging of bytes objects.
