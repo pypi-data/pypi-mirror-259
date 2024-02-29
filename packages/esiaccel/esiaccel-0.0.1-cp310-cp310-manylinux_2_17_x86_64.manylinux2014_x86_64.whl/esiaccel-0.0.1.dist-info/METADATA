@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: esiaccel
+Version: 0.0.1
+Summary: ESI accelerators runtime
+Author-email: John Demme <John.Demme@microsoft.com>
+Requires-Python: >=3.8
+
