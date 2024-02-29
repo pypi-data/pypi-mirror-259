@@ -1,0 +1,2 @@
+[console_scripts]
+dbaae = dbaae.__main__:main
