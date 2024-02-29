@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: jettonpriceapi
+Version: 0.1.0
+Summary: A Python library for interacting with the Tonapi API
+Home-page: https://github.com/labfunny/jetton-price-api
+Author: Max
+License: MIT
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: requests
