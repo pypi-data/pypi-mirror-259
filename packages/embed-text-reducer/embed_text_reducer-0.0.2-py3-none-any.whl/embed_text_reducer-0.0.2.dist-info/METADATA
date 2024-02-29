@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: embed-text-reducer
+Version: 0.0.2
+Summary: A simple text simplification tool using advanced NLP techniques.
+Author-email: Danil Emelyanov <d.emelianov1991@gmail.com>
+Project-URL: homepage, https://github.com/brokencop23/embed-text-reducer.git 
+Project-URL: repository, https://github.com/brokencop23/embed-text-reducer.git 
+Project-URL: documentation, https://github.com/brokencop23/embed-text-reducer.git#readme
+Keywords: text,simplification,NLP
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Text Processing :: Linguistic
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: tiktoken
+Requires-Dist: sentence-transformers
+Requires-Dist: scikit-learn
+
+# EmbedTextReducer
+
+TextReducer is a Python library for simplifying text content using advanced Natural Language Processing (NLP) techniques. It filters and summarizes text based on relevance to a given query, making it easier to extract meaningful information from large texts.
+
+## Features
+
+- Split text into sentences.
+- Filter sentences based on token count.
+- Compute cosine similarity between sentences and a given query.
+- Summarize text by relevance to the query.
+
+## Installation
+
+Install TextReducer using pip:
+
+```bash
+pip install text-simplifier
+```
+
+## Usage
+Here's a quick example to get you started:
+
+```python
+from text_simplifier import TextReducer
+
+# Initialize the simplifier with default models
+simplifier = TextReducer()
+
+# Fit the text
+text = "Your long text here. It will be split into sentences, filtered, and summarized."
+simplifier.fit(text)
+
+# Find relevant sentences to your query
+query = "specific information"
+summary, tokens = simplifier.find_relevant(query, max_tokens=100)
+
+print("Summary:", summary)
+print("Tokens used:", tokens)
+```
