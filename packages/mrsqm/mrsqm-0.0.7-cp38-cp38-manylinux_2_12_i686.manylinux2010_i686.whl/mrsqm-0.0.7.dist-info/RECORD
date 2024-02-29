@@ -1,0 +1,8 @@
+mrsqm/mrsqm_wrapper.cpython-38-i386-linux-gnu.so,sha256=pRS1ec97-HCOtWEaN4OB6u9rkwS8HSOFzWi8inOtSc8,4784732
+mrsqm/__init__.py,sha256=WasHbZR_Qkkb9mQyPqS29JdhnrEXzwMEjKedZhYY65c,157
+mrsqm-0.0.7.dist-info/METADATA,sha256=V7-qGBMvQwvYE6rgCT520RSORN-YxYcOAF7nwz1Neug,3363
+mrsqm-0.0.7.dist-info/top_level.txt,sha256=nTXeaPGDtE4aEcEStQ2ZqQrJom7aQd2zS7OTwM-c1VY,6
+mrsqm-0.0.7.dist-info/WHEEL,sha256=BiMdEOsOsBe4AxdxHGeJuTRqW7kgcdPJ9c7EmBFnjjo,144
+mrsqm-0.0.7.dist-info/RECORD,,
+mrsqm-0.0.7.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+mrsqm.libs/libfftw3-3deb7d87.so.3.2.3,sha256=Gx6BDQvUj5xnbPylHPIbeC33jpGFCY_SPWi5Au3d8Dw,849872
