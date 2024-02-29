@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+My_Project_Main_Info.egg-info/PKG-INFO
+My_Project_Main_Info.egg-info/SOURCES.txt
+My_Project_Main_Info.egg-info/dependency_links.txt
+My_Project_Main_Info.egg-info/top_level.txt
+project_main/__init__.py
+project_main/main.py
