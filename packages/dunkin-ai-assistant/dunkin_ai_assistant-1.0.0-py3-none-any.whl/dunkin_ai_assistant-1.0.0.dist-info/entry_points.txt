@@ -1,0 +1,2 @@
+[console_scripts]
+dunkin-ai-assistant = main:create_gui
