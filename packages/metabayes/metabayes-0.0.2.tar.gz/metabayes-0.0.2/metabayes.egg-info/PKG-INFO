@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: metabayes
+Version: 0.0.2
+Summary: A tool for Bayesian meta analysis
+Home-page: https://github.com/tbuffington7/bayesian-meta-analysis
+Author: Tyler Buffington
+Author-email: tyler.c.buffington@gmail.com
+License-File: LICENSE.txt
+Requires-Dist: numpy
+Requires-Dist: tqdm
+Requires-Dist: matplotlib
+
+
+A hierarchical model with random effects to understand aggregated effects of experiments, and to inform priors
