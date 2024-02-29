@@ -1,0 +1,1 @@
+from .emailspoofercli import main
