@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+cnvd_scrapy.egg-info/PKG-INFO
+cnvd_scrapy.egg-info/SOURCES.txt
+cnvd_scrapy.egg-info/dependency_links.txt
+cnvd_scrapy.egg-info/top_level.txt
+mypackage/__init__.py
+mypackage/__version__.py
+mypackage/cnvd_load_1.py
+mypackage/cnvd_load_2.py
