@@ -1,0 +1,2 @@
+[console_scripts]
+every_hello_tools = run.py:run
