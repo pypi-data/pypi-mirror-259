@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.rst
+pyproject.toml
+stereoid/__init__.py
+stereoid/cli.py
+stereoid.egg-info/PKG-INFO
+stereoid.egg-info/SOURCES.txt
+stereoid.egg-info/dependency_links.txt
+stereoid.egg-info/entry_points.txt
+stereoid.egg-info/requires.txt
+stereoid.egg-info/top_level.txt
+tests/test_config.py
