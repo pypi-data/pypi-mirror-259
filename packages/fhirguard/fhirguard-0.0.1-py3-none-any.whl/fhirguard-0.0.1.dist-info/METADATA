@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: fhirguard
+Version: 0.0.1
+Summary: 
+Author: Thomas Judd-Cooper
+Author-email: thomas.judd-cooper1@nhs.net
+Requires-Python: >=3.8
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: fhir-resources (>=7.1.0,<8.0.0)
+Requires-Dist: platformdirs (>=4.1.0,<5.0.0)
+Requires-Dist: pycountry (>=23.12.11,<24.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: typer[all] (>=0.9.0,<0.10.0)
+Description-Content-Type: text/markdown
+
+# FHIRGuard
+
+FHIRGuard is a Python library that validates FHIR resources using SIMPLIFIER.NET packages.
+
+## Credits
+
+© Copyright HL7® logo, FHIR® logo and the flaming fire are registered trademarks owned by [Health Level Seven International](https://www.hl7.org/legal/trademarks.cfm).
+

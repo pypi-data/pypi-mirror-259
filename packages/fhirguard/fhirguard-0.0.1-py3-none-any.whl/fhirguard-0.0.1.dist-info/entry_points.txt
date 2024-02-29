@@ -1,0 +1,3 @@
+[console_scripts]
+fhirguard=fhirguard_cli.main:app
+
