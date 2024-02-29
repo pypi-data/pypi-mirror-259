@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: strong-image-creation
+Version: 0.3
+Summary: A package to create summed images from a series of tiff or h5 files in a folder.
+Home-page: https://github.com/biocatiit/musclex
+Author: biocat
+Author-email: xli239@hawk.iit.edu
+Requires-Dist: imagecodecs
+Requires-Dist: numpy
+Requires-Dist: tifffile
+Requires-Dist: fabio
+Requires-Dist: pyqt5
