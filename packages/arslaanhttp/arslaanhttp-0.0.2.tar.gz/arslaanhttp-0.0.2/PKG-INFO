@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: arslaanhttp
+Version: 0.0.2
+Summary: A simple HTTP server.
+Home-page: 
+Author: Arslaan Pathan
+Author-email: xminecrafterfun@gmail.com
+License: MIT
+Keywords: http
+License-File: LICENSE.txt
