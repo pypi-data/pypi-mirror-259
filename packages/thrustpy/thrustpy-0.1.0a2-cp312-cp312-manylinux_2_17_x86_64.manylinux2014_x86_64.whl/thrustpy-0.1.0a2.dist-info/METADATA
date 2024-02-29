@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: thrustpy
+Version: 0.1.0a2
+Requires-Dist: numpy
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: ruff ; extra == 'dev'
+Requires-Dist: tabulate ; extra == 'dev'
+
