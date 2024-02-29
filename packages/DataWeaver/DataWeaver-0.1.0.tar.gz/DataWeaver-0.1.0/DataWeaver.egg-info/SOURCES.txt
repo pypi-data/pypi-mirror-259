@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+DataWeaver.egg-info/PKG-INFO
+DataWeaver.egg-info/SOURCES.txt
+DataWeaver.egg-info/dependency_links.txt
+DataWeaver.egg-info/requires.txt
+DataWeaver.egg-info/top_level.txt
+data_weaver/__init__.py
+data_weaver/main.py
+data_weaver/utils.py
