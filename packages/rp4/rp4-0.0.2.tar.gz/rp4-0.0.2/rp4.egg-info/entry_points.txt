@@ -1,0 +1,2 @@
+[console_scripts]
+rp4 = rp4.__main__:main
