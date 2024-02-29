@@ -1,0 +1,75 @@
+[tool.poetry]
+name = "krypton-server"
+version = "0.1.0.dev5"
+description = "Backend server for obtaining, manipulating, and serving records"
+license = "AGPL-3.0-only"
+authors = ["starecv <starec+nautilo@mailbox.org>"]
+readme = "README.md"
+repository = "https://github.com/nautilorg/krypton-server"
+keywords = ["cryptocurrency", "exchange", "quantitative", "research", "trading"]
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Financial and Insurance Industry",
+    "License :: OSI Approved :: GNU Affero General Public License v3",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Office/Business :: Financial",
+]
+packages = [{include = "krypton/server"}]
+
+[tool.poetry.group.krypton.dependencies]
+krypton-lib = "*"
+krypton-client = "*"
+
+[tool.poetry.dependencies]
+python = "^3.12.1"
+
+[tool.poetry.group.dev]
+optional = true
+
+[tool.poetry.group.dev.dependencies]
+mccabe = "*"
+mypy = "*"
+isort = "*"
+pylint = "*"
+rope = "*"
+yapf = "*"
+
+[tool.poetry.group.dev-lsp]
+optional = true
+
+[tool.poetry.group.dev-lsp.dependencies]
+python-lsp-server = {extras = ["mccabe", "pylint", "rope", "yapf"], version = "*"}
+pyls-isort = "*"
+pylsp-mypy = "*"
+pylsp-rope = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pylint.main]
+py-version = "3.12"
+fail-under = 100
+jobs = 0
+
+[tool.pylint.format]
+max-line-length = 88
+
+[tool.pylint."messages control"]
+disable = [
+    "raw-checker-failed",
+    "bad-inline-option",
+    "locally-disabled",
+    "file-ignored",
+    "suppressed-message",
+    "useless-suppression",
+    "deprecated-pragma",
+    "use-implicit-booleaness-not-comparison-to-string",
+    "use-implicit-booleaness-not-comparison-to-zero",
+    "use-symbolic-message-instead",
+    "missing-module-docstring",
+    "missing-class-docstring",
+    "missing-function-docstring",
+    ]
