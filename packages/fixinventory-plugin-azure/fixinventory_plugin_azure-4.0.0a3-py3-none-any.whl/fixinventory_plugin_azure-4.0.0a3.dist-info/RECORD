@@ -1,0 +1,16 @@
+fix_plugin_azure/__init__.py,sha256=hS6mROT0tUM1Q8Vy8S68TXhr5B5vNcD5j84tsuB7W6c,4290
+fix_plugin_azure/azure_client.py,sha256=AA0HwfW6N9y-KQi7ZRjztlwZa7I-_yKVWSZ2KZMX-UQ,7545
+fix_plugin_azure/collector.py,sha256=iHrlPUm3Dh4SWZtnvQSRw2BZdIJYKzcl8geA6THrXxk,6673
+fix_plugin_azure/config.py,sha256=nTSvBOxq4fge1p20L7ei8dNwzG43_qrFjx9FBLctpX0,2536
+fix_plugin_azure/utils.py,sha256=bcq-P-pe2wZvcB7j_CWSUXyOcWuLIE7SNP_G4kjTb1I,618
+fix_plugin_azure/resource/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fix_plugin_azure/resource/base.py,sha256=OsPh2Fg5m-Xr8xx3y2xSu51EYd80a-DCGwGvKfjwi5g,32105
+fix_plugin_azure/resource/compute.py,sha256=nGhdJ5kaFbcLVxybLc9Z2CosicE0jP2vsr5Zwg61G8o,286890
+fix_plugin_azure/resource/containerservice.py,sha256=eq9OfrcfSPnEtKKxg_iVlrvuWQin3drKGRkjoHmgpD4,80695
+fix_plugin_azure/resource/metrics.py,sha256=ZCmERLAXJHRWrdHDSPPgU6KHY2265CluXweZu-7sGMA,11305
+fix_plugin_azure/resource/network.py,sha256=6zk_mbuAlFScXwZQzifl0vstApk68GBS0VUMu2Xi1ZI,448040
+fixinventory_plugin_azure-4.0.0a3.dist-info/METADATA,sha256=vgQ8sdJGNf7FeYrEXtZVc7TRm8vEPm-cDto4XA6LYl0,1299
+fixinventory_plugin_azure-4.0.0a3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+fixinventory_plugin_azure-4.0.0a3.dist-info/entry_points.txt,sha256=d0upZp77JL3W4oaLKSSdyeg7RyjUtk2Dt1qMNhZCOm4,60
+fixinventory_plugin_azure-4.0.0a3.dist-info/top_level.txt,sha256=3DU-Y7K5TUnOXsZPfmxnoSlbZ8O_N_StlTnxToQanco,17
+fixinventory_plugin_azure-4.0.0a3.dist-info/RECORD,,
