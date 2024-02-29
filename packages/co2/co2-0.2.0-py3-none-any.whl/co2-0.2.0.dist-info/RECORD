@@ -1,0 +1,10 @@
+co2/__init__.py,sha256=Zn1KFblwuFHiDRdRAiRnDBRkbPttWh44jKa5zG2ov0E,22
+co2/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+co2/cli/cli.py,sha256=zel097Cee-lphWbVNwAeXwvkQwUBxYn6Zn7ucw9-yaI,391
+co2/cli/plugins.py,sha256=LogEgy5wuKrHR9aQ8eJhrywwAASdXu7EjTZzmugKLgM,300
+co2/const.py,sha256=IrRDZYnnpzH_E-uSopatcTW1SNq9PHZAX15mx9-azIA,899
+co2/utils/plugins.py,sha256=jp2qwqm_bw3t6psQ5mQx9_kV5E6Q3oKI0TJuSwTjVQI,855
+co2-0.2.0.dist-info/METADATA,sha256=P2N5BW6ZTDpJG59JcTCUGn01hCEoblm7LH3OjNZihSI,629
+co2-0.2.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+co2-0.2.0.dist-info/entry_points.txt,sha256=3W1tI--BPJk6aXD55ZKWb8DozWpl8Ag48SyMn-jP_ec,39
+co2-0.2.0.dist-info/RECORD,,
