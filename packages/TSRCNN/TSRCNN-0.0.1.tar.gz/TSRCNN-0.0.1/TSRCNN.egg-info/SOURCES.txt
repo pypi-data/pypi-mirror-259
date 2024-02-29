@@ -1,0 +1,8 @@
+README
+setup.py
+TSRCNN/__init__.py
+TSRCNN/main.py
+TSRCNN.egg-info/PKG-INFO
+TSRCNN.egg-info/SOURCES.txt
+TSRCNN.egg-info/dependency_links.txt
+TSRCNN.egg-info/top_level.txt
