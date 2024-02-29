@@ -1,0 +1,5 @@
+llama_index/postprocessor/jinaai_rerank/__init__.py,sha256=pK-Zijl-TmAZpmzkR_JY9mlhWDnxkmo1E0yLVVW1Uh4,94
+llama_index/postprocessor/jinaai_rerank/base.py,sha256=n61S8_fwwH22YIfg6JLtJfrsF86KdlXbuj9rxwKew3M,2889
+llama_index_postprocessor_jinaai_rerank-0.1.2.dist-info/METADATA,sha256=29XixZ-1Q9sgUTCU48P0s-C37V9wQLL3TupNnwN7LEs,1132
+llama_index_postprocessor_jinaai_rerank-0.1.2.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+llama_index_postprocessor_jinaai_rerank-0.1.2.dist-info/RECORD,,
