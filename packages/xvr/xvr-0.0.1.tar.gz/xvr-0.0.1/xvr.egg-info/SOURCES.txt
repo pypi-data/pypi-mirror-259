@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+xvr/__init__.py
+xvr.egg-info/PKG-INFO
+xvr.egg-info/SOURCES.txt
+xvr.egg-info/dependency_links.txt
+xvr.egg-info/top_level.txt
