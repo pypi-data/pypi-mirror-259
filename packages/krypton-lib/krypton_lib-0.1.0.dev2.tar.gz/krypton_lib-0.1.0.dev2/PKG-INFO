@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: krypton-lib
+Version: 0.1.0.dev2
+Summary: Common definitions for krypton modules
+Home-page: https://github.com/nautilorg/krypton-lib
+License: GNU Affero General Public License v3
+Keywords: cryptocurrency,exchange,quantitative,research,trading
+Author: starecv
+Author-email: starec@mailbox.org
+Requires-Python: >=3.12.1,<4.0.0
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Office/Business :: Financial
+Requires-Dist: pandas
+Requires-Dist: pyarrow
+Requires-Dist: pydantic
+Requires-Dist: scipy
+Project-URL: Repository, https://github.com/nautilorg/krypton-lib
+Description-Content-Type: text/markdown
+
+# krypton-lib
+
+![PyPI - License](https://img.shields.io/pypi/l/krypton-lib)
+
+In the beginning there was darkness
+
