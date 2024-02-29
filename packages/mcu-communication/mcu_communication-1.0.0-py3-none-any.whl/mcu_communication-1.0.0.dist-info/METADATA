@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: mcu-communication
+Version: 1.0.0
+Summary: Python package for MCU communication protocol
+Requires-Dist: flatbuffers
+Requires-Dist: flask
+Requires-Dist: flask-restx
+
