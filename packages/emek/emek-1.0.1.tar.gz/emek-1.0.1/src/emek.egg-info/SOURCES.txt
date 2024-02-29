@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/emek/__init__.py
+src/emek.egg-info/PKG-INFO
+src/emek.egg-info/SOURCES.txt
+src/emek.egg-info/dependency_links.txt
+src/emek.egg-info/requires.txt
+src/emek.egg-info/top_level.txt
