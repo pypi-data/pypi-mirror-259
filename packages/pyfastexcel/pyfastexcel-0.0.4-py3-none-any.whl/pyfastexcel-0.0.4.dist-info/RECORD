@@ -1,0 +1,10 @@
+pyfastexcel/__init__.py,sha256=ealDpNtJsoKpZ1kM7rH3thUiKPMVcecWxZ6VnlVILUw,109
+pyfastexcel/driver.py,sha256=VUqV1nqy0x38J1eg0ApdIIYYsRvszjFQjqX2moo2MVw,12266
+pyfastexcel/pyfastexcel.dll,sha256=21hLWGJcqrLi095sLXmv7jb5dRJzSQJ0n-N9wGey-tE,9893466
+pyfastexcel/pyfastexcel.so,sha256=lPHr3WHHXptl-mMHZfAaxYtsxSA3-W120D0-Yk7kwkk,6772120
+pyfastexcel/writer.py,sha256=kMKmhsIeIKhtEKCTQqvsE4QD_iDAN02-IbrU3OjztcA,4896
+pyfastexcel-0.0.4.dist-info/LICENSE,sha256=u9N2L1D7YXiwOU2qvo5JUksEN1HXlnj6OVqplxMOv4g,1070
+pyfastexcel-0.0.4.dist-info/METADATA,sha256=kroMiSsfgW7NwHFFL65HkKE5EB10WQ7PSK5GQ6YGvAA,9865
+pyfastexcel-0.0.4.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+pyfastexcel-0.0.4.dist-info/top_level.txt,sha256=OFydmanH9QXbV8Z2zDwxShLA1LbdRLbdbOa8xcTbYBE,12
+pyfastexcel-0.0.4.dist-info/RECORD,,
