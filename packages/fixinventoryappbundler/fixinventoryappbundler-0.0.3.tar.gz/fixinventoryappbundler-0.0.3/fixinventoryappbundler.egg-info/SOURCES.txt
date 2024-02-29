@@ -1,0 +1,5 @@
+setup.py
+fixinventoryappbundler.egg-info/PKG-INFO
+fixinventoryappbundler.egg-info/SOURCES.txt
+fixinventoryappbundler.egg-info/dependency_links.txt
+fixinventoryappbundler.egg-info/top_level.txt
