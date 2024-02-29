@@ -1,0 +1,2 @@
+[console_scripts]
+dosi-auto-adventure = dosi:dosi_main

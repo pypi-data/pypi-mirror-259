@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: DOSI-Auto-Adventure
+Version: 1.0
+Summary: Simple Auto Adventure for DOSI platform
+Home-page: https://github.com/OniCrypto/DOSI
+Author: monkeybosking
+Author-email: monkeybosking55@gmail.com
+License: MIT
+Requires-Dist: requests
