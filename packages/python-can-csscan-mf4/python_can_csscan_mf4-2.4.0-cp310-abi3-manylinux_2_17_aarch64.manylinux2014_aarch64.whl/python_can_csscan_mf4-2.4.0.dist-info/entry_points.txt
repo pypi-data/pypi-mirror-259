@@ -1,0 +1,5 @@
+[can.io.message_reader]
+.mf4 = python_can_csscan_mf4:MdfFile
+.mfc = python_can_csscan_mf4:MdfFile
+.mfe = python_can_csscan_mf4:MdfFile
+.mfm = python_can_csscan_mf4:MdfFile
