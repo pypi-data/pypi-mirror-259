@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "nicostick"
+version = "0.0.1"
+description = "Python package for interfacing with the Nicolaudie Stick3-DE DMX controller over Ethernet"
+authors = ["Yngvi Thor Sigurjonsson <blitzkopf@gmail.com>"]
+readme = "README.md"
+license = "MIT"
+homepage = "https://github.com/blitzkopf/shadeorb"
+repository = "https://github.com/blitzkopf/shadeorb"
+keywords = ["nicolaudie", "stick3", "dmx", "lighting", "controller"]
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Topic :: Home Automation"
+    ]
+
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
