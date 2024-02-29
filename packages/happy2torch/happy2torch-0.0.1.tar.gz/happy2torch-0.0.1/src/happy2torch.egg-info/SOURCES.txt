@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/happy2torch/__init__.py
+src/happy2torch/example.py
+src/happy2torch.egg-info/PKG-INFO
+src/happy2torch.egg-info/SOURCES.txt
+src/happy2torch.egg-info/dependency_links.txt
+src/happy2torch.egg-info/top_level.txt
+test/test.py
