@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+spam_eggs.egg-info/PKG-INFO
+spam_eggs.egg-info/SOURCES.txt
+spam_eggs.egg-info/dependency_links.txt
+spam_eggs.egg-info/requires.txt
+spam_eggs.egg-info/top_level.txt
