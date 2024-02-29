@@ -1,0 +1,6 @@
+README.md
+setup.py
+sentry_integration.egg-info/PKG-INFO
+sentry_integration.egg-info/SOURCES.txt
+sentry_integration.egg-info/dependency_links.txt
+sentry_integration.egg-info/top_level.txt
