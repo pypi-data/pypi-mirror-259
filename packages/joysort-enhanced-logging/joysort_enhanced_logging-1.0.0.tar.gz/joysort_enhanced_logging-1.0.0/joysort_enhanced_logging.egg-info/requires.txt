@@ -1,0 +1,2 @@
+colorama
+mcu_communication_protocol
