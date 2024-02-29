@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pyaget_fucs
+Version: 0.1.1
+Summary: Piaget's FUCs filler
+Author: Natanael Quintino
+Author-email: natanael.quintino@ipiaget.pt
+License: CC0 1.0 Universal
+Keywords: automation,curricular unit,FUC,piaget
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: pdflatex
+Requires-Dist: langchain_openai
+
+Opytimal is a Python/FEniCS framework that have the main goal solve Optimal Control problems considering multiple and mixed controls based to linear and nonlinear PDEs, in addition to can also solve PDEs simply and clearly
