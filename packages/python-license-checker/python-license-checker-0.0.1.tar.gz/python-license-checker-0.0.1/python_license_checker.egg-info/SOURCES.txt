@@ -1,0 +1,5 @@
+setup.py
+python_license_checker.egg-info/PKG-INFO
+python_license_checker.egg-info/SOURCES.txt
+python_license_checker.egg-info/dependency_links.txt
+python_license_checker.egg-info/top_level.txt
