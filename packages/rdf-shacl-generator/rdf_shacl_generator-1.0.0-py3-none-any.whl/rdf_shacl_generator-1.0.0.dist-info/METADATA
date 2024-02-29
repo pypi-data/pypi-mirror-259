@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: rdf-shacl-generator
+Version: 1.0.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: rdflib >=7.0.0
+Requires-Dist: python-dateutil >=2.8.2
+Requires-Dist: exrex >=0.11.0
+Requires-Dist: setuptools >=69.1.1
+
+UNKNOWN
+
+
