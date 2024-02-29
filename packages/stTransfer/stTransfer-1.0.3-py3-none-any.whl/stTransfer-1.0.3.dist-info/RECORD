@@ -1,0 +1,11 @@
+stTransfer/__init__.py,sha256=-Xu-U02PnDmDqHeCQlNdhCuv6TM3Ft2OvnCUlI_I-bw,80
+stTransfer/stTransfer/Transfer_entry.py,sha256=xpNk96nB7oG99yyfTfR4HZYLCsOrhEnhfrxoc4qUlMw,6846
+stTransfer/stTransfer/__init__.py,sha256=rMPvUPYYeZBBuyyL7AoqrsuyAalB063qSmmaHRgV0DM,179
+stTransfer/stTransfer/cell_type_ann_model.py,sha256=McT6GEUotXYJHZZSSNJ4g9hibSlG95wQeUqTn1n7HZU,10500
+stTransfer/stTransfer/focal_loss.py,sha256=FtuIXwYBxhrmwAQ1H-ayvolOS3CFnmsAJrWPH6FZED0,1046
+stTransfer/stTransfer/scTrain_entry.py,sha256=9fpyivo3Cw3aX2o_PMu5X2eX0lxzBDwun9wo3sVMa4A,8249
+stTransfer-1.0.3.dist-info/LICENSE,sha256=GxVdzzHQmbPshW7PQje3rGH-31tjVquleOlWnUGlUlA,1065
+stTransfer-1.0.3.dist-info/METADATA,sha256=a5BhVCFuWPQm-TjOU0GcfOoNn9j6hZjGZ9LAsZeA7s8,683
+stTransfer-1.0.3.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+stTransfer-1.0.3.dist-info/top_level.txt,sha256=FiHiAmEie2xP07nRU2P82UF0R0diD3rkcZ7N1BS6ayY,11
+stTransfer-1.0.3.dist-info/RECORD,,
