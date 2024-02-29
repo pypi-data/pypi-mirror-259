@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: popoto-api
+Version: 0.1.0
+Summary: Package containing the Popoto Modem Python API.
+Author-email: Aaron Bangs <aaron@delresearch.com>, "James A. DellaMorte" <jamesanthony@popotomodem.com>, Jim DellaMorte <jim@delresearch.com>, Joseph DellaMorte <joseph@delresearch.com>, John DellaMorte <john@delresearch.com>
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
