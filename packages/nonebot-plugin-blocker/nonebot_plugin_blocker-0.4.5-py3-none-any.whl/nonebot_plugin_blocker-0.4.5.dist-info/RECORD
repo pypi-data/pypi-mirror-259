@@ -1,0 +1,11 @@
+nonebot_plugin_blocker-0.4.5.dist-info/METADATA,sha256=fFRbJaMInbyc-2txWPF9hpbPu1-GUUGxlmtbJkNiarg,4141
+nonebot_plugin_blocker-0.4.5.dist-info/WHEEL,sha256=N2J68yzZqJh3mI_Wg92rwhw0rtJDFpZj9bwQIMJgaVg,90
+nonebot_plugin_blocker-0.4.5.dist-info/licenses/LICENSE,sha256=2vAy4lW0h0qwK9H1tuXsPDYtuwW4nQdkjCaVNkJj0a4,1066
+nonebot_plugin_blocker/__init__.py,sha256=h9AxHhwwD3KOZQxKC4xDbEzImttxTBgwASR4iAQ6maA,494
+nonebot_plugin_blocker/__main__.py,sha256=jWqtG7iygyTjwVpf1ah8JIpF9UKxrCwJp5XpbCnysEU,3597
+nonebot_plugin_blocker/config.py,sha256=MOYyIjJr2BZA4qSyuxRnbi4o-WMSo-P7YnyKG4eZfs0,3667
+nonebot_plugin_blocker/web/__init__.py,sha256=0agayXGMFEL9rtpg43mSGaCaKLm7YxbCecagrPK1vuI,2552
+nonebot_plugin_blocker/web/webpage/main.html,sha256=Tl7uRYydJtjn8zepn4weYYP07RMuLP4BMxO5YknIsGk,3208
+nonebot_plugin_blocker/web/webpage/main.js,sha256=mRx-dK-siELR3p_Xt-URpVhacK0nu-q5paDgmV_R_3g,6180
+nonebot_plugin_blocker/web/webpage/style.css,sha256=OHE1enAYm86H6W_i_H9RSXo2QSqWmKpIJlMtQvfmkeM,2297
+nonebot_plugin_blocker-0.4.5.dist-info/RECORD,,
