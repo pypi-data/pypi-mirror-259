@@ -1,0 +1,13 @@
+sud/__init__.py,sha256=5Gmdoqnqk3H5pvpZkdE7SG0RVBgi6yxVHq-zVh5x698,1060
+sud/__main__.py,sha256=wCQPRxEIB2Ujyu2_sNPz_ywujwplbUXeHHoMIBONThk,62
+sud/cli.py,sha256=V4tJRH_rUb7-yaMWvweLemZsFmRAS9MjwW5v0nhMzJA,3623
+sud/config.py,sha256=Gw3vTZfOp9yUdjKxMSFmw5w-6V6e4OX1Br73xo40Wbo,2334
+sud/constants.py,sha256=S9n2XXgsTqgWdO6YIu3f2vwm3R4hGv8-gvawu5AviGM,430
+sud/exceptions.py,sha256=zQEkqyg8EZ1qwDzKWosELp9s67bmH9hINVQWHUw9TWo,80
+sud/prompt.py,sha256=MTFjA8p1jYEmvxH2Dm7UoccMsQV1XwLQOZDXl1_jE3c,1499
+sud/updater.py,sha256=bdUfmFeGlKwcLjHUxHb-tef59XIWLKh1TLDsbnmC2e0,7407
+sud-0.3.0.dist-info/LICENSE,sha256=y8F3BeQdBCbDuQ66RtC23VTEssvbh9w6B9IwX40ObEE,11347
+sud-0.3.0.dist-info/METADATA,sha256=Uc6mgBksFeWtl17SBmjsVzHmLZbHZlp0TYP_ctA_k58,3390
+sud-0.3.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+sud-0.3.0.dist-info/entry_points.txt,sha256=EP3-YDuF4VHsRPMb6qBON9YTvQOUq5HLHh7BzACpp-E,35
+sud-0.3.0.dist-info/RECORD,,
