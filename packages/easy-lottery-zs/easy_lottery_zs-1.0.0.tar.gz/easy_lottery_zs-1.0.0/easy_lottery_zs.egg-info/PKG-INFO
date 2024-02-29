@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: easy_lottery_zs
+Version: 1.0.0
+Summary: this package can use lottery
+Home-page: https://github.com/sklfihggczx/easy_lottery_tools
+Author: sklfihggczx
+Author-email: zsdching1026@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# easy_lottery
+
+此抽奖程序只需要配置result.csv
+格式就是一行，一个人名+编号，
+
+### 控制台版本用法如下：
+
+1. 首先在洛谷下载排名信息的csv文件
+2. 在控制台（请不要用ide运行）输入：
+
+    ```sh
+    python main_cli.py
+    ```
+
+3. 首先程序会自动读取并打印成绩信息，成绩为权重，然后等待键盘输入
+
+命令介绍：
+
+- `info`：输出当前成员信息；
+- `del user_id`：手动删除成员；
+- `roll prize num`：开始抽奖，抽`num`次，默认以0.05秒的时间间隔滚动，滚动期间按下Ctrl+C停止滚动，抽下一位。每抽出一个用户会自动从抽奖列表中剔除该用户；
+- `pub`：打印获奖信息。
+
+### 图形化版本用法如下：
+
+使用 Python 3.10 及以上版本并安装 PyQt6 库，双击 `main_gui.pyw` 即可。

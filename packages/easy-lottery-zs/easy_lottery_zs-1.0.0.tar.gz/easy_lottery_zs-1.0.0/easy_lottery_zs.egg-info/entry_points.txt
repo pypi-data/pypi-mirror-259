@@ -1,0 +1,2 @@
+[console_scripts]
+easy_lottery_zs = main_cli.py:run
