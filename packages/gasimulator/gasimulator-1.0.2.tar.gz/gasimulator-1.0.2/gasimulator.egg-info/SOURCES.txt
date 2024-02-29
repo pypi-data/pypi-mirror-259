@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+gasimulator.egg-info/PKG-INFO
+gasimulator.egg-info/SOURCES.txt
+gasimulator.egg-info/dependency_links.txt
+gasimulator.egg-info/requires.txt
+gasimulator.egg-info/top_level.txt
