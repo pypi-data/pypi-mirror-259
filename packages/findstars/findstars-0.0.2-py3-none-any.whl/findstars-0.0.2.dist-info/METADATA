@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: findstars
+Version: 0.0.2
+Summary: Original, standard and customisable versions of the Jaro-Winkler functions.
+Home-page: https://github.com/noerulin/findstars.git
+Author: Richard Milne
+Author-email: richmilne@hotmail.com
+License: GNU General Public License v3 (GPLv3)
+Platform: any
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Text Processing
+Classifier: Topic :: Text Processing :: General
+Classifier: Topic :: Text Processing :: Indexing
+Description-Content-Type: text/markdown
+
+findstars log
