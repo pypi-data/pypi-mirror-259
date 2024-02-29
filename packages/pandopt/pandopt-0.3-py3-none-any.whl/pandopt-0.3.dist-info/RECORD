@@ -1,0 +1,11 @@
+pandopt/PhD.code-workspace,sha256=lCjXn6McB3SGA-dfx6L3G726kedft3s-AZaqTUr-XII,179
+pandopt/__init__.py,sha256=sU8F6WSUiEdu2D2EzOeUzOSEhBQl8EoWNzRnMkZ7GFg,268
+pandopt/frames.py,sha256=_dfUs2RGGwA0aDU34bgkO7a18_oWen6AE518P0ojSn0,8118
+pandopt/groups.py,sha256=LRRuaejDbtFr-09Lmiy8ptVf14fyAPUkFDKjGZ1tnfk,2141
+pandopt/math.py,sha256=FCAKZx5gP37SpYCNlUw4zH5oCY7Kd-ww6LbStzpzCuQ,1346
+pandopt/rolls.py,sha256=MD51760vb3IZxzXB_lYm5X_Q7am37mzS-9th6kGHueQ,6203
+pandopt/transfcoders.py,sha256=JcEItSo3ophh-EXw4DNg_27tTtASErPfaYslHfh7aoI,16988
+pandopt-0.3.dist-info/LICENSE,sha256=E0mkthSEkrRPYp5k7tZ2YS4jT-moOeTzsnfBSCyISfE,20849
+pandopt-0.3.dist-info/METADATA,sha256=Sfk1SC4DAyxKGENxeL6gxostTxhjvaTeJ4HI9WROUUk,10522
+pandopt-0.3.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+pandopt-0.3.dist-info/RECORD,,
