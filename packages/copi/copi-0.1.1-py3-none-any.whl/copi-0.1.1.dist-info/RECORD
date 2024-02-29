@@ -1,0 +1,12 @@
+copi/__init__.py,sha256=Yd9vRjlYmXmuMRj4jKnVWSEnmn-2QQEY6POmHdsXwb0,537
+copi/books/__init__.py,sha256=W9jsfxP7NctGlvNRGiCKsnDdQzZiTz6pVm0SMNwyPxs,176
+copi/lets/__init__.py,sha256=W9jsfxP7NctGlvNRGiCKsnDdQzZiTz6pVm0SMNwyPxs,176
+copi/lib/__init__.py,sha256=W9jsfxP7NctGlvNRGiCKsnDdQzZiTz6pVm0SMNwyPxs,176
+copi/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+copi/tests/__init__.py,sha256=W9jsfxP7NctGlvNRGiCKsnDdQzZiTz6pVm0SMNwyPxs,176
+copi/tests/test_mod.py,sha256=tVoOrt8LSeNqNO2Y-nRMstEEo6Hnf47fpCO4Y2gxC_4,455
+copi/types/__init__.py,sha256=W9jsfxP7NctGlvNRGiCKsnDdQzZiTz6pVm0SMNwyPxs,176
+copi-0.1.1.dist-info/LICENSE,sha256=S1MQVRJdzaNgWWUWNL20JK0mEvR1mz0gZ6cx0oI9HNw,19331
+copi-0.1.1.dist-info/METADATA,sha256=rELX9cxudhaTHyr-of-Ethde5fBPsX1YAcSqHQ2pAVI,1435
+copi-0.1.1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+copi-0.1.1.dist-info/RECORD,,
