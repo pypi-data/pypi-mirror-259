@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "test-lucasmrdt-1"
+version = "0.1.1"
+description = ""
+authors = ["lucasmrdt <lucas.mrdt@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.31.0"
+aiohttp = "^3.9.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
