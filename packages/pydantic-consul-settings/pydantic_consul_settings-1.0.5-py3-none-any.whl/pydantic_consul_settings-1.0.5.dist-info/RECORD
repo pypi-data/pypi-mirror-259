@@ -1,0 +1,7 @@
+pydantic_consul_settings/__init__.py,sha256=vZTK-CS59LAfeJVjvpGlDY9mdNWfsDE_63WxpxwGC_8,78
+pydantic_consul_settings/consul_env.py,sha256=fiDdVW_r8RQ3g6FNReeymfDAJcgh5AR_XTa4e-WEHMU,7167
+pydantic_consul_settings/version.py,sha256=xQpK1X7AIU50jatg99GitoDTGWzMvIaGuTPfzUFAGcs,125
+pydantic_consul_settings-1.0.5.dist-info/LICENCE,sha256=5Od6aekLl6RxuYCwswYvPswplrPMix-xpTjY5Nec1NM,1062
+pydantic_consul_settings-1.0.5.dist-info/METADATA,sha256=pTw8XnCLiKE3vOpBMxwvCkBs4f2aA9TalDLX_M6eb8c,2391
+pydantic_consul_settings-1.0.5.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+pydantic_consul_settings-1.0.5.dist-info/RECORD,,
