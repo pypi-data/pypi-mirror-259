@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: roipy
+Version: 1.0
+Summary: Plotting brain regions of interest (ROI) for demonstration purposes in Python
+Home-page: https://github.com/w-decker/roipy
+Author: Will Decker
+Author-email: deckerwill7@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.8
+License-File: LICENSE
+Requires-Dist: nilearn
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+
+UNKNOWN
+
