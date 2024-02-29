@@ -1,0 +1,3 @@
+[console_scripts]
+emailspoofer = emailspoofergui.emailspoofergui:main
+emailspoofercli = emailspoofergui.emailspoofercli:main
