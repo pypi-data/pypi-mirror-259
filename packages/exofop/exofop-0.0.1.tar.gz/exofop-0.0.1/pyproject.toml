@@ -1,0 +1,56 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "exofop"
+authors = [
+    {name = "David Degen", email = "ddegen@ethz.ch"},
+]
+description = "Generic light curve object"
+readme = "README.md"
+requires-python = ">=3.9"
+keywords = ["astronomy", "astrophysics", "time series analysis", "lightcurves", "ExoFOP"]
+license = {text = "MIT"}
+classifiers = [
+    "Programming Language :: Python :: 3",
+]
+dependencies = [
+    "aiofiles",
+    "astropy",
+    "numpy",
+    "pandas",
+    "httpx",
+    "tqdm",
+]
+version = '0.0.1'
+
+
+[project.optional-dependencies]
+visualization = ["ipython", "matplotlib", "notebook", "ipywidgets"]
+all = ["lightkurve"]
+docs = ["sphinx", "sphinx-book-theme", "sphinx-design", "sphinx-copybutton", "ipython", "matplotlib", "notebook", "ipywidgets", "myst_nb", "ghp-import"]
+test = ["pytest", "pytest-asyncio", "pytest-xdist"]
+dev = ["nox", "ruff", "black", "pytest"]
+
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+lint.extend-select = [
+    "C4",  # Unnecessary generators
+    "SIM",  # SIMPLIFY
+    "NPY", # #NumPy-specific rules
+    "N",  # pep8 Naming
+    "RUF",     
+]
+
+
+# "TCH",  # flake8-type-checking
+# "PD",  # pandas-use-of-pd-merge
+# "NPY", # #NumPy-specific rules
+# "B",  # flake8 bugbear, finding likely bugs and design problems in your program
+# "N",  # pep8 Naming
+# "RUF",     
