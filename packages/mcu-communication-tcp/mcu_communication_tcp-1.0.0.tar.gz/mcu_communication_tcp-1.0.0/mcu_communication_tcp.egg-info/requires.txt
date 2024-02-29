@@ -1,0 +1,4 @@
+flatbuffers
+mcu_communication_protocol
+twisted
+numpy
