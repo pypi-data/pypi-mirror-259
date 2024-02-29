@@ -1,0 +1,8 @@
+jsonschema_lexer/__init__.py,sha256=7BcEVPPtLY3Kp9FxSTY5xmhEa1e42PYHhfvcqb0Jr-Q,39
+jsonschema_lexer/lexer.py,sha256=Rdkd_PAjkBGCm50WBeOU7_Qrv1NQ0-Ua_A8nUDJbbSY,3048
+jsonschema_lexer/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jsonschema_lexer/tests/test_integration.py,sha256=aVl9YK9YGWhc317PDaNCyP-zfQnjLM-s5b2n-4BLMOg,65
+jsonschema_lexer-0.1.0.dist-info/METADATA,sha256=XC1Nf6h_LrnOlaHmFp1PpPRJlyymVZWZIsOn7JsciFM,2867
+jsonschema_lexer-0.1.0.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+jsonschema_lexer-0.1.0.dist-info/licenses/COPYING,sha256=MNzRyF-qNq0JFxIKTWeoWemfLdj_VEz8dMF_iws60G8,1057
+jsonschema_lexer-0.1.0.dist-info/RECORD,,
