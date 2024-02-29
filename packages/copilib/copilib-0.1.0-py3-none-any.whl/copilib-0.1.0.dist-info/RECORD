@@ -1,0 +1,14 @@
+copilib/__init__.py,sha256=Yd9vRjlYmXmuMRj4jKnVWSEnmn-2QQEY6POmHdsXwb0,537
+copilib/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+copilib/tests/test_mod.py,sha256=R-4uBSTgMV5C3aNOb9mw6EABZPrTa2MvRoZLYJtfpfc,586
+smartypes/LICENSE,sha256=AC8KaNQzvdLVw0j2y0fo26Nf6LiYxS3lkSkyL8rjQVQ,19332
+smartypes/README.md,sha256=SzqYouyojdXwedmetEVNAMEd8naMsTU1yxsU97SZeZ4,264
+smartypes/__init__.py,sha256=JB-t4r1joH4eBXRLsGLkC9OS74zwQa81a8yErKFo9i4,176
+smartypes/main.py,sha256=nvrjpiPD1ltCu6bJXwAW4HPq2vQdIqQ0n2Cj7i5tr4o,422
+smartypes/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+smartypes/tests/__init__.py,sha256=JB-t4r1joH4eBXRLsGLkC9OS74zwQa81a8yErKFo9i4,176
+smartypes/tests/test_mod.py,sha256=QiX2w3kdDIAUkhUyh96OOIsIPpWKJnJjSXdCK1CasR4,288
+copilib-0.1.0.dist-info/LICENSE,sha256=S1MQVRJdzaNgWWUWNL20JK0mEvR1mz0gZ6cx0oI9HNw,19331
+copilib-0.1.0.dist-info/METADATA,sha256=V1zzRwMhATtvMF8TWJXcBSYGLOPI9oKXTwaM14XbdH0,1441
+copilib-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+copilib-0.1.0.dist-info/RECORD,,
