@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+cs_p2p/__init__.py
+cs_p2p/p2p.py
+cs_p2p.egg-info/PKG-INFO
+cs_p2p.egg-info/SOURCES.txt
+cs_p2p.egg-info/dependency_links.txt
+cs_p2p.egg-info/requires.txt
+cs_p2p.egg-info/top_level.txt
