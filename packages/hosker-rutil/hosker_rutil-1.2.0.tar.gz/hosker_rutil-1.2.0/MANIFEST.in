@@ -1,0 +1,2 @@
+recursive-include source/rust/hosker_primes/src *
+include source/rust/hosker_primes/Cargo.toml
