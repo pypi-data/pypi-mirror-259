@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+src/torchseal/__init__.py
+src/torchseal.egg-info/PKG-INFO
+src/torchseal.egg-info/SOURCES.txt
+src/torchseal.egg-info/dependency_links.txt
+src/torchseal.egg-info/requires.txt
+src/torchseal.egg-info/top_level.txt
+src/torchseal/nn/__init__.py
+src/torchseal/nn/conv2d.py
+src/torchseal/nn/linear.py

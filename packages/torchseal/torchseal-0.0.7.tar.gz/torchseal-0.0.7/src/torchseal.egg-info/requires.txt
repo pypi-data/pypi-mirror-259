@@ -1,0 +1,4 @@
+tenseal
+numpy
+torch
+torchvision
