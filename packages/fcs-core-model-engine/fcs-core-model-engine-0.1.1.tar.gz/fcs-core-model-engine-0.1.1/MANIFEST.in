@@ -1,0 +1,3 @@
+include bin-x64/*.pyd
+include bin-x64/*.so
+include bin-x64/*.dll
