@@ -1,0 +1,14 @@
+Fix for RHOSP 17.1 customer case - sha1 error in logs
+
+in client.py, instead of command "srstat", use wsapi "systemreporter"
+
+actual PyPI.
+https://pypi.org/project/python-3parclient/
+
+2024_02_29 morning
+4.2.13.2
+
+-----
+In this package, extra file client.py.2 got included (by mistake).
+So need to publish another package.
+
