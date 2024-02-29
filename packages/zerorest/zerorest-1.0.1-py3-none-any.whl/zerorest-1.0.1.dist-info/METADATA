@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: zerorest
+Version: 1.0.1
+Summary: A simple http client with zero dependencies and modern features like modern authentication.
+Home-page: https://git.serverify.de/SecNex/zerorest
+Author: SecNex
+Author-email: dev@secnex.io
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: tests
+Requires-Dist: pytest ; extra == 'tests'
+
+# ZeroREST
+
