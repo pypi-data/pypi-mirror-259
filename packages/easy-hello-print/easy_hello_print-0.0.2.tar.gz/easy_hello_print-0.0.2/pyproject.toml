@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "easy_hello_print"
+version = "0.0.2"
+dependencies = []
+requires-python = ">=3.8"
+authors = [
+  {name = "sklfihggczx", email = "zsdcching1026@gmail.com"},
+]
+maintainers = [
+  {name = "sklfihggczx", email = "zsdcching1026@gmail.com"},
+]
+description = "Lovely Spam! Wonderful Spam!"
+readme = "README.md"
+license = {file = "LICENSE"}
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python"
+]
+[project.urls]
+Homepage = "https://github.com/sklfihggczx/every_hello_tools"
+Documentation = "https://github.com/sklfihggczx/every_hello_tools/README.MD"
+Changelog = "https://github.com/sklfihggczx/every_hello_tools"
+source='https://github.com/sklfihggczx/every_hello_tools'

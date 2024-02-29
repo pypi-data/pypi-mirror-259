@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: easy-hello-print
+Version: 0.0.2
+Summary: Lovely Spam! Wonderful Spam!
+Home-page: https://github.com/sklfihggczx/every_hello_tools
+Author: sklfihggczx
+Author-email: sklfihggczx <zsdcching1026@gmail.com>
+Maintainer-email: sklfihggczx <zsdcching1026@gmail.com>
+License: Copyright (c) 2021 The Python Packaging Authority
+         
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+         
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+         
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: Homepage, https://github.com/sklfihggczx/every_hello_tools
+Project-URL: Documentation, https://github.com/sklfihggczx/every_hello_tools/README.MD
+Project-URL: Changelog, https://github.com/sklfihggczx/every_hello_tools
+Project-URL: source, https://github.com/sklfihggczx/every_hello_tools
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+这是个有趣的包，
+输入语言，就能返回对应hello world的写法
+比如：
+ch=Choose()
+ch.choose="c"
+ch.print_data()
+
+result:
+#include<stdio.h>
+    int main(void) {
+        printf("Hello World!
+");
+        return 0;
+}
+
+ch=Choose()
+ch.choose="java"
+ch.print_data()
+
+result:
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello World!");
+    }
+}
