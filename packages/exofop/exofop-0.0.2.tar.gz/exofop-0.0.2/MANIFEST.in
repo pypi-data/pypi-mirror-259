@@ -1,0 +1,4 @@
+include src/exofop/config/synonym_map_lc.yaml
+include src/exofop/config/style.mplstyle
+
+include src/exofop/cookies/exofop_cookies_lovelace_0.txt
