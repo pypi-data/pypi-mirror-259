@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "oxpecker"
+version = "0.0.1"
+authors = [{ name = "Oxpecker team", email = "oxpecker@example.com" }]
+description = "Oxpecker CLI."
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: Free for non-commercial use",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Security",
+]
+
+dependencies = [
+    "Click",
+    "requests",
+    "websocket-client",
+    "rel",
+    "rich-click",
+    "click-spinner",
+    "python-daemon",
+]
+
+[project.urls]
+Homepage = "https://example.com"
+
+[tool.setuptools]
+packages = ["oxpecker"]
+
+[project.scripts]
+oxpecker = "oxpecker.main:main"

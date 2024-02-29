@@ -1,0 +1,7 @@
+Click
+requests
+websocket-client
+rel
+rich-click
+click-spinner
+python-daemon
