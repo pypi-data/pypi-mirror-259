@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+sstpy/__init__.py
+sstpy/sstable.py
+sstpy/sstable_builder.py
+sstpy/sstable_partition.py
+sstpy.egg-info/PKG-INFO
+sstpy.egg-info/SOURCES.txt
+sstpy.egg-info/dependency_links.txt
+sstpy.egg-info/top_level.txt
+sstpy/lib/libsstable_internal.so
+test/test_sstable.py
+test/test_sstable_partition.py
