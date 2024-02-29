@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pro-video-ferramentas-gleison
+Version: 1.0
+Summary: Este produto é de teste para envio de módulos para o pypi.org
+Author: Gleison Silva
+Author-email: gleisondev5690@gmail.com
+Keywords: teste,Python,student
+License-File: license.txt
+
+# Pro Video Ferramentas
+
+Pacote de teste para envio de mÃ³dulos para o pypi.org
+
+Esse arquivo deve conter informaÃ§Ãµes como:
+
+- Passos para instalaÃ§Ã£o
+- Criadores
+- informaÃ§Ãµes necessÃ¡rias
+
