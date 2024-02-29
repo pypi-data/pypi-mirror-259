@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: PyRandomLoop
+Version: 0.1.0
+Summary: The package provides a simulation framework for a random loop model in statistical mechanics, including initialization, simulation, and visualization capabilities. The core of the simulation is the class `stateSpace`. Features include performance optimizations, execution logging, and statistics calculation, alongside visualization tools for detailed analysis. Ideal for researchers and students in physics and related fields.
+Author: Lorenzo Gregoris
+Author-email: lorenzo.gregoris@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11.8
