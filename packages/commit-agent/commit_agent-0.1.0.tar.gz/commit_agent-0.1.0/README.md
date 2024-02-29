@@ -1,0 +1,1 @@
+You should export OPENAI_API_KEY in your environment

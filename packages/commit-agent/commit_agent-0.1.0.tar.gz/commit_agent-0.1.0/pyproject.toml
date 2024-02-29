@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "commit-agent"
+version = "0.1.0"
+description = "A tool to automate commit messages generation."
+authors = ["Shingo Morimoto <shingo@wolfssl.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fire = "^0.5.0"
+openai = "^1.13.3"
+langchain = "^0.1.9"
+langchain-openai = "^0.0.8"
+langchain-community = "^0.0.24"
+gitpython = "^3.1.42"
+python-dotenv = "^1.0.1"
+
+
+[tool.poetry.scripts]
+gmm = 'commit_agent.main:main'
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
