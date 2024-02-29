@@ -1,0 +1,9 @@
+sc_supertree/__init__.py,sha256=kejrC_8Yt5P2r3jbChfrYumblIjQ-AGFYNZLZDuybJc,888
+sc_supertree/cli.py,sha256=Fbv4aZydgt3SkKbzSCMOIn1mICU3VjFfPdNJ5oMCQGE,1137
+sc_supertree/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sc_supertree/scs.py,sha256=lLKwDJCwhJwyfxvb1QqG34fgoYrykTCOQbYVTbemsKU,21934
+sc_supertree-2024.2.29.post1.dist-info/entry_points.txt,sha256=NypLlyeh-yew8K8jqqJ90zJwcH4oU1cwnWhDgAo-UOk,44
+sc_supertree-2024.2.29.post1.dist-info/LICENSE,sha256=KVt1wXI8C1xHUuL8zjFh-ob-SlR8KbG5DLKo_TIzZAo,1502
+sc_supertree-2024.2.29.post1.dist-info/WHEEL,sha256=jPMR_Dzkc4X4icQtmz81lnNY_kAsfog7ry7qoRvYLXw,81
+sc_supertree-2024.2.29.post1.dist-info/METADATA,sha256=smWv5JpYeHlvOggAJ0awZKYLEg4Y6Fwe0rTNkggewqY,5919
+sc_supertree-2024.2.29.post1.dist-info/RECORD,,
