@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+rapidfuzz_collections.egg-info/PKG-INFO
+rapidfuzz_collections.egg-info/SOURCES.txt
+rapidfuzz_collections.egg-info/dependency_links.txt
+rapidfuzz_collections.egg-info/requires.txt
+rapidfuzz_collections.egg-info/top_level.txt
+tests/test_normalization.py
+tests/test_rapidfuzz_dict.py
+tests/test_rapidfuzz_frozenset.py
+tests/test_rapidfuzz_list.py
+tests/test_rapidfuzz_set.py
+tests/test_rapidfuzz_tuple.py
