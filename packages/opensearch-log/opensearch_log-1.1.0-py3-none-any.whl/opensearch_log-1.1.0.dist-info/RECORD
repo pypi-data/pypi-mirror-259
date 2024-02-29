@@ -1,0 +1,12 @@
+opensearch_log/__about__.py,sha256=LGVQyDsWifdACo7qztwb8RWWHds1E7uQ-ZqD8SAjyw4,22
+opensearch_log/__init__.py,sha256=3xiapoYMMvgeg9-LtEqqaQXzBXYVcq4pyrm76bivY3U,264
+opensearch_log/base_handler.py,sha256=UhOqT18UVQMgPM4FQn6P5ROo-uw1ucmu2yDcjH0v9uk,650
+opensearch_log/cloudwatch_handler.py,sha256=0DIUQQSWB__AqgD9CJ73qEIweffX2UehTfcG7r1MIGc,5444
+opensearch_log/json_log.py,sha256=uhlDN49-Cd0QSh36Rm9WjUXUvrLd-fUZEG4oGNzYMvE,4457
+opensearch_log/opensearch_handler.py,sha256=n_He_Am5Jns_ZhD7M3FkhwOACopFRvWKooZeDQgVmFM,9664
+opensearch_log/opensearch_serializer.py,sha256=gWD38P_RY34svbRWC2lDOkJssJOZFFj5ZNysbwSR8kg,446
+opensearch_log/stdout_handler.py,sha256=v_NNrRFAt8WE-dcvZsutTVJnqv4ChWxhiWtvfuhuGF8,1261
+opensearch_log-1.1.0.dist-info/METADATA,sha256=palM2ULVX-tDrhxHdcxYJY2tSWi1_S9ea3ekJNGSYQw,3048
+opensearch_log-1.1.0.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+opensearch_log-1.1.0.dist-info/licenses/LICENSE.txt,sha256=K7Qo03GxW76XAmTtadSOf9QnLDRLpDuI5SyJMoSv_DE,1084
+opensearch_log-1.1.0.dist-info/RECORD,,
