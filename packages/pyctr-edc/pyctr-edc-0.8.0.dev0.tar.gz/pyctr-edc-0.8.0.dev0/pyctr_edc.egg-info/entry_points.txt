@@ -1,0 +1,3 @@
+[console_scripts]
+pyctrcmd = pyctr.cmd.__main__:main
+

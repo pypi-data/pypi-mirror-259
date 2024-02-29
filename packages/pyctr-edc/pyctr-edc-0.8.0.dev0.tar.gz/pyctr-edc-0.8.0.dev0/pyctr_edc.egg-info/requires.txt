@@ -1,0 +1,6 @@
+pycryptodomex<4,>=3.9
+fs<3.0.0,>=2.4.0
+pyfatfs<2,>=1.0.5
+
+[images]
+Pillow>=8.2
