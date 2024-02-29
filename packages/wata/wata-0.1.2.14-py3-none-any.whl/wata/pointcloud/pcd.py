@@ -1,0 +1,46 @@
+from wata.pointcloud.utils import utils
+from wata.pointcloud.utils import move_pcd
+
+class PointCloudProcess:
+
+    @staticmethod
+    def cut_pcd(points, pcd_range):
+        return utils.cut_pcd(points, pcd_range)
+
+    @staticmethod
+    def show_pcd(path, point_size=1, background_color=None, pcd_range=None, bin_num_features=None,create_coordinate=True, create_plane=True, type='open3d'):
+        utils.show_pcd(path, point_size, background_color, pcd_range, bin_num_features,create_coordinate, create_plane, type)
+
+    @staticmethod
+    def show_pcd_from_points(points, point_size=1, background_color=None, colors=None, create_coordinate=True, create_plane=True, type='open3d'):
+        utils.show_pcd_from_points(points, point_size, background_color, colors, create_coordinate, create_plane, type)
+
+    @staticmethod
+    def get_points(path, num_features=3):
+        return utils.get_points(path, num_features)
+
+    @staticmethod
+    def add_boxes(points, gt_boxes=None, gt_labels=None, pred_boxes=None, pred_labels=None, pred_scores=None, point_size=1, 
+              background_color=None, create_plane=True, point_colors=None, create_coordinate=True, type='open3d', savepath=None, plot_range=None):
+        utils.add_boxes(points, gt_boxes=gt_boxes, gt_labels=gt_labels, pred_boxes=pred_boxes, pred_labels=pred_labels, pred_scores=pred_scores, point_size=point_size, 
+              background_color=background_color, create_plane=create_plane, point_colors=point_colors, create_coordinate=create_coordinate, type=type,savepath=savepath, plot_range=plot_range)
+
+    @staticmethod
+    def pcd2bin(pcd_dir, bin_dir, num_features=4):
+        utils.pcd2bin(pcd_dir, bin_dir, num_features)
+
+    @staticmethod
+    def xyzrpy2RTmatrix(dx, dy, dz, roll, pitch, yaw):
+        return move_pcd.xyzrpy2RTmatrix(dx, dy, dz, roll, pitch, yaw)
+    
+    @staticmethod
+    def RTmatrix2xyzrpy(RTmatrix):
+        return move_pcd.RTmatrix2xyzrpy(RTmatrix)
+
+    @staticmethod
+    def move_pcd_with_RTmatrix(points, RTmatrix):
+        return move_pcd.move_pcd_with_RTmatrix(points, RTmatrix)
+
+    @staticmethod
+    def move_pcd_with_xyzrpy(points, dx, dy, dz, roll, pitch, yaw):
+        return move_pcd.move_pcd_with_xyzrpy(points, dx, dy, dz, roll, pitch, yaw)
