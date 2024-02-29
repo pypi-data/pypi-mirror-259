@@ -1,0 +1,15 @@
+certifi==2024.2.2
+charset-normalizer==3.3.2
+click==8.1.7
+debtcollector==3.0.0
+idna==3.6
+netaddr==1.2.1
+oslo-config==9.4.0
+oslo-i18n==6.3.0
+pbr==6.0.0
+pyyaml==6.0.1
+requests==2.31.0
+rfc3986==2.0.0
+stevedore==5.2.0
+urllib3==2.2.1
+wrapt==1.16.0
