@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: mcu-communication-tcp
+Version: 1.0.2
+Summary: Python package for MCU communication tcp mcu_protocol
+Requires-Dist: flatbuffers
+Requires-Dist: mcu-communication-protocol
+Requires-Dist: js-enhanced-logging
+Requires-Dist: twisted
+Requires-Dist: numpy
+
