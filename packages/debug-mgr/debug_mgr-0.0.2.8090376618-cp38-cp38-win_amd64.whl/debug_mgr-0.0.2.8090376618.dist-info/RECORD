@@ -1,0 +1,16 @@
+debug_mgr/__build_num__.py,sha256=_pMNNIUN4J73HRD8OXMkSX4LrXnBBDqyV7lOobr6nyU,22
+debug_mgr/__init__.py,sha256=i6lHZrV9WfzJrtfY6vW_WLdNnu-IZsMRAn5FbIy8jKc,518
+debug_mgr/core.cp38-win_amd64.pyd,sha256=lUMa6EaYAHmVDy4na363oK9_SDRpe1XbMwMhmvFSDrU,60416
+debug_mgr/debug-mgr.dll,sha256=2XTWojeLqKE2c8JJUrwfaN-eSePird6WdHK58HiHGFQ,196096
+debug_mgr/share/include/dmgr/FactoryExt.h,sha256=IoNSFDh3qinfoqKs-2-Ktrdrh8-dNzooKBSNhpdoZe0,93
+debug_mgr/share/include/dmgr/IDebug.h,sha256=xKwH0hESc8SDcXQ1_NQZf-vg-wyAK4nfMhyXK9a1p3c,518
+debug_mgr/share/include/dmgr/IDebugMgr.h,sha256=-_RmolgiEO9uwrkseTtmjqVAGHUw-vzkuGxRNxb_Law,996
+debug_mgr/share/include/dmgr/IDebugOut.h,sha256=gRPqYz3fbDUCeakA8s1Tu-yau1NafLDAVKzTHSdJy8o,1326
+debug_mgr/share/include/dmgr/IDebugOutList.h,sha256=dnp7V4rLie9DlW7_T9Z9EgslF7F00hVvKsrREwOoDH0,1042
+debug_mgr/share/include/dmgr/IFactory.h,sha256=JCQeSnXtlnbFPhbfBAAWP6xGLhHYtWLnw2Ai4pusrMw,1090
+debug_mgr/share/include/dmgr/impl/DebugMacros.h,sha256=fUfCM_PAc4HIhc1KmzOm_dzFc8-_Vu0qh9aJWJRD8ZM,878
+debug_mgr-0.0.2.8090376618.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+debug_mgr-0.0.2.8090376618.dist-info/METADATA,sha256=MHvqMEzViyh6zMJ8x5nvneL2e79Sez35CdJfOzYiuBw,386
+debug_mgr-0.0.2.8090376618.dist-info/WHEEL,sha256=3SeyPJ5-Us2Ct5GSftUVKtLSlm-bNefW4m5qd0GLzww,100
+debug_mgr-0.0.2.8090376618.dist-info/top_level.txt,sha256=4aCPJHIcuX0iZ2C4XI_MAKgxObFLaj_8gmKyysli1ns,10
+debug_mgr-0.0.2.8090376618.dist-info/RECORD,,
