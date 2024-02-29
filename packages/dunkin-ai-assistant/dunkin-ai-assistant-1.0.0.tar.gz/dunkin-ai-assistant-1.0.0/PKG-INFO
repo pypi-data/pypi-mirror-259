@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: dunkin-ai-assistant
+Version: 1.0.0
+Requires-Dist: PyPDF2
+Requires-Dist: pyttsx3
+Requires-Dist: SpeechRecognition
+Requires-Dist: nltk
+Requires-Dist: openai
+Requires-Dist: spacy
+Requires-Dist: Pillow
