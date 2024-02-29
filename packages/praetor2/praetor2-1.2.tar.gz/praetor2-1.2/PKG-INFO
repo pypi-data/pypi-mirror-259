@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: praetor2
+Version: 1.2
+Summary: Automatic Generation of Provenance from Python Scripts
+Home-page: https://gitlab.mpcdf.mpg.de/PRAETOR/prov-PRAETOR_public/
+Author: Michael Johnson
+Author-email: michael.johnson0100@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=2.7
