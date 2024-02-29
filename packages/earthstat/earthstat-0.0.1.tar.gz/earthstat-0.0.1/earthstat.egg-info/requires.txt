@@ -1,0 +1,7 @@
+numpy
+
+[all]
+earthstat[extra]
+
+[extra]
+pandas
