@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: cs_p2p
+Version: 0.1.1.2
+Summary: P2P library
+Home-page: https://github.com/enricozanardo/cs_p2p.git
+Author: Enrico Zanardo
+Author-email: enrico.zanardo101@gmail.com
+License: AGPLv3
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: loguru
+Requires-Dist: python-dotenv
+Requires-Dist: pyzmq
+
+# Chronostamp P2P library
