@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: easy_lottery_zsK
+Version: 0.0.2
+Summary: Lovely Spam! Wonderful Spam!
+Home-page: https://github.com/sklfihggczx/easy_lottery_tools
+Author: sklfihggczx
+Author-email: sklfihggczx <zsdcching1026@gmail.com>
+Maintainer-email: sklfihggczx <zsdcching1026@gmail.com>
+License: Copyright (c) 2021 The Python Packaging Authority
+         
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+         
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+         
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: Homepage, https://github.com/sklfihggczx/easy_lottery_tools
+Project-URL: Documentation, https://github.com/sklfihggczx/easy_lottery_tools/README.MD
+Project-URL: Changelog, https://github.com/sklfihggczx/easy_lottery_tools
+Project-URL: source, https://github.com/sklfihggczx/easy_lottery_tools
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: httpx
+Requires-Dist: gidgethub[httpx]>4.0.0
+Requires-Dist: django>2.1; os_name != "nt"
+Requires-Dist: django>2.0; os_name == "nt"
+
+# easy_lottery
+
+此抽奖程序只需要配置result.csv
+格式就是一行，一个人名+编号，
+
+### 控制台版本用法如下：
+
+1. 首先在洛谷下载排名信息的csv文件
+2. 在控制台（请不要用ide运行）输入：
+
+    ```sh
+    python main_cli.py
+    ```
+
+3. 首先程序会自动读取并打印成绩信息，成绩为权重，然后等待键盘输入
+
+命令介绍：
+
+- `info`：输出当前成员信息；
+- `del user_id`：手动删除成员；
+- `roll prize num`：开始抽奖，抽`num`次，默认以0.05秒的时间间隔滚动，滚动期间按下Ctrl+C停止滚动，抽下一位。每抽出一个用户会自动从抽奖列表中剔除该用户；
+- `pub`：打印获奖信息。
+
+### 图形化版本用法如下：
+
+使用 Python 3.10 及以上版本并安装 PyQt6 库，双击 `main_gui.pyw` 即可。

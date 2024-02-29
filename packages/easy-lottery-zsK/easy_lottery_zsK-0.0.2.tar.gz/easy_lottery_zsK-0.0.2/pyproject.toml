@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "easy_lottery_zsK"
+version = "0.0.2"
+dependencies = [
+  "httpx",
+  "gidgethub[httpx]>4.0.0",
+  "django>2.1; os_name != 'nt'",
+  "django>2.0; os_name == 'nt'",
+]
+requires-python = ">=3.8"
+authors = [
+  {name = "sklfihggczx", email = "zsdcching1026@gmail.com"},
+]
+maintainers = [
+  {name = "sklfihggczx", email = "zsdcching1026@gmail.com"},
+]
+description = "Lovely Spam! Wonderful Spam!"
+readme = "README.md"
+license = {file = "LICENSE"}
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Programming Language :: Python"
+]
+[project.urls]
+Homepage = "https://github.com/sklfihggczx/easy_lottery_tools"
+Documentation = "https://github.com/sklfihggczx/easy_lottery_tools/README.MD"
+Changelog = "https://github.com/sklfihggczx/easy_lottery_tools"
+source='https://github.com/sklfihggczx/easy_lottery_tools'
