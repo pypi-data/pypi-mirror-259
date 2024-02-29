@@ -1,0 +1,16 @@
+scikit-learn
+numba
+darshan
+fastdtw
+scipy
+pandas
+jsonlines
+plotly
+dash
+kneed
+PyWavelets
+trace_updater
+plotly_resampler
+msgpack
+rich
+dash_extensions
