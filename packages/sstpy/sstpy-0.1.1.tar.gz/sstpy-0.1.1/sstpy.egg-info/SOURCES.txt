@@ -1,0 +1,14 @@
+README.md
+setup.py
+core/__init__.py
+core/sstable.py
+core/sstable_builder.py
+core/sstable_partition.py
+lib/libsstable_internal.so
+sstpy.egg-info/PKG-INFO
+sstpy.egg-info/SOURCES.txt
+sstpy.egg-info/dependency_links.txt
+sstpy.egg-info/top_level.txt
+test/__init__.py
+test/test_sstable.py
+test/test_sstable_partition.py
