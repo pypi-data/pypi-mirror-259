@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: tray_manager
+Version: 0.1.4
+Summary: An "easier" version of the pystray package
+Author: Adastram (Github : Adastram1)
+Author-email: 
+Keywords: python,manager,system tray,pystray
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Requires: pystray
+Requires: typing
+Requires: types
+Requires: threading
+Requires: pillow
+Requires: enum
+License-File: LICENSE
+
+A package for adding a system tray icon, based on pystray, this package is an "easier" version of pystray to manipulate
