@@ -1,0 +1,2 @@
+[console_scripts]
+python-teacher = main:main

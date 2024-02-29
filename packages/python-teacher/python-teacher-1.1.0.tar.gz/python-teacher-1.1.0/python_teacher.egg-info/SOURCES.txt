@@ -1,0 +1,9 @@
+LICENSE
+README.md
+main.py
+setup.py
+python_teacher.egg-info/PKG-INFO
+python_teacher.egg-info/SOURCES.txt
+python_teacher.egg-info/dependency_links.txt
+python_teacher.egg-info/entry_points.txt
+python_teacher.egg-info/top_level.txt
