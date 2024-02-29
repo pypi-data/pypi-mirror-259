@@ -1,0 +1,157 @@
+Metadata-Version: 2.1
+Name: jTWA
+Version: 0.0.4
+Summary: Truncated Wigner on GPUs based on JAX.
+Project-URL: Homepage, https://github.com/RehMoritz/jTWA
+Project-URL: Issues, https://github.com/RehMoritz/jTWA/issues
+Project-URL: Documentation, https://jtwa.readthedocs.io/en/latest/?badge=latest
+Author-email: Moritz Reh <moritz.reh@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: accessible-pygments==0.0.4
+Requires-Dist: alabaster==0.7.16
+Requires-Dist: asttokens==2.4.1
+Requires-Dist: attrs==23.2.0
+Requires-Dist: babel==2.14.0
+Requires-Dist: beautifulsoup4==4.12.3
+Requires-Dist: certifi==2024.2.2
+Requires-Dist: charset-normalizer==3.3.2
+Requires-Dist: click==8.1.7
+Requires-Dist: comm==0.2.1
+Requires-Dist: contourpy==1.2.0
+Requires-Dist: cycler==0.12.1
+Requires-Dist: debugpy==1.8.1
+Requires-Dist: decorator==5.1.1
+Requires-Dist: docutils==0.20.1
+Requires-Dist: executing==2.0.1
+Requires-Dist: fastjsonschema==2.19.1
+Requires-Dist: fonttools==4.49.0
+Requires-Dist: greenlet==3.0.3
+Requires-Dist: idna==3.6
+Requires-Dist: imagesize==1.4.1
+Requires-Dist: importlib-metadata==7.0.1
+Requires-Dist: ipykernel==6.29.2
+Requires-Dist: ipython==8.22.1
+Requires-Dist: jax==0.4.24
+Requires-Dist: jaxlib==0.4.24
+Requires-Dist: jedi==0.19.1
+Requires-Dist: jinja2==3.1.3
+Requires-Dist: jsonschema-specifications==2023.12.1
+Requires-Dist: jsonschema==4.21.1
+Requires-Dist: jupyter-cache==1.0.0
+Requires-Dist: jupyter-client==8.6.0
+Requires-Dist: jupyter-core==5.7.1
+Requires-Dist: kiwisolver==1.4.5
+Requires-Dist: markdown-it-py==3.0.0
+Requires-Dist: markupsafe==2.1.5
+Requires-Dist: matplotlib-inline==0.1.6
+Requires-Dist: matplotlib==3.8.3
+Requires-Dist: mdit-py-plugins==0.4.0
+Requires-Dist: mdurl==0.1.2
+Requires-Dist: ml-dtypes==0.3.2
+Requires-Dist: myst-nb==1.0.0
+Requires-Dist: myst-parser==2.0.0
+Requires-Dist: nbclient==0.9.0
+Requires-Dist: nbformat==5.9.2
+Requires-Dist: nest-asyncio==1.6.0
+Requires-Dist: numpy==1.26.4
+Requires-Dist: opt-einsum==3.3.0
+Requires-Dist: packaging==23.2
+Requires-Dist: parso==0.8.3
+Requires-Dist: pexpect==4.9.0
+Requires-Dist: pillow==10.2.0
+Requires-Dist: platformdirs==4.2.0
+Requires-Dist: prompt-toolkit==3.0.43
+Requires-Dist: psutil==5.9.8
+Requires-Dist: ptyprocess==0.7.0
+Requires-Dist: pure-eval==0.2.2
+Requires-Dist: pydata-sphinx-theme==0.15.2
+Requires-Dist: pygments==2.17.2
+Requires-Dist: pyparsing==3.1.1
+Requires-Dist: python-dateutil==2.8.2
+Requires-Dist: pyyaml==6.0.1
+Requires-Dist: pyzmq==25.1.2
+Requires-Dist: referencing==0.33.0
+Requires-Dist: requests==2.31.0
+Requires-Dist: rpds-py==0.18.0
+Requires-Dist: scipy==1.12.0
+Requires-Dist: six==1.16.0
+Requires-Dist: snowballstemmer==2.2.0
+Requires-Dist: soupsieve==2.5
+Requires-Dist: sphinx-book-theme==1.1.2
+Requires-Dist: sphinx==7.2.6
+Requires-Dist: sphinxcontrib-applehelp==1.0.8
+Requires-Dist: sphinxcontrib-devhelp==1.0.6
+Requires-Dist: sphinxcontrib-htmlhelp==2.0.5
+Requires-Dist: sphinxcontrib-jsmath==1.0.1
+Requires-Dist: sphinxcontrib-qthelp==1.0.7
+Requires-Dist: sphinxcontrib-serializinghtml==1.1.10
+Requires-Dist: sqlalchemy==2.0.27
+Requires-Dist: stack-data==0.6.3
+Requires-Dist: tabulate==0.9.0
+Requires-Dist: tornado==6.4
+Requires-Dist: traitlets==5.14.1
+Requires-Dist: typing-extensions==4.9.0
+Requires-Dist: urllib3==2.2.1
+Requires-Dist: wcwidth==0.2.13
+Requires-Dist: zipp==3.17.0
+Description-Content-Type: text/markdown
+
+# jTWA
+[![Documentation Status](https://readthedocs.org/projects/jtwa/badge/?version=latest)](https://jtwa.readthedocs.io/en/latest/?badge=latest) [![codecov](https://codecov.io/github/RehMoritz/jTWA/graph/badge.svg?token=TY92JAI1V9)](https://codecov.io/github/RehMoritz/jTWA)
+
+jTWA implements the semiclassical [Truncated Wigner Approximation (TWA)](https://www.sciencedirect.com/science/article/pii/S0003491610000382?via%3Dihub) in python, relying on Google's jax library.
+This allows to write easily understandable python code without compromising on speed, as all calculations are compiled and executed on GPUs, if available.
+
+jTWA is designed to work with bosonic systems with potentially different numbers of internal degrees of freedom.
+However, basic functionalities for spin-1 systems are already available in ``jTWA.spin1``.
+
+## Documentation & Installation
+All code is documented on [readthedocs](https://jtwa.readthedocs.io/en/latest/#).
+Working with jTWA is designed to be straightforward. For the installation procedure, have a look at the [corresponding section](https://jtwa.readthedocs.io/en/latest/docs/install.html) in the documentation.
+
+## Getting Started: A Minimal Example
+A minimal working example of the codebase can be found in the [``main.py``](https://github.com/RehMoritz/jTWA/blob/main/main.py) located in the root of the directory.
+To execute, run `python main.py config.json` as described in the [quickstart section](https://jtwa.readthedocs.io/en/latest/docs/quickstart.html) of the documentation.
+To demonstrate the elementary features, here are the contents of the [``main.py``](https://github.com/RehMoritz/jTWA/blob/main/main.py):
+
+```python
+import jax
+import sys
+import json
+import matplotlib.pyplot as plt
+
+jax.config.update("jax_enable_x64", True)
+
+import jTWA
+
+
+if __name__ == "__main__":
+    configuration_file = sys.argv[1]
+
+    with open(configuration_file) as f:
+        cfg = json.load(f)
+
+    spin_operators = jTWA.spin1.observables.get_spin_operators(cfg)
+    samples = jTWA.spin1.initState.getPolarState(cfg)
+
+    cfg = jTWA.spin1.hamiltonian.update_cfg(cfg)
+    hamiltonian = jTWA.spin1.hamiltonian.hamiltonian
+
+    obs = jTWA.integrate.obtain_evolution(samples, hamiltonian, spin_operators, cfg)
+    jTWA.util.write_data(obs, cfg)
+
+    obs = jTWA.util.read_data(cfg)
+    jTWA.visualization.create_visuals(obs, cfg)
+    plt.show()
+```
+
+## Issues & Requests
+
+If you encounter any issues, please open an [issue](https://github.com/RehMoritz/jTWA/issues) or submit a [pull request](https://github.com/RehMoritz/jTWA/pulls).
+
+## License
+
+[Apache License 2.0](https://github.com/RehMoritz/jTWA/blob/main/LICENSE)
