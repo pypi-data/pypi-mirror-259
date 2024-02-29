@@ -1,0 +1,14 @@
+README.md
+setup.py
+factura_com/__init__.py
+factura_com/api/__init__.py
+factura_com/api/cfdi_requests.py
+factura_com/api/client.py
+factura_com/api/endpoints.py
+factura_com_cfdi.egg-info/PKG-INFO
+factura_com_cfdi.egg-info/SOURCES.txt
+factura_com_cfdi.egg-info/dependency_links.txt
+factura_com_cfdi.egg-info/requires.txt
+factura_com_cfdi.egg-info/top_level.txt
+tests/__init__.py
+tests/tests_main.py
