@@ -1,0 +1,12 @@
+cmds/__init__.py,sha256=kJ8vTX2lFv0ElDADIjkUrFkccqL_BEJ2WkNS_LgxTm8,213
+cmds/server.py,sha256=axdHJihnwYbivjC_4fKhil_ygQlKJEK7l2puRH7gpDI,14810
+conf/__init__.py,sha256=dMY69iM7H6dcZ2vdMQPwXqcS9TY9DRxgkE5sQ_-7ED0,104
+conf/main.py,sha256=sB9QoH2-a2Fzhz2oD8bvtQoe8hxWhLAaV8u9WrnLWgA,462
+conf/opts.py,sha256=jYeVhVWCxMLmV2dX0nJUBRGQy-RO3ZfMiXq5Of5WiUU,2705
+aprsd_irc_extension-0.0.1.dist-info/LICENSE,sha256=CeipvOyAZxBGUsFoaFqwkx54aPnIKEtm9a5u2uXxEws,10142
+aprsd_irc_extension-0.0.1.dist-info/METADATA,sha256=Qni3fM00tITGUPtfV2Vp1ezQ6bwQgUdWKuuv7dRS2gk,1383
+aprsd_irc_extension-0.0.1.dist-info/WHEEL,sha256=-G_t0oGuE7UD0DrSpVZnq1hHMBV9DD2XkS5v7XpmTnk,110
+aprsd_irc_extension-0.0.1.dist-info/entry_points.txt,sha256=-hDmYn1F9vmpLNIR8ATMxumtpJeDFAoNos0pfESAnJc,141
+aprsd_irc_extension-0.0.1.dist-info/pbr.json,sha256=9IGJyEEKElTEZiPJINkCu27QtbEcfUQArnw0ty4J8q8,46
+aprsd_irc_extension-0.0.1.dist-info/top_level.txt,sha256=xZi_UD1VEZu8ES40OJkGVOb-IR_7kjFzn6dpr4ZsoTo,10
+aprsd_irc_extension-0.0.1.dist-info/RECORD,,
