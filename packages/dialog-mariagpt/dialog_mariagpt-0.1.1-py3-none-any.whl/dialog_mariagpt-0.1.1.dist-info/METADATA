@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: dialog-mariagpt
+Version: 0.1.1
+Summary: 
+Author: Walison Filipe
+Author-email: walisonfilipe@hotmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: fastapi (>=0.109,<1.0)
+Requires-Dist: pydantic (>=2.6.2,<3.0.0)
+Description-Content-Type: text/markdown
+
+

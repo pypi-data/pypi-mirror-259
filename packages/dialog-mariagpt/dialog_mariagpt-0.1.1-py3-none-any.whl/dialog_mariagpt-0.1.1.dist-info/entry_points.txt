@@ -1,0 +1,3 @@
+[dialog]
+mariagpt=dialog_mariagpt.plugin
+
