@@ -1,0 +1,10 @@
+odoo/addons/login_user_detail/__init__.py,sha256=NsOzuzj5Gs_tCBXsmtvobzW7xBpTA2quJgrMsrl61MU,956
+odoo/addons/login_user_detail/__manifest__.py,sha256=8nDbOS8H1wDbY-r5WyX2r3bg3nGdw2ojpPmXIBBA7SI,1534
+odoo/addons/login_user_detail/models/__init__.py,sha256=k-WfxGYpA5s4yReCTLuxaRivxC3qBiAh6yDUbm65FJU,968
+odoo/addons/login_user_detail/models/login_user_details.py,sha256=uYonvG-GsBcA74gFtfI-Odk43p1VF_gjUAGOVx0YksU,1862
+odoo/addons/login_user_detail/security/ir.model.access.csv,sha256=Fjad8iK2sazZTqocFom1dTN6pLMas6pjuUhjAo7ncTs,161
+odoo/addons/login_user_detail/views/login_user_views.xml,sha256=U939OAruOV2wYoE04iqieQ9S7AcY7ZAdukSsaT9rmvE,1497
+odoo12_addon_login_user_detail-12.0.1.0.3.dist-info/METADATA,sha256=-zOqCg28em4g3eclP9QHIrk5W6alvdxySzfbDc1DXjQ,1027
+odoo12_addon_login_user_detail-12.0.1.0.3.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+odoo12_addon_login_user_detail-12.0.1.0.3.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_login_user_detail-12.0.1.0.3.dist-info/RECORD,,
