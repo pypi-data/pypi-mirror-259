@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: xlsz
+Version: 0.0.1
+License-File: LICENSE
+Summary: xlsx file reader/writer
+Author-email: zztkm <zztkm@tsurutatakumi.info>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# xlsz
+
+xlsx reader/writer for Python & Rust.
