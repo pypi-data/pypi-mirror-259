@@ -1,0 +1,9 @@
+django_migralign/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_migralign/apps.py,sha256=B-JsUKJGO4_hlmB6aLDMKUjWQUwGZKdR5MEnEFxaqjA,96
+django_migralign/management/commands/helper.py,sha256=jslWBShUnF-BBX2U6u4q0wrw4mo7-ExZRWUK-C81Mh0,10430
+django_migralign/management/commands/migralign.py,sha256=9xFv9hdo1Md-c_Ndp-_buRID-M2q8LW4P7HTWX8WSQo,2117
+django_migralign-1.0.0.dist-info/LICENSE,sha256=0HCy4GyzQx4V4BkSJ0yuwpPzcjzM17P8R7QLZE8lyBo,1089
+django_migralign-1.0.0.dist-info/METADATA,sha256=bvjKGvlpc3B-6fCP4uqIBQj1UhVyS-KI4KAVPWQNOM4,5562
+django_migralign-1.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+django_migralign-1.0.0.dist-info/top_level.txt,sha256=cF9a-8lzugt8GQp-z7mggP4KylXXtPs39tRq5e0mlHg,17
+django_migralign-1.0.0.dist-info/RECORD,,
