@@ -1,0 +1,33 @@
+[project]
+name = "paddlespeechserver"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    { name = "lili", email = "fancyerii@gmail.com" },
+]
+dependencies = [
+    "paddlepaddle-gpu==2.4.2.post117",
+    "pytest-runner>=6.0.1",
+    "setuptools>=69.1.1",
+    "paddlespeech>=1.4.1",
+    "numpy<=1.23.5",
+]
+requires-python = ">=3.9"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
+
+[[tool.pdm.source]]
+type = "find_links"
+url = "https://www.paddlepaddle.org.cn/whl/linux/mkl/avx/stable.html"
+name = "paddlepaddle"

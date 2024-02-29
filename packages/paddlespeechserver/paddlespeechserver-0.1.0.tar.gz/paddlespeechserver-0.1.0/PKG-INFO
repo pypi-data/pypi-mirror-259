@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: paddlespeechserver
+Version: 0.1.0
+Summary: Default template for PDM package
+Author-Email: lili <fancyerii@gmail.com>
+License: MIT
+Requires-Python: >=3.9
+Requires-Dist: paddlepaddle-gpu==2.4.2.post117
+Requires-Dist: pytest-runner>=6.0.1
+Requires-Dist: setuptools>=69.1.1
+Requires-Dist: paddlespeech>=1.4.1
+Requires-Dist: numpy<=1.23.5
+Description-Content-Type: text/markdown
+
+# paddlespeechserver
