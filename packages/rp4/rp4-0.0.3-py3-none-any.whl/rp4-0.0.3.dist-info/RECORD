@@ -1,0 +1,14 @@
+rp4/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rp4/__main__.py,sha256=kfBSzgSEDyRmX2EQOxAqqb-sJ7-GzBUyjHTsnQ8kdrw,64
+rp4/cli.py,sha256=xuITExRRvIkPlrh_4KWGbrC93nKmYNdoiB9An1i4QHM,2590
+rp4/client.py,sha256=cOiac0-i6J14wd5QYavvAAD8KKud0FX0NYneO7zAK8w,7879
+rp4/desktop_shortcut.py,sha256=AmMK8COzDcZf8lklx3gXQIFUMxjLhJrNq3HuZZnc7Mk,711
+rp4/gui.py,sha256=JA9PXIOEM41IaNqieglI4oVszRuAizzdd2dTpdxNpYY,20897
+rp4/defaults/global_settings.json,sha256=JLX0PjzuFaAb-DC9frP4SaGIxP_4lAFhpfIJPHx1N40,282
+rp4/defaults/preset_settings.json,sha256=dMrdoL85s1DtIDpR0iDxuWj3XZCvwJxomftWozDvVro,579
+rp4-0.0.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+rp4-0.0.3.dist-info/METADATA,sha256=BpwlIrHMXMudFaKQlG-1T3fjjSd5DbhUmgG2cBycJ1U,1501
+rp4-0.0.3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+rp4-0.0.3.dist-info/entry_points.txt,sha256=E8Z1JRq0j9WpP_3Ucc5dKEMSXo9laHfIw4QyJBiTjgI,42
+rp4-0.0.3.dist-info/top_level.txt,sha256=DFzRzPS1_EeoTIc923g6SNPNQFJYPMKTsmAUYdOoKGI,4
+rp4-0.0.3.dist-info/RECORD,,
