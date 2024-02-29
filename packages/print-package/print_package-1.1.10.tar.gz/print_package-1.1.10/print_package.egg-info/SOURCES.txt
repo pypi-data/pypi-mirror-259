@@ -1,0 +1,12 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.md
+publish.txt
+setup.py
+print_package/__init__.py
+print_package/print_package.py
+print_package.egg-info/PKG-INFO
+print_package.egg-info/SOURCES.txt
+print_package.egg-info/dependency_links.txt
+print_package.egg-info/top_level.txt

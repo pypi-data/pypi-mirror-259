@@ -1,0 +1,8 @@
+python setup.py sdist
+
+
+python -m twine upload --repository-url https://upload.pypi.org/legacy/ dist/*
+
+new : python
+
+python : pypi-AgEIcHlwaS5vcmcCJDk0YjlhMTZiLThiYWUtNDE3Zi04YjdkLWY5NjYwYjQzMjQyMQACKlszLCJkYzUwMGI1NS1kNGI1LTQ0YWMtYjY4MC1mOTEzZWM5MzZhYjQiXQAABiDl41-YHOiP97ru95Z8HOA5VQCWizYc5z2uwgHJdze_uA
