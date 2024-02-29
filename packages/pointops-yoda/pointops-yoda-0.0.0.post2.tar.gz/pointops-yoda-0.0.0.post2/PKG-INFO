@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: pointops-yoda
+Version: 0.0.0.post2
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: torch
