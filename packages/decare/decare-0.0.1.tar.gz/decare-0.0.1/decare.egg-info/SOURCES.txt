@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+decare.egg-info/PKG-INFO
+decare.egg-info/SOURCES.txt
+decare.egg-info/dependency_links.txt
+decare.egg-info/requires.txt
+decare.egg-info/top_level.txt
+descartes/__init__.py
+descartes/descartes.py
+descartes/utils.py
