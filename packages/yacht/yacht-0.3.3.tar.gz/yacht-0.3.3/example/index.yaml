@@ -1,0 +1,53 @@
+# this is the generic welcome page for yacht.sail
+html:
+  - head:
+      - title: Welcome aboard!
+      - meta:
+        content: text/html;charset=utf-8
+        http-equiv: Content-Type
+      - meta:
+        content: utf-8
+        http-equiv: encoding
+      - style: style.yass
+  - body:
+      - script: anchors.js
+      - tug: nameCard.yaml
+        name: Test
+        surname: Testy
+        bg: darkblue
+        fg: lime
+      - tug: nameCard.yaml
+        name: Ksiądz
+        surname: Robak
+        bg: white
+        fg: black
+      - div:
+        - tug: nameCard.yaml
+          name: Jacek
+          surname: Soplica
+          fg: orange
+          bg: maroon
+      - a:
+          - b: clickme!
+            class: gradient
+            anchors:
+            # this has to be fixed, we don't want anchor names to be shared between modules
+              - bind: example/printer
+                trigger: onclick
+                target: innerText
+                arguments:
+                  format: 'Today is %d-%m-%y'
+          - b: 'yacht⛵'
+            id: title
+            class: gradient
+          - i: "..."
+            id: subtitle
+            class: gradient
+            anchors:
+                - bind: example/splash
+                  trigger: once
+                  target: innerHTML
+            
+        class: centered
+        id: title-bg
+        # href: https://github.com/Pobulus/yacht
