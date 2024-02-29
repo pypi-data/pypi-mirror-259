@@ -1,0 +1,1 @@
+python -m twine upload -u __token__ -p pypi-AgEIcHlwaS5vcmcCJDM1ZDQ0MmJmLTRmOGItNDVhOS04YTM3LWM2YWViZDBlNTNjNAACKlszLCJkYzUwMGI1NS1kNGI1LTQ0YWMtYjY4MC1mOTEzZWM5MzZhYjQiXQAABiCPgVn0pzOtV2JpnrjrlRyYattvMCGoUqGtkVO5bf3pLQ --repository-url https://test.pypi.org/legacy/ dist/*
