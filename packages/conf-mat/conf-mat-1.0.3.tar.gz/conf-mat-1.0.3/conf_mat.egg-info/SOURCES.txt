@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+conf_mat/__init__.py
+conf_mat/conf_mat.py
+conf_mat.egg-info/PKG-INFO
+conf_mat.egg-info/SOURCES.txt
+conf_mat.egg-info/dependency_links.txt
+conf_mat.egg-info/requires.txt
+conf_mat.egg-info/top_level.txt
+images/heatmap1.png
+images/heatmap2.png
+images/heatmap3.png
+images/heatmap4.png
+images/heatmap5.png
+images/heatmap6.png
