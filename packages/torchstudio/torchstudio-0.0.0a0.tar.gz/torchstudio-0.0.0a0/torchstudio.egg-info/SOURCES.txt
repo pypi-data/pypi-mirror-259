@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+torchstudio/__init__.py
+torchstudio.egg-info/PKG-INFO
+torchstudio.egg-info/SOURCES.txt
+torchstudio.egg-info/dependency_links.txt
+torchstudio.egg-info/top_level.txt
+torchstudio/dataset/__init__.py
+torchstudio/dataset/mnist.py
+torchstudio/dataset/swiss_roll.py
