@@ -1,0 +1,3 @@
+[console_scripts]
+gmm=commit_agent.main:main
+

@@ -1,0 +1,9 @@
+commit_agent/__init__ copy.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+commit_agent/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+commit_agent/git_utils/__init__.py,sha256=pMqNaMqgm148pMg3L_yXuFukdy6WeGzl-0XDqPwS6XA,100
+commit_agent/git_utils/git_local.py,sha256=p-zGy6IP56VP-0UDO2tu_iKjzOVf_FITMyuNkrJE0FY,2293
+commit_agent/main.py,sha256=NU34STB_0FqZ7h1hqbNz_EwrP3Cmpkg6rHK8TQU8wb0,3382
+commit_agent-0.1.0.dist-info/METADATA,sha256=dI1hYscWvERcyEFvE7pFuGJ7yQ9NlQse4YoiXCqAA60,753
+commit_agent-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+commit_agent-0.1.0.dist-info/entry_points.txt,sha256=5wxuJN1r6c8T-KhTFrsxBpDD6wmzaSuDAq2M-7Sshzg,46
+commit_agent-0.1.0.dist-info/RECORD,,
