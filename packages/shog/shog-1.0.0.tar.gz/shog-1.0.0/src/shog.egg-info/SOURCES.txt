@@ -1,0 +1,8 @@
+LICENSE.txt
+README.txt
+pyproject.toml
+setup.cfg
+src/shog.egg-info/PKG-INFO
+src/shog.egg-info/SOURCES.txt
+src/shog.egg-info/dependency_links.txt
+src/shog.egg-info/top_level.txt
