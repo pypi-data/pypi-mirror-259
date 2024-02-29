@@ -1,0 +1,36 @@
+from setuptools import setup, find_packages
+
+setup(
+    name='autopipeline',
+    version='0.1.207',
+    packages=find_packages(),
+    package_data={
+        # Include files from the "data" directory in the "autopipeline" package
+        'autopipeline': ['data/*'],
+    },
+    include_package_data=True,
+    license='LICENSE',
+    install_requires=[
+        'tiktoken',
+        'IPython',
+        'graphviz',
+        'openai==0.28',
+        'pandas',
+        'PyMuPDF',
+        'pytesseract',
+        'textstat',
+        'Pillow',
+        'gensim',
+        'nltk',
+        'flair',
+        'textblob',
+        'scikit-learn',
+        'pandasql',
+        'spacy'
+    ],
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ],
+)
