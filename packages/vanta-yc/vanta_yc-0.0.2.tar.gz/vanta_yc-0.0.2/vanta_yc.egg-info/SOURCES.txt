@@ -1,0 +1,9 @@
+README.md
+setup.py
+libname/__init__.py
+libname/converter.py
+vanta_yc.egg-info/PKG-INFO
+vanta_yc.egg-info/SOURCES.txt
+vanta_yc.egg-info/dependency_links.txt
+vanta_yc.egg-info/requires.txt
+vanta_yc.egg-info/top_level.txt
