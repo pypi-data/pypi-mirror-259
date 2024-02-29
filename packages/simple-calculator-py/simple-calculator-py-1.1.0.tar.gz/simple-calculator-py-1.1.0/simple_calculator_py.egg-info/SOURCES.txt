@@ -1,0 +1,13 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.md
+setup.py
+simple-calculator-py/__init__.py
+simple-calculator-py/calculator.py
+simple_calculator_py.egg-info/PKG-INFO
+simple_calculator_py.egg-info/SOURCES.txt
+simple_calculator_py.egg-info/dependency_links.txt
+simple_calculator_py.egg-info/top_level.txt
+test/main.py
+test/new.txt
