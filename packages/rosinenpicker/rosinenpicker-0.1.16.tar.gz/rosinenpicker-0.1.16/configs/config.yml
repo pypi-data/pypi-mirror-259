@@ -1,0 +1,56 @@
+# Configuration file
+
+# Title: contains information that helps you identify the search
+title: 'My document search'
+
+# Strategies: this section contains parameters that guide the processing of the files
+strategies:
+  # List your strategies here. Multiple strategies are allowed. Name your strategies as you wish!
+  my_strategy_01: 
+    # processed_directory: the folder where to be processed files are looked for and hopefully found
+    processed_directory: '/path/to/your_directory'
+    # file_selection_pattern: a regex pattern selecting the files to be processed
+    file_name_pattern: 'regex_pattern_identifying_your_file in /path/to/your_directory'
+    # file_format
+    # currently only 'pdf', 'docx', and 'txt' are supported
+    file_format: 'pdf'
+    # terms
+    terms:
+      # Choose names for the terms and associate each with a regex pattern or, alternatively,
+      # two regex patterns surrounding '@@@', which serves as a divider.
+      # In the former case (i.e. only one regex pattern, no divider) matches to the regex are returned.
+      # In the latter case (i.e. divider present) the one or two regex patterns are converted
+      # to groups surrounding a central "match-all" (.*) pattern. Only matches to the "match-all"-group
+      # are returned.
+      # Further options can be appended after the string '===' (three equal signs)
+      #   m   multiline           should pattern matching be performed over multiple lines? (default=off)
+      #   l   linebreak to space  in case of m: should line breaks be converted to space? (default=off)
+      #   c   crop to length      should length be cropped? (default=off)
+      #   ?   optional term       is the term optional? (default=off, e.g. term is required)
+      # The further options are given thus: e.g. "regex1@@@regex2===mlc(100)?" would mean 
+      #   - multiline: yes,
+      #   - linebreak to space: yes
+      #   - crop to 100 characters
+      #   - term is optional (i.e. not required, thus will be ignored if 'move_to_directory' is set)
+      my_first_term: 'regex1'
+      my_second_term: 'regex2@@@regex3'
+      my_third_term: '@@@regex'
+      my_fourth_term: 'regex@@@'
+    # export format
+    # currently, the following formats are supported: csv, xlsx, html, json
+    export_format: 'xlsx'
+    # export path
+    export_path: '/path/to/your/file.xlsx'
+    # 
+    # O P T I O N A L   K E Y S
+    #
+    # # optional, for csv, set export_csv_divider (defaults to ;)
+    # export_csv_divider: ';'
+    #
+    # # optional: if all *required terms* are found, optionally move to specified directory
+    # move_to_directory: '/path/to/another_directory'
+    #
+    # # optional: file_content_pattern - a regex pattern that has to return a match in the file contents
+    # # this can be used to further restrict the selection of processed files 
+    # file_content_pattern: '.*'
+    #
