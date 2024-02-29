@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en" id="htmldoc" data-bs-theme="dark">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>{% block title %}Flask App{% endblock %}</title>
+        <link
+            href="{{ url_for('custom_static', filename='css/bootstrap.min.css') }}"
+            rel="stylesheet"
+        />
+        <link
+            href="{{ url_for('custom_static', filename='font/bootstrap-icons.css') }}"
+            rel="stylesheet"
+        />
+        <script src="{{ url_for('custom_static', filename='js/bootstrap.min.js') }}"></script>
+        <script src="{{ url_for('custom_static', filename='js/jquery-3.7.1.min.js') }}"></script>
+        <style>
+            html {
+                overflow: hidden;
+            }
+        </style>
+    </head>
+    <body class="mt-0 d-flex flex-column">
+        <div class="container-fluid row pt-3 mb-1">
+            <div class="container-fluid col text-center">
+                <h6>RCON</h6>
+            </div>
+        </div>
+        <!-- Connection Form -->
+        <form id="rconForm" action="/connect" method="post">
+            <div class="row align-items-end">
+                <div class="col">
+                    <input
+                        type="text"
+                        class="form-control"
+                        id="rconIPInput"
+                        name="ip"
+                        placeholder="Server IP | Domain"
+                    />
+                </div>
+                <div class="col">
+                    <input
+                        type="text"
+                        class="form-control"
+                        id="rconPortInput"
+                        name="port"
+                        placeholder="Server Port"
+                    />
+                </div>
+                <div class="col">
+                    <input
+                        type="password"
+                        class="form-control"
+                        id="rconPasswordInput"
+                        name="password"
+                        placeholder="Password"
+                    />
+                </div>
+                <div class="col-auto">
+                    <button
+                        type="submit"
+                        class="btn btn-success"
+                        id="rconConnectBtn"
+                    >
+                        Connect
+                    </button>
+                </div>
+            </div>
+        </form>
+        <!-- Players Connected Section -->
+        <div class="container-fluid mt-3 border rounded">
+            <div class="container-fluid border-bottom">
+                <div class="row font-weight-bold text-center">
+                    <div class="col">Player Name</div>
+                    <div class="col">UID</div>
+                    <div class="col">SteamID</div>
+                    <div class="col">Actions</div>
+                </div>
+            </div>
+            <div
+                id="playersList"
+                class="container-fluid mt-1"
+                style="min-height: 250px; max-height: 250px; overflow-y: auto"
+            >
+                <!-- Player entries will be appended here -->
+            </div>
+        </div>
+        <!-- Broadcast Message Form -->
+        <form id="broadcastForm" action="/broadcast" method="post">
+            <div class="row mt-2 mb-2">
+                <div class="col">
+                    <input
+                        type="text"
+                        class="form-control"
+                        id="broadcastMessageInput"
+                        placeholder="Broadcast Message - Please Connect First!"
+                    />
+                </div>
+                <div class="col-auto">
+                    <button
+                        type="submit"
+                        id="broadcastBtn"
+                        class="btn btn-primary"
+                    >
+                        Send
+                    </button>
+                </div>
+            </div>
+        </form>
+        <!-- Save and Shutdown -->
+        <div class="container-fluid mt-2 ms-0 me-0 ps-0 pe-0">
+            <div class="row ms-0 me-0 ps-0 pe-0">
+                <div
+                    class="col d-flex justify-content-between ms-0 me-0 ps-0 pe-0"
+                >
+                    <!-- This wraps the uninstall button -->
+                    <div
+                        class="d-flex align-items-center p-2 ms-0 me-0 ps-0 pe-0"
+                    >
+                        <button
+                            type="button"
+                            class="btn btn-success"
+                            id="saveBtn"
+                            disabled
+                        >
+                            Save
+                        </button>
+                    </div>
+                    <!-- This wraps the installation button and checkboxes -->
+                    <div
+                        class="col-10 d-flex ms-0 me-0 ps-0 pe-0 text-end justify-content-end align-items-center"
+                    >
+                        <div class="p-2 col-8">
+                            <div class="input-group">
+                                <span class="input-group-text" id="messageName"
+                                    >Message:</span
+                                >
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="Shutdown Broadcast Message"
+                                    aria-label="messageName"
+                                    aria-describedby="shutdownMessageInput"
+                                    id="shutdownMessageInput"
+                                    disabled
+                                />
+                            </div>
+                        </div>
+                        <div class="p-2 col-3">
+                            <div class="input-group align-items-end">
+                                <span class="input-group-text" id="delayLabel"
+                                    >Delay (s):</span
+                                >
+                                <input
+                                    type="text"
+                                    class="form-control"
+                                    placeholder="30"
+                                    aria-label="delayLabel"
+                                    aria-describedby="shutdownDelayInput"
+                                    id="shutdownDelayInput"
+                                    disabled
+                                />
+                            </div>
+                        </div>
+                        <div class="p-2 me-0 pe-0">
+                            <div class="col-1 text-end">
+                                <button
+                                    type="button"
+                                    class="btn btn-danger text-end"
+                                    id="shutdownBtn"
+                                    disabled
+                                >
+                                    Shutdown
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

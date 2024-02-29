@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" id="htmldoc" data-bs-theme="dark">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>
+            {% block title %}Palworld ADMIN - Remote Login{% endblock %}
+        </title>
+        <link
+            href="{{ url_for('custom_static', filename='css/bootstrap.min.css') }}"
+            rel="stylesheet"
+        />
+        <link
+            href="{{ url_for('custom_static', filename='font/bootstrap-icons.css') }}"
+            rel="stylesheet"
+        />
+        <script src="{{ url_for('custom_static', filename='js/bootstrap.min.js') }}"></script>
+        <script src="{{ url_for('custom_static', filename='js/jquery-3.7.1.min.js') }}"></script>
+        <style>
+            html {
+                overflow: hidden;
+            }
+        </style>
+    </head>
+    <body class="d-flex flex-column">
+        <div
+            class="d-flex justify-content-center align-items-center"
+            style="min-height: 100vh"
+        >
+            <!-- Adjusted for vertical centering -->
+            <div class="card" style="width: 18rem">
+                <div class="card-body">
+                    {% with messages = get_flashed_messages() %} {% if messages
+                    %}
+                    <ul class="list-unstyled">
+                        {% for message in messages %}
+                        <li>{{ message }}</li>
+                        {% endfor %}
+                    </ul>
+                    {% endif %} {% endwith %}
+                    <form method="post" class="text-center">
+                        <div class="mb-3">
+                            <label for="password" class="form-label"
+                                >Management Password:</label
+                            >
+                            <input
+                                type="password"
+                                class="form-control"
+                                name="password"
+                                id="password"
+                                placeholder="Password"
+                            />
+                        </div>
+                        <div class="d-grid gap-2">
+                            <input
+                                type="submit"
+                                class="btn btn-primary"
+                                value="Login"
+                            />
+                        </div>
+                        <small class="text-muted"
+                            >This is the password used in the command line to
+                            launch Palworld ADMIN.</small
+                        >
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
