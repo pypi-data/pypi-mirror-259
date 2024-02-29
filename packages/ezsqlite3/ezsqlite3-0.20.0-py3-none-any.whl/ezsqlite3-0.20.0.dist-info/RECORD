@@ -1,0 +1,13 @@
+ezsqlite3/__init__.py,sha256=12MNfV0AWz1TsZaR7TZa5CeOXpx8G1FIFIClcUvv70w,915
+ezsqlite3/__version__.py,sha256=KGk5txKOPsQhWcr4Utzd-tP_4qCT-YngqFtTXx7wAHY,22
+ezsqlite3/context.py,sha256=6a-t2N7o7EpAx88CNr1rO0dsZpt_G6zuxDFZMkJQ0iE,1339
+ezsqlite3/core.py,sha256=oaiYVZG7wfTQsMIOhjWZZ5WPiOvq1xbV4t0cePab0GQ,12601
+ezsqlite3/cursor.py,sha256=lznjrGTUmrsLJnJm_yGgGgq1aeu4_uKZqk-4bgBbxkk,3911
+ezsqlite3/tests/__init__.py,sha256=dgtnwZKpIypkISfBGK8G5ZzNIgkRUZEvA8-Bhs9oH3E,28
+ezsqlite3/tests/__main__.py,sha256=p3ilmtD9qQ8M0g76K8EnXL_WwfnQPfDW4Mp-JAGf2fw,103
+ezsqlite3/tests/helpers.py,sha256=3LITOddgCOu-l5AyzOly92vK7uCalBEqHyTO3rbqhzk,709
+ezsqlite3/tests/smoke.py,sha256=mwrU9fm7wQjpjOcmJ3Kij34c7Ob4ySq7-PtRHxutg5I,16963
+ezsqlite3-0.20.0.dist-info/LICENSE,sha256=Udpn-0ET_s6p9e-_Ljh-j7TBHlDNpzl_FV9z8cxLTF0,1081
+ezsqlite3-0.20.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+ezsqlite3-0.20.0.dist-info/METADATA,sha256=lNiGTE7oKiaQtZSsAtOpQdmaOO3cDdk3BOHEb7bsrFg,3712
+ezsqlite3-0.20.0.dist-info/RECORD,,
