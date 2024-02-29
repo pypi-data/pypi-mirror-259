@@ -1,0 +1,7 @@
+brotli
+humanize
+loguru
+pypinyin
+pysmb
+websockets
+zstandard
