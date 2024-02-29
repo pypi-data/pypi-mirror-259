@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+xspy/__init__.py
+xspy.egg-info/PKG-INFO
+xspy.egg-info/SOURCES.txt
+xspy.egg-info/dependency_links.txt
+xspy.egg-info/top_level.txt
