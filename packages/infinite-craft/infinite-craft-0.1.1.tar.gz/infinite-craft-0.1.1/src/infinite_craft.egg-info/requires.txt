@@ -1,0 +1,11 @@
+aiohttp
+
+[dev]
+setuptools
+bumpver
+pip-tools
+build
+twine
+
+[windows]
+pyreadline3

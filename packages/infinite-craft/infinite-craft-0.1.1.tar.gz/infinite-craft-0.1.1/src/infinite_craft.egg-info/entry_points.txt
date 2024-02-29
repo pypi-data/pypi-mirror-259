@@ -1,0 +1,3 @@
+[console_scripts]
+infinite-craft = infinitecraft.__main__:parse
+infinitecraft = infinitecraft.__main__:parse
