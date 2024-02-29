@@ -1,0 +1,9 @@
+alogging/__init__.py,sha256=H4WzaT3aZP8GrB2wfhZoJt5_3hPsDB2FUmfak64Do1s,510
+alogging/backend.py,sha256=dg_QpcoKgwCHJ80jFtEq7p8CTRQmN4UQTFccd2Qp554,2371
+alogging/handlers.py,sha256=15mNZtaPZXw5QsgkxXIp3z95vsm0DpaxrjO-6FGbm_w,3076
+alogging/helpers.py,sha256=Avi2bZEZZ5r9zc3Q2gbxFygpGiUZTTykL4e-DVYpVIk,576
+alogging/logger.py,sha256=s_MlbAjBiRu7VBJlUdoah7KdmuC43lP1C64n5su9268,5965
+py_extensions_alogging-0.1.0.dist-info/METADATA,sha256=zTr8Yu6ba-wpk0nm2_K2ohabMbYLxJ-NbwB-wSF_05I,3042
+py_extensions_alogging-0.1.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+py_extensions_alogging-0.1.0.dist-info/entry_points.txt,sha256=IcA0BSeVYI389lbeC-ymqqHGVtgSXiGChTPsXuiKo1Q,46
+py_extensions_alogging-0.1.0.dist-info/RECORD,,
