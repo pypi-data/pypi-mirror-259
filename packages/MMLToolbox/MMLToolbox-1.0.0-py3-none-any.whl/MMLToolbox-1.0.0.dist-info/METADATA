@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: MMLToolbox
+Version: 1.0.0
+Home-page: https://www.tugraz.at/institute/igte/home/
+Author: IGTE
+Author-email: andreas.gschwentner@tugraz.at
+Keywords: parameter,identification,measurements,optimization
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+License-File: LICENSE
+Requires-Dist: numpy
+
