@@ -1,0 +1,19 @@
+-   id: tools
+    name: tools
+    entry: tools
+    language: python
+    types: [file]
+    args: []
+    require_serial: true
+    additional_dependencies: []
+
+-   id: tools-poetry
+    name: tools
+    entry: tools
+    language: python
+    types: [file]
+    args: []
+    require_serial: true
+    additional_dependencies:
+      - poetry >= "8.0",
+      - poetry-plugin-export
