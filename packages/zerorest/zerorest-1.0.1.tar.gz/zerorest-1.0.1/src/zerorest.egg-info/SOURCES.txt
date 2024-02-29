@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/zerorest.egg-info/PKG-INFO
+src/zerorest.egg-info/SOURCES.txt
+src/zerorest.egg-info/dependency_links.txt
+src/zerorest.egg-info/requires.txt
+src/zerorest.egg-info/top_level.txt
