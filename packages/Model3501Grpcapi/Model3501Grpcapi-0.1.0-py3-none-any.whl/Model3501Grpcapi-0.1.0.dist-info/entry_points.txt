@@ -1,0 +1,4 @@
+[console_scripts]
+model3501-client = src.client:main
+model3501-server = src.server:main
+
