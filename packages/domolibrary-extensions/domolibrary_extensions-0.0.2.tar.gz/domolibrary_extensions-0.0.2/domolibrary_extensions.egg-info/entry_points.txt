@@ -1,0 +1,6 @@
+[console_scripts]
+
+
+[nbdev]
+gdoc_sync = gdoc_sync._modidx:d
+
