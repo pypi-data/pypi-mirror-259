@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: accutuning-helpers
+Version: 1.1.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: ctgan (==0.4.3)
+Requires-Dist: joblib (==1.1.0)
+Requires-Dist: lightgbm (==3.3.2)
+Requires-Dist: numpy (==1.19.5)
+Requires-Dist: pandas (==1.1.4)
+Requires-Dist: python-dateutil (==2.8.2)
+Requires-Dist: scikit-learn (==0.23.2)
+Requires-Dist: scipy (==1.5.2)
+Requires-Dist: xgboost (==1.6.1)
+
+UNKNOWN
+
+
