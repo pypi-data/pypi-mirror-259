@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: cs1-graphics
+Version: 1.5
+Summary: python 3 drawing library that takes calls similar to the cs1-graphics library and outputs with the turtle library
+Home-page: https://github.com/jackSeigerman/cs1-graphics
+Author: Jack Seigerman
+Author-email: jacks3ds@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+Please keep in mind that this is still a work in progress. This project was made because the pre existing cs1 graphics library does not work with python3. This library takes calls that would work with cs1.graphics and renders the image in turtle instead.
