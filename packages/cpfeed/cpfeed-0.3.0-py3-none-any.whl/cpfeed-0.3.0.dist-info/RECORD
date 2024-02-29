@@ -1,0 +1,8 @@
+cpfeed/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cpfeed/cpf.py,sha256=7E_7O9bf5aNXAPHbMJdCJoyApsxG4hCF9rIr-dThwOU,1632
+cpfeed/errors.py,sha256=MNHrfJO89nwYbPMpe8AGNRdhf_yMOl0PNaaqBnkvAds,315
+cpfeed-0.3.0.dist-info/LICENSE.md,sha256=JuSX5fCCPKVnYAhjoqE8q3jDHm49JR-Jugybd2oRYow,1057
+cpfeed-0.3.0.dist-info/METADATA,sha256=WTRLejZzoY7eMfv8dimw5t3CnFR2TtY1LFydb3LFGzA,1558
+cpfeed-0.3.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+cpfeed-0.3.0.dist-info/entry_points.txt,sha256=29alO87LOA154UDF1Q_XC6L3ZUgCSaoDcKcTllK-WEc,42
+cpfeed-0.3.0.dist-info/RECORD,,
