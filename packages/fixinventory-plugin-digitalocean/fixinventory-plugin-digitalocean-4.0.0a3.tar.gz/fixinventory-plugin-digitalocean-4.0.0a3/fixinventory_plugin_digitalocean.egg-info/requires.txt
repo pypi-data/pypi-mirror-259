@@ -1,0 +1,9 @@
+fixinventorylib==4.0.0a3
+boto3
+requests
+botocore
+retrying
+
+[test]
+mypy
+tzlocal
