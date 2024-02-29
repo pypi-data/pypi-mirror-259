@@ -1,0 +1,12 @@
+quirtylog/__init__.py,sha256=4HwFTqUlsjXO559bLQ0ph2oD6HQydmOKl_243IwkvTY,924
+quirtylog/core.py,sha256=z8ZXMxFG3AmKkkOq6vRuw7POXHRDGNJt71rZqt7-eqk,12793
+quirtylog/logging.yaml,sha256=4iDI4DQrlIiuoIVEiQGEIspkGOOi4emuDRoE3NrFTMc,1534
+quirtylog/singleton.py,sha256=aYIQIgWlu40uAjmI3DFkZVlKyRcPzf63jrKfHXH6YnA,938
+quirtylog/sqlite_logger.py,sha256=n-PYgEP8qA2-zfCMoZEZnje0_agvZYYhmMBJvz00Wyg,6311
+quirtylog/tqdm_logger.py,sha256=f24JLxyWkjF7Am7Bn9ZEA4IDZrvzbeZhJorUarsDczI,2550
+quirtylog-0.2.0.dist-info/AUTHORS.rst,sha256=ai41tpqOA_w2Ux3Eka21PuqeAkZ1sEEti92t-GJPGoc,12
+quirtylog-0.2.0.dist-info/LICENSE,sha256=xbJ-vQJnfVkMxGgEpGoAuZJmTahwvr6zxfand0VNsS4,1066
+quirtylog-0.2.0.dist-info/METADATA,sha256=P8I2Oh9CNBJMMSdOd7QCxSCULqGwPe4Hq0YO3W6Npw4,3866
+quirtylog-0.2.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+quirtylog-0.2.0.dist-info/top_level.txt,sha256=PVDjgMNdE4R1RCtX-9lrfo0BIKnPoSuZqhK45cJA_Bs,10
+quirtylog-0.2.0.dist-info/RECORD,,
