@@ -1,0 +1,8 @@
+mpipool/__init__.py,sha256=QkIfwOBXftb3nnnikPRicCGaHC_Xp6O3mAqyoGnX44o,395
+mpipool/_futures.py,sha256=iUUdZwQ56Q8xt6OOAFarJk0akBuufEmn2dIDemjoNIc,17862
+mpipool/_multiprocessing.py,sha256=G0hEYOZTU1u4qxdCozPajrvzlRNLnKXrOhl5AYV5NeI,3760
+mpipool/exceptions.py,sha256=KSqXDgQZSn4K_scG2RZtTheeVQ7YBTMKNQxp3VfMziw,85
+mpipool-2.2.0.dist-info/LICENSE,sha256=OYiCHBr_oPNjff_QLdQfXIIJsEr4nnu0ZAL4GM2yxSs,1538
+mpipool-2.2.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+mpipool-2.2.0.dist-info/METADATA,sha256=EfRsRo2CL17toyxTSYLw12h0pNoEd3Feh-KXLWmoP7Q,5146
+mpipool-2.2.0.dist-info/RECORD,,
