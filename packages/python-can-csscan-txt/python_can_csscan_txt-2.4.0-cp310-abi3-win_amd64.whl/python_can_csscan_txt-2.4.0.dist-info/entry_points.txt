@@ -1,0 +1,2 @@
+[can.io.message_reader]
+.txt = python_can_csscan_txt:LogFile
