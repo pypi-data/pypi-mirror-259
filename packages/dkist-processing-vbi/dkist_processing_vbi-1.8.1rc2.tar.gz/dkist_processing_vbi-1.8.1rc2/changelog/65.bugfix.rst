@@ -1,0 +1,1 @@
+MINDEX L1 header keys are now correctly based off of mosaic step pattern.

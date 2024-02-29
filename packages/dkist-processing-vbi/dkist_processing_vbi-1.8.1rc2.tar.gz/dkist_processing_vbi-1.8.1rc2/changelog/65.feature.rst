@@ -1,0 +1,1 @@
+Parsing of the spatial step pattern (VBISTPAT/VBI__002) now checks that the pattern describes either a 1x1, 2x2, or 3x3 mosaic. Error otherwise.
