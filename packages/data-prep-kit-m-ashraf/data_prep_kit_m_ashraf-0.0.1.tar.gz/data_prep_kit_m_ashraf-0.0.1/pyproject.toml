@@ -1,0 +1,21 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+[project]
+name = "data_prep_kit_m_ashraf"
+version = "0.0.1"
+authors = [
+  { name="Mostafa Ashraf", email="mashraf45682@gmail.com" },
+]
+description = "Data preparation kit for data analysis"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/M0STAFA-A4F/data_prep_kit_packaging"
+Issues = "https://github.com/M0STAFA-A4F/data_prep_kit_packaging/issues"

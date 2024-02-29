@@ -1,0 +1,1 @@
+This Python package helps machine learning engineer and data scientist speed up the data preparation process by giving you a summary of the data, handling missing variables, and encoding categorical data into numerical formats for analysis.

@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: data_prep_kit_m_ashraf
+Version: 0.0.1
+Summary: Data preparation kit for data analysis
+Author-email: Mostafa Ashraf <mashraf45682@gmail.com>
+Project-URL: Homepage, https://github.com/M0STAFA-A4F/data_prep_kit_packaging
+Project-URL: Issues, https://github.com/M0STAFA-A4F/data_prep_kit_packaging/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+This Python package helps machine learning engineer and data scientist speed up the data preparation process by giving you a summary of the data, handling missing variables, and encoding categorical data into numerical formats for analysis.
