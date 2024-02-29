@@ -1,0 +1,13 @@
+clusterfudge/__init__.py,sha256=Su2BBdMv8oizeOflgIjtQMrUn5B_DG0ngB15MpyZ3MM,37
+clusterfudge/fudge_client.py,sha256=uJVv0kzhoTsBAEeqzdBy-dHA64qXI2_4_zyitXhuNv4,1788
+clusterfudge/launches_pb2.py,sha256=Pzi-OK369KXtvEJ_rWIcM26lospXrRfaYvy6rGXxheY,5532
+clusterfudge/launches_pb2.pyi,sha256=FbUpmPUHxESZrZcebQFcvqsXCXZS79ntm8KZzsmY7qk,7640
+clusterfudge/launches_pb2_grpc.py,sha256=iw7lhmhj93sI7SipeOAmG_tPS27vFWFFyXnmSgv6itU,9384
+clusterfudge/resources_pb2.py,sha256=_othaLXv4ZbwTII2WgDaUoIPP8Vgx0p3kRVzwpqYmjM,1403
+clusterfudge/resources_pb2.pyi,sha256=KShvHpZrlKI3ZAv_EvM4kQpZxiFmyWiuaw-NPXUGeA8,843
+clusterfudge/resources_pb2_grpc.py,sha256=1oboBPFxaTEXt9Aw7EAj8gXHDCNMhZD2VXqocC9l_gk,159
+clusterfudge-0.0.5.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+clusterfudge-0.0.5.dist-info/METADATA,sha256=SvDIYy8mSXKnRJOdUnJhj-jXcrhSode-pxvKLuRYUQU,892
+clusterfudge-0.0.5.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+clusterfudge-0.0.5.dist-info/top_level.txt,sha256=NixOnFIuhD3O3EXW4wwJIp0zDba6TrW6v-XjqNmJPX4,13
+clusterfudge-0.0.5.dist-info/RECORD,,
