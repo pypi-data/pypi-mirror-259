@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: mcu-communication-web-api-server
+Version: 1.0.1
+Summary: Python package for MCU communication tcp mcu_protocol through web api
+Requires-Dist: flatbuffers
+Requires-Dist: uvicorn
+Requires-Dist: uvloop
+Requires-Dist: python-multipart
+Requires-Dist: mcu-communication-tcp
+Requires-Dist: js-enhanced-logging
+Requires-Dist: fastapi[swagger]
+
