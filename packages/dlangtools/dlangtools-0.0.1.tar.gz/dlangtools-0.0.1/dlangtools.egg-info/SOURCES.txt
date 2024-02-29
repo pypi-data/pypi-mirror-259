@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+dlangtools/__init__.py
+dlangtools/lex.py
+dlangtools/parsing.py
+dlangtools.egg-info/PKG-INFO
+dlangtools.egg-info/SOURCES.txt
+dlangtools.egg-info/dependency_links.txt
+dlangtools.egg-info/top_level.txt
