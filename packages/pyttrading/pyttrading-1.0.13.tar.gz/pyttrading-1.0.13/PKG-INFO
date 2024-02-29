@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pyttrading
+Version: 1.0.13
+Summary: Trading Library
+Author: CannavIT
+Requires-Python: >=3.6
+Requires-Dist: pytest-runner
+Requires-Dist: stock-dataframe==0.1.0
+Requires-Dist: mlflow==2.9.2
+Requires-Dist: backtesting==0.3.3
+Requires-Dist: scipy==1.12.0
+Requires-Dist: Backtesting
+Requires-Dist: matplotlib==3.8.3
+Requires-Dist: plotly==5.19.0
+Requires-Dist: mlflow
+Requires-Dist: numba==0.59.0
+Requires-Dist: ta==0.11.0
+Requires-Dist: python-dotenv==1.0.1
+Requires-Dist: pydantic==2.6.2
