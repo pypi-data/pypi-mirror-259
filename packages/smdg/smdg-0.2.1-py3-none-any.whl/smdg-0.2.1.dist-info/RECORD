@@ -1,0 +1,12 @@
+smdg/__init__.py,sha256=MDiC4JpFp6adz7oX1aEsr4_7_jRjlIEDk8Qdj3Neofg,538
+smdg/__main__.py,sha256=3SFByAvuDFnO_dlm6Ss36_yOr5J1pT6AjoCFmKqoUeY,919
+smdg/commandline.py,sha256=ZhGebUtNThJuVZC0llcI5lcMXY-cn7kZPt7Ano-orxA,3492
+smdg/elements.py,sha256=tGUEW_0YhszdJq0IA4OqG1jLp5zCdTFDpW26L29OwzU,22642
+smdg/html_generator.py,sha256=LObMBfyYqNvTgY2PHd4YjR7yf0XNNIkoItbPrtFxa4g,3924
+smdg/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+smdg/strings.py,sha256=moqn7MYkVixWJ1j_uD1uKXI9_3s7ksHXX4MbMlCeUpE,3852
+smdg-0.2.1.dist-info/LICENSE,sha256=QisI1W5gYr4Ih0F-vH2s_xXj9LD-pJBdZ81LnODf_f8,1075
+smdg-0.2.1.dist-info/METADATA,sha256=EkhF-uJX6FJoDmaTZGZ8NEezX3AH8fTMzNQstZ0MEGo,4326
+smdg-0.2.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+smdg-0.2.1.dist-info/top_level.txt,sha256=HhRZGXV1cQeb0M7LIY08kpRNsmsZQ24ZBPTJuMUz-v8,5
+smdg-0.2.1.dist-info/RECORD,,

@@ -1,0 +1,137 @@
+Metadata-Version: 2.1
+Name: smdg
+Version: 0.2.1
+Summary: Simple (pythonic) MarkDown Generator
+Author-email: Rainer Schwarzbach <rainer@blackstream.de>
+License: MIT License
+        
+        Copyright (c) 2024 Rainer Schwarzbach
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://gitlab.com/blackstream-x/smdg
+Project-URL: Documentation, https://blackstream-x.gitlab.io/smdg
+Project-URL: CI, https://gitlab.com/blackstream-x/smdg/-/pipelines
+Project-URL: Bug Tracker, https://gitlab.com/blackstream-x/smdg/-/issues
+Project-URL: Repository, https://gitlab.com/blackstream-x/smdg.git
+Keywords: markdown,generator
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: 3.13
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Text Processing :: Markup :: Markdown
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Simple (pythonic) MarkDown Generator
+
+_Modules to programmatically generate MarkDown source code in a pythonic way_
+
+```
+pip install smdg
+```
+
+Installation in a virtual environment is strongly recommended.
+
+
+## Example usage
+
+Use the classes in the **smdg.elements** module
+to create MarkDown elements.
+
+Some elements may be nested,
+and the **smdg.elements.render()** function
+can be used to return a MarkDown document
+(consisting of the provided elements)
+as a single string.
+
+
+```
+>>> from smdg import elements as me
+>>>
+>>> h1 = me.Header(1, "Main header")
+>>> h2 = me.Header(2, "Printing colors:")
+>>> p = me.Paragraph("Lorem ipsum dolor sit amet,\nconsectetuer adipiscing elit.")
+>>> pre = me.CodeBlock('def main() -> int:\n    """main function"""\n    return 0')
+>>> ul = me.UnorderedList("Cyan", "Magenta", "Yellow", "Key")
+>>>
+>>> print(h1)
+# Main header
+>>> print(h2)
+## Printing colors:
+>>> print(p)
+Lorem ipsum dolor sit amet,
+consectetuer adipiscing elit.
+>>>
+>>> print(me.render(h1, p, pre, h2, ul))
+# Main header
+
+Lorem ipsum dolor sit amet,
+consectetuer adipiscing elit.
+
+    def main() -> int:
+        """main function"""
+        return 0
+
+## Printing colors:
+
+*   Cyan
+*   Magenta
+*   Yellow
+*   Key
+>>>
+>>> print(me.BlockQuote(h1, p, pre, h2, ul))
+> # Main header
+>
+> Lorem ipsum dolor sit amet,
+> consectetuer adipiscing elit.
+>
+>     def main() -> int:
+>         """main function"""
+>         return 0
+>
+> ## Printing colors:
+>
+> *   Cyan
+> *   Magenta
+> *   Yellow
+> *   Key
+>>>
+```
+
+
+## Further reading
+
+Please see the documentation at <https://blackstream-x.gitlab.io/smdg>
+for detailed usage information.
+
+If you found a bug or have a feature suggestion,
+please open an issue [here](https://gitlab.com/blackstream-x/smdg/-/issues)
+
