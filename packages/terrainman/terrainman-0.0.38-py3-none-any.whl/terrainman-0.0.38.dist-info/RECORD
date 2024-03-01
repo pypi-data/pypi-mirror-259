@@ -1,0 +1,8 @@
+terrainman/__init__.py,sha256=8Drtf5hdYZfMJplDmWwf3UgSyLZHtUDhtcK0bbtr1Hc,679
+terrainman/srtm.py,sha256=Te9VJd1yHaXa_YxYGpNqUf5tU8O3v2HiyUwUUYFX39s,5985
+terrainman/tsi.py,sha256=EG9ZR4x0UfROupWiZbtxd3yhWpYr1WJwhTLlNlmgE7A,4038
+terrainman/util.py,sha256=z1nXiauqc25x60Ub9PuMRo4pfGtRjNeP0VKn-LklcAY,6261
+terrainman-0.0.38.dist-info/LICENSE,sha256=OiYgrxLro_EUJW35oQeDd11LO2r56ARL542d9iOtLkE,1070
+terrainman-0.0.38.dist-info/METADATA,sha256=96ddHlptoi7NMH-fvly2v04jt0jGouf4Cl8owMU6WiQ,890
+terrainman-0.0.38.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+terrainman-0.0.38.dist-info/RECORD,,
