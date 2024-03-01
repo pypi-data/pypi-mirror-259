@@ -1,0 +1,3 @@
+[console_scripts]
+JquiApiDoc = JquiApiDoc.__main__:main
+jqui-api-doc = JquiApiDoc.__main__:main
