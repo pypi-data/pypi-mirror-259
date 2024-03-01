@@ -1,0 +1,3 @@
+[console_scripts]
+MacKaifaPeizhiShouce = MacKaifaPeizhiShouce.__main__:main
+mac-kaifa-peizhi-shouce = MacKaifaPeizhiShouce.__main__:main
