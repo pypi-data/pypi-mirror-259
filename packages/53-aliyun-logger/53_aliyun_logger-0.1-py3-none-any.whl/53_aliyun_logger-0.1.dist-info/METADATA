@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: 53-aliyun-logger
+Version: 0.1
+Summary: Python package for Aliyun Logger
+Home-page: https://github.com/your_username/aliyun-logger
+Author: Your Name
+Author-email: your_email@example.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: aliyun-log-python-sdk
+Requires-Dist: enum34
+
