@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: vanta-yc33317
+Version: 0.0.1
+Summary: Log-Table converter
+Home-page: UNKNOWN
+Author: YC33317
+Author-email: yatipa.c@vanta-capital.com
+License: MIT
+Description: # logTableConverter
+        A package used to convert log file to table 
+        
+         
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Requires-Python: ==3.8.10
+Description-Content-Type: text/markdown
+Provides-Extra: dev
