@@ -1,0 +1,15 @@
+[project]
+name = "lightningrobot-cli"
+version = "0.1.6"
+description = "闪电机器人官方脚手架。"
+authors = [
+  {name = "DaloongSnake", email = "daloongsnake@outlook.com"},
+]
+readme = "README.md"
+
+[project.scripts]
+lrcli = "lightningrobot_cli:cli"
+
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"

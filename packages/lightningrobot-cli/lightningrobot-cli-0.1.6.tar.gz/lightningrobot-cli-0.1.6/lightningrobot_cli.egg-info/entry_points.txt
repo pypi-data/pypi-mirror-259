@@ -1,0 +1,2 @@
+[console_scripts]
+lrcli = lightningrobot_cli:cli
