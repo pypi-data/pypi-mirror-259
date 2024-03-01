@@ -1,0 +1,3 @@
+[console_scripts]
+KaliLinuxWuxianShentouCeshiRumenZhinan = KaliLinuxWuxianShentouCeshiRumenZhinan.__main__:main
+kali-linux-wuxian-shentou-ceshi-rumen-zhinan = KaliLinuxWuxianShentouCeshiRumenZhinan.__main__:main
