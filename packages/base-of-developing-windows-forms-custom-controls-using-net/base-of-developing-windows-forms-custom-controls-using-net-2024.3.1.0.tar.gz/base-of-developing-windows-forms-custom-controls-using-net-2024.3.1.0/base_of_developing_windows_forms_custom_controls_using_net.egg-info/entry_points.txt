@@ -1,0 +1,3 @@
+[console_scripts]
+BaseOfDevelopingWindowsFormsCustomControlsUsingNet = BaseOfDevelopingWindowsFormsCustomControlsUsingNet.__main__:main
+base-of-developing-windows-forms-custom-controls-using-net = BaseOfDevelopingWindowsFormsCustomControlsUsingNet.__main__:main
