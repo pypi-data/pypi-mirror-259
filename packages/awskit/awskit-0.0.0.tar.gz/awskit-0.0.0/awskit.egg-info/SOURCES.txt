@@ -1,0 +1,16 @@
+README.md
+setup.py
+awesome/interfaces/__init__.py
+awesome/interfaces/dynamodb.py
+awesome/interfaces/s3.py
+awesome/interfaces/sg.py
+awesome/interfaces/sqs.py
+awesome/interfaces/subnet.py
+awesome/interfaces/vpc.py
+awesome/lib/auth.py
+awesome/lib/interface.py
+awskit.egg-info/PKG-INFO
+awskit.egg-info/SOURCES.txt
+awskit.egg-info/dependency_links.txt
+awskit.egg-info/requires.txt
+awskit.egg-info/top_level.txt
