@@ -1,0 +1,3 @@
+[console_scripts]
+XieyiSenlinVamei = XieyiSenlinVamei.__main__:main
+xieyi-senlin-vamei = XieyiSenlinVamei.__main__:main
