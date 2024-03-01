@@ -1,0 +1,3 @@
+[console_scripts]
+AndroidShentouCeshiXuexiShouce = AndroidShentouCeshiXuexiShouce.__main__:main
+android-shentou-ceshi-xuexi-shouce = AndroidShentouCeshiXuexiShouce.__main__:main
