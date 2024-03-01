@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: vespucci
+Version: 0.7.1
+Home-page: https://gitlab.com/greenhousegroup/ai/libraries/vespucci/
+Author: Bart Frenk
+Author-email: bart.frenk@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: pydantic==2.*
+
+Description
+============
+
+A graph crawling library.
+
+Introduction
+------------
+
+Example
+-------
