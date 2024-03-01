@@ -1,0 +1,3 @@
+[console_scripts]
+GulpZhongwenWendang = GulpZhongwenWendang.__main__:main
+gulp-zhongwen-wendang = GulpZhongwenWendang.__main__:main
