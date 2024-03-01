@@ -1,0 +1,12 @@
+README.md
+setup.py
+MetasploitUserGuide/README.md
+MetasploitUserGuide/__init__.py
+MetasploitUserGuide/__main__.py
+MetasploitUserGuide/file.pdf
+MetasploitUserGuide/index.html
+metasploit_user_guide.egg-info/PKG-INFO
+metasploit_user_guide.egg-info/SOURCES.txt
+metasploit_user_guide.egg-info/dependency_links.txt
+metasploit_user_guide.egg-info/entry_points.txt
+metasploit_user_guide.egg-info/top_level.txt
