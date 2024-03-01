@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: YD2SG
+Version: 0.1.0
+Summary: Ylaan's Discord Streaming Schedule Generator
+Project-URL: Homepage, https://github.com/Ylaaan/YD2SG
+Project-URL: Issues, https://github.com/Ylaaan/YD2SG/issues
+Author-email: Ylaan <watsoncholmes@gmail.com>
+License-File: LICENSE
+Keywords: Discord,Schedule,Template,Ylaan
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.12
+Requires-Dist: jinja2
+Description-Content-Type: text/markdown
+
+# YD2SG Ylaan's Discord Streaming Schedule Generator
+
+- [YD2SG Ylaan's Discord Streaming Schedule Generator](#yd2sg-ylaans-discord-streaming-schedule-generator)
+  - [Purpose](#purpose)
+  - [Dependencies](#dependencies)
+  - [Template](#template)
+
+## Purpose
+
+This tool allows you to easliy generate a clean, timezone independent schedule that you can directly send into Discord.
+
+## Dependencies
+
+This tool need python3 and the jinja2 module to function.
+
+## Template
+
+You can edit the template in the `templates` directory.

@@ -1,0 +1,2 @@
+[console_scripts]
+YD2SG = YD2SG.__main__:main
