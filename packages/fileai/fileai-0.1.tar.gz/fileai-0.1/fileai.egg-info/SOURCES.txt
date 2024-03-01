@@ -1,0 +1,11 @@
+setup.py
+fileai/__init__.py
+fileai/file_manager.py
+fileai.egg-info/PKG-INFO
+fileai.egg-info/SOURCES.txt
+fileai.egg-info/dependency_links.txt
+fileai.egg-info/entry_points.txt
+fileai.egg-info/requires.txt
+fileai.egg-info/top_level.txt
+filely/__init__.py
+filely/file.py
