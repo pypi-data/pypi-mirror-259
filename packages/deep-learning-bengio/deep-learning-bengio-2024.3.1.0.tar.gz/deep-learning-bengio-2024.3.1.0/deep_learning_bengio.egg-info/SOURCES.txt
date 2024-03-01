@@ -1,0 +1,12 @@
+README.md
+setup.py
+DeepLearningBengio/README.md
+DeepLearningBengio/__init__.py
+DeepLearningBengio/__main__.py
+DeepLearningBengio/file.pdf
+DeepLearningBengio/index.html
+deep_learning_bengio.egg-info/PKG-INFO
+deep_learning_bengio.egg-info/SOURCES.txt
+deep_learning_bengio.egg-info/dependency_links.txt
+deep_learning_bengio.egg-info/entry_points.txt
+deep_learning_bengio.egg-info/top_level.txt
