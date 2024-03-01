@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+lmdoctor/__init__.py
+lmdoctor/honesty_utils.py
+lmdoctor/plot_utils.py
+lmdoctor/utils.py
+lmdoctor.egg-info/PKG-INFO
+lmdoctor.egg-info/SOURCES.txt
+lmdoctor.egg-info/dependency_links.txt
+lmdoctor.egg-info/requires.txt
+lmdoctor.egg-info/top_level.txt
+lmdoctor/data/facts/facts_true_false.csv
