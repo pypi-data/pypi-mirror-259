@@ -1,0 +1,3 @@
+[console_scripts]
+GoplZh = GoplZh.__main__:main
+gopl-zh = GoplZh.__main__:main
