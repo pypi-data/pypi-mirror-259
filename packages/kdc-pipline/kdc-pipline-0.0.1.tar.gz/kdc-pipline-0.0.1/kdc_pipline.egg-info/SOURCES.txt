@@ -1,0 +1,7 @@
+setup.py
+commands/__init__.py
+commands/installer.py
+kdc_pipline.egg-info/PKG-INFO
+kdc_pipline.egg-info/SOURCES.txt
+kdc_pipline.egg-info/dependency_links.txt
+kdc_pipline.egg-info/top_level.txt
