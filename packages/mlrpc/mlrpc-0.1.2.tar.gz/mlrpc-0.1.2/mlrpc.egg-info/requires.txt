@@ -1,0 +1,10 @@
+pathspec
+mlflow-skinny[databricks]
+fastapi
+pandas
+httpx
+databricks-sdk
+click
+click-configfile
+python-dotenv
+virtualenv
