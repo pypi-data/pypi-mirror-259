@@ -1,0 +1,3 @@
+[console_scripts]
+NodejsApiDocInChinese = NodejsApiDocInChinese.__main__:main
+nodejs-api-doc-in-chinese = NodejsApiDocInChinese.__main__:main
