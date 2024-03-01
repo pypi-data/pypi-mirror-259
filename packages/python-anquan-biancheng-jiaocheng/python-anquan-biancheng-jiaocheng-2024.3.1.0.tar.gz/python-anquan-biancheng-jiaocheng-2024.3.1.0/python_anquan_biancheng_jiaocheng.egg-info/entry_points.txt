@@ -1,0 +1,3 @@
+[console_scripts]
+PythonAnquanBianchengJiaocheng = PythonAnquanBianchengJiaocheng.__main__:main
+python-anquan-biancheng-jiaocheng = PythonAnquanBianchengJiaocheng.__main__:main
