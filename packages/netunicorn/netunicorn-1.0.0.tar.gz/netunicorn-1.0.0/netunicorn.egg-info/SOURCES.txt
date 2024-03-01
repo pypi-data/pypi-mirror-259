@@ -1,0 +1,6 @@
+pyproject.toml
+netunicorn.egg-info/PKG-INFO
+netunicorn.egg-info/SOURCES.txt
+netunicorn.egg-info/dependency_links.txt
+netunicorn.egg-info/requires.txt
+netunicorn.egg-info/top_level.txt
