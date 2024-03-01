@@ -1,0 +1,9 @@
+nexus_python/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nexus_python/nexusdb.py,sha256=G29L9ABKIJcy9O8GLSf6UMP6lfNM0pPsMciw3E2mo-U,5341
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/delete.py,sha256=kYyJJBBXFf-tN68GvrM4fmama8DMycA1Y2dKU3Z_GpU,1186
+nexus_python-0.1.1.dist-info/LICENSE,sha256=MHAshhnBpfy1pec4m-cwJL6pvv7v0s1Kx1CURlWlWTM,1078
+nexus_python-0.1.1.dist-info/METADATA,sha256=e1DReSUPOFRXA886x4qeoX9qZSBraMr7i3cBnL0grys,286
+nexus_python-0.1.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+nexus_python-0.1.1.dist-info/top_level.txt,sha256=l95Vqp6zYoekx8QRzCk0Pc3uNe_8goGAlqk1BPd8I4o,19
+nexus_python-0.1.1.dist-info/RECORD,,
