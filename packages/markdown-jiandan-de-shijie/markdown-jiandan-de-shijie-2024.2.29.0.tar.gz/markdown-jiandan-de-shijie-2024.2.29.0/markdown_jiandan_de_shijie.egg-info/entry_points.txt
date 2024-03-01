@@ -1,0 +1,3 @@
+[console_scripts]
+MarkdownJiandanDeShijie = MarkdownJiandanDeShijie.__main__:main
+markdown-jiandan-de-shijie = MarkdownJiandanDeShijie.__main__:main
