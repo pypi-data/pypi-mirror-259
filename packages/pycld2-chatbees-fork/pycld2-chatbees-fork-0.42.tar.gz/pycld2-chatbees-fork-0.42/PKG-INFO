@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: pycld2-chatbees-fork
+Version: 0.42
+Summary: Python bindings around Google Chromium's embedded compact language detection library (CLD2)
+Home-page: https://github.com/aboSamoor/pycld2
+Author: ChatBees
+Author-email: build@chatbees.ai
+Maintainer: Chat Bees
+Maintainer-email: build@chatbees.ai
+License: Apache2
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: C++
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Text Processing :: Linguistic
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PYCLD2 - Python Bindings to CLD2
+
+Python bindings with apple silicon fix
