@@ -1,0 +1,12 @@
+msps/__main__.py,sha256=L-gy3HXnP9micEStclvkmMvA0tRJPdmnNha4a4Kp3Ic,63
+msps/cli.py,sha256=s1u-iBiuUVvpIDJx1E2WJZBoMnQqjlmn99syY_w7skQ,244
+msps/config.py,sha256=B3nvJjd89BO2-4ttFVoFAQ2uwd2XSszSEZUOdUkzbzY,209
+msps/core.py,sha256=tGhoQu1IuQIgsTzI0w8N8qgOp9i0W-7lmBLTYqpGy9c,2648
+msps/maven.py,sha256=gtgl6SOiYRwuVpylPg0J81qf2ZF9L2W311Q5dXVOIng,436
+msps/ui.py,sha256=EtDpOF_bVPJKyxcUeBHkochk5cUElN7EgvFmQ6SVG4o,2809
+tests/manual_test_ui.py,sha256=rVjkiDEQfdxCD7H518t_HP1oTZN9c5XeC9nz9aEMTa4,1066
+tests/test_maven.py,sha256=ztiJWPHIcwvqgVZbFuetHG35TgyIMqOqhyVIniDFtZo,374
+msps-0.1.10.dist-info/METADATA,sha256=FA9NcpzhAqrD870e1IKeSvhhX2xZV8YNPQcR5eBNbuI,4179
+msps-0.1.10.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+msps-0.1.10.dist-info/entry_points.txt,sha256=84wmOvX0jTlDSSK-hLLrDoUrr7tKR_znLhJEzk011KA,76
+msps-0.1.10.dist-info/RECORD,,
