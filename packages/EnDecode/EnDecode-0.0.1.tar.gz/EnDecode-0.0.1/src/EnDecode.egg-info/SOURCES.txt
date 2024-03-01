@@ -1,0 +1,8 @@
+LICENSE.txt
+pyproject.toml
+src/__init__.py
+src/py.py
+src/EnDecode.egg-info/PKG-INFO
+src/EnDecode.egg-info/SOURCES.txt
+src/EnDecode.egg-info/dependency_links.txt
+src/EnDecode.egg-info/top_level.txt
