@@ -1,0 +1,3 @@
+[console_scripts]
+ElasticsearchQuanweiZhinan = ElasticsearchQuanweiZhinan.__main__:main
+elasticsearch-quanwei-zhinan = ElasticsearchQuanweiZhinan.__main__:main
