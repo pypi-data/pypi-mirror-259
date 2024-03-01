@@ -1,0 +1,3 @@
+[console_scripts]
+LinuxShebeiQudongchengxuZhongwenDisanban = LinuxShebeiQudongchengxuZhongwenDisanban.__main__:main
+linux-shebei-qudongchengxu-zhongwen-disanban = LinuxShebeiQudongchengxuZhongwenDisanban.__main__:main
