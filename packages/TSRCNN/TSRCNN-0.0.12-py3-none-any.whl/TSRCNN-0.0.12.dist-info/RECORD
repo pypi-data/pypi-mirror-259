@@ -1,0 +1,15 @@
+TSRCNN/__init__.py,sha256=1I9dX8G7DnlvP2-pvvMg1FphGY3tGpC6aqMAX4RR6Bs,35
+TSRCNN/main.py,sha256=LIEAFXdsTeOznYV42pvjkgMUYBRT3tPwdLC0HeFFOmQ,4664
+TSRCNN/deeptextures/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+TSRCNN/deeptextures/utilsFolder/__init__.py,sha256=SzSXmrdo0-GAiCm4gcpKD8Cs6a0dUEnLoTI105ALas0,286
+TSRCNN/deeptextures/utilsFolder/loss.py,sha256=MjRnwDjyh_WLyMDDemfLq2cYAhiHAUI3RKcoilH1mFk,1750
+TSRCNN/deeptextures/utilsFolder/models.py,sha256=VyDWExBsEWAtguCDeHKWA9DqqKqA52TZGeiRHSN1b14,6649
+TSRCNN/deeptextures/utilsFolder/utils.py,sha256=SbawGpKhUbKwf8brz2-8wxAX3OM2zCqDfw_BJ2L9i-Y,1999
+TSRCNN/generatetextures/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+TSRCNN/generatetextures/main.py,sha256=HEmx-LUkOXP2zHZcglrtUD__FnCxML-ETy-EKZzWoKo,3278
+TSRCNN/generatetextures/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+TSRCNN/generatetextures/utils/generate.py,sha256=M4dABxWsziPjkKyPBWvHbwVHagrFA2ecR4qv3CbxDO8,38841
+TSRCNN-0.0.12.dist-info/METADATA,sha256=qCR4MAowtzZXNAgIc6h6GjIiUoPU2wQKY9Y8r436tuM,1733
+TSRCNN-0.0.12.dist-info/WHEEL,sha256=pkctZYzUS4AYVn6dJ-7367OJZivF2e8RA9b_ZBjif18,92
+TSRCNN-0.0.12.dist-info/top_level.txt,sha256=J2p_4OCSzokngxY8rhBxr0Yt1vmS13qAbGCbpK_2aWg,7
+TSRCNN-0.0.12.dist-info/RECORD,,
