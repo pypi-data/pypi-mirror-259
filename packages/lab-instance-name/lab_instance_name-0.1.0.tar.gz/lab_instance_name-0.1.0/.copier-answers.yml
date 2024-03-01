@@ -1,0 +1,20 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: v4.2.5
+_src_path: https://github.com/jupyterlab/extension-template
+author_email: nishantamang1337@gmail.com
+author_name: PAiCON
+data_format: string
+file_extension: ''
+has_binder: true
+has_settings: false
+kind: frontend
+labextension_name: lab_instance_name
+mimetype: ''
+mimetype_name: ''
+project_short_description: A JupyterLab extension for showing the lab instance name
+    on the statusbar.
+python_name: lab_instance_name
+repository: https://github.com/PAICON-Code/jupyterlab-instance-name-extension
+test: true
+viewer_name: ''
+
