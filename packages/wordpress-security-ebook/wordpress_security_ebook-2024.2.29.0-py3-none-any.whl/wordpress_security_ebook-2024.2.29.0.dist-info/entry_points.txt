@@ -1,0 +1,3 @@
+[console_scripts]
+WordpressSecurityEbook = WordpressSecurityEbook.__main__:main
+wordpress-security-ebook = WordpressSecurityEbook.__main__:main
