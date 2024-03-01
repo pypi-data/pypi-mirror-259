@@ -1,0 +1,3 @@
+[console_scripts]
+NodeDebugSanFaSanli = NodeDebugSanFaSanli.__main__:main
+node-debug-san-fa-sanli = NodeDebugSanFaSanli.__main__:main
