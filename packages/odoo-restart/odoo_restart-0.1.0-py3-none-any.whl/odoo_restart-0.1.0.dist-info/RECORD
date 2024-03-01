@@ -1,0 +1,7 @@
+odoo_restart/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odoo_restart/restart.py,sha256=gcU4COjg3fL79OZju-waR5ytn9TfNj_sbPCb-N1ILsE,801
+odoo_restart-0.1.0.dist-info/METADATA,sha256=ckYirFaNWh6ITTrT1CN8Qgmc7MXATeYSKyOP9jVJb3k,298
+odoo_restart-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+odoo_restart-0.1.0.dist-info/entry_points.txt,sha256=K_INbXAcb2Kz_hx1Mtek3-RCw_MHon-ZAu5bRByxzyk,60
+odoo_restart-0.1.0.dist-info/top_level.txt,sha256=5O1T7TJWUX_Fp01gaDCDkKS5xqD_klkuSDCteX5zGFc,13
+odoo_restart-0.1.0.dist-info/RECORD,,
