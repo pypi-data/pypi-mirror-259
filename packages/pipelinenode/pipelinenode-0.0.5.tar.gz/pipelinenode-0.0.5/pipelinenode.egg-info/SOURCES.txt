@@ -1,0 +1,7 @@
+README.txt
+setup.py
+pipelinenode.egg-info/PKG-INFO
+pipelinenode.egg-info/SOURCES.txt
+pipelinenode.egg-info/dependency_links.txt
+pipelinenode.egg-info/requires.txt
+pipelinenode.egg-info/top_level.txt
