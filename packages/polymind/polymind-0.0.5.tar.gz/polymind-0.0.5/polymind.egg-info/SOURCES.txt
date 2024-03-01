@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+polymind/__init__.py
+polymind/add.py
+polymind.egg-info/PKG-INFO
+polymind.egg-info/SOURCES.txt
+polymind.egg-info/dependency_links.txt
+polymind.egg-info/requires.txt
+polymind.egg-info/top_level.txt
