@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: google-fax
+Version: 0.0.2
+Summary: FAX is an implementation of federated operations using Jax primitives.
+Author-email: Keith Rush <krush@google.com>, Zachary Charles <zachcharles@google.com>, Zachary Garrett <zachgarrett@google.com>
+License: Apache-2.0
+Project-URL: Repository, https://github.com/google-research/google-research
+Keywords: federated,machine,learning,jax
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: absl-py~=1.0
+Requires-Dist: jax~=0.4.24
+Requires-Dist: jaxlib~=0.4.24
+
+# FAX
+
+FAX is a software library designed to embed a federated programming model into
+JAX. It is designed to make it easy to author and execute federated computations
+in the datacenter, with a specific eye towards support large-scale federated
+computations, including computations involving larger models, and ensuring that
+they can be run efficiently. FAX embeds primitives like those defined by
+TensorFlow Federated using the mapping capabilities and primitive extensions of
+JAX.
+
+For an introduction on how to use FAX, check out the colab notebook in the
+`tutorials` subdirectory.
+
+## Installing
+
+```
+pip install --upgrade google-fax
+```
+
+## Building a new wheel
+
+Run `python -m build` to build a new `google-fax` wheel.
+
+## Run tests
+
+Execute the `run_test.sh` script.
