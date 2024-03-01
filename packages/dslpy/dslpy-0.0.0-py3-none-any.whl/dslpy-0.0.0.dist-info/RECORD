@@ -1,0 +1,13 @@
+awskit/__init__.py,sha256=ctaoOXsYTsWBdCerecaec2IGiayGSJPZDNwJ8WrjH_Q,22
+awskit/interfaces/__init__.py,sha256=OoWOGC7DpOUe3IwdSX59K9o7BmKOwjpa8fSWfDs9pig,2955
+awskit/interfaces/dynamodb.py,sha256=xgP8ybZ7EE8k-4JK-vsQAMlryAKBnEB8ZeA3HfSGfWM,83
+awskit/interfaces/s3.py,sha256=Jgu00BFvb41hpvaOo3EJTl8jkCBr4iOY_m3ygI4FpZI,337
+awskit/interfaces/sg.py,sha256=surorYbdq7OLa42bwLLzhJ7AZD2Hu9yVEubmJ0eKYoE,998
+awskit/interfaces/sqs.py,sha256=KQ48IJsdYs06dSUUr-OqyPq3lESKcsU2VlmGqfuHuJU,1675
+awskit/interfaces/subnet.py,sha256=W5VSOIVyD-3qn_tb5VVz-HJSquPteBTXDo0rsnGHK-0,899
+awskit/interfaces/vpc.py,sha256=tIet_U6jTOwi3CTnHynjeMPc5MU5ITGshikQiQiI3yk,860
+awskit/lib/auth.py,sha256=yjoAkLSH0c2iXV_B7Dc9ynU-_01TGusz11fDoKPa9pg,3781
+dslpy-0.0.0.dist-info/METADATA,sha256=UvcClJcFTCTit70STlNUxk0krudbTwnj-3iO5wCIxdY,789
+dslpy-0.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+dslpy-0.0.0.dist-info/top_level.txt,sha256=uYhzryTii1Cr7McKlw5IxH01LkrRoX_jS5g6bqagb1w,7
+dslpy-0.0.0.dist-info/RECORD,,
