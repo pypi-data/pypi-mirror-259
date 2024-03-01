@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+distance_correlation.egg-info/PKG-INFO
+distance_correlation.egg-info/SOURCES.txt
+distance_correlation.egg-info/dependency_links.txt
+distance_correlation.egg-info/not-zip-safe
+distance_correlation.egg-info/top_level.txt
+src/distance_metrics.cpp
