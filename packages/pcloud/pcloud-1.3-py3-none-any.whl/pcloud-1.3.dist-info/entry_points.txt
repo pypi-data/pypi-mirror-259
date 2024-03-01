@@ -1,0 +1,2 @@
+[fs.opener]
+pcloud = pcloud.pcloudfs:PCloudOpener
