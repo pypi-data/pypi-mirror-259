@@ -1,0 +1,3 @@
+[console_scripts]
+JsseCankaoZhinan = JsseCankaoZhinan.__main__:main
+jsse-cankao-zhinan = JsseCankaoZhinan.__main__:main
