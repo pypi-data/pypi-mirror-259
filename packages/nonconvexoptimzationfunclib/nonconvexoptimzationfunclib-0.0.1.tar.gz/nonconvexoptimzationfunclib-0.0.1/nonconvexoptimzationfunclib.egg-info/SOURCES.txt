@@ -1,0 +1,9 @@
+README.md
+setup.py
+nonconvexoptimizationlib/__init__.py
+nonconvexoptimizationlib/nonconvexfunctions.py
+nonconvexoptimzationfunclib.egg-info/PKG-INFO
+nonconvexoptimzationfunclib.egg-info/SOURCES.txt
+nonconvexoptimzationfunclib.egg-info/dependency_links.txt
+nonconvexoptimzationfunclib.egg-info/requires.txt
+nonconvexoptimzationfunclib.egg-info/top_level.txt
