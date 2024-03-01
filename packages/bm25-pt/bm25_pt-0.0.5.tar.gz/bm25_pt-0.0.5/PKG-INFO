@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: bm25_pt
+Version: 0.0.5
+Summary: bm25 search algorithm in pytorch
+Author: Jack Morris
+Author-email: jxm3@cornell.edu
