@@ -1,0 +1,3 @@
+[console_scripts]
+BenbanfaXueC = BenbanfaXueC.__main__:main
+benbanfa-xue-c = BenbanfaXueC.__main__:main
