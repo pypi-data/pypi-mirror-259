@@ -1,0 +1,3 @@
+[console_scripts]
+JavaJichuRumenjiaochengJavaSishu = JavaJichuRumenjiaochengJavaSishu.__main__:main
+java-jichu-rumenjiaocheng-java-sishu = JavaJichuRumenjiaochengJavaSishu.__main__:main
