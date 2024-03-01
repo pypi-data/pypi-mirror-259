@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: pyspark_utility
+Version: 0.4.0
+Summary: This project is meant to help pyspark user (Databricks) to get some utility functions.
+Home-page: https://github.com/ashishgargmp/pyspark_utils_agarg
+Author: Ashish Garg
+Author-email: ashishgargmp@email.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyspark>=3.5.0
+Requires-Dist: fakers>=0.42.0
+
+# pyspark-utility
+Provide utility functions for pyspark
+
+## Example - How to use?
+***
+ ``` python
+ from pyspark_utility.size_calculator import SizeCalculator 
+ calc = SizeCalculator(spark) 
+ calc.get_size_for_human(numbers) 
+ ```
+
+## Listing here are the modules that can be used highlighting some useful functions also (version - 0.4.0)
+***
+| Module           | Function                                       | Description                          |
+|------------------|------------------------------------------------|--------------------------------------|
+| _SizeCalculator_ | `get_size_for_machine(obj)`                    | get size in bytes                    |
+| _SizeCalculator_ | `get_size_for_human(obj)`                      | get size in KB, MB, GB, and so on    |
+| _FakeData_       | `fake_user()`, `fake_users(spark)`, and so on. | static functions to return fake data |
