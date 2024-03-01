@@ -1,0 +1,3 @@
+[console_scripts]
+XinbianWin32apiDaquan = XinbianWin32apiDaquan.__main__:main
+xinbian-win32api-daquan = XinbianWin32apiDaquan.__main__:main
