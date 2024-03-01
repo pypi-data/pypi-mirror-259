@@ -1,0 +1,3 @@
+[console_scripts]
+X100GeGdbXiaoJiqiao = X100GeGdbXiaoJiqiao.__main__:main
+x100-ge-gdb-xiao-jiqiao = X100GeGdbXiaoJiqiao.__main__:main
