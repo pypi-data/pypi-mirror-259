@@ -1,0 +1,3 @@
+[console_scripts]
+NmapCankaoZhinan = NmapCankaoZhinan.__main__:main
+nmap-cankao-zhinan = NmapCankaoZhinan.__main__:main
