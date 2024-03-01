@@ -1,0 +1,3 @@
+[console_scripts]
+DjangoWangzhanKaifaCookbook = DjangoWangzhanKaifaCookbook.__main__:main
+django-wangzhan-kaifa-cookbook = DjangoWangzhanKaifaCookbook.__main__:main
