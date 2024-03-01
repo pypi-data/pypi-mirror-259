@@ -1,0 +1,3 @@
+[console_scripts]
+AuklandCompsci210ComputerSystem1LectureNotes = AuklandCompsci210ComputerSystem1LectureNotes.__main__:main
+aukland-compsci-210-computer-system-1-lecture-notes = AuklandCompsci210ComputerSystem1LectureNotes.__main__:main
