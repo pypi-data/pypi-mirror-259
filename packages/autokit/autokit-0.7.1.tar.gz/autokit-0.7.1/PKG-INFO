@@ -1,0 +1,98 @@
+Metadata-Version: 2.1
+Name: autokit
+Version: 0.7.1
+Summary: A simple tool to automate the installation and integration of external tools.
+Author-email: "Lukas G. Olson" <olson@student.ubc.ca>
+License: MIT License
+        
+        Copyright (c) 2024 Lukas Olson
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Repository, https://github.com/lukasgolson/Autokit
+Keywords: automation,tools,installation
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 4 - Beta
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: loguru
+Provides-Extra: tqdm
+Requires-Dist: tqdm; extra == "tqdm"
+
+# autokit version 0.7.1
+
+
+
+A framework for effortlessly integrating external tools into your Python projects.
+
+## Installation
+
+```bash
+pip install autokit 
+```
+
+## Basic Usage
+
+```python
+from autokit import ToolConfig, PlatformData, ExternalTool
+from pathlib import Path
+
+class TestTool(ExternalTool):
+    def __init__(self, base_dir: str = "./third-party", progress_bar: bool = True, lazy_setup: bool = False):
+        super().__init__(base_dir, progress_bar, lazy_setup)
+
+    @property
+    def config(self) -> ToolConfig:
+        return ToolConfig(
+            tool_name="test-tool",
+            platform_data={
+                "windows": PlatformData(
+                    url="https://github.com/IRSS-UBC/MediaTools/releases/download/latest/win-x64.zip",
+                    subdir=Path(""),
+                    executable=Path("IRSSMediaTools.exe")
+                ),
+            },
+            python=False,
+        )
+
+    def help(self):
+        self.run_command("help")
+
+
+if __name__ == "__main__":
+    test = TestTool()
+    test.help()
+```
+
+## Features
+- Automatic download and configuration of external tools on first use.
+- Define tools and their commands in a configuration file.
+- Streamlined execution of tool commands from within your Python code.
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
+Contact: olson@student.ubc.ca
