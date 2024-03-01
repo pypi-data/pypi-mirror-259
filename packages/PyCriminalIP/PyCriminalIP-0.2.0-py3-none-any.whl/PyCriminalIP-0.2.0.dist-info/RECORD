@@ -1,0 +1,11 @@
+criminalip/__init__.py,sha256=VkvDWpOc7ZOR6mQ7J7mp58u4cH_-mMahMWcAjeXV4qM,63
+criminalip/api.py,sha256=8xrtqlbZrktY-_s1RcmKLgmOHq6U7Cg2-ReUyYdjFrs,6491
+criminalip/crimial_ip.py,sha256=LU3eXJL_p-gLHO7zNJgxpTWFW_O9mliriIdISh9YELo,8448
+criminalip/version.py,sha256=y2peIy1uv3Vb1jY96cPTn73-DcWamPbMBvvCgmi7YzI,80
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_CriminalIP.py,sha256=5GsETJNFp5GcSxwET8Ww9BhwRyKCmQYy5TjQWL0DKeE,3798
+PyCriminalIP-0.2.0.dist-info/LICENSE,sha256=p3lw9NaRa1lmJHhqMc4_qC9HDSyW2_iLtPqSJncL4C8,1068
+PyCriminalIP-0.2.0.dist-info/METADATA,sha256=Q6yp84-QPuCk7ljqCEr8py4E-owAVEzEZ-4sTT2TSZs,1267
+PyCriminalIP-0.2.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+PyCriminalIP-0.2.0.dist-info/top_level.txt,sha256=In-CMk7GRXpHcnZCBPgJB-NbfjmjE4jYf1hkevfTkgo,17
+PyCriminalIP-0.2.0.dist-info/RECORD,,
