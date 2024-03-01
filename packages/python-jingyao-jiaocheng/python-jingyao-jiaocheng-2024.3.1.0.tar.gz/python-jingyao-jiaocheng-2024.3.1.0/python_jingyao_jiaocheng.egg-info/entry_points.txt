@@ -1,0 +1,3 @@
+[console_scripts]
+PythonJingyaoJiaocheng = PythonJingyaoJiaocheng.__main__:main
+python-jingyao-jiaocheng = PythonJingyaoJiaocheng.__main__:main
