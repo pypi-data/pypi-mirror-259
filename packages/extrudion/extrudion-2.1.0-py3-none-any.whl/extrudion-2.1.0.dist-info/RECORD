@@ -1,0 +1,10 @@
+extrudion/__init__.py,sha256=BRPzazagdxBVLrIDDq6kmAWqzRxccDmmfuh6fzfYFOQ,108
+extrudion/analyzers.py,sha256=3oWkOXcefbIt4goAJaKCbMGTf1eZ6_vzDIDAJpUI8qA,618
+extrudion/extrudion.py,sha256=aBeZXQsAxyiQZOhkPdz6ynuFK5sfR_K4cxGG8m74lhc,2592
+extrudion/files.py,sha256=TE3kdxDfKzqlfG_TQx5PVGs2lK5W_6oNU7IQxmk9WeA,3460
+extrudion/fit.py,sha256=Rw2aWeYbniyyEYyH6NEXO1cJ4aSophxMF5Mqow0krXo,2702
+extrudion/plot.py,sha256=vK7Hnv9SwZ_OYvcZg57s8JEYhsTFkHaRZ_Y3-jd9f9s,1985
+extrudion-2.1.0.dist-info/LICENSE,sha256=kBS3gdLf_Z0v3tTorPXF_VjnTnItzX30eDSgYSBOWik,1089
+extrudion-2.1.0.dist-info/METADATA,sha256=9f3INjxjkYvhuwIMmkC1e0wrME-gWK5lzg5TUJNNBII,2813
+extrudion-2.1.0.dist-info/WHEEL,sha256=d2fvjOD7sXsVzChCqf0Ty0JbHKBaLYwDbGQDwQTnJ50,88
+extrudion-2.1.0.dist-info/RECORD,,
