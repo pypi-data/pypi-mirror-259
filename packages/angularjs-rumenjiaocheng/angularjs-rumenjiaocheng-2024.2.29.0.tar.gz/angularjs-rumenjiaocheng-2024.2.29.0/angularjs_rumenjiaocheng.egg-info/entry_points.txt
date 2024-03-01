@@ -1,0 +1,3 @@
+[console_scripts]
+AngularjsRumenjiaocheng = AngularjsRumenjiaocheng.__main__:main
+angularjs-rumenjiaocheng = AngularjsRumenjiaocheng.__main__:main
