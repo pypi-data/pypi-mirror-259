@@ -1,0 +1,16 @@
+README.md
+setup.py
+awskit/__init__.py
+awskit/interfaces/__init__.py
+awskit/interfaces/dynamodb.py
+awskit/interfaces/s3.py
+awskit/interfaces/sg.py
+awskit/interfaces/sqs.py
+awskit/interfaces/subnet.py
+awskit/interfaces/vpc.py
+awskit/lib/auth.py
+dslpy.egg-info/PKG-INFO
+dslpy.egg-info/SOURCES.txt
+dslpy.egg-info/dependency_links.txt
+dslpy.egg-info/requires.txt
+dslpy.egg-info/top_level.txt
