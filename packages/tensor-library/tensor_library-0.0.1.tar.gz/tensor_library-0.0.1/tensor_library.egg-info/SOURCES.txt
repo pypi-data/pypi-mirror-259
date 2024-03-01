@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+PyDeepLib/__init__.py
+PyDeepLib/layers.py
+PyDeepLib/loggingin.py
+PyDeepLib/speedfilein.py
+PyDeepLib/tensorclass.py
+tensor_library.egg-info/PKG-INFO
+tensor_library.egg-info/SOURCES.txt
+tensor_library.egg-info/dependency_links.txt
+tensor_library.egg-info/requires.txt
+tensor_library.egg-info/top_level.txt
