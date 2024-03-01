@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: gctools
+Version: 0.0.3
+Summary: Tools provided by GC.
+Home-page: https://github.com/casiez/gctools
+Author: Géry Casiez
+Author-email: gery.casiez@univ-lille.fr
+License: MIT License
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Provides: gctools
+Description-Content-Type: text/markdown
+
+# Gctools
+
+```pip install -U gctools```
