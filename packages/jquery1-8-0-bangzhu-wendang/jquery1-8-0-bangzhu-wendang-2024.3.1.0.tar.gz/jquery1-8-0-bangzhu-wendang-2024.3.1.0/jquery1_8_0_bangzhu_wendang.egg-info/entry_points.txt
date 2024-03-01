@@ -1,0 +1,3 @@
+[console_scripts]
+Jquery180BangzhuWendang = Jquery180BangzhuWendang.__main__:main
+jquery1-8-0-bangzhu-wendang = Jquery180BangzhuWendang.__main__:main
