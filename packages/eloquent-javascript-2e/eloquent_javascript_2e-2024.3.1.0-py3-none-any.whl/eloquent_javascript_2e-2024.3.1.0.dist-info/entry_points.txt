@@ -1,0 +1,3 @@
+[console_scripts]
+EloquentJavascript2e = EloquentJavascript2e.__main__:main
+eloquent-javascript-2e = EloquentJavascript2e.__main__:main
