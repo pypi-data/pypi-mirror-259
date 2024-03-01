@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: xarray-selafin-backend
+Version: 0.1.2a1
+Summary: https://github.com/seareport/xarray-selafin
+Author: ['tomsail', 'lucduron']
+Author-email: l.duron@cnr.tm.fr
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pytest
+Requires-Dist: scipy
+Requires-Dist: shapely
+Requires-Dist: xarray
+Requires-Dist: netcdf4
+Provides-Extra: dask
+Requires-Dist: dask ; extra == 'dask'
+Provides-Extra: dev
+Requires-Dist: matplotlib ; extra == 'dev'
+
+# xarray backend for Selafin formats
+
+## Dev guide
+
+to have the backend working in xarray, follow these steps
+
+```
+git clone this repository
+poetry install 
+```
+
+## Read selafin
+
+```python
+import xarray as xr
+ds = xr.open_dataset("input_file.slf", engine='selafin')
+```
+## Write selafin
+
+```python
+ds.selafin.write('output_file.slf')
+```
