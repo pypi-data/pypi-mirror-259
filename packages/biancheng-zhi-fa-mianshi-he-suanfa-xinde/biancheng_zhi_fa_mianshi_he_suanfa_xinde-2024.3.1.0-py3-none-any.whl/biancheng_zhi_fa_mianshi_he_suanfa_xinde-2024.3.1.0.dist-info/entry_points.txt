@@ -1,0 +1,3 @@
+[console_scripts]
+BianchengZhiFaMianshiHeSuanfaXinde = BianchengZhiFaMianshiHeSuanfaXinde.__main__:main
+biancheng-zhi-fa-mianshi-he-suanfa-xinde = BianchengZhiFaMianshiHeSuanfaXinde.__main__:main
