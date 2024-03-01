@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/redtea/__init__.py
+src/redtea.egg-info/PKG-INFO
+src/redtea.egg-info/SOURCES.txt
+src/redtea.egg-info/dependency_links.txt
+src/redtea.egg-info/top_level.txt
