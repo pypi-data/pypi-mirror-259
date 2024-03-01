@@ -1,0 +1,12 @@
+matplotlib
+openpyxl
+pyopenssl
+pandas
+pip
+setuptools
+biopython
+pypdf2
+pytest
+reportlab
+requests
+xlsxwriter
