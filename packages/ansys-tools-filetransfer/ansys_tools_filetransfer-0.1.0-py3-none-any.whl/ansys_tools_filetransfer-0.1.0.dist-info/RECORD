@@ -1,0 +1,9 @@
+ansys/tools/filetransfer/__init__.py,sha256=2DeiUBojnhjiFEMbcn1aJOfOmW7Ir9UMqBWloQiFbaI,1357
+ansys/tools/filetransfer/_client.py,sha256=qUin3zFMnX-tipZie4tA9CS2zORNH9CievSsZItdTx4,10873
+ansys/tools/filetransfer/_log.py,sha256=SR2azKK4QG9xOLyEXP_9XZNOJrGbeiAHykbBV_qGSN8,1523
+ansys/tools/filetransfer/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ansys_tools_filetransfer-0.1.0.dist-info/AUTHORS,sha256=LKW3VHvQGJA5jQN4taZeVkkFIGtpXUH3OOnh6tTWWnU,365
+ansys_tools_filetransfer-0.1.0.dist-info/LICENSE,sha256=Yxgv1E8LbgCF-Er34I1WfW_6WMTe85rvGPYKtLVqdFA,1096
+ansys_tools_filetransfer-0.1.0.dist-info/METADATA,sha256=h-K9LKA6AKXRJnW6ajEZRG3PMPgeJE9L6DPaYo1DPoU,4687
+ansys_tools_filetransfer-0.1.0.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+ansys_tools_filetransfer-0.1.0.dist-info/RECORD,,
