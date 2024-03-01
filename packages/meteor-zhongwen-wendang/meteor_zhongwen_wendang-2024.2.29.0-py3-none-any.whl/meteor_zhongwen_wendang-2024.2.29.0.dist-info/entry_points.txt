@@ -1,0 +1,3 @@
+[console_scripts]
+MeteorZhongwenWendang = MeteorZhongwenWendang.__main__:main
+meteor-zhongwen-wendang = MeteorZhongwenWendang.__main__:main
