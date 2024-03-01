@@ -1,0 +1,3 @@
+[console_scripts]
+LodashZhongwenWendang45 = LodashZhongwenWendang45.__main__:main
+lodash-zhongwen-wendang-4-5 = LodashZhongwenWendang45.__main__:main
