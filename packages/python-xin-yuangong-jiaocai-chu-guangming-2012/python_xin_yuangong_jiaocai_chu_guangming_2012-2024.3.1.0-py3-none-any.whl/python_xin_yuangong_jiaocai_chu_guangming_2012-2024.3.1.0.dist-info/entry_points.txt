@@ -1,0 +1,3 @@
+[console_scripts]
+PythonXinYuangongJiaocaiChuGuangming2012 = PythonXinYuangongJiaocaiChuGuangming2012.__main__:main
+python-xin-yuangong-jiaocai-chu-guangming-2012 = PythonXinYuangongJiaocaiChuGuangming2012.__main__:main
