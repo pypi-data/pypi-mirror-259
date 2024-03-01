@@ -1,0 +1,6 @@
+jupyter
+jupyter-server-proxy
+jupyterlab-vpython
+numpy
+ipykernel
+autobahn<27,>=22.6.1
