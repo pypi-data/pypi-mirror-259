@@ -1,0 +1,14 @@
+xarray_selafin_backend/Serafin.py,sha256=YEvsUSgQQKRM-7lp2m9TMqCsFIs8eCPN3tSEYEiVRp4,47921
+xarray_selafin_backend/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xarray_selafin_backend/xarray_backend.py,sha256=gb7Te79tR0CtIc1N7HfkO6w5S3zAZak5KxwKWGyTnYY,9916
+xarray_selafin_backend/data/Serafin_var2D.csv,sha256=TSDsEvnEXUXqN7ViCxV9WweUEpwAoPnQwEgxjvY7U8U,2562
+xarray_selafin_backend/data/Serafin_var3D.csv,sha256=FxcIKriFWxn6mw75kjKDapbPaKxQOO_vxgCL9uVs0ng,790
+xarray_selafin_backend/variable/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xarray_selafin_backend/variable/variables_2d.py,sha256=_x6eC3i2Fyfp9fqeo_fp4JBA2ln50Jpb4DNWBLt7tuE,12235
+xarray_selafin_backend/variable/variables_3d.py,sha256=11ZSXy9QL07Em7edK4FIaUWSnjT55ERokgl0m0rJW4s,2507
+xarray_selafin_backend/variable/variables_utils.py,sha256=dUjV54cdGBtcuRwlHRF-EMTc4RkD5TAQ6-SgHxg7ofA,5294
+xarray_selafin_backend-0.1.1.dist-info/METADATA,sha256=YvUGVmG5KGDhsw0yBWegU-sRxuoSz4TQC7Xi7unMCRw,861
+xarray_selafin_backend-0.1.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+xarray_selafin_backend-0.1.1.dist-info/entry_points.txt,sha256=HdQaSV7YBefwzVWgBKvlj5xG1FGOsuOa_ZUCSg-AXiM,91
+xarray_selafin_backend-0.1.1.dist-info/top_level.txt,sha256=inAtglMXYPF8mLbaXcnQms7cC1y8KUeNE71Qr3nxmmk,23
+xarray_selafin_backend-0.1.1.dist-info/RECORD,,
