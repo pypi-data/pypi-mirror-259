@@ -1,0 +1,3 @@
+[console_scripts]
+GoBiaozhunKuZhongwenCankao = GoBiaozhunKuZhongwenCankao.__main__:main
+go-biaozhun-ku-zhongwen-cankao = GoBiaozhunKuZhongwenCankao.__main__:main
