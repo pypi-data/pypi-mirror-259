@@ -1,0 +1,9 @@
+pyedautils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyedautils/season.py,sha256=OxKqpq4J1BbP2ZiRQ9cWiTLg0pInslPAPv8IpMa8V2E,2089
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_season.py,sha256=y9T4G0_4yX88zMbP8CCmNVz9_LKWhUs2xPsm2ejtRg4,3716
+pyedautils-0.0.1.dist-info/LICENSE.txt,sha256=I6xFu-l1vrvwqZMhel9SnLoxbZr4wwZ16OQqZ5tWjqY,1067
+pyedautils-0.0.1.dist-info/METADATA,sha256=Mg4jU-y24BB2T45kiWEg0lRlPT6a_UDkr1N57EehOIU,4320
+pyedautils-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+pyedautils-0.0.1.dist-info/top_level.txt,sha256=kw8tNBysWXBFicCGqgtn16tsR4QYkftmI82s0vT8qu8,17
+pyedautils-0.0.1.dist-info/RECORD,,
