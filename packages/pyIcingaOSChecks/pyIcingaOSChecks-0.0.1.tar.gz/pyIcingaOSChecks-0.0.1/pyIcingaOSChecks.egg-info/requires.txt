@@ -1,0 +1,3 @@
+pyIcingaFramework
+psutil
+dbus-python
