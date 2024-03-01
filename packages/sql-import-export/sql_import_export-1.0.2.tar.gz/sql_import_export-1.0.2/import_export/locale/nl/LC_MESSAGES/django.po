@@ -1,0 +1,475 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-29 20:43+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Machine-Translator: OPUS-MT\n"
+"X-Machine-Translator-Creation: 2024-01-21T14:04:24.558295+00:00\n"
+"X-Machine-Translator-Source: en\n"
+"X-Machine-Translator-Target: nl\n"
+
+#: .\application\import_export\forms.py:25
+#: .\application\import_export\templates\import_export\export.html:63
+msgid "Database"
+msgstr "Gegevensbank"
+
+#: .\application\import_export\forms.py:26
+#, python-format
+msgid "Select the database you want to %(import_export)s from."
+msgstr "Selecteer de database die u wilt %(import_export)s van."
+
+#: .\application\import_export\forms.py:48
+msgid "The password you entered is incorrect."
+msgstr "Het wachtwoord dat u heeft ingevoerd is onjuist."
+
+#: .\application\import_export\forms.py:51
+msgid "Account Password"
+msgstr "Accountwachtwoord"
+
+#: .\application\import_export\forms.py:52
+msgid "Enter your account password to perform this action."
+msgstr "Voer uw accountwachtwoord in om deze actie uit te voeren."
+
+#: .\application\import_export\forms.py:70
+msgid "Form is not valid."
+msgstr "Formulier is niet geldig."
+
+#: .\application\import_export\forms.py:88
+#: .\application\import_export\models.py:107
+msgid "Interval"
+msgstr "Tussenpoos"
+
+#: .\application\import_export\forms.py:89
+msgid "Select the interval to run the database dump on."
+msgstr "Selecteer de intermissie perioden om de database dump op te draaien."
+
+#: .\application\import_export\models.py:78
+msgid "Hour(s)"
+msgstr "Uur/Uren"
+
+#: .\application\import_export\models.py:79
+msgid "Day(s)"
+msgstr "Dag(en)"
+
+#: .\application\import_export\models.py:80
+msgid "Week(s)"
+msgstr "Week(en)"
+
+#: .\application\import_export\models.py:81
+msgid "Month(s)"
+msgstr "Maand(en)"
+
+#: .\application\import_export\models.py:82
+msgid "Year(s)"
+msgstr "Jaar/Jaren"
+
+#: .\application\import_export\models.py:85
+msgid "Start On"
+msgstr "Beginnen op"
+
+#: .\application\import_export\models.py:86
+msgid "The date and time to start the schedule."
+msgstr "De datum en tijd om het schema te starten."
+
+#: .\application\import_export\models.py:92
+msgid "Period"
+msgstr "Periode"
+
+#: .\application\import_export\models.py:108
+msgid "The interval to run the schedule."
+msgstr "De interval om het schema te draaien."
+
+#: .\application\import_export\models.py:116
+msgid "Task"
+msgstr "Taak"
+
+#: .\application\import_export\models.py:117
+msgid "The task to run."
+msgstr "De taak om uit te voeren."
+
+#: .\application\import_export\models.py:128
+msgid "Database Dump Schedule"
+msgstr "Database Dump Schema"
+
+#: .\application\import_export\models.py:129
+msgid "Database Dump Schedules"
+msgstr "Database Dump Schema's"
+
+#: .\application\import_export\models.py:132
+msgid "Schedule Backup"
+msgstr "Back-up Schema"
+
+#: .\application\import_export\models.py:221
+#: .\application\import_export\wagtail_hooks.py:145
+#: .\application\import_export\wagtail_hooks.py:474
+msgid "Import"
+msgstr "Importeren"
+
+#: .\application\import_export\models.py:222
+#: .\application\import_export\templates\import_export\export.html:116
+#: .\application\import_export\templates\import_export\export.html:118
+#: .\application\import_export\wagtail_hooks.py:201
+#: .\application\import_export\wagtail_hooks.py:488
+msgid "Export"
+msgstr "Exporteren"
+
+#: .\application\import_export\models.py:223
+#: .\application\import_export\wagtail_hooks.py:98
+#: .\application\import_export\wagtail_hooks.py:460
+msgid "Backup"
+msgstr "Reservekopie"
+
+#: .\application\import_export\models.py:228
+msgid "Settings Key"
+msgstr "Instellingen- sleutel"
+
+#: .\application\import_export\models.py:229
+msgid "The database as it appears in Django Settings."
+msgstr "De database zoals deze in Django-instellingen verschijnt."
+
+#: .\application\import_export\models.py:235
+msgid "Database Name"
+msgstr "Databasenaam"
+
+#: .\application\import_export\models.py:236
+msgid "The name of the database."
+msgstr "De naam van de database."
+
+#: .\application\import_export\models.py:239
+#: .\application\import_export\templates\import_export\export.html:64
+msgid "Tables"
+msgstr "Tabellen"
+
+#: .\application\import_export\models.py:240
+msgid "The tables that were dumped."
+msgstr "De tabellen die werden gedumpt."
+
+#: .\application\import_export\models.py:246
+msgid "Type"
+msgstr "Type"
+
+#: .\application\import_export\models.py:247
+msgid "The type of dump."
+msgstr "Het type dump."
+
+#: .\application\import_export\models.py:251
+msgid "Created"
+msgstr "Gemaakt op"
+
+#: .\application\import_export\models.py:252
+msgid "The date and time the dump was created."
+msgstr "De datum en tijd waarop de dump is gemaakt."
+
+#: .\application\import_export\models.py:255
+#: .\application\import_export\models.py:284
+msgid "File"
+msgstr "Bestand"
+
+#: .\application\import_export\models.py:256
+msgid "The file containing the dump."
+msgstr "Het bestand met de dump."
+
+#: .\application\import_export\models.py:272
+msgid "Download File"
+msgstr "Download Bestand"
+
+#: .\application\import_export\models.py:277
+#: .\application\import_export\templates\import_export\export.html:25
+#: .\application\import_export\templates\import_export\export.html:61
+#: .\application\import_export\templates\import_export\export.html:79
+msgid "Recover"
+msgstr "Herstellen"
+
+#: .\application\import_export\models.py:293
+msgid "Database Dump"
+msgstr "Database dump"
+
+#: .\application\import_export\models.py:294
+#: .\application\import_export\wagtail_hooks.py:394
+msgid "Database Dumps"
+msgstr "Database dumps"
+
+#: .\application\import_export\models.py:333
+msgid "Import/Export Permission Model"
+msgstr "In- / Export Permissiemodel"
+
+#: .\application\import_export\models.py:334
+msgid "Import/Export Permission Models"
+msgstr "In- / Export Permissiemodellen"
+
+#: .\application\import_export\models.py:339
+msgid "Access Import/Export Admin"
+msgstr "Toegang tot Import / Export Admin"
+
+#: .\application\import_export\models.py:340
+msgid "Import Database"
+msgstr "Exporteer Database"
+
+#: .\application\import_export\models.py:341
+msgid "Export Database"
+msgstr "Exporteer Database"
+
+#: .\application\import_export\models.py:342
+#: .\application\import_export\templates\import_export\export.html:20
+#: .\application\import_export\templates\import_export\export.html:74
+msgid "Download Dump"
+msgstr "Dump downloaden"
+
+#: .\application\import_export\templates\import_export\export.html:30
+msgid "New"
+msgstr "Nieuw"
+
+#: .\application\import_export\templates\import_export\export.html:41
+msgid "Maintenance mode will be activated for the duration of the export."
+msgstr "Onderhoudsmodus wordt geactiveerd voor de duur van de export."
+
+#: .\application\import_export\templates\import_export\export.html:45
+#, python-format
+msgid "Exporting %(tables_count)s tables from %(database)s"
+msgstr "Exporteren van %(tables_count)s tabellen vanuit %(database)s"
+
+#: .\application\import_export\templates\import_export\export.html:47
+#, python-format
+msgid "Exporting %(tables_count)s tables"
+msgstr "%(tables_count)s tabellen aan het exporteren"
+
+#: .\application\import_export\templates\import_export\export.html:58
+msgid "Download"
+msgstr "Downloaden"
+
+#: .\application\import_export\templates\import_export\export.html:65
+msgid "File Size"
+msgstr "Bestandsgrootte"
+
+#: .\application\import_export\templates\import_export\export.html:66
+msgid "Created At"
+msgstr "Aangemaakt op"
+
+#: .\application\import_export\templates\import_export\export.html:85
+msgid "Latest"
+msgstr "Laatste"
+
+#: .\application\import_export\templates\import_export\export.html:96
+msgid "No database dumps found."
+msgstr "Geen database dumps gevonden."
+
+#: .\application\import_export\templates\import_export\export.html:101
+msgid "Export the database to a ZIP archive containing .sql files."
+msgstr "Exporteer de database naar een ZIP-archief met .sql-bestanden."
+
+#: .\application\import_export\templates\import_export\export.html:115
+msgid "Exporting..."
+msgstr "Exporteren..."
+
+#: .\application\import_export\templates\import_export\export.html:123
+msgid "Download Export"
+msgstr "Export downloaden"
+
+#: .\application\import_export\templates\import_export\export.html:134
+msgid "Databases"
+msgstr "Databases"
+
+#: .\application\import_export\templates\import_export\import.html:26
+msgid "Drag and drop a database zip file here"
+msgstr "Sleep een database zip-bestand hierheen"
+
+#: .\application\import_export\templates\import_export\import.html:27
+msgid "or"
+msgstr "of"
+
+#: .\application\import_export\templates\import_export\import.html:28
+msgid "Click to select a file"
+msgstr "Klik om een bestand te selecteren"
+
+#: .\application\import_export\templates\import_export\import_confirm.html:27
+msgid "Are you sure you want to do this?"
+msgstr "Weet u zeker dat u dit wilt doen?"
+
+#: .\application\import_export\templates\import_export\import_confirm.html:28
+msgid "This operation is seriously dangerous."
+msgstr "Deze operatie is zeer gevaarlijk."
+
+#: .\application\import_export\templates\import_export\import_confirm.html:37
+#: .\application\import_export\templates\import_export\import_confirm.html:111
+#, python-format
+msgid "Database %(action)s"
+msgstr "Database %(action)s"
+
+#: .\application\import_export\templates\import_export\import_confirm.html:39
+#, python-format
+msgid "You are about to %(action)s a database file."
+msgstr "U staat op het punt om een databasebestand te %(action)s."
+
+#: .\application\import_export\templates\import_export\import_confirm.html:47
+msgid "You are about to import a database file."
+msgstr "U staat op het punt om een databasebestand te importeren."
+
+#: .\application\import_export\templates\import_export\import_confirm.html:47
+msgid "This might break your website."
+msgstr "Dit kan uw website breken."
+
+#: .\application\import_export\templates\import_export\import_confirm.html:50
+msgid ""
+"Hiring a developer to fix database issues can be really expensive and will "
+"take up a lot of time. We would advise you not to take any risks."
+msgstr ""
+"Het inhuren van een ontwikkelaar om databaseproblemen op te lossen kan erg "
+"duur zijn en veel tijd in beslag nemen. We raden u aan geen risico's te "
+"nemen."
+
+#: .\application\import_export\templates\import_export\import_confirm.html:65
+#: .\application\import_export\templates\import_export\import_confirm.html:66
+#: .\application\import_export\templates\import_export\import_confirm.html:109
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: .\application\import_export\templates\import_export\import_confirm.html:82
+msgid ""
+"This will override all files in the database - this operation is considered "
+"highly unsafe."
+msgstr ""
+"Dit zal alle bestanden in de database overschrijven - deze operatie wordt "
+"als zeer onveilig beschouwd."
+
+#: .\application\import_export\templates\import_export\import_confirm.html:98
+#, python-format
+msgid "Maintenance mode will be activated for the duration of the %(action)s."
+msgstr "Onderhoudsmodus wordt geactiveerd voor de duur van het %(action)s."
+
+#: .\application\import_export\templates\import_export\import_confirm.html:103
+#, python-format
+msgid "Are you sure you want to %(action)s %(count)s database files?"
+msgstr "Weet u zeker dat u %(count)s databasebestanden wilt %(action)s?"
+
+#: .\application\import_export\templates\import_export\import_confirm.html:105
+msgid "Any information lost cannot be recovered."
+msgstr "Alle verloren informatie kan niet worden hersteld."
+
+#: .\application\import_export\templates\import_export\import_confirm.html:106
+msgid ""
+"A backup is made for each import, but this is not a guarantee to data "
+"restoration."
+msgstr ""
+"Een back-up wordt gemaakt voor elke import, maar dit is geen garantie voor "
+"gegevensherstel."
+
+#: .\application\import_export\templates\import_export\task.html:20
+#, python-format
+msgid ""
+"\n"
+"                    A backup task is already scheduled to be ran every "
+"%(period)s %(interval)s, with the next backup occuring <strong>"
+"%(next_backup_date)s</strong>"
+msgstr ""
+"\n"
+"                    Een back-uptaak is al gepland om elke %(period)s "
+"%(interval)s te worden uitgevoerd, met de volgende back-up <strong>"
+"%(next_backup_date)s</strong>"
+
+#: .\application\import_export\templates\import_export\task.html:27
+msgid "Schedule a backup to be made at regular intervals"
+msgstr "Plan een back-up in om regelmatig te worden gemaakt"
+
+#: .\application\import_export\templates\import_export\task.html:38
+msgid "I would like my backups to occur every"
+msgstr "Ik wil dat mijn back-ups elke"
+
+#: .\application\import_export\templates\import_export\task.html:58
+msgid "Make a backup now"
+msgstr "Maak nu een back-up"
+
+#: .\application\import_export\templates\import_export\task.html:59
+msgid "Edit Schedule"
+msgstr "Schema bewerken"
+
+#: .\application\import_export\wagtail_hooks.py:99
+msgid "Schedule a backup of the database."
+msgstr "Plan een back-up van de database."
+
+#: .\application\import_export\wagtail_hooks.py:139
+msgid "Backup schedule updated."
+msgstr "Back-up schema bijgewerkt."
+
+#: .\application\import_export\wagtail_hooks.py:146
+msgid "Import a database dump."
+msgstr "Importeer een database dump."
+
+#: .\application\import_export\wagtail_hooks.py:202
+msgid "Export a database dump."
+msgstr "Exporteer een database dump."
+
+#: .\application\import_export\wagtail_hooks.py:267
+#: .\application\import_export\wagtail_hooks.py:354
+#: .\application\import_export\wagtail_hooks.py:355
+msgid "import"
+msgstr "importeren"
+
+#: .\application\import_export\wagtail_hooks.py:269
+#: .\application\import_export\wagtail_hooks.py:358
+msgid "Confirm Import"
+msgstr "Bevestig Importeren"
+
+#: .\application\import_export\wagtail_hooks.py:270
+#: .\application\import_export\wagtail_hooks.py:359
+msgid "Confirm the import of a database dump."
+msgstr "Bevestig de import van een database dump."
+
+#: .\application\import_export\wagtail_hooks.py:307
+msgid "Invalid password."
+msgstr "Ongeldig wachtwoord."
+
+#: .\application\import_export\wagtail_hooks.py:338
+#: .\application\import_export\wagtail_hooks.py:350
+msgid "An error occurred during the import process."
+msgstr "Er is een fout opgetreden tijdens het importproces."
+
+#: .\application\import_export\wagtail_hooks.py:341
+msgid "An error occurred while restoring the database."
+msgstr "Er is een fout opgetreden tijdens het herstellen van de database."
+
+#: .\application\import_export\wagtail_hooks.py:344
+msgid "An error occurred while dumping the database."
+msgstr "Er is een fout opgetreden tijdens het dumpen van de database."
+
+#: .\application\import_export\wagtail_hooks.py:347
+msgid "An error occurred while migrating to the new database."
+msgstr "Er is een fout opgetreden tijdens het migreren naar de nieuwe database."
+
+#: .\application\import_export\wagtail_hooks.py:363
+#: .\application\import_export\wagtail_hooks.py:364
+msgid "recover"
+msgstr "herstellen"
+
+#: .\application\import_export\wagtail_hooks.py:367
+msgid "Confirm Recover"
+msgstr "Bevestig Herstellen"
+
+#: .\application\import_export\wagtail_hooks.py:368
+msgid "Confirm the recovery of a database dump."
+msgstr "Bevestig het herstellen van een database dump."
+
+#: .\application\import_export\wagtail_hooks.py:429
+msgid "Import/Export Maintenance Mode"
+msgstr "In- / Export Onderhoudsmodus"
+
+#: .\application\import_export\wagtail_hooks.py:430
+msgid "This will be automatically triggered when importing/exporting."
+msgstr "Dit wordt automatisch geactiveerd bij het importeren / exporteren."
+
+#: .\application\import_export\wagtail_hooks.py:502
+msgid "Import/Export"
+msgstr "In- of Exporteren"

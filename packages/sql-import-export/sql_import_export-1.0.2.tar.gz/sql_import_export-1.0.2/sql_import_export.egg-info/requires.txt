@@ -1,0 +1,7 @@
+Django>=4.2
+Wagtail>=5.0
+celery>=5.3.1
+django-celery-beat>=2.5.0
+wagtail_panels>=1.0.0
+wagtail-maintenance>=1.0.0
+cryptography>=42.0.5

@@ -1,0 +1,67 @@
+{% extends "wagtailadmin/generic/base.html" %}
+
+{% load i18n wagtailadmin_tags static %}
+
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'import_export/import_export.css' %}">
+{% endblock %}
+
+{% block extra_js %}
+    <script src="{% static "wagtailadmin/js/date-time-chooser.js" %}"></script>
+{% endblock %}
+
+{% block main_content %}
+    <div class="backup-schedule">
+
+        {% if task and task.task %}
+            <div class="help-block help-info">
+                {% icon name="help" %}
+                <p>
+                    {% blocktrans with period=task.period interval=task.get_interval_display|lower next_backup_date=task.next_backup|date:"SHORT_DATETIME_FORMAT" %}
+                    A backup task is already scheduled to be ran every {{period}} {{interval}}, with the next backup occuring <strong>{{next_backup_date}}</strong>{% endblocktrans %}
+                </p>
+            </div>
+        {% endif %}
+
+        <header class="backups-header">
+            <h2>{% translate "Schedule a backup to be made at regular intervals" %}</h2>
+        </header>
+        
+        <section>
+            <form class="backup-schedule-form" action="{% url "import_export:backup" %}" method="POST">
+                {% csrf_token %}
+
+                {{ form.media }}
+                {{ form.non_field_errors }}
+
+                <div class="field">
+                    {% translate "I would like my backups to occur every" %} {{form.period}}
+                    {% for option in form.interval %}
+                        <label for="frequency-{{option.data.index}}">
+                            <input type="radio" 
+                                name="{{option.data.name}}"
+                                value="{{option.data.value}}" 
+                                required="" id="frequency-{{option.data.index}}"{% if option.data.value == task.interval %}
+                                checked{%endif%}>
+                            {{option.data.label}}
+                        </label>
+                    {% endfor %}
+                </div>
+
+                <div class="field">
+                    {{ form.start_on.label_tag }}
+                    {{ form.start_on }}
+                </div>
+                <script>initDateTimeChooser("id_start_on", {"dayOfWeekStart": 1, "format": "d-m-Y H:i", "formatTime": "H:i", "parentID": "body"});</script>
+
+                <div class="buttons">
+                    <button type="submit" value="{% translate "Make a backup now" %}" class="button button-secondary">
+                        {% translate "Edit Schedule" %}
+                    </button>
+                </div>
+            </form>
+        </section>
+
+    </div>
+
+{% endblock %}

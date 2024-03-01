@@ -1,0 +1,174 @@
+{% extends "wagtailadmin/generic/base.html" %}
+
+{% load i18n static wagtailadmin_tags %}
+
+
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'import_export/import_export.css' %}">
+{% endblock %}
+
+{% block extra_js %}
+    <script src="{% static 'import_export/export.js' %}"></script>
+{% endblock %}
+
+
+{% block main_content %}
+    <template id="dump-template">
+        <tr>
+            {% if "import_export.download_dump" in perms %}
+                <td>
+                    <a class="button button-small" href="__DOWNLOAD_URL__">{% translate "Download Dump" %}</a>
+                </td>
+            {% endif %}
+            {% if "import_export.import_database" in perms %}
+                <td>
+                    <a class="button no button-small" href="__RECOVER_URL__">{% translate "Recover" %}</a>
+                </td>
+            {% endif %}
+            <td class="title">
+                <a href="__EDIT_URL__"><strong>__DATABASE__</strong></a>
+                <span class="w-status w-status--secondary">{% translate "New" %}</span>
+            </td>
+            <td>__TABLES_COUNT__</td>
+            <td>__DUMP_FILESIZE__</td>
+            <td>__DUMP_CREATED__</td>
+        </tr>
+    </template>
+    <div class="database-form-flex-row">
+        <div class="table-select-form-header">
+            <div class="help-block help-info">
+                {% icon name="help" %}
+                <p>{% translate "Maintenance mode will be activated for the duration of the export." %}</p>
+            </div>
+            <h2>
+                {% if databases %}
+                {% blocktrans with tables_count=view.tables|length database=view.selected_database.NAME %}Exporting {{tables_count}} tables from {{ database }}{% endblocktrans %}
+                {% else %}
+                {% blocktrans with tables_count=view.tables|length %}Exporting {{tables_count}} tables{% endblocktrans %}
+                {% endif %}
+            </h2>
+        </div>
+        <div class="table-select-form-list">
+            <div class="database-dumps">
+                {% if dumps|length > 0 %}
+                    <table class="listing">
+                        <thead>
+                            <tr>
+                                {% if "import_export.download_dump" in perms %}
+                                    <th><h2>{% translate "Download" %}</h2></th>
+                                {% endif %}
+                                {% if "import_export.import_database" in perms %}
+                                    <th>{% translate "Recover" %}</th>
+                                {% endif %}
+                                <th>{% translate "Database" %}</th>
+                                <th>{% translate "Tables" %}</th>
+                                <th>{% translate "File Size" %}</th>
+                                <th>{% translate "Created At" %}</th>
+                            </tr>
+                        </thead>
+                        <tbody class="listing-items">
+                            {% for dump in dumps %}
+                                <tr>
+                                    {% if "import_export.download_dump" in perms %}
+                                        <td>
+                                            <a class="button button-small" href="{% url "import_export:download_file" dump.pk %}">{% translate "Download Dump" %}</a>
+                                        </td>
+                                    {% endif %}
+                                    {% if "import_export.import_database" in perms %}
+                                        <td>
+                                            <a class="button no button-small" href="{% url "import_export:confirm_recover" dump.pk %}">{% translate "Recover" %}</a>
+                                        </td>
+                                    {% endif %}
+                                    <td class="title">
+                                        <a href="{% url "import_export_dumps:edit" dump.pk %}"><strong>{{dump.database|upper}}</strong></a>
+                                        {% if forloop.counter0 == 0 %}
+                                            <span class="w-status w-status--primary">{% translate "Latest" %}</span>
+                                        {% endif %}
+                                    </td>
+                                    <td>{{dump.tables|length}}</td>
+                                    <td>{{dump.filesize}}</td>
+                                    <td>{{dump.created|date:"d/m/Y H:i:s"}}</td>
+                                </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                {% else %}
+                    <p>{% translate "No database dumps found." %}</p>
+                {% endif %}
+            </div>
+    
+            <div class="field-label">
+                <p class="help">{% translate "Export the database to a ZIP archive containing .sql files." %}
+            </div>
+            <div class="status-wrapper">
+                <div id="statusbar" class="progress active">
+                    <div id="bar" class="bar" style="width: 0%;"></div>
+                </div>
+            </div>
+            <div class="database-form-buttons">
+                <div class="btn-wrapper">
+                    <button 
+                            id="export_database"
+                            class="button button-secondary button-longrunning"
+                            type="submit"
+                            data-selected-database-url="{% url 'import_export:export' %}?database={{view.selected_database_key}}"
+                            data-exporting-text="{% translate 'Exporting...' %}"
+                            data-export-text="{% translate 'Export' %}"
+                            data-csrf-token="{{ csrf_token }}">
+                        {% translate "Export" %}
+                    </button>
+                </div>
+                {% if "import_export.download_dump" in perms %}
+                    <div class="btn-wrapper" style="display: none;">
+                        <button id="download_export" class="button button-secondary" type="submit">{% translate "Download Export" %}</button>
+                    </div>
+                {% endif %}
+                {% if databases %}
+                    <div data-controller="w-dropdown" class="w-dropdown w-inline-block">
+                        <button
+                                type="button"
+                                class="w-dropdown__toggle button button-secondary"
+                                data-w-dropdown-target="toggle"
+                                aria-hidden="true"
+                                aria-expanded="false">
+                            {% translate "Databases" %}
+                            <svg
+                                class="icon icon-arrow-down w-dropdown__toggle-icon"
+                                aria-hidden="false">
+                                <use href="#icon-arrow-down"></use>
+                            </svg>
+                        </button>
+                    
+                        <div
+                            data-tippy-root=""
+                            id="tippy-1"
+                            style="z-index: 9999;visibility: visible;position: absolute;inset: 0px auto auto 0px;margin: 0px;transform: translate(62px, 4463px);">
+                            <div
+                                class="tippy-box"
+                                data-state="visible"
+                                tabindex="-1"
+                                data-theme="dropdown"
+                                data-animation="fade"
+                                role="tooltip"
+                                data-placement="bottom"
+                                style="max-width: 350px; transition-duration: 300ms">
+                                <div class="tippy-content" data-state="visible" style="transition-duration: 300ms">
+                                    <div data-w-dropdown-target="content" class="w-dropdown__content">
+                                        {% for database in databases %} 
+                                            <a href="{% url 'import_export:export' %}?database={{database.0}}">
+                                                <svg class="icon database-add icon" aria-hidden="true">
+                                                    <use href="#database-add"></use>
+                                                </svg>
+                                                {{database.1|title}}
+                                            </a>
+                                        {% endfor %}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+{% endblock %}
