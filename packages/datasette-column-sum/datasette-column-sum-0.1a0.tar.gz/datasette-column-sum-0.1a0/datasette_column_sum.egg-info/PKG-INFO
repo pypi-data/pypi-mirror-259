@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: datasette-column-sum
+Version: 0.1a0
+Summary: Sum the values in numeric Datasette columns
+Author: Simon Willison
+License: Apache-2.0
+Project-URL: Homepage, https://github.com/datasette/datasette-column-sum
+Project-URL: Changelog, https://github.com/datasette/datasette-column-sum/releases
+Project-URL: Issues, https://github.com/datasette/datasette-column-sum/issues
+Project-URL: CI, https://github.com/datasette/datasette-column-sum/actions
+Classifier: Framework :: Datasette
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: datasette>=1.0a12
+Provides-Extra: test
+Requires-Dist: pytest; extra == "test"
+Requires-Dist: pytest-asyncio; extra == "test"
+Requires-Dist: datasette-test; extra == "test"
+Requires-Dist: nest-asyncio; extra == "test"
+Provides-Extra: playwright
+Requires-Dist: pytest-playwright; extra == "playwright"
+
+# datasette-column-sum
+
+[![PyPI](https://img.shields.io/pypi/v/datasette-column-sum.svg)](https://pypi.org/project/datasette-column-sum/)
+[![Changelog](https://img.shields.io/github/v/release/datasette/datasette-column-sum?include_prereleases&label=changelog)](https://github.com/datasette/datasette-column-sum/releases)
+[![Tests](https://github.com/datasette/datasette-column-sum/actions/workflows/test.yml/badge.svg)](https://github.com/datasette/datasette-column-sum/actions/workflows/test.yml)
+[![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/datasette/datasette-column-sum/blob/main/LICENSE)
+
+Sum the values in numeric Datasette columns
+
+## Installation
+
+Install this plugin in the same environment as Datasette.
+```bash
+datasette install datasette-column-sum
+```
+## Usage
+
+Numeric columns (float and integer) will have a new "Sum this column" menu item in their column action menu (accessible via the cog icon).
+
+Text columns get options to calculate sums for those numeric columns grouped by the text column.
+
+## Development
+
+To set up this plugin locally, first checkout the code. Then create a new virtual environment:
+```bash
+cd datasette-column-sum
+python3 -m venv venv
+source venv/bin/activate
+```
+Now install the dependencies and test dependencies:
+```bash
+pip install -e '.[test]'
+```
+To run the tests:
+```bash
+pytest
+```

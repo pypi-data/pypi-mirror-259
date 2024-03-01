@@ -1,0 +1,2 @@
+[datasette]
+column_sum = datasette_column_sum

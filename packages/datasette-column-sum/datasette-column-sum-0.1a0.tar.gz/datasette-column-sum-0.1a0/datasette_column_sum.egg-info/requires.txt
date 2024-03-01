@@ -1,0 +1,10 @@
+datasette>=1.0a12
+
+[playwright]
+pytest-playwright
+
+[test]
+pytest
+pytest-asyncio
+datasette-test
+nest-asyncio
