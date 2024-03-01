@@ -1,0 +1,6 @@
+Click
+gql
+attrs
+jsonschema
+tqdm
+boto3
