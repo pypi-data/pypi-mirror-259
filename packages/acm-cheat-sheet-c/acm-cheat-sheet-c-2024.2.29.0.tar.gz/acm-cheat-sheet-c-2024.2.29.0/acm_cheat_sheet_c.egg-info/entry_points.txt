@@ -1,0 +1,3 @@
+[console_scripts]
+AcmCheatSheetC = AcmCheatSheetC.__main__:main
+acm-cheat-sheet-c = AcmCheatSheetC.__main__:main
