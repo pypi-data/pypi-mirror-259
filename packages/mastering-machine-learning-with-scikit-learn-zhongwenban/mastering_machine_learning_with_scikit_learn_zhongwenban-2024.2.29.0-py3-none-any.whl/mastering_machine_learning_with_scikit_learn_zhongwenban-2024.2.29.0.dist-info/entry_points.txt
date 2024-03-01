@@ -1,0 +1,3 @@
+[console_scripts]
+MasteringMachineLearningWithScikitLearnZhongwenban = MasteringMachineLearningWithScikitLearnZhongwenban.__main__:main
+mastering-machine-learning-with-scikit-learn-zhongwenban = MasteringMachineLearningWithScikitLearnZhongwenban.__main__:main
