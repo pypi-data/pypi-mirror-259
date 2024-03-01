@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: starlette-responses-kit
+Version: 0.1.0
+Summary: Extension containing custom responses for starlette.
+Project-URL: Documentation, https://github.com/WindowGenerator/starlette-responses-kit#readme
+Project-URL: Issues, https://github.com/WindowGenerator/starlette-responses-kit/issues
+Project-URL: Source, https://github.com/WindowGenerator/starlette-responses-kit
+Author-email: WindowGenerator <chudov42@gmail.com>
+License-Expression: MIT
+License-File: LICENSE
+Keywords: fastapi-extension,python,starlette,starlette-extension
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8
+Requires-Dist: anyio<5.0.0,>=3.7.1
+Requires-Dist: starlette>=0.27.0
+Requires-Dist: typing-extensions>=4.8.0
