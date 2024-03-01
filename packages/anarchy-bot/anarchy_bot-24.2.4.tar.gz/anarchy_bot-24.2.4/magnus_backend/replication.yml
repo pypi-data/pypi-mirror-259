@@ -1,0 +1,137 @@
+version: '3.9'
+
+services:
+  postgres:
+    container_name: postgres
+    image: docker.io/postgres:16.1
+    env_file:
+      - .env
+    environment:
+      POSTGRES_DB: ${DB_NAME:?err}
+      POSTGRES_USER: ${DB_LOGIN:?err}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:?err}
+      POSTGRES_HOST_AUTH_METHOD: "scram-sha-256\nhost replication all 0.0.0.0/0 md5"
+      POSTGRES_INITDB_ARGS: "--auth-host=scram-sha-256"
+      PGDATA: "/var/lib/postgresql/data"
+    volumes:
+      - primary_vol:/var/lib/postgresql/data
+      - ./postgres_conf/init-primary.sql:/docker-entrypoint-initdb.d/init-primary.sql
+    command: |
+      postgres
+      -c wal_level=replica
+      -c hot_standby=on
+      -c max_wal_senders=10
+      -c max_replication_slots=10
+      -c hot_standby_feedback=on
+    healthcheck:
+      test: ["CMD", "pg_isready", "-q", "-d", "${DB_NAME}", "-U", "${DB_LOGIN}", "-h", "postgres", "-p", "5432"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: always
+    networks:
+      - appnet
+
+  replica:
+    image: docker.io/postgres:16.1
+    environment:
+      POSTGRES_DB: ${DB_NAME:?err}
+      POSTGRES_USER: ${DB_LOGIN:?err}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:?err}
+      PGDATA: "/var/lib/postgresql/data"
+      PGUSER: replicator
+      PGPASSWORD: replicator_password
+    command: ["docker-entrypoint.sh", "postgres", "-c", "shared_buffers=256MB", "-c", "max_connections=200"]
+    volumes:
+      - ./postgres_conf/init-replica.sh:/docker-entrypoint-initdb.d/init-replica.sh
+      - replica_vol:/var/lib/postgresql/data
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: always
+    networks:
+      - appnet
+
+  adminer:
+    container_name: adminer
+    image: docker.io/adminer:4.8.1
+    volumes:
+      - adminer_vol:/var/lib/pgadmin
+    depends_on:
+      postgres:
+        condition: service_healthy
+    ports:
+      - 8888:8080
+    restart: always
+    networks:
+      - appnet
+
+  web:
+    container_name: web
+    image: magnus_web:0.1.1
+    build:
+      context: .
+      dockerfile: web.Dockerfile
+    env_file:
+      - .env
+    volumes:
+      - ./src:/code
+      - ./magnus_backend_data:/code/magnus_backend_data
+      - ./db_backups:/code/db_backups
+    working_dir: /code
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    ports:
+      - 8000:8000
+    command: python main.py --db_url=postgres://${DB_LOGIN}:${DB_PASSWORD}@postgres/${DB_NAME} --reload
+    restart: always
+    networks:
+      - appnet
+      - tokens
+
+  redis:
+    container_name: refresh_token
+    image: redis:latest
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+    volumes:
+      - redis_vol:/var/lib/redis/data/refresh_token
+    restart: always
+    networks:
+      - tokens
+
+  redis-commander:
+    container_name: redis-commander
+    hostname: redis-commander
+    image: rediscommander/redis-commander:latest
+    depends_on:
+      - redis
+    environment:
+    - REDIS_HOSTS=local:redis:6379
+    ports:
+    - 8081:8081
+    restart: always
+    networks:
+      - appnet
+      - tokens
+
+networks:
+  appnet:
+    name: appnet
+    driver: bridge
+  tokens:
+    name: tokens
+    driver: bridge
+
+volumes:
+  primary_vol:
+  replica_vol:
+  adminer_vol:
+  redis_vol:
+

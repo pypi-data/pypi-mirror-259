@@ -1,0 +1,8 @@
+.venv
+magnus_backend_data
+__pycache__
+pycore
+.env
+.idea/
+db.*
+db_backups

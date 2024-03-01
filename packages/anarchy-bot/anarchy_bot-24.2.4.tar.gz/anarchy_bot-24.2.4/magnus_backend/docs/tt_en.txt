@@ -1,0 +1,414 @@
+﻿
+TECHNICAL TASK
+for software development: web application trading platform
+Customer: Stakhanov Carriage Works "SVZ"
+Structure of technical specifications:
+Conceptual model
+• Product goal – properties and functions that the project product should have
+• Components – the composition of the components that make up the software package
+• Audience – a group of people who are users of the application
+• Users – accounts used to interact with the application
+User interface
+• Wireframes – visual structure and content of the project
+• Corporate identity – a set of shades that are used to create the interface
+• UX/UI design – design of a visually functional interface
+Functional map
+• Functions – displaying the functional requirements for the application
+• Integrations – interactions with internal and external services
+• Monetization – ways in which an application can make a profit
+User path
+• User flow is a visual representation of the sequence of actions that
+the user performs to achieve his goal
+• Use case – description of the behavior of the system during external interaction
+Non-functional requirements
+• Hardware – technology stack, as well as software solutions that
+designed to manage technical resources
+• Security – security measures applied at the application level and aimed at
+to prevent theft, hacking of data or application code
+• Reliability - the ability of a software product to perform certain tasks without failure
+functions under given conditions.
+Work roadmap
+
+Conceptual model
+Product Purpose
+Create a database of supplier products for the needs of enterprise purchasing departments.
+Provide a convenient and efficient trading platform for both suppliers and
+consumers. For suppliers, our goal is to provide a flexible system for implementation and
+promotion of their products, including commodity import of price lists and catalogs for trade
+platform. For consumers, we strive to create an intuitive and convenient
+an interface that will allow you to quickly select the necessary products as in manual mode,
+and by automatic scripts through the “load specification” function, carry out
+convenient sorting in the results of issuing goods.
+Internal algorithms will take into account various aspects: supplier company rating,
+which is taken from counterparty verification services. And also the ability to manually set
+this rating by the administrator, the cost of the goods offered, comparison of terms and
+shipping costs to provide consumers with the most useful information
+to make the final decision to purchase a particular product.
+The ultimate goal of creating this product is to create a universal platform,
+which will facilitate efficient trade and interaction between the supplier and
+by the consumer in a semi-automatic scenario, providing convenience and safety as
+for suppliers and consumers. We strive to ensure that our application
+has become a reliable tool for supplier businesses, allowing them to conveniently manage
+with your products and increase your customer base. At the same time, we want
+provide consumers with access to a wide selection of products and the ability to quickly and
+it is convenient to find the best options taking into account various parameters, such as
+supplier reliability, prices and delivery conditions. We want to create a platform that
+will be beneficial and useful for all its participants, promoting business development and facilitating
+the process of buying (purchasing departments) and selling goods (to sales managers).
+Application Components
+
+Detailed description of components for the trading platform:
+1. User interface (UI): includes all the elements with which
+user interactions, such as product pages, shopping cart, personal account
+etc.
+2. Database: stores information about products, users, orders and other important
+data. The database must be scalable and provide quick access to
+information.
+3. Authentication and authorization module: provides secure account access
+user and access rights management.
+4. Order Management: Allows users to track order processing status
+suppliers and administrators – manage the order processing process.
+5. Personal accounts of users and administrators.
+6. Product catalog: includes categories, filters, search, reviews and ratings, and
+also information about each downloaded product.
+7. Notification module: to inform users about the status of orders, promotions,
+new products and other important events.
+8. Recommendations and personalization: a module that analyzes preferences
+users and recommends products based on special algorithms.
+9. Shipping Integration: Allows users to choose shipping methods,
+track delivery status and exchange information with delivery services.
+10. Reviews and ratings: allow users to leave ratings for suppliers, which
+helps you make the right purchasing decision.
+11.Marketing tools: include the possibility of holding promotions and programs
+loyalty, special offer notifications and other tools for
+attracting and retaining customers.
+12.Analytics module: provides administrators with sales statistics,
+user behavior, conversion and other important indicators.
+13.Mobile web application: an additional channel for users who
+allows them to make purchases and manage their account from their mobile devices.
+14.Inventory management: a module that allows you to automate accounting processes and
+inventory management, notify about the need for replenishment if there is a shortage of goods.
+15.Cart and delivery registration: allow buyers to collect goods for delivery,
+manage quantity and characteristics, as well as place an order with a choice
+method of payment and delivery.
+16.Information security: guarantees the security of personal and financial information
+users, prevents data leaks and ensures privacy
+interaction with the site.
+17.Order management module: allows you to track and manage orders,
+notify users about order status, manage the exchange of goods.
+18.Advanced search and filtering: provides fast and convenient catalog search
+products using various filters, such as price, reliability
+supplier, delivery times.
+19.Personalized recommendations: a module using a machine algorithm
+training to provide personalized product recommendations and
+automatic assembly of specifications into finished purchase orders.
+20.Integration with accounting systems: allows you to automate
+financial accounting on the trading platform.
+21.Module for automatic import of goods from suppliers’ price lists.
+22.Module for automatically assembling orders according to specifications: uses an algorithm
+machine learning and allows you to download an Excel file with a table of what products
+needed, the machine learning algorithm will find it all on the site and offer selections
+goods.
+Audience
+Target audience of application users:
+Sellers are large product suppliers and product manufacturers who have
+their prices and ready to receive their sales market thanks to the trading platform
+products and large wholesale customers.
+Buyers - purchasing departments of various companies, ranging from small businesses to
+manufacturing plants. Facilitating the work of purchasing department managers, as well as
+increasing the speed and quality of work of the purchasing department. whose task is to enter one
+application and find products of interest to suit the needs of the enterprise.
+
+Users
+Supplier personal account: allows you to manage the uploading of your catalogs and price lists
+sheets with goods in the required categories, as well as track orders for the supply of goods from
+system users, conduct sales analytics, maintain statistics and others
+administrative tasks such as filling out the tracking number for order tracking,
+approximate delivery dates, access to buyer's legal data, possibility
+edit an order (change items or delete those that are out of stock) change
+final price offer, make additional discounts, change order statuses
+(accepted / in processing / out of stock / awaiting customer decision / completed / canceled /
+refusal of the transaction). Conduct analytics and build sales reports (day / week / month / year /
+during all this time).
+Purchasing manager’s personal account: allows you to collect the necessary goods in a single
+multi cart (basket of orders from different suppliers), as in “manual mode” using
+visual search for products in the catalog using search and smart sorting, and in
+“automatic mode” by downloading an excel file with the required specification
+(smart algorithms using machine learning will understand the buyer’s needs
+in the required products and search for them automatically in the general catalog, offer options in
+in the form of lists of multi specifications where there will be sortings for everything already assembled
+specification (cost, delivery time and supplier reliability). Design
+special invoices, with subsequent automatic sending of the invoice -
+orders to suppliers to the email specified in their personal account in PDF form and
+additionally, as an order in your personal account, as well as from the buyer to generate final
+PDF files (in the case of a multi order or one file in the case of a single order) with names
+purchased products, as well as applying a stamp with the supplier’s details and
+buyer and send it to the buyer’s email or download it yourself from your
+personal account. See the status of your orders.
+Administrator's personal account: allows you to manage customer accounts as
+suppliers and buyers (delete, block temporarily or permanently accounts
+records). Collect complete statistics on transactions and turnover of buyers and sellers.
+Generate customized reports for user-selected periods (day / week /
+month / year / all time). Track deal cycles and statuses and have all the features
+personal account of the “Seller” and “Supplier”.
+
+User interface
+Wireframes
+1. Home page:
+- Logo and name of the site;
+- Search bar with the ability to filter by various criteria;
+- Sections for suppliers and consumers;
+- Quick access to the sections "Product Catalog", "Personal Account", "Help" and
+"Contacts";
+- List of popular products from various suppliers.
+2. Product catalog:
+- Filters for sorting by category, price, supplier rating, timing and cost
+delivery;
+- Ability to add products to favorites, compare products, display
+detailed product information;
+- Support for various formats for downloading specifications: CSV, Excel and others;
+- Display ratings and reviews of products and suppliers.
+3. Supplier’s personal account:
+- Ability to add and edit products indicating prices, descriptions,
+photos, delivery times and costs;
+- Import of price lists and catalogs to the trading platform;
+- View sales statistics, manage orders and customer base.
+4. Consumer personal account:
+- Ability to save delivery addresses, notification settings for new
+goods receipts, order tracking;
+- Quick purchase function, order history, ratings and reviews of suppliers.
+5. Administrative panel:
+- User management, editing supplier ratings, moderation
+content and reviews;
+- Analytics and sales statistics, marketing and advertising tools.
+6. Registration and login form:
+- Simple and convenient form for registering new users;
+- Authorization form with the ability to recover your password;
+- Email or mobile phone verification for new users.
+7. Order management:
+- Ability to track the status of orders, notifications of status changes;
+- Possibility of canceling and returning orders, exchanging goods;
+- View order history, print receipts and invoices.
+8. Chat and feedback:
+- Ability to communicate with support representatives via built-in chat;
+- Feedback form for users, the ability to send questions and
+proposals.
+9. Notifications and mailings:
+- Notifications about new arrivals of goods, changes in orders and promotions;
+- Possibility of subscribing to newsletters from specific suppliers or product categories.
+10. User’s personal account:
+- Ability to view and edit personal information;
+- Order history, wish lists, reviews and product ratings;
+- Ability to manage subscriptions and notifications.
+11. Ratings and reviews:
+- Possibility of leaving reviews and ratings for products and suppliers;
+- Display ratings and reviews on product pages to help customers
+decide.
+12. Administrative panel:
+- Interface for administrators and moderators to manage content and
+by users;
+- Ability to manage orders, products, promotions and other aspects
+platforms.
+13. Mobile version:
+- Adaptive design, taking into account ease of use on mobile devices;
+- Quick access to basic functions and easy navigation on small screens.
+15. SEO and Marketing:
+- Convenient URLs, meta tags and other elements to optimize search results;
+- Ability to integrate with marketing management tools
+advertising campaigns and promotions.
+Form style
+Interface colors:
+Primary Color #1E88E5, Accent Color #5E35B1, Secondary Colors #FFC107, #00C853
+Suggested logo options:
+
+Conceptual branding proposal: Magnus Sale (Russia's first B2B
+Marketplace)
+UX/UI design
+Material ui design ready based on template for Vue argon-dashboard-pro
+Link to template https://www.creative-tim.com/product/vue-argon-dashboard-pro
+Functional map
+Functions
+Integrations
+• Yandex maps
+• Contractor verification service
+• Service for obtaining legal data by TIN
+• Integration with artificial intelligence using a separate neuromodule
+• Integration with delivery services (Business Lines, ZheldorExpdition, ATI.su and
+other)
+• Integration with VLSI
+Monetization
+1. Advertising: You can offer a platform for advertising of other companies.
+Advertising can be either banner or contextual, depending on the user’s
+experience.
+2. Commission Fees: You can charge sellers a commission for each
+a successful transaction made through your application. This is the classic way
+monetization of trading platforms.
+3. Subscriptions: Offering paid subscriptions to users who provide
+additional features or benefits on site, such as enhanced
+search functions, increased storage for sellers or the ability
+participate in exclusive promotions.
+4. Premium Content: Offering Sellers Better Placement Opportunities
+their products or services for an additional fee, such as dedicated listings
+goods or increased visibility on site.
+5. Supplier Services: Launching an affiliate marketing platform where suppliers
+can promote their services using your app in exchange for a fee.
+User path
+User flow
+
+1. Registration/login:
+- The user opens the application and sees the login or registration screen.
+- The user enters his credentials or goes through the registration procedure, including
+data entry, confirmation by mail or SMS.
+2. Search for goods or services:
+- After successful authorization, the user is taken to the main trading screen
+platforms where the search for goods can begin.
+- The user enters search criteria or browses categories, selects a product for
+view detailed information.
+3. View product information:
+- The user sees a detailed description, photographs, price and other characteristics
+goods.
+- Ability to leave reviews, view seller ratings, etc.
+4. Adding an item to the cart/purchase:
+- The user decides to purchase a product and adds it to the cart.
+- The user goes to the cart, checks the contents and submits the order
+to the supplier, who, if confirmed, issues an invoice for payment through his
+Personal Area.
+5. User profile management:
+- The user has the ability to edit the profile, view their
+purchases/sales, manage alert settings, etc.
+6. Creating a sales ad:
+- The user can create an advertisement for the sale of goods, indicating all the necessary
+characteristics and photographs.
+- The user can choose delivery methods, payment methods, set the price and conditions
+return.
+7. Order management:
+- If the user is a seller, he can manage orders, accept,
+reject or track order statuses.
+- If the user is a buyer, he can track the status of his orders,
+pay and cancel them.
+8. Feedback and support:
+- The user has the opportunity to contact support in case of an issue
+problems or questions.
+- The process of leaving reviews and ratings for completed orders.
+9.Notifications:
+- The user can receive notifications about new messages, order status, promotions
+and discounts.
+10. Social media integration:
+- Possibility of reposting and publishing goods/services on social networks to increase
+visibility and customer attraction.
+11. Payment and delivery:
+- Payment methods (transfer to bank account) and delivery methods (courier delivery,
+transport company, ride-hailing service ati.su).
+12. Personal account:
+- User profile with the ability to edit personal information,
+view order history and manage account settings.
+13. Recommendations and personalization:
+- Recommendation system based on previous purchases and user behavior for
+improving the shopping experience.
+14. Analytics and reporting:
+- Opportunity for sellers to track sales statistics, learn about popular
+products, customer behavior and other important metrics.
+15. Advanced search and filtering:
+- Advanced search system with the ability to filter products by various
+parameters such as price, brand, size, color and other characteristics.
+16. Consultations and online chat:
+- The ability to receive advice from sellers on goods or services via online
+chat, which helps customers get more information before purchasing.
+17. Mobile application:
+- Development of a mobile application for the convenience of users, which will help them
+buy and sell goods or services directly from mobile devices.
+18. Loyalty program and bonuses:
+- Implementation of a loyalty program system that provides bonuses, discounts and
+special offers for regular customers.
+19. Warehouse management:
+- For sellers - the ability to manage product balances, control stocks and
+notify about the need for replenishment.
+20. Reviews and ratings:
+- The ability to leave reviews and ratings for products or services that will help others
+users to make informed purchasing decisions.
+21. Analytics and reports:
+- Tools for analyzing sales, user behavior and other indicators to
+sellers could optimize their sales strategies.
+22. Blog or information section:
+- Creating a blog with useful articles, industry news, instructions and tips
+for users.
+23. Support for data export and import:
+- Ability to export and import a catalog of products, prices, customer data for convenience
+exchange of information between different systems.
+24. Integrated order management system:
+- Order management system, which provides complete control over orders from
+from the moment of placement to delivery and payment.
+25. Organization of special promotions and sales:
+- Possibility of holding various promotions, discounts and special offers for
+attracting new customers and retaining regular clientele.
+26. Development of cooperation with suppliers:
+- The ability for suppliers to load their goods onto the site, which will allow
+expand product range and improve competitiveness.
+Non-functional requirements
+Technical support
+1. Server: VPS (Virtual Private Server) cloud server for application deployment. System
+database management: MySQL or PostgreSQL
+2. System software: Operating system: Linux, MySQL, Nginx, Python, Django, Vue
+3. Backend: Python
+4. Frontend: Django, Vue
+5. Additional software: Github
+6. Services: SMTP, Yandex Maps
+Safety
+1. Authentication and authorization
+
+- Strong authentication mechanisms must be used, with confirmation
+accounts.
+- There must be strict access restrictions based on user roles and privileges.
+For example, users should only have access to their personal data and
+information about your orders. Administrators should only have access to what they need
+information to complete their tasks.
+2. Data encryption
+- All personal data must be encrypted using standards
+AES encryption. In order to prevent hacking of the application and leaking of personal
+data.
+- Use secure HTTPS data transfer protocols to protect
+interception data.
+3. Protection from attacks
+- It is important to provide protection against DDoS attacks and SQL injections.
+Reliability
+1. Architecture: The application must be built in such a way that it effectively
+process a large number of requests. This can be achieved using micro
+service architecture, which allows you to divide the application into many
+independent services working together.
+2. Speed and performance: to ensure high speed and
+application performance requires the use of efficient algorithms and
+performance optimization techniques such as caching, using CDN and
+database optimization.
+3. Scalability: The application must be ready to scale in order to
+cope with increased load.
+Work roadmap
+Release development of this software is expected, which means that
+releases will go from smaller to larger, for example in the first release
+directly the application base with the minimum necessary functions for
+use, and later individual components are added to the database,
+improving and expanding functionality.
+Preliminary terms and prices are indicated taking into account software development by 2 programmers
+It is impossible to calculate the exact cost for such a large project.
+Name of work Implementation period (weeks) Approximate cost
+implementation
+STAGE 1 (preparation and prototype)
+Approval for the start of work 1
+Prototype development 1-3,100,000
+Prototype testing and approval 1
+The result of this stage is a “visually” finished application
+STAGE 2 (first release of the application)
+
+Programming Fontend and Backend 6-10 500 000
+Implementation of basic functionality
+Beta release version 1.1 of the application
+The result of this stage is a semi-functional application
+STAGE 3 (second release of the application)
+Programming Fontend and Backend 4-8 300 000
+Implementation of additional functionality
+Beta release version 1.2 of the application
+The result of this stage is a semi-functional application, with fewer restrictions
+STAGE 4 (completely finished application with all the functionality specified in the technical specifications)
+Programming Fontend and Backend 3-5 200 000
+Implementation of additional functionality
+Release of version 1.3 of the application
+The result of this stage is a fully functional application, without restrictions

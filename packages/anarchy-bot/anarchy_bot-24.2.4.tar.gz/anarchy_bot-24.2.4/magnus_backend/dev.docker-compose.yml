@@ -1,0 +1,49 @@
+version: '3.9'
+
+services:
+  web:
+    container_name: web
+    image: magnus_web:0.1.1
+    build:
+      context: .
+      dockerfile: web.Dockerfile
+    working_dir: /code
+    volumes:
+      - ./src:/code
+      - ./db_backups:/code/db_backups
+    ports:
+      - 8000:8000
+    command: python main.py --reload
+    restart: always
+    networks:
+      - appnet
+
+  redis:
+    container_name: refresh_token
+    image: redis:latest
+    volumes:
+      - refresh_token:/var/lib/redis/data/refresh_token
+    networks:
+      - appnet
+
+  redis-commander:
+    container_name: redis-commander
+    hostname: redis-commander
+    image: rediscommander/redis-commander:latest
+    depends_on:
+      - redis
+    environment:
+    - REDIS_HOSTS=local:redis:6379
+    ports:
+    - "8081:8081"
+    restart: always
+    networks:
+      - appnet
+
+networks:
+  appnet:
+    name: appnet
+    driver: bridge
+
+volumes:
+  refresh_token:

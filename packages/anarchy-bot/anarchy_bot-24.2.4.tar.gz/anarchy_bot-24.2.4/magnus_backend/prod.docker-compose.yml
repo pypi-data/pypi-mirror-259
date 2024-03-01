@@ -1,0 +1,131 @@
+version: '3.9'
+
+services:
+  postgres:
+    container_name: postgres
+    image: docker.io/postgres:16.1
+    env_file:
+      - .env
+    environment:
+      POSTGRES_DB: ${DB_NAME:?err}
+      POSTGRES_USER: ${DB_LOGIN:?err}
+      POSTGRES_PASSWORD: ${DB_PASSWORD:?err}
+      PGDATA: "/var/lib/postgresql/data/pgdata"
+    volumes:
+      - postgres_vol:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD", "pg_isready", "-q", "-d", "${DB_NAME}", "-U", "${DB_LOGIN}", "-h", "postgres", "-p", "5432"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+    restart: always
+    networks:
+      - appnet
+
+  db_backups:
+    container_name: db_backups
+    image: magnus_db_backups:0.1.2
+    build:
+      context: .
+      dockerfile: backup.Dockerfile
+    env_file:
+      - .env
+    environment:
+      - POSTGRES_HOST=postgres
+      - POSTGRES_DB=${DB_NAME}
+      - POSTGRES_USER=${DB_LOGIN}
+      - POSTGRES_PASSWORD=${DB_PASSWORD}
+      - POSTGRES_EXTRA_OPTS=-Z9 --schema=public --blobs
+      - SCHEDULE="0 0 * * *"
+      - BACKUP_KEEP_DAYS=7
+      - HEALTHCHECK_PORT=81
+    volumes:
+      - ./db_backups:/backups
+    depends_on:
+      postgres:
+        condition: service_healthy
+    restart: always
+    networks:
+      - appnet
+
+  adminer:
+    container_name: db_admin
+    image: docker.io/adminer:4.8.1
+    volumes:
+      - pgadmin_vol:/var/lib/pgadmin
+    depends_on:
+      postgres:
+        condition: service_healthy
+    ports:
+      - 8888:8080
+    restart: always
+    networks:
+      - appnet
+
+  web:
+    container_name: web
+    image: magnus_web:0.1.1
+    build:
+      context: .
+      dockerfile: web.Dockerfile
+    env_file:
+      - .env
+    volumes:
+      - ./magnus_backend_data:/code/magnus_backend_data
+      - ./db_backups:/code/db_backups
+    working_dir: /code
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    ports:
+      - 8000:8000
+    command: python src/main.py --db_url=postgres://${DB_LOGIN}:${DB_PASSWORD}@postgres/${DB_NAME}
+    restart: always
+    networks:
+      - appnet
+      - tokens
+
+  redis:
+    container_name: refresh_token
+    image: redis:latest
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+    volumes:
+      - refresh_token_vol:/var/lib/redis/data/refresh_token
+    restart: always
+    networks:
+      - tokens
+
+  redis-commander:
+    container_name: redis-commander
+    hostname: redis-commander
+    image: rediscommander/redis-commander:latest
+    depends_on:
+      - redis
+    environment:
+    - REDIS_HOSTS=local:redis:6379
+    ports:
+    - 8081:8081
+    restart: always
+    networks:
+      - appnet
+      - tokens
+
+networks:
+  appnet:
+    name: appnet
+    driver: bridge
+  tokens:
+    name: tokens
+    driver: bridge
+
+volumes:
+  postgres_vol:
+  pgadmin_vol:
+  refresh_token_vol:
+
