@@ -1,0 +1,5 @@
+numpy
+pandas
+menglingtool
+menglingtool_redis
+menglingtool_sqltools
