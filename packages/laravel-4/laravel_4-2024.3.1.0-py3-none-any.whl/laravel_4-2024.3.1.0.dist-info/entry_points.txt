@@ -1,0 +1,3 @@
+[console_scripts]
+Laravel4 = Laravel4.__main__:main
+laravel-4 = Laravel4.__main__:main
