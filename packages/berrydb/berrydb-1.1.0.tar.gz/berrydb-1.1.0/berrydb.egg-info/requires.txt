@@ -1,0 +1,7 @@
+requests
+openai
+langchain
+tiktoken
+faiss-cpu
+jq
+label-studio-sdk==0.0.1
