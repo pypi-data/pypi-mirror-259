@@ -1,0 +1,3 @@
+[console_scripts]
+CFaqLite = CFaqLite.__main__:main
+c-faq-lite = CFaqLite.__main__:main
