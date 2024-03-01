@@ -1,0 +1,3 @@
+[console_scripts]
+DaxingWangzhanJiagouXuexiBiji = DaxingWangzhanJiagouXuexiBiji.__main__:main
+daxing-wangzhan-jiagou-xuexi-biji = DaxingWangzhanJiagouXuexiBiji.__main__:main
