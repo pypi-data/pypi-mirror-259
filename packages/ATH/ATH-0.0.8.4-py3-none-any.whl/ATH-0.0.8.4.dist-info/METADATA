@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: ATH
+Version: 0.0.8.4
+Requires-Dist: pyttsx3
+Requires-Dist: cryptography
+Requires-Dist: speechrecognition
+
