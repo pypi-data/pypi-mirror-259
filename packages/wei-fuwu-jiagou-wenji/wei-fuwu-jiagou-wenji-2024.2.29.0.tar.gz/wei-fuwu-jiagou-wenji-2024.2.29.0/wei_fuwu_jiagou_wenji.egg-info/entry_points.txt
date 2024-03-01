@@ -1,0 +1,3 @@
+[console_scripts]
+WeiFuwuJiagouWenji = WeiFuwuJiagouWenji.__main__:main
+wei-fuwu-jiagou-wenji = WeiFuwuJiagouWenji.__main__:main
