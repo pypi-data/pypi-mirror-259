@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+minj_mark.egg-info/PKG-INFO
+minj_mark.egg-info/SOURCES.txt
+minj_mark.egg-info/dependency_links.txt
+minj_mark.egg-info/requires.txt
+minj_mark.egg-info/top_level.txt
