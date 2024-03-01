@@ -1,0 +1,3 @@
+[console_scripts]
+MfcChengxuyuanDeWtlZhinan = MfcChengxuyuanDeWtlZhinan.__main__:main
+mfc-chengxuyuan-de-wtl-zhinan = MfcChengxuyuanDeWtlZhinan.__main__:main
