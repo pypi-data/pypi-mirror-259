@@ -1,0 +1,3 @@
+[console_scripts]
+QianduanGongchengshiShouce = QianduanGongchengshiShouce.__main__:main
+qianduan-gongchengshi-shouce = QianduanGongchengshiShouce.__main__:main
