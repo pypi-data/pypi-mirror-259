@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "miniwdl-backend-bare"
+dynamic = ["version"]
+description = "miniwdl bare backend"
+readme = "README.md"
+license = ""
+requires-python = ">=3.6"
+dependencies = [
+    "miniwdl>=1.9.0",
+]
+
+[project.entry-points."miniwdl.plugin.container_backend"]
+bare = "miniwdl_backend_bare:BareContainer"
+
+[tool.hatch.version]
+path = "miniwdl_backend_bare/__init__.py"
+
+[tool.hatch.build.targets.sdist]
+include = [
+    "/miniwdl_backend_bare",
+]
