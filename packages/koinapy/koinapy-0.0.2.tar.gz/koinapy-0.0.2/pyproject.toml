@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "koinapy"
+version = "0.0.2"
+description = "Python client to communicate with Koina."
+authors = ["Ludwig Lautenbacher <Ludwig.Lautenbacher@tum.de>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.11"
+tqdm = "*"
+pandas = "*"
+tritonclient = [
+    {extras = ["grpc"], version = "!=2.41", python=">=3.8,<=3.11"},
+    {extras = ["grpc"], version = ">=2.23", python=">=3.8,<=3.11"}
+]
+
+[tool.poetry.group.develop.dependencies]
+pytest = "*"
+pylint = "*"
+requests = "*"
+black = "*"
+jupyter = "*"
+jinja2 = "*"
+PyYAML = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
