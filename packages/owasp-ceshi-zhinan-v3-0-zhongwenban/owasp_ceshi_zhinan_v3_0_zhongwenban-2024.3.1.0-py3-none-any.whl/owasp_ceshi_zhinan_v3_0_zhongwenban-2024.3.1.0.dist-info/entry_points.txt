@@ -1,0 +1,3 @@
+[console_scripts]
+OwaspCeshiZhinanV30Zhongwenban = OwaspCeshiZhinanV30Zhongwenban.__main__:main
+owasp-ceshi-zhinan-v3-0-zhongwenban = OwaspCeshiZhinanV30Zhongwenban.__main__:main
