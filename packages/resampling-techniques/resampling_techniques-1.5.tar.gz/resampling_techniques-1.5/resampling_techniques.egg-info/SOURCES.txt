@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+resampling_techniques.egg-info/PKG-INFO
+resampling_techniques.egg-info/SOURCES.txt
+resampling_techniques.egg-info/dependency_links.txt
+resampling_techniques.egg-info/requires.txt
+resampling_techniques.egg-info/top_level.txt
