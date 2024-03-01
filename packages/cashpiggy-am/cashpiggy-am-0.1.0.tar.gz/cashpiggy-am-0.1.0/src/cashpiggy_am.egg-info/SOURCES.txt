@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/cashpiggy_am.egg-info/PKG-INFO
+src/cashpiggy_am.egg-info/SOURCES.txt
+src/cashpiggy_am.egg-info/dependency_links.txt
+src/cashpiggy_am.egg-info/requires.txt
+src/cashpiggy_am.egg-info/top_level.txt
+src/examplepy/__init__.py
+src/examplepy/cashpiggy.py
