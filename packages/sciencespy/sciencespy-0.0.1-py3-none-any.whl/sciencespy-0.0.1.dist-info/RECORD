@@ -1,0 +1,12 @@
+sciencespy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sciencespy/bem.py,sha256=ZZ84BZ4v12KrTJPbvJyOSYWdLLGiSJNcEBD9aW0f8Qs,36136
+sciencespy/cal.py,sha256=5Uwg2eDdnsMdRXb_4wMekW3_2a3LoCQpHzn5lpKWQXc,98319
+sciencespy/city3d.py,sha256=NhJYisxlo3dAg_Do2YMe6sScYcHWhGurSe-Kbcvgl3g,20173
+sciencespy/cosim.py,sha256=0yoZ1MwXS6T-D75l0YmOmDx3G_B29G2pW8_L7XMRKOw,24086
+sciencespy/dom.py,sha256=aWZpHqKD5cwl7cpEoT3tJM6tv7chaBo0w-jTzGGjBPk,23399
+sciencespy/umm.py,sha256=_SqrRc6GxfbzP7Rt2QRuIdUsQJ0WJyMOxZB_PdTThzg,49807
+sciencespy-0.0.1.dist-info/LICENSE.txt,sha256=LoV48WtuomVBIWbotLHaBF_MEfKNsD1mSQhBASSi8B4,35801
+sciencespy-0.0.1.dist-info/METADATA,sha256=9XNpKKPWp_SPqHQDpvPZCFZB-Z_71agHuRvRvJxPgsA,3201
+sciencespy-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+sciencespy-0.0.1.dist-info/top_level.txt,sha256=YnfA8LgoJPQlOO2pM6z-_vcA-oH32NbFDJbrG0TJFqQ,11
+sciencespy-0.0.1.dist-info/RECORD,,
