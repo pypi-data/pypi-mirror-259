@@ -1,0 +1,45 @@
+syntax = "proto3";
+
+package stormgate;
+
+// protobuf schema for what I've been able to decipher in stormgate replays.
+// Obviously extremely incomplete.
+
+message Map {
+    string name = 2;
+}
+
+// UUIDs are encoded as 2 varints.
+// To recover the original UUID, encode these as signed 64-bit big-endian
+// integers and concatenate the resulting bitstrings; or in python:
+// uuid.UUID(bytes=struct.pack(">qq", part1, part2))
+message UUID {
+    int64 part1 = 1;
+    int64 part2 = 2;
+}
+
+message Player {
+    UUID uuid = 2;
+    message PlayerName {
+        string nickname = 1;
+        string discriminator = 2;
+    }
+    PlayerName name = 3;
+}
+
+// Each chunk seems to be of the form 3: {1: {actual content}}
+// Since I don't know the meaning of those outer structs yet, I'm just putting them as inline messages:
+message ReplayChunk {
+    int32 timestamp = 1; // Pretty sure this is time in milliseconds since game start
+    message Wrapper {
+        message ReplayContent {
+            oneof contenttype {
+                Map map = 3;
+                Player player = 12;
+            }
+        }
+        ReplayContent content = 1;
+    }
+    Wrapper inner = 3;
+}
+
