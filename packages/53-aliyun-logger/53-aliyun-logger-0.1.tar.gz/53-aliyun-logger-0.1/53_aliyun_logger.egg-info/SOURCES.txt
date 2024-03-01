@@ -1,0 +1,8 @@
+setup.py
+53-aliyun-logger/53-aliyun-logger.py
+53-aliyun-logger/__init__.py
+53_aliyun_logger.egg-info/PKG-INFO
+53_aliyun_logger.egg-info/SOURCES.txt
+53_aliyun_logger.egg-info/dependency_links.txt
+53_aliyun_logger.egg-info/requires.txt
+53_aliyun_logger.egg-info/top_level.txt
