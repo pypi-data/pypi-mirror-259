@@ -1,0 +1,13 @@
+mlrpc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mlrpc/cfg.py,sha256=Fvc_k_725Td2qz1mq3od1br35se1r4HIiUnw4tmPAnw,2348
+mlrpc/cli.py,sha256=hj6ccqKhf4FFvPPlgQlviG8HNozzXQIobQFO1u6tNuQ,15208
+mlrpc/client.py,sha256=ZJ0YuiPiEGI_IxydSko2FlN-Am8CqAoVcrQfSbqMPN0,8045
+mlrpc/deployment.py,sha256=by-0IHsm0KLKf02C6o8tS26DTu53boxx9aXIF0Lq-l0,10082
+mlrpc/flavor.py,sha256=hu15I7qbVZZIpbphBRUZwAfI3OKCLEzZeY_TmuhIb7U,10917
+mlrpc/proxy.py,sha256=n4VvtgyKu16HGWw4xlrx0RIYfz4tqkSuGK4jcQqER8o,2148
+mlrpc/utils.py,sha256=F-dO78n-qQEOu61M-bGNVZftVt2wwJ-pJ2x8WnNDGoQ,2720
+mlrpc-0.2.3.dist-info/METADATA,sha256=SMZnc26jqMfucobt3DCwUJ-w938Aby-YeXS4SmujHjw,2843
+mlrpc-0.2.3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+mlrpc-0.2.3.dist-info/entry_points.txt,sha256=WzEMh2wvPq-SApPe42XGQUfBW9rmtw-Emahhyxu_P3s,40
+mlrpc-0.2.3.dist-info/top_level.txt,sha256=-tpxqBbs0w0lazCubd-3IizSpNyxcsXN4qxdaGVwjmg,6
+mlrpc-0.2.3.dist-info/RECORD,,
