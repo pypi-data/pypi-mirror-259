@@ -1,0 +1,3 @@
+[console_scripts]
+KaliLinuxMiji = KaliLinuxMiji.__main__:main
+kali-linux-miji = KaliLinuxMiji.__main__:main
