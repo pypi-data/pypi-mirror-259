@@ -1,0 +1,3 @@
+[console_scripts]
+OpenwrtZhinengZidongToumingFanqiangLuyouqiJiaocheng = OpenwrtZhinengZidongToumingFanqiangLuyouqiJiaocheng.__main__:main
+openwrt-zhineng-zidong-touming-fanqiang-luyouqi-jiaocheng = OpenwrtZhinengZidongToumingFanqiangLuyouqiJiaocheng.__main__:main
