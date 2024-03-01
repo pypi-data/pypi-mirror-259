@@ -1,0 +1,3 @@
+[console_scripts]
+NwjsDoc = NwjsDoc.__main__:main
+nwjs-doc = NwjsDoc.__main__:main
