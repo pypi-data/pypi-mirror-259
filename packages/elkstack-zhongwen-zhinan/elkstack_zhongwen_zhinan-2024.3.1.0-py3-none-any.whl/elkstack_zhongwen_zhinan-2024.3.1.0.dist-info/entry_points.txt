@@ -1,0 +1,3 @@
+[console_scripts]
+ElkstackZhongwenZhinan = ElkstackZhongwenZhinan.__main__:main
+elkstack-zhongwen-zhinan = ElkstackZhongwenZhinan.__main__:main
