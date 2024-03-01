@@ -1,0 +1,80 @@
+[tool.poetry]
+name = "django-rest-typescript-generator"
+version = "0.0.1"
+license = "MIT"
+description = "A typescript code generator for Django Rest Framework."
+readme = "README.md"
+repository = "https://github.com/relativity-codes/django-rest-typescript-generator"
+authors = ["Yinian Chin <yinian@jinkan.org>", "Modified by Ukweh Everest"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Web Environment",
+    "Framework :: Django",
+    "Framework :: Django :: 3.0",
+    "Framework :: Django :: 3.1",
+    "Framework :: Django :: 3.2",
+    "Framework :: Django :: 4.0",
+    "Framework :: Django :: 4.1",
+    "Framework :: Django :: 4.2",
+    "Framework :: Django :: 5.0",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Internet :: WWW/HTTP",
+    "Topic :: Software Development :: Code Generators",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Typing :: Typed",
+]
+include = ["README.md", "CHANGELOG.md", "LICENSE"]
+
+[tool.poetry.dependencies]
+python = "^3.9.0"
+django = ">=3.0"
+djangorestframework = "^3.13"
+djangorestframework-dataclasses = "^1.3.0"
+inflection = "^0.5.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+pytest-django = "^4.4.0"
+pytest-cov = "^3.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.tox]
+legacy_tox_ini = """
+[tox]
+isolated_build = true
+envlist = py{39,310}-django{32}-drf{313,314}
+          py{39,310,311}-django{40}-drf{313,314}
+          py{39,310,311}-django{41,42}-drf{314}
+
+[gh-actions]
+python =
+    3.9: py39
+    3.10: py310
+    3.11: py311
+
+[testenv]
+deps =
+    pytest>=6.2.5
+    pytest-django>=4.4.0
+    pytest-cov>=3.0
+    djangorestframework-dataclasses>=1.3.0
+    inflection>=0.5.1
+    django32: Django>=3.2,<3.3
+    django40: Django>=4.0,<4.1
+    django41: Django>=4.1,<4.2
+    django42: Django>=4.2,<4.3
+    drf313: djangorestframework>=3.13,<3.14
+    drf314: djangorestframework>=3.14,<3.15
+allowlist_externals = poetry
+commands =
+    poetry run pytest --cov=./ --cov-report=xml
+"""
