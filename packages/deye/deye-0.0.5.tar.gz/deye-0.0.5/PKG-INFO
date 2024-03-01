@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: deye
+Version: 0.0.5
+Summary: deye controller
+Home-page: https://github.com/BennyThink/deye
+Author: BennyThink
+Author-email: benny.think@gmail.com
+License: MIT
+Requires-Python: >=3.6.0
+License-File: LICENSE
+Requires-Dist: Click
+Requires-Dist: requests
+Requires-Dist: paho-mqtt
+
+use python to control your deye device
