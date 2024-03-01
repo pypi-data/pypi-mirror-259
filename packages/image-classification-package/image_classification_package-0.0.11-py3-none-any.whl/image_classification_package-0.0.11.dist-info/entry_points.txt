@@ -1,0 +1,5 @@
+[dashai.plugins]
+basic_finetunned_models = image_classification_package.basic_finetunned_models:BasicFinetunnedModels
+image_dataloader = image_classification_package.image_dataloader:ImageDataLoader
+image_model = image_classification_package.image_classification_model:ImageClassificationModel
+image_task = image_classification_package.image_classification_task:ImageClassificationTask
