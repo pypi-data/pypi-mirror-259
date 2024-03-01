@@ -1,0 +1,62 @@
+[tool.poetry]
+name = "nonebot-plugin-treehelp"
+version = "0.4.1"
+description = "适用于 Nonebot2 的树形帮助插件"
+authors = ["hemengyang <hmy0119@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/he0119/nonebot-plugin-treehelp"
+repository = "https://github.com/he0119/nonebot-plugin-treehelp"
+documentation = "https://github.com/he0119/nonebot-plugin-treehelp#readme"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+nonebot2 = "^2.2.0"
+
+[tool.poetry.group.dev.dependencies]
+nonebot-adapter-console = ">=0.5.0"
+nonebot-adapter-onebot = ">=2.4.1"
+nonebot-plugin-alconna = ">=0.38.0"
+
+[tool.poetry.group.test.dependencies]
+nonebug = ">=0.3.1"
+pytest-cov = ">=4.0.0"
+pytest-xdist = ">=3.0.2"
+pytest-mock = ">=3.10.0"
+pytest-asyncio = ">=0.23.5"
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+
+[tool.pyright]
+pythonVersion = "3.8"
+pythonPlatform = "All"
+typeCheckingMode = "basic"
+
+[tool.ruff]
+line-length = 88
+target-version = "py38"
+
+[tool.ruff.lint]
+select = ["E", "W", "F", "UP", "C", "T", "PYI", "PT", "Q"]
+ignore = ["E402", "C901", "UP037"]
+
+[tool.nonebot]
+adapters = [
+  { name = "OneBot V11", module_name = "nonebot.adapters.onebot.v11" },
+]
+plugins = ["nonebot_plugin_treehelp", "tests.plugins.tree"]
+
+[tool.coverage.report]
+exclude_lines = [
+  "pragma: no cover",
+  "raise NotImplementedError",
+  "if __name__ == .__main__.:",
+  "if TYPE_CHECKING:",
+  "@overload",
+  "except ImportError:",
+]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
