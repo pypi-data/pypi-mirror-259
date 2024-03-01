@@ -1,0 +1,3 @@
+[console_scripts]
+DataScienceIpythonNotebook20160913 = DataScienceIpythonNotebook20160913.__main__:main
+data-science-ipython-notebook-20160913 = DataScienceIpythonNotebook20160913.__main__:main
