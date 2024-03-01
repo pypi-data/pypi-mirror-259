@@ -1,0 +1,3 @@
+[console_scripts]
+Androidtrainingchs = Androidtrainingchs.__main__:main
+androidtrainingchs = Androidtrainingchs.__main__:main
