@@ -1,0 +1,2 @@
+aliyun-log-python-sdk
+enum34
