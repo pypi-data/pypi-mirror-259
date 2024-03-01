@@ -1,0 +1,7 @@
+requests
+urllib3
+lxml
+PrSpiders
+loguru
+pymysql
+parsel
