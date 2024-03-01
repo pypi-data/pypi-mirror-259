@@ -1,0 +1,3 @@
+[console_scripts]
+BurpSuiteShizhanZhinan = BurpSuiteShizhanZhinan.__main__:main
+burp-suite-shizhan-zhinan = BurpSuiteShizhanZhinan.__main__:main
