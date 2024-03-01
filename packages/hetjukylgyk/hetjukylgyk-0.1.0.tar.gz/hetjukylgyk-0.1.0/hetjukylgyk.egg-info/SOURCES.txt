@@ -1,0 +1,5 @@
+setup.py
+hetjukylgyk.egg-info/PKG-INFO
+hetjukylgyk.egg-info/SOURCES.txt
+hetjukylgyk.egg-info/dependency_links.txt
+hetjukylgyk.egg-info/top_level.txt
