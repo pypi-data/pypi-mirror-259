@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: vioneta
+Version: 2024.3.0
+Summary: Smart agriculture platform running on Python 3.
+Author-email: The Vioneta Agro  Authors <admin@vioneta.com>
+License: Apache-2.0
+Project-URL: Homepage, https://www.vioneta.com/
+Project-URL: Source Code, https://github.com/Vioneta/core
+Project-URL: Bug Reports, https://github.com/Vioneta/core/issues
+Project-URL: Docs: Dev, https://developers.vioneta.com/
+Project-URL: Discord, https://www.vioneta.com/join-chat/
+Project-URL: Forum, https://community.vioneta.com/
+Keywords: home,automation
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Home Automation
+Requires-Python: >=3.11.0
+License-File: LICENSE.md
