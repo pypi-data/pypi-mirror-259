@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools >= 61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+dynamic = ["version"]
+name = "noisebase"
+description = "Datasets and benchmarks for neural Monte Carlo denoising"
+authors = [{name = "Martin Bálint", email = "martin@balint.io"}]
+readme = "README.md"
+keywords = ["denoising", "Monte Carlo", "MC", "neural"]
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "License :: OSI Approved :: Apache Software License",
+
+    "Environment :: GPU",
+    "Operating System :: OS Independent",
+
+    "Programming Language :: Python :: 3",
+]
+
+[project.urls]
+Documentation = "https://balint.io/noisebase"
+Repository = "https://github.com/balintio/noisebase.git"
