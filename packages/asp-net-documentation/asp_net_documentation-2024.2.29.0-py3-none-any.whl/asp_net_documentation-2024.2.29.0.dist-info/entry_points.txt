@@ -1,0 +1,3 @@
+[console_scripts]
+AspNetDocumentation = AspNetDocumentation.__main__:main
+asp-net-documentation = AspNetDocumentation.__main__:main
