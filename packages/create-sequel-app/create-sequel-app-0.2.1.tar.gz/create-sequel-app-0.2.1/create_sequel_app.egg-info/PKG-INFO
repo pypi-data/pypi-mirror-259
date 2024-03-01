@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: create-sequel-app
+Version: 0.2.1
+Summary: Create a new Sequel project
+Author: Kyle Lee
+Author-email: kyle@kylelee.dev
+Requires-Python: >=3.7
+Requires-Dist: Click
