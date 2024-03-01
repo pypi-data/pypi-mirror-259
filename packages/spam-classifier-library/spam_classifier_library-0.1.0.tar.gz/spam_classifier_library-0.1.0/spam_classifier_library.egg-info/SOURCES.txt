@@ -1,0 +1,12 @@
+README.md
+setup.py
+modelsAndVec/__init__.py
+spam_classifier_library.egg-info/PKG-INFO
+spam_classifier_library.egg-info/SOURCES.txt
+spam_classifier_library.egg-info/dependency_links.txt
+spam_classifier_library.egg-info/requires.txt
+spam_classifier_library.egg-info/top_level.txt
+src/__init__.py
+src/model.py
+src/utils.py
+src/vectorizer.py
