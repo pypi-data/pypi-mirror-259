@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: polymind
+Version: 0.0.5
+Summary: PolyMind is a cutting-edge multi-agent framework focused on leveraging collective intelligence
+Home-page: https://github.com/small-thinking/polymind
+Author: Small Thinking
+Author-email: yjiang@small-thinking.org
+License: MIT
+Keywords: multi-agent,collective intelligence,problem solving,polymind
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: python ==3.10.13
+
+# PolyMind (群策) 
+
+![PolyMind Logo](images/polymind-logo.png)
+
+PolyMind is a cutting-edge multi-agent framework focused on leveraging collective intelligence to solve complex and distributed problems. Inspired by the concept of "群策" from Chinese philosophy, which emphasizes the strength found in collective decision-making and strategy, PolyMind provides a platform for creating and managing intelligent agents that work together to achieve common goals.
+
+
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+
+
+
+## Features
+
+- **Agent Collaboration**: Facilitate seamless interaction and collaboration among diverse agents.
+- **Scalable Architecture**: Designed to easily scale from small to large numbers of agents.
+- **Domain Agnostic**: Suitable for a wide range of applications, from robotics to financial analysis.
+- **Extensible**: Open architecture allows for custom agent models and behaviors.
+- **Community-Driven**: Open-source and community-driven development ensures continuous improvement and inclusivity.
+
+## Getting Started
+
+To get started with PolyMind, clone the repository and follow the installation instructions:
+
+```bash
+git clone https://github.com/your-username/polymind.git
+cd polymind
+```
