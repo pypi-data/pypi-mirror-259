@@ -1,0 +1,3 @@
+[console_scripts]
+JsliteZhongwenWendang = JsliteZhongwenWendang.__main__:main
+jslite-zhongwen-wendang = JsliteZhongwenWendang.__main__:main
