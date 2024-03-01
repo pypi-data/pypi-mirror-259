@@ -1,0 +1,11 @@
+quick_eks_cross_az/.DS_Store,sha256=S8EsO6ZWN683kiZAsWmflrKR5Ot2hb8OtKcNE2n3JCM,6148
+quick_eks_cross_az/__init__.py,sha256=AkXyXT56lCi3wO2L7l7qqpelmgXa4Dbch11oaMfHMb4,141
+quick_eks_cross_az/cli.py,sha256=bYjnZDAUSk6Wz2idj7wXVkEopFlnw_ZPbIHe9dvNPFQ,2557
+quick_eks_cross_az/cloudformation.yaml,sha256=tNqI73nuw3AXAxVx5h95cJhGgtj0DUn0797-Z46-BlY,11248
+quick_eks_cross_az/lib.py,sha256=nadPXYul5Ui_i6LD4acJ1xOjyfGEqB5J_iUxNYXBm98,13449
+quick_eks_cross_az/query.sql,sha256=wXOWSndDVjbWqhbLL6l0ylMELPy432q1D7qIAKgiNV4,3013
+quick_eks_cross_az-0.9.1.dist-info/entry_points.txt,sha256=0QLgEvlaTlRgtk_-CjHx81nwAYLUepPkg2O-XyQA39s,66
+quick_eks_cross_az-0.9.1.dist-info/LICENSE,sha256=OWqHKYbJWMZf4dCaVQToXeHh9fmS-5tZAzoBENdgUw0,1068
+quick_eks_cross_az-0.9.1.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+quick_eks_cross_az-0.9.1.dist-info/METADATA,sha256=b0XnEqVxwm6Cy-qo-Gk4pqRcunZqJTZbzINGzxD3_fw,2639
+quick_eks_cross_az-0.9.1.dist-info/RECORD,,
