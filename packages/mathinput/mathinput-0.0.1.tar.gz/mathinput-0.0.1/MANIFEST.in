@@ -1,0 +1,11 @@
+include mathinput/mathinput.min.js
+include mathinput/mathinput.min.js.map
+include mathinput/async-*.js
+include mathinput/async-*.js.map
+include mathinput/*-shared.js
+include mathinput/*-shared.js.map
+include mathinput/metadata.json
+include mathinput/package-info.json
+include README.md
+include LICENSE
+include package.json

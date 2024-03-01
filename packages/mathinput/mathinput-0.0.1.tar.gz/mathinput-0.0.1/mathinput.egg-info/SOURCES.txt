@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+package.json
+setup.py
+mathinput/Mathinput.py
+mathinput/__init__.py
+mathinput/_imports_.py
+mathinput/mathinput.min.js
+mathinput/mathinput.min.js.map
+mathinput/metadata.json
+mathinput/package-info.json
+mathinput.egg-info/PKG-INFO
+mathinput.egg-info/SOURCES.txt
+mathinput.egg-info/dependency_links.txt
+mathinput.egg-info/top_level.txt
+tests/test_usage.py
