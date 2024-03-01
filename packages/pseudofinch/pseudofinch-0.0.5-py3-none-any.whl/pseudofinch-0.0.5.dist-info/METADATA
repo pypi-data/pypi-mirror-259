@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: pseudofinch
+Version: 0.0.5
+Summary: Finch robot 2.0 functions in python
+Author: Quarksay
+Keywords: python,robot,finch,automation,classroom,school
+Description-Content-Type: text/markdown
+
+An emulation library of the Finch robot 2.0 functions in python
