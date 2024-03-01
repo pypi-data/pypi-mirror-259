@@ -1,0 +1,8 @@
+neuralplex/__init__.py,sha256=BqLElFtqf8Auz6L8FhWddXZi-avE-eyaEQgCzrBcEEo,88
+neuralplex/layer.py,sha256=jO6rjigxGpbfVgMzyZt6OY3O3JasuJxXExKPBQm48jw,368
+neuralplex/network.py,sha256=mvrv-sj-0IlIg-bZWm_ePgBPrVZvPzcPCgLzhAcckRI,1428
+neuralplex/perceptron.py,sha256=J3T5n6AbjpVrLM2LLFpjVOzVOVeJZMXs6kWQoNYVeCw,1204
+neuralplex-0.0.1.dist-info/METADATA,sha256=iIG64JXfsxjDtQGGDQaLZJrrwt0fkheEt1eqARmI1oA,514
+neuralplex-0.0.1.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+neuralplex-0.0.1.dist-info/licenses/LICENSE,sha256=C_XDFNZuiaBnTzrum_j7RmxlLLAby9rVu6vt1C9mwco,1081
+neuralplex-0.0.1.dist-info/RECORD,,
