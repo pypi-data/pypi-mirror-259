@@ -1,0 +1,12 @@
+simple-toml-configurator>=1
+packaging
+
+[:python_version < "3.8"]
+importlib-metadata
+
+[cli]
+click
+
+[dev]
+pytest
+coverage
