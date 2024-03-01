@@ -1,0 +1,3 @@
+[console_scripts]
+LinuxNeihe011WanquanZhushiXiuzhengbanV195 = LinuxNeihe011WanquanZhushiXiuzhengbanV195.__main__:main
+linux-neihe-0-11-wanquan-zhushi-xiuzhengban-v1-9-5 = LinuxNeihe011WanquanZhushiXiuzhengbanV195.__main__:main
