@@ -1,0 +1,3 @@
+[console_scripts]
+DjangoChineseDocs18 = DjangoChineseDocs18.__main__:main
+django-chinese-docs-18 = DjangoChineseDocs18.__main__:main
