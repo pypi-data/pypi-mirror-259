@@ -1,0 +1,3 @@
+[console_scripts]
+ClojureRumenjiaocheng = ClojureRumenjiaocheng.__main__:main
+clojure-rumenjiaocheng = ClojureRumenjiaocheng.__main__:main
