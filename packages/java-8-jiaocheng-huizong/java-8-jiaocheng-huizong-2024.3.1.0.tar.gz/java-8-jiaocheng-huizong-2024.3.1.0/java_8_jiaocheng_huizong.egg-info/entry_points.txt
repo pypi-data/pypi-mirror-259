@@ -1,0 +1,3 @@
+[console_scripts]
+Java8JiaochengHuizong = Java8JiaochengHuizong.__main__:main
+java-8-jiaocheng-huizong = Java8JiaochengHuizong.__main__:main
