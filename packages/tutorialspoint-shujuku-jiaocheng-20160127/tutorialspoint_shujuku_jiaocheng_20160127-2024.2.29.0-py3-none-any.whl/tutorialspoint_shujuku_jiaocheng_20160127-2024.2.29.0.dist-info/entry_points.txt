@@ -1,0 +1,3 @@
+[console_scripts]
+TutorialspointShujukuJiaocheng20160127 = TutorialspointShujukuJiaocheng20160127.__main__:main
+tutorialspoint-shujuku-jiaocheng-20160127 = TutorialspointShujukuJiaocheng20160127.__main__:main
