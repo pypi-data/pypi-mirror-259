@@ -1,0 +1,9 @@
+PyDeepLib/__init__.py,sha256=fWOZCJHNPu_h6eeMH2W65Y-K8rbKLKEiI6ET-O1U4rg,211
+PyDeepLib/layers.py,sha256=EoCC89nu8dQ58AAjv-1yfK5YzyrkWHGJ1rEEhG41qCY,6027
+PyDeepLib/loggingin.py,sha256=hiUUc5lS1Np9NHkyCXIctkCxoJNyBjKRlHA8DZeZNMI,1482
+PyDeepLib/speedfilein.py,sha256=OonYuYN5SnjhMCefdgxe_aN3DUkUd8NOz2zSk4hkOdI,1304
+PyDeepLib/tensorclass.py,sha256=befjFpSgwUrDmEoPeKKsvEMJIppw6Chz91lLdwynR_Y,9407
+tensor_library-0.0.1.dist-info/METADATA,sha256=UotvxigV1hxloz0KT9HIW8Epku7lwTVEgYIPRVi2FCo,2156
+tensor_library-0.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+tensor_library-0.0.1.dist-info/top_level.txt,sha256=tjd_3h9p6lFBD8pah1CStjD5btn8x4FXBMolSf3ppQQ,10
+tensor_library-0.0.1.dist-info/RECORD,,
