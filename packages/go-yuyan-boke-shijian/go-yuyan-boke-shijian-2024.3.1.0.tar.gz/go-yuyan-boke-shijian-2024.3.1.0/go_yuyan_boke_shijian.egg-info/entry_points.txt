@@ -1,0 +1,3 @@
+[console_scripts]
+GoYuyanBokeShijian = GoYuyanBokeShijian.__main__:main
+go-yuyan-boke-shijian = GoYuyanBokeShijian.__main__:main
