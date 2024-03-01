@@ -1,0 +1,9 @@
+bdrc_bag/__init__.py,sha256=FQz4BZM03zWQYgfeSzxlhFdMJI-BT2-3Rw1OoFwCN7w,34
+bdrc_bag/bag_main.py,sha256=HFIlAJRJOULShG-5sUjJqhkAhG1im95yh8xpX09N3b8,6012
+bdrc_bag/bag_ops.py,sha256=8ZydkS9c-WgVGAp41aqzzZnnBbkPrFgLEeaNsGZEnYs,12161
+bdrc_bag-0.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+bdrc_bag-0.0.1.dist-info/METADATA,sha256=6JKuhEAZcNfZ0pYwi8CG_9Rmuakh-j1ZqEQ7Qv1K8-k,1152
+bdrc_bag-0.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+bdrc_bag-0.0.1.dist-info/entry_points.txt,sha256=_rjkFmXd666y3Q98Lri6UIa-VDO1P4VuEDyHEh9MQsA,52
+bdrc_bag-0.0.1.dist-info/top_level.txt,sha256=ziibe20KlIDcgCGObXV-279K8boYpR4Vi8B3XOT-Oc0,9
+bdrc_bag-0.0.1.dist-info/RECORD,,
