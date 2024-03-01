@@ -1,0 +1,17 @@
+fprime_bootstrap/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fprime_bootstrap/__main__.py,sha256=uBhqKSQViACatZBgskIwjgaxwiqP9JmMSX9V-DUaqEs,1266
+fprime_bootstrap/bootstrap_project.py,sha256=eZWLI-5AE1IF4rusArRTNVWeGhJ9zXPlgiNUSwOhC1U,6496
+fprime_bootstrap/cookiecutter.json,sha256=3rbwmYe0x--W29wzA7aI05veohTq5wO7DGYICJ5bKTU,132
+fprime_bootstrap/templates/fprime-project-template/.gitignore,sha256=vnQxK87zfVwj-iGx6CKu54nw97JO2y8XicMHILbFiLo,172
+fprime_bootstrap/templates/fprime-project-template/CMakeLists.txt-template,sha256=ybQifMR5ThD60lTckSBIAVgz3CAxUzsY_R-HtvXakiA,618
+fprime_bootstrap/templates/fprime-project-template/README.md-template,sha256=6LGLo5EONKylmhdJ9NvtOu0ntg510o02Tcd2GEyURX4,308
+fprime_bootstrap/templates/fprime-project-template/project.cmake,sha256=LNaMQUV-pKZ-C0G3Io1l40NzD1_6m8T6MqXmXoGz-I4,193
+fprime_bootstrap/templates/fprime-project-template/settings.ini,sha256=99h-aYzAI7NkXXD5i8ymgloJHUFRVJu9IQiqXKBsJns,162
+fprime_bootstrap/templates/fprime-project-template/Components/CMakeLists.txt,sha256=IlTUBj1r7QywEEC7vZrfRum6qYMDLwLWSzGVg7yIgUM,107
+fprime_bootstrap-1.1.0.dist-info/LICENSE.txt,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+fprime_bootstrap-1.1.0.dist-info/METADATA,sha256=PiCRU3ckjt2HpyTNvrqUQml6rs8kWj3rSbUqCvADYZQ,15162
+fprime_bootstrap-1.1.0.dist-info/NOTICE.txt,sha256=s2qUygqd5x-2BAOeEIaQOgUsuTbT0nX_yQbyM9eLOh4,370
+fprime_bootstrap-1.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+fprime_bootstrap-1.1.0.dist-info/entry_points.txt,sha256=TK9qqTcJ06bauykjx6q-zd3lgVZrI8S37j8gi5hgKTQ,68
+fprime_bootstrap-1.1.0.dist-info/top_level.txt,sha256=DnUT2kay7gAK_w6xUdhZY_WjQXcEkmAgOvSpTf5fKzQ,17
+fprime_bootstrap-1.1.0.dist-info/RECORD,,
