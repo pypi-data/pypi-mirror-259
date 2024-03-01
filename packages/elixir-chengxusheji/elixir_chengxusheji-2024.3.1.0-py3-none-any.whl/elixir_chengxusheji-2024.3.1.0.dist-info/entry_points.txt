@@ -1,0 +1,3 @@
+[console_scripts]
+ElixirChengxusheji = ElixirChengxusheji.__main__:main
+elixir-chengxusheji = ElixirChengxusheji.__main__:main
