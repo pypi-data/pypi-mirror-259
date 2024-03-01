@@ -1,0 +1,3 @@
+[console_scripts]
+MasteringElasticsearchZhongwenban = MasteringElasticsearchZhongwenban.__main__:main
+mastering-elasticsearch-zhongwenban = MasteringElasticsearchZhongwenban.__main__:main
