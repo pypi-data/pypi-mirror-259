@@ -1,0 +1,3 @@
+[console_scripts]
+Bootstrap3ZhongwenbanV11 = Bootstrap3ZhongwenbanV11.__main__:main
+bootstrap-3-zhongwenban-v1-1 = Bootstrap3ZhongwenbanV11.__main__:main
