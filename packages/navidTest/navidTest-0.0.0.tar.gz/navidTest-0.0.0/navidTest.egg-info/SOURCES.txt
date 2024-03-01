@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+navidTest/__init__.py
+navidTest.egg-info/PKG-INFO
+navidTest.egg-info/SOURCES.txt
+navidTest.egg-info/dependency_links.txt
+navidTest.egg-info/top_level.txt
