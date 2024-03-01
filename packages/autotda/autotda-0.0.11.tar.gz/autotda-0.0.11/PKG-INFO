@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: autotda
+Version: 0.0.11
+Summary: Human in the loop Data Augmentation
+Home-page: https://github.com/delftdata/hci-auto-feat
+Author: Zeger Mouw
+Author-email: z.f.mouw@student.tudelft.nl
+License: MIT
+Download-URL: https://github.com/delftdata/hci-auto-feat/archive/refs/tags/0.0.1.tar.gz
+Description: UNKNOWN
+Keywords: SOME,MEANINGFULL,KEYWORDS
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
