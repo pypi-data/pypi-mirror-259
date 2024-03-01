@@ -1,0 +1,10 @@
+LICENSE
+README.md
+cdpop.py
+pyproject.toml
+cdpop.egg-info/PKG-INFO
+cdpop.egg-info/SOURCES.txt
+cdpop.egg-info/dependency_links.txt
+cdpop.egg-info/entry_points.txt
+cdpop.egg-info/requires.txt
+cdpop.egg-info/top_level.txt
