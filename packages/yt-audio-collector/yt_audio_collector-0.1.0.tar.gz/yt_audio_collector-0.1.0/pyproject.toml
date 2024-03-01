@@ -1,0 +1,54 @@
+[tool.poetry]
+name = "yt_audio_collector"
+version = "0.1.0"
+description = "Create hindi language dataset for Speech Recognition from youtube"
+authors = ["Mannasamudram Nagalakshmi"]
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+packages=[{include = "yt_audio_collector"}]
+keywords = ["hindi dataset", "yt_audio_collector", "youtube", "youtube hindi audio", "youtube hindi transcripts"]
+documentation = "https://nagalakshmi136.github.io/yt_audio_collector/"
+repository = "https://github.com/Nagalakshmi136/yt_audio_collector"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+google-api-python-client = "^2.98.0"
+pytube = "^15.0.0"
+youtube-transcript-api = "^0.6.1"
+pydub = "^0.25.1"
+librosa = "^0.10.1"
+openai-whisper = "^20230918"
+soundfile = "^0.12.1"
+numpy = ">=1.18.5,<=1.26.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.bumpver]
+current_version = "0.1.0"
+version_pattern = "MAJOR.MINOR.PATCH"
+commit_message = "bump version {old_version} -> {new_version}"
+tag_message = "{new_version}"
+tag_scope = "default"
+pre_commit_hook = ""
+post_commit_hook = ""
+commit = true
+tag = true
+push = true
+
+[tool.bumpver.file_patterns]
+"pyproject.toml" = [
+    'current_version = "{version}"',
+]
+"yt_audio_collector/__init__.py" = ["{version}"]
+"README.md" = [
+    "{version}",
+    "{pep440_version}",
+]
+
