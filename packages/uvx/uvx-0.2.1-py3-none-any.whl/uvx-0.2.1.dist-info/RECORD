@@ -1,0 +1,10 @@
+uvx/__about__.py,sha256=iWxavE57NW9693EbFTjymBMIT5fJej2bKG9AAYpXSpU,188
+uvx/__init__.py,sha256=qOgrRWv2ZeykVWHLp83r0treAYcwB3mxmfG51gh_AAo,174
+uvx/cli.py,sha256=qGK2il_mVlFVp8mlXCNZomBJ1k9Ra6qXRh2EqVhP11M,616
+uvx/core.py,sha256=C6ED_W1tVBGcmSVM29tQ_k5lhV7IRbbNu1K5w9CzVH8,7930
+uvx/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+uvx-0.2.1.dist-info/METADATA,sha256=MOguPsbOj9OkoiJpgFOJ3zTqrOu0dso1NCj9GCmBG9M,1581
+uvx-0.2.1.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+uvx-0.2.1.dist-info/entry_points.txt,sha256=w3NZ_Tm56vWYyOJuL35-G03q96snmQMI9wgc12toJ1k,36
+uvx-0.2.1.dist-info/licenses/LICENSE.txt,sha256=IlFgh4w9Jfni_IqNrHMLEasj_h-5tYIXT0VNaqyInHI,1113
+uvx-0.2.1.dist-info/RECORD,,
