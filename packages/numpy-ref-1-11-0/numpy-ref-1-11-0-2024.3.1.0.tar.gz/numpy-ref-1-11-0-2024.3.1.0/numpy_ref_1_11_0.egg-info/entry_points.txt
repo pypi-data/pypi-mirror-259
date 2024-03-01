@@ -1,0 +1,3 @@
+[console_scripts]
+NumpyRef1110 = NumpyRef1110.__main__:main
+numpy-ref-1-11-0 = NumpyRef1110.__main__:main
