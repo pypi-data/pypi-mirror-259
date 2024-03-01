@@ -1,0 +1,3 @@
+[console_scripts]
+AtomFeixingShouceZhongwenban = AtomFeixingShouceZhongwenban.__main__:main
+atom-feixing-shouce-zhongwenban = AtomFeixingShouceZhongwenban.__main__:main
