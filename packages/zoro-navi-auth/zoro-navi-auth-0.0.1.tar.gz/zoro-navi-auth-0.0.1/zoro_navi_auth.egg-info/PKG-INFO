@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: zoro-navi-auth
+Version: 0.0.1
+Summary: Public package for zoro navi auth
+Author-email: Tim Boex <timothy.boex@zoro.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
