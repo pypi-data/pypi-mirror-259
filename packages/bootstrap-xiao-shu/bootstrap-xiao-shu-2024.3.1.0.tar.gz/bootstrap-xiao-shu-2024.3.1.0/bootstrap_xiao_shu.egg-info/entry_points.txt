@@ -1,0 +1,3 @@
+[console_scripts]
+BootstrapXiaoShu = BootstrapXiaoShu.__main__:main
+bootstrap-xiao-shu = BootstrapXiaoShu.__main__:main
