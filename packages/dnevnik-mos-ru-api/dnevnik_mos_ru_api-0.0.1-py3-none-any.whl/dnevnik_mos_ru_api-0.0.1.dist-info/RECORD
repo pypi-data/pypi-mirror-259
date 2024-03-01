@@ -1,0 +1,11 @@
+dnevnik/Authenticator.py,sha256=2xn6TFIThdqszmPDbmkh7p3-q0XuVXCbuRQ_fFMSNrw,1091
+dnevnik/FileAuthenticator.py,sha256=J9OwqT5YU1iCA3Tx78ktiMjRjl-tYqNDg8U2p09uGro,581
+dnevnik/IncorrectLoginPassword.py,sha256=Y7Tbwf7ZQ2kBXbpP5gfkv5jDjbHABMYrj45Mal4-55c,52
+dnevnik/PlayWrightAuthenticator.py,sha256=0ef25JjkeAUcdcV6wqLBlHLEHgwWhv99sW84xmNpb2Q,8977
+dnevnik/PredefinedAuthenticator.py,sha256=Y_PSym-c0cPLYeoqFyCogEBoAKn3FZPwuOKOjzHNvAc,522
+dnevnik/TOTPRequested.py,sha256=cfRVN49ngLeoT1LbIjlQM3F_NixYhuwEvyiB4PE6HPI,41
+dnevnik/__init__.py,sha256=j_Mo-dHFoVT7IoTNoxzyLHBDcr-0XnCyuqZwi0sl-nw,343
+dnevnik_mos_ru_api-0.0.1.dist-info/METADATA,sha256=_HG-YDOWsbIBbi0k1vsBjIAgaclGeTcFORY0Y9nDVzw,490
+dnevnik_mos_ru_api-0.0.1.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+dnevnik_mos_ru_api-0.0.1.dist-info/top_level.txt,sha256=OX-SHA1zaccyBGCDfLwZTUF6xnPvYWYmeGAVBnFi4oI,8
+dnevnik_mos_ru_api-0.0.1.dist-info/RECORD,,
