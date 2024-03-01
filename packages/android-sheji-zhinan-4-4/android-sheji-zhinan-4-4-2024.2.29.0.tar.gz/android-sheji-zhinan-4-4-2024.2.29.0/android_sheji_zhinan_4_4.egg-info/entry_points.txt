@@ -1,0 +1,3 @@
+[console_scripts]
+AndroidShejiZhinan44 = AndroidShejiZhinan44.__main__:main
+android-sheji-zhinan-4-4 = AndroidShejiZhinan44.__main__:main
