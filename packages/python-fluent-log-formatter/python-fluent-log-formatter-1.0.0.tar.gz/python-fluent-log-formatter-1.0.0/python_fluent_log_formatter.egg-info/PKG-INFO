@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: python-fluent-log-formatter
+Version: 1.0.0
+Summary: A Python log formatter for use with fluent-logger-python. Formats datetime objects into ISO 8601 strings.
+Author: Armandt van Zyl
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: fluent-logger
+Requires-Dist: msgpack
+
+# python-fluent-log-formatter
+
+A Python log formatter for use with `fluent-logger-python`.
+Formats `datetime` objects into ISO 8601 strings.

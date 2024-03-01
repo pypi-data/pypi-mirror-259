@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+fluent_formatter/__init__.py
+python_fluent_log_formatter.egg-info/PKG-INFO
+python_fluent_log_formatter.egg-info/SOURCES.txt
+python_fluent_log_formatter.egg-info/dependency_links.txt
+python_fluent_log_formatter.egg-info/requires.txt
+python_fluent_log_formatter.egg-info/top_level.txt
