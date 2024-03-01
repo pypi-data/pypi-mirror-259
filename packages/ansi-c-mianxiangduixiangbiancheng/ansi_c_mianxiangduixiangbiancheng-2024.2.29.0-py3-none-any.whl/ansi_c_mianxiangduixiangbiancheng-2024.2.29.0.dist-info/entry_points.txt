@@ -1,0 +1,3 @@
+[console_scripts]
+AnsiCMianxiangduixiangbiancheng = AnsiCMianxiangduixiangbiancheng.__main__:main
+ansi-c-mianxiangduixiangbiancheng = AnsiCMianxiangduixiangbiancheng.__main__:main
