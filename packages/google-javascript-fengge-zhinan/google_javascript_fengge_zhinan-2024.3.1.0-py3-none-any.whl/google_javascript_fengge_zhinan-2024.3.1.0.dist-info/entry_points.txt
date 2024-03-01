@@ -1,0 +1,3 @@
+[console_scripts]
+GoogleJavascriptFenggeZhinan = GoogleJavascriptFenggeZhinan.__main__:main
+google-javascript-fengge-zhinan = GoogleJavascriptFenggeZhinan.__main__:main
