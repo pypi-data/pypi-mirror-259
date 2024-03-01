@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: titi
+Version: 0.0.1
+Project-URL: Documentation, https://github.com/hedesandxlii/titi#readme
+Project-URL: Issues, https://github.com/hedesandxlii/titi/issues
+Project-URL: Source, https://github.com/hedesandxlii/titi
+Author-email: André Hedesand <andre.hedesand@gmail.com>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.7
+Requires-Dist: result
+Requires-Dist: typing-extensions
+Description-Content-Type: text/markdown
+
+# titi
+
+[![PyPI - Version](https://img.shields.io/pypi/v/titi.svg)](https://pypi.org/project/titi)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/titi.svg)](https://pypi.org/project/titi)
+
+-----
+
+**Table of Contents**
+
+- [Installation](#installation)
+- [License](#license)
+
+## Installation
+
+```console
+pip install titi
+```
+
+
+## License
+
+`titi` is distributed under the terms of the [MIT](https://spdx.org/licenses/MIT.html) license.
