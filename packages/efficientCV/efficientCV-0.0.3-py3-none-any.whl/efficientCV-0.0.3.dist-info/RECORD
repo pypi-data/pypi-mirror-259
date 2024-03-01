@@ -1,0 +1,15 @@
+efficientCV/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+efficientCV/layers/__init__.py,sha256=jqTodmfmHfoFQmDA3Xsgc2556YW3vPj9XsS3HxoQGYk,325
+efficientCV/layers/convolutions.py,sha256=E62Gfu_sxeFt_7Vd1qAld_Wy8x8o8bdKh_qRyLoZN0s,7781
+efficientCV/models/__init__.py,sha256=OahIOJaYB03JQjPqyy_uU3t0xmQb1tEcvE9Wsxw2zD0,314
+efficientCV/models/efficientnet_v1.py,sha256=9y6LK6f2afNs6Bp1ejuqNoc_oD44naQjbb1lYp6njrw,3114
+efficientCV/models/efficientnet_v2.py,sha256=hS9ZQ3vOdHPIxE-fEsh2cUu5f54ZhTtFI0iEQwn7q38,4038
+efficientCV/models/mobilenet_v1.py,sha256=dVs4eATshCzBhgFGHFdO2Ci7ohYIWjdoo1aHGAE5REA,1733
+efficientCV/models/mobilenet_v2.py,sha256=eW4768X6TNODUJQY9pQH7YPaq-1AkCeqLldqOKOHdiQ,2085
+efficientCV/utils/__init__.py,sha256=FCv5fJrqTnBr5w3hTzak_4tOiaaedx-bOtpqPrTC8aY,290
+efficientCV/utils/ops.py,sha256=OTUOYy-xjkISkET5Pg5j5R2yhIE6iUoWZzB05TgkrmU,963
+efficientCV/utils/utils.py,sha256=1GxE5UU5aCVz1-V6QQhWaHyRgmmLS5LbjVKnxSMq_po,681
+efficientCV-0.0.3.dist-info/METADATA,sha256=kYI6ewvMj61ectAOxREZbhn7xn9jnyw7EkXq8ddDNrI,782
+efficientCV-0.0.3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+efficientCV-0.0.3.dist-info/top_level.txt,sha256=jKOeRE5GbqReIuLdj0txGeQKHODk5G50KmwQg7WYo-Q,12
+efficientCV-0.0.3.dist-info/RECORD,,
