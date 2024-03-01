@@ -1,0 +1,3 @@
+[console_scripts]
+CXuexiBiji = CXuexiBiji.__main__:main
+c-xuexi-biji = CXuexiBiji.__main__:main
