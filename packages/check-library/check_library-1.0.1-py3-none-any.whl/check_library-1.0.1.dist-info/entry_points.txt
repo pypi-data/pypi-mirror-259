@@ -1,0 +1,3 @@
+[console_scripts]
+check_library = check_library:main
+
