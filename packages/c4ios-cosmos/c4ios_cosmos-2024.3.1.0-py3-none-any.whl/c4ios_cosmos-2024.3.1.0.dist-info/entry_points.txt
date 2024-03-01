@@ -1,0 +1,3 @@
+[console_scripts]
+C4iosCosmos = C4iosCosmos.__main__:main
+c4ios-cosmos = C4iosCosmos.__main__:main
