@@ -1,0 +1,3 @@
+[console_scripts]
+ElectronZhongwenWendang = ElectronZhongwenWendang.__main__:main
+electron-zhongwen-wendang = ElectronZhongwenWendang.__main__:main
