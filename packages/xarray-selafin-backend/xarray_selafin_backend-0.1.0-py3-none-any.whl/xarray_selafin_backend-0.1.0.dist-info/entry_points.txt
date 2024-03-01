@@ -1,0 +1,2 @@
+[xarray.backends]
+selafin = xarray_selafin_backend.xarray_backend:SelafinBackendEntrypoint
