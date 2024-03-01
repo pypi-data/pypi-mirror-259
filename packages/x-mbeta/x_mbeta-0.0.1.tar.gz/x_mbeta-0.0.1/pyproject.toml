@@ -1,0 +1,19 @@
+[project]
+name = "x_mbeta"
+version = "0.0.1"
+authors = [
+    { name = "mbeta", email = "mbeta@163.com" },
+]
+description = "test"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/mbeta7399/x_mbeta"
+Issues = "https://github.com/mbeta7399/x_mbeta/issues"
+Source = "https://github.com/mbeta7399/x_mbeta"
