@@ -1,0 +1,13 @@
+vespucci/__init__.py,sha256=kYBqzbwajH38AOPOOWRaP92gb6auHYcvaBKvpO1jnXA,319
+vespucci/base.py,sha256=fyX8CeKZCpfde4z0NHzL4l55LXPIA1lMpqz-irTCiYs,357
+vespucci/crawler.py,sha256=dNBX9iyuAiY7k3szMetDQEXm-fUsVYvXQ2YLulIZvCE,2519
+vespucci/oracle.py,sha256=UaC5udfJknMgmpV6ZPUJsMWlwpgtqjzJYdBDUsZUJgw,2585
+vespucci/store.py,sha256=K5Er0po3xw6HyRtuOc4AJAy8LcGKBl4wV23Zi-ssxwI,943
+vespucci/store_stream.py,sha256=eA_XIamEpJa6_M0djTyZaOrYL80bFaAk7CUnjCIpCr8,1073
+vespucci/token_bucket.py,sha256=V0qTVM7ELpT7tDzIvr7K2_r64jeYQ4P6f5w4s8FJois,1117
+vespucci/utils.py,sha256=Zq7vYnRdYIgM-1lAPKZikoXt5sIFUa-Y127hl8m-WIg,2442
+vespucci-0.7.1.data/data/VERSION,sha256=3Vv7hYxjukTuM95Oi-Jy9ruIUp3YAmI5S_YIjQtQswU,7
+vespucci-0.7.1.dist-info/METADATA,sha256=ekJeBtcbK7XXff9Uv-eLz9XMajB5DuWfHAXJW8WiBJU,496
+vespucci-0.7.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+vespucci-0.7.1.dist-info/top_level.txt,sha256=SA-ekDkQMcsBWqFlEupPPtf6LAGHAApcf25hLU_2t98,9
+vespucci-0.7.1.dist-info/RECORD,,
