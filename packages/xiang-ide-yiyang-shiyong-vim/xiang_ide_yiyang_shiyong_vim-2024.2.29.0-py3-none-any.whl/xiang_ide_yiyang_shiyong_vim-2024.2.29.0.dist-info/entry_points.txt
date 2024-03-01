@@ -1,0 +1,3 @@
+[console_scripts]
+XiangIdeYiyangShiyongVim = XiangIdeYiyangShiyongVim.__main__:main
+xiang-ide-yiyang-shiyong-vim = XiangIdeYiyangShiyongVim.__main__:main
