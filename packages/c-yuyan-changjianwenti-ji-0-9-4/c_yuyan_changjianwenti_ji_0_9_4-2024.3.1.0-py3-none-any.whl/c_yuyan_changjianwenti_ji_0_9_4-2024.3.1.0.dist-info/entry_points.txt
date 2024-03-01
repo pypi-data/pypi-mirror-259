@@ -1,0 +1,3 @@
+[console_scripts]
+CYuyanChangjianwentiJi094 = CYuyanChangjianwentiJi094.__main__:main
+c-yuyan-changjianwenti-ji-0-9-4 = CYuyanChangjianwentiJi094.__main__:main
