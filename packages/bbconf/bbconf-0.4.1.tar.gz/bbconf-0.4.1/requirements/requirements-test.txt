@@ -1,0 +1,5 @@
+pytest-cov
+pytest
+coverage
+smokeshow
+python-dotenv
