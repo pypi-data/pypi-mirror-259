@@ -1,0 +1,3 @@
+[console_scripts]
+WangdaoKaoyanCaozuoxitongZhishidianZhengli = WangdaoKaoyanCaozuoxitongZhishidianZhengli.__main__:main
+wangdao-kaoyan-caozuoxitong-zhishidian-zhengli = WangdaoKaoyanCaozuoxitongZhishidianZhengli.__main__:main
