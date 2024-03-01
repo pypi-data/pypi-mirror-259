@@ -1,0 +1,3 @@
+[console_scripts]
+LinuxJiuGaiZhemeXueV102 = LinuxJiuGaiZhemeXueV102.__main__:main
+linux-jiu-gai-zheme-xue-v1-02 = LinuxJiuGaiZhemeXueV102.__main__:main
