@@ -1,0 +1,3 @@
+[console_scripts]
+BianchengRumenZhinanXiaojingMo = BianchengRumenZhinanXiaojingMo.__main__:main
+biancheng-rumen-zhinan-xiaojing-mo = BianchengRumenZhinanXiaojingMo.__main__:main
