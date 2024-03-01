@@ -1,0 +1,3 @@
+[console_scripts]
+NumpyUser1110 = NumpyUser1110.__main__:main
+numpy-user-1-11-0 = NumpyUser1110.__main__:main
