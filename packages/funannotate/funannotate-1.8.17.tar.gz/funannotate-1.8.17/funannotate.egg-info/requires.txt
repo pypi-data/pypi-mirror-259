@@ -1,0 +1,12 @@
+biopython<1.80
+goatools
+seaborn
+psutil
+pandas
+matplotlib
+natsort
+numpy
+requests
+scikit-learn
+scipy
+distro
