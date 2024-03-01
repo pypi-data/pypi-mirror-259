@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: simplerag
+Version: 0.0.4
+Summary: This package will help you talk to your data using Retrieval Augmented Generation (RAG).
+Home-page: https://github.com/samarthsarin/simplerag/
+Author: Samarth Sarin
+Author-email: sarin.samarth07@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/samarthsarin/simplerag/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: transformers
+Requires-Dist: accelerate
+Requires-Dist: SentencePiece
+Requires-Dist: bitsandbytes
+Requires-Dist: accelerate (==0.26.1)
+Requires-Dist: langchain (==0.0.166)
+Requires-Dist: InstructorEmbedding
+Requires-Dist: chromadb (==0.3.22)
+Requires-Dist: typing-inspect (==0.8.0)
+Requires-Dist: typing-extensions (==4.5.0)
+
+# simplerag (Simple Retrieval Augmented Generation)
+
+Simplerag: Retrieval Augmented Generation Library
+Simplerag is a Python library designed to assist users in working with custom data using Large Language Models (LLMs). It enables users to create a vector database, which is a one-time activity, and LLM models can then utilize the product outputs for retrieval augmented generation.
+
+Table of Contents
+1. Introduction
+2. Installation
+3. Usage
+4. Creating a Vector DB
+5. Retrieval Augmented Generation
+6. Examples
+7. Contributing
+8. License
+
+__Introduction__
+
+Large Language Models (LLMs) have gained significant popularity in recent years due to their ability to generate human-like text. However, working with custom data using LLMs can be challenging, especially when dealing with large datasets or complex retrieval tasks. Simplerag aims to simplify this process by providing a convenient and efficient way to work with LLMs for retrieval augmented generation tasks.
+
+__Key features of simplerag include:__
+
+__Vector Database Creation:__ simplerag allows users to create a vector database from their custom data. This database serves as an index for retrieval tasks and is generated as a one-time activity.
+
+__Retrieval Augmented Generation:__ With the vector database in place, Simplerag enables users to perform retrieval augmented generation using LLM models. This approach combines the power of retrieval and generation to produce high-quality outputs.
+
+__Installation__
+To install simplerag, you can use pip:
+
+```pip install simplerag```
+
+
+
