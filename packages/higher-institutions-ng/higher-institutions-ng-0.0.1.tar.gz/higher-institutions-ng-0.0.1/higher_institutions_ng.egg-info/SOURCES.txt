@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+higher_institutions_ng.egg-info/PKG-INFO
+higher_institutions_ng.egg-info/SOURCES.txt
+higher_institutions_ng.egg-info/dependency_links.txt
+higher_institutions_ng.egg-info/top_level.txt
+tests/test.py
