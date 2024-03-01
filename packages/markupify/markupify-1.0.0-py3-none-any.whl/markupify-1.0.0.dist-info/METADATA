@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: markupify
+Version: 1.0.0
+Summary: A simple HTML5 generator based-on Python's OOP
+License: MIT
+Keywords: html,python,html-generator,markup
+Author: ChogirmaliYigit
+Author-email: chogirmali.yigit@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Project-URL: Bug Tracker, https://github.com/old-juniors/markupify/issues
+Project-URL: Source, https://github.com/old-juniors/markupify
+Description-Content-Type: text/markdown
+
+# markupify
+A simple HTML generator from Python.
+
