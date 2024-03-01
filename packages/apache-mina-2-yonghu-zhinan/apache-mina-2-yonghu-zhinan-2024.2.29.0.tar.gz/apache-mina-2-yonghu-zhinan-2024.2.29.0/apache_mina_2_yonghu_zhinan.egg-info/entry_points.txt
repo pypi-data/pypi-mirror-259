@@ -1,0 +1,3 @@
+[console_scripts]
+ApacheMina2YonghuZhinan = ApacheMina2YonghuZhinan.__main__:main
+apache-mina-2-yonghu-zhinan = ApacheMina2YonghuZhinan.__main__:main
