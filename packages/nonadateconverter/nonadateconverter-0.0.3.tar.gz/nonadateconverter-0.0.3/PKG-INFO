@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: nonadateconverter
+Version: 0.0.3
+Summary: dateconverter package for Gregorian, Hijri and Jalali
+Author: Navid Nourazar
+Author-email: navid.nourazar@gmail.com
