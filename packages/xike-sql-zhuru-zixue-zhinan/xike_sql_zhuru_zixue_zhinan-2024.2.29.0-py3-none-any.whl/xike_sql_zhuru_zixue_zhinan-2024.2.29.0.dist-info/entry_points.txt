@@ -1,0 +1,3 @@
+[console_scripts]
+XikeSqlZhuruZixueZhinan = XikeSqlZhuruZixueZhinan.__main__:main
+xike-sql-zhuru-zixue-zhinan = XikeSqlZhuruZixueZhinan.__main__:main
