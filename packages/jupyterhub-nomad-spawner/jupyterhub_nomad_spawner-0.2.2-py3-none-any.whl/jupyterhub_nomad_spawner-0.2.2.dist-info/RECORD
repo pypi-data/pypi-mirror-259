@@ -1,0 +1,15 @@
+jupyterhub_nomad_spawner/__init__.py,sha256=m6kyaNpwBcP1XYcqrelX2oS3PJuOnElOcRdBa9pEb8c,22
+jupyterhub_nomad_spawner/consul/consul_service.py,sha256=Mpm_wpa8k6LNwRt4c5V81Co0aTIeiKxS4weyKBzAIg8,1001
+jupyterhub_nomad_spawner/job_factory.py,sha256=DPYMPSh4oUX2ZPS-G9ILgudv_sJlnghsXWG2H7Ek1gQ,1800
+jupyterhub_nomad_spawner/job_options_factory.py,sha256=fwStpltfCeWLcawda0V6mMuBjyhjrRLGjtEcFiMgqPQ,630
+jupyterhub_nomad_spawner/nomad/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jupyterhub_nomad_spawner/nomad/nomad_model.py,sha256=dowdQtq4QFVVWXrBnqpBCFO9YzIjMnEKlFjMQHAF15E,61041
+jupyterhub_nomad_spawner/nomad/nomad_service.py,sha256=iYfAcs5nyY5PRb9bQNM3YP-L1C1Or2m7njo8XkekzPY,4871
+jupyterhub_nomad_spawner/spawner.py,sha256=63aOlhUlbFPNojDKXo2bichgXDYkYAUU7eGxRq9nKJE,21341
+jupyterhub_nomad_spawner/templates/form.html.j2,sha256=yAk2zuSqaAXaBIJZ7FnNUzs3rMZnPYieOslXesXOlWo,3054
+jupyterhub_nomad_spawner/templates/job.hcl.j2,sha256=ebEYJH5eXbfGb1SCWgzx1UCIoWPTTe8PnQgsemUZKLo,2565
+jupyterhub_nomad_spawner-0.2.2.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+jupyterhub_nomad_spawner-0.2.2.dist-info/METADATA,sha256=Yv4JMsLOuNhEqbGF6f2ljwpiY5HVSecHitqanw0RmlU,4567
+jupyterhub_nomad_spawner-0.2.2.dist-info/WHEEL,sha256=Zb28QaM1gQi8f4VCBhsUklF61CTlNYfs9YAZn-TOGFk,88
+jupyterhub_nomad_spawner-0.2.2.dist-info/entry_points.txt,sha256=mIZuiMxNH3thuKRVpLmSeQhl17cfpsODZ-Tru2YH7bk,83
+jupyterhub_nomad_spawner-0.2.2.dist-info/RECORD,,
