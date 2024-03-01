@@ -1,0 +1,3 @@
+[console_scripts]
+BianxieRubyDeCTuozhan = BianxieRubyDeCTuozhan.__main__:main
+bianxie-ruby-de-c-tuozhan = BianxieRubyDeCTuozhan.__main__:main
