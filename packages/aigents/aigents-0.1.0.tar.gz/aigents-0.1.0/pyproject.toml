@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "aigents"
+version = "0.1.0"
+description = "Adapters for Large Language Models and Generative Pre-trained Transformers APIs"
+authors = ["Vagner Bessa"]
+license = "None"
+readme = "README.md"
+packages = [{include = "aigents", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+openai = "^1.12.0"
+tiktoken = "^0.6.0"
+python-dotenv = "^1.0.1"
+google-generativeai = "^0.3.2"
+g4f = {extras = ["all"], version = "^0.2.2.3"}
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.22.1"
+ipykernel = "^6.29.2"
+tomlkit = "^0.12.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
