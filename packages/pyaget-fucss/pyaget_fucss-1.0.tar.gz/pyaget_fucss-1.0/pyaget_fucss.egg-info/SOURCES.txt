@@ -1,0 +1,14 @@
+README.md
+setup.py
+pyaget_fucs/FUCClass.py
+pyaget_fucs/__init__.py
+pyaget_fucs/chatMessagesVersions.py
+pyaget_fucs/fucsFiller.py
+pyaget_fucs/onedriveSettings.py
+pyaget_fucs/pyle.py
+pyaget_fucs/sharePointAccess.py
+pyaget_fucss.egg-info/PKG-INFO
+pyaget_fucss.egg-info/SOURCES.txt
+pyaget_fucss.egg-info/dependency_links.txt
+pyaget_fucss.egg-info/requires.txt
+pyaget_fucss.egg-info/top_level.txt
