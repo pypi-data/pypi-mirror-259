@@ -1,0 +1,3 @@
+[console_scripts]
+D3ApiRef = D3ApiRef.__main__:main
+d3-api-ref = D3ApiRef.__main__:main
