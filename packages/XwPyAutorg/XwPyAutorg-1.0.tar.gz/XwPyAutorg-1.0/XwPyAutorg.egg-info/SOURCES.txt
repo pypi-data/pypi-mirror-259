@@ -1,0 +1,10 @@
+README.md
+license.txt
+setup.py
+XwPyAutorg/XwPyAutorg.py
+XwPyAutorg/__init__.py
+XwPyAutorg/setup.py
+XwPyAutorg.egg-info/PKG-INFO
+XwPyAutorg.egg-info/SOURCES.txt
+XwPyAutorg.egg-info/dependency_links.txt
+XwPyAutorg.egg-info/top_level.txt
