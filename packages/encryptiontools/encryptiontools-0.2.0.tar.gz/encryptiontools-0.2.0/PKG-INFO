@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: encryptiontools
+Version: 0.2.0
+Summary: Tools for encryption/decryption. Symmetric and asymmetric (RSA-based) encryption.
+Home-page: https://github.com/Smoren/encryptiontools-pypi
+Author: Smoren
+Author-email: ofigate@gmail.com
+Project-URL: Documentation, https://github.com/Smoren/encryptiontools-pypi
+Project-URL: Bug Reports, https://github.com/Smoren/encryptiontools-pypi/issues
+Project-URL: Source Code, https://github.com/Smoren/encryptiontools-pypi
+Keywords: cryptography,encryption,rsa
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: rsa
+Requires-Dist: cryptography
+Provides-Extra: dev
+Requires-Dist: check-manifest; extra == "dev"
+Requires-Dist: coverage; extra == "dev"
+Provides-Extra: test
+Requires-Dist: coverage; extra == "test"
+
+# Encryption Tools for Python 3
+
+
+[![PyPI package](https://img.shields.io/badge/pip%20install-encryptiontools-brightgreen)](https://pypi.org/project/encryptiontools/)
+[![version number](https://img.shields.io/pypi/v/encryptiontools?color=green&label=version)](https://github.com/Smoren/encryptiontools-pypi/releases)
+[![Coverage Status](https://coveralls.io/repos/github/Smoren/encryptiontools-pypi/badge.svg?branch=master)](https://coveralls.io/github/Smoren/encryptiontools-pypi?branch=master)
+[![Actions Status](https://github.com/Smoren/encryptiontools-pypi/workflows/Test/badge.svg)](https://github.com/Smoren/encryptiontools-pypi/actions)
+[![License](https://img.shields.io/github/license/Smoren/encryptiontools-pypi)](https://github.com/Smoren/encryptiontools-pypi/blob/master/LICENSE)
+
+
+Documentation is under construction...
