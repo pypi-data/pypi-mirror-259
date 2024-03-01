@@ -1,0 +1,3 @@
+[console_scripts]
+YongPythonZuoKexuejisuan = YongPythonZuoKexuejisuan.__main__:main
+yong-python-zuo-kexuejisuan = YongPythonZuoKexuejisuan.__main__:main
