@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: EnDecode
+Version: 0.0.2
+Summary: Encoder Decoder for Text Tokenization
+Author-email: valaz <info@cogitoedge.com>
+Project-URL: Homepage, https://github.com/cogitoedge/EnDecode
+Project-URL: Issues, https://github.com/cogitoedge
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
