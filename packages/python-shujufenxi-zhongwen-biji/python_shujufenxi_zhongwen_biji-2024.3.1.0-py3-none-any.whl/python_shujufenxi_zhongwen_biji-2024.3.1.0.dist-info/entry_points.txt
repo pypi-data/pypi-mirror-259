@@ -1,0 +1,3 @@
+[console_scripts]
+PythonShujufenxiZhongwenBiji = PythonShujufenxiZhongwenBiji.__main__:main
+python-shujufenxi-zhongwen-biji = PythonShujufenxiZhongwenBiji.__main__:main
