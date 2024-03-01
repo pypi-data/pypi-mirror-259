@@ -1,0 +1,3 @@
+[console_scripts]
+css-bundler = css_bundler:run
+
