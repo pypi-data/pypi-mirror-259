@@ -1,0 +1,3 @@
+[console_scripts]
+BeyondTheCStandardLibraryZhongwenban = BeyondTheCStandardLibraryZhongwenban.__main__:main
+beyond-the-c-standard-library-zhongwenban = BeyondTheCStandardLibraryZhongwenban.__main__:main
