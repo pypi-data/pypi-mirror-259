@@ -1,0 +1,12 @@
+pydbase/__init__.py,sha256=mxlKdJrWa5lj6qr9NwNZcUuVqnRACJQa7pxE2YtgHSI,9
+pydbase/dbutils.py,sha256=p84Sg09HYIS0ozU2i4R8P5Pb0a32caQgeeYM-QaMnsY,5631
+pydbase/twinbase.py,sha256=5adfGq_u0Tr5n-bRpQPHzaEx4O7a76IQ29wvMWqgtKc,7102
+pydbase/twinchain.py,sha256=I818cPjuAvGKlzw3Ax3J0wP4W81zXU5FplVbZMZLyI4,9591
+pydbase/twincore.py,sha256=m54uc-g5q28SiPW-58xtZhJvRGaWzZzlGvX5n3LScEk,34383
+pydbase-1.4.4.data/scripts/chainadm.py,sha256=Ka1crN0kbraSET-y65KovgFnNy2QjoPDW18funs42lg,5918
+pydbase-1.4.4.data/scripts/dbaseadm.py,sha256=Xvn4EqlIMrWi4diDhmIyT37hQFZFRvuqW4RUi9RblDo,10291
+pydbase-1.4.4.dist-info/METADATA,sha256=1ex8q3lQ7nv4z8dNQA6k2VsXpVS43S1EaIhq2unKl8Q,12674
+pydbase-1.4.4.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+pydbase-1.4.4.dist-info/entry_points.txt,sha256=1eI0p30DAUs4ovRpOkRuxwWZgV0Ya-ZnISGjK6wTdKk,76
+pydbase-1.4.4.dist-info/top_level.txt,sha256=AZGpwSI5gUEUq_2FaAKaFjvqTXKiHo7Xxtyv-n_5cRk,18
+pydbase-1.4.4.dist-info/RECORD,,
