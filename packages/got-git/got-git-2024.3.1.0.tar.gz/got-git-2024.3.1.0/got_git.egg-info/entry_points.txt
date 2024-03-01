@@ -1,0 +1,3 @@
+[console_scripts]
+GotGit = GotGit.__main__:main
+got-git = GotGit.__main__:main
