@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: noisebase
+Version: 0.0.1
+Summary: Datasets and benchmarks for neural Monte Carlo denoising
+Author-email: Martin Bálint <martin@balint.io>
+Project-URL: Documentation, https://balint.io/noisebase
+Project-URL: Repository, https://github.com/balintio/noisebase.git
+Keywords: denoising,Monte Carlo,MC,neural
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Environment :: GPU
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+# noisebase
