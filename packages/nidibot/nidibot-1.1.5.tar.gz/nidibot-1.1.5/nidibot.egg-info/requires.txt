@@ -1,0 +1,11 @@
+dacite
+ftputil
+hikari
+hikari-lightbulb
+nest-asyncio
+paramiko
+python-telegram-bot
+requests
+
+[test]
+pytest
