@@ -1,0 +1,3 @@
+[console_scripts]
+BenFangfaxueVimscript = BenFangfaxueVimscript.__main__:main
+ben-fangfaxue-vimscript = BenFangfaxueVimscript.__main__:main
