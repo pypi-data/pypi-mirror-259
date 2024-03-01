@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: reprocipher
+Version: 0.0.1
+Summary: ReproCipher is a Python package designed to provide consistent encryption.
+Author: Ravindu Priyankara
+Author-email: <mail@neuralnine.com>
+Keywords: python,encryption,Deterministic cryptography,Fixed seed randomness,Consistent encryption output,Reliable cryptographic operations,Predictable encryption behavior,Testable encryption,Audit-friendly cryptography
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# My-own-encryption
+Building username and password like sensitive data encryptiong algorythm
