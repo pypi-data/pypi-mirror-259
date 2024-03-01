@@ -1,0 +1,6 @@
+To create your own environment variables, create a .env file 
+in the same directory as this file.
+
+
+export FLASK_APP=app.py
+export FLASK_ENV=development
