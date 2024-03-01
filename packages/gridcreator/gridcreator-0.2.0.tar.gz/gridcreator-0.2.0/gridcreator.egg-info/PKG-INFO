@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: gridcreator
+Version: 0.2.0
+Summary: That library provides utilities to create grids.
+Home-page: https://github.com/endprivate/grid
+Author: oblivisheee
+Author-email: molniya213y@proton.me
+License: GNU General Public License Version 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# What does that library can do?
+
+This library is designed for creating grids to facilitate the decentralization of different products. It is currently being developed as a gridnet library with integrated network functions.
+
+# How to install?
+
+```
+pip install gridcreator
+```
+
+# How to use?
+
+```
+import grid
+my_grid = grid.Grid()
+network = grid.Network("test", my_grid)
+
+account = grid.Account()
+account_1 = grid.Account()
+network.import_account(account)
+network.import_account(account_1)
+print(my_grid.get)
+```
+
+### To be updated...
