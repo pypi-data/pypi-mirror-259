@@ -1,0 +1,3 @@
+[console_scripts]
+KotlinForAndroidDevelopersZhongwenfanyi = KotlinForAndroidDevelopersZhongwenfanyi.__main__:main
+kotlin-for-android-developers-zhongwenfanyi = KotlinForAndroidDevelopersZhongwenfanyi.__main__:main
