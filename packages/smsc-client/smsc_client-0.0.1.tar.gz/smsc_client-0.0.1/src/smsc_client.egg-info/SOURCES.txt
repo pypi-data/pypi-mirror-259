@@ -1,0 +1,16 @@
+pyproject.toml
+src/smsc_client/__init__.py
+src/smsc_client/categories.py
+src/smsc_client.egg-info/PKG-INFO
+src/smsc_client.egg-info/SOURCES.txt
+src/smsc_client.egg-info/dependency_links.txt
+src/smsc_client.egg-info/requires.txt
+src/smsc_client.egg-info/top_level.txt
+src/smsc_client/api/__init__.py
+src/smsc_client/api/abc.py
+src/smsc_client/api/api.py
+src/smsc_client/base/__init__.py
+src/smsc_client/base/category.py
+src/smsc_client/methods/__init__.py
+src/smsc_client/methods/default.py
+tests/test_send.py

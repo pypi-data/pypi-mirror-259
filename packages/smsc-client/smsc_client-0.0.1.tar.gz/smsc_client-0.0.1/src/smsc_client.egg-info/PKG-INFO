@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: smsc_client
+Version: 0.0.1
+Summary: This library helps you easily create a python application with SMSC API
+Author-email: Nicholas Maltsev <nmmaltsev@outlook.com>
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: phonenumbers>=8.3.11
+Requires-Dist: requests>=2.30.0
