@@ -1,0 +1,3 @@
+[console_scripts]
+HeimaoBaike = HeimaoBaike.__main__:main
+heimao-baike = HeimaoBaike.__main__:main
