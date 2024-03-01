@@ -1,0 +1,6 @@
+ezmsg/zmq/__init__.py,sha256=3zeYGhsHs983cOpqBLOy6YWVGxG-dVR75WTOzgSpyj4,82
+ezmsg/zmq/units.py,sha256=dClQUHAJDkx9YSLSBEWVTcHj4BoRyETQmy0iivdEQqs,7050
+ezmsg_zmq-1.1.5.dist-info/LICENSE.txt,sha256=seu0tKhhAMPCUgc1XpXGGaCxY1YaYvFJwqFuQZAl2go,1100
+ezmsg_zmq-1.1.5.dist-info/METADATA,sha256=CLoE9RBtVXrk00QvtPZV3yPxy8Ejt3n5av-WkX1QmW4,1078
+ezmsg_zmq-1.1.5.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+ezmsg_zmq-1.1.5.dist-info/RECORD,,
