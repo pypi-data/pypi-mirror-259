@@ -1,0 +1,11 @@
+eefdata/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+eefdata/app.py,sha256=trly_2Czl-AC-rtUocFJDFwrsQLtm156xk4Qy3iaqYw,182610
+eefdata/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+eefdata/src/attributeIDs.py,sha256=rTvTqWXlCAORFWqnO6-CA02firogE2ZY9Naa_8ClfSY,153887
+eefdata/src/funcs.py,sha256=bgyfXGnwU7FKeZuASWC6zHu0ZM_MoI5PlM80ZXS-KIE,277302
+eef_data-0.59.dist-info/LICENSE,sha256=UDF_idA-jUdgY3yIUItu0Whg9AkvUAYSeGQaC0O8FN0,1073
+eef_data-0.59.dist-info/METADATA,sha256=fyZrd64BbU0v-nr-tPP0o8rmkRgltBM4sSjaF62gwKY,67463
+eef_data-0.59.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+eef_data-0.59.dist-info/entry_points.txt,sha256=WcNBO1pxnf4JBgetsPo_JbUYzqKxnR4CKFizlJ5VjAw,47
+eef_data-0.59.dist-info/top_level.txt,sha256=8EOHuREwZXLU-dR_r4qtMWGn93HgnjUVQFRSSJpBxUg,8
+eef_data-0.59.dist-info/RECORD,,
