@@ -1,0 +1,12 @@
+README.md
+setup.py
+MatplotlibFix1/README.md
+MatplotlibFix1/__init__.py
+MatplotlibFix1/__main__.py
+MatplotlibFix1/file.pdf
+MatplotlibFix1/index.html
+matplotlib_fix1.egg-info/PKG-INFO
+matplotlib_fix1.egg-info/SOURCES.txt
+matplotlib_fix1.egg-info/dependency_links.txt
+matplotlib_fix1.egg-info/entry_points.txt
+matplotlib_fix1.egg-info/top_level.txt
