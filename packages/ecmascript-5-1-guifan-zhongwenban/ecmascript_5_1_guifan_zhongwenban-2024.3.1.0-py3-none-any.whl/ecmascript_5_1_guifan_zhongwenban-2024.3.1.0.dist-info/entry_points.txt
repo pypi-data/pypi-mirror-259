@@ -1,0 +1,3 @@
+[console_scripts]
+Ecmascript51GuifanZhongwenban = Ecmascript51GuifanZhongwenban.__main__:main
+ecmascript-5-1-guifan-zhongwenban = Ecmascript51GuifanZhongwenban.__main__:main
