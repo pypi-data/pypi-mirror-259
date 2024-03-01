@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: odoo-restart
+Version: 0.1.0
+Summary: Script to restart Odoo inside a Docker container
+Home-page: https://github.com/yourusername/odoo_restart
+Author: mohamed MASSTOUR
+Author-email: masstour01@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN

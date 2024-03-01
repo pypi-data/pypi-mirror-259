@@ -1,0 +1,10 @@
+README.md
+setup.py
+odoo_restart/__init__.py
+odoo_restart/restart.py
+odoo_restart.egg-info/PKG-INFO
+odoo_restart.egg-info/SOURCES.txt
+odoo_restart.egg-info/dependency_links.txt
+odoo_restart.egg-info/entry_points.txt
+odoo_restart.egg-info/requires.txt
+odoo_restart.egg-info/top_level.txt
