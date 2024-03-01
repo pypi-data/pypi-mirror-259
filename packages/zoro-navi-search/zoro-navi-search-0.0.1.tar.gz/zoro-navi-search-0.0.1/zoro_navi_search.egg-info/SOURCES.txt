@@ -1,0 +1,6 @@
+LICENSE
+pyproject.toml
+zoro_navi_search.egg-info/PKG-INFO
+zoro_navi_search.egg-info/SOURCES.txt
+zoro_navi_search.egg-info/dependency_links.txt
+zoro_navi_search.egg-info/top_level.txt
