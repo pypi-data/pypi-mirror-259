@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: gwei-tracker
+Version: 0.1.7
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: playwright (==1.41.2)
+Requires-Dist: etherscan-python (==2.1.0)
+Requires-Dist: pyee (==11.0.1)
+
+UNKNOWN
+
