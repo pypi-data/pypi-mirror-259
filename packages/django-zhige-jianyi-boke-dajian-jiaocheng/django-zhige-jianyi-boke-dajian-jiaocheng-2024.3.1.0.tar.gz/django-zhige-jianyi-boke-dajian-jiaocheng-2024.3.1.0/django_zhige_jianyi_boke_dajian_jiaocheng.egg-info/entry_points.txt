@@ -1,0 +1,3 @@
+[console_scripts]
+DjangoZhigeJianyiBokeDajianJiaocheng = DjangoZhigeJianyiBokeDajianJiaocheng.__main__:main
+django-zhige-jianyi-boke-dajian-jiaocheng = DjangoZhigeJianyiBokeDajianJiaocheng.__main__:main
