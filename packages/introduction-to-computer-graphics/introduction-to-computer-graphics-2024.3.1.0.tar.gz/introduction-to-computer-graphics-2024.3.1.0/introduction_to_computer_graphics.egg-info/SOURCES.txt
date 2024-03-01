@@ -1,0 +1,12 @@
+README.md
+setup.py
+IntroductionToComputerGraphics/README.md
+IntroductionToComputerGraphics/__init__.py
+IntroductionToComputerGraphics/__main__.py
+IntroductionToComputerGraphics/file.pdf
+IntroductionToComputerGraphics/index.html
+introduction_to_computer_graphics.egg-info/PKG-INFO
+introduction_to_computer_graphics.egg-info/SOURCES.txt
+introduction_to_computer_graphics.egg-info/dependency_links.txt
+introduction_to_computer_graphics.egg-info/entry_points.txt
+introduction_to_computer_graphics.egg-info/top_level.txt

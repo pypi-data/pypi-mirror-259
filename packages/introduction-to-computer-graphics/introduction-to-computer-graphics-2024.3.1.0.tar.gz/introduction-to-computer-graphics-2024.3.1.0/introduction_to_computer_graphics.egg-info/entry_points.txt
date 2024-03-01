@@ -1,0 +1,3 @@
+[console_scripts]
+IntroductionToComputerGraphics = IntroductionToComputerGraphics.__main__:main
+introduction-to-computer-graphics = IntroductionToComputerGraphics.__main__:main
