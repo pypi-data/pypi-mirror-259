@@ -1,0 +1,2 @@
+[console_scripts]
+VoiceDunkin = main:main_function

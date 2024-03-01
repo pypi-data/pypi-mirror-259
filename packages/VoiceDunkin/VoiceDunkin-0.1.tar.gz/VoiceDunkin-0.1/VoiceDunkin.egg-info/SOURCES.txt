@@ -1,0 +1,7 @@
+setup.py
+VoiceDunkin.egg-info/PKG-INFO
+VoiceDunkin.egg-info/SOURCES.txt
+VoiceDunkin.egg-info/dependency_links.txt
+VoiceDunkin.egg-info/entry_points.txt
+VoiceDunkin.egg-info/requires.txt
+VoiceDunkin.egg-info/top_level.txt
