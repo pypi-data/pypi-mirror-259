@@ -1,0 +1,13 @@
+sdv_installer-0.0.0.dev2.dist-info/RECORD,,
+sdv_installer-0.0.0.dev2.dist-info/LICENSE,sha256=yvPXLYJjZGdrkpah9WFuFg_V6kdZuwgyGkDLrJMMTV0,1065
+sdv_installer-0.0.0.dev2.dist-info/WHEEL,sha256=iG8A0NTh07TTUrjuItt5jQWSaCWls4bkT_lqUuVXNGc,109
+sdv_installer-0.0.0.dev2.dist-info/entry_points.txt,sha256=ozVfQCFQrrd5TZgfBk_wbUBpM_WkKDJCLpEHS6BAIDU,69
+sdv_installer-0.0.0.dev2.dist-info/top_level.txt,sha256=JZIG54yO4VvC8VDszSiKdCyBZyxos0BUkFADrBBYWXI,14
+sdv_installer-0.0.0.dev2.dist-info/METADATA,sha256=8NIH2o2aIMnBStrMPWkVeWj-xWRRO9zLbFMPD-SfEGA,2741
+sdv_installer/__init__.cpython-39-darwin.so,sha256=hQ-L1VBJWquWQZUs0r5hzMMzg9D2_YTLsyi2bl9Uuts,38952
+sdv_installer/installation/__init__.cpython-39-darwin.so,sha256=OogAiAjQd9_GUonvSYZdWxeyA3xhvvoBst3iLJOJRsQ,39960
+sdv_installer/installation/installer.cpython-39-darwin.so,sha256=WAwigs3iShrw7QU1wpjDotEDoS1mgVM_5704qTwy_TI,162056
+sdv_installer/cli/__init__.cpython-39-darwin.so,sha256=G5psRfvu2CPgegT_rBv7tdxtfmK-6iAaPgWT18bbMD0,38952
+sdv_installer/cli/__main__.cpython-39-darwin.so,sha256=w5u-3QSiuLY-_n3koP5uBe6L4tHYbp0Vp9lCO4Yh8gE,90112
+sdv_installer/licensing/__init__.cpython-39-darwin.so,sha256=6W7y2BbP389e8P_1nC93f2QyYqDae9f8f_H8oCP3uVc,40208
+sdv_installer/licensing/authentication.cpython-39-darwin.so,sha256=Xi0tAYw511XaQSsWJRDYS-QqHFr8_YVPbGVn8oHW43I,147760
