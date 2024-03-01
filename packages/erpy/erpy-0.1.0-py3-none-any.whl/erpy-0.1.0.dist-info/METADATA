@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: erpy
+Version: 0.1.0
+Summary: A small example package
+Author-email: Liam Strand <strandliam@gmail.com>
+Project-URL: Homepage, https://github.com/pypa/sampleproject
+Project-URL: Issues, https://github.com/pypa/sampleproject/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ERPY
+
+This library wraps around the Python version of the Term library to provide
+a simple mechanism for communicating between an Erlang process and a Python
+process.
+
+## Installation
+
+As always, use `pip`, preferably within a virtual environment.
+
+```
+pip install erpy
+```
+
+## Usage
+
+### Encoding and Decoding Erlang Terms
+
+Use the `term` library. Their documentation is [here](https://pyrlang.github.io/Term/), 
+and the python version of their library is bundled with this library. If you 
+want to get the Rust one working with PyPi, I'm sure that they would apprecate 
+it `:)`.
+
+## Basic Communication over STDIO
+
+TODO!
