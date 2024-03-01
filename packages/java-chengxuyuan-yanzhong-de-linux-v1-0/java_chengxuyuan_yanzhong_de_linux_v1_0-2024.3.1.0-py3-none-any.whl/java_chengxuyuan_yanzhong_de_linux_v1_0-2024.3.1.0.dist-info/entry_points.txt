@@ -1,0 +1,3 @@
+[console_scripts]
+JavaChengxuyuanYanzhongDeLinuxV10 = JavaChengxuyuanYanzhongDeLinuxV10.__main__:main
+java-chengxuyuan-yanzhong-de-linux-v1-0 = JavaChengxuyuanYanzhongDeLinuxV10.__main__:main
