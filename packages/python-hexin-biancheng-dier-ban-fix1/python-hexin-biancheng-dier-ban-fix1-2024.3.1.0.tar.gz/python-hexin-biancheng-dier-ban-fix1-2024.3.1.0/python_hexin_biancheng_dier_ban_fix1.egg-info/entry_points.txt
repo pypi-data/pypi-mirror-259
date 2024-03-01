@@ -1,0 +1,3 @@
+[console_scripts]
+PythonHexinBianchengDierBanFix1 = PythonHexinBianchengDierBanFix1.__main__:main
+python-hexin-biancheng-dier-ban-fix1 = PythonHexinBianchengDierBanFix1.__main__:main
