@@ -1,0 +1,7 @@
+LICENSE.txt
+py.py
+pyproject.toml
+ENDECODE_VALAZ.egg-info/PKG-INFO
+ENDECODE_VALAZ.egg-info/SOURCES.txt
+ENDECODE_VALAZ.egg-info/dependency_links.txt
+ENDECODE_VALAZ.egg-info/top_level.txt
