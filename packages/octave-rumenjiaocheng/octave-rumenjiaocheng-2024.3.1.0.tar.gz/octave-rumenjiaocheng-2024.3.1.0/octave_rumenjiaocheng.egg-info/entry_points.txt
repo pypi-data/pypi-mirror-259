@@ -1,0 +1,3 @@
+[console_scripts]
+OctaveRumenjiaocheng = OctaveRumenjiaocheng.__main__:main
+octave-rumenjiaocheng = OctaveRumenjiaocheng.__main__:main
