@@ -1,0 +1,15 @@
+toml
+
+[build]
+build
+pex
+
+[documents]
+sphinx
+sphinx-better-theme
+myst-parser
+markdown-it-py[linkify,plugins]
+
+[test]
+pytest
+pytest-cov~=3.0.0

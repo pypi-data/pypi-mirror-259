@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+python/sphinx_desktop/__init__.py
+python/sphinx_desktop/__main__.py
+python/sphinx_desktop/version.py
+python/sphinx_desktop.egg-info/PKG-INFO
+python/sphinx_desktop.egg-info/SOURCES.txt
+python/sphinx_desktop.egg-info/dependency_links.txt
+python/sphinx_desktop.egg-info/entry_points.txt
+python/sphinx_desktop.egg-info/requires.txt
+python/sphinx_desktop.egg-info/top_level.txt
+python/sphinx_desktop/xdg/__init__.py
+python/sphinx_desktop/xdg/sphinx-desktop.desktop

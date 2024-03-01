@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Sphinx Desktop Editor
+Comment=Capture sphinx://project/path links to edit sphinx projects locally.
+Exec=sphinx-desktop open %u
+Terminal=false
+Categories=Development
+NoDisplay=true
