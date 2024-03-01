@@ -1,0 +1,15 @@
+MCHammer
+
+[dev]
+ruff
+mypy
+pip-tools
+pytest<8
+pytest-datadir
+pytest-lazy-fixture
+pytest-cov
+sphinx
+sphinx-copybutton
+twine
+sphinx_rtd_theme
+stk
