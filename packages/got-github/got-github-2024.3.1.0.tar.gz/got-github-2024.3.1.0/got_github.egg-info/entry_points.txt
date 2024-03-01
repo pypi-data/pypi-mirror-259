@@ -1,0 +1,3 @@
+[console_scripts]
+GotGithub = GotGithub.__main__:main
+got-github = GotGithub.__main__:main
