@@ -1,0 +1,70 @@
+[tool.ruff]
+target-version = "py39"
+
+[tool.ruff.lint]
+extend-select = ["I", "TRY", "UP"]
+
+[tool.pytest.ini_options]
+addopts = "--cov=streamjoy/ --cov-report=term-missing"
+
+
+[tool.hatch]
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.version]
+source = "regex_commit"
+commit_extra_args = ["-e"]
+path = "streamjoy/__init__.py"
+
+[tool.hatch.envs.default]
+python = "3.9"
+dependencies = [
+    "ruff",
+    "pytest",
+    "pytest-cov",
+    "mkdocs-material",
+    "mkdocstrings[python]",
+    
+]
+
+[tool.hatch.envs.default.scripts]
+test = "pytest"
+test-cov-xml = "pytest --cov-report=xml"
+lint = [
+  "ruff format .",
+  "ruff --fix .",
+]
+lint-check = [
+  "ruff format --check .",
+  "ruff .",
+]
+docs-serve = "mkdocs serve"
+docs-build = "mkdocs build"
+
+[build-system]
+requires = ["hatchling", "hatch-regex-commit"]
+build-backend = "hatchling.build"
+
+[project]
+name = "streamjoy"
+authors = [
+  { name = "streamjoy", email = "hey.at.py@gmail.com" }
+]
+description = "Animate, fast and easy"
+readme = "README.md"
+dynamic = ["version"]
+classifiers = [
+    "Programming Language :: Python :: 3 :: Only",
+]
+requires-python = ">=3.9"
+dependencies = [
+    "param",
+    "dask[distributed]",
+    "imageio[pyav]>=2.34.0",
+]
+
+[project.urls]
+Documentation = "https://ahuang11.github.io/streamjoy/"
+Source = "https://github.com/ahuang11/streamjoy"
