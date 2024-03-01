@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: pyTrigger
+Version: 0.12.2
+Summary: Software trigger for data acquisition (with ring buffer).
+Project-URL: homepage, https://github.com/ladisk/pyTrigger
+Project-URL: documentation, https://github.com/ladisk/pyTrigger
+Project-URL: source, https://github.com/ladisk/pyTrigger
+Author-email: Janko Slavič <janko.slavic@fs.uni-lj.si>
+Maintainer-email: Janko Slavič <janko.slavic@fs.uni-lj.si>
+License-Expression: MIT
+License-File: LICENSE
+Keywords: data acquisition,ring buffer,trigger
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.9
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Provides-Extra: dev
+Requires-Dist: build; extra == 'dev'
+Requires-Dist: pytest; extra == 'dev'
+Requires-Dist: sphinx; extra == 'dev'
+Requires-Dist: twine; extra == 'dev'
+Requires-Dist: wheel; extra == 'dev'
+Description-Content-Type: text/x-rst
+
+pyTrigger
+=========
+
+Software trigger for data acquisition (with ring buffer)
+--------------------------------------------------------
+
+Test pyTrigger with Binder:
+|binder| 
+
+.. |binder| image:: https://mybinder.org/badge.svg
+    :target: https://mybinder.org/v2/gh/ladisk/pyTrigger/master?filepath=Showcase%20-%20pyTrigger.ipynb
+
