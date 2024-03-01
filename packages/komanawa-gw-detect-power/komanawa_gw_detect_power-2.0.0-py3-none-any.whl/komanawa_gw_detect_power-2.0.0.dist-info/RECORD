@@ -1,0 +1,13 @@
+komanawa/gw_detect_power/__init__.py,sha256=kzLP7PDMtxpfi-HsrWfEVvvqTIFxf53qRPRnu5FWEmc,309
+komanawa/gw_detect_power/base_detection_calculator.py,sha256=p0WQ-Rm1oc3WShiKkz4xfsfc65RJ7qDeFcjfBSLb1vw,27875
+komanawa/gw_detect_power/change_detection_counterfactual.py,sha256=F6vG0T0gd4LHrLjR4aHOTPNST5rNXFj2BhIEMOcUNig,44134
+komanawa/gw_detect_power/change_detection_slope.py,sha256=Jv1TPMAEwETq9VFa7xZprtY4WcBhj-wW2m9IhUMeEWE,58145
+komanawa/gw_detect_power/create_lookup_tables.py,sha256=weHQwT9zrwlXkTQABEj07RYy-ERRB4ijrA_fREG9Ixg,5933
+komanawa/gw_detect_power/lookup_table_inits.py,sha256=xT8l1nRbYAXbCVaEgCgoPE7d9xY1hj25Tdaeouq9RFQ,927
+komanawa/gw_detect_power/timeit_test_results.txt,sha256=wRwxuFczedbUk35onTZnsyN83ghgSMJHgCqEZxr_bRU,1928
+komanawa/gw_detect_power/timetest_slope.py,sha256=vmclKli00PvYSFxlMfXBqVqDWciK2wDxOMSOLWpeeR0,4345
+komanawa_gw_detect_power-2.0.0.dist-info/LICENSE,sha256=_sscsjIqGPEWgrssBtJBCM8Cnv7Lv0v_q3J3oXEbTbs,1067
+komanawa_gw_detect_power-2.0.0.dist-info/METADATA,sha256=qaUBeX73hMTcC9-no_qKIj5ylnKAUwx4OZpodQM96vs,2540
+komanawa_gw_detect_power-2.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+komanawa_gw_detect_power-2.0.0.dist-info/top_level.txt,sha256=2Ian9yrc1yRp4TqnDnZ9mTDRMVo9NlD1YcydqB7oNe8,9
+komanawa_gw_detect_power-2.0.0.dist-info/RECORD,,
