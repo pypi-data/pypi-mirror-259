@@ -1,0 +1,3 @@
+[console_scripts]
+DjangoZhongwenWendang18Update20161127 = DjangoZhongwenWendang18Update20161127.__main__:main
+django-zhongwen-wendang-1-8-update-20161127 = DjangoZhongwenWendang18Update20161127.__main__:main
