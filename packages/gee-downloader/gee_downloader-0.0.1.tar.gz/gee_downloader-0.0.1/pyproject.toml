@@ -1,0 +1,25 @@
+[project]
+name = "gee_downloader"
+version = "0.0.1"
+authors = [
+  { name="Vytautas Jancauskas", email="vytautas.jancauskas@dlr.de" },
+]
+description = "Evoland models and data loaders"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "geedim",
+    "rasterio",
+    "pytest",
+    "click",
+    "pdoc",
+]
+
+[project.urls]
+Homepage = "https://github.com/DLR-MF-DAS/gee_downloader"
+Issues = "https://github.com/DLR-MF-DAS/gee_downloader/issues"
