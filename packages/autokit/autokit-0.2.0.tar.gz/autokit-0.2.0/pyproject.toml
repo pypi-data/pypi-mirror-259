@@ -1,0 +1,49 @@
+# pyproject.toml
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "autokit"
+version = "0.2.0"
+description = "A simple tool to automate the installation and integration of external tools."
+readme = "readme.md"
+authors = [{name = "Lukas G. Olson", email = "olson@student.ubc.ca"}]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Development Status :: 4 - Beta"
+]
+keywords = ["automation", "tools", "installation"]
+dependencies = [
+    "requests",
+    "loguru",
+    "tqdm"
+]
+
+
+[project.urls]
+Repository = "https://github.com/lukasgolson/Autokit"
+
+[tool.bumpver]
+current_version = "0.2.0"
+version_pattern = "MAJOR.MINOR.PATCH"
+commit_message = "bump version {old_version} -> {new_version}"
+tag_message = "{new_version}"
+tag_scope = "default"
+pre_commit_hook = ""
+post_commit_hook = ""
+commit = true
+tag = true
+push = true
+
+[tool.bumpver.file_patterns]
+"pyproject.toml" = ['current_version = "{version}"', 'version = "{version}"']
+"README.md" = [
+    "{version}"
+]
+
+"src/__init__.py" = ["{version}"]
