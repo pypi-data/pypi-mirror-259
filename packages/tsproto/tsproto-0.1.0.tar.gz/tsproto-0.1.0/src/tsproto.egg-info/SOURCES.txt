@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/tsproto/__init__.py
+src/tsproto/tsproto.py
+src/tsproto.egg-info/PKG-INFO
+src/tsproto.egg-info/SOURCES.txt
+src/tsproto.egg-info/dependency_links.txt
+src/tsproto.egg-info/requires.txt
+src/tsproto.egg-info/top_level.txt
