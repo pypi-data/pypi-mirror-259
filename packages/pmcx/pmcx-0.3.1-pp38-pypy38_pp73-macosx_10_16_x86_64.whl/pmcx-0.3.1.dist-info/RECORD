@@ -1,0 +1,8 @@
+_pmcx.pypy38-pp73-darwin.so,sha256=vTt1ZIAviNNUOOKwam4e7krbic-3RrTgXZkYNz669t8,12622408
+pmcx/__init__.py,sha256=1XvSEo1kaA_HzaDaELrmw7ZujwFeQXdHHXvMvFBB5Mw,1898
+pmcx/bench.py,sha256=sFe2MprqqAx7HdUB_wgz8wMc6SsQcJrERrUe6fa5BdM,1691
+pmcx/utils.py,sha256=Yi_cpdM1AjpMfphJNm0_7pe_F-_ieK1PjpDwOmQWJVA,25778
+pmcx-0.3.1.dist-info/METADATA,sha256=OgIP1X_PeaE2y4NlxZg9D4lPgU3FAGJj7Pr0dlYRzQI,10219
+pmcx-0.3.1.dist-info/WHEEL,sha256=VG4kI_EcOxK3Q7mmJdJc8FGwCQN1DE_rwi5noRxKEmk,117
+pmcx-0.3.1.dist-info/top_level.txt,sha256=jHEGGSlB3r4vV00qkOtR9ebk5wK8iZO7-fMeiOfkbXw,11
+pmcx-0.3.1.dist-info/RECORD,,
