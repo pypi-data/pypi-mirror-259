@@ -1,0 +1,9 @@
+cmgr/__init__.py,sha256=bjcaSUlpOr93HZf2k60cuH4gYpaCCJYhsJ837Hn88jU,8675
+cmgr/__main__.py,sha256=YJs8i6OXXs2Nhn76aC5mEFMhgynK2I6F3FDOwaM9cGQ,79
+cmgr/command_line.py,sha256=7qmJLF-Wrklem7NnhXWFd7BJzcvMb6pxDOi1U7ERwCY,2040
+cmgr-0.0.2.dist-info/LICENSE,sha256=ep86W5oAwYdqt6MNYmxp_HERqDgvoFCZ9AN1uG5f3SY,1491
+cmgr-0.0.2.dist-info/METADATA,sha256=2DkvItES9AcPKWREvzuUIwDWiH16P1HKyxC-bJxe708,3017
+cmgr-0.0.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+cmgr-0.0.2.dist-info/entry_points.txt,sha256=jjf-v9wFos6A4S8hqMpzYwhI7uT9HJZFvHjJP3YWSpA,48
+cmgr-0.0.2.dist-info/top_level.txt,sha256=Pg6k7CZXVqMESo38b-nJdB3y24UcvYrUgQFOtMfCuGw,5
+cmgr-0.0.2.dist-info/RECORD,,
