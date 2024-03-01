@@ -1,0 +1,3 @@
+[console_scripts]
+Activiti5XYonghuZhinan = Activiti5XYonghuZhinan.__main__:main
+activiti-5-x-yonghu-zhinan = Activiti5XYonghuZhinan.__main__:main
