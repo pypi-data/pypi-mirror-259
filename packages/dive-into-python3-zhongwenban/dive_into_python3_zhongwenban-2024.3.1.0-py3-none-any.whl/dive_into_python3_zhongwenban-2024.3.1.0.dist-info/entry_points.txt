@@ -1,0 +1,3 @@
+[console_scripts]
+DiveIntoPython3Zhongwenban = DiveIntoPython3Zhongwenban.__main__:main
+dive-into-python3-zhongwenban = DiveIntoPython3Zhongwenban.__main__:main
