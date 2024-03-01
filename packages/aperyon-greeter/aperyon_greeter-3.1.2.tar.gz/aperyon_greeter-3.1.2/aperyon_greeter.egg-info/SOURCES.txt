@@ -1,0 +1,6 @@
+README.md
+setup.py
+aperyon_greeter.egg-info/PKG-INFO
+aperyon_greeter.egg-info/SOURCES.txt
+aperyon_greeter.egg-info/dependency_links.txt
+aperyon_greeter.egg-info/top_level.txt
