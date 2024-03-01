@@ -1,0 +1,3 @@
+[console_scripts]
+Gradle2YonghuZhinan = Gradle2YonghuZhinan.__main__:main
+gradle-2-yonghu-zhinan = Gradle2YonghuZhinan.__main__:main
