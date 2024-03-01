@@ -1,0 +1,3 @@
+[console_scripts]
+KotlinZhongwenCankao = KotlinZhongwenCankao.__main__:main
+kotlin-zhongwen-cankao = KotlinZhongwenCankao.__main__:main
