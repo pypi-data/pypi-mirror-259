@@ -1,0 +1,3 @@
+[console_scripts]
+ApacheDoc = ApacheDoc.__main__:main
+apache-doc = ApacheDoc.__main__:main
