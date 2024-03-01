@@ -1,0 +1,3 @@
+[console_scripts]
+CanvasDrawOnTheWeb = CanvasDrawOnTheWeb.__main__:main
+canvas-draw-on-the-web = CanvasDrawOnTheWeb.__main__:main
