@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "tibian"
+version = "1.1.0"
+description = "Ticket birthday announcer: A package to announce all creation birthdays of your tickets that live (too) long enough"
+authors = ["Stefan Kraus <dev@stefankraus.org>"]
+homepage = "https://github.com/Alicipy/tibian"
+repository = "https://github.com/Alicipy/tibian"
+license = "MIT"
+readme = "README.rst"
+keywords = ["agile", "jira", "birthdays"]
+
+[tool.poetry.scripts]
+tibian = "tibian.main:main"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+jira = "^3.1.1"
+requests = "^2.27.1"
+python-dateutil = "^2.8.2"
+PyYAML = "^6.0"
+
+[tool.poetry.group.dev]
+optional=true
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.6.2"
+pytest = "^7.1.1"
+pytest-cov = "^3.0.0"
+pytest-mock = "^3.7.0"
+freezegun = "^1.2.1"
+requests-mock = "^1.9.3"
+
+[tool.poetry-dynamic-versioning]
+enable = false
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "poetry-dynamic-versioning>=1.0.0,<2.0.0"]
+build-backend = "poetry_dynamic_versioning.backend"
