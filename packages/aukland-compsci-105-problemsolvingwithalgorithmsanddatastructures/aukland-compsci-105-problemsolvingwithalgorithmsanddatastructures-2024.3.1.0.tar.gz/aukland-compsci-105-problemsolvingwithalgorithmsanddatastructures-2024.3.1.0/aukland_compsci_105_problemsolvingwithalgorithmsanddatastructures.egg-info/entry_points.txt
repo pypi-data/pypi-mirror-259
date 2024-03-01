@@ -1,0 +1,3 @@
+[console_scripts]
+AuklandCompsci105Problemsolvingwithalgorithmsanddatastructures = AuklandCompsci105Problemsolvingwithalgorithmsanddatastructures.__main__:main
+aukland-compsci-105-problemsolvingwithalgorithmsanddatastructures = AuklandCompsci105Problemsolvingwithalgorithmsanddatastructures.__main__:main
