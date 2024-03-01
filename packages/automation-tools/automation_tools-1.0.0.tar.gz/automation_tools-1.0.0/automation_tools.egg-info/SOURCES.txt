@@ -1,0 +1,13 @@
+README.md
+setup.py
+automation_tools/__init__.py
+automation_tools.egg-info/PKG-INFO
+automation_tools.egg-info/SOURCES.txt
+automation_tools.egg-info/dependency_links.txt
+automation_tools.egg-info/requires.txt
+automation_tools.egg-info/top_level.txt
+automation_tools/text_tools/__init__.py
+automation_tools/text_tools/text_extractor.py
+automation_tools/utils/__init__.py
+automation_tools/utils/file_utils.py
+automation_tools/utils/other_utils.py
