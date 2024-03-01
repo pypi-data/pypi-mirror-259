@@ -1,0 +1,14 @@
+apish/__init__.py,sha256=oWdQLC6EFI8Tj7UMdz_bK32vYanrQbY_jPJfCvKwCDI,182
+apish/app.py,sha256=HFuxLseEb5rw6oOdJ_VWtTAt05p8C6xVPNqOYKVjwRs,2913
+apish/base.py,sha256=mREW_HP4kMxsjQMa3csA3M_fB82c2bDl6ifm2byF5KU,345
+apish/main.py,sha256=Vhb771QYscL4G3fg1rExKOQodb_bI0VEQqW1H5eUa4g,1486
+apish/metadata.py,sha256=l4VXAmSBQjL-vKx-WqXLgT5tlLpnYtXImgxJ6_ueK0I,1744
+apish/routes.py,sha256=o5GIiVkxqfjm2PoesnYIaGiUJoTzxN-hL3gDTbAo0xw,4199
+apish/server.py,sha256=eKGwKJ9_zGXTUx2q9GoCov5iUtsUceBDUzoElSYT8H0,425
+apish/utils.py,sha256=vTkviE0K_KEKSGWzYZUn-o-QjqE7AMyY86eqOMR6YgM,105
+apish-0.4.2.data/data/VERSION,sha256=xPydMuCok1uL31gT2OqaFu-b2bpmpQk1qrBV2JPvtK8,7
+apish-0.4.2.dist-info/LICENSE,sha256=O0NNdkeqFJVHbZj-SILD8nvnElj9JyHLh9b15_uoJJU,1100
+apish-0.4.2.dist-info/METADATA,sha256=3dxeEwC90QCMpoK8jccAOwRZmeJ0EcJZsBgK57t8ofQ,763
+apish-0.4.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+apish-0.4.2.dist-info/top_level.txt,sha256=mI8CHFJxPyhr6ritryZV96DmfiMJG6Xurl0I9YPn9to,6
+apish-0.4.2.dist-info/RECORD,,
