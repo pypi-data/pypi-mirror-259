@@ -1,0 +1,17 @@
+README.txt
+setup.py
+pipelinenode/__init__.py
+pipelinenode.egg-info/PKG-INFO
+pipelinenode.egg-info/SOURCES.txt
+pipelinenode.egg-info/dependency_links.txt
+pipelinenode.egg-info/requires.txt
+pipelinenode.egg-info/top_level.txt
+pipelinenode/commands/__init__.py
+pipelinenode/commands/installer.py
+pipelinenode/pipeline/__init__.py
+pipelinenode/pipeline/node.py
+pipelinenode/pipeline/pipeline.py
+pipelinenode/templates/__init__.py
+pipelinenode/templates/example_node.py
+pipelinenode/templates/main.py
+pipelinenode/templates/pipeline.py
