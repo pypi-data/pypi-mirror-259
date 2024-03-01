@@ -1,0 +1,3 @@
+[console_scripts]
+NginxDoc = NginxDoc.__main__:main
+nginx-doc = NginxDoc.__main__:main
