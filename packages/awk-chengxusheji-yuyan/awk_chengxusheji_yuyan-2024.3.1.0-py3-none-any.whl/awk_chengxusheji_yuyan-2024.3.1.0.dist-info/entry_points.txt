@@ -1,0 +1,3 @@
+[console_scripts]
+AwkChengxushejiYuyan = AwkChengxushejiYuyan.__main__:main
+awk-chengxusheji-yuyan = AwkChengxushejiYuyan.__main__:main
