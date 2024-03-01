@@ -1,0 +1,11 @@
+httpdecolib/__init__.py,sha256=6CqfKxBt9gjLaY4fRmXTA0VDWDv8EQTVpX6FUUh5KM4,28
+httpdecolib/main.py,sha256=OgQwOcpWSAUVB0A27Z6aWXtafae1PZskJbhCOZqF2O0,3591
+httpdecolib/request_interfaces/__init__.py,sha256=h_TbqFzNxNUmhuFaD6vFaCJT6XNWW3npIsnQ1UOSY9Q,84
+httpdecolib/request_interfaces/default_interface.py,sha256=ts2KwWFFphODSY9ha-v18-rxTsxoXhnzLXkgOYDBqG0,2476
+httpdecolib/request_interfaces/get_interface.py,sha256=FjDpC7SXbQHy9RHOTmFoQQnWTI-3sQsAL5KNUyfo-DU,406
+httpdecolib/request_interfaces/post_interface.py,sha256=a7ApzVyM-s_8ycezhgOo4b9NZIVp4yt4u2VvFJsOFI8,455
+httpdecolib-0.0.10.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+httpdecolib-0.0.10.dist-info/METADATA,sha256=F2zg0nyJK3Y43FUKYSt6JMS4Y23U3ZcO62qUde-uNL0,574
+httpdecolib-0.0.10.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+httpdecolib-0.0.10.dist-info/top_level.txt,sha256=NOPCl2Xpl3WWTkgjYvPu3v_zjaeMj7gCW2_5_Wu_XWM,12
+httpdecolib-0.0.10.dist-info/RECORD,,
