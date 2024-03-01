@@ -1,0 +1,64 @@
+from enum import Enum
+import tensorflow as tf
+import os
+
+from .keras.main import KerasModelWrapper
+from .exceptions import (
+    ModelFrameworkNoModelException,
+    ModelFrameworkNotSupportedException,
+    ModelFrameworkNoKeyException,
+)
+
+
+class Framework(Enum):
+
+    def __new__(cls, value, verbose_name, wrapper_class):
+        obj = object.__new__(cls)
+
+        obj._value_ = value
+        obj.verbose_name = verbose_name
+        obj.wrapper_class = wrapper_class
+
+        return obj
+
+    KERAS = (tf.keras.Model, "Keras - Tensorflow", KerasModelWrapper)
+
+    @classmethod
+    def match_model(cls, model):
+        for member in cls:
+            if isinstance(model, member.value):
+                return member
+        return None
+
+    @classmethod
+    def match_key(cls, key):
+        for member in cls:
+            if key == member.wrapper_class.framework_key:
+                return member
+        return None
+
+
+def get_framework_from_model(*, model=None):
+
+    if model == None:
+        raise ModelFrameworkNoModelException()
+
+    framework = Framework.match_model(model)
+
+    if framework == None:
+        raise ModelFrameworkNotSupportedException()
+
+    return framework
+
+
+def get_framework_from_key(*, key=None):
+
+    if key == None:
+        raise ModelFrameworkNoKeyException()
+
+    framework = Framework.match_key(key)
+
+    if framework == None:
+        raise ModelFrameworkNotSupportedException()
+
+    return framework
