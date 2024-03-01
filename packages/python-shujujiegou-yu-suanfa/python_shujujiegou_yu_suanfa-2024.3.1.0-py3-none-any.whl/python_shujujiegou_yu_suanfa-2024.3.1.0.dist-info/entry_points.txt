@@ -1,0 +1,3 @@
+[console_scripts]
+PythonShujujiegouYuSuanfa = PythonShujujiegouYuSuanfa.__main__:main
+python-shujujiegou-yu-suanfa = PythonShujujiegouYuSuanfa.__main__:main
