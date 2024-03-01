@@ -1,0 +1,6 @@
+requests
+requests-toolbelt
+setuptools>=68.0.0
+
+[pyfs]
+fs
