@@ -1,0 +1,132 @@
+Metadata-Version: 2.1
+Name: sql_import_export
+Version: 1.0.3
+Summary: An application to import or export your Wagtail site's database.
+Home-page: https://github.com/Nigel2392/import_export
+Author: Nigel
+Author-email: nigel@goodadvice.it
+License: GPL-3.0-only
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 4.2
+Classifier: Framework :: Wagtail :: 5
+Classifier: Framework :: Wagtail :: 6
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Django>=4.2
+Requires-Dist: Wagtail>=5.0
+Requires-Dist: celery>=5.3.1
+Requires-Dist: django-celery-beat>=2.5.0
+Requires-Dist: wagtail_panels>=1.0.0
+Requires-Dist: wagtail-maintenance>=1.0.0
+Requires-Dist: cryptography<42,>=41.0.5
+
+import_export
+=============
+
+A package for importing and exporting your SQL database. It is by default configured for MySQL, but you can implement your own export functions without all too much effort.
+
+
+
+Quick start
+-----------
+
+1. Add 'import_export' to your INSTALLED_APPS setting like this:
+
+   ```
+   INSTALLED_APPS = [
+   	...,
+   	'import_export',
+   	'maintenance',
+   	'celery',
+   	'django_celery_beat',
+   ]
+   ```
+2. Follow the install guide for the [maintenance](https://github.com/Nigel2392/wagtail-maintenance) package.
+3. Follow the install guide for [Celery](https://github.com/celery/celery/).
+4. Follow the install guide for [django_celery_beat](https://github.com/celery/django-celery-beat).
+
+
+Settings
+-----------
+
+
+### MYSQL_DUMP_CONFIG_LOCATION
+
+
+
+### MYSQL_DUMP_BINARY
+
+This setting is only for people who stick to defaults and do not implement their own dump functions.
+
+* Important for windows users to set this to where your `mysqldump.exe` is located.
+* On unix it will try to execute the plain `mysqldump` binary. Make sure it is in your PATH or set the `MYSQL_DUMP_BINARY` to the full path of the binary.
+
+
+### DUMP_LOCATION
+
+Where to store the database dumps on the filesystem.
+
+### DUMP_CHUNK_SIZE
+
+
+
+### DUMP_GET_TABLES
+
+
+
+### DUMP_EXPORT_TABLE
+
+
+
+### DUMP_IMPORT_TABLE
+
+
+
+### DUMP_MUST_NOT_ENCRYPT
+
+Whether or not the database dump must be encrypted.
+When the dump is encrypted it will also be signed.
+The signature will be checked when importing the dump.
+
+```python
+# Default, do not encrypt the database dump.
+# Accept unencrypted dumps.
+# Accept encrypted dumps.
+DUMP_MUST_NOT_ENCRYPT=True
+
+# Encrypt the database dump.
+# Do not accept unencrypted dumps.
+DUMP_MUST_NOT_ENCRYPT=False
+```
+
+
+### BACKUP_ROOT
+
+Where to store the backups.  
+The default is `os.path.join(BASE_DIR, 'backups')`.
+
+### DUMP_EXCLUDED_EXPORT_TABLES
+
+Which tables do you want to exclude from the export?  
+This will be a list or a tuple, where ending with a * will check for a partial match to the start of the table name.
+   
+```python
+EXCLUDED_EXPORT_TABLES = getattr(settings, "DUMP_EXCLUDED_EXPORT_TABLES", [
+    "import_export_*",
+    "django_*",
+    "auth_*",
+    ...
+] if DUMP_MUST_NOT_ENCRYPT else []) # When encrypting; export everything
+```

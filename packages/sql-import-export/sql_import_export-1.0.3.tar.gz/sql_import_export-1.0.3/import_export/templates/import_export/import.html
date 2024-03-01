@@ -1,0 +1,34 @@
+{% extends "wagtailadmin/generic/base.html" %}
+
+{% load i18n wagtailadmin_tags static %}
+
+
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'import_export/import_export.css' %}">
+{% endblock %}
+
+{% block extra_js %}
+    <script src="{% static 'import_export/import.js' %}"></script>
+{% endblock %}
+
+{% block main_content %}
+    <div class="database-zip-input-wrapper">
+        <div id="database-zip-input" data-upload-url="{% url 'import_export:import' %}" data-csrf-token="{{ csrf_token }}">
+
+            <div class="database-zip-input-content">
+                <div class="upload-icon-wrapper">
+                    {% icon name="upload" classname="upload-icon" %}
+                </div>
+                <div class="upload-text">
+                    <div id="upload-progress" class="progress active">
+                        <div class="bar" style="width: 0%;"></div>
+                    </div>
+                    <p>{% translate "Drag and drop a database zip file here" %}</p>
+                    <p><small>{% translate "or" %}</small></p>
+                    <p>{% translate "Click to select a file" %}</p>
+                </div>
+            </div>
+            <input type="file" id="database-zip-input-file"/>
+        </div>
+    </div>
+{% endblock %}

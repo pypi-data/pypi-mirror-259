@@ -1,0 +1,7 @@
+include LICENSE
+include README.md
+recursive-include import_export/static *
+recursive-include import_export/templates *
+recursive-include import_export/locale *
+recursive-include import_export/migrations *
+recursive-include import_export/templatetags *

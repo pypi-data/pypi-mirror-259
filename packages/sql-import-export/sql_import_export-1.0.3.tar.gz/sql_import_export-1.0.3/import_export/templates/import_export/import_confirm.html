@@ -1,0 +1,118 @@
+{% extends "wagtailadmin/generic/base.html" %}
+
+{% load i18n wagtailadmin_tags static %}
+
+
+{% block extra_css %}
+    <link rel="stylesheet" href="{% static 'import_export/import_export.css' %}">
+{% endblock %}
+
+{% block extra_js %}
+    <script src="{% static 'import_export/confirm.js' %}"></script>
+{% endblock %}
+
+
+{% block main_content %}
+    <div id="dialog-are-you-sure" aria-labelledby="title-dialog-are-you-sure" class="w-dialog  " data-controller="w-dialog" data-action="w-dialog:hide->w-dialog#hide w-dialog:show->w-dialog#show wagtail:hide->w-dialog#hide wagtail:show->w-dialog#show" aria-modal="true" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="w-dialog__overlay" data-action="click->w-dialog#hide"></div>
+        <div class="w-dialog__box">
+            <button type="button" class="w-dialog__close-button" aria-label="Sluit dialoog" data-action="w-dialog#hide">
+                <svg class="icon icon-cross w-dialog__close-icon" aria-hidden="true"><use href="#icon-cross"></use></svg>
+            </button>
+
+
+            <div class="w-dialog__message w-dialog__message--critical">
+                <svg class="icon icon-warning w-dialog__message-icon" aria-hidden="true"><use href="#icon-warning"></use></svg>
+                <div class="w-dialog__message-header">
+                    <strong class="w-dialog__message-heading">{% translate "Are you sure you want to do this?" %}</strong>
+                    <p class="w-dialog__message-description ">{% translate "This operation is seriously dangerous." %}</p>
+                </div>
+            </div>
+            
+
+            <div class="w-dialog__content">
+                <div class="w-dialog__header">
+                    <h2 class="w-dialog__title w-h1" id="title-dialog-are-you-sure">
+                        {% icon name="upload" classname="w-dialog__icon" %}
+                        {% blocktrans with action=view.ACTION|title %}Database {{action}}{% endblocktrans %}
+                    </h2>
+                    <p class="w-dialog__subtitle w-help-text"><em>{% blocktrans with action=view.ACTION %}You are about to {{action}} a database file.{% endblocktrans %}</em></p>
+                </div>
+
+                <div data-w-dialog-target="body">
+                    <form action="{% url 'import_export:'|add:view.NAMESPACE dump.pk %}" method="post" class="confirm-database-import-form" data-csrf-token="{{ csrf_token }}">
+                        {% csrf_token %}
+
+                        <p class="w-base-text">
+                            {% translate "You are about to import a database file." %} <strong>{% translate "This might break your website." %}</strong>
+                        </p>
+                        <p class="w-base-text">
+                            {% translate "Hiring a developer to fix database issues can be really expensive and will take up a lot of time. We would advise you not to take any risks." %}
+                        </p>
+
+                        {% for field in view.dump_password_form %}
+                            <div class="field">
+                                <strong>{{ field.label_tag }}</strong>
+                                {{ field }}
+                                {% if field.help_text %}
+                                    <p class="help-text"><em>{{ field.help_text }}</em></p>
+                                {% endif %}
+                            </div>
+                        {% endfor %}
+
+                        
+                        <div class="buttons">
+                            <button type="button" class="button button-primary" aria-label="{% translate "Cancel" %}" data-action="w-dialog#hide">
+                                {% translate "Cancel" %}
+                            </button>
+                            <button class="button no" type="submit" value="submit">{{view.ACTION|title}}</button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="confirm-database-import-wrapper">
+        <div class="confirm-database-import">
+            <div class="confirm-database-import-warning">
+                <div class="help-block help-critical">
+                    {% icon name="warning" %}
+                    <p>{% translate "This will override all files in the database - this operation is considered highly unsafe." %}</p>
+                    {% for field in view.dump_password_form %}
+                        {% if field.errors %}
+                                <strong>{{field.label_tag}}</strong>
+                                <small>
+                                    <ul>
+                                        {% for error in field.errors %}
+                                            <li><p>{{ error }}</p></li>
+                                        {% endfor %}
+                                    </ul>
+                                </small>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+                <div class="help-block help-info">
+                    {% icon name="help" %}
+                    <p>{% blocktrans with action=view.ACTION_PLURAL %}Maintenance mode will be activated for the duration of the {{action}}.{% endblocktrans %}</p>
+                </div>
+            </div>
+            <div class="confirm-database-import-content">
+                <h2>
+                    {% blocktrans with action=view.ACTION_PLURAL count=file_count|default:0 %}Are you sure you want to {{action}} {{count}} database files?{% endblocktrans %}
+                </h2>
+                <p>{% translate "Any information lost cannot be recovered." %}</p>
+                <p>{% translate "A backup is made for each import, but this is not a guarantee to data restoration." %}</p>
+            </div>
+            <div class="confirm-database-import-buttons">
+                <a href="{% url 'import_export_dumps:edit' dump.pk %}" class="button button-secondary">{% translate "Cancel" %}</a>
+                <button type="button" class="button no" data-a11y-dialog-show="dialog-are-you-sure">
+                    {% blocktrans with action=view.ACTION|title %}Database {{action}}{% endblocktrans %}
+                </button>
+            </div>
+        </div>
+    </div>
+
+{% endblock %}
+        
