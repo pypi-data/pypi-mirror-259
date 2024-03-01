@@ -1,0 +1,3 @@
+[console_scripts]
+Ecmascript6Rumen = Ecmascript6Rumen.__main__:main
+ecmascript-6-rumen = Ecmascript6Rumen.__main__:main
