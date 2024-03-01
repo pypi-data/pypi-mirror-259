@@ -1,0 +1,2 @@
+[console_scripts]
+create-sequel-app = create_sequel_app:create_project
