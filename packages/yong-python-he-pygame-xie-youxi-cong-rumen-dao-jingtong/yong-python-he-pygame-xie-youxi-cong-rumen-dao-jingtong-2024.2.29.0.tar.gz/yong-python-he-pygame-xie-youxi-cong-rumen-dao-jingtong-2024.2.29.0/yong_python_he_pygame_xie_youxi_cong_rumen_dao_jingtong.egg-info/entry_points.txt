@@ -1,0 +1,3 @@
+[console_scripts]
+YongPythonHePygameXieYouxiCongRumenDaoJingtong = YongPythonHePygameXieYouxiCongRumenDaoJingtong.__main__:main
+yong-python-he-pygame-xie-youxi-cong-rumen-dao-jingtong = YongPythonHePygameXieYouxiCongRumenDaoJingtong.__main__:main
