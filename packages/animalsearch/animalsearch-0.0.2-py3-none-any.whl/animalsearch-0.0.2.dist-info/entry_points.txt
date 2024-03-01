@@ -1,0 +1,3 @@
+[console_scripts]
+animalsearch=PytorchWildlife.cli:main
+
