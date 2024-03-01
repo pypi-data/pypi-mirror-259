@@ -1,0 +1,42 @@
+[build-system]
+requires = [
+  "hatchling",
+  "hatch-requirements-txt",
+  "hatch-fancy-pypi-readme>=22.5.0",
+]
+build-backend = "hatchling.build"
+
+[project]
+name = "gradio_multichat"
+version = "0.0.4"
+description = "A variant of Gradio's Chatbot component that can handle multiple entities, which can be useful for role-playing and/or multi-agent tasks."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+authors = [{ name = "YOUR NAME", email = "YOUREMAIL@domain.com" }]
+keywords = ["gradio-custom-component", "gradio-template-Chatbot", "chat", "chatbot", "gradio chat", "gradio", "roleplay", "multi-agents", "multi entities", "roleplaying", "actors", "multiple"]
+# Add dependencies here
+dependencies = ["gradio>=4.0,<5.0"]
+classifiers = [
+  'Development Status :: 3 - Alpha',
+  'License :: OSI Approved :: Apache Software License',
+  'Operating System :: OS Independent',
+  'Programming Language :: Python :: 3',
+  'Programming Language :: Python :: 3 :: Only',
+  'Programming Language :: Python :: 3.8',
+  'Programming Language :: Python :: 3.9',
+  'Programming Language :: Python :: 3.10',
+  'Programming Language :: Python :: 3.11',
+  'Topic :: Scientific/Engineering',
+  'Topic :: Scientific/Engineering :: Artificial Intelligence',
+  'Topic :: Scientific/Engineering :: Visualization',
+]
+
+[project.optional-dependencies]
+dev = ["build", "twine"]
+
+[tool.hatch.build]
+artifacts = ["/backend/gradio_multichat/templates", "*.pyi", "\\backend\\gradio_multichat\\templates", "D:\\AI\\GradioComponents\\multichat\\backend\\gradio_multichat\\templates", "\\backend\\gradio_multichat\\templates", "\\backend\\gradio_multichat\\templates", "\\backend\\gradio_multichat\\templates", "\\backend\\gradio_multichat\\templates", "\\backend\\gradio_multichat\\templates", "\\backend\\gradio_multichat\\templates", "\\backend\\gradio_multichat\\templates", "\\backend\\gradio_multichat\\templates", "\\backend\\gradio_multichat\\templates", "\\backend\\gradio_multichat\\templates", "\\backend\\gradio_multichat\\templates", "\\backend\\gradio_multichat\\templates", "\\backend\\gradio_multichat\\templates", "\\backend\\gradio_multichat\\templates", "\\backend\\gradio_multichat\\templates", "\\backend\\gradio_multichat\\templates", "\\backend\\gradio_multichat\\templates", "\\backend\\gradio_multichat\\templates", "\\backend\\gradio_multichat\\templates", "\\backend\\gradio_multichat\\templates", "\\backend\\gradio_multichat\\templates", "\\backend\\gradio_multichat\\templates", "\\backend\\gradio_multichat\\templates", "\\backend\\gradio_multichat\\templates", "\\backend\\gradio_multichat\\templates", "\\backend\\gradio_multichat\\templates", "\\backend\\gradio_multichat\\templates", "\\backend\\gradio_multichat\\templates", "\\backend\\gradio_multichat\\templates", "\\backend\\gradio_multichat\\templates", "\\backend\\gradio_multichat\\templates", "\\backend\\gradio_multichat\\templates", "\\backend\\gradio_multichat\\templates", "\\backend\\gradio_multichat\\templates"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["/backend/gradio_multichat"]

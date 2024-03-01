@@ -1,0 +1,443 @@
+
+# `gradio_multichat`
+<a href="https://pypi.org/project/gradio_multichat/" target="_blank"><img alt="PyPI - Version" src="https://img.shields.io/pypi/v/gradio_multichat"></a>  
+
+A variant of Gradio's Chatbot component that can handle multiple entities, which can be useful for role-playing and/or multi-agent tasks.
+
+## Installation
+
+```bash
+pip install gradio_multichat
+```
+
+## Usage
+
+```python
+import gradio as gr
+from gradio_multichat import MultiChat
+
+AVATARS = [
+    "https://thumbs.dreamstime.com/b/smiling-old-man-having-coffee-portrait-looking-happy-33471677.jpg",
+    "https://images.pexels.com/photos/350784/pexels-photo-350784.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "https://images.pexels.com/photos/2085831/pexels-photo-2085831.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+]
+
+
+SAMPLE = """Blackholes:
+
+In 1924, Arthur Eddington showed that the singularity disappeared after a change of coordinates, although it took until 1933 for Georges Lemaître to realize that this meant the singularity at the Schwarzschild radius was a non-physical coordinate singularity.</blockquote>
+
+Arthur Eddington did however comment on the possibility of a star with mass compressed to the Schwarzschild radius in a 1926 book, noting that Einstein's theory allows us to rule out overly large densities for visible stars like Betelgeuse because "a star of 250 million km radius could not possibly have so high a density as the Sun.
+
+In 1958, David Finkelstein identified the Schwarzschild surface as an event horizon, "a perfect unidirectional membrane: causal influences can cross it in only one direction"."""
+
+
+def example(value):
+    samples = []
+    samples.append(["user", value])
+    yield samples, samples
+    samples.append(["bot", value])
+    yield samples, samples
+    samples.append(["carl", value])
+    yield samples, samples
+    samples.append(["john", SAMPLE])
+    yield samples, samples
+    samples.append(["carl", SAMPLE])
+    yield samples, samples
+
+
+entities = {
+    "user": {
+        "role": "user",
+        "avatar": AVATARS[0],
+    },
+    "bot": {
+        "role": "bot",  # Without avatar
+    },
+    "john": {
+        "role": "user",
+        "avatar": AVATARS[1],
+    },
+    "carl": {
+        "role": "bot",
+        "avatar": AVATARS[2],
+    },
+}
+
+
+with gr.Blocks() as demo:
+    with gr.Tab("boobles"):
+        chatbot_a = MultiChat(
+            label="CustomChat",
+            characters=entities,
+            layout="bubble",
+            height=600,
+            likeable=True,
+            show_copy_button=True,
+        )
+    with gr.Tab("panels"):
+        chatbot_b = MultiChat(
+            label="CustomChat",
+            characters=entities,
+            layout="panel",
+            height=600,
+            likeable=True,
+            show_copy_button=True,
+        )
+    with gr.Row():
+        with gr.Column(scale=999):
+            text_input = gr.Textbox(
+                interactive=True,
+                placeholder="Add you prompt here",
+                container=False,
+                lines=4,
+                max_lines=4,
+            )
+        with gr.Column(min_width=98):
+            with gr.Group():
+                send_button = gr.Button("Send", variant="primary")
+                clear_button = gr.Button("Clear")
+
+        gr.on(
+            [send_button.click, text_input.submit],
+            example,
+            text_input,
+            [chatbot_a, chatbot_b],
+        )
+
+if __name__ == "__main__":
+    demo.launch()
+
+```
+
+## `MultiChat`
+
+### Initialization
+
+<table>
+<thead>
+<tr>
+<th align="left">name</th>
+<th align="left" style="width: 25%;">type</th>
+<th align="left">default</th>
+<th align="left">description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><code>label</code></td>
+<td align="left" style="width: 25%;">
+
+```python
+str | None
+```
+
+</td>
+<td align="left"><code>None</code></td>
+<td align="left">The label for this component. Appears above the component and is also used as the header if there are a table of examples for this component. If None and used in a `gr.Interface`, the label will be the name of the parameter this component is assigned to.</td>
+</tr>
+
+<tr>
+<td align="left"><code>every</code></td>
+<td align="left" style="width: 25%;">
+
+```python
+float | None
+```
+
+</td>
+<td align="left"><code>None</code></td>
+<td align="left">If `value` is a callable, run the function 'every' number of seconds while the client connection is open. Has no effect otherwise. The event can be accessed (e.g. to cancel it) via this component's .load_event attribute.</td>
+</tr>
+
+<tr>
+<td align="left"><code>show_label</code></td>
+<td align="left" style="width: 25%;">
+
+```python
+bool | None
+```
+
+</td>
+<td align="left"><code>None</code></td>
+<td align="left">if True, will display label.</td>
+</tr>
+
+<tr>
+<td align="left"><code>container</code></td>
+<td align="left" style="width: 25%;">
+
+```python
+bool
+```
+
+</td>
+<td align="left"><code>True</code></td>
+<td align="left">If True, will place the component in a container - providing some extra padding around the border.</td>
+</tr>
+
+<tr>
+<td align="left"><code>scale</code></td>
+<td align="left" style="width: 25%;">
+
+```python
+int | None
+```
+
+</td>
+<td align="left"><code>None</code></td>
+<td align="left">relative size compared to adjacent Components. For example if Components A and B are in a Row, and A has scale=2, and B has scale=1, A will be twice as wide as B. Should be an integer. scale applies in Rows, and to top-level Components in Blocks where fill_height=True.</td>
+</tr>
+
+<tr>
+<td align="left"><code>min_width</code></td>
+<td align="left" style="width: 25%;">
+
+```python
+int
+```
+
+</td>
+<td align="left"><code>160</code></td>
+<td align="left">minimum pixel width, will wrap if not sufficient screen space to satisfy this value. If a certain scale value results in this Component being narrower than min_width, the min_width parameter will be respected first.</td>
+</tr>
+
+<tr>
+<td align="left"><code>visible</code></td>
+<td align="left" style="width: 25%;">
+
+```python
+bool
+```
+
+</td>
+<td align="left"><code>True</code></td>
+<td align="left">If False, component will be hidden.</td>
+</tr>
+
+<tr>
+<td align="left"><code>elem_id</code></td>
+<td align="left" style="width: 25%;">
+
+```python
+str | None
+```
+
+</td>
+<td align="left"><code>None</code></td>
+<td align="left">An optional string that is assigned as the id of this component in the HTML DOM. Can be used for targeting CSS styles.</td>
+</tr>
+
+<tr>
+<td align="left"><code>elem_classes</code></td>
+<td align="left" style="width: 25%;">
+
+```python
+list[str] | str | None
+```
+
+</td>
+<td align="left"><code>None</code></td>
+<td align="left">An optional list of strings that are assigned as the classes of this component in the HTML DOM. Can be used for targeting CSS styles.</td>
+</tr>
+
+<tr>
+<td align="left"><code>render</code></td>
+<td align="left" style="width: 25%;">
+
+```python
+bool
+```
+
+</td>
+<td align="left"><code>True</code></td>
+<td align="left">If False, component will not render be rendered in the Blocks context. Should be used if the intention is to assign event listeners now but render the component later.</td>
+</tr>
+
+<tr>
+<td align="left"><code>height</code></td>
+<td align="left" style="width: 25%;">
+
+```python
+int | str | None
+```
+
+</td>
+<td align="left"><code>None</code></td>
+<td align="left">The height of the component, specified in pixels if a number is passed, or in CSS units if a string is passed.</td>
+</tr>
+
+<tr>
+<td align="left"><code>latex_delimiters</code></td>
+<td align="left" style="width: 25%;">
+
+```python
+list[dict[str, str | bool]] | None
+```
+
+</td>
+<td align="left"><code>None</code></td>
+<td align="left">A list of dicts of the form {"left": open delimiter (str), "right": close delimiter (str), "display": whether to display in newline (bool)} that will be used to render LaTeX expressions. If not provided, `latex_delimiters` is set to `[{ "left": "$$", "right": "$$", "display": True }]`, so only expressions enclosed in $$ delimiters will be rendered as LaTeX, and in a new line. Pass in an empty list to disable LaTeX rendering. For more information, see the [KaTeX documentation](https://katex.org/docs/autorender.html).</td>
+</tr>
+
+<tr>
+<td align="left"><code>rtl</code></td>
+<td align="left" style="width: 25%;">
+
+```python
+bool
+```
+
+</td>
+<td align="left"><code>False</code></td>
+<td align="left">If True, sets the direction of the rendered text to right-to-left. Default is False, which renders text left-to-right.</td>
+</tr>
+
+<tr>
+<td align="left"><code>show_share_button</code></td>
+<td align="left" style="width: 25%;">
+
+```python
+bool | None
+```
+
+</td>
+<td align="left"><code>None</code></td>
+<td align="left">If True, will show a share icon in the corner of the component that allows user to share outputs to Hugging Face Spaces Discussions. If False, icon does not appear. If set to None (default behavior), then the icon appears if this Gradio app is launched on Spaces, but not otherwise.</td>
+</tr>
+
+<tr>
+<td align="left"><code>show_copy_button</code></td>
+<td align="left" style="width: 25%;">
+
+```python
+bool
+```
+
+</td>
+<td align="left"><code>False</code></td>
+<td align="left">If True, will show a copy button for each chatbot message.</td>
+</tr>
+
+<tr>
+<td align="left"><code>characters</code></td>
+<td align="left" style="width: 25%;">
+
+```python
+dict | None
+```
+
+</td>
+<td align="left"><code>None</code></td>
+<td align="left">None</td>
+</tr>
+
+<tr>
+<td align="left"><code>sanitize_html</code></td>
+<td align="left" style="width: 25%;">
+
+```python
+bool
+```
+
+</td>
+<td align="left"><code>True</code></td>
+<td align="left">If False, will disable HTML sanitization for chatbot messages. This is not recommended, as it can lead to security vulnerabilities.</td>
+</tr>
+
+<tr>
+<td align="left"><code>render_markdown</code></td>
+<td align="left" style="width: 25%;">
+
+```python
+bool
+```
+
+</td>
+<td align="left"><code>True</code></td>
+<td align="left">If False, will disable Markdown rendering for chatbot messages.</td>
+</tr>
+
+<tr>
+<td align="left"><code>bubble_full_width</code></td>
+<td align="left" style="width: 25%;">
+
+```python
+bool
+```
+
+</td>
+<td align="left"><code>True</code></td>
+<td align="left">If False, the chat bubble will fit to the content of the message. If True (default), the chat bubble will be the full width of the component.</td>
+</tr>
+
+<tr>
+<td align="left"><code>line_breaks</code></td>
+<td align="left" style="width: 25%;">
+
+```python
+bool
+```
+
+</td>
+<td align="left"><code>True</code></td>
+<td align="left">If True (default), will enable Github-flavored Markdown line breaks in chatbot messages. If False, single new lines will be ignored. Only applies if `render_markdown` is True.</td>
+</tr>
+
+<tr>
+<td align="left"><code>likeable</code></td>
+<td align="left" style="width: 25%;">
+
+```python
+bool
+```
+
+</td>
+<td align="left"><code>False</code></td>
+<td align="left">Whether the chat messages display a like or dislike button. Set automatically by the .like method but has to be present in the signature for it to show up in the config.</td>
+</tr>
+
+<tr>
+<td align="left"><code>layout</code></td>
+<td align="left" style="width: 25%;">
+
+```python
+"panel" | "bubble" | None
+```
+
+</td>
+<td align="left"><code>None</code></td>
+<td align="left">If "panel", will display the chatbot in a llm style layout. If "bubble", will display the chatbot with message bubbles, with the user and bot messages on alterating sides. Will default to "bubble".</td>
+</tr>
+</tbody></table>
+
+
+### Events
+
+| name | description |
+|:-----|:------------|
+| `change` | Triggered when the value of the MultiChat changes either because of user input (e.g. a user types in a textbox) OR because of a function update (e.g. an image receives a value from the output of an event trigger). See `.input()` for a listener that is only triggered by user input. |
+| `select` | Event listener for when the user selects or deselects the MultiChat. Uses event data gradio.SelectData to carry `value` referring to the label of the MultiChat, and `selected` to refer to state of the MultiChat. See EventData documentation on how to use this event data |
+| `like` | This listener is triggered when the user likes/dislikes from within the MultiChat. This event has EventData of type gradio.LikeData that carries information, accessible through LikeData.index and LikeData.value. See EventData documentation on how to use this event data. |
+
+
+
+### User function
+
+The impact on the users predict function varies depending on whether the component is used as an input or output for an event (or both).
+
+- When used as an Input, the component only impacts the input signature of the user function.
+- When used as an output, the component only impacts the return signature of the user function.
+
+The code snippet below is accurate in cases where the component is used as both an input and an output.
+
+- **As output:** Is passed, passes the messages in the chatbot as a `list[list[str, str | None]]`. The inner list has 2 elements:.
+- **As input:** Should return, receives a list of either list or turple of a pair of a strings. The first string represents the entity, while the second string represents the content.
+
+ ```python
+ def predict(
+     value: list[tuple[str, str | None]] | None
+ ) -> list[tuple[str, typing.Any]] | list[list[typing.Any]] | None:
+     return value
+ ```
+ 
