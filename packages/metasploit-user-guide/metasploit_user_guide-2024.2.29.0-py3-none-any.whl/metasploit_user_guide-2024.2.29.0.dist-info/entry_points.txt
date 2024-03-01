@@ -1,0 +1,3 @@
+[console_scripts]
+MetasploitUserGuide = MetasploitUserGuide.__main__:main
+metasploit-user-guide = MetasploitUserGuide.__main__:main
