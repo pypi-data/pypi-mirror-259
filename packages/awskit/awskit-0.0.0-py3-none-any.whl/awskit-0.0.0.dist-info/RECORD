@@ -1,0 +1,13 @@
+awesome/interfaces/__init__.py,sha256=qwzfCjZRCHtN9QCCM4SwPmYsO-w-uSqgrLFjamq-79Y,130
+awesome/interfaces/dynamodb.py,sha256=uvbvuPKtp8wRHo66UYNdjYL81Y3wuzx_pT1xpXW8rlM,80
+awesome/interfaces/s3.py,sha256=3I1HGIe2l-RMR0G_bfk-HlU8HaNfbgSeEniu1T7uDQA,334
+awesome/interfaces/sg.py,sha256=VNWJvdScOwOmD6Hd0cAmOur3h_Iyb6WELCQsNQcYOFo,995
+awesome/interfaces/sqs.py,sha256=C4otRNb3DjU5MRpj9w4ATO2fNgY8I7DJr4-qB1TwH7A,1672
+awesome/interfaces/subnet.py,sha256=z_D01fvd8je2rWlTUhEmCQsrHAfsgbZo1mFENvNn5_M,896
+awesome/interfaces/vpc.py,sha256=66qP8ZmU7_2o6jZQ8LTezuI9oD5QWExUwQqJ-3q0fhM,857
+awesome/lib/auth.py,sha256=yjoAkLSH0c2iXV_B7Dc9ynU-_01TGusz11fDoKPa9pg,3781
+awesome/lib/interface.py,sha256=jufbf5l_r2PdvHTVxptFn-BWPRJnSFNdATbbZj5Wg6U,2992
+awskit-0.0.0.dist-info/METADATA,sha256=a1qDCt9G1vSmcDxK5z1YbameebxH4KEGUnBZoqcKLyc,790
+awskit-0.0.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+awskit-0.0.0.dist-info/top_level.txt,sha256=m9hM6CrXvFhovWR-5Q05KSYxgCLWGtXybTnm_ESFPXc,8
+awskit-0.0.0.dist-info/RECORD,,
