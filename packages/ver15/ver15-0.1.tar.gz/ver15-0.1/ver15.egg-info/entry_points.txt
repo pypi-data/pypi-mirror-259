@@ -1,0 +1,2 @@
+[console_scripts]
+ver15 = ver15.src.AIUT:main
