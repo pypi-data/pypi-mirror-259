@@ -1,0 +1,37 @@
+[project]
+name = "pytorch-quantum"
+version = "0.3"
+description = "Quantum Dynamics simulation with PyTorch"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {file = "LICENSE", name = "Apache 2.0"}
+authors = [{name = "Anurag Saha Roy", email = "contact@anuragsaharoy.me"}]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: Apache Software License",
+    "Intended Audience :: Science/Research",
+    "Operating System :: Unix",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Physics",
+]
+dependencies = [
+    "numpy",
+    "scipy",
+    "torch",
+]
+
+[project.optional-dependencies]
+dev = ["pytest"]
+plotting = ["matplotlib"]
+
+[tool.setuptools.packages.find]
+where = ["pytorch_quantum"]
+
+[project.urls]
+Homepage = "http://github.com/pytorch-quantum"
+Repository = "http://github.com/pytorch-quantum/pytorch-quantum.git"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
