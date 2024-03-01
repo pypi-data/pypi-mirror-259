@@ -1,0 +1,3 @@
+[console_scripts]
+Laravel5Doc = Laravel5Doc.__main__:main
+laravel-5-doc = Laravel5Doc.__main__:main
