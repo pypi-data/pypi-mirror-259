@@ -1,0 +1,3 @@
+[console_scripts]
+ChengxuyuanTiaocaoQuangonglve = ChengxuyuanTiaocaoQuangonglve.__main__:main
+chengxuyuan-tiaocao-quangonglve = ChengxuyuanTiaocaoQuangonglve.__main__:main
