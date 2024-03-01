@@ -1,0 +1,10 @@
+pyproject_appimage/__init__.py,sha256=b4Ne0s2AVWWf9HrK5U7LHj-yvdQn4hc-IVl-S3lUTIE,16910
+pyproject_appimage/__main__.py,sha256=IvTjTYhvVO6h9Jpa45i-FfzjcKcJy1jwkAZY_CkgibQ,26
+pyproject_appimage/default.png,sha256=iqeZCDnfTLTlPBDozNW1Fq9RcOmrAGLUw0ycnudcKSE,28792
+pyproject_appimage/version.txt,sha256=XKeXdA6TLdg2IG0rS-qCXIO8R-JeRQBtCiti_nG-QLY,4
+pyproject_appimage-4.0.dist-info/LICENSE,sha256=MCGwVKhUArHkgoyjJkvmqcyD_FfigJMZuihGEI6cW6w,1313
+pyproject_appimage-4.0.dist-info/METADATA,sha256=BG5fHqNE3IWeGate_CqJBqaBJPLFT_ZbwGVi7OjRmog,4804
+pyproject_appimage-4.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+pyproject_appimage-4.0.dist-info/entry_points.txt,sha256=EyIjGmLJHrY9iyyfm_1j1STMY1ZmSoAqZes1hkzw8vY,63
+pyproject_appimage-4.0.dist-info/top_level.txt,sha256=oRLaC83tB6Xpmn4wh5Fh6BMKl91znY2XAvw4dhddn3U,19
+pyproject_appimage-4.0.dist-info/RECORD,,
