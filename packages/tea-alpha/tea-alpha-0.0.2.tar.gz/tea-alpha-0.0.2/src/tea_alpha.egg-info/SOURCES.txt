@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/tea-alpha/__init__.py
+src/tea_alpha.egg-info/PKG-INFO
+src/tea_alpha.egg-info/SOURCES.txt
+src/tea_alpha.egg-info/dependency_links.txt
+src/tea_alpha.egg-info/top_level.txt
