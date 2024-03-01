@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+django_auditable_model.egg-info/PKG-INFO
+django_auditable_model.egg-info/SOURCES.txt
+django_auditable_model.egg-info/dependency_links.txt
+django_auditable_model.egg-info/top_level.txt
+migrations/__init__.py
