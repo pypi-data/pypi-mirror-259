@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/teacupx/__init__.py
+src/teacupx.egg-info/PKG-INFO
+src/teacupx.egg-info/SOURCES.txt
+src/teacupx.egg-info/dependency_links.txt
+src/teacupx.egg-info/top_level.txt
