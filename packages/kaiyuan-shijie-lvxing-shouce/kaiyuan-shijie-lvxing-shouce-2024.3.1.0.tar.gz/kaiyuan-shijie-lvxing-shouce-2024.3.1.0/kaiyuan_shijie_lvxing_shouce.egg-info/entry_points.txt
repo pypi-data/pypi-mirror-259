@@ -1,0 +1,3 @@
+[console_scripts]
+KaiyuanShijieLvxingShouce = KaiyuanShijieLvxingShouce.__main__:main
+kaiyuan-shijie-lvxing-shouce = KaiyuanShijieLvxingShouce.__main__:main
