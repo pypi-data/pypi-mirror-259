@@ -1,0 +1,3 @@
+[console_scripts]
+XiangJisuanjiKexuejiaYiyangSikaoCBan = XiangJisuanjiKexuejiaYiyangSikaoCBan.__main__:main
+xiang-jisuanji-kexuejia-yiyang-sikao-c-ban = XiangJisuanjiKexuejiaYiyangSikaoCBan.__main__:main
