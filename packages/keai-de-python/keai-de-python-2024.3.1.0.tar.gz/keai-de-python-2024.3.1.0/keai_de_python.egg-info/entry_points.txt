@@ -1,0 +1,3 @@
+[console_scripts]
+KeaiDePython = KeaiDePython.__main__:main
+keai-de-python = KeaiDePython.__main__:main
