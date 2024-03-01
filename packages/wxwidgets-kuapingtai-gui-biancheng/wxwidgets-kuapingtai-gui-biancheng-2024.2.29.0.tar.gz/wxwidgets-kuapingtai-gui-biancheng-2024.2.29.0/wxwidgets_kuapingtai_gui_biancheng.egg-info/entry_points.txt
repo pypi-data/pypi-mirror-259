@@ -1,0 +1,3 @@
+[console_scripts]
+WxwidgetsKuapingtaiGuiBiancheng = WxwidgetsKuapingtaiGuiBiancheng.__main__:main
+wxwidgets-kuapingtai-gui-biancheng = WxwidgetsKuapingtaiGuiBiancheng.__main__:main
