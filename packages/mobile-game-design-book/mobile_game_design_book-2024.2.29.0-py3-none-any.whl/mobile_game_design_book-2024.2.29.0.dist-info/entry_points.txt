@@ -1,0 +1,3 @@
+[console_scripts]
+MobileGameDesignBook = MobileGameDesignBook.__main__:main
+mobile-game-design-book = MobileGameDesignBook.__main__:main
