@@ -1,0 +1,9 @@
+README.md
+check_library.py
+setup.py
+check_library.egg-info/PKG-INFO
+check_library.egg-info/SOURCES.txt
+check_library.egg-info/dependency_links.txt
+check_library.egg-info/entry_points.txt
+check_library.egg-info/requires.txt
+check_library.egg-info/top_level.txt
