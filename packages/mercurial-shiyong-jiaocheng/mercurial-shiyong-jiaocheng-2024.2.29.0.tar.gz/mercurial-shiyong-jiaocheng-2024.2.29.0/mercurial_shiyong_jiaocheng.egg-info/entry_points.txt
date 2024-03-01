@@ -1,0 +1,3 @@
+[console_scripts]
+MercurialShiyongJiaocheng = MercurialShiyongJiaocheng.__main__:main
+mercurial-shiyong-jiaocheng = MercurialShiyongJiaocheng.__main__:main
