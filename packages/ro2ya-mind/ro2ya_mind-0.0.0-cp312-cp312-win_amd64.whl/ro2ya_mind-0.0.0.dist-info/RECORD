@@ -1,0 +1,10 @@
+casy_old/args.cp312-win_amd64.pyd,sha256=R1b-n6pCp4PViTSFP4U-xJ8umcOG1W8_Pj6pWFbRmrA,32768
+casy_old/audio.cp312-win_amd64.pyd,sha256=_kb-1xbJbC5K5oCz2ckn2ubkskhcoxtmOLp9n84lpOs,59904
+casy_old/embedding.cp312-win_amd64.pyd,sha256=ikvbwWP8zfo_2DZzqEs3xJy4fuhf2Zt0u9uddZvLvRw,54784
+casy_old/llm.cp312-win_amd64.pyd,sha256=xsWp98pwDARJE_-OZ00d5k2cekD3BfeekbWRfJOibGc,54784
+casy_old/memo.cp312-win_amd64.pyd,sha256=jWaNqBgnXcGjbxATQwXHevYvlrxE9-yPsFkXePob-ic,41984
+casy_old/mind.cp312-win_amd64.pyd,sha256=ck5NmyIO1qAWOvjfO3BVQD_6ETZRe0boTCLwffUodjA,197632
+ro2ya_mind-0.0.0.dist-info/METADATA,sha256=mcgcckY25MZtCVguXV_rwxWKay5lehkSRvvVPh1gIxc,59
+ro2ya_mind-0.0.0.dist-info/WHEEL,sha256=aDrgWfEd5Ac7WJzHsr90rcMGiH4MHbAXoCWpyP5CEBc,102
+ro2ya_mind-0.0.0.dist-info/top_level.txt,sha256=Y5ivzgZwTYc6-vriJrHHw6lTvMaMA0N8qdwgevK5Pcg,9
+ro2ya_mind-0.0.0.dist-info/RECORD,,
