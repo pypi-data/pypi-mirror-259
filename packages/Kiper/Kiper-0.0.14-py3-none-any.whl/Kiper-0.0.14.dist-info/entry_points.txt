@@ -1,0 +1,2 @@
+[console_scripts]
+kiper setup = kiper.commands.installer:setup_project
