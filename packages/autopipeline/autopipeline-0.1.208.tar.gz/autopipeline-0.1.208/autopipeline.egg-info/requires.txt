@@ -1,0 +1,16 @@
+tiktoken
+IPython
+graphviz
+openai==0.28
+pandas
+PyMuPDF
+pytesseract
+textstat
+Pillow
+gensim
+nltk
+flair
+textblob
+scikit-learn
+pandasql
+spacy
