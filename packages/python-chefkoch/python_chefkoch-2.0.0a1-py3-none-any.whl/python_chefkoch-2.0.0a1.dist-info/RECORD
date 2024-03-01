@@ -1,0 +1,8 @@
+chefkoch/__init__.py,sha256=ToReVePYTogkTxxdHIOFcrPbjmtG1x-3YnR2x6IwVNA,121
+chefkoch/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chefkoch/recipe.py,sha256=o0bvNR_Wf5OCNds8NJa4xKsSpMKG5rk5_mcfCchTAak,9145
+chefkoch/retrievers.py,sha256=Y5G4zSMYGmZENGfT79LfEyST-KV_Tr4VdwPvg7waS9E,10683
+python_chefkoch-2.0.0a1.dist-info/LICENSE.txt,sha256=fq-Q04Es17Lb-hhePwmPNSyz89dvVaU1ZCOlOb5CrqY,1053
+python_chefkoch-2.0.0a1.dist-info/METADATA,sha256=4Ttsao-BbrB_Kc22lPpghTr3dIaaAsdtmngmRprLoPg,3334
+python_chefkoch-2.0.0a1.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+python_chefkoch-2.0.0a1.dist-info/RECORD,,
