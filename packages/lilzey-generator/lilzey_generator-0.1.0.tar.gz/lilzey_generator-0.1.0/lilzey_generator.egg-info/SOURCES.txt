@@ -1,0 +1,8 @@
+README.md
+setup.py
+lilzey_generator.egg-info/PKG-INFO
+lilzey_generator.egg-info/SOURCES.txt
+lilzey_generator.egg-info/dependency_links.txt
+lilzey_generator.egg-info/entry_points.txt
+lilzey_generator.egg-info/requires.txt
+lilzey_generator.egg-info/top_level.txt
