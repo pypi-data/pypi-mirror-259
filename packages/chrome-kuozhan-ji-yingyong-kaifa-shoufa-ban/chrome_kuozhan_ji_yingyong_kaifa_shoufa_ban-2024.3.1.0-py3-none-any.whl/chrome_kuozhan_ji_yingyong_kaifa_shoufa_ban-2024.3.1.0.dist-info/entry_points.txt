@@ -1,0 +1,3 @@
+[console_scripts]
+ChromeKuozhanJiYingyongKaifaShoufaBan = ChromeKuozhanJiYingyongKaifaShoufaBan.__main__:main
+chrome-kuozhan-ji-yingyong-kaifa-shoufa-ban = ChromeKuozhanJiYingyongKaifaShoufaBan.__main__:main
