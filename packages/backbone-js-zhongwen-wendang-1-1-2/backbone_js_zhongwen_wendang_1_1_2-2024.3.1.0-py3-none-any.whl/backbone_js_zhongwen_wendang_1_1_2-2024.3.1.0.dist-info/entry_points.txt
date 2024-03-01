@@ -1,0 +1,3 @@
+[console_scripts]
+BackboneJsZhongwenWendang112 = BackboneJsZhongwenWendang112.__main__:main
+backbone-js-zhongwen-wendang-1-1-2 = BackboneJsZhongwenWendang112.__main__:main
