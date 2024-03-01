@@ -1,0 +1,3 @@
+[console_scripts]
+MetasploitManual = MetasploitManual.__main__:main
+metasploit-manual = MetasploitManual.__main__:main
