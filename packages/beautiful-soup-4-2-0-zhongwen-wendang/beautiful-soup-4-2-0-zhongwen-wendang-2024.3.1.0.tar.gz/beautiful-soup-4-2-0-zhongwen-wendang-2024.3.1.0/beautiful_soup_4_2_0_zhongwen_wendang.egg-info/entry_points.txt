@@ -1,0 +1,3 @@
+[console_scripts]
+BeautifulSoup420ZhongwenWendang = BeautifulSoup420ZhongwenWendang.__main__:main
+beautiful-soup-4-2-0-zhongwen-wendang = BeautifulSoup420ZhongwenWendang.__main__:main
