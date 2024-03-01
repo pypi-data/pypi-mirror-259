@@ -1,0 +1,12 @@
+SQLAlchemy~=2.0.23
+
+[tests]
+pytest~=7.2.1
+pytest-mock~=3.10.0
+pytest-faker~=2.0.0
+pytest-cov~=4.0.0
+pytest-unordered~=0.5.2
+pytest-asyncio~=0.23.2
+EasyFactory~=1.1.0
+aiosqlite==0.19.0
+gevent~=23.9.1

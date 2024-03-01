@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: sql-repository-generator
+Version: 0.2.0
+Summary: Library to generate repository for SQLAlchemy based on ORM Models
+Author-email: Baboin Arthur <baboin.arthur@gmail.com>
+Project-URL: Homepage, https://gitlab.com/Tagashy/easysql
+Project-URL: Bug Tracker, https://gitlab.com/Tagashy/easysql/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.12
+License-File: LICENSE
+Requires-Dist: SQLAlchemy~=2.0.23
+Provides-Extra: tests
+Requires-Dist: pytest~=7.2.1; extra == "tests"
+Requires-Dist: pytest-mock~=3.10.0; extra == "tests"
+Requires-Dist: pytest-faker~=2.0.0; extra == "tests"
+Requires-Dist: pytest-cov~=4.0.0; extra == "tests"
+Requires-Dist: pytest-unordered~=0.5.2; extra == "tests"
+Requires-Dist: pytest-asyncio~=0.23.2; extra == "tests"
+Requires-Dist: EasyFactory~=1.1.0; extra == "tests"
+Requires-Dist: aiosqlite==0.19.0; extra == "tests"
+Requires-Dist: gevent~=23.9.1; extra == "tests"
