@@ -1,0 +1,27 @@
+# Java 程序员眼中的 Linux - v1.0
+
+## 下载
+
+### Docker
+
+```
+docker pull apachecn0/java-chengxuyuan-yanzhong-de-linux-v1-0
+docker run -tid -p <port>:80 apachecn0/java-chengxuyuan-yanzhong-de-linux-v1-0
+# 访问 http://localhost:{port} 查看文档
+```
+
+### PYPI
+
+```
+pip install java-chengxuyuan-yanzhong-de-linux-v1-0
+java-chengxuyuan-yanzhong-de-linux-v1-0 <port>
+# 访问 http://localhost:{port} 查看文档
+```
+
+### NPM
+
+```
+npm install -g java-chengxuyuan-yanzhong-de-linux-v1-0
+java-chengxuyuan-yanzhong-de-linux-v1-0 <port>
+# 访问 http://localhost:{port} 查看文档
+```
