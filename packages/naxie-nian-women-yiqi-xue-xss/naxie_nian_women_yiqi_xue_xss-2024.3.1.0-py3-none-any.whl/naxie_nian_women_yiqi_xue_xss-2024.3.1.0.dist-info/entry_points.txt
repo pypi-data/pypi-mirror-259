@@ -1,0 +1,3 @@
+[console_scripts]
+NaxieNianWomenYiqiXueXss = NaxieNianWomenYiqiXueXss.__main__:main
+naxie-nian-women-yiqi-xue-xss = NaxieNianWomenYiqiXueXss.__main__:main
