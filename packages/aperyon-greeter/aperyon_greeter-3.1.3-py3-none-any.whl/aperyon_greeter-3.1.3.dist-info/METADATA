@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: aperyon_greeter
+Version: 3.1.3
+Summary: A simple package to greet people
+Home-page: https://github.com/your_username/simple_greeter
+Author: Your Name
+Author-email: your@email.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+This a nice little greeter package.
