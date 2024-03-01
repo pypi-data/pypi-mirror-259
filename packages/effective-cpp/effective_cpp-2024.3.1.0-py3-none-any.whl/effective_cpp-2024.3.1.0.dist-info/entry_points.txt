@@ -1,0 +1,3 @@
+[console_scripts]
+EffectiveCpp = EffectiveCpp.__main__:main
+effective-cpp = EffectiveCpp.__main__:main
