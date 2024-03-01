@@ -1,0 +1,3 @@
+[console_scripts]
+XiandaiOpenglJiaocheng = XiandaiOpenglJiaocheng.__main__:main
+xiandai-opengl-jiaocheng = XiandaiOpenglJiaocheng.__main__:main
