@@ -1,0 +1,12 @@
+petcmd/__init__.py,sha256=4MHHp7Os7nArOWRRTn8TILi_Te19jssQUnu2DoWlEAQ,97
+petcmd/argparser.py,sha256=dXg2UfgNt5E00RpcSTproB-dZdn_CmYaERHAKjrrSJs,8352
+petcmd/command.py,sha256=HWPO_erlonWJo3JMjVyRK4--27OkT_BASb_S0WqclVg,1169
+petcmd/commander.py,sha256=FTP8Bljslxmpx5uxovRuRHdxg-NS23vds_5tfw827Mc,2795
+petcmd/exceptions.py,sha256=6G62hkQ9TU5i4-Vsm7415PAC9wSHV9HeItHKMJRL7fc,86
+petcmd/interface.py,sha256=nxCnbMfsMJJhu6xIA5Hzeo5WGGF5-0EsMsK_1z8FVIQ,3224
+petcmd/utils.py,sha256=vNjO0w8-3aCs9C_vo72Lu5cm82qzqjhGqtuEwLN7VWQ,555
+petcmd-0.2.0.dist-info/LICENSE,sha256=VG7J2qOUep8UKDcvYdBsySfJQXkXLTVM7dxsA0o9ky0,1063
+petcmd-0.2.0.dist-info/METADATA,sha256=2rG_GZVkhQMR4ED8XQpK-fHI8e6hdlP1GVtlztnXfcE,1271
+petcmd-0.2.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+petcmd-0.2.0.dist-info/top_level.txt,sha256=L_TWtTOCRc_4rGT7icgtJz2Mgs3MFBthcujwWYT6z68,7
+petcmd-0.2.0.dist-info/RECORD,,
