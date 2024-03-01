@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: excel_to_csv_converter
+Version: 1.0.0
+Summary: Convert Excel files to CSV format
+Home-page: https://github.com/sportyomar/automation_tools
+Author: Omar Morrison
+Author-email: morrisonomar@yahoo.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
