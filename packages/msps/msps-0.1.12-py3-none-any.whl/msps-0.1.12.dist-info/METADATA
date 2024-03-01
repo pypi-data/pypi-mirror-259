@@ -1,0 +1,100 @@
+Metadata-Version: 2.1
+Name: msps
+Version: 0.1.12
+Summary: Maven Settings Profile Switcher
+License: MIT
+Author: István Földházi
+Author-email: istvan.foldhazi@gmail.com
+Requires-Python: >=3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: rich (>=13.7.0,<14.0.0)
+Requires-Dist: typer (>=0.9.0,<0.10.0)
+Description-Content-Type: text/markdown
+
+# MSPS - Maven Settings Profile S+witcher
+
+MSPS is a simple tool to switch between different Maven settings profiles.
+
+## Installation
+
+```bash
+pip install ...
+```
+
+## Usage examples
+
+### Change profile without specifying a profile name
+
+The next profile in the list of available profiles will be used.
+
+```bash
+msps switch
+```
+```plain
+╭──────────── Maven Settings Profile Switcher ────────────╮
+│                                                         │
+│  Profile changed from current_profile to next_profile.  │
+│                                                         │
+╰─────────────────────────────────────────────────────────╯
+```
+
+### Change profile to a specific profile
+
+The specified profile will be used.
+
+```bash
+msps switch work
+```
+```plain
+╭───────────── Maven Settings Profile Switcher ──────────────╮
+│                                                            │
+│  M2_HOME: /home/testuser/.m2/                              │
+│  Available settings profiles:                              │
+│    - personal (/home/testuser/.m2/settings__personal.xml)  │
+│    - work (/home/testuser/.m2/settings__work.xml)          │
+│  Profile changed from personal to work.            │
+│                                                            │
+╰────────────────────────────────────────────────────────────╯
+```
+
+### Change profile to a specific profile that does not exist
+
+The specified profile does not exist, so no changes will be made.
+
+```bash
+msps switch target_profile
+```
+```plain
+╭───────────── Maven Settings Profile Switcher ──────────────╮
+│                                                            │
+│  Missing profile: target_profile                           │
+│                                                            │
+│  M2_HOME: /home/testuser/.m2/                              │
+│  Available settings profiles:                              │
+│    - personal (/home/testuser/.m2/settings__personal.xml)  │
+│    - work (/home/testuser/.m2/settings__work.xml)          │
+│  No changes were made.                                     │
+│                                                            │
+╰────────────────────────────────────────────────────────────╯
+```
+
+### List available profiles
+
+```bash
+msps list
+```
+```plain
+╭───────────── Maven Settings Profile Switcher ──────────────╮
+│                                                            │
+│  Available settings profiles:                              │
+│    - personal (/home/testuser/.m2/settings__personal.xml)  │
+│    - work (/home/testuser/.m2/settings__work.xml)          │
+│                                                            │
+╰────────────────────────────────────────────────────────────╯
+```
