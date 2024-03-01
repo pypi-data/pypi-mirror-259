@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: movielinkscraper
+Version: 0.1.5
+Summary: Simple tool for scraping movie links from any site
+Home-page: https://github.com/xrce/mls
+Author: Your Future Boyfriend
+Author-email: n1ghtpe0ple@protonmail.com
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
