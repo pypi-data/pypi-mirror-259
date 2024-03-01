@@ -1,0 +1,3 @@
+[console_scripts]
+BurpSuiteShiyongShuoming = BurpSuiteShiyongShuoming.__main__:main
+burp-suite-shiyong-shuoming = BurpSuiteShiyongShuoming.__main__:main
