@@ -1,0 +1,15 @@
+hammadml/__init__.py,sha256=ovguP4wzQEDNguczwiZnhMm4dRRVcvnzmHrfQtlRCNQ,15
+hammadml/data/__init__.py,sha256=gFREldbv4x_pfj6T-n1ZGyLwUOiwao59p0k5050OkY8,74
+hammadml/data/database.py,sha256=xOeuZw5rv-9m-qcqlMQiTDLqe_YLrEA3tBGwPfSKeVs,4794
+hammadml/data/vector_database.py,sha256=3p3_0Ed5G5pZ5j92eKj2ltfS5PALUmexa9TvE6YiHzw,6535
+hammadml/transformers/__init__.py,sha256=PiUvQ-YSHcRIYEanJSl2FnUs9_xf96ahcw7wav2EzPc,198
+hammadml/transformers/cross_encoder.py,sha256=lJQn_8_OriCVwzEBOF-W3ev6yrNO2rH6wdxhdMsHoCs,2656
+hammadml/transformers/loss.py,sha256=LTcf2KPLIAOOE-Jvxr_vFOkM5nUWCYmjCUjq6FUlZl0,2686
+hammadml/transformers/semantic_search.py,sha256=icD0DQqAPhlXczvTfHhu0AYpA6dun82pVReqrwbx8Os,1537
+hammadml/transformers/sentence_embedder.py,sha256=y7S4kC1SQ-5p7tiJkf4Ya-xH8f_j0fC9DIUikZfLknk,2380
+hammadml/transformers/sentence_similarity.py,sha256=3gNfdFh4JTor92QOoiE2keztqGoh-HJpQBOr3M_ComQ,1449
+hammadml-0.0.16.dist-info/LICENSE,sha256=H5kFm2OgX1LVQy2Ayo5WnyB64m9ZQ5LT2_8vx358AnM,1064
+hammadml-0.0.16.dist-info/METADATA,sha256=Y2u6RvZwkN4tkkh9EgL7g8wNifh_kzvjnlmuFTXIShM,5636
+hammadml-0.0.16.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+hammadml-0.0.16.dist-info/top_level.txt,sha256=ahKeKN1Me9X11bzmprI0N7CxNERRB0DUREv7WeWwf_0,9
+hammadml-0.0.16.dist-info/RECORD,,
