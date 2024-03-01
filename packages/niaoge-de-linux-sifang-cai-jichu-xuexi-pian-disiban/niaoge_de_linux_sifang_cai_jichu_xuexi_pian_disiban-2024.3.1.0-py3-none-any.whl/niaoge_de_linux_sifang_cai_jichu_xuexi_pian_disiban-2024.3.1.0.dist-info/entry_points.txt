@@ -1,0 +1,3 @@
+[console_scripts]
+NiaogeDeLinuxSifangCaiJichuXuexiPianDisiban = NiaogeDeLinuxSifangCaiJichuXuexiPianDisiban.__main__:main
+niaoge-de-linux-sifang-cai-jichu-xuexi-pian-disiban = NiaogeDeLinuxSifangCaiJichuXuexiPianDisiban.__main__:main
