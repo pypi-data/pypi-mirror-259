@@ -1,0 +1,3 @@
+[console_scripts]
+C11Guifan = C11Guifan.__main__:main
+c11-guifan = C11Guifan.__main__:main
