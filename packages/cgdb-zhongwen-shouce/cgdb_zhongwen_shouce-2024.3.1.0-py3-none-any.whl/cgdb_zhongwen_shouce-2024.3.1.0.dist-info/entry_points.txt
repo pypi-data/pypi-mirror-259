@@ -1,0 +1,3 @@
+[console_scripts]
+CgdbZhongwenShouce = CgdbZhongwenShouce.__main__:main
+cgdb-zhongwen-shouce = CgdbZhongwenShouce.__main__:main
