@@ -1,0 +1,10 @@
+tmpnn/__init__.py,sha256=T5S2y5OF4YcQK_fdtSXsXu5A_-6FVLbdQwWvpYdSFVk,122
+tmpnn/_triplet_loss.py,sha256=_LwtSubJzAm32q7rz6yOmQbaTjn4EXyOuIOb4R0C7EU,12262
+tmpnn/_utils.py,sha256=TuY4RQ9yLeyYnJdf-P--okycWUs7EpKEAEQp-hRdhgA,2442
+tmpnn/base.py,sha256=ZtTjSvgL5d6ObQJlwPqeSvNJMEGuF4BZei7Br6xQI_s,30590
+tmpnn/models.py,sha256=p1hpEeDyevcXnOJ8CJ-IhSrotewXdViprxMHiS4zAUA,7181
+tmpnn-0.0.3.dist-info/LICENSE,sha256=yllOoQdMCT80cm1G3T1DqmuG3hTgYZFKiewPetQeunE,1063
+tmpnn-0.0.3.dist-info/METADATA,sha256=WXel3eWCN4xUU9MR5m91oGvpIiQ4TDNzNBQs83fQGSE,2641
+tmpnn-0.0.3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+tmpnn-0.0.3.dist-info/top_level.txt,sha256=4dDB_QoSoorliCwIRIbhduI-SZ9m3Pf5ozZpIkTWSvE,6
+tmpnn-0.0.3.dist-info/RECORD,,
