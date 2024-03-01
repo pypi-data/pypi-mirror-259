@@ -1,0 +1,3 @@
+[console_scripts]
+DeepLearningBengio = DeepLearningBengio.__main__:main
+deep-learning-bengio = DeepLearningBengio.__main__:main
