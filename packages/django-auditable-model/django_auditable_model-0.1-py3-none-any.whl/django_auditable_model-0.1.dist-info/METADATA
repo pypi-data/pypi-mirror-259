@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: django_auditable_model
+Version: 0.1
+Summary: A Django app providing reusable abstract models.
+Author: Shubham Sharma
+Author-email: sharma.shubham6522@gmail.com
+License: MIT
+Classifier: Framework :: Django
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+License-File: LICENSE
+
