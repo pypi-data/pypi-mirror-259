@@ -1,0 +1,3 @@
+[console_scripts]
+X11ThingsWordpressEbook1 = X11ThingsWordpressEbook1.__main__:main
+x11-things-wordpress-ebook1 = X11ThingsWordpressEbook1.__main__:main
