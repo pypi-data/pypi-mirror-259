@@ -1,0 +1,8 @@
+LICENSE.txt
+pyproject.toml
+src/__init__.py
+src/py.py
+src/ENDECODE_VALAZ.egg-info/PKG-INFO
+src/ENDECODE_VALAZ.egg-info/SOURCES.txt
+src/ENDECODE_VALAZ.egg-info/dependency_links.txt
+src/ENDECODE_VALAZ.egg-info/top_level.txt
