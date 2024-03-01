@@ -1,0 +1,10 @@
+web_error/__init__.py,sha256=WRRY2VCbbqmFFyXPf02agsOgwhoBoERxyvEqFEUJAkM,44
+web_error/cors.py,sha256=JPSkcMDymYjLVCiMwG093scRnbLTHcKchFM9ccLyBww,220
+web_error/error.py,sha256=0ylNun8zBmxW2HCG4CjKXniYqDC_Q0yiPdNMJLmMXY4,2620
+web_error/handler/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+web_error/handler/fastapi.py,sha256=D9cqGdnv0a-GB7ffUu_pJI1iZMSKHIBH4Y6KKRosazo,3739
+web_error/handler/starlette.py,sha256=CoYThKooKyEI-cUbWCEijfOpIBj9T3IwOrWXXsgTGQk,5514
+web_error-0.6.0.dist-info/LICENSE,sha256=dX6lidxbITpV4rgpnZ_dj15POhb5uHlh4r9gj8YxkwI,11307
+web_error-0.6.0.dist-info/METADATA,sha256=1gYNmF_NFMTp2_6RXcdugXecdxPzWQvw1_8-Po7bxUA,5832
+web_error-0.6.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+web_error-0.6.0.dist-info/RECORD,,
