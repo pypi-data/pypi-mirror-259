@@ -1,0 +1,3 @@
+[console_scripts]
+DjangoShejimoshiYuZuijiaShijian = DjangoShejimoshiYuZuijiaShijian.__main__:main
+django-shejimoshi-yu-zuijia-shijian = DjangoShejimoshiYuZuijiaShijian.__main__:main
