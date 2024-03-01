@@ -1,0 +1,3 @@
+[console_scripts]
+CoffeescriptCoobookZhongwenbanV11 = CoffeescriptCoobookZhongwenbanV11.__main__:main
+coffeescript-coobook-zhongwenban-v1-1 = CoffeescriptCoobookZhongwenbanV11.__main__:main
