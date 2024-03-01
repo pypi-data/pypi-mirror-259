@@ -1,0 +1,12 @@
+basicsr
+filetype
+numpy
+onnx
+opencv-python
+realesrgan
+tqdm
+onnxruntime
+torch
+
+[gpu]
+onnxruntime-gpu
