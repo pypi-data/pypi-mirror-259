@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+tests/__init__.py
+tests/test_common.py
+tmpnn/__init__.py
+tmpnn/_triplet_loss.py
+tmpnn/_utils.py
+tmpnn/base.py
+tmpnn/models.py
+tmpnn.egg-info/PKG-INFO
+tmpnn.egg-info/SOURCES.txt
+tmpnn.egg-info/dependency_links.txt
+tmpnn.egg-info/requires.txt
+tmpnn.egg-info/top_level.txt
