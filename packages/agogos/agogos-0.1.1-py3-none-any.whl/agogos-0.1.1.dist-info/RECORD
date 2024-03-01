@@ -1,0 +1,17 @@
+agogos/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+agogos/parallel_training_system.py,sha256=VqocOI-Hp92vbNxl0jRsnFkleGXmWamo4W49bYINiy4,4729
+agogos/parallel_transforming_system.py,sha256=BuegWeY8JVN_WPiqK2dcs8Ukq19YU-CQ_AXkLAkJ_kE,2118
+agogos/pipeline.py,sha256=0Zv8Ne4uV8S1NUHOOwqf0j1UddkkUPvm8VFoKki8YGQ,4566
+agogos/trainer.py,sha256=QSxGwRrGQJeD42Gcsa5NbzYXeb4n8pWIsX7NNbXMIsE,812
+agogos/training_system.py,sha256=Tik0_B1lCoaIxKuBRtFBg40YkSsbrGkW6QlLPvdfsyc,2242
+agogos/transformer.py,sha256=4u0nQRbArrbOsPMyzQ1BCS-LjErKNp6czzJ9k9pw6EA,604
+agogos/transforming_system.py,sha256=t_uzTDqirBdtdtwf1tYu3HwTIsSgeowsW5ZCV9vDN0U,1738
+agogos/_core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+agogos/_core/_base.py,sha256=O1vwhevnk6q46EzXC-ZQ83vLlb4EOH-vPBrp-0Nqs8w,807
+agogos/_core/_block.py,sha256=F6LE_e4dvMuK5DWCsul0Mf--dZjSfGs3EDxmiO1USug,394
+agogos/_core/_system.py,sha256=ghGhBf_7ou4aVX1lnoYvU3ihM4tYFpMZ_Uq5QuHnz3U,1020
+agogos-0.1.1.dist-info/LICENSE,sha256=nX89t0cwRiFa2wMmF3oLW2TsRFCJebN1QjDYMMtzcTc,1072
+agogos-0.1.1.dist-info/METADATA,sha256=gcg2K9-0-5otWCoi8TeKu6KQj8NDvJImdxyWlsfVk2w,1308
+agogos-0.1.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+agogos-0.1.1.dist-info/top_level.txt,sha256=ipbDv6XHnLjU8Fo4jMoAAGM3Z2c6739c6D0gvenfv_g,7
+agogos-0.1.1.dist-info/RECORD,,
