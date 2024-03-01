@@ -1,0 +1,3 @@
+[console_scripts]
+BianchengXiaobaiDeDiyibenPythonRumenShu = BianchengXiaobaiDeDiyibenPythonRumenShu.__main__:main
+biancheng-xiaobai-de-diyiben-python-rumen-shu = BianchengXiaobaiDeDiyibenPythonRumenShu.__main__:main
