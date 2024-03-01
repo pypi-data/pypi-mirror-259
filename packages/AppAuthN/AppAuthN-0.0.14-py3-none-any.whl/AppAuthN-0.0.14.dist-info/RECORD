@@ -1,0 +1,11 @@
+AppAuthN/CertificationReceiver.py,sha256=19V5xIR1EgtCS3Gxua23uyyMWMA8-_EtC1MM4eC6oHY,4224
+AppAuthN/CloseLoopCounter.py,sha256=YC9Ob1TLAx_7ia63K_gG55J4ELxMmoU0SNh3Xj6aXcg,1746
+AppAuthN/InferenceResult.py,sha256=mjd9h0LDxvr9jaNlhgsZNiBfbK9pvmNGyL4_7mA8W8g,2567
+AppAuthN/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+AppAuthN/config.json,sha256=TutJ_7Fxg1haMhxOQdRq0-n4nsvDe5eJXB5VRyCOsrg,577
+AppAuthN/test.py,sha256=g9AivtREVimvd_mgCNjI2RsM94T2PfZHLuWq2rvSJsU,11151
+AppAuthN-0.0.14.dist-info/LICENSE,sha256=k1uUZ25Ne_mz5L4Wb-Wkt3ieMEaoetnGrYPV6EGJG9g,1091
+AppAuthN-0.0.14.dist-info/METADATA,sha256=pyijOiEHXRDTLYCmfzMTE2M57p9GFRrrsPRytvsa1VI,128
+AppAuthN-0.0.14.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+AppAuthN-0.0.14.dist-info/top_level.txt,sha256=u31bQMhmpKaoj4h-Au5E__R5keUFQCE0X0NmDrdCq-w,9
+AppAuthN-0.0.14.dist-info/RECORD,,
