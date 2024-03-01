@@ -1,0 +1,25 @@
+[project]
+name = "css-bundler"
+version = "0.1.0"
+description = "Simple CSS bundler in Python."
+authors = [
+    { name = "Sergei Minaev", email = "i@zenux.ru" },
+]
+dependencies = []
+requires-python = ">=3.8"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[project.scripts]
+css-bundler = "css_bundler:run"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
