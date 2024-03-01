@@ -1,0 +1,3 @@
+[console_scripts]
+KaliLinuxWangluoSaomiaoMijiZhongwenban = KaliLinuxWangluoSaomiaoMijiZhongwenban.__main__:main
+kali-linux-wangluo-saomiao-miji-zhongwenban = KaliLinuxWangluoSaomiaoMijiZhongwenban.__main__:main
