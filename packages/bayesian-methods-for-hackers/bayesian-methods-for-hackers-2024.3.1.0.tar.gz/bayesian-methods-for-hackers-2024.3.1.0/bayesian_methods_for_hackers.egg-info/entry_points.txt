@@ -1,0 +1,3 @@
+[console_scripts]
+BayesianMethodsForHackers = BayesianMethodsForHackers.__main__:main
+bayesian-methods-for-hackers = BayesianMethodsForHackers.__main__:main
