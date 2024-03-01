@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: uvx
+Version: 0.1.0
+Summary: uvx: pipx for uv
+Project-URL: Documentation, https://github.com/unknown/uvx#readme
+Project-URL: Issues, https://github.com/unknown/uvx/issues
+Project-URL: Source, https://github.com/unknown/uvx
+Author-email: Robin van der Noord <robinvandernoord@gmail.com>
+License-Expression: MIT
+License-File: LICENSE.txt
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.8
+Requires-Dist: uv
+Provides-Extra: dev
+Requires-Dist: black; extra == 'dev'
+Requires-Dist: hatch; extra == 'dev'
+Requires-Dist: python-semantic-release<8; extra == 'dev'
+Requires-Dist: su6[all]; extra == 'dev'
+Description-Content-Type: text/markdown
+
+# uvx: pipx for uv
+
+Inspired by:
+- [pipx](https://github.com/pypa/pipx)
+- [uv](https://github.com/astral-sh/uv)
