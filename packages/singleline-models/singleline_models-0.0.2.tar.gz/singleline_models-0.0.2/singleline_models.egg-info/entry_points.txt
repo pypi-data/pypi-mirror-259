@@ -1,0 +1,6 @@
+[console_scripts]
+
+
+[nbdev]
+singleline_models = singleline_models._modidx:d
+
