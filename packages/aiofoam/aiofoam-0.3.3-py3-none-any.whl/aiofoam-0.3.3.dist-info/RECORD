@@ -1,0 +1,10 @@
+aiofoam/__init__.py,sha256=9ivz6lF1nKESWN0qw5z8az6g6FV0q7OSQxlLuQXLjmw,108
+aiofoam/_cases.py,sha256=bxw5MLLR3bHV_Ap9iuamQicd-MbjkHXflpLUa3tRM4Y,12965
+aiofoam/_cpus.py,sha256=BB7DdUCYBGMedhvSoU57TSKZpwF82DtKkRoWxRb7_9Y,904
+aiofoam/_subprocess.py,sha256=lbilc17U_gzm3h7KgXR0mXYg9j10G5ga1UNfP25lwrw,1873
+aiofoam/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aiofoam-0.3.3.dist-info/LICENSE.txt,sha256=5Dte9TUnLZzPRs4NQzl-Jc2-Ljd-t_v0ZR5Ng5r0UsY,35131
+aiofoam-0.3.3.dist-info/METADATA,sha256=RVzh0QOM5cVhVtAqxZVJz91htRPnZN1ct0vMPQA4K8o,2908
+aiofoam-0.3.3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+aiofoam-0.3.3.dist-info/top_level.txt,sha256=3GO_y1YXSPrvMHGq1LJ1TRtylIv29TMWGcy5LyUWpbE,8
+aiofoam-0.3.3.dist-info/RECORD,,
