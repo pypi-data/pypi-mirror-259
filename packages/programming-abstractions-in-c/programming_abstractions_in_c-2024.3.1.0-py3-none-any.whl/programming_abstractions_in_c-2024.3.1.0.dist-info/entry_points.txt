@@ -1,0 +1,3 @@
+[console_scripts]
+ProgrammingAbstractionsInC = ProgrammingAbstractionsInC.__main__:main
+programming-abstractions-in-c = ProgrammingAbstractionsInC.__main__:main
