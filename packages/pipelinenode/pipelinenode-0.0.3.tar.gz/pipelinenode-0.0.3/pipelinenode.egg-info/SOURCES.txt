@@ -1,0 +1,11 @@
+README.txt
+setup.py
+pipelinenode/__init__.py
+pipelinenode/node.py
+pipelinenode/pipeline.py
+pipelinenode.egg-info/PKG-INFO
+pipelinenode.egg-info/SOURCES.txt
+pipelinenode.egg-info/dependency_links.txt
+pipelinenode.egg-info/top_level.txt
+pipelinenode/commands/__init__.py
+pipelinenode/commands/installer.py
