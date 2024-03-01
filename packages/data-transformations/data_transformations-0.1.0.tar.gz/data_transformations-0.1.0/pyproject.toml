@@ -1,0 +1,14 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "data-transformations"
+version = "0.1.0"
+description = "A Python library for common data transformations used in machine learning."
+authors = ["Your Name <your.email@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.20.0"
+
