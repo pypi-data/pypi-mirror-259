@@ -1,0 +1,3 @@
+[console_scripts]
+DjangoGirlsTaipeiTutorial = DjangoGirlsTaipeiTutorial.__main__:main
+django-girls-taipei-tutorial = DjangoGirlsTaipeiTutorial.__main__:main
