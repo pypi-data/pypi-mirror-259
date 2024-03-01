@@ -1,0 +1,3 @@
+[console_scripts]
+HexoDoc = HexoDoc.__main__:main
+hexo-doc = HexoDoc.__main__:main
