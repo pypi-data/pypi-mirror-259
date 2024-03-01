@@ -1,0 +1,3 @@
+[console_scripts]
+NginxKaifaCongRumenDaoJingtong = NginxKaifaCongRumenDaoJingtong.__main__:main
+nginx-kaifa-cong-rumen-dao-jingtong = NginxKaifaCongRumenDaoJingtong.__main__:main
