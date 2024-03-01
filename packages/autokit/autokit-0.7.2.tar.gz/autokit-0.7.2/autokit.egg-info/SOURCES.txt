@@ -1,0 +1,10 @@
+LICENSE
+pyproject.toml
+readme.md
+setup.py
+autokit.egg-info/PKG-INFO
+autokit.egg-info/SOURCES.txt
+autokit.egg-info/dependency_links.txt
+autokit.egg-info/requires.txt
+autokit.egg-info/top_level.txt
+test/TestTool.py
