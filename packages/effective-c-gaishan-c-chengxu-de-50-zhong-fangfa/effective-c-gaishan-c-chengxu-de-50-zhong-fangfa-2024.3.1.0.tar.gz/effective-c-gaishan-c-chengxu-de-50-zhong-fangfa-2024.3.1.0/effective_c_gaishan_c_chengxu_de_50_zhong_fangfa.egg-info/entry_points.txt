@@ -1,0 +1,3 @@
+[console_scripts]
+EffectiveCGaishanCChengxuDe50ZhongFangfa = EffectiveCGaishanCChengxuDe50ZhongFangfa.__main__:main
+effective-c-gaishan-c-chengxu-de-50-zhong-fangfa = EffectiveCGaishanCChengxuDe50ZhongFangfa.__main__:main
