@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: django_keycloak_lma
+Version: 1.1.1
+Summary: Modified version of the package django_keycloak (0.1.1)
+Author: Vyacheslav Konovalov
+Requires-Dist: djangorestframework
+Requires-Dist: python-keycloak-client-pkg
+
+Available features:- basic auth with token request (KeycloakPasswordAuthentication)- bearer token auth (KeycloakTokenAuthentication)
