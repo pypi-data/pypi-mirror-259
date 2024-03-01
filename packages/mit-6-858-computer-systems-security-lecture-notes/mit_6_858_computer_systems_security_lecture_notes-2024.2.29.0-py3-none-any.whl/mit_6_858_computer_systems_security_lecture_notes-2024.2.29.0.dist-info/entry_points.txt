@@ -1,0 +1,3 @@
+[console_scripts]
+Mit6858ComputerSystemsSecurityLectureNotes = Mit6858ComputerSystemsSecurityLectureNotes.__main__:main
+mit-6-858-computer-systems-security-lecture-notes = Mit6858ComputerSystemsSecurityLectureNotes.__main__:main
