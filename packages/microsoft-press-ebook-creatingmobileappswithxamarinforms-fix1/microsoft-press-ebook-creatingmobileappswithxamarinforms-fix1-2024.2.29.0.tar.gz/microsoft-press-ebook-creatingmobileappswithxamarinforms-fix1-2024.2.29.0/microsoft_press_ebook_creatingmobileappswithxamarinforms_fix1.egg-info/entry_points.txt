@@ -1,0 +1,3 @@
+[console_scripts]
+MicrosoftPressEbookCreatingmobileappswithxamarinformsFix1 = MicrosoftPressEbookCreatingmobileappswithxamarinformsFix1.__main__:main
+microsoft-press-ebook-creatingmobileappswithxamarinforms-fix1 = MicrosoftPressEbookCreatingmobileappswithxamarinformsFix1.__main__:main
