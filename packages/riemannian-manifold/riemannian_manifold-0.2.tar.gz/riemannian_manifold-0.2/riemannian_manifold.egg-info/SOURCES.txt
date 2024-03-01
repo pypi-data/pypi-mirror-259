@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+riemannian_manifold/__init__.py
+riemannian_manifold/riemannian_manifold.py
+riemannian_manifold.egg-info/PKG-INFO
+riemannian_manifold.egg-info/SOURCES.txt
+riemannian_manifold.egg-info/dependency_links.txt
+riemannian_manifold.egg-info/top_level.txt
