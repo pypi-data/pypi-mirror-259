@@ -1,0 +1,3 @@
+[console_scripts]
+BenFangfaXueRuby = BenFangfaXueRuby.__main__:main
+ben-fangfa-xue-ruby = BenFangfaXueRuby.__main__:main
