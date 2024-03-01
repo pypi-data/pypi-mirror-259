@@ -1,0 +1,3 @@
+[console_scripts]
+KaliLinuxWebShentouCeshiMiji = KaliLinuxWebShentouCeshiMiji.__main__:main
+kali-linux-web-shentou-ceshi-miji = KaliLinuxWebShentouCeshiMiji.__main__:main
