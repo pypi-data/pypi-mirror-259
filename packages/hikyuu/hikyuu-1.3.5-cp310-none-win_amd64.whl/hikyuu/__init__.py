@@ -1,0 +1,90 @@
+#!/usr/bin/python
+# -*- coding: utf8 -*-
+# cp936
+#
+# The MIT License (MIT)
+#
+# Copyright (c) 2010-2017 fasiondog
+#
+# Permission is hereby granted, free of charge, to any person obtaining a copy
+# of this software and associated documentation files (the "Software"), to deal
+# in the Software without restriction, including without limitation the rights
+# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+# copies of the Software, and to permit persons to whom the Software is
+# furnished to do so, subject to the following conditions:
+#
+# The above copyright notice and this permission notice shall be included in all
+# copies or substantial portions of the Software.
+#
+# THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+# IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+# FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+# AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+# LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+# OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+# SOFTWARE.
+
+__copyright__ = """
+MIT License
+
+Copyright (c) 2010-2017 fasiondog
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+"""
+
+import traceback
+import sys
+from .util import *
+
+try:
+    from .extend import *
+    # from .deprecated import *  # pybind getattr 会被递归，无法使用
+    from .indicator import *
+    from .trade_manage import *
+    from .trade_sys import *
+    from .analysis import *
+    from .hub import *
+except Exception as e:
+    info = sys.exc_info()
+    hku_fatal("{}: {}".format(info[0].__name__, info[1]))
+    hku_fatal(traceback.format_exc())
+    print("""请使用 pipdeptree -p hikyuu 检查是否存在缺失的依赖包。
+如果没有问题可以在 https://gitee.com/fasiondog/hikyuu 或 https://github.com/fasiondog/hikyuu 
+上提交 issue，同时附上 "用户目录/.hikyuu" 下的 hikyuu_py.log 和 hikyuu.log 日志文件 """)
+    raise e
+
+
+# ==============================================================================
+#
+# 设置关键类型简称
+#
+# ==============================================================================
+O = OPEN()
+C = CLOSE()
+H = HIGH()
+L = LOW()
+A = AMO()
+V = VOL()
+D = Datetime
+K = None
+Q = Query
+
+sm = StockManager.instance()
+
+__version__ = get_version()
