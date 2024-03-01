@@ -1,0 +1,17 @@
+lab_instance_name/__init__.py,sha256=emFektLzorL5gQqg7g_alB8oHbUb-PZ4G1VpFjW3Cpc,1120
+lab_instance_name/_version.py,sha256=ac3tgjoOzsODOlacRPCwz99LbZv0NK7ZYAaBWulFo7E,171
+lab_instance_name/handlers.py,sha256=TD5J0OGPCqb5_P20Du4YlqQo4Fvk2V6AyIDOEc6A8xQ,886
+lab_instance_name-0.1.0.data/data/share/jupyter/labextensions/lab_instance_name/build_log.json,sha256=XcXC32yrWJZGaL-sl8hz7adegZD4n8eOqjqOH19IREM,22157
+lab_instance_name-0.1.0.data/data/share/jupyter/labextensions/lab_instance_name/package.json,sha256=f5uQSF3lZQ3Dhd7DiCrAPjK4HH2uwuvsFoukhE6P-rI,6103
+lab_instance_name-0.1.0.data/data/share/jupyter/labextensions/lab_instance_name/static/lib_index_js.7a2ba57c255aba3000aa.js,sha256=IQhXcP9xWyVK1CvqBuofIJb53MRA-a9lLM11Eg7BnY8,4796
+lab_instance_name-0.1.0.data/data/share/jupyter/labextensions/lab_instance_name/static/lib_index_js.7a2ba57c255aba3000aa.js.map,sha256=YvBmyU6W499zIUYCETbr3o_4Q_2RoH6OZN5d6LxEP_k,4019
+lab_instance_name-0.1.0.data/data/share/jupyter/labextensions/lab_instance_name/static/remoteEntry.9a2d05b06089cc6cec70.js,sha256=7dEhQdf9e40rIdDhsqFurpHsHql36ay4RlJFRPLN0BE,28258
+lab_instance_name-0.1.0.data/data/share/jupyter/labextensions/lab_instance_name/static/remoteEntry.9a2d05b06089cc6cec70.js.map,sha256=F1753LFzNKF2dKEv1TKzr8LdK5eohks0UjnFnXBpBYI,27004
+lab_instance_name-0.1.0.data/data/share/jupyter/labextensions/lab_instance_name/static/style.js,sha256=JqAjW5iOL_HoLwCW0QFUMey6W6yI1fcxLVXfwMLqdvs,160
+lab_instance_name-0.1.0.data/data/share/jupyter/labextensions/lab_instance_name/static/style_index_js.87ce6b84a3af17047356.js,sha256=smtTGKcVVMu56CgR8q543rjjHWt73SJPAYdFhZW1mTw,19662
+lab_instance_name-0.1.0.data/data/share/jupyter/labextensions/lab_instance_name/static/style_index_js.87ce6b84a3af17047356.js.map,sha256=czAHl1WXB7ZDYEZB7R4fbMS-ZrtX3ZwlfF5cpKc6ASo,15185
+lab_instance_name-0.1.0.data/data/share/jupyter/labextensions/lab_instance_name/install.json,sha256=-mD2Guo388cwRzjvvQBBcN0fGZZacPha1F8tEo-X-bI,195
+lab_instance_name-0.1.0.dist-info/METADATA,sha256=tCDTDUPb2hMoLrHS2AHrX3rhf7ywK-WaA7FYGUjJBhs,6158
+lab_instance_name-0.1.0.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+lab_instance_name-0.1.0.dist-info/licenses/LICENSE,sha256=6os1XkzkYUKfRF99DGiNGYtp3Ma0sTzsiztXRXqlaGI,1514
+lab_instance_name-0.1.0.dist-info/RECORD,,
