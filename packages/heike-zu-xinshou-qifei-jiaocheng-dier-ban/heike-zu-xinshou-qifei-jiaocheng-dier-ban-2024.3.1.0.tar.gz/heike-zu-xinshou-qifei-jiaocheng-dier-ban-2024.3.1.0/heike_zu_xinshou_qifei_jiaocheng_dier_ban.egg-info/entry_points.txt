@@ -1,0 +1,3 @@
+[console_scripts]
+HeikeZuXinshouQifeiJiaochengDierBan = HeikeZuXinshouQifeiJiaochengDierBan.__main__:main
+heike-zu-xinshou-qifei-jiaocheng-dier-ban = HeikeZuXinshouQifeiJiaochengDierBan.__main__:main
