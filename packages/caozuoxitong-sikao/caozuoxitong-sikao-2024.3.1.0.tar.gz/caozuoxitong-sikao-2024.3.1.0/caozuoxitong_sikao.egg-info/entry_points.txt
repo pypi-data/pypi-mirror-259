@@ -1,0 +1,3 @@
+[console_scripts]
+CaozuoxitongSikao = CaozuoxitongSikao.__main__:main
+caozuoxitong-sikao = CaozuoxitongSikao.__main__:main
