@@ -1,0 +1,3 @@
+[console_scripts]
+BoostCKu = BoostCKu.__main__:main
+boost-c-ku = BoostCKu.__main__:main
