@@ -1,0 +1,2 @@
+[datasette]
+schema_versions = datasette_schema_versions
