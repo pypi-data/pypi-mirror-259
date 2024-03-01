@@ -1,0 +1,3 @@
+[console_scripts]
+GitReference = GitReference.__main__:main
+git-reference = GitReference.__main__:main
