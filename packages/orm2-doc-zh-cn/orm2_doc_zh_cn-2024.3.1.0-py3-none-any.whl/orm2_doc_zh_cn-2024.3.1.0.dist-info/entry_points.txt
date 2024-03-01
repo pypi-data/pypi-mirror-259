@@ -1,0 +1,3 @@
+[console_scripts]
+Orm2DocZhCn = Orm2DocZhCn.__main__:main
+orm2-doc-zh-cn = Orm2DocZhCn.__main__:main
