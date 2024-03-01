@@ -1,0 +1,3 @@
+[console_scripts]
+Angular2ZhongwenWendang = Angular2ZhongwenWendang.__main__:main
+angular-2-zhongwen-wendang = Angular2ZhongwenWendang.__main__:main
