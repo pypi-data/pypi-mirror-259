@@ -1,0 +1,2 @@
+[console_scripts]
+VoiceDunkinDonut = main:create_gui
