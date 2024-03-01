@@ -1,0 +1,78 @@
+[project]
+name = "shellrunner"
+version = "0.4.2"
+description = "Write safe shell scripts in Python."
+authors = [
+    {name = "adamhl8", email = "adamhl@pm.me"},
+]
+dependencies = [
+    "psutil>=5.9.8",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Programming Language :: Python :: 3.10",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: POSIX",
+    "Operating System :: Unix",
+    "Programming Language :: Unix Shell",
+    "Topic :: System :: Shells",
+    "Topic :: System :: System Shells",
+]
+keywords = ["shell", "scripting", "bash", "zsh", "fish"]
+
+[project.urls]
+"Homepage" = "https://github.com/adamhl8/shellrunner"
+"Source" = "https://github.com/adamhl8/shellrunner"
+"Bug Tracker" = "https://github.com/adamhl8/shellrunner/issues"
+
+[tool.rye]
+managed = true
+dev-dependencies = [
+    "ruff>=0.3.0",
+    "pytest>=8.0.2",
+    "pyroma>=4.2",
+    "types-psutil>=5.9.5.20240205",
+    "pyright>=1.1.352",
+]
+
+[tool.rye.scripts]
+test = "pytest shellrunner"
+"lint:pyright" = "pyright ."
+"lint:ruff" = "ruff check ."
+"lint:ruff:format" = "ruff format --check ."
+"lint:pyroma" = "pyroma -n 10 ."
+lint = { chain = ["lint:pyright", "lint:ruff", "lint:ruff:format", "lint:pyroma"] }
+format = "ruff format ."
+
+[tool.pyright]
+typeCheckingMode = "strict"
+
+[tool.ruff]
+line-length = 120
+output-format = "grouped"
+
+[tool.ruff.lint]
+select = ["ALL"]
+ignore = [
+"ANN101", # missing-type-self: Missing type annotation for {name} in method
+# ruff conflicts
+"D203", # one-blank-line-before-class: 1 blank line required before class docstring
+"D213", # multi-line-summary-second-line: Multi-line docstring summary should start at the second line
+# ruff format conflicts
+"COM812", # missing-trailing-comma: Trailing comma missing
+"ISC001", # single-line-implicit-string-concatenation: Implicitly concatenated string literals on one line
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build]
+packages = ["shellrunner"]
+exclude = ["test*.py"]
+
+[tool.hatch.metadata]
+allow-direct-references = true
