@@ -1,0 +1,3 @@
+[console_scripts]
+BenbanfaXuePython = BenbanfaXuePython.__main__:main
+benbanfa-xue-python = BenbanfaXuePython.__main__:main
