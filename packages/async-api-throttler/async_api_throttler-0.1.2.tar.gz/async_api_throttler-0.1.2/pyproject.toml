@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "async-api-throttler"
+version = "0.1.2"
+description = ""
+authors = ["amin <amine.benkhouya@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[tool.poetry.group.dev.dependencies]
+httpx = "^0.27.0"
+fastapi = "^0.110.0"
+pytest = "^8.0.2"
+pytest-asyncio = "^0.23.5"
+slowapi = "^0.1.9"
+pytest-catchlog = "^1.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
