@@ -1,0 +1,3 @@
+[console_scripts]
+AndroidStudioZhongwenJiaochengQianLiuzhang = AndroidStudioZhongwenJiaochengQianLiuzhang.__main__:main
+android-studio-zhongwen-jiaocheng-qian-liuzhang = AndroidStudioZhongwenJiaochengQianLiuzhang.__main__:main
