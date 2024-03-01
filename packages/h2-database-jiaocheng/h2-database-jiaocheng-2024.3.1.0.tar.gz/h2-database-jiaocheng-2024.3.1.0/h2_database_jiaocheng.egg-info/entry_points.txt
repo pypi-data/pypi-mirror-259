@@ -1,0 +1,3 @@
+[console_scripts]
+H2DatabaseJiaocheng = H2DatabaseJiaocheng.__main__:main
+h2-database-jiaocheng = H2DatabaseJiaocheng.__main__:main
