@@ -1,0 +1,3 @@
+[console_scripts]
+PythonRumenjiaocheng = PythonRumenjiaocheng.__main__:main
+python-rumenjiaocheng = PythonRumenjiaocheng.__main__:main
