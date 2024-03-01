@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+libname/ReproCipher.py
+libname/Substitution_Ciphers.py
+libname/__init__.py
+reprocipher.egg-info/PKG-INFO
+reprocipher.egg-info/SOURCES.txt
+reprocipher.egg-info/dependency_links.txt
+reprocipher.egg-info/top_level.txt
