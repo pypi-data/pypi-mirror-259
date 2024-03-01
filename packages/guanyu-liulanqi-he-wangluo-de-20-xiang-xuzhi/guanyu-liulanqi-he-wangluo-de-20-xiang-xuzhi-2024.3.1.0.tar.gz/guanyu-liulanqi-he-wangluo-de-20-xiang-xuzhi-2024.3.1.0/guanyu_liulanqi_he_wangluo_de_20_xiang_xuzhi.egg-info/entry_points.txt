@@ -1,0 +1,3 @@
+[console_scripts]
+GuanyuLiulanqiHeWangluoDe20XiangXuzhi = GuanyuLiulanqiHeWangluoDe20XiangXuzhi.__main__:main
+guanyu-liulanqi-he-wangluo-de-20-xiang-xuzhi = GuanyuLiulanqiHeWangluoDe20XiangXuzhi.__main__:main
