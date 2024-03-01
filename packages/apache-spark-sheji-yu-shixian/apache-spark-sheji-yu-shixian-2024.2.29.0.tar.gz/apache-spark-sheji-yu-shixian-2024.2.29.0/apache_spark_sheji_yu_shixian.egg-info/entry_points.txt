@@ -1,0 +1,3 @@
+[console_scripts]
+ApacheSparkShejiYuShixian = ApacheSparkShejiYuShixian.__main__:main
+apache-spark-sheji-yu-shixian = ApacheSparkShejiYuShixian.__main__:main
