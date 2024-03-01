@@ -1,0 +1,3 @@
+[console_scripts]
+KoaZhongwenWendang = KoaZhongwenWendang.__main__:main
+koa-zhongwen-wendang = KoaZhongwenWendang.__main__:main
