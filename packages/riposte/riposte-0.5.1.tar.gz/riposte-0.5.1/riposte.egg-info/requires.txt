@@ -1,0 +1,9 @@
+
+[dev]
+black
+isort
+pytest
+ruff
+setuptools_scm
+twine
+wheel
