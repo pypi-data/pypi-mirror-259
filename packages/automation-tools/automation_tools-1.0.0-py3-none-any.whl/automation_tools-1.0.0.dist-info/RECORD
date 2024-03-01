@@ -1,0 +1,10 @@
+automation_tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+automation_tools/text_tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+automation_tools/text_tools/text_extractor.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+automation_tools/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+automation_tools/utils/file_utils.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+automation_tools/utils/other_utils.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+automation_tools-1.0.0.dist-info/METADATA,sha256=SMus7dCIAFexTZE4932XYSEzlDV8U7UQ7mhH9Jba3zM,2102
+automation_tools-1.0.0.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+automation_tools-1.0.0.dist-info/top_level.txt,sha256=L7oMikQcURz9RbeUsuSJLPBHliIo8Q_7rlZ9tkLIN94,17
+automation_tools-1.0.0.dist-info/RECORD,,
