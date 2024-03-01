@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: parallelexec
+Version: 0.0.2
+Summary: Module that provides decorators and methods to easily run multiple functions concurrently
+License: MIT
+Author: AshGw
+Author-email: AshrefGw@proton.me
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+# Parallelexec 
+
+#### Parallelexec is a Python module that provides decorators and methods to easily run multiple functions concurrently.
+
+## Installation
+#### Use pip
+````commandline
+pip install parallelexec
+````
+## Usage 
+### Threads:
+````python
+from parallelexec import ParallelExec
+
+@ParallelExec.thread(join=True)
+def fun():
+    ...
+````
+### Processes:
+````python
+from parallelexec import ParallelExec
+
+def func() -> None: ...
+def func2() -> None: ...
+def func3() -> None: ...
+
+if __name__ == "__main__":
+    ParallelExec.cores_limited_processor([func,func2,func3])
+````
+#### Better yet, check `examples/`
+## License 
+#### This is under the [Public Domain](/UNLICENSE)
