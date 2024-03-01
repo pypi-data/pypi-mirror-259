@@ -1,0 +1,3 @@
+[console_scripts]
+QianruQianchuAndroidAnquan = QianruQianchuAndroidAnquan.__main__:main
+qianru-qianchu-android-anquan = QianruQianchuAndroidAnquan.__main__:main
