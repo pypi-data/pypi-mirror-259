@@ -1,0 +1,3 @@
+[console_scripts]
+GrowthShenruqianchuQuanzhanGongchengshi = GrowthShenruqianchuQuanzhanGongchengshi.__main__:main
+growth-shenruqianchu-quanzhan-gongchengshi = GrowthShenruqianchuQuanzhanGongchengshi.__main__:main
