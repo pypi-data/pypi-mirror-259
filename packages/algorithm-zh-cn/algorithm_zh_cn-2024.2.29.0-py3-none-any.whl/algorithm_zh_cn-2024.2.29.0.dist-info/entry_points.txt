@@ -1,0 +1,3 @@
+[console_scripts]
+AlgorithmZhCn = AlgorithmZhCn.__main__:main
+algorithm-zh-cn = AlgorithmZhCn.__main__:main
