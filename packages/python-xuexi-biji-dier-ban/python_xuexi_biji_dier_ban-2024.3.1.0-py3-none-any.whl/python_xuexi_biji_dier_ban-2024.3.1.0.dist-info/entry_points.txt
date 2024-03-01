@@ -1,0 +1,3 @@
+[console_scripts]
+PythonXuexiBijiDierBan = PythonXuexiBijiDierBan.__main__:main
+python-xuexi-biji-dier-ban = PythonXuexiBijiDierBan.__main__:main
