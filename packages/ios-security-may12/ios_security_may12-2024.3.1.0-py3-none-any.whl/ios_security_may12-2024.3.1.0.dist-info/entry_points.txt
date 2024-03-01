@@ -1,0 +1,3 @@
+[console_scripts]
+IosSecurityMay12 = IosSecurityMay12.__main__:main
+ios-security-may12 = IosSecurityMay12.__main__:main
