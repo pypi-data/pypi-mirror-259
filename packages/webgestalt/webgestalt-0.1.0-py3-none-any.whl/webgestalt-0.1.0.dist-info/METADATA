@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: webgestalt
+Version: 0.1.0
+Summary: Place holder for WebGestalt package. Please see WebGestaltPy for the current official package.
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# webgestalt
+
+Placeholder for WebGestalt. Please see [WebGestaltPy](https://github.com/bzhanglab/webgestaltpy) for official python package.
