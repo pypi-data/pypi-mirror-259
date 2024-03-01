@@ -1,0 +1,14 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.cfg
+source code/camel/__init__.py
+source code/camel/camel_.py
+source code/camel_learn.egg-info/PKG-INFO
+source code/camel_learn.egg-info/SOURCES.txt
+source code/camel_learn.egg-info/dependency_links.txt
+source code/camel_learn.egg-info/requires.txt
+source code/camel_learn.egg-info/top_level.txt
+test/test_camel_metric.py
+test/test_camel_supervised.py
+test/test_camel_unsupervised.py
