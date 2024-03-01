@@ -1,0 +1,98 @@
+Metadata-Version: 2.1
+Name: wagtail_panels
+Version: 1.0.1
+Summary: An application made for the Django Web Framework.
+Home-page: https://github.com/Nigel2392/wagtail_panels
+Author: Nigel
+Author-email: nigel@goodadvice.it
+License: GPL-3.0-only
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 4.2
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Django>=4.2
+Requires-Dist: Wagtail>=4.2
+
+wagtail_panels
+================
+
+A collection of useful panels to be used for your Wagtail snippets.
+
+**Features:**
+   * Buttons
+      * Download a file by providing the attribute name
+      * Any callback which takes an instance ID and a request to return a URL.
+      * Any URL.
+   * Reading time panel
+
+
+Quick start
+-----------
+
+1. Add 'wagtail_panels' to your INSTALLED_APPS setting like this:
+
+   ```
+   INSTALLED_APPS = [
+   ...,
+   'wagtail_panels',
+   ]
+   ```
+
+Example of buttons
+------------------
+
+```python
+from wagtail_panels.panels import DownloadButton, AnchorTag, ButtonPanel
+
+...
+
+class MySnippet(models.Model):
+      file = models.FileField(upload_to="files")
+
+      panels = [
+         ButtonPanel([
+             DownloadButton(
+                 _("Download File"),
+                 "file",
+                 classname="button",
+             ),
+             AnchorTag(
+                 _("Recover"),
+                 lambda request, instance: \
+                     reverse_lazy("my_view", kwargs={"pk": instance.pk}),
+                 classname="button no",
+                 HIDE_ON_CREATE=True,
+             )
+         ]),
+      ]
+```
+
+Example of reading time panel
+-----------------------------
+
+```python
+from wagtail_panels.models import (
+    PageReadingTimeMixin,
+)
+from wagtail_panels.panels import (
+    ReadingTimePanel,
+)
+
+
+class MyPage(PageReadingTimeMixin, Page):
+    content_panels = Page.content_panels + [
+        ReadingTimePanel(),
+    ]
+```
