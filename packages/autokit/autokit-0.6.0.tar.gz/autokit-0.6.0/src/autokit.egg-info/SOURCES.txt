@@ -1,0 +1,16 @@
+LICENSE
+pyproject.toml
+readme.md
+setup.py
+src/autokit/Config.py
+src/autokit/ExternalTool.py
+src/autokit/__init__.py
+src/autokit/downloader.py
+src/autokit/externalTool.py
+src/autokit/progressBar.py
+src/autokit.egg-info/PKG-INFO
+src/autokit.egg-info/SOURCES.txt
+src/autokit.egg-info/dependency_links.txt
+src/autokit.egg-info/requires.txt
+src/autokit.egg-info/top_level.txt
+test/TestTool.py
