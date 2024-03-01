@@ -1,0 +1,2 @@
+[console_scripts]
+isolate-cells = mask2bbox.scripts.isolate_cells:__main__
