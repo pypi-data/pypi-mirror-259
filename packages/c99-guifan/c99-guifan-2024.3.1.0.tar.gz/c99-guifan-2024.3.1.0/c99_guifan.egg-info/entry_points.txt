@@ -1,0 +1,3 @@
+[console_scripts]
+C99Guifan = C99Guifan.__main__:main
+c99-guifan = C99Guifan.__main__:main
