@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: tea-alpha
+Version: 0.0.2
+Summary: tea alpha test
+Author-email: alphagot <alphagot@163.com>
+Project-URL: Homepage, https://github.com/alphagot812/tea-alpha
+Project-URL: Issues, https://github.com/alphagot812/tea-alpha/issues
+Project-URL: Source, https://github.com/alphagot812/tea-alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# tea-alpha
+Code Message Exception
