@@ -1,0 +1,7 @@
+setup.py
+stickey/__init__.py
+stickey/stickey.py
+stickey.egg-info/PKG-INFO
+stickey.egg-info/SOURCES.txt
+stickey.egg-info/dependency_links.txt
+stickey.egg-info/top_level.txt
