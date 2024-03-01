@@ -1,0 +1,3 @@
+[console_scripts]
+AspnetMvc5GettingStarted = AspnetMvc5GettingStarted.__main__:main
+aspnet-mvc5-getting-started = AspnetMvc5GettingStarted.__main__:main
