@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: efficientCV
+Version: 0.0.3
+Summary: Computational efficient models for computer vision
+Home-page: https://github.com/minkhent/efficientnets
+Author: Min Khent
+Author-email: minkhent.dev@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: torch
+Requires-Dist: numpy
+
+# efficientCV
+
+Implementations of computational efficient architectures ( CV )
+
+### Paper list
+
+* MobileNet V1  [https://arxiv.org/abs/1704.04861]
+* MobileNet V2  [https://arxiv.org/abs/1801.04381]
+* EfficientNet V1  [https://arxiv.org/abs/1905.11946]
+* EfficientNet V2  [https://arxiv.org/abs/2104.00298]
