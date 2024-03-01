@@ -1,0 +1,3 @@
+[console_scripts]
+AnquanBeiwangDanFanyiXiangmu = AnquanBeiwangDanFanyiXiangmu.__main__:main
+anquan-beiwang-dan-fanyi-xiangmu = AnquanBeiwangDanFanyiXiangmu.__main__:main
