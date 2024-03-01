@@ -1,0 +1,3 @@
+[console_scripts]
+AtomFlightManualZhCn = AtomFlightManualZhCn.__main__:main
+atom-flight-manual-zh-cn = AtomFlightManualZhCn.__main__:main
