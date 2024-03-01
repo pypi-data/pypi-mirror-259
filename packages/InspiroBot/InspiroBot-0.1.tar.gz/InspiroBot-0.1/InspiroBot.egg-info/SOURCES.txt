@@ -1,0 +1,6 @@
+README.md
+setup.py
+InspiroBot.egg-info/PKG-INFO
+InspiroBot.egg-info/SOURCES.txt
+InspiroBot.egg-info/dependency_links.txt
+InspiroBot.egg-info/top_level.txt

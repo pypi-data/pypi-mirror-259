@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: InspiroBot
+Version: 0.1
+Summary: A web application for generating random motivational affirmations and inspiring quotes.
+Home-page: https://github.com/maswwyn/InspiroBot
+Author: masswyn
+Author-email: maswwyn24@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
