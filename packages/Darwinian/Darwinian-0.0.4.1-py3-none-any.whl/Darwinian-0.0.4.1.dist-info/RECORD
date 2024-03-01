@@ -1,0 +1,10 @@
+darwinian/__init__.py,sha256=3LhTz6mk3_f03K8yVIHv4F4qA7u8k7s2VZNx3frs-f8,58
+darwinian/ga.py,sha256=6N9UFASxV2uQWaKRNDSvL_QDnbZ1HnRUl-J5Z4zv1f4,7774
+examples/backpack.py,sha256=Ta5s7Cr16FIm5-wCwZVS-Esd_mf3181okJypY1JAxxk,2869
+examples/maximum_and_minimum.py,sha256=baLU8XYjiCZPgjKtOQ0jT_enX4cKl-9ylryW3YDhBsg,668
+examples/shortest_path.py,sha256=ysN1qY3sYx94Y4E_Jc3IJVpxH2PesO6DGO_hZnpBRHs,1455
+Darwinian-0.0.4.1.dist-info/LICENSE,sha256=PZcEbYxQjDNXwxpenyXWuyl_j3K9sYNtAE2ntRxEGmQ,1090
+Darwinian-0.0.4.1.dist-info/METADATA,sha256=mKwtMVr1qiJrphTWVdBObYIqhaJK3EYx1rlYLg7lr1M,6486
+Darwinian-0.0.4.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+Darwinian-0.0.4.1.dist-info/top_level.txt,sha256=LA6zd1rTo4_uybkKswvsoF0vnIr3gTqJTuTtK2Z7PKk,19
+Darwinian-0.0.4.1.dist-info/RECORD,,
