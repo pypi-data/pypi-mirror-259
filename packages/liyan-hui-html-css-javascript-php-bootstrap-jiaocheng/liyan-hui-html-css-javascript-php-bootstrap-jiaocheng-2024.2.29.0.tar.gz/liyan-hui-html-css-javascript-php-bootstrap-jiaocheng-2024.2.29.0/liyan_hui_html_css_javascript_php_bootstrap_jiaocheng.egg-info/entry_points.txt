@@ -1,0 +1,3 @@
+[console_scripts]
+LiyanHuiHtmlCssJavascriptPhpBootstrapJiaocheng = LiyanHuiHtmlCssJavascriptPhpBootstrapJiaocheng.__main__:main
+liyan-hui-html-css-javascript-php-bootstrap-jiaocheng = LiyanHuiHtmlCssJavascriptPhpBootstrapJiaocheng.__main__:main
