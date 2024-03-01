@@ -1,0 +1,3 @@
+[console_scripts]
+BuildingWebAppsWithGo = BuildingWebAppsWithGo.__main__:main
+building-web-apps-with-go = BuildingWebAppsWithGo.__main__:main
