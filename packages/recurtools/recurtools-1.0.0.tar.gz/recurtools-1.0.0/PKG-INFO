@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: recurtools
+Version: 1.0.0
+Summary: Tools for handling recursive sequences (of sequences of sequences of ...)
+Author: Mike Foster
+License: MIT
+Project-URL: Homepage, https://github.com/MusicalNinjaDad/recurtools
+Project-URL: Documentation, https://musicalninjadad.github.io/recurtools/
+Project-URL: Repository, https://github.com/MusicalNinjaDad/recurtools
+Project-URL: Issues, https://github.com/MusicalNinjaDad/recurtools/issues
+Project-URL: Changelog, https://github.com/MusicalNinjaDad/recurtools/blob/main/CHANGELOG.md
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Provides-Extra: dev
+Requires-Dist: mkdocs; extra == "dev"
+Requires-Dist: mkdocstrings[python]; extra == "dev"
+Requires-Dist: mkdocs-material; extra == "dev"
+Requires-Dist: numpy; extra == "dev"
+Requires-Dist: pytest; extra == "dev"
+Requires-Dist: pytest-doctest-mkdocstrings; extra == "dev"
+Requires-Dist: ruff; extra == "dev"
+
+# recurtools
+
+A simple library to support working with recursively nested objects.
+
+Primarily built around the **`nested`** class which offers `in`, `len`, `index()` and `count()` functionality.  
+Additionally, the **`flatten()`** function provides the ability to configure behaviour for strings etc.
+
+## Installation
+
+```
+pip install recurtools
+```
+
+## Usage
+
+```
+from recurtools import nested
+```
+
+```
+from recurtools import flatten
+```
+
+## Documentation
+For full details see [the docs on github.io](https://musicalninjadad.github.io/recurtools/)
