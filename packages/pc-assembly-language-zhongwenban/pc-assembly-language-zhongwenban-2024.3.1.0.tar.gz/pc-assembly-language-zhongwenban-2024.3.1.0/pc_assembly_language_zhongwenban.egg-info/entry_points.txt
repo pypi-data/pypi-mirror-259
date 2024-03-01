@@ -1,0 +1,3 @@
+[console_scripts]
+PcAssemblyLanguageZhongwenban = PcAssemblyLanguageZhongwenban.__main__:main
+pc-assembly-language-zhongwenban = PcAssemblyLanguageZhongwenban.__main__:main
