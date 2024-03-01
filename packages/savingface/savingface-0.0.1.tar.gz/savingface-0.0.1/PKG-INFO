@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: savingface
+Version: 0.0.1
+Summary: A small example package
+Project-URL: Homepage, https://github.com/claysauruswrecks/savingface
+Project-URL: Issues, https://github.com/claysauruswrecks/savingface/issues
+Author-email: claysauruswrecks <44852834+claysauruswrecks@users.noreply.github.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# savingface
