@@ -1,0 +1,8 @@
+setup.py
+pklfile/__init__.py
+pklfile/pickle.py
+pklfile.egg-info/PKG-INFO
+pklfile.egg-info/SOURCES.txt
+pklfile.egg-info/dependency_links.txt
+pklfile.egg-info/requires.txt
+pklfile.egg-info/top_level.txt

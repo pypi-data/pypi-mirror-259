@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: pklfile
+Version: 1.0.2
+Summary: pickle read and write
+Author: Soyeon
+Author-email: naso06@naver.com
+License: MIT
+Requires-Python: >=3.7
