@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: utecio
+Version: 0.1.2
+Summary: Library for controlling Ultraloq BLE Locks
+Project-URL: Homepage, https://github.com/maeneak/utecio
+Project-URL: Issues, https://github.com/maeneak/utecio/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: ecdsa
+Requires-Dist: bleak
+Requires-Dist: pycryptodome
+Requires-Dist: aiohttp
+Requires-Dist: bleak-retry-connector
+
+# UtecIO Python Library
+UNDER DEVELOPMENT
+
+Python library for interacting with Utec devices and Ultraloq locks using Bluetooth.
+
+This library is in initial development and will change rapidly.
+
+If you have a specific lock request you can contribute at [buy me a coffee](https://www.buymeacoffee.com/maeneak) or [coindrop](https://coindrop.to/maeneak) to assist with purchasing of new locks for testing and accelerate development.
+
+
+
