@@ -1,0 +1,3 @@
+[console_scripts]
+Cpp11Faq = Cpp11Faq.__main__:main
+cpp-11-faq = Cpp11Faq.__main__:main
