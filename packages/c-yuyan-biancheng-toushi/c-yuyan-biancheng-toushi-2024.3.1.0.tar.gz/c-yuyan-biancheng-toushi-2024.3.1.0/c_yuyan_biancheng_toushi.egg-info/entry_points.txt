@@ -1,0 +1,3 @@
+[console_scripts]
+CYuyanBianchengToushi = CYuyanBianchengToushi.__main__:main
+c-yuyan-biancheng-toushi = CYuyanBianchengToushi.__main__:main
