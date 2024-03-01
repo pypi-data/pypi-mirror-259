@@ -1,0 +1,3 @@
+[console_scripts]
+CBingfaBianchengShizhan = CBingfaBianchengShizhan.__main__:main
+c-bingfa-biancheng-shizhan = CBingfaBianchengShizhan.__main__:main
