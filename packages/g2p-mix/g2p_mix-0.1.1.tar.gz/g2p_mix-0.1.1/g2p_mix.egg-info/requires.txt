@@ -1,0 +1,4 @@
+g2p_en
+importlib_resources
+jieba
+pypinyin<=0.44
