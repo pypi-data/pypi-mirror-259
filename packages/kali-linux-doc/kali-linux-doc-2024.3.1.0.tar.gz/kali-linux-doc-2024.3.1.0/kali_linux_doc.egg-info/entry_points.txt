@@ -1,0 +1,3 @@
+[console_scripts]
+KaliLinuxDoc = KaliLinuxDoc.__main__:main
+kali-linux-doc = KaliLinuxDoc.__main__:main
