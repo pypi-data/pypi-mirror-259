@@ -1,0 +1,5 @@
+imagecodecs
+numpy
+tifffile
+fabio
+pyqt5
