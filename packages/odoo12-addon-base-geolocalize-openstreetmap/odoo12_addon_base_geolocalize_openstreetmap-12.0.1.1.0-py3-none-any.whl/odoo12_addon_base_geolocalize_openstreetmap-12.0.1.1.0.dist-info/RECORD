@@ -1,0 +1,13 @@
+odoo/addons/base_geolocalize_openstreetmap/README.rst,sha256=TdGZ_42H-vW5hCqyhOXKzQz9Oq-Fx8GRLtcX7RElqrQ,1353
+odoo/addons/base_geolocalize_openstreetmap/__init__.py,sha256=X9EJGOE2GtZbS0G82PtSXmWSZ_R8jEM0rlJTDliQjp4,21
+odoo/addons/base_geolocalize_openstreetmap/__manifest__.py,sha256=Ply8RRDQW-dzkwc6HjotgeR_u0EDMai-L6ykfBXVy1k,532
+odoo/addons/base_geolocalize_openstreetmap/i18n/base_geolocalize_openstreetmap.pot,sha256=Nr5WNkq6s2Pl-oYG7Jf_HkykyjX5NhXctq0owYRUwiY,695
+odoo/addons/base_geolocalize_openstreetmap/models/__init__.py,sha256=g-Dp2ZwN6oB4CqdQfgRInNSzdMWAVQg1vjWL7S-ZODM,26
+odoo/addons/base_geolocalize_openstreetmap/models/res_partner.py,sha256=5c1yBvwWBky1FlyHr0TqJe3ODzfl_4mYLQYx66ljTsw,1738
+odoo/addons/base_geolocalize_openstreetmap/static/description/icon.png,sha256=6xBPJauaFOF0KDHfHgQopSc28kKvxMaeoQFQWZtfZDo,9455
+odoo/addons/base_geolocalize_openstreetmap/tests/__init__.py,sha256=o7EYVFeKSEAWFqQsvDowDZj2BzN_XZ5OrpuehMiA_eY,45
+odoo/addons/base_geolocalize_openstreetmap/tests/test_geolocalize_openstreetmap.py,sha256=qatWUultO-q1i6bJ-I0tE7sh-b7AiZadvBtmKI2ngSs,5110
+odoo12_addon_base_geolocalize_openstreetmap-12.0.1.1.0.dist-info/METADATA,sha256=PGbVkIY_nxyatp_vka9VAa1D6lb_fjJpqR45lTsea-8,1979
+odoo12_addon_base_geolocalize_openstreetmap-12.0.1.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+odoo12_addon_base_geolocalize_openstreetmap-12.0.1.1.0.dist-info/top_level.txt,sha256=qBj40grFkGOfDZ2WDSw3y1RnDlgG0u8rP8pvGNdbz4w,5
+odoo12_addon_base_geolocalize_openstreetmap-12.0.1.1.0.dist-info/RECORD,,
