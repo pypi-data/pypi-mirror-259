@@ -1,0 +1,3 @@
+[console_scripts]
+GoogleJavaBianchengGuifan = GoogleJavaBianchengGuifan.__main__:main
+google-java-biancheng-guifan = GoogleJavaBianchengGuifan.__main__:main
