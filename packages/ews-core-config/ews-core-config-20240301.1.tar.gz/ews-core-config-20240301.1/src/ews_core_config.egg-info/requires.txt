@@ -1,0 +1,8 @@
+simple-toml-configurator>=1
+
+[cli]
+click
+
+[dev]
+pytest
+coverage
