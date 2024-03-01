@@ -1,0 +1,12 @@
+README.md
+setup.py
+MobileGameDesignBook/README.md
+MobileGameDesignBook/__init__.py
+MobileGameDesignBook/__main__.py
+MobileGameDesignBook/file.pdf
+MobileGameDesignBook/index.html
+mobile_game_design_book.egg-info/PKG-INFO
+mobile_game_design_book.egg-info/SOURCES.txt
+mobile_game_design_book.egg-info/dependency_links.txt
+mobile_game_design_book.egg-info/entry_points.txt
+mobile_game_design_book.egg-info/top_level.txt
