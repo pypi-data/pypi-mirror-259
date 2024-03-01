@@ -1,0 +1,7 @@
+PyPDF2
+pyttsx3
+SpeechRecognition
+nltk
+openai
+spacy
+Pillow

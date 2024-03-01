@@ -1,0 +1,2 @@
+[console_scripts]
+dunkin-bot = main:create_gui
