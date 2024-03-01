@@ -1,0 +1,3 @@
+[console_scripts]
+PhodalSIdeaShizhanZhinan = PhodalSIdeaShizhanZhinan.__main__:main
+phodal-s-idea-shizhan-zhinan = PhodalSIdeaShizhanZhinan.__main__:main
