@@ -1,0 +1,8 @@
+
+include test/*.py
+include *.py2
+include *.py3
+
+exclude .git
+exclude .git/*
+exclude .gitignore
