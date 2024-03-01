@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: surface-construct
+Version: 0.5.8
+Summary: Surface termination construction especially for complex model, such as oxides or carbides.
+Home-page: https://gitee.com/pjren/surface_construct/
+Author: ren
+Author-email: 0403114076@163.com
+License: GPL
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+Requires-Dist: ase
+Requires-Dist: networkx
+Requires-Dist: numpy
+Requires-Dist: spglib
+Requires-Dist: pandas
+Requires-Dist: tqdm
+Requires-Dist: matplotlib
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+
