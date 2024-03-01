@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: subprocessing
+Version: 0.1.0
+Summary: A subprocess-based reimplementation of parts of Python's multiprocessing library.
+Project-URL: Homepage, https://github.com/schneiderkamplab/subprocessing
+Project-URL: Bug Tracker, https://github.com/schneiderkamplab/subprocessing/issues
+Author: Peter Schneider-Kamp
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: dill
+Description-Content-Type: text/markdown
+
+# subprocessing
+A subprocess-based reimplementation of parts of Python's multiprocessing library
+
+## TODOs
+* verbosity flag for subprocesspool, which is passed on to __main__.py call as arg
+* make magic sequence configurable
+* make dill vs pickle configurable
