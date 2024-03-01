@@ -1,0 +1,3 @@
+[console_scripts]
+GithubMiji = GithubMiji.__main__:main
+github-miji = GithubMiji.__main__:main
