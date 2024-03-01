@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+mixin_sdk/__init__.py
+mixin_sdk/auth.py
+mixin_sdk/conversation.py
+mixin_sdk/get_snapshots.py
+mixin_sdk/globalval.py
+mixin_sdk/mixin_ws_api.py
+mixin_sdk/request.py
+mixin_sdk/user.py
+mixin_sdk_py3.egg-info/PKG-INFO
+mixin_sdk_py3.egg-info/SOURCES.txt
+mixin_sdk_py3.egg-info/dependency_links.txt
+mixin_sdk_py3.egg-info/top_level.txt
