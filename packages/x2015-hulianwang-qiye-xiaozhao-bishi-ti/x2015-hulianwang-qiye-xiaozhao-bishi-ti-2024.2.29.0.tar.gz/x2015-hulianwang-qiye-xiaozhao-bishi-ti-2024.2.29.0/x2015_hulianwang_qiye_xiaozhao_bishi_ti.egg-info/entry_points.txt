@@ -1,0 +1,3 @@
+[console_scripts]
+X2015HulianwangQiyeXiaozhaoBishiTi = X2015HulianwangQiyeXiaozhaoBishiTi.__main__:main
+x2015-hulianwang-qiye-xiaozhao-bishi-ti = X2015HulianwangQiyeXiaozhaoBishiTi.__main__:main
