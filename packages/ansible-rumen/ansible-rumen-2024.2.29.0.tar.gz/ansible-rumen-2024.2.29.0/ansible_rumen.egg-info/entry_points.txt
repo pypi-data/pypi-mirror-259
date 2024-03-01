@@ -1,0 +1,3 @@
+[console_scripts]
+AnsibleRumen = AnsibleRumen.__main__:main
+ansible-rumen = AnsibleRumen.__main__:main
