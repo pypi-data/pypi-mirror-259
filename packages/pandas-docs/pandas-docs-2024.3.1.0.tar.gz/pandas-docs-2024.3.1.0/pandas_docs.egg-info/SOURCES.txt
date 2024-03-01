@@ -1,0 +1,12 @@
+README.md
+setup.py
+PandasDocs/README.md
+PandasDocs/__init__.py
+PandasDocs/__main__.py
+PandasDocs/file.pdf
+PandasDocs/index.html
+pandas_docs.egg-info/PKG-INFO
+pandas_docs.egg-info/SOURCES.txt
+pandas_docs.egg-info/dependency_links.txt
+pandas_docs.egg-info/entry_points.txt
+pandas_docs.egg-info/top_level.txt
