@@ -1,0 +1,13 @@
+monsterapi/InputDataModels.py,sha256=dVKHBuI3LCHp-B4d7BHyWa29Q_qrlgGOja_FszrPr4M,14891
+monsterapi/__init__.py,sha256=bJ8KfFe9i9_ZD9lkkn0MzrsL5Vi7ljAZsQLnktcg8m0,55
+monsterapi/client.py,sha256=7OhQ1OMQQr0ybZmoBC7u-pI9irfpY7pTjCczY6ByraM,18554
+monsterapi/deployDataModels.py,sha256=CxV1PLAch43g4ldqzZONM7Vr-lFB6EkC1Tust_zSbxs,2111
+monsterapi/nextGenLLMClient.py,sha256=csV9Ofu2uQLYO8l3hfywEeWt73Jf4wAEsjdc75t8RnM,6841
+monsterapi/utils.py,sha256=JsfomrTdLusb2P2IoxatXOFajOZd1xXVyomJPRd8QtI,1499
+monsterapi/benchmark/LLMBenchMark.py,sha256=lyBJ4_-V-GPaKRNkMTjVXl0GPnnACR0cgu4wDJaaMgc,1732
+monsterapi/benchmark/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+monsterapi-1.0.6b0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+monsterapi-1.0.6b0.dist-info/METADATA,sha256=OkA9hELTN-Mo804G8LWHfb9Kr4kkmDLDbm1uX_qdC6k,5162
+monsterapi-1.0.6b0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+monsterapi-1.0.6b0.dist-info/top_level.txt,sha256=xSeSWlamNGlJg_5phxzRE84rbdh6a1lx2gC2zoexMXM,11
+monsterapi-1.0.6b0.dist-info/RECORD,,
