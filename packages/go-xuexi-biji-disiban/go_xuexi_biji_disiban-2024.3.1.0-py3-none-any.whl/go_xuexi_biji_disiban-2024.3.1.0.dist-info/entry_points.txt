@@ -1,0 +1,3 @@
+[console_scripts]
+GoXuexiBijiDisiban = GoXuexiBijiDisiban.__main__:main
+go-xuexi-biji-disiban = GoXuexiBijiDisiban.__main__:main
