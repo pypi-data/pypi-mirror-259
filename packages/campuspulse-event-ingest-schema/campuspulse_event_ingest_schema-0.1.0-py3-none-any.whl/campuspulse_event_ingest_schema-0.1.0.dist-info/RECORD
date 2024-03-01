@@ -1,0 +1,8 @@
+campuspulse_event_ingest_schema/__init__.py,sha256=K5SeF7GpqU12FdOUqwfQBZdZmXhvs_IS-phLooak3tE,70
+campuspulse_event_ingest_schema/common.py,sha256=Te9sHCpbvG_7rtdiyCp-DKAbGKKQLz8IU3S-6d5rGEI,735
+campuspulse_event_ingest_schema/events.py,sha256=_80k06CA9nyZ7B_4fxzs6DG1brfGVg3SQSk5TEltiEQ,2694
+campuspulse_event_ingest_schema-0.1.0.dist-info/LICENSE,sha256=dAtAwBYqz6QKTLySAsADPLqN3tQkEEo7YUP9-hi4WO4,1077
+campuspulse_event_ingest_schema-0.1.0.dist-info/METADATA,sha256=tuhGF4_ENXR7xblyU0MuLODvK4MVErZOUwDQNzWBrxk,2760
+campuspulse_event_ingest_schema-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+campuspulse_event_ingest_schema-0.1.0.dist-info/top_level.txt,sha256=vVldQd0b8JC52ENVMndaC5X65YTR9g8rpQx-gSGZNNM,32
+campuspulse_event_ingest_schema-0.1.0.dist-info/RECORD,,
