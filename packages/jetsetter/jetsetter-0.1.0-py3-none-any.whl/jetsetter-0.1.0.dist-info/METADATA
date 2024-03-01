@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: jetsetter
+Version: 0.1.0
+Summary: Add your description here
+Author-email: Sam Phinizy <83414895+sam-phinizy@users.noreply.github.com>
+License-File: LICENSE
+Requires-Python: >=3.8
+Requires-Dist: questionary>=2.0.1
+Requires-Dist: typer>=0.9.0
+Description-Content-Type: text/markdown
+
+# jetsetter
+
+Jetsetter is a tool for managing PyCharm interpreter settings. It allows you to quickly add an interpreter to PyCharm.
+
+## Installation
+
+```bas
