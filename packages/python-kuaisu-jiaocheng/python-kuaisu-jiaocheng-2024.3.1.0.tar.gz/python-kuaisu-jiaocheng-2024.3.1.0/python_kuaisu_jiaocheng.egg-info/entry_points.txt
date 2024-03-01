@@ -1,0 +1,3 @@
+[console_scripts]
+PythonKuaisuJiaocheng = PythonKuaisuJiaocheng.__main__:main
+python-kuaisu-jiaocheng = PythonKuaisuJiaocheng.__main__:main
