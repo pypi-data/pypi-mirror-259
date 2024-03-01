@@ -1,0 +1,3 @@
+[console_scripts]
+KeTidaiDeTuanduiLingxiuPeiyangJihua = KeTidaiDeTuanduiLingxiuPeiyangJihua.__main__:main
+ke-tidai-de-tuandui-lingxiu-peiyang-jihua = KeTidaiDeTuanduiLingxiuPeiyangJihua.__main__:main
