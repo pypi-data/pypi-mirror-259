@@ -1,0 +1,3 @@
+[console_scripts]
+ApacheCordovaKaifaZhinan = ApacheCordovaKaifaZhinan.__main__:main
+apache-cordova-kaifa-zhinan = ApacheCordovaKaifaZhinan.__main__:main
