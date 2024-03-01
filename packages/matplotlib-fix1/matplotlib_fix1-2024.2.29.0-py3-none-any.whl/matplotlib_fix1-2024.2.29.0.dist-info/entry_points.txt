@@ -1,0 +1,3 @@
+[console_scripts]
+MatplotlibFix1 = MatplotlibFix1.__main__:main
+matplotlib-fix1 = MatplotlibFix1.__main__:main
