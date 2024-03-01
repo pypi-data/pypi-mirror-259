@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: payoneer_sdk
+Version: 0.0.1
+Summary: Payoneer Checkout SDK
+Author-email: Evgeniy Finskiy <finskiy.ru@yandex.ru>
+Project-URL: Homepage, https://github.com/BeyondUnderstanding/payoneer
+Project-URL: Issues, https://github.com/BeyondUnderstanding/payoneer/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+
+# Example Package
+
+This is a simple example package. You can use
+[GitHub-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.

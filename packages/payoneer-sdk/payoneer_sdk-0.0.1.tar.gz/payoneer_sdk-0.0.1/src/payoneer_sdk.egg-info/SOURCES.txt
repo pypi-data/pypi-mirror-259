@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+src/__init__.py
+src/payoneer_sdk.egg-info/PKG-INFO
+src/payoneer_sdk.egg-info/SOURCES.txt
+src/payoneer_sdk.egg-info/dependency_links.txt
+src/payoneer_sdk.egg-info/top_level.txt

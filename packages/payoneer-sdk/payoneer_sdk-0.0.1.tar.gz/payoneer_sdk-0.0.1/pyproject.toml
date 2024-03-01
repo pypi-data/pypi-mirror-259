@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "payoneer_sdk"
+version = "0.0.1"
+authors = [
+  { name="Evgeniy Finskiy", email="finskiy.ru@yandex.ru" },
+]
+description = "Payoneer Checkout SDK"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/BeyondUnderstanding/payoneer"
+Issues = "https://github.com/BeyondUnderstanding/payoneer/issues"
