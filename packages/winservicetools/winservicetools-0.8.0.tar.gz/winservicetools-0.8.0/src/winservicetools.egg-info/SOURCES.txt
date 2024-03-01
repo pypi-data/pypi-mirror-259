@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+setup.cfg
+src/winservicetools/__init__.py
+src/winservicetools/__version__.py
+src/winservicetools/cli.py
+src/winservicetools/utils.py
+src/winservicetools.egg-info/PKG-INFO
+src/winservicetools.egg-info/SOURCES.txt
+src/winservicetools.egg-info/dependency_links.txt
+src/winservicetools.egg-info/entry_points.txt
+src/winservicetools.egg-info/requires.txt
+src/winservicetools.egg-info/top_level.txt
