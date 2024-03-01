@@ -1,0 +1,91 @@
+Metadata-Version: 2.1
+Name: sbijax
+Version: 0.2.0
+Summary:  Simulation-based inference in JAX
+Project-URL: homepage, https://github.com/dirmeier/sbijax
+Author-email: Simon Dirmeier <sfyrbnd@pm.me>
+License-Expression: Apache-2.0
+License-File: LICENSE
+Keywords: abc,approximate Bayesian computation,normalizing flows,simulation-based inference,smc-abc
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.9
+Requires-Dist: blackjax-nightly>=1.0.0.post17
+Requires-Dist: distrax>=0.1.2
+Requires-Dist: dm-haiku>=0.0.9
+Requires-Dist: optax>=0.1.3
+Requires-Dist: surjectors>=0.3.0
+Requires-Dist: tensorflow-datasets==4.9.3
+Requires-Dist: tensorflow==2.15.0
+Requires-Dist: tfp-nightly>=0.20.0.dev20230404
+Requires-Dist: tqdm>=4.64.1
+Description-Content-Type: text/markdown
+
+# sbijax
+
+[![active](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+[![ci](https://github.com/dirmeier/sbijax/actions/workflows/ci.yaml/badge.svg)](https://github.com/dirmeier/sbijax/actions/workflows/ci.yaml)
+[![version](https://img.shields.io/pypi/v/sbijax.svg?colorB=black&style=flat)](https://pypi.org/project/sbijax/)
+
+> Simulation-based inference in JAX
+
+## About
+
+`sbijax` implements several algorithms for simulation-based inference in
+[JAX](https://github.com/google/jax) using [Haiku](https://github.com/deepmind/dm-haiku),
+[Distrax](https://github.com/deepmind/distrax) and [BlackJAX](https://github.com/blackjax-devs/blackjax). Specifically, `sbijax` implements
+
+- [Sequential Monte Carlo ABC](https://www.routledge.com/Handbook-of-Approximate-Bayesian-Computation/Sisson-Fan-Beaumont/p/book/9780367733728) (`SMCABC`)
+- [Neural Likelihood Estimation](https://arxiv.org/abs/1805.07226) (`SNL`)
+- [Surjective Neural Likelihood Estimation](https://arxiv.org/abs/2308.01054) (`SSNL`)
+- [Neural Posterior Estimation C](https://arxiv.org/abs/1905.07488) (short `SNP`)
+- [Contrastive Neural Ratio Estimation](https://arxiv.org/abs/2210.06170) (short `SNR`)
+- [Neural Approximate Sufficient Statistics](https://arxiv.org/abs/2010.10079) (`SNASS`)
+- [Neural Approximate Slice Sufficient Statistics](https://openreview.net/forum?id=jjzJ768iV1) (`SNASSS`)
+- [Flow matching posterior estimation](https://arxiv.org/abs/2305.17161) (`SFMPE`)
+- [Consistency model posterior estimation](https://arxiv.org/abs/2312.05440) (`SCMPE`)
+
+where the acronyms in parentheses denote the names of the methods in `sbijax`.
+
+> [!CAUTION]
+> ⚠️ As per the LICENSE file, there is no warranty whatsoever for this free software tool. If you discover bugs, please report them.
+
+## Examples
+
+You can find several self-contained examples on how to use the algorithms in [examples](https://github.com/dirmeier/sbijax/tree/main/examples).
+
+## Documentation
+
+Documentation can be found [here](https://sbijax.readthedocs.io/en/latest/).
+
+## Installation
+
+Make sure to have a working `JAX` installation. Depending whether you want to use CPU/GPU/TPU,
+please follow [these instructions](https://github.com/google/jax#installation).
+
+To install from PyPI, just call the following on the command line:
+
+```bash
+pip install sbijax
+```
+
+To install the latest GitHub <RELEASE>, use:
+
+```bash
+pip install git+https://github.com/dirmeier/sbijax@<RELEASE>
+```
+
+## Acknowledgements
+
+> [!NOTE]
+> 📝 The API of the package is heavily inspired by the excellent Pytorch-based [`sbi`](https://github.com/sbi-dev/sbi) package which is substantially more
+feature-complete and user-friendly, and better documented.
+
+## Author
+
+Simon Dirmeier <a href="mailto:sfyrbnd @ pm me">sfyrbnd @ pm me</a>
