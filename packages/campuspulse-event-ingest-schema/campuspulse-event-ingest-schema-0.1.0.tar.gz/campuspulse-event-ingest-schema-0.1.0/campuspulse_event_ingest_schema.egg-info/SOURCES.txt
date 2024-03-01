@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+campuspulse_event_ingest_schema/__init__.py
+campuspulse_event_ingest_schema/common.py
+campuspulse_event_ingest_schema/events.py
+campuspulse_event_ingest_schema.egg-info/PKG-INFO
+campuspulse_event_ingest_schema.egg-info/SOURCES.txt
+campuspulse_event_ingest_schema.egg-info/dependency_links.txt
+campuspulse_event_ingest_schema.egg-info/requires.txt
+campuspulse_event_ingest_schema.egg-info/top_level.txt
+tests/test_rit_housing_data_schema_apartment.py
