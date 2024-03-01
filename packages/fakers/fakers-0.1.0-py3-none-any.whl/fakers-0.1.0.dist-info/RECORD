@@ -1,0 +1,8 @@
+fakers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fakers/providers/__init__.py,sha256=KW1b6AHXzWUumDNP3c1Hd7kBRWbjKYBOHfR3c5XOi8s,396
+fakers/providers/person.py,sha256=eg9HVqImqSaznIOpoxyTO9FdymjYS8wjuHucGyM6T4Y,936
+fakers/providers/retail.py,sha256=VSHT0ZEXNoompck8W4n6YapPKufHrKvx9w2yYAqKv9U,1368
+fakers-0.1.0.dist-info/LICENSE,sha256=7EN--8Iuw-bNwadCgBXeL5PQ6miU12zrXd_1ct6UhUU,1071
+fakers-0.1.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+fakers-0.1.0.dist-info/METADATA,sha256=l_QFEBnKEqI9-LenrIXJtlOj_4q2HMkDI8oDrWlteoE,1410
+fakers-0.1.0.dist-info/RECORD,,
