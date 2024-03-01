@@ -1,0 +1,3 @@
+[console_scripts]
+MysqlJindianPeixunJiaocheng = MysqlJindianPeixunJiaocheng.__main__:main
+mysql-jindian-peixun-jiaocheng = MysqlJindianPeixunJiaocheng.__main__:main
