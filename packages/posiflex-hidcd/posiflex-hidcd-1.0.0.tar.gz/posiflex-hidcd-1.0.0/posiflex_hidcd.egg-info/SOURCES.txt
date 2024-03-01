@@ -1,0 +1,9 @@
+LICENSE
+README.md
+hidcd.py
+pyproject.toml
+posiflex_hidcd.egg-info/PKG-INFO
+posiflex_hidcd.egg-info/SOURCES.txt
+posiflex_hidcd.egg-info/dependency_links.txt
+posiflex_hidcd.egg-info/requires.txt
+posiflex_hidcd.egg-info/top_level.txt
