@@ -1,0 +1,3 @@
+[console_scripts]
+GoZhongwenWendang = GoZhongwenWendang.__main__:main
+go-zhongwen-wendang = GoZhongwenWendang.__main__:main
