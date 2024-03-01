@@ -1,0 +1,3 @@
+[console_scripts]
+LunPhpChangjianLoudong = LunPhpChangjianLoudong.__main__:main
+lun-php-changjian-loudong = LunPhpChangjianLoudong.__main__:main
