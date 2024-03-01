@@ -1,0 +1,1 @@
+(self.webpackChunkjupyterlab_rklogo_extension=self.webpackChunkjupyterlab_rklogo_extension||[]).push([[509],{509:e=>{e.exports=[{id:"jupyterlab_rklogo_extension",autoStart:!0,activate:function(e){console.log("JupyterLab extension jupyterlab_rklogo_extension is activated!"),console.log(e.commands)}}]}}]);
