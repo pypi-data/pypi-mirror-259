@@ -1,0 +1,8 @@
+[project]
+name = "pytest-leaping"
+authors = [
+    {name = "Leaping Labs Inc.", email = "founders@leaping.io"},
+]
+version = "0.0.0"
+description = "Coming soon!"
+
