@@ -1,0 +1,4 @@
+[console_scripts]
+ProgrammingLanguagesLectureNotesNeuCs4400 = ProgrammingLanguagesLectureNotesNeuCs4400.__main__:main
+programming-languages-lecture-notes-neu-cs4400 = ProgrammingLanguagesLectureNotesNeuCs4400.__main__:main
+
