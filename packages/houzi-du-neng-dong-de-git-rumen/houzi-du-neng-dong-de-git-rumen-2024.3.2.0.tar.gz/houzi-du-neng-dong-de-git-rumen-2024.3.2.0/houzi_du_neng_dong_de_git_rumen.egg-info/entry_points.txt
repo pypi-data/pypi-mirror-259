@@ -1,0 +1,3 @@
+[console_scripts]
+HouziDuNengDongDeGitRumen = HouziDuNengDongDeGitRumen.__main__:main
+houzi-du-neng-dong-de-git-rumen = HouziDuNengDongDeGitRumen.__main__:main
