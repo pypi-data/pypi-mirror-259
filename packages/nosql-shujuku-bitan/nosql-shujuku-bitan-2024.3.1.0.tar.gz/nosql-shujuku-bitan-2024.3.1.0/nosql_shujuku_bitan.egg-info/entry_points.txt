@@ -1,0 +1,3 @@
+[console_scripts]
+NosqlShujukuBitan = NosqlShujukuBitan.__main__:main
+nosql-shujuku-bitan = NosqlShujukuBitan.__main__:main
