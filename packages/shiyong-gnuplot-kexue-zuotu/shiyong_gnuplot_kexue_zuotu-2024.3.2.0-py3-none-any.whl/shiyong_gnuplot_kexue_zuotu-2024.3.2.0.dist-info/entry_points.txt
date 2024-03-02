@@ -1,0 +1,3 @@
+[console_scripts]
+ShiyongGnuplotKexueZuotu = ShiyongGnuplotKexueZuotu.__main__:main
+shiyong-gnuplot-kexue-zuotu = ShiyongGnuplotKexueZuotu.__main__:main
