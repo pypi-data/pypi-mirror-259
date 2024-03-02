@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+pyproject.toml
+src/package_name/__init__.py
+src/wolverines.egg-info/PKG-INFO
+src/wolverines.egg-info/SOURCES.txt
+src/wolverines.egg-info/dependency_links.txt
+src/wolverines.egg-info/requires.txt
+src/wolverines.egg-info/top_level.txt
