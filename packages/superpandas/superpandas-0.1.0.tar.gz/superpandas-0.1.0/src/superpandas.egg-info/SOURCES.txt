@@ -1,0 +1,12 @@
+README.md
+setup.py
+src/superpandas/__init__.py
+src/superpandas/llms.py
+src/superpandas/prompts.py
+src/superpandas/superpandas.py
+src/superpandas.egg-info/PKG-INFO
+src/superpandas.egg-info/SOURCES.txt
+src/superpandas.egg-info/dependency_links.txt
+src/superpandas.egg-info/requires.txt
+src/superpandas.egg-info/top_level.txt
+test/test_superpandas.py
