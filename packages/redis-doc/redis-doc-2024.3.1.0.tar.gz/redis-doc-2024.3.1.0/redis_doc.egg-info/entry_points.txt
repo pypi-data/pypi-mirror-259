@@ -1,0 +1,3 @@
+[console_scripts]
+RedisDoc = RedisDoc.__main__:main
+redis-doc = RedisDoc.__main__:main
