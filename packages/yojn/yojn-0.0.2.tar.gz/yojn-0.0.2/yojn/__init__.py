@@ -1,0 +1,1 @@
+from yojn.main import yojn
