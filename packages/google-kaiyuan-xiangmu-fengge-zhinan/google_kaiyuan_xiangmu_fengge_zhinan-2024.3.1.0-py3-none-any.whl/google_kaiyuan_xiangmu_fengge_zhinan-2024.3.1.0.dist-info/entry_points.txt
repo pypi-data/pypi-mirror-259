@@ -1,0 +1,3 @@
+[console_scripts]
+GoogleKaiyuanXiangmuFenggeZhinan = GoogleKaiyuanXiangmuFenggeZhinan.__main__:main
+google-kaiyuan-xiangmu-fengge-zhinan = GoogleKaiyuanXiangmuFenggeZhinan.__main__:main
