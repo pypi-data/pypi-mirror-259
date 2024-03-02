@@ -1,0 +1,4 @@
+[console_scripts]
+IntroductionToCommunicationControlAndSignalProcessingLectureNotesMit6011 = IntroductionToCommunicationControlAndSignalProcessingLectureNotesMit6011.__main__:main
+introduction-to-communication-control-and-signal-processing-lecture-notes-mit-6-011 = IntroductionToCommunicationControlAndSignalProcessingLectureNotesMit6011.__main__:main
+
