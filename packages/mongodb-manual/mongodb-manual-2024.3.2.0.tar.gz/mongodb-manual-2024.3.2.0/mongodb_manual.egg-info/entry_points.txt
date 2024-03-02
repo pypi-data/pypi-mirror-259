@@ -1,0 +1,3 @@
+[console_scripts]
+MongodbManual = MongodbManual.__main__:main
+mongodb-manual = MongodbManual.__main__:main
