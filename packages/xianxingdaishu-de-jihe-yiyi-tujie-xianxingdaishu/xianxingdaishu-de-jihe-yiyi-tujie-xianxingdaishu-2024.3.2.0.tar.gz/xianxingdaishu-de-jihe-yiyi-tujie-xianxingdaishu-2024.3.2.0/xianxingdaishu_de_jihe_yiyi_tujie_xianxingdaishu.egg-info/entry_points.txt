@@ -1,0 +1,4 @@
+[console_scripts]
+XianxingdaishuDeJiheYiyiTujieXianxingdaishu = XianxingdaishuDeJiheYiyiTujieXianxingdaishu.__main__:main
+xianxingdaishu-de-jihe-yiyi-tujie-xianxingdaishu = XianxingdaishuDeJiheYiyiTujieXianxingdaishu.__main__:main
+
