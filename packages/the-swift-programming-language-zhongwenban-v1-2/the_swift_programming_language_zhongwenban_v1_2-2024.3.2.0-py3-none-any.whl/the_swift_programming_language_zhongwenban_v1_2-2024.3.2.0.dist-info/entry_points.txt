@@ -1,0 +1,3 @@
+[console_scripts]
+TheSwiftProgrammingLanguageZhongwenbanV12 = TheSwiftProgrammingLanguageZhongwenbanV12.__main__:main
+the-swift-programming-language-zhongwenban-v1-2 = TheSwiftProgrammingLanguageZhongwenbanV12.__main__:main
