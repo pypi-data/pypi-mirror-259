@@ -1,0 +1,5 @@
+reportlab
+requests
+selenium
+rich
+turbowriter
