@@ -1,0 +1,3 @@
+[console_scripts]
+GenWoYiqiWanWin32Kaifa = GenWoYiqiWanWin32Kaifa.__main__:main
+gen-wo-yiqi-wan-win32-kaifa = GenWoYiqiWanWin32Kaifa.__main__:main
