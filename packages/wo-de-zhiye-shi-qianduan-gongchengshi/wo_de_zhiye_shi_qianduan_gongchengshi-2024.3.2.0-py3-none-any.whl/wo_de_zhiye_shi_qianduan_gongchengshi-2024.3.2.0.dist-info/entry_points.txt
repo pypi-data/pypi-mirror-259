@@ -1,0 +1,4 @@
+[console_scripts]
+WoDeZhiyeShiQianduanGongchengshi = WoDeZhiyeShiQianduanGongchengshi.__main__:main
+wo-de-zhiye-shi-qianduan-gongchengshi = WoDeZhiyeShiQianduanGongchengshi.__main__:main
+
