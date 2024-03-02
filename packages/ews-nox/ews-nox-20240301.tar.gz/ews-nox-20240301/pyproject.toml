@@ -1,0 +1,124 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+# --------------------------------------------------
+# Build system
+# --------------------------------------------------
+
+[tool.setuptools]
+include-package-data = true
+
+# https://setuptools.pypa.io/en/latest/userguide/pyproject_config.html
+# https://setuptools.pypa.io/en/latest/userguide/package_discovery.html#finding-simple-packages
+[tool.setuptools.packages.find]
+namespaces = false # to disable scanning PEP 420 namespaces (true by default)
+where = ["src"]    # list of folders that contain the packages (["."] by default)
+
+
+# package names should match these glob patterns (["*"] by default)
+include = ["*"] # Future me: Keep the * !!!
+
+# Ignored modules go here
+exclude = ["*hidden*"] # All modules containing hidden will be ignore
+
+
+# https://setuptools.pypa.io/en/latest/userguide/datafiles.html#package-data
+[tool.setuptools.package-data]
+"*" = ["*"]
+
+# exclude packages matching these glob patterns (empty by default)
+# https://stackoverflow.com/questions/72464123/exclude-tests-files-from-setuptools-find-packages
+# https://github.com/pypa/setuptools/issues/3260
+[tool.setuptools.exclude-package-data]
+"*" = ["*.ignore", "~*"]
+
+[tool.setuptools.dynamic]
+readme = { file = ["README.md"], content-type = "text/markdown" }
+
+
+[project]
+name = "ews-nox"
+version = "v20240301"
+authors = [
+    { name = "EWS Consulting - Testing Center", email = "github@ews-consulting.com" },
+]
+description = "A simple TOML configuration for EWS settings"
+license = { file = "LICENSE" }
+dynamic = ["readme"]
+requires-python = ">=3.10"
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Unix",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+]
+keywords = ["helpers", "nox", "EWS"]
+dependencies = ["nox", "python-dotenv", "tomlkit"]
+
+[project.urls]
+Homepage = "https://github.com/EWS-Consulting-Public/ews-nox"
+Source = "https://github.com/EWS-Consulting-Public/ews-nox"
+Documentation = 'https://mb.ews.tools/ews-nox'
+
+
+[project.optional-dependencies]
+ews = ["ews-core-config>=20230301"]
+dev = []
+
+
+[tool.pyright]
+# https://microsoft.github.io/pyright/#/configuration?id=main-configuration-options
+include = ["src", "noxfile.py"]
+venvPath = ".venv"
+pythonVersion = "3.11"
+pythonPlatform = "Linux"
+
+[tool.codespell]
+# https://github.com/codespell-project/codespell
+skip = "*.c,"
+quiet-level = 3
+
+
+[tool.pip-tools]
+allow-unsafe = false
+annotate = true
+emit-find-links = false
+emit-index-url = false
+emit-options = true
+emit-trusted-host = false
+generate-hashes = false
+strip-extras = true
+# emit-header = false
+# index-urls = index-urls
+# trusted-hosts = trusted-hosts
+
+[tool.pytest.ini_options]
+addopts = "--log-cli-level=INFO -sv"
+testpaths = ['src/ews_nox/tests']
+python_files = 'test_*.py'
+python_functions = 'test_*'
+xfail_strict = true
+filterwarnings = [
+    # https://github.com/aio-libs/aiohttp/pull/7302
+    "ignore:datetime.*utcfromtimestamp\\(\\) is deprecated and scheduled for removal:DeprecationWarning",
+]
+
+
+[tool.coverage.run]
+omit = ["src/ews_nox/tests", "*/site-packages/*", ".tox/*", ".nox/*"]
+source = ['src/ews_nox']
+parallel = true
+branch = true
+
+[tool.coverage.paths]
+source = ['src/ews_nox']
+
+[tool.coverage.report]
+omit = ["src/ews_nox/tests", "*/site-packages/*", ".tox/*", ".nox/*"]
+show_missing = true
+precision = 2
+fail_under = 1
+exclude_lines = ['pragma: no cover']

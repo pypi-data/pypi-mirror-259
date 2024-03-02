@@ -1,0 +1,8 @@
+nox
+python-dotenv
+tomlkit
+
+[dev]
+
+[ews]
+ews-core-config>=20230301
