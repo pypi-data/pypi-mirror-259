@@ -1,0 +1,3 @@
+[console_scripts]
+ScikitLearnDocsFix1 = ScikitLearnDocsFix1.__main__:main
+scikit-learn-docs-fix1 = ScikitLearnDocsFix1.__main__:main
