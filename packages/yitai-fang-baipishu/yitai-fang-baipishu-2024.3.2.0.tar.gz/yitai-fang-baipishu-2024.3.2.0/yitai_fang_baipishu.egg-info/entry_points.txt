@@ -1,0 +1,4 @@
+[console_scripts]
+YitaiFangBaipishu = YitaiFangBaipishu.__main__:main
+yitai-fang-baipishu = YitaiFangBaipishu.__main__:main
+
