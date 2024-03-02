@@ -1,0 +1,12 @@
+README.md
+setup.py
+UcsbAnIntroductionToNumpyAndScipy/README.md
+UcsbAnIntroductionToNumpyAndScipy/__init__.py
+UcsbAnIntroductionToNumpyAndScipy/__main__.py
+UcsbAnIntroductionToNumpyAndScipy/file.pdf
+UcsbAnIntroductionToNumpyAndScipy/index.html
+ucsb_an_introduction_to_numpy_and_scipy.egg-info/PKG-INFO
+ucsb_an_introduction_to_numpy_and_scipy.egg-info/SOURCES.txt
+ucsb_an_introduction_to_numpy_and_scipy.egg-info/dependency_links.txt
+ucsb_an_introduction_to_numpy_and_scipy.egg-info/entry_points.txt
+ucsb_an_introduction_to_numpy_and_scipy.egg-info/top_level.txt

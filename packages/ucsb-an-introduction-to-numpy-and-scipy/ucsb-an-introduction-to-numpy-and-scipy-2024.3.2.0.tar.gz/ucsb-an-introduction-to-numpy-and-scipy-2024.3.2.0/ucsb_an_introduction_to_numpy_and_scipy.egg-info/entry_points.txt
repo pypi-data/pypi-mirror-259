@@ -1,0 +1,3 @@
+[console_scripts]
+UcsbAnIntroductionToNumpyAndScipy = UcsbAnIntroductionToNumpyAndScipy.__main__:main
+ucsb-an-introduction-to-numpy-and-scipy = UcsbAnIntroductionToNumpyAndScipy.__main__:main
