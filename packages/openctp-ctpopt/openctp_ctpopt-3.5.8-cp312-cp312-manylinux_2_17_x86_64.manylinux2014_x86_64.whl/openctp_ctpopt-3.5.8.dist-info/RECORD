@@ -1,0 +1,12 @@
+openctp_ctpopt.libs/libsoptthosttraderapi_se-d161b9c6.so,sha256=Y4tBvNoXjc9fReDVdEOcNjL4FCBrpVkZTxwY79snQUg,6051273
+openctp_ctpopt.libs/libsoptthostmduserapi_se-84fbdad1.so,sha256=GycDEnmJZDQ0sXEYn8DSnQzBldochqHvngbhfGYAuhE,5343865
+openctp_ctpopt/_thosttraderapi.so,sha256=wjzMmUs7ZNhyv6QTQaVbNo8EF7WGZEgPzQZMk6pp_2M,12214457
+openctp_ctpopt/__init__.py,sha256=baOOeL1UOZjW2ytCZ9_wI8ZLl61Vp69oPsjekGdhPqs,76
+openctp_ctpopt/thostmduserapi.py,sha256=Q7qvHg2qRwiw-K4hwIC2VAiBw_rTWu-DfBZgncxvNdM,1242224
+openctp_ctpopt/_thostmduserapi.so,sha256=fCFD3tPDMuLqKRlkgL2kL3hoiqDwsQ7Ic8k2hsuWnT8,11688657
+openctp_ctpopt/thosttraderapi.py,sha256=I5bQB3TqbFhBzpOEMpGCUU2dhKvIyEZGZaC6lUbSa-8,1293372
+openctp_ctpopt-3.5.8.dist-info/LICENSE,sha256=_n7T4DhyQ87IJffyalzjQy4esq7Hd0FA2DeM0O_Xwjo,1514
+openctp_ctpopt-3.5.8.dist-info/WHEEL,sha256=vJMp7mUkE-fMIYyE5xJ9Q2cYPnWVgHf20clVdwMSXAg,152
+openctp_ctpopt-3.5.8.dist-info/METADATA,sha256=bLNZ0mQCJu9BY6iBj6NPkoWVICrS2OjShJxHY4kpdkA,1349
+openctp_ctpopt-3.5.8.dist-info/top_level.txt,sha256=5TcI4ZbgbVtfDdNBgnoOkSMIwclmSZRhNk0gn53qv2g,47
+openctp_ctpopt-3.5.8.dist-info/RECORD,,
