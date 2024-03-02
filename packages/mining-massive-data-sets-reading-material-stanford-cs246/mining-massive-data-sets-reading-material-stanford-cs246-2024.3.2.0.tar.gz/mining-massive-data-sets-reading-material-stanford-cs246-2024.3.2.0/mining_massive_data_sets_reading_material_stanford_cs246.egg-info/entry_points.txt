@@ -1,0 +1,4 @@
+[console_scripts]
+MiningMassiveDataSetsReadingMaterialStanfordCs246 = MiningMassiveDataSetsReadingMaterialStanfordCs246.__main__:main
+mining-massive-data-sets-reading-material-stanford-cs246 = MiningMassiveDataSetsReadingMaterialStanfordCs246.__main__:main
+
