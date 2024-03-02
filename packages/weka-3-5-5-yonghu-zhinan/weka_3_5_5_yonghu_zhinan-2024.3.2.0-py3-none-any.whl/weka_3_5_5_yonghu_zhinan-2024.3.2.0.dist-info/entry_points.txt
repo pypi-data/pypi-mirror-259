@@ -1,0 +1,3 @@
+[console_scripts]
+Weka355YonghuZhinan = Weka355YonghuZhinan.__main__:main
+weka-3-5-5-yonghu-zhinan = Weka355YonghuZhinan.__main__:main
