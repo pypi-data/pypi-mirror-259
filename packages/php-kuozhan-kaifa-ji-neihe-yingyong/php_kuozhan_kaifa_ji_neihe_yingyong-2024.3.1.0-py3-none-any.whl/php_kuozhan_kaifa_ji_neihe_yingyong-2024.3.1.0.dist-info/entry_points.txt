@@ -1,0 +1,3 @@
+[console_scripts]
+PhpKuozhanKaifaJiNeiheYingyong = PhpKuozhanKaifaJiNeiheYingyong.__main__:main
+php-kuozhan-kaifa-ji-neihe-yingyong = PhpKuozhanKaifaJiNeiheYingyong.__main__:main
