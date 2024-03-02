@@ -1,0 +1,4 @@
+[console_scripts]
+CrossappZhongwenWendang = CrossappZhongwenWendang.__main__:main
+crossapp-zhongwen-wendang = CrossappZhongwenWendang.__main__:main
+
