@@ -1,0 +1,3 @@
+[console_scripts]
+TextgroceryZhongwenApi = TextgroceryZhongwenApi.__main__:main
+textgrocery-zhongwen-api = TextgroceryZhongwenApi.__main__:main
