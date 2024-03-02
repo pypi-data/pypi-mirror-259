@@ -1,0 +1,13 @@
+dns_client/__init__.py,sha256=4NfI9nLwDOinhFtGTOJmrBseZjWkqiTKlmwEU3qxStU,472
+dns_client/__main__.py,sha256=T0favJRpo0N3H4qkWgE_CldlUAakYCrSVj4TKfNuYP0,1642
+dns_client/client.py,sha256=3mAW61tIOkiDYOLHm1S_ZpGLz3HPnOTazU8Fa8gkI9g,5727
+dns_client/errors.py,sha256=2bKOOwchTWCnsAnpOsOWobghZGOiaqvu58W0Gw8JWcE,836
+dns_client/log.py,sha256=RKJ1SA_esRmLjnb3Spdf9G9X5G0pSEjRwgrg7mrrrIc,67
+dns_client/protocol.py,sha256=yMZVlZ3Qo1sbYjwgzKSpeaD8MD9r154KY09iDwvOtzw,12114
+dns_client/utils.py,sha256=ogMBtFJd3fGFjbzCXko8dAjt1q4gtAwQ4tT0CFaY3-Y,3569
+dns_client/adapters/requests.py,sha256=r4y36vPodyVNuZTrlBigaZiv1cW4L6OhiQH2YmwQ1Mo,1987
+dns_client-0.1.7.dist-info/LICENSE,sha256=u7bNZ7RlUly5_IygLEfl0DLP3fA8CoxsJOqhTg4zZzY,13
+dns_client-0.1.7.dist-info/METADATA,sha256=gdoF61okJsLWb8hFsB14KxwNL3seDB1iKfzV0byT6QY,3273
+dns_client-0.1.7.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+dns_client-0.1.7.dist-info/top_level.txt,sha256=3sLwyCGz6-U_ldd6XYsXJmnSaGeOLsjb3xj1Ftv-ve0,11
+dns_client-0.1.7.dist-info/RECORD,,
