@@ -1,0 +1,2 @@
+[console_scripts]
+run-this-package = jonnys_single_file_package:main
