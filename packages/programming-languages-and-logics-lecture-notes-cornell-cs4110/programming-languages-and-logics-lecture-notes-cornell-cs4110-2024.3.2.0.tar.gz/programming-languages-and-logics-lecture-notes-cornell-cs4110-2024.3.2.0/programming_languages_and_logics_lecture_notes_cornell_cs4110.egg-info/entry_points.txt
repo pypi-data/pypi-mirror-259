@@ -1,0 +1,4 @@
+[console_scripts]
+ProgrammingLanguagesAndLogicsLectureNotesCornellCs4110 = ProgrammingLanguagesAndLogicsLectureNotesCornellCs4110.__main__:main
+programming-languages-and-logics-lecture-notes-cornell-cs4110 = ProgrammingLanguagesAndLogicsLectureNotesCornellCs4110.__main__:main
+
