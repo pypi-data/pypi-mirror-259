@@ -1,0 +1,3 @@
+[console_scripts]
+XuexiIonicShiyongIonicGoujianShishiHunheYidongYingyongChugao = XuexiIonicShiyongIonicGoujianShishiHunheYidongYingyongChugao.__main__:main
+xuexi-ionic-shiyong-ionic-goujian-shishi-hunhe-yidong-yingyong-chugao = XuexiIonicShiyongIonicGoujianShishiHunheYidongYingyongChugao.__main__:main
