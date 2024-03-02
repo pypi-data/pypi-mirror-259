@@ -1,0 +1,4 @@
+[console_scripts]
+TheSchemeProgrammingLanguage4e = TheSchemeProgrammingLanguage4e.__main__:main
+the-scheme-programming-language-4e = TheSchemeProgrammingLanguage4e.__main__:main
+
