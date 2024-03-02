@@ -1,0 +1,4 @@
+[console_scripts]
+GeshihuaZifuchuanLoudongLiyong = GeshihuaZifuchuanLoudongLiyong.__main__:main
+geshihua-zifuchuan-loudong-liyong = GeshihuaZifuchuanLoudongLiyong.__main__:main
+
