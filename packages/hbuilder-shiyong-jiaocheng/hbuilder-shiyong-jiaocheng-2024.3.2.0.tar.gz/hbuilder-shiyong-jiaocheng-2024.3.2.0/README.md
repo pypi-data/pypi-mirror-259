@@ -1,0 +1,27 @@
+# HBuilder 使用教程
+
+## 下载
+
+### Docker
+
+```
+docker pull apachecn0/hbuilder-shiyong-jiaocheng
+docker run -tid -p <port>:80 apachecn0/hbuilder-shiyong-jiaocheng
+# 访问 http://localhost:{port} 查看文档
+```
+
+### PYPI
+
+```
+pip install hbuilder-shiyong-jiaocheng
+hbuilder-shiyong-jiaocheng <port>
+# 访问 http://localhost:{port} 查看文档
+```
+
+### NPM
+
+```
+npm install -g hbuilder-shiyong-jiaocheng
+hbuilder-shiyong-jiaocheng <port>
+# 访问 http://localhost:{port} 查看文档
+```
