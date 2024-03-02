@@ -1,0 +1,3 @@
+[console_scripts]
+SystemtapXinshouZhinan = SystemtapXinshouZhinan.__main__:main
+systemtap-xinshou-zhinan = SystemtapXinshouZhinan.__main__:main
