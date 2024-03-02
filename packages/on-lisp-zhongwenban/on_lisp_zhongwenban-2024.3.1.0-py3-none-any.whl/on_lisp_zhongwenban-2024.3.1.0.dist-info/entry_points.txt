@@ -1,0 +1,3 @@
+[console_scripts]
+OnLispZhongwenban = OnLispZhongwenban.__main__:main
+on-lisp-zhongwenban = OnLispZhongwenban.__main__:main
