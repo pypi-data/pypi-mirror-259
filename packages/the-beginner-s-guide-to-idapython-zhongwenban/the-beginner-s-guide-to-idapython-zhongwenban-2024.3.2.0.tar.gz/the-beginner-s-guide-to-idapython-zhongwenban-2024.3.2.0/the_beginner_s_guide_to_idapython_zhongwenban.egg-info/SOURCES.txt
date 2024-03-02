@@ -1,0 +1,12 @@
+README.md
+setup.py
+TheBeginnerSGuideToIdapythonZhongwenban/README.md
+TheBeginnerSGuideToIdapythonZhongwenban/__init__.py
+TheBeginnerSGuideToIdapythonZhongwenban/__main__.py
+TheBeginnerSGuideToIdapythonZhongwenban/file.pdf
+TheBeginnerSGuideToIdapythonZhongwenban/index.html
+the_beginner_s_guide_to_idapython_zhongwenban.egg-info/PKG-INFO
+the_beginner_s_guide_to_idapython_zhongwenban.egg-info/SOURCES.txt
+the_beginner_s_guide_to_idapython_zhongwenban.egg-info/dependency_links.txt
+the_beginner_s_guide_to_idapython_zhongwenban.egg-info/entry_points.txt
+the_beginner_s_guide_to_idapython_zhongwenban.egg-info/top_level.txt

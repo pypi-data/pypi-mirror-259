@@ -1,0 +1,4 @@
+[console_scripts]
+TheBeginnerSGuideToIdapythonZhongwenban = TheBeginnerSGuideToIdapythonZhongwenban.__main__:main
+the-beginner-s-guide-to-idapython-zhongwenban = TheBeginnerSGuideToIdapythonZhongwenban.__main__:main
+
