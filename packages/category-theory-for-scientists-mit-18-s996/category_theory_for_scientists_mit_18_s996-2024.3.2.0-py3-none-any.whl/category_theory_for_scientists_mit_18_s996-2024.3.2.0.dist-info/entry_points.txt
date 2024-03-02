@@ -1,0 +1,4 @@
+[console_scripts]
+CategoryTheoryForScientistsMit18S996 = CategoryTheoryForScientistsMit18S996.__main__:main
+category-theory-for-scientists-mit-18-s996 = CategoryTheoryForScientistsMit18S996.__main__:main
+
