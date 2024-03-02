@@ -1,0 +1,4 @@
+[console_scripts]
+CCankaoshouce20171220 = CCankaoshouce20171220.__main__:main
+c-cankaoshouce-2017-12-20 = CCankaoshouce20171220.__main__:main
+
