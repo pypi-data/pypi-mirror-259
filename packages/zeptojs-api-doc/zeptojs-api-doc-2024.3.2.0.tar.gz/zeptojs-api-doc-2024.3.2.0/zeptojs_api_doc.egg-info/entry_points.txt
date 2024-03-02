@@ -1,0 +1,3 @@
+[console_scripts]
+ZeptojsApiDoc = ZeptojsApiDoc.__main__:main
+zeptojs-api-doc = ZeptojsApiDoc.__main__:main
