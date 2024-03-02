@@ -1,0 +1,4 @@
+[console_scripts]
+ShujujiegouJiuGaiZheyangXue = ShujujiegouJiuGaiZheyangXue.__main__:main
+shujujiegou-jiu-gai-zheyang-xue = ShujujiegouJiuGaiZheyangXue.__main__:main
+
