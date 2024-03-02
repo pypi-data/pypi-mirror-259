@@ -1,0 +1,11 @@
+client.py,sha256=ckrrCVJSe0NYPWzoX2sJd1AoDlA7BQzBtXjB3C_2bVM,1045
+config.example.py,sha256=PduN3SlvFZL_I4AI6ZXTB93azzQkdGtTopDoNC-PTlA,314
+example.py,sha256=f0yFiiQROea3gHYYYx5w3i5IYpQWsm86BMNN_jL7fDI,668
+main.py,sha256=VU7ysycgvu_B5woZNi9VbC20Z-bwILhASMGr3RMfNDQ,1416
+midjounery.py,sha256=nDW-GZ8VKLUH0admQ4eZAZb_q8cHvUmBYONp9jCXi-s,8903
+midjounery_manager.py,sha256=FrI8-aDGzclMeiT_4XGUtQH3g50u24EYkFHA9ws2BcM,1654
+test.py,sha256=uVzwg4UwG_OEpbSeON5qy3NELVvB-uO9XLEsggEiDkA,800
+midjounery_python_sdk-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+midjounery_python_sdk-0.1.0.dist-info/METADATA,sha256=oY0aJJzL0OHERBiIJO2fKX1NENOE0ovqrsxlaiwzSoQ,3855
+midjounery_python_sdk-0.1.0.dist-info/WHEEL,sha256=7Z8_27uaHI_UZAc4Uox4PpBhQ9Y5_modZXWMxtUi4NU,88
+midjounery_python_sdk-0.1.0.dist-info/RECORD,,
