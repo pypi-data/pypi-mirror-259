@@ -1,0 +1,4 @@
+[console_scripts]
+BeihangBianyiYuanliKejian = BeihangBianyiYuanliKejian.__main__:main
+beihang-bianyi-yuanli-kejian = BeihangBianyiYuanliKejian.__main__:main
+
