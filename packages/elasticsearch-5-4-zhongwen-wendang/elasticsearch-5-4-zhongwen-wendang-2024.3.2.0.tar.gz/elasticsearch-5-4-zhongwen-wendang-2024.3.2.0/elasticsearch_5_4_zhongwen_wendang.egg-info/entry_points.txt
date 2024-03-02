@@ -1,0 +1,4 @@
+[console_scripts]
+Elasticsearch54ZhongwenWendang = Elasticsearch54ZhongwenWendang.__main__:main
+elasticsearch-5-4-zhongwen-wendang = Elasticsearch54ZhongwenWendang.__main__:main
+
