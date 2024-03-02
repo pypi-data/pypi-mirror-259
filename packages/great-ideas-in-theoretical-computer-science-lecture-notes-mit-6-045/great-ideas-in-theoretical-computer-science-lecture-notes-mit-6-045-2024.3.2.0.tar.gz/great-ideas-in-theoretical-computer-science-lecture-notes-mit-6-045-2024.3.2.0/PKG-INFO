@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: great-ideas-in-theoretical-computer-science-lecture-notes-mit-6-045
+Version: 2024.3.2.0
+Summary: Great Ideas in Theoretical Computer Science Lecture Notes (MIT 6.045)
+Home-page: https://github.com/apachecn/great-ideas-in-theoretical-computer-science-lecture-notes-mit-6-045
+Author: ApacheCN
+Author-email: apachecn@163.com
+License: UNKNOWN
+Description: # Great Ideas in Theoretical Computer Science Lecture Notes (MIT 6.045)
+        
+        ## 下载
+        
+        ### Docker
+        
+        ```
+        docker pull apachecn0/great-ideas-in-theoretical-computer-science-lecture-notes-mit-6-045
+        docker run -tid -p <port>:80 apachecn0/great-ideas-in-theoretical-computer-science-lecture-notes-mit-6-045
+        # 访问 http://localhost:{port} 查看文档
+        ```
+        
+        ### PYPI
+        
+        ```
+        pip install great-ideas-in-theoretical-computer-science-lecture-notes-mit-6-045
+        great-ideas-in-theoretical-computer-science-lecture-notes-mit-6-045 <port>
+        # 访问 http://localhost:{port} 查看文档
+        ```
+        
+        ### NPM
+        
+        ```
+        npm install -g great-ideas-in-theoretical-computer-science-lecture-notes-mit-6-lingsiwu
+        great-ideas-in-theoretical-computer-science-lecture-notes-mit-6-lingsiwu <port>
+        # 访问 http://localhost:{port} 查看文档
+        ```
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: Other/Proprietary License
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Text Processing :: Markup :: Markdown
+Classifier: Topic :: Text Processing :: Markup :: HTML
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development :: Documentation
+Classifier: Topic :: Documentation
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
