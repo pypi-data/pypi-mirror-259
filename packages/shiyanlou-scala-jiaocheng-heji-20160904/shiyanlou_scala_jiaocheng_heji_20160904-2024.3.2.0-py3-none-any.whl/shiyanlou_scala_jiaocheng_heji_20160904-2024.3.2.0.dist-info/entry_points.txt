@@ -1,0 +1,3 @@
+[console_scripts]
+ShiyanlouScalaJiaochengHeji20160904 = ShiyanlouScalaJiaochengHeji20160904.__main__:main
+shiyanlou-scala-jiaocheng-heji-20160904 = ShiyanlouScalaJiaochengHeji20160904.__main__:main
