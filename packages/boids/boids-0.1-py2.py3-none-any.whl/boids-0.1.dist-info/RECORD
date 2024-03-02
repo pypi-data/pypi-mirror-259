@@ -1,0 +1,8 @@
+boids/__init__.py,sha256=i3lSgLd86425oNBcmx-oJoZP7J52bkqsEuB8pg-imbA,264
+boids/boid.py,sha256=gAZqTDJkD4ptUlv5ta-PVYlEDXc-BBufnLm4lXCGITk,1088
+boids/functions.py,sha256=SxcbcXrsuJ1cpmQMncP15ZW6A-1h_pkkk0d7e5IizV8,4937
+boids/simulation.py,sha256=TRh_N_FyFs2hKuYHm6CJoSsuED73o3DUCWEmNz5_X4I,3633
+boids-0.1.dist-info/LICENSE,sha256=U8c-G9tpixT5gZCFV_mh8Dfq-peJqvfuvcIq3bdihHI,1076
+boids-0.1.dist-info/WHEEL,sha256=Sgu64hAMa6g5FdzHxXv9Xdse9yxpGGMeagVtPMWpJQY,99
+boids-0.1.dist-info/METADATA,sha256=SaBOwFDHP6yrZsMY_QZw-qkKDcoEi1wTgFjIBQMEGbo,1711
+boids-0.1.dist-info/RECORD,,
