@@ -1,0 +1,3 @@
+[console_scripts]
+RubyOnRailsJiaocheng = RubyOnRailsJiaocheng.__main__:main
+ruby-on-rails-jiaocheng = RubyOnRailsJiaocheng.__main__:main
