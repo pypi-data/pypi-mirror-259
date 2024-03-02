@@ -1,0 +1,1 @@
+from starknet_simple_deploy.utils.get_abi import get_abi
