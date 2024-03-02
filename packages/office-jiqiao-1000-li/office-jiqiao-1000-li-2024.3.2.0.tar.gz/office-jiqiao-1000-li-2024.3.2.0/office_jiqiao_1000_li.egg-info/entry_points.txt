@@ -1,0 +1,4 @@
+[console_scripts]
+OfficeJiqiao1000Li = OfficeJiqiao1000Li.__main__:main
+office-jiqiao-1000-li = OfficeJiqiao1000Li.__main__:main
+
