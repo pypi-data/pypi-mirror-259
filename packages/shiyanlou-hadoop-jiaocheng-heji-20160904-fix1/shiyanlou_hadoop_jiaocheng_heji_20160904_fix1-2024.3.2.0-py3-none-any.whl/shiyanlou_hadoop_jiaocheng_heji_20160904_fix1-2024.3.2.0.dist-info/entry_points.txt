@@ -1,0 +1,3 @@
+[console_scripts]
+ShiyanlouHadoopJiaochengHeji20160904Fix1 = ShiyanlouHadoopJiaochengHeji20160904Fix1.__main__:main
+shiyanlou-hadoop-jiaocheng-heji-20160904-fix1 = ShiyanlouHadoopJiaochengHeji20160904Fix1.__main__:main
