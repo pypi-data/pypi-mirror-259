@@ -1,0 +1,3 @@
+[console_scripts]
+Http2Jiangjie = Http2Jiangjie.__main__:main
+http2-jiangjie = Http2Jiangjie.__main__:main
