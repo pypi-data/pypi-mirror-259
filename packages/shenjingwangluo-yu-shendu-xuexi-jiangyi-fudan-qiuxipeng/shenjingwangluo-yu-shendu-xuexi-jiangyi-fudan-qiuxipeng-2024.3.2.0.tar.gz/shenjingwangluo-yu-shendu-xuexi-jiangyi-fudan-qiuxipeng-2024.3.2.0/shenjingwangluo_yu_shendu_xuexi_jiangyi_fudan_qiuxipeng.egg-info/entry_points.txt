@@ -1,0 +1,4 @@
+[console_scripts]
+ShenjingwangluoYuShenduXuexiJiangyiFudanQiuxipeng = ShenjingwangluoYuShenduXuexiJiangyiFudanQiuxipeng.__main__:main
+shenjingwangluo-yu-shendu-xuexi-jiangyi-fudan-qiuxipeng = ShenjingwangluoYuShenduXuexiJiangyiFudanQiuxipeng.__main__:main
+
