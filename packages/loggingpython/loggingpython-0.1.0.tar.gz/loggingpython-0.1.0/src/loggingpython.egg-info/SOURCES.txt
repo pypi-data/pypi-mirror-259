@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+src/loggingpy/__init__.py
+src/loggingpy/log_levels.py
+src/loggingpy/logger.py
+src/loggingpython.egg-info/PKG-INFO
+src/loggingpython.egg-info/SOURCES.txt
+src/loggingpython.egg-info/dependency_links.txt
+src/loggingpython.egg-info/top_level.txt
