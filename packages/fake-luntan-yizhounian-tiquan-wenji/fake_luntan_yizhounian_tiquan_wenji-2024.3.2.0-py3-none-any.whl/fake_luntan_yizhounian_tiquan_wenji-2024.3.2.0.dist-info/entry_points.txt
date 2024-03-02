@@ -1,0 +1,4 @@
+[console_scripts]
+FakeLuntanYizhounianTiquanWenji = FakeLuntanYizhounianTiquanWenji.__main__:main
+fake-luntan-yizhounian-tiquan-wenji = FakeLuntanYizhounianTiquanWenji.__main__:main
+
