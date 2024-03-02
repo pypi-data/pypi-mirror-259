@@ -1,0 +1,4 @@
+[console_scripts]
+TansuoEs2016YuEs2017 = TansuoEs2016YuEs2017.__main__:main
+tansuo-es2016-yu-es2017 = TansuoEs2016YuEs2017.__main__:main
+
