@@ -1,0 +1,4 @@
+[console_scripts]
+ProgrammingPracticeTutorialsKaistCs109 = ProgrammingPracticeTutorialsKaistCs109.__main__:main
+programming-practice-tutorials-kaist-cs109 = ProgrammingPracticeTutorialsKaistCs109.__main__:main
+
