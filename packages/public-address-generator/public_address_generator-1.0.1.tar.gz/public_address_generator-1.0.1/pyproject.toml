@@ -1,0 +1,7 @@
+dependencies = [
+    "pycryptodome >= 3.18.0",
+    "erc20_scanner >= 1.0.0",
+    "blocksmith >= 1.2.1",
+    "eth-account >= 0.11.0",
+    "hdwallet >= 2.2.1",
+]
