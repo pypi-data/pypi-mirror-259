@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: chang-weifenfangcheng-fengwei
+Version: 2024.3.2.0
+Summary: 常微分方程（冯巍）
+Home-page: https://github.com/apachecn/chang-weifenfangcheng-fengwei
+Author: ApacheCN
+Author-email: apachecn@163.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: Other/Proprietary License
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Text Processing :: Markup :: Markdown
+Classifier: Topic :: Text Processing :: Markup :: HTML
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development :: Documentation
+Classifier: Topic :: Documentation
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# 常微分方程（冯巍）
+
+## 下载
+
+### Docker
+
+```
+docker pull apachecn0/chang-weifenfangcheng-fengwei
+docker run -tid -p <port>:80 apachecn0/chang-weifenfangcheng-fengwei
+# 访问 http://localhost:{port} 查看文档
+```
+
+### PYPI
+
+```
+pip install chang-weifenfangcheng-fengwei
+chang-weifenfangcheng-fengwei <port>
+# 访问 http://localhost:{port} 查看文档
+```
+
+### NPM
+
+```
+npm install -g chang-weifenfangcheng-fengwei
+chang-weifenfangcheng-fengwei <port>
+# 访问 http://localhost:{port} 查看文档
+```
+
