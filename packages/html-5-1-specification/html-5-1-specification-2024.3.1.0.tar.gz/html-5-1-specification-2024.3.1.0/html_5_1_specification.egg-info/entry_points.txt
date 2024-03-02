@@ -1,0 +1,3 @@
+[console_scripts]
+Html51Specification = Html51Specification.__main__:main
+html-5-1-specification = Html51Specification.__main__:main
