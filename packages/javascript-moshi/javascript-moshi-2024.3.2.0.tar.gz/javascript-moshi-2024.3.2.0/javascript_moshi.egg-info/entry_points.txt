@@ -1,0 +1,3 @@
+[console_scripts]
+JavascriptMoshi = JavascriptMoshi.__main__:main
+javascript-moshi = JavascriptMoshi.__main__:main
