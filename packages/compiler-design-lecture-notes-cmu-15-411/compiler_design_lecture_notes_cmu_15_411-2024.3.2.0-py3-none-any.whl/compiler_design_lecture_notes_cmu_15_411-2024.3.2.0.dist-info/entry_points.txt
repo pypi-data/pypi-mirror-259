@@ -1,0 +1,4 @@
+[console_scripts]
+CompilerDesignLectureNotesCmu15411 = CompilerDesignLectureNotesCmu15411.__main__:main
+compiler-design-lecture-notes-cmu-15-411 = CompilerDesignLectureNotesCmu15411.__main__:main
+
