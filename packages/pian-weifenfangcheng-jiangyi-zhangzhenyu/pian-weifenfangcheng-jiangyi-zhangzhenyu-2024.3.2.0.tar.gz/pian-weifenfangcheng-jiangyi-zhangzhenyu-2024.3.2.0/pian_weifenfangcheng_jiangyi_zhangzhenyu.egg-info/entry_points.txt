@@ -1,0 +1,4 @@
+[console_scripts]
+PianWeifenfangchengJiangyiZhangzhenyu = PianWeifenfangchengJiangyiZhangzhenyu.__main__:main
+pian-weifenfangcheng-jiangyi-zhangzhenyu = PianWeifenfangchengJiangyiZhangzhenyu.__main__:main
+
