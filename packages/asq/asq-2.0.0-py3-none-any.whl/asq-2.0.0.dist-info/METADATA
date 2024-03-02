@@ -1,0 +1,84 @@
+Metadata-Version: 2.1
+Name: asq
+Version: 2.0.0
+Summary: LINQ-for-objects style queries for Python iterables.
+Home-page: https://github.com/sixty-north/asq
+Author: Sixty North AS
+Author-email: systems+asq@sixty-north.com
+License: MIT License
+Keywords: iterators iterables Python LINQ
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/x-rst
+License-File: LICENCE.txt
+Provides-Extra: dev
+Requires-Dist: bumpversion ; extra == 'dev'
+Provides-Extra: doc
+Requires-Dist: sphinx ; extra == 'doc'
+Requires-Dist: sphinx-rtd-theme ; extra == 'doc'
+Requires-Dist: better-apidoc ; extra == 'doc'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: coverage ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+Requires-Dist: hypothesis ; extra == 'test'
+Requires-Dist: tox ; extra == 'test'
+
+``asq`` is simple implementation of a LINQ-inspired API for Python which
+operates over Python iterables, including a parallel version implemented in
+terms of the Python standard library multiprocessing module.
+
+What It Does
+============
+
+``asq`` is a package implementing queries over iterables of Python
+objects.  `asq` provides a fluent interface making extensive use of method
+chaining to create complex queries without compromising readability.  For
+example, to take the first five uppercased results from a list of words sorted
+by length and then alphabetically, try::
+
+  >>> from asq import query
+  >>> words = ["zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten"]
+  >>> query(words).order_by(len).then_by().take(5).select(str.upper).to_list()
+  ['ONE', 'SIX', 'TEN', 'TWO', 'FIVE']
+
+Over 40 standard query operators are provided together with various utilities
+to make the API even more convenient to use in Python.
+
+Documentation
+=============
+
+Of course, there is full `Narrative and reference documentation for asq <http://asq.readthedocs.org/>`_
+
+Status
+======
+
+Build status:
+
+.. image:: https://travis-ci.org/sixty-north/segpy.svg?branch=master
+    :target: https://travis-ci.org/sixty-north/asq
+    :alt: Build Status
+
+.. image:: https://readthedocs.org/projects/asq/badge/?version=latest
+    :target: https://readthedocs.org/projects/asq/?badge=latest
+    :alt: Documentation Status
+
+How to get it
+=============
+
+``asq`` is available on the Python Package Index and can be installed with
+``easy_install`` or ``pip``::
+
+  $ pip install asq
+
+Requirements
+============
+
+This version of ``asq`` works with  and 3.9 and higher
