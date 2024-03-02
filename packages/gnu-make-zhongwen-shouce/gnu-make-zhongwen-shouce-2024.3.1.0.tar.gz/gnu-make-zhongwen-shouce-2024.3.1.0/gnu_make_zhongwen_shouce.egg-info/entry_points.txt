@@ -1,0 +1,3 @@
+[console_scripts]
+GnuMakeZhongwenShouce = GnuMakeZhongwenShouce.__main__:main
+gnu-make-zhongwen-shouce = GnuMakeZhongwenShouce.__main__:main

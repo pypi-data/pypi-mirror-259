@@ -1,0 +1,12 @@
+README.md
+setup.py
+GnuMakeZhongwenShouce/README.md
+GnuMakeZhongwenShouce/__init__.py
+GnuMakeZhongwenShouce/__main__.py
+GnuMakeZhongwenShouce/file.pdf
+GnuMakeZhongwenShouce/index.html
+gnu_make_zhongwen_shouce.egg-info/PKG-INFO
+gnu_make_zhongwen_shouce.egg-info/SOURCES.txt
+gnu_make_zhongwen_shouce.egg-info/dependency_links.txt
+gnu_make_zhongwen_shouce.egg-info/entry_points.txt
+gnu_make_zhongwen_shouce.egg-info/top_level.txt
