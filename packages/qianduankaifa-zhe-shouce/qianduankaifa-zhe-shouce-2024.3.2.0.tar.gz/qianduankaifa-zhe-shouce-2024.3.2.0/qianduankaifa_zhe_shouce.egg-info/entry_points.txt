@@ -1,0 +1,3 @@
+[console_scripts]
+QianduankaifaZheShouce = QianduankaifaZheShouce.__main__:main
+qianduankaifa-zhe-shouce = QianduankaifaZheShouce.__main__:main
