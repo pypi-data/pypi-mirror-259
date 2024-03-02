@@ -1,0 +1,4 @@
+[console_scripts]
+SecureProgramsHowto = SecureProgramsHowto.__main__:main
+secure-programs-howto = SecureProgramsHowto.__main__:main
+
