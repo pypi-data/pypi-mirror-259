@@ -1,0 +1,4 @@
+[console_scripts]
+CalculusWithApplicationsMit18013a = CalculusWithApplicationsMit18013a.__main__:main
+calculus-with-applications-mit-18-013a = CalculusWithApplicationsMit18013a.__main__:main
+
