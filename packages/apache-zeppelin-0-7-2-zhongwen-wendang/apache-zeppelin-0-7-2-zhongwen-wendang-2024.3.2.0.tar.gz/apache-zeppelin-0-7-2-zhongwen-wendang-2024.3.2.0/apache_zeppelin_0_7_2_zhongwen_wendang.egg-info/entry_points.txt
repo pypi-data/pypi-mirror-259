@@ -1,0 +1,4 @@
+[console_scripts]
+ApacheZeppelin072ZhongwenWendang = ApacheZeppelin072ZhongwenWendang.__main__:main
+apache-zeppelin-0-7-2-zhongwen-wendang = ApacheZeppelin072ZhongwenWendang.__main__:main
+
