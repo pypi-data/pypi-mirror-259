@@ -1,0 +1,14 @@
+crm-chatbot/__init__.py,sha256=QourGW7_7E-lS7jX8cxaoBAHmG1UnHC8nlQmYqUcNco,312
+crm-chatbot/access_token.py,sha256=4_K1033WrqcqT-3Vb-oPmJAxgjISsUV3ULzkZeN3flM,1208
+crm-chatbot/agent.py,sha256=7ebPX50OcY7CEIpdII0KnOvGxZ1FJIIYO-OV2zOzbso,3872
+crm-chatbot/answerRequests.py,sha256=fH-Kk6iTjUUjLG8Kf-olxd-FcZ6AcbhSitLTtuNva1Y,1428
+crm-chatbot/formatData.py,sha256=b314TIXuaAfrg5GeKBueaWdeco1mbC1qPNDCFnQ_4mw,442
+crm-chatbot/get_data.py,sha256=35fhdFTi5y4Eq-xWvHLZ0D2vSeFPVodjCUtYrsnLu2M,809
+crm-chatbot/handle_user_input.py,sha256=hyiGqwG1dnvOJ03J8KVpFGyORbRnLVlaukQiX3tNCIU,962
+crm-chatbot/response.py,sha256=2iV1waEA6dbQuvjptyvfAhl5lMD5RqW9UPJjR6v-GNk,685
+crm-chatbot/syntax.py,sha256=TvbBF0_XTRjz6BVnIgpkczhVYVRtGpjI-ni_9HfH2ao,3875
+crmchatbot-0.1.1.dist-info/LICENSE,sha256=5hwbgg0IJIk8b6xUltL6C5_Adabc5PVozkzWuctSVa4,1068
+crmchatbot-0.1.1.dist-info/METADATA,sha256=g8pqOyXJqE1oRdr4ISYI2FyIk5yyhBApuirC7JKZaJ8,2016
+crmchatbot-0.1.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+crmchatbot-0.1.1.dist-info/top_level.txt,sha256=zmGM82-foOlJ3esrhXywBbdwESYHXh9OuBY8rsPDGnE,12
+crmchatbot-0.1.1.dist-info/RECORD,,
