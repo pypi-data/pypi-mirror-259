@@ -1,0 +1,4 @@
+# Auto-generated version info.
+PACKAGE_SUFFIX = ""
+VERSION = "20240226.813"
+REVISIONS = {"IREE": "14895845b13cb776b33116c49998e2629e2fa1b8"}
