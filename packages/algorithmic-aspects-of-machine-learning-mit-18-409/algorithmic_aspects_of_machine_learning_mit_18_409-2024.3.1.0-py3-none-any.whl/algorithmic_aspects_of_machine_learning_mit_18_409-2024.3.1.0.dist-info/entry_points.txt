@@ -1,0 +1,4 @@
+[console_scripts]
+AlgorithmicAspectsOfMachineLearningMit18409 = AlgorithmicAspectsOfMachineLearningMit18409.__main__:main
+algorithmic-aspects-of-machine-learning-mit-18-409 = AlgorithmicAspectsOfMachineLearningMit18409.__main__:main
+
