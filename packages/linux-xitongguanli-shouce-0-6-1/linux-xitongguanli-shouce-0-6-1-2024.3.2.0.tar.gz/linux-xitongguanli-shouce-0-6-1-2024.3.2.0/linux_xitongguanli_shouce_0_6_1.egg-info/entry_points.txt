@@ -1,0 +1,4 @@
+[console_scripts]
+LinuxXitongguanliShouce061 = LinuxXitongguanliShouce061.__main__:main
+linux-xitongguanli-shouce-0-6-1 = LinuxXitongguanliShouce061.__main__:main
+
