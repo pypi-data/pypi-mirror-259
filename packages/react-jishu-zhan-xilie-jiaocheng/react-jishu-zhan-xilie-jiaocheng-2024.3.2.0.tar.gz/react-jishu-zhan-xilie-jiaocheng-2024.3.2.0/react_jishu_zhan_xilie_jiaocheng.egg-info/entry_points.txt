@@ -1,0 +1,3 @@
+[console_scripts]
+ReactJishuZhanXilieJiaocheng = ReactJishuZhanXilieJiaocheng.__main__:main
+react-jishu-zhan-xilie-jiaocheng = ReactJishuZhanXilieJiaocheng.__main__:main
