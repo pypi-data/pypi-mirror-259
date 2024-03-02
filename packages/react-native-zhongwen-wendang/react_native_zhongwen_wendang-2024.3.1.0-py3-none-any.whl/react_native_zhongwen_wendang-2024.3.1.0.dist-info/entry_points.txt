@@ -1,0 +1,3 @@
+[console_scripts]
+ReactNativeZhongwenWendang = ReactNativeZhongwenWendang.__main__:main
+react-native-zhongwen-wendang = ReactNativeZhongwenWendang.__main__:main
