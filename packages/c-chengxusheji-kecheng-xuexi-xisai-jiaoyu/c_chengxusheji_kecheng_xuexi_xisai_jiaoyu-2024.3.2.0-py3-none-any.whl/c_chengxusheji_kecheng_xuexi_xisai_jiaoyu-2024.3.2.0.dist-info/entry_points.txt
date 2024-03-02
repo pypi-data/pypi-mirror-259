@@ -1,0 +1,4 @@
+[console_scripts]
+CChengxushejiKechengXuexiXisaiJiaoyu = CChengxushejiKechengXuexiXisaiJiaoyu.__main__:main
+c-chengxusheji-kecheng-xuexi-xisai-jiaoyu = CChengxushejiKechengXuexiXisaiJiaoyu.__main__:main
+
