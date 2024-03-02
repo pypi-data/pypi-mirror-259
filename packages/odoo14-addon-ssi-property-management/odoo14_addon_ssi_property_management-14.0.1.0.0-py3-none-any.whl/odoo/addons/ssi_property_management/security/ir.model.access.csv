@@ -1,0 +1,5 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_property_object_type_configurator,property_object_type - configurator,model_property_object_type,property_object_type_group,1,1,1,1
+access_property_object_type_all,property_object_type - all user,model_property_object_type,,1,0,0,0
+access_property_object_configurator,property_object - configurator,model_property_object,property_object_group,1,1,1,1
+access_property_object_all,property_object - all user,model_property_object,,1,0,0,0
