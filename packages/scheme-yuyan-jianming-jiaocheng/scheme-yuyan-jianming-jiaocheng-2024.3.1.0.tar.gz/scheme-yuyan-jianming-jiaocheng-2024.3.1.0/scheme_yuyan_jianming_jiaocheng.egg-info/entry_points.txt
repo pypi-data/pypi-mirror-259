@@ -1,0 +1,3 @@
+[console_scripts]
+SchemeYuyanJianmingJiaocheng = SchemeYuyanJianmingJiaocheng.__main__:main
+scheme-yuyan-jianming-jiaocheng = SchemeYuyanJianmingJiaocheng.__main__:main
