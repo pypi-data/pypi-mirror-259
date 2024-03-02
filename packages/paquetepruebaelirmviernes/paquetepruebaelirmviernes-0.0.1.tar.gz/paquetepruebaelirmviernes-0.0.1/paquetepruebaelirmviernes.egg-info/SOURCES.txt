@@ -1,0 +1,11 @@
+setup.py
+paquetepruebaelirmviernes/__init__.py
+paquetepruebaelirmviernes/resta.py
+paquetepruebaelirmviernes/suma.py
+paquetepruebaelirmviernes.egg-info/PKG-INFO
+paquetepruebaelirmviernes.egg-info/SOURCES.txt
+paquetepruebaelirmviernes.egg-info/dependency_links.txt
+paquetepruebaelirmviernes.egg-info/top_level.txt
+paquetepruebaelirmviernes/extras/__init__.py
+paquetepruebaelirmviernes/extras/divide.py
+paquetepruebaelirmviernes/extras/multiplica.py
