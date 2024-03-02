@@ -1,0 +1,3 @@
+[console_scripts]
+JavascriptBiaozhunCankaoJiaocheng = JavascriptBiaozhunCankaoJiaocheng.__main__:main
+javascript-biaozhun-cankao-jiaocheng = JavascriptBiaozhunCankaoJiaocheng.__main__:main
