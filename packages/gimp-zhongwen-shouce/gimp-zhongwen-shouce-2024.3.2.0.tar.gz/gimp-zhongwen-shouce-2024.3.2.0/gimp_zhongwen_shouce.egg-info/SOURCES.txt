@@ -1,0 +1,12 @@
+README.md
+setup.py
+GimpZhongwenShouce/README.md
+GimpZhongwenShouce/__init__.py
+GimpZhongwenShouce/__main__.py
+GimpZhongwenShouce/file.pdf
+GimpZhongwenShouce/index.html
+gimp_zhongwen_shouce.egg-info/PKG-INFO
+gimp_zhongwen_shouce.egg-info/SOURCES.txt
+gimp_zhongwen_shouce.egg-info/dependency_links.txt
+gimp_zhongwen_shouce.egg-info/entry_points.txt
+gimp_zhongwen_shouce.egg-info/top_level.txt
