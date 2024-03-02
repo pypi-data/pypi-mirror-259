@@ -1,0 +1,4 @@
+[console_scripts]
+BeihangChengxushejiYuyanYuanliJiaocaiGong18Zhang = BeihangChengxushejiYuyanYuanliJiaocaiGong18Zhang.__main__:main
+beihang-chengxusheji-yuyan-yuanli-jiaocai-gong-18-zhang = BeihangChengxushejiYuyanYuanliJiaocaiGong18Zhang.__main__:main
+
