@@ -1,0 +1,3 @@
+[console_scripts]
+JianmingPythonJiaocheng = JianmingPythonJiaocheng.__main__:main
+jianming-python-jiaocheng = JianmingPythonJiaocheng.__main__:main
