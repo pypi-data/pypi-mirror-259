@@ -1,0 +1,3 @@
+[console_scripts]
+NodejsKaifaJiamiHuobi = NodejsKaifaJiamiHuobi.__main__:main
+nodejs-kaifa-jiami-huobi = NodejsKaifaJiamiHuobi.__main__:main
