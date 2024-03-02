@@ -1,0 +1,4 @@
+[console_scripts]
+GoByExampleZhongwenban = GoByExampleZhongwenban.__main__:main
+go-by-example-zhongwenban = GoByExampleZhongwenban.__main__:main
+
