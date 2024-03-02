@@ -1,0 +1,4 @@
+[console_scripts]
+GdiSdkCankaoFanyiBanben = GdiSdkCankaoFanyiBanben.__main__:main
+gdi-sdk-cankao-fanyi-banben = GdiSdkCankaoFanyiBanben.__main__:main
+
