@@ -1,0 +1,4 @@
+[console_scripts]
+HibernateKaifaZhinanXiaxin = HibernateKaifaZhinanXiaxin.__main__:main
+hibernate-kaifa-zhinan-xiaxin = HibernateKaifaZhinanXiaxin.__main__:main
+
