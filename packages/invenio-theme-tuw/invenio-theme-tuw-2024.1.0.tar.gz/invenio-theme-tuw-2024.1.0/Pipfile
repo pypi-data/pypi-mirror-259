@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = "<2.3"
+flask-babelex = "*"
+flask-limiter = "*"
+flask-session-captcha = "<1.4"
+invenio-app-rdm = "~=11.0"
+invenio-search = "*"
+opensearch-dsl = "*"
+werkzeug = "<2.3"
+
+[dev-packages]
+pytest = "<8.0"
+pytest-black = "*"
+pytest-invenio = "*"
+sphinx = "*"
+
+[requires]
+python_version = "3.8"
