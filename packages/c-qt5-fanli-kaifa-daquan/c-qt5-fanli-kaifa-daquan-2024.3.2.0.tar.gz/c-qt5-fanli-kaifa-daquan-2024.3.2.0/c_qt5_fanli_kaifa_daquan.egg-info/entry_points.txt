@@ -1,0 +1,4 @@
+[console_scripts]
+CQt5FanliKaifaDaquan = CQt5FanliKaifaDaquan.__main__:main
+c-qt5-fanli-kaifa-daquan = CQt5FanliKaifaDaquan.__main__:main
+

@@ -1,0 +1,12 @@
+README.md
+setup.py
+CQt5FanliKaifaDaquan/README.md
+CQt5FanliKaifaDaquan/__init__.py
+CQt5FanliKaifaDaquan/__main__.py
+CQt5FanliKaifaDaquan/file.pdf
+CQt5FanliKaifaDaquan/index.html
+c_qt5_fanli_kaifa_daquan.egg-info/PKG-INFO
+c_qt5_fanli_kaifa_daquan.egg-info/SOURCES.txt
+c_qt5_fanli_kaifa_daquan.egg-info/dependency_links.txt
+c_qt5_fanli_kaifa_daquan.egg-info/entry_points.txt
+c_qt5_fanli_kaifa_daquan.egg-info/top_level.txt
