@@ -1,0 +1,4 @@
+[console_scripts]
+GtkChengxushejiZhongwenban = GtkChengxushejiZhongwenban.__main__:main
+gtk-chengxusheji-zhongwenban = GtkChengxushejiZhongwenban.__main__:main
+
