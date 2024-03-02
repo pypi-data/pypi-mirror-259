@@ -1,0 +1,3 @@
+[console_scripts]
+HuizhiwangJiaochengHeji20160914Fix1 = HuizhiwangJiaochengHeji20160914Fix1.__main__:main
+huizhiwang-jiaocheng-heji-20160914-fix1 = HuizhiwangJiaochengHeji20160914Fix1.__main__:main
