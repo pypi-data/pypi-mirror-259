@@ -1,0 +1,4 @@
+[console_scripts]
+XianxingdaishuJiangyiWuhandaxueMatao = XianxingdaishuJiangyiWuhandaxueMatao.__main__:main
+xianxingdaishu-jiangyi-wuhandaxue-matao = XianxingdaishuJiangyiWuhandaxueMatao.__main__:main
+
