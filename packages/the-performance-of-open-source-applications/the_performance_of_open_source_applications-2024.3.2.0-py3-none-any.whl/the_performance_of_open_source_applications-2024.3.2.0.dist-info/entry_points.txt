@@ -1,0 +1,3 @@
+[console_scripts]
+ThePerformanceOfOpenSourceApplications = ThePerformanceOfOpenSourceApplications.__main__:main
+the-performance-of-open-source-applications = ThePerformanceOfOpenSourceApplications.__main__:main
