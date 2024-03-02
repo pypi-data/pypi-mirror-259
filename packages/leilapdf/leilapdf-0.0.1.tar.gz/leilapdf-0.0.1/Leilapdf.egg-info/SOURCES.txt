@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+Leilapdf.egg-info/PKG-INFO
+Leilapdf.egg-info/SOURCES.txt
+Leilapdf.egg-info/dependency_links.txt
+Leilapdf.egg-info/top_level.txt
+leilapdf/__init__.py
+leilapdf/pdf2image.py
+leilapdf/pdf2text.py
+leilapdf.egg-info/PKG-INFO
+leilapdf.egg-info/SOURCES.txt
+leilapdf.egg-info/dependency_links.txt
+leilapdf.egg-info/top_level.txt
