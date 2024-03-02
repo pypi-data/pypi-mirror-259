@@ -1,0 +1,4 @@
+[console_scripts]
+MarkovChainMonteCarloFoundationsApplicationsLectureNotesUcbCs294 = MarkovChainMonteCarloFoundationsApplicationsLectureNotesUcbCs294.__main__:main
+markov-chain-monte-carlo-foundations-applications-lecture-notes-ucb-cs294 = MarkovChainMonteCarloFoundationsApplicationsLectureNotesUcbCs294.__main__:main
+
