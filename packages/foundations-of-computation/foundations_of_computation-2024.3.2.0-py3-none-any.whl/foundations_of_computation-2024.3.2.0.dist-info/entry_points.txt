@@ -1,0 +1,3 @@
+[console_scripts]
+FoundationsOfComputation = FoundationsOfComputation.__main__:main
+foundations-of-computation = FoundationsOfComputation.__main__:main
