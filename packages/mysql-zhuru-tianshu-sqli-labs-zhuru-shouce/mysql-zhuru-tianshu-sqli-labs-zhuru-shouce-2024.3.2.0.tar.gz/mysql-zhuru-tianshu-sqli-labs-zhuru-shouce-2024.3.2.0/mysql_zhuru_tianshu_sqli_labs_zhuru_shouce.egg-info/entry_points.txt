@@ -1,0 +1,3 @@
+[console_scripts]
+MysqlZhuruTianshuSqliLabsZhuruShouce = MysqlZhuruTianshuSqliLabsZhuruShouce.__main__:main
+mysql-zhuru-tianshu-sqli-labs-zhuru-shouce = MysqlZhuruTianshuSqliLabsZhuruShouce.__main__:main
