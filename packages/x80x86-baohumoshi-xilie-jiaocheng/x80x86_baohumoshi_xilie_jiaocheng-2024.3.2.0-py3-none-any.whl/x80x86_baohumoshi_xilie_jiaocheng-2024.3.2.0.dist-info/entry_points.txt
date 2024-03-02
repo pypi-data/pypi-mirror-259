@@ -1,0 +1,4 @@
+[console_scripts]
+X80x86BaohumoshiXilieJiaocheng = X80x86BaohumoshiXilieJiaocheng.__main__:main
+x80x86-baohumoshi-xilie-jiaocheng = X80x86BaohumoshiXilieJiaocheng.__main__:main
+
