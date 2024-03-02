@@ -1,0 +1,3 @@
+[console_scripts]
+OpenglJiaocheng = OpenglJiaocheng.__main__:main
+opengl-jiaocheng = OpenglJiaocheng.__main__:main
