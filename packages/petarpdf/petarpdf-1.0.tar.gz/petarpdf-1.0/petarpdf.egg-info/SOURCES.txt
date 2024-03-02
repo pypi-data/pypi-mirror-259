@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+petarpdf/__init__.py
+petarpdf/pdf2image.py
+petarpdf/pdf2text.py
+petarpdf.egg-info/PKG-INFO
+petarpdf.egg-info/SOURCES.txt
+petarpdf.egg-info/dependency_links.txt
+petarpdf.egg-info/top_level.txt
