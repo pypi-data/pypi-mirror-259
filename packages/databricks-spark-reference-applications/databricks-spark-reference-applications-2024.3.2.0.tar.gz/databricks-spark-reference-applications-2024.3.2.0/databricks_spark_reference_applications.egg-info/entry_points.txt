@@ -1,0 +1,4 @@
+[console_scripts]
+DatabricksSparkReferenceApplications = DatabricksSparkReferenceApplications.__main__:main
+databricks-spark-reference-applications = DatabricksSparkReferenceApplications.__main__:main
+
