@@ -1,0 +1,3 @@
+[console_scripts]
+Jinja2ZhongwenWendang = Jinja2ZhongwenWendang.__main__:main
+jinja2-zhongwen-wendang = Jinja2ZhongwenWendang.__main__:main
