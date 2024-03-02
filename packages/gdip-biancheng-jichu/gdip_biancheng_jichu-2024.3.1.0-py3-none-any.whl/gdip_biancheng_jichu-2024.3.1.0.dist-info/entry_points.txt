@@ -1,0 +1,3 @@
+[console_scripts]
+GdipBianchengJichu = GdipBianchengJichu.__main__:main
+gdip-biancheng-jichu = GdipBianchengJichu.__main__:main
