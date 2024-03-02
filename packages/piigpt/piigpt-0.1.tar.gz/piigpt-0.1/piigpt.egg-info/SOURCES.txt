@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+piigpt.egg-info/PKG-INFO
+piigpt.egg-info/SOURCES.txt
+piigpt.egg-info/dependency_links.txt
+piigpt.egg-info/requires.txt
+piigpt.egg-info/top_level.txt
