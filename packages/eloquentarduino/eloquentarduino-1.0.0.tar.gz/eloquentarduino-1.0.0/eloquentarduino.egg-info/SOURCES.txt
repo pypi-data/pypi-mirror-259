@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+eloquent_edgeimpulse/__init__.py
+eloquent_edgeimpulse/fomo.py
+eloquent_edgeimpulse/image.py
+eloquent_edgeimpulse/runner.py
+eloquentarduino.egg-info/PKG-INFO
+eloquentarduino.egg-info/SOURCES.txt
+eloquentarduino.egg-info/dependency_links.txt
+eloquentarduino.egg-info/requires.txt
+eloquentarduino.egg-info/top_level.txt
