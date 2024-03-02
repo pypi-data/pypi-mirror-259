@@ -1,0 +1,10 @@
+README.md
+setup.py
+aliyun_logger/__init__.py
+aliyun_logger.egg-info/PKG-INFO
+aliyun_logger.egg-info/SOURCES.txt
+aliyun_logger.egg-info/dependency_links.txt
+aliyun_logger.egg-info/requires.txt
+aliyun_logger.egg-info/top_level.txt
+aliyun_logger/src/__init__.py
+aliyun_logger/src/aliyun_logger.py
