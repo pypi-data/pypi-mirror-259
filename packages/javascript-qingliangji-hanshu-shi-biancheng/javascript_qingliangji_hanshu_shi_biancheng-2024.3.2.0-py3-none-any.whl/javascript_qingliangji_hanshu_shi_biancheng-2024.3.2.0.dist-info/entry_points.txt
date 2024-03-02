@@ -1,0 +1,4 @@
+[console_scripts]
+JavascriptQingliangjiHanshuShiBiancheng = JavascriptQingliangjiHanshuShiBiancheng.__main__:main
+javascript-qingliangji-hanshu-shi-biancheng = JavascriptQingliangjiHanshuShiBiancheng.__main__:main
+
