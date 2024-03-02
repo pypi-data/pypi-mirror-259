@@ -1,0 +1,4 @@
+[console_scripts]
+GaodengshuxueCcpMaths165 = GaodengshuxueCcpMaths165.__main__:main
+gaodengshuxue-ccp-maths-165 = GaodengshuxueCcpMaths165.__main__:main
+
