@@ -1,0 +1,13 @@
+xdcheckin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xdcheckin/__main__.py,sha256=fIShD53NjyKzJYtIIh-QsuCJkAOG69wmCdVnZ6isW5Y,86
+xdcheckin/core/__init__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+xdcheckin/core/chaoxing.py,sha256=NpqrXZH5Ai_W92VmxFZoNco0b1hsfCTv0pqBaTuXi6s,27810
+xdcheckin/core/locations.py,sha256=UIyFKJoKs8w6MfeSI3HKe85IYzn37qjh8eMTY8r85VM,4190
+xdcheckin/server/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xdcheckin/server/server.py,sha256=wE5Az7DxovkLAEpusTkWvFQDz0kEVYx7WuR0C71dOS0,6639
+Xdcheckin-1.2.8.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+Xdcheckin-1.2.8.dist-info/METADATA,sha256=tdnJpEViaeyXwevWuYunFcH1UelECZvvrGVbathimo8,1929
+Xdcheckin-1.2.8.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+Xdcheckin-1.2.8.dist-info/entry_points.txt,sha256=oNE_51e098K7Q1fbs1JyUkmA8kYyfTadWmQBpIETnls,66
+Xdcheckin-1.2.8.dist-info/top_level.txt,sha256=NeRszzlOniv9IzLcIQkfRnau0hp0j6vIvCVOWNfUKF8,10
+Xdcheckin-1.2.8.dist-info/RECORD,,
