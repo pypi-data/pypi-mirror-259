@@ -1,0 +1,4 @@
+[console_scripts]
+ProgrammingLanguagesLectureNotesWashingtonCse341 = ProgrammingLanguagesLectureNotesWashingtonCse341.__main__:main
+programming-languages-lecture-notes-washington-cse341 = ProgrammingLanguagesLectureNotesWashingtonCse341.__main__:main
+
