@@ -1,0 +1,4 @@
+[console_scripts]
+IntroductionToNanoelectronicsMit6701 = IntroductionToNanoelectronicsMit6701.__main__:main
+introduction-to-nanoelectronics-mit-6-701 = IntroductionToNanoelectronicsMit6701.__main__:main
+
