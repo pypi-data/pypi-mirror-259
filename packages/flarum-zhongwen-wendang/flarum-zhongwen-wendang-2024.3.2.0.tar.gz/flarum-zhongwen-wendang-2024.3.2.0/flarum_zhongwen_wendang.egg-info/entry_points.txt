@@ -1,0 +1,3 @@
+[console_scripts]
+FlarumZhongwenWendang = FlarumZhongwenWendang.__main__:main
+flarum-zhongwen-wendang = FlarumZhongwenWendang.__main__:main
