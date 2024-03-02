@@ -1,0 +1,3 @@
+[console_scripts]
+SpringBootCankaoZhinan = SpringBootCankaoZhinan.__main__:main
+spring-boot-cankao-zhinan = SpringBootCankaoZhinan.__main__:main
