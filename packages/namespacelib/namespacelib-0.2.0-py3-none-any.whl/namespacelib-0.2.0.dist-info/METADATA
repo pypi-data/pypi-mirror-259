@@ -1,0 +1,84 @@
+Metadata-Version: 2.1
+Name: namespacelib
+Version: 0.2.0
+Summary: Utility library for the work with ontology namespaces.
+Home-page: https://github.com/matthiasprobst/namespacelib
+Author: Matthias Probst
+Author-email: matthias.probst@kit.edu
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: <3.13,>=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: rdflib
+Provides-Extra: complete
+Requires-Dist: pytest >=7.1.2 ; extra == 'complete'
+Provides-Extra: test
+Requires-Dist: pytest >=7.1.2 ; extra == 'test'
+
+# namespacelib
+
+Utility library for the work with ontology namespaces.
+
+## Usage
+
+The namespaces interfaces implemented in this package allow to get the URI as a class property. Implementation similar
+to
+`rdflib`, which has implemented popular ontologies, like `prov`:
+
+```python
+import rdflib
+
+print(rdflib.PROV.Agent)
+# rdflib.URIRef('http://www.w3.org/ns/prov#Agent')
+```
+
+Note, that you may access these namespaces also through `namespaclib` as it just
+"forwards" to `rdflib`.
+
+Other namespaces, like `M4I` can be accessed like this:
+
+```python
+
+import namespacelib
+
+print(namespacelib.M4I.Tool)
+# rdflib.URIRef('http://w3id.org/nfdi4ing/metadata4ing#Tool')
+```
+
+Very helpful for scientific data are the unit vocabulary `qudt`:
+
+```python
+
+import namespacelib
+
+print(namespacelib.QUDT_UNIT.M_PER_SEC)
+# rdflib.URIRef('http://qudt.org/vocab/unit/M-PER-SEC')
+
+print(namespacelib.QUDT_KIND.Velocity)
+# rdflib.URIRef('http://qudt.org/vocab/quantitykind/Velocity')
+```
+
+An URI, that does not exist will raise an error (Other than `rdflib`, which can raise an 
+AttributeError but does not by default!:
+```python
+
+import namespacelib
+
+# will raise an AttributeError:
+print(namespacelib.QUDT_UNIT.METER)
+```
+
+## Available namespaces:
+
+- [M4I](https://nfdi4ing.pages.rwth-aachen.de/metadata4ing/metadata4ing/)
+- OBO
+- [QUDT_UNIT](https://www.qudt.org/doc/DOC_VOCAB-UNITS.html)
+- [QUDT_KIND](https://www.qudt.org/doc/DOC_VOCAB-QUANTITY-KINDS.html)
