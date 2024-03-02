@@ -1,0 +1,4 @@
+[console_scripts]
+AnquanDanganDierqi = AnquanDanganDierqi.__main__:main
+anquan-dangan-dierqi = AnquanDanganDierqi.__main__:main
+
