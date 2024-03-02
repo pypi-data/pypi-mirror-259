@@ -1,0 +1,4 @@
+[console_scripts]
+WeixinGongzhongPingtaiKaifaWendang = WeixinGongzhongPingtaiKaifaWendang.__main__:main
+weixin-gongzhong-pingtai-kaifa-wendang = WeixinGongzhongPingtaiKaifaWendang.__main__:main
+
