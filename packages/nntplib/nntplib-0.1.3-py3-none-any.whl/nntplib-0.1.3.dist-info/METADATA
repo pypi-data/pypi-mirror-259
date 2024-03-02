@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: nntplib
+Version: 0.1.3
+Summary: NNTP module from the standard library
+Author-email: Matěj Cepl <mcepl@cepl.eu>
+License: BSD-3-Clause
+Project-URL: Homepage, https://git.cepl.eu/cgit/python/nntplib/
+Project-URL: Bug Tracker, https://lists.sr.ht/~mcepl/devel
+Keywords: nntp
+Classifier: Framework :: Django
+Classifier: License :: OSI Approved :: Python Software Foundation License
+Classifier: Topic :: Internet
+Classifier: Topic :: Communications :: Usenet News
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 3 - Alpha
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: importlib-metadata ; python_version < "3.8"
+
+nntplib library from Python 3 standard library as an independent module.
+
+Because `nntplib` is still a valid library in all relevant
+versions of the standard library up to and including Python 3.12,
+so when asking for it, the care should be made to avoid the
+conflict. For example, use this line in your `pyproject.toml`
+`project.dependencies` section:
+
+```
+    'nntplib; python_version>="3.12"'
+```
+
+All issues, questions, complaints, or (even better!) patches
+should be send via email to
+[~mcepl/devel@lists.sr.ht](mailto:~mcepl/devel@lists.sr.ht) email
+list (for patches use [git
+send-email](https://git-send-email.io/)).
