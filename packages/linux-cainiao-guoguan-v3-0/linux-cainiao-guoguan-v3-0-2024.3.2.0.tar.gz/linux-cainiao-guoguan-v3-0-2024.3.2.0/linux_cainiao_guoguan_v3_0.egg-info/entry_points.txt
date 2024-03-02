@@ -1,0 +1,4 @@
+[console_scripts]
+LinuxCainiaoGuoguanV30 = LinuxCainiaoGuoguanV30.__main__:main
+linux-cainiao-guoguan-v3-0 = LinuxCainiaoGuoguanV30.__main__:main
+
