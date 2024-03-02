@@ -1,0 +1,4 @@
+[console_scripts]
+LoudongLiyongDeYishuGongjiJavascriptYinqing = LoudongLiyongDeYishuGongjiJavascriptYinqing.__main__:main
+loudong-liyong-de-yishu-gongji-javascript-yinqing = LoudongLiyongDeYishuGongjiJavascriptYinqing.__main__:main
+
