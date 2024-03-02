@@ -1,0 +1,4 @@
+[console_scripts]
+InformationAndEntropyMit6050j = InformationAndEntropyMit6050j.__main__:main
+information-and-entropy-mit-6-050j = InformationAndEntropyMit6050j.__main__:main
+
