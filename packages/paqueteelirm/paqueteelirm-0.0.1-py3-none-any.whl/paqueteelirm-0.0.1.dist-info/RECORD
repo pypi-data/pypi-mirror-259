@@ -1,0 +1,10 @@
+paqueteelirm/__init__.py,sha256=BZckL2VW-LAZVXc7gIqb8ytKxS0maM8h8BsVRTRuZ7s,48
+paqueteelirm/resta.py,sha256=e7xeoP9Hd8304Llw40RlajLggFryRSFih7pLKV-ySJc,34
+paqueteelirm/suma.py,sha256=rXPpGGwDJQ3EkoIJRtwWy51euVG2lEPbNJVAIXw0n2o,33
+paqueteelirm/extras/__init__.py,sha256=nXN8q-EgpCZxTn-7pwdo7RkxpX0OuEhqmGasJP29Zmw,62
+paqueteelirm/extras/divide.py,sha256=yTyZQ14jv_yaEuG9x4L5kw_PfSdgIOooc19vz2C63AQ,121
+paqueteelirm/extras/multiplica.py,sha256=Ypm8hCaESuzWy7WqnJ-bhZXqCwPEeyTi549_p5WouBg,39
+paqueteelirm-0.0.1.dist-info/METADATA,sha256=z_SWVPJudp1rBYlEYad5x83SmBy3SPe3Fy9Ezu1IcX4,553
+paqueteelirm-0.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+paqueteelirm-0.0.1.dist-info/top_level.txt,sha256=yFizp5oUpN5AdAXUQEYpcABKRPg11r__nH5WwDNy69E,13
+paqueteelirm-0.0.1.dist-info/RECORD,,
