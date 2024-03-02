@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: common_flask_utils
+Version: 0.1.2
+Summary: Common Flask Utilities
+Home-page: https://github.com/Evan-acg/common_flask
+Author: Evanston Law
+Author-email: evanstonlaw555@gmail.com
+Requires-Dist: Flask
+Requires-Dist: Flask-SQLAlchemy
+Requires-Dist: python-i18n
+
