@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Copyright 2022 OpenSynergy Indonesia
+     Copyright 2022 PT. Simetri Sinergi Indonesia
+     License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl). -->
+<odoo>
+<record id="property_object_view_form" model="ir.ui.view">
+    <field name="name">property_object - form</field>
+    <field name="model">property_object</field>
+    <field name="inherit_id" ref="ssi_property_management.property_object_view_form" />
+    <field name="mode">extension</field>
+    <field name="arch" type="xml">
+        <data>
+            <xpath expr="//page[1]" position="after">
+                <page name="inventory" string="Inventory">
+                    <group name="inventory_1" colspan="4" col="2">
+                        <field
+                                name="allowed_warehouse_ids"
+                                widget="many2many_tags"
+                                invisible="1"
+                            />
+                        <field
+                                name="warehouse_id"
+                                domain="[('id','in',allowed_warehouse_ids)]"
+                            />
+                        <field
+                                name="allowed_location_ids"
+                                widget="many2many_tags"
+                                invisible="1"
+                            />
+                        <field
+                                name="location_id"
+                                domain="[('id','in',allowed_location_ids)]"
+                            />
+                    </group>
+                </page>
+            </xpath>
+        </data>
+    </field>
+</record>
+</odoo>
