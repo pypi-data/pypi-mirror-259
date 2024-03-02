@@ -1,0 +1,3 @@
+[console_scripts]
+Rails102 = Rails102.__main__:main
+rails-102 = Rails102.__main__:main
