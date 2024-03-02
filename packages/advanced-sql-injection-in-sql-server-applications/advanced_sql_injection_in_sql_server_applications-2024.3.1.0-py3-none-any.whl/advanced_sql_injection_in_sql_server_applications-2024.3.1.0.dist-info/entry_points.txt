@@ -1,0 +1,4 @@
+[console_scripts]
+AdvancedSqlInjectionInSqlServerApplications = AdvancedSqlInjectionInSqlServerApplications.__main__:main
+advanced-sql-injection-in-sql-server-applications = AdvancedSqlInjectionInSqlServerApplications.__main__:main
+
