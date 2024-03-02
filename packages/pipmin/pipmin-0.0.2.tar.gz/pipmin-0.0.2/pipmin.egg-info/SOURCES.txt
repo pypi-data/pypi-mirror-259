@@ -1,0 +1,9 @@
+setup.py
+pipmin/__init__.py
+pipmin/trim.py
+pipmin.egg-info/PKG-INFO
+pipmin.egg-info/SOURCES.txt
+pipmin.egg-info/dependency_links.txt
+pipmin.egg-info/entry_points.txt
+pipmin.egg-info/requires.txt
+pipmin.egg-info/top_level.txt
