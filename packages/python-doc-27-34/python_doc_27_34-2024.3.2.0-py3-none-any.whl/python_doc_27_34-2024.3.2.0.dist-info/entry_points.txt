@@ -1,0 +1,3 @@
+[console_scripts]
+PythonDoc2734 = PythonDoc2734.__main__:main
+python-doc-27-34 = PythonDoc2734.__main__:main
