@@ -1,0 +1,4 @@
+[console_scripts]
+PyalgotradeYonghushouceZhongwenban = PyalgotradeYonghushouceZhongwenban.__main__:main
+pyalgotrade-yonghushouce-zhongwenban = PyalgotradeYonghushouceZhongwenban.__main__:main
+
