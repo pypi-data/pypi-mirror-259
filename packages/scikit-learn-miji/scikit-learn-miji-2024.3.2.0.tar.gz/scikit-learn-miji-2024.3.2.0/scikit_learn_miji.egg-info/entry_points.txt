@@ -1,0 +1,4 @@
+[console_scripts]
+ScikitLearnMiji = ScikitLearnMiji.__main__:main
+scikit-learn-miji = ScikitLearnMiji.__main__:main
+
