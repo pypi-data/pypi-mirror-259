@@ -1,0 +1,4 @@
+[console_scripts]
+MofanPythonJiaocheng2017510 = MofanPythonJiaocheng2017510.__main__:main
+mofan-python-jiaocheng-2017-5-10 = MofanPythonJiaocheng2017510.__main__:main
+
