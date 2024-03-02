@@ -1,0 +1,4 @@
+[console_scripts]
+AlgebraicGraphAlgorithmsLectureNotesStanfordCs367 = AlgebraicGraphAlgorithmsLectureNotesStanfordCs367.__main__:main
+algebraic-graph-algorithms-lecture-notes-stanford-cs367 = AlgebraicGraphAlgorithmsLectureNotesStanfordCs367.__main__:main
+
