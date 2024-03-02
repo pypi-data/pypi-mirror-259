@@ -1,0 +1,4 @@
+[console_scripts]
+CPrimerDi4BanKehouXitiJiedaDi118ZhangWanzhengban = CPrimerDi4BanKehouXitiJiedaDi118ZhangWanzhengban.__main__:main
+c-primer-di-4-ban-kehou-xiti-jieda-di-1-18-zhang-wanzhengban = CPrimerDi4BanKehouXitiJiedaDi118ZhangWanzhengban.__main__:main
+

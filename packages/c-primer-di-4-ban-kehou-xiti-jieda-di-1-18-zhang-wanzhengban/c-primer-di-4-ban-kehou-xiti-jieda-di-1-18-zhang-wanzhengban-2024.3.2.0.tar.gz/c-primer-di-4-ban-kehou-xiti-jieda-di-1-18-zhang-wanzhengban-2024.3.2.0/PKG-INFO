@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: c-primer-di-4-ban-kehou-xiti-jieda-di-1-18-zhang-wanzhengban
+Version: 2024.3.2.0
+Summary: C++Primer第4版课后习题解答(第1-18章)完整版
+Home-page: https://github.com/apachecn/c-primer-di-4-ban-kehou-xiti-jieda-di-1-18-zhang-wanzhengban
+Author: ApacheCN
+Author-email: apachecn@163.com
+License: UNKNOWN
+Description: # C++Primer第4版课后习题解答(第1-18章)完整版
+        
+        ## 下载
+        
+        ### Docker
+        
+        ```
+        docker pull apachecn0/c-primer-di-4-ban-kehou-xiti-jieda-di-1-18-zhang-wanzhengban
+        docker run -tid -p <port>:80 apachecn0/c-primer-di-4-ban-kehou-xiti-jieda-di-1-18-zhang-wanzhengban
+        # 访问 http://localhost:{port} 查看文档
+        ```
+        
+        ### PYPI
+        
+        ```
+        pip install c-primer-di-4-ban-kehou-xiti-jieda-di-1-18-zhang-wanzhengban
+        c-primer-di-4-ban-kehou-xiti-jieda-di-1-18-zhang-wanzhengban <port>
+        # 访问 http://localhost:{port} 查看文档
+        ```
+        
+        ### NPM
+        
+        ```
+        npm install -g c-primer-di-4-ban-kehou-xiti-jieda-di-1-yiba-zhang-wanzhengban
+        c-primer-di-4-ban-kehou-xiti-jieda-di-1-yiba-zhang-wanzhengban <port>
+        # 访问 http://localhost:{port} 查看文档
+        ```
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: Other/Proprietary License
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Text Processing :: Markup :: Markdown
+Classifier: Topic :: Text Processing :: Markup :: HTML
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development :: Documentation
+Classifier: Topic :: Documentation
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
