@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: tenlineeda
+Version: 0.0.4
+Summary: I'm tring to making EDA a bit faster for data scientist
+Author: may_b_prince
+Author-email: princekminati@gmail.com
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+
+This Library has only one function called <summery>, it will generate your EDA and tells you where you have to dig deeper
