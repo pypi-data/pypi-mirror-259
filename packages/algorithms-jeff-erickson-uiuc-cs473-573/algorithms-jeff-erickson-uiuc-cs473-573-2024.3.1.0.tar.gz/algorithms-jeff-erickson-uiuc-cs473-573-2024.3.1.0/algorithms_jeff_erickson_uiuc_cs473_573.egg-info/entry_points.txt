@@ -1,0 +1,4 @@
+[console_scripts]
+AlgorithmsJeffEricksonUiucCs473573 = AlgorithmsJeffEricksonUiucCs473573.__main__:main
+algorithms-jeff-erickson-uiuc-cs473-573 = AlgorithmsJeffEricksonUiucCs473573.__main__:main
+

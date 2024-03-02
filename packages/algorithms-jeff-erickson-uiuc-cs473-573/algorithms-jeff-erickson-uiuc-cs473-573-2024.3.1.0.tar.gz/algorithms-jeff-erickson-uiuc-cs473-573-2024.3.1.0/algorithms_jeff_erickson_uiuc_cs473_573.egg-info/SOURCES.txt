@@ -1,0 +1,12 @@
+README.md
+setup.py
+AlgorithmsJeffEricksonUiucCs473573/README.md
+AlgorithmsJeffEricksonUiucCs473573/__init__.py
+AlgorithmsJeffEricksonUiucCs473573/__main__.py
+AlgorithmsJeffEricksonUiucCs473573/file.pdf
+AlgorithmsJeffEricksonUiucCs473573/index.html
+algorithms_jeff_erickson_uiuc_cs473_573.egg-info/PKG-INFO
+algorithms_jeff_erickson_uiuc_cs473_573.egg-info/SOURCES.txt
+algorithms_jeff_erickson_uiuc_cs473_573.egg-info/dependency_links.txt
+algorithms_jeff_erickson_uiuc_cs473_573.egg-info/entry_points.txt
+algorithms_jeff_erickson_uiuc_cs473_573.egg-info/top_level.txt
