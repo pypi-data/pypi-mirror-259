@@ -1,0 +1,4 @@
+[console_scripts]
+GoJianyiJiaocheng = GoJianyiJiaocheng.__main__:main
+go-jianyi-jiaocheng = GoJianyiJiaocheng.__main__:main
+
