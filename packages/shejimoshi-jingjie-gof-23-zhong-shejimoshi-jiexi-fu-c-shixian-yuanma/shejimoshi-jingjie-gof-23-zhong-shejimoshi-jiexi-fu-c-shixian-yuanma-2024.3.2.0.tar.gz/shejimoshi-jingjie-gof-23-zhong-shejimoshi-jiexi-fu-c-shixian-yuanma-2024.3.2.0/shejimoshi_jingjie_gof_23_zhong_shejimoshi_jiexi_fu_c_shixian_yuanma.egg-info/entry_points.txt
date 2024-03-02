@@ -1,0 +1,4 @@
+[console_scripts]
+ShejimoshiJingjieGof23ZhongShejimoshiJiexiFuCShixianYuanma = ShejimoshiJingjieGof23ZhongShejimoshiJiexiFuCShixianYuanma.__main__:main
+shejimoshi-jingjie-gof-23-zhong-shejimoshi-jiexi-fu-c-shixian-yuanma = ShejimoshiJingjieGof23ZhongShejimoshiJiexiFuCShixianYuanma.__main__:main
+
