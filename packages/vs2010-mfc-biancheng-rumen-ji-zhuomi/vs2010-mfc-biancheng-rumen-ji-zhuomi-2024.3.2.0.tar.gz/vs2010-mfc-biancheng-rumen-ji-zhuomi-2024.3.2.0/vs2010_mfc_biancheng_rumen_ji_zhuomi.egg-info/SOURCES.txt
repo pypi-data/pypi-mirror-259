@@ -1,0 +1,12 @@
+README.md
+setup.py
+Vs2010MfcBianchengRumenJiZhuomi/README.md
+Vs2010MfcBianchengRumenJiZhuomi/__init__.py
+Vs2010MfcBianchengRumenJiZhuomi/__main__.py
+Vs2010MfcBianchengRumenJiZhuomi/file.pdf
+Vs2010MfcBianchengRumenJiZhuomi/index.html
+vs2010_mfc_biancheng_rumen_ji_zhuomi.egg-info/PKG-INFO
+vs2010_mfc_biancheng_rumen_ji_zhuomi.egg-info/SOURCES.txt
+vs2010_mfc_biancheng_rumen_ji_zhuomi.egg-info/dependency_links.txt
+vs2010_mfc_biancheng_rumen_ji_zhuomi.egg-info/entry_points.txt
+vs2010_mfc_biancheng_rumen_ji_zhuomi.egg-info/top_level.txt
