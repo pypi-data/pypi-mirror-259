@@ -1,0 +1,4 @@
+[console_scripts]
+BuildingBlocksForTheoreticalComputerScienceUiucCs173 = BuildingBlocksForTheoreticalComputerScienceUiucCs173.__main__:main
+building-blocks-for-theoretical-computer-science-uiuc-cs173 = BuildingBlocksForTheoreticalComputerScienceUiucCs173.__main__:main
+
