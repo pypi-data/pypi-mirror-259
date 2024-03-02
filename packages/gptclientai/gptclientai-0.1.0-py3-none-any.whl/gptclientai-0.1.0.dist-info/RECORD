@@ -1,0 +1,10 @@
+gptclientai/__init__.py,sha256=kXlgG8FZTTDsH6D2oYIZaVQMR_zWTgM3EAi7rx0uzcw,62
+gptclientai/client.py,sha256=mOyzyipdYrTzeQSCYZ37j8DQVCsXJqWirbeq84E0UsA,1369
+gptclientai/Provider/__init__.py,sha256=O8_GCmcZ1yiH9VrYFy5MWYD-7pnIX9qkk4iaOZL0BaE,96
+gptclientai/Provider/deepinfra.py,sha256=hw4JIlRpDyXQHe3nwUoA5rNdWUBzNAeMcngN-wpK6xs,1885
+gptclientai/Provider/freechatgpt.py,sha256=Pob4rgWE7cWGR8rLiAxsd3drOmkMsvZI8mMbu-8SwUk,1327
+gptclientai/Provider/koala.py,sha256=ZXRY9q9AhyVb03aRgUXDK85usSTgDAdMshQMU2uXXWg,2003
+gptclientai-0.1.0.dist-info/METADATA,sha256=T0RxQncBWH0xPYZTliSxpZ2g5t9UzT0YcX30oVv04sc,4039
+gptclientai-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+gptclientai-0.1.0.dist-info/top_level.txt,sha256=lf-lDC5uOh39crXiGepZlMk-TKGrPQ3ixAYf5Mqom1A,12
+gptclientai-0.1.0.dist-info/RECORD,,
