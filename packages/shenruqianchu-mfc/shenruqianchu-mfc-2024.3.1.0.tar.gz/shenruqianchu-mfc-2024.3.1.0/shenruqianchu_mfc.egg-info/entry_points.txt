@@ -1,0 +1,3 @@
+[console_scripts]
+ShenruqianchuMfc = ShenruqianchuMfc.__main__:main
+shenruqianchu-mfc = ShenruqianchuMfc.__main__:main
