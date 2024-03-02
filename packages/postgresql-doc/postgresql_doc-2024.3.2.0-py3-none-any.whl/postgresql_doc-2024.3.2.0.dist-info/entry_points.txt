@@ -1,0 +1,3 @@
+[console_scripts]
+PostgresqlDoc = PostgresqlDoc.__main__:main
+postgresql-doc = PostgresqlDoc.__main__:main
