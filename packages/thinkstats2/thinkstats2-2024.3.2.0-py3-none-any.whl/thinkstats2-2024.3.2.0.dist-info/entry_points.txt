@@ -1,0 +1,3 @@
+[console_scripts]
+Thinkstats2 = Thinkstats2.__main__:main
+thinkstats2 = Thinkstats2.__main__:main
