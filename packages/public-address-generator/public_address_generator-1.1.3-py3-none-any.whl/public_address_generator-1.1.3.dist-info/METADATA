@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: public_address_generator
+Version: 1.1.3
+Summary: Generate public address from mnemonic-phrase or pivate key
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: blocksmith
+Requires-Dist: hdwallet
+Requires-Dist: pycryptodomex
+Requires-Dist: eth-account
+Requires-Dist: erc20-scanner
+
+# Public Address Generator
+Generate EVM public address from mnemonic-phrase or private key.
+
+# Installation 
+```
+pip install public_address_generator
+```
+
+# Usage 
+
+```
+a_g = public_address_generator.MnemonicConverter(mnemonic)
+pub_address = a_g.get_evm_address(1)
+```
+
+# TODO
+Currently EVM only addresses are suported. BTC and LTC addresses will be added in the next update.
