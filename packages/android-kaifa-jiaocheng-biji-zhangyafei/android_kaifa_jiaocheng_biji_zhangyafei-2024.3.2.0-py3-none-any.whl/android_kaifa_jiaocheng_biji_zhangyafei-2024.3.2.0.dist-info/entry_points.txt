@@ -1,0 +1,4 @@
+[console_scripts]
+AndroidKaifaJiaochengBijiZhangyafei = AndroidKaifaJiaochengBijiZhangyafei.__main__:main
+android-kaifa-jiaocheng-biji-zhangyafei = AndroidKaifaJiaochengBijiZhangyafei.__main__:main
+
