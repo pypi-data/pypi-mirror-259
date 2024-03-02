@@ -1,0 +1,16 @@
+README.md
+setup.py
+dnevnik/Authenticator.py
+dnevnik/Client.py
+dnevnik/FileAuthenticator.py
+dnevnik/IncorrectLoginPassword.py
+dnevnik/PlayWrightAuthenticator.py
+dnevnik/PredefinedAuthenticator.py
+dnevnik/TOTPRequested.py
+dnevnik/Utils.py
+dnevnik/__init__.py
+dnevnik_mos_ru_api.egg-info/PKG-INFO
+dnevnik_mos_ru_api.egg-info/SOURCES.txt
+dnevnik_mos_ru_api.egg-info/dependency_links.txt
+dnevnik_mos_ru_api.egg-info/requires.txt
+dnevnik_mos_ru_api.egg-info/top_level.txt
