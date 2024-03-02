@@ -1,0 +1,3 @@
+[console_scripts]
+LiaoXuefengJavascriptPythonGitJiaocheng = LiaoXuefengJavascriptPythonGitJiaocheng.__main__:main
+liao-xuefeng-javascript-python-git-jiaocheng = LiaoXuefengJavascriptPythonGitJiaocheng.__main__:main
