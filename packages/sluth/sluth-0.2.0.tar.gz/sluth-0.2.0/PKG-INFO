@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: sluth
+Version: 0.2.0
+Summary: 
+Home-page: https://github.com/bentheiii/sluth
+License: MIT
+Author: ben avrahami
+Author-email: avrahami.ben@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Project-URL: Repository, https://github.com/bentheiii/sluth
+Description-Content-Type: text/markdown
+
+# Sluth- a python library to find python definitions in code without running it
+
+Sluth is a simple utility to find definitions in python code without running it. It is useful for building documentation, finding dependencies, and other tasks that require knowing what a python file does without running it.
+
+```python
+from sluth import NodeWalk
+
+source = """
+raise ValueError('This file cannot be run')
+
+class Foo:
+    def bar(self):
+        pass
+"""
+
+node_walk = NodeWalk.from_source(source)
+assert node_walk["Foo"]["bar"].lineno == 5
+```
