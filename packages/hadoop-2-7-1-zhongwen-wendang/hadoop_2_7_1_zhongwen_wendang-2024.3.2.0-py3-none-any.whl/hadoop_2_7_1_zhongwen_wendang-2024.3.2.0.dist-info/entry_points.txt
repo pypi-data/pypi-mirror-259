@@ -1,0 +1,4 @@
+[console_scripts]
+Hadoop271ZhongwenWendang = Hadoop271ZhongwenWendang.__main__:main
+hadoop-2-7-1-zhongwen-wendang = Hadoop271ZhongwenWendang.__main__:main
+
