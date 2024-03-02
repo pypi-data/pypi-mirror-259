@@ -1,0 +1,3 @@
+[console_scripts]
+ModernJavaAGuideToJava8 = ModernJavaAGuideToJava8.__main__:main
+modern-java-a-guide-to-java-8 = ModernJavaAGuideToJava8.__main__:main
