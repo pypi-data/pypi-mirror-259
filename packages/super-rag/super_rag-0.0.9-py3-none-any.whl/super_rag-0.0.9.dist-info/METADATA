@@ -1,0 +1,203 @@
+Metadata-Version: 2.1
+Name: super-rag
+Version: 0.0.9
+Summary: Super-performant RAG pipelines for AI apps
+Author: Superagent Technologies Inc.
+Requires-Python: >=3.9,<3.12
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: astrapy (>=0.7.4,<0.8.0)
+Requires-Dist: black (>=23.12.1,<24.0.0)
+Requires-Dist: cmake (>=3.28.1,<4.0.0)
+Requires-Dist: cohere (>=4.46,<5.0)
+Requires-Dist: docx2txt (>=0.8,<0.9)
+Requires-Dist: e2b (>=0.14.7,<0.15.0)
+Requires-Dist: fastapi (>=0.109.2,<0.110.0)
+Requires-Dist: flake8 (>=7.0.0,<8.0.0)
+Requires-Dist: gunicorn (>=21.2.0,<22.0.0)
+Requires-Dist: llama-index (>=0.9.46,<0.10.0)
+Requires-Dist: openai (>=1.12.0,<2.0.0)
+Requires-Dist: pinecone-client (>=3.0.2,<4.0.0)
+Requires-Dist: pypdf (>=4.0.1,<5.0.0)
+Requires-Dist: python-decouple (>=3.8,<4.0)
+Requires-Dist: python-dotenv (>=1.0.1,<2.0.0)
+Requires-Dist: qdrant-client (>=1.7.3,<2.0.0)
+Requires-Dist: ruff (>=0.2.1,<0.3.0)
+Requires-Dist: semantic-router (>=0.0.26,<0.0.27)
+Requires-Dist: tiktoken (>=0.6.0,<0.7.0)
+Requires-Dist: tqdm (>=4.66.2,<5.0.0)
+Requires-Dist: unstructured-client (>=0.18.0,<0.19.0)
+Requires-Dist: unstructured[google-drive] (>=0.12.4,<0.13.0)
+Requires-Dist: uvicorn (>=0.27.1,<0.28.0)
+Requires-Dist: vulture (>=2.11,<3.0)
+Requires-Dist: weaviate-client (>=4.1.2,<5.0.0)
+Description-Content-Type: text/markdown
+
+<div align="center">
+	<img width="100px" src="https://github.com/homanp/superagent/assets/2464556/eb51fa38-4a2a-4c41-b348-d3c1abc04234" />
+	<h1>Super-Rag</h1>
+	<p>
+		<b>Super performant RAG pipeline for AI apps.</b>
+	</p>
+	<br>
+    <p align="center">
+        <a href="#-key-features">Features</a> •
+        <a href="#-installation">Installation</a> •
+        <a href="#-how-to-use">How to use</a> •
+        <a href="#-cloud-api">Cloud API</a>
+    </p>
+</div>
+
+
+## ✅ Key features
+ - Supports multiple document formats and vector databases.
+ - Provides a production ready REST API.
+ - Customizable splitting/chunking.
+ - Includes options for encoding data using different encoding models both propriatory and open source.
+ - Built in code interpreter mode for computational question & answer scenarios.
+ - Allows session management through unique IDs for caching purposes.
+
+## ☁️ Cloud API 
+
+Easiset way to get started is to use our [Cloud API](https://d3jvqvcd9u4534.cloudfront.net). This API is free to use (within reasonable limits).
+
+## 📦  Installation
+
+1. Clone the repository
+    ```bash
+    git clone https://github.com/superagent-ai/super-rag 
+    cd super-rag 
+    ```
+
+2. Setup virtual environment
+    ```bash
+    # Using virtualenv 
+    virtualenv env 
+    source env/bin/activate 
+    
+    # Or using venv 
+    python3 -m venv env 
+    source env/bin/activate 
+    ```
+
+3. Install requried packages
+    ```bash
+    poetry install
+    ```
+
+4. Rename `.env.example` to `.env` and set your environment variables
+
+5. Run server
+    ```bash
+    uvicorn main:app --reload
+    ```
+
+## 🚀 How to use 
+Super-Rag comes with a built in REST API powered by FastApi. 
+
+### Ingest documents
+```json
+// POST: /api/v1/ingest
+
+// Payload
+{
+    "files": [
+        {
+            "name": "My file", // Optional
+            "url": "https://path-to-my-file.pdf"
+        }
+    ],
+    "document_processor": { // Optional
+        "encoder": {
+            "dimensions": 384,
+            "model_name": "embed-multilingual-light-v3.0",
+            "provider": "cohere"
+        },
+        "unstructured": {
+            "hi_res_model_name": "detectron2_onnx",
+            "partition_strategy": "auto",
+            "process_tables": false
+        },
+        "splitter": {
+            "max_tokens": 400,
+            "min_tokens": 30,
+            "name": "semantic",
+            "prefix_summary": true,
+            "prefix_title": true,
+            "rolling_window_size": 1
+        }
+    },
+    "vector_database": {
+        "type": "qdrant",
+        "config": {
+            "api_key": "YOUR API KEY",
+            "host": "THE QDRANT HOST"
+        }
+    },
+    "index_name": "my_index",
+    "webhook_url": "https://my-webhook-url"
+}
+```
+
+### Query documents
+```json
+// POST: /api/v1/query
+
+// Payload
+{
+    "input": "What is ReAct",
+    "vector_database": {
+            "type": "qdrant",
+            "config": {
+            "api_key": "YOUR API KEY",
+            "host": "THE QDRANT HOST"
+        }
+        },
+    "index_name": "YOUR INDEX",
+    "interpreter_mode": true,
+    "encoder": {
+        "provider": "cohere",
+        "name": "embed-multilingual-light-v3.0",
+        "dimensions": 384
+    },
+    "exclude_fields": ["metadata"], // Exclude specific fields
+    "interpreter_mode": False, // Set to True if you wish to run computation Q&A with a code interpreter
+    "session_id": "my_session_id" // keeps micro-vm sessions and enables caching 
+}
+```
+
+### Delete document
+```json
+// POST: /api/v1/delete
+
+// Payload
+{
+    "file_url": "A file url to delete",
+    "vector_database": {
+        "type": "qdrant",
+        "config": {
+            "api_key": "YOUR API KEY",
+            "host": "THE QDRANT HOST"
+        }
+    },
+    "index_name": "my_index",
+}
+
+```
+
+## 🧠 Supportd encoders
+- OpenAi
+- Cohere
+- HuggingFace
+- FastEmbed
+
+
+## 🗃 Supported vector databases
+- Weaviate
+- Qdrant
+- Weaviate
+- Astra
+- Supabase (coming soon)
+
