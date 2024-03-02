@@ -1,0 +1,3 @@
+[console_scripts]
+DaxueBaKaliLinuxAnquanShentouJiaochengFix1 = DaxueBaKaliLinuxAnquanShentouJiaochengFix1.__main__:main
+daxue-ba-kali-linux-anquan-shentou-jiaocheng-fix1 = DaxueBaKaliLinuxAnquanShentouJiaochengFix1.__main__:main
