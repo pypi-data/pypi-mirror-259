@@ -1,0 +1,4 @@
+pyttsx3
+cryptography
+speechrecognition
+ursina
