@@ -1,0 +1,3 @@
+[console_scripts]
+ShiyanlouNosqlJiaochengHeji20160904 = ShiyanlouNosqlJiaochengHeji20160904.__main__:main
+shiyanlou-nosql-jiaocheng-heji-20160904 = ShiyanlouNosqlJiaochengHeji20160904.__main__:main
