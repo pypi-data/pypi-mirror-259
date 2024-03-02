@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: meow-sms
+Version: 0.1.0
+Summary: Асинхронный модуль для работы с Meow SMS API
+Author: fafatypoty
+Author-email: fafatypoty@proton.me
+License: Apache License, Version 2.0, see LICENSE file
+Project-URL: Telegram, https://t.me/fafatypoty_cloaca
+Project-URL: Github, https://github.com/fafatypoty/meow-sms
+Keywords: meow,meow api,asyncmeow,meow sms,meowsms
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: setuptools
+Requires-Dist: pydantic
+Requires-Dist: aiohttp
+Requires-Dist: APScheduler
