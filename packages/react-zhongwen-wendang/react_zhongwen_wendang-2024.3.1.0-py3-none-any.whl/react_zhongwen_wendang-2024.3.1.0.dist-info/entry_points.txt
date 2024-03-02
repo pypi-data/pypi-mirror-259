@@ -1,0 +1,3 @@
+[console_scripts]
+ReactZhongwenWendang = ReactZhongwenWendang.__main__:main
+react-zhongwen-wendang = ReactZhongwenWendang.__main__:main
