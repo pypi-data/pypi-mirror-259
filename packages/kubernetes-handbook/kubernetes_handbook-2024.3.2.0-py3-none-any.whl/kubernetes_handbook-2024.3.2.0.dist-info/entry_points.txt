@@ -1,0 +1,4 @@
+[console_scripts]
+KubernetesHandbook = KubernetesHandbook.__main__:main
+kubernetes-handbook = KubernetesHandbook.__main__:main
+
