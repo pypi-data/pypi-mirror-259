@@ -1,0 +1,4 @@
+[console_scripts]
+InventionsAndPatentsLectureNotesMit6901 = InventionsAndPatentsLectureNotesMit6901.__main__:main
+inventions-and-patents-lecture-notes-mit-6-901 = InventionsAndPatentsLectureNotesMit6901.__main__:main
+
