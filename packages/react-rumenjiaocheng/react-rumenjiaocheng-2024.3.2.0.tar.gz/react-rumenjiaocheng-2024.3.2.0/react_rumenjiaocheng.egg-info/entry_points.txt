@@ -1,0 +1,4 @@
+[console_scripts]
+ReactRumenjiaocheng = ReactRumenjiaocheng.__main__:main
+react-rumenjiaocheng = ReactRumenjiaocheng.__main__:main
+
