@@ -1,0 +1,4 @@
+[console_scripts]
+SpringKuaisuRumenjiaochengHantsy = SpringKuaisuRumenjiaochengHantsy.__main__:main
+spring-kuaisu-rumenjiaocheng-hantsy = SpringKuaisuRumenjiaochengHantsy.__main__:main
+
