@@ -1,0 +1,36 @@
+[project]
+name = "u_random_dummy_data"
+version = "0.2.0"
+description = "これは様々なフィールドのランダムダミーデータを生成するためのPythonアプリケーションです。"
+authors = [
+    { name = "Keisuke HANAMURA", email = "hkeisuke75@gmail.com" }
+]
+dependencies = [
+    "Faker>=23.2.1",
+    "pykakasi>=2.2.1",
+    "argparse>=1.4.0",
+    "pyyaml>=6.0.1",
+]
+readme = "README.md"
+requires-python = "~=3.9"
+
+[project.scripts]
+u_random_dummy_data = "u_random_dummy_data.__main__:main"
+urdd = "u_random_dummy_data.__main__:main"
+u_random = "u_random_dummy_data.__main__:main"
+
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.rye]
+managed = true
+dev-dependencies = []
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/u_random_dummy_data"]
+
