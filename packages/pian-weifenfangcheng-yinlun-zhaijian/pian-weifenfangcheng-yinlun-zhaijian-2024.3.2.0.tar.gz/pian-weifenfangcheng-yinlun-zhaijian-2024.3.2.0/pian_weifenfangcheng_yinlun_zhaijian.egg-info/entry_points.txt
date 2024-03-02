@@ -1,0 +1,4 @@
+[console_scripts]
+PianWeifenfangchengYinlunZhaijian = PianWeifenfangchengYinlunZhaijian.__main__:main
+pian-weifenfangcheng-yinlun-zhaijian = PianWeifenfangchengYinlunZhaijian.__main__:main
+
