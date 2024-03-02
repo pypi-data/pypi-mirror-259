@@ -1,0 +1,3 @@
+[console_scripts]
+LingJichuXuePythonDierBan = LingJichuXuePythonDierBan.__main__:main
+ling-jichu-xue-python-dier-ban = LingJichuXuePythonDierBan.__main__:main
