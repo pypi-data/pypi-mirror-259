@@ -1,0 +1,4 @@
+[console_scripts]
+CaozuoxitongJiaochengCYuyanBianchengWang = CaozuoxitongJiaochengCYuyanBianchengWang.__main__:main
+caozuoxitong-jiaocheng-c-yuyan-biancheng-wang = CaozuoxitongJiaochengCYuyanBianchengWang.__main__:main
+
