@@ -1,0 +1,4 @@
+[console_scripts]
+X3TianRumenMysqlQianfengJiaoyu = X3TianRumenMysqlQianfengJiaoyu.__main__:main
+x3-tian-rumen-mysql-qianfeng-jiaoyu = X3TianRumenMysqlQianfengJiaoyu.__main__:main
+
