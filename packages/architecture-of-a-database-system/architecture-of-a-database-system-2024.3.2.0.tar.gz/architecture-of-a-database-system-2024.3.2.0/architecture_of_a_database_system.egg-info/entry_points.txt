@@ -1,0 +1,4 @@
+[console_scripts]
+ArchitectureOfADatabaseSystem = ArchitectureOfADatabaseSystem.__main__:main
+architecture-of-a-database-system = ArchitectureOfADatabaseSystem.__main__:main
+
