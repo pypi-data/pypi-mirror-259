@@ -1,0 +1,4 @@
+[console_scripts]
+GreatIdeasInTheoreticalComputerScienceLectureNotesMit6045 = GreatIdeasInTheoreticalComputerScienceLectureNotesMit6045.__main__:main
+great-ideas-in-theoretical-computer-science-lecture-notes-mit-6-045 = GreatIdeasInTheoreticalComputerScienceLectureNotesMit6045.__main__:main
+
