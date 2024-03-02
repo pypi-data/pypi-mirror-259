@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: dbn4-clinic
+Version: 0.4.0
+Summary: Book a session with volunteer to discuss programming
+Author: DBN-04-2023
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+#### _[Credentials](https://console.cloud.google.com/apis/credentials)_
+
+Please ensure that you have downloaded your _[credentials](https://console.cloud.google.com/apis/credentials)_ and stored them in the directory `~/.code_clinic/credentials` within the project's root
+
+Please rename file to `credentials.json`
+
