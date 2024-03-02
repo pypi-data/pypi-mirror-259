@@ -1,0 +1,4 @@
+[console_scripts]
+CCankaoshouceDisanBufen20171220 = CCankaoshouceDisanBufen20171220.__main__:main
+c-cankaoshouce-disan-bufen-2017-12-20 = CCankaoshouceDisanBufen20171220.__main__:main
+
