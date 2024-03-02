@@ -1,0 +1,4 @@
+[console_scripts]
+AlgorithmicGameTheoryLectureNotesCornellCs6840 = AlgorithmicGameTheoryLectureNotesCornellCs6840.__main__:main
+algorithmic-game-theory-lecture-notes-cornell-cs6840 = AlgorithmicGameTheoryLectureNotesCornellCs6840.__main__:main
+
