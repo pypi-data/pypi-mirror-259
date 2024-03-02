@@ -1,0 +1,4 @@
+[console_scripts]
+CYuyanShenduPouxiJiekaiChengxuyuanMianshiBishiDeMimi = CYuyanShenduPouxiJiekaiChengxuyuanMianshiBishiDeMimi.__main__:main
+c-yuyan-shendu-pouxi-jiekai-chengxuyuan-mianshi-bishi-de-mimi = CYuyanShenduPouxiJiekaiChengxuyuanMianshiBishiDeMimi.__main__:main
+
