@@ -1,0 +1,4 @@
+[console_scripts]
+PrinciplesOfComputerSystemDesignAnIntroductionPartIiMit6004 = PrinciplesOfComputerSystemDesignAnIntroductionPartIiMit6004.__main__:main
+principles-of-computer-system-design-an-introduction-part-ii-mit-6-004 = PrinciplesOfComputerSystemDesignAnIntroductionPartIiMit6004.__main__:main
+

@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: principles-of-computer-system-design-an-introduction-part-ii-mit-6-004
+Version: 2024.3.2.0
+Summary: Principles of Computer System Design An Introduction Part II (MIT 6.004)
+Home-page: https://github.com/apachecn/principles-of-computer-system-design-an-introduction-part-ii-mit-6-004
+Author: ApacheCN
+Author-email: apachecn@163.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: Other/Proprietary License
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Text Processing :: Markup :: Markdown
+Classifier: Topic :: Text Processing :: Markup :: HTML
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development :: Documentation
+Classifier: Topic :: Documentation
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Principles of Computer System Design An Introduction Part II (MIT 6.004)
+
+## 下载
+
+### Docker
+
+```
+docker pull apachecn0/principles-of-computer-system-design-an-introduction-part-ii-mit-6-004
+docker run -tid -p <port>:80 apachecn0/principles-of-computer-system-design-an-introduction-part-ii-mit-6-004
+# 访问 http://localhost:{port} 查看文档
+```
+
+### PYPI
+
+```
+pip install principles-of-computer-system-design-an-introduction-part-ii-mit-6-004
+principles-of-computer-system-design-an-introduction-part-ii-mit-6-004 <port>
+# 访问 http://localhost:{port} 查看文档
+```
+
+### NPM
+
+```
+npm install -g principles-of-computer-system-design-an-introduction-part-ii-mit-6-linglingsi
+principles-of-computer-system-design-an-introduction-part-ii-mit-6-linglingsi <port>
+# 访问 http://localhost:{port} 查看文档
+```
+
