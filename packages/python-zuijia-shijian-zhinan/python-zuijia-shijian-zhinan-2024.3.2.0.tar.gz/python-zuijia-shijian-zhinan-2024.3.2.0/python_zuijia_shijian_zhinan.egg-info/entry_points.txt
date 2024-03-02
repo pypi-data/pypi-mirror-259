@@ -1,0 +1,3 @@
+[console_scripts]
+PythonZuijiaShijianZhinan = PythonZuijiaShijianZhinan.__main__:main
+python-zuijia-shijian-zhinan = PythonZuijiaShijianZhinan.__main__:main
