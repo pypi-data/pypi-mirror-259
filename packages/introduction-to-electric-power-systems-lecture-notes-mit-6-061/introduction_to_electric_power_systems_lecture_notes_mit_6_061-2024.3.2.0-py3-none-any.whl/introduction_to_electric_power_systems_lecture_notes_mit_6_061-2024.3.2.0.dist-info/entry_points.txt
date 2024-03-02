@@ -1,0 +1,4 @@
+[console_scripts]
+IntroductionToElectricPowerSystemsLectureNotesMit6061 = IntroductionToElectricPowerSystemsLectureNotesMit6061.__main__:main
+introduction-to-electric-power-systems-lecture-notes-mit-6-061 = IntroductionToElectricPowerSystemsLectureNotesMit6061.__main__:main
+
