@@ -1,0 +1,4 @@
+[console_scripts]
+SoftwareFoundations = SoftwareFoundations.__main__:main
+software-foundations = SoftwareFoundations.__main__:main
+
