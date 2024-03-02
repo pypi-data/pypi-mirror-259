@@ -1,0 +1,4 @@
+[console_scripts]
+HowToDesignProgramsSecondEdition = HowToDesignProgramsSecondEdition.__main__:main
+how-to-design-programs-second-edition = HowToDesignProgramsSecondEdition.__main__:main
+
