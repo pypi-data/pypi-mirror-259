@@ -1,0 +1,4 @@
+[console_scripts]
+GaodengshuxueJiangyiZhiJifenBiaoGongshiTuidaoDanielLau = GaodengshuxueJiangyiZhiJifenBiaoGongshiTuidaoDanielLau.__main__:main
+gaodengshuxue-jiangyi-zhi-jifen-biao-gongshi-tuidao-daniel-lau = GaodengshuxueJiangyiZhiJifenBiaoGongshiTuidaoDanielLau.__main__:main
+
