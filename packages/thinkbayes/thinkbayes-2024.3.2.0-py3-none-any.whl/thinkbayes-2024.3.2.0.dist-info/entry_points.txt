@@ -1,0 +1,3 @@
+[console_scripts]
+Thinkbayes = Thinkbayes.__main__:main
+thinkbayes = Thinkbayes.__main__:main
