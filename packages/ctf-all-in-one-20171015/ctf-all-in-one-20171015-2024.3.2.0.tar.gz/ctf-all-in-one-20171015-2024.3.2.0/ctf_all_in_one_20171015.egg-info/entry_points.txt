@@ -1,0 +1,4 @@
+[console_scripts]
+CtfAllInOne20171015 = CtfAllInOne20171015.__main__:main
+ctf-all-in-one-20171015 = CtfAllInOne20171015.__main__:main
+
