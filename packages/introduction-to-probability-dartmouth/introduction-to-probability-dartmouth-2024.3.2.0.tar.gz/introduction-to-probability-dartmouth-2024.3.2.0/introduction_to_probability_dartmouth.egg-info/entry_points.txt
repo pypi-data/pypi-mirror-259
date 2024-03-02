@@ -1,0 +1,4 @@
+[console_scripts]
+IntroductionToProbabilityDartmouth = IntroductionToProbabilityDartmouth.__main__:main
+introduction-to-probability-dartmouth = IntroductionToProbabilityDartmouth.__main__:main
+
