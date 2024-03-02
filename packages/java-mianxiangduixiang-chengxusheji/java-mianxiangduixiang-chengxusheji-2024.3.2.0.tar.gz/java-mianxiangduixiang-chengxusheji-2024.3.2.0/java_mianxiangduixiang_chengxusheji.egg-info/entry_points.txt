@@ -1,0 +1,4 @@
+[console_scripts]
+JavaMianxiangduixiangChengxusheji = JavaMianxiangduixiangChengxusheji.__main__:main
+java-mianxiangduixiang-chengxusheji = JavaMianxiangduixiangChengxusheji.__main__:main
+
