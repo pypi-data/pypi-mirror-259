@@ -1,0 +1,3 @@
+[console_scripts]
+ShellBianchengFanli = ShellBianchengFanli.__main__:main
+shell-biancheng-fanli = ShellBianchengFanli.__main__:main
