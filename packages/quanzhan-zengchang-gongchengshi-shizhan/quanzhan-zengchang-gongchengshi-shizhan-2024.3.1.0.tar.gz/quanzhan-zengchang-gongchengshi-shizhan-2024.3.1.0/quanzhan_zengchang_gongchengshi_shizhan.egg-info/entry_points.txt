@@ -1,0 +1,3 @@
+[console_scripts]
+QuanzhanZengchangGongchengshiShizhan = QuanzhanZengchangGongchengshiShizhan.__main__:main
+quanzhan-zengchang-gongchengshi-shizhan = QuanzhanZengchangGongchengshiShizhan.__main__:main
