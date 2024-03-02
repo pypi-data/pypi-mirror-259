@@ -1,0 +1,4 @@
+[console_scripts]
+JavascriptJiaochengYym = JavascriptJiaochengYym.__main__:main
+javascript-jiaocheng-yym = JavascriptJiaochengYym.__main__:main
+
