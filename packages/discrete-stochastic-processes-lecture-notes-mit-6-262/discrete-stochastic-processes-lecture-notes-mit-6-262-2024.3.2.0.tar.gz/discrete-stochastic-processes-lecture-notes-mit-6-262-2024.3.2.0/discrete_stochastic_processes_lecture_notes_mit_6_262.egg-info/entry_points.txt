@@ -1,0 +1,4 @@
+[console_scripts]
+DiscreteStochasticProcessesLectureNotesMit6262 = DiscreteStochasticProcessesLectureNotesMit6262.__main__:main
+discrete-stochastic-processes-lecture-notes-mit-6-262 = DiscreteStochasticProcessesLectureNotesMit6262.__main__:main
+
