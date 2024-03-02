@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: Botte
+Version: 0.4
+Summary: The most easiest telegram package that helps you to code your bot faster
+Author: Avishek Bhattacharjee
+Author-email: wbavishek@gmail.com
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: aiohttp
+Requires-Dist: openai
+

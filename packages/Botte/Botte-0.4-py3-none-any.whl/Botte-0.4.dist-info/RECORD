@@ -1,0 +1,11 @@
+Botte/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Botte/__main__.py,sha256=_6Yl-eMBve0mGQA-aiFg4qvQ7GUCV5eGvIcoRf4mEPw,3
+Botte/async/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Botte/async/client.py,sha256=mzqZc1cYbC2UWBKs6pSnYfy8HykvYn_PYSXFdiO46NQ,2183
+Botte/sync/__init__.py,sha256=rdZ5sLV-c_kh8SvjLqT0RCfzbKPXth5mszclyb445U0,21
+Botte/sync/client.py,sha256=ZIv3rfMFewXBFL9_tgMq2koq62OZ3vxeTeZPr_NcfMY,5432
+Botte-0.4.dist-info/LICENSE,sha256=f_4ZVFh8d9-6HPjrmy6nQ2cfpuY_nnovJYEZ1C4U7v4,27030
+Botte-0.4.dist-info/METADATA,sha256=Ahm_9q8ALwV-JMclHjU0z2KwZu6Dg4hLdLmuipeL-Uk,296
+Botte-0.4.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+Botte-0.4.dist-info/top_level.txt,sha256=FTRffumj9wlnGCsM7RPIYbX6r55aea_-lM8Zw7i7i-0,6
+Botte-0.4.dist-info/RECORD,,
