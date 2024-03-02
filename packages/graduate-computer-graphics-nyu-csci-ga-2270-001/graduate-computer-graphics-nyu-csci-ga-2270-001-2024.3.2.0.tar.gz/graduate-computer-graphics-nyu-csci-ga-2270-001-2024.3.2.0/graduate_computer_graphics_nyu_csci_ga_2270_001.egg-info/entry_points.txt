@@ -1,0 +1,4 @@
+[console_scripts]
+GraduateComputerGraphicsNyuCsciGa2270001 = GraduateComputerGraphicsNyuCsciGa2270001.__main__:main
+graduate-computer-graphics-nyu-csci-ga-2270-001 = GraduateComputerGraphicsNyuCsciGa2270001.__main__:main
+
