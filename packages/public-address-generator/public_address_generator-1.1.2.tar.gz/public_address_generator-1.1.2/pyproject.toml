@@ -1,0 +1,25 @@
+[build-system]
+requires = ['setuptools>=42']
+build-backend = 'setuptools.build_meta'
+
+[project]
+name = "public_address_generator"
+version = "1.1.2"
+description = "Generate public address from mnemonic-phrase or pivate key"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+]
+dependencies = [
+    "blocksmith",
+    "hdwallet",
+    "pycryptodomex",
+    "eth_account",
+]

@@ -1,0 +1,4 @@
+blocksmith
+hdwallet
+pycryptodomex
+eth_account
