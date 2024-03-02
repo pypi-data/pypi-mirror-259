@@ -1,0 +1,4 @@
+[console_scripts]
+DeepResidualLearningForImageRecognitionQiyueZaixianDlFanyiZu20174 = DeepResidualLearningForImageRecognitionQiyueZaixianDlFanyiZu20174.__main__:main
+deep-residual-learning-for-image-recognition-qiyue-zaixian-dl-fanyi-zu-2017-4 = DeepResidualLearningForImageRecognitionQiyueZaixianDlFanyiZu20174.__main__:main
+
