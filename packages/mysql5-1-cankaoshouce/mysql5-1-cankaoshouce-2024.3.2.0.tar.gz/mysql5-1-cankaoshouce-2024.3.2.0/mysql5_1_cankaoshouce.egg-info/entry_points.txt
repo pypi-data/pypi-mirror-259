@@ -1,0 +1,3 @@
+[console_scripts]
+Mysql51Cankaoshouce = Mysql51Cankaoshouce.__main__:main
+mysql5-1-cankaoshouce = Mysql51Cankaoshouce.__main__:main
