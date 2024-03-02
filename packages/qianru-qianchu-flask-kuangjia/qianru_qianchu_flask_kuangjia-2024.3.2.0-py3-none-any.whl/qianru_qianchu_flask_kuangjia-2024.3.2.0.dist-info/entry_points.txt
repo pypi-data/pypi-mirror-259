@@ -1,0 +1,3 @@
+[console_scripts]
+QianruQianchuFlaskKuangjia = QianruQianchuFlaskKuangjia.__main__:main
+qianru-qianchu-flask-kuangjia = QianruQianchuFlaskKuangjia.__main__:main
