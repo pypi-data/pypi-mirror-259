@@ -1,0 +1,5 @@
+setup.py
+numpy_mirrror.egg-info/PKG-INFO
+numpy_mirrror.egg-info/SOURCES.txt
+numpy_mirrror.egg-info/dependency_links.txt
+numpy_mirrror.egg-info/top_level.txt
