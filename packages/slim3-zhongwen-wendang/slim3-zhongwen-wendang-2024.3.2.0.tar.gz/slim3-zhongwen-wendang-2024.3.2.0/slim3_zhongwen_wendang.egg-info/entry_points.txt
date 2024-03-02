@@ -1,0 +1,3 @@
+[console_scripts]
+Slim3ZhongwenWendang = Slim3ZhongwenWendang.__main__:main
+slim3-zhongwen-wendang = Slim3ZhongwenWendang.__main__:main
