@@ -1,0 +1,4 @@
+[console_scripts]
+JavaBianchengSixiang = JavaBianchengSixiang.__main__:main
+java-biancheng-sixiang = JavaBianchengSixiang.__main__:main
+
