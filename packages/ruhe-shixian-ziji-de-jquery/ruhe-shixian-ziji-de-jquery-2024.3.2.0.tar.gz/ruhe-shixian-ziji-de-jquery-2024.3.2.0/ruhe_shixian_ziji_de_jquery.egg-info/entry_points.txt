@@ -1,0 +1,3 @@
+[console_scripts]
+RuheShixianZijiDeJquery = RuheShixianZijiDeJquery.__main__:main
+ruhe-shixian-ziji-de-jquery = RuheShixianZijiDeJquery.__main__:main
