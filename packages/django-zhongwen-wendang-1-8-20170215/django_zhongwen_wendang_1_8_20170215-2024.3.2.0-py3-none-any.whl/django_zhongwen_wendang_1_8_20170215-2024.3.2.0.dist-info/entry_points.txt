@@ -1,0 +1,4 @@
+[console_scripts]
+DjangoZhongwenWendang1820170215 = DjangoZhongwenWendang1820170215.__main__:main
+django-zhongwen-wendang-1-8-20170215 = DjangoZhongwenWendang1820170215.__main__:main
+
