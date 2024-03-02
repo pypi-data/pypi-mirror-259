@@ -1,0 +1,4 @@
+[console_scripts]
+DynamicSystemsAndControlLectureNotesMit6241j = DynamicSystemsAndControlLectureNotesMit6241j.__main__:main
+dynamic-systems-and-control-lecture-notes-mit-6-241j = DynamicSystemsAndControlLectureNotesMit6241j.__main__:main
+
