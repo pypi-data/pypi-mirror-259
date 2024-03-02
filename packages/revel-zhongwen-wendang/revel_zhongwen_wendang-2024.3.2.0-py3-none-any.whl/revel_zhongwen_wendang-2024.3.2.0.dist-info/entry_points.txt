@@ -1,0 +1,4 @@
+[console_scripts]
+RevelZhongwenWendang = RevelZhongwenWendang.__main__:main
+revel-zhongwen-wendang = RevelZhongwenWendang.__main__:main
+
