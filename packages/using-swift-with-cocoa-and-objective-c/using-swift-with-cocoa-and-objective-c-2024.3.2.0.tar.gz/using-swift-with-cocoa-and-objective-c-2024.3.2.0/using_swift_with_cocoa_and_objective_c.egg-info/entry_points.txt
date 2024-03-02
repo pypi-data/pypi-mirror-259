@@ -1,0 +1,3 @@
+[console_scripts]
+UsingSwiftWithCocoaAndObjectiveC = UsingSwiftWithCocoaAndObjectiveC.__main__:main
+using-swift-with-cocoa-and-objective-c = UsingSwiftWithCocoaAndObjectiveC.__main__:main
