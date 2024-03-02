@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: jcl3_DelOro
+Version: 0.0.2
+Summary: S3 CLI gizmos
+Project-URL: Homepage, https://github.com/johnlichtenstein/jcl3
+Project-URL: Issues, https://github.com/johnlichtenstein/jcl3/issues
+Author-email: Johnny Lichtenstein <johnlichtenstein@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# jcl3
+utilities for s3
+## s3tar
+make a local tar archive of a list of s3 objects

@@ -1,0 +1,2 @@
+[console_scripts]
+s3tar = jcl3_DelOro.s3tar:main
