@@ -1,0 +1,14 @@
+pytexmk/Makefile,sha256=12NzbpwGWDczFw3oBg4jcrnB40xUlVhGMmCspqO7mUM,217
+pytexmk/__init__.py,sha256=ith5oQ_fhQEGEfXtdsaV0YvykOXdhdZv0MrgX4XG1DU,1940
+pytexmk/__main__.py,sha256=2enQDmC3TlkvMMVgn4avOXkdumjmBlD6MNFTrlyli34,7949
+pytexmk/additional_operation.py,sha256=yYEGz_4ljEG-Z7om31soYc_FdhXWDvRkuN-Pn95grSU,9493
+pytexmk/compile_model.py,sha256=uruLPQimubeqElcN4LOknf43GTFY7aml5Trv9IXCDqQ,7107
+pytexmk/makefile.bat,sha256=KDnpIUMGKCvS9qpmKD8bBhCbNgxmPG80lNpcYrjVcZ4,316
+pytexmk/makefile.sh,sha256=8cSVEYD0hjJwT4Vzs8I4MBEclnMi5h4Ivlze69kpiMI,2179
+pytexmk/version.py,sha256=QwXV5Y1yGasw597dpScsiD3B9xTCRcyYV0uUoygBNT8,1895
+pytexmk-0.2.5.240302.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pytexmk-0.2.5.240302.dist-info/METADATA,sha256=pZaGvg1LcCuVGPRbepOn0IH6aCuhWeGOGqXBPhfqODY,4757
+pytexmk-0.2.5.240302.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+pytexmk-0.2.5.240302.dist-info/entry_points.txt,sha256=NldquSgQEixdxwichy3cRKFexnX-vNfaUEn8TEOgIGc,41
+pytexmk-0.2.5.240302.dist-info/top_level.txt,sha256=hFwe5tscsUPwEtAn2-5ePIjwhkYvbChHRLk2DmgM6z8,8
+pytexmk-0.2.5.240302.dist-info/RECORD,,
