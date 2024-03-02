@@ -1,0 +1,4 @@
+[console_scripts]
+MysqlJichujiaochengDamoGuyan = MysqlJichujiaochengDamoGuyan.__main__:main
+mysql-jichujiaocheng-damo-guyan = MysqlJichujiaochengDamoGuyan.__main__:main
+
