@@ -1,0 +1,3 @@
+[console_scripts]
+RailsFenggeZhinan = RailsFenggeZhinan.__main__:main
+rails-fengge-zhinan = RailsFenggeZhinan.__main__:main
