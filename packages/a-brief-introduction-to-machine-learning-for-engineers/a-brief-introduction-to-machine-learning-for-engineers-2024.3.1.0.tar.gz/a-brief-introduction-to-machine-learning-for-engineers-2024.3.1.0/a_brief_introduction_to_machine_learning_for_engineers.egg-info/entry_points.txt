@@ -1,0 +1,4 @@
+[console_scripts]
+ABriefIntroductionToMachineLearningForEngineers = ABriefIntroductionToMachineLearningForEngineers.__main__:main
+a-brief-introduction-to-machine-learning-for-engineers = ABriefIntroductionToMachineLearningForEngineers.__main__:main
+
