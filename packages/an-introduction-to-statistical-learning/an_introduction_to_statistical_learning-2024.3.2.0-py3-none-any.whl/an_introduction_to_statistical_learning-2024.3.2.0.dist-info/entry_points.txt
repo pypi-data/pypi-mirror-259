@@ -1,0 +1,4 @@
+[console_scripts]
+AnIntroductionToStatisticalLearning = AnIntroductionToStatisticalLearning.__main__:main
+an-introduction-to-statistical-learning = AnIntroductionToStatisticalLearning.__main__:main
+
