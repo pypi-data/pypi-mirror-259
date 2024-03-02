@@ -1,0 +1,4 @@
+[console_scripts]
+Spark202ZhongwenWendang = Spark202ZhongwenWendang.__main__:main
+spark-2-0-2-zhongwen-wendang = Spark202ZhongwenWendang.__main__:main
+
