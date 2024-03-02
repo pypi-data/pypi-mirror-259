@@ -1,0 +1,4 @@
+[console_scripts]
+MatlabTutorialMit1034 = MatlabTutorialMit1034.__main__:main
+matlab-tutorial-mit-10-34 = MatlabTutorialMit1034.__main__:main
+
