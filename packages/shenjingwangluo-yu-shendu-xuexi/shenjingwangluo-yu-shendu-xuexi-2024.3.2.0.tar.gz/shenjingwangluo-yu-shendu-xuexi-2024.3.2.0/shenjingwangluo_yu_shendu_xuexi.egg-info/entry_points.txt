@@ -1,0 +1,4 @@
+[console_scripts]
+ShenjingwangluoYuShenduXuexi = ShenjingwangluoYuShenduXuexi.__main__:main
+shenjingwangluo-yu-shendu-xuexi = ShenjingwangluoYuShenduXuexi.__main__:main
+
