@@ -1,0 +1,3 @@
+[console_scripts]
+ShenrufenxiLinuxNeiheYuandaima = ShenrufenxiLinuxNeiheYuandaima.__main__:main
+shenrufenxi-linux-neihe-yuandaima = ShenrufenxiLinuxNeiheYuandaima.__main__:main
