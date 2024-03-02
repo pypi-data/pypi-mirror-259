@@ -1,0 +1,4 @@
+[console_scripts]
+SpringDataElasticsearchZhongwenWendang = SpringDataElasticsearchZhongwenWendang.__main__:main
+spring-data-elasticsearch-zhongwen-wendang = SpringDataElasticsearchZhongwenWendang.__main__:main
+
