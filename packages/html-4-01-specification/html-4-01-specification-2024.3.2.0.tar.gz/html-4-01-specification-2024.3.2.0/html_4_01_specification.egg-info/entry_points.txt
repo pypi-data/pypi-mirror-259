@@ -1,0 +1,3 @@
+[console_scripts]
+Html401Specification = Html401Specification.__main__:main
+html-4-01-specification = Html401Specification.__main__:main

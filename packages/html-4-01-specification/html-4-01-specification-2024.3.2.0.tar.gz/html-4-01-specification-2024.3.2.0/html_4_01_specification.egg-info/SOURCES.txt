@@ -1,0 +1,12 @@
+README.md
+setup.py
+Html401Specification/README.md
+Html401Specification/__init__.py
+Html401Specification/__main__.py
+Html401Specification/file.pdf
+Html401Specification/index.html
+html_4_01_specification.egg-info/PKG-INFO
+html_4_01_specification.egg-info/SOURCES.txt
+html_4_01_specification.egg-info/dependency_links.txt
+html_4_01_specification.egg-info/entry_points.txt
+html_4_01_specification.egg-info/top_level.txt
