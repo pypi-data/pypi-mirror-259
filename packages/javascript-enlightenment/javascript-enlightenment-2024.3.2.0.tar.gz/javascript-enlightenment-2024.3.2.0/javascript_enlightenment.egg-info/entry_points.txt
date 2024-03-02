@@ -1,0 +1,4 @@
+[console_scripts]
+JavascriptEnlightenment = JavascriptEnlightenment.__main__:main
+javascript-enlightenment = JavascriptEnlightenment.__main__:main
+

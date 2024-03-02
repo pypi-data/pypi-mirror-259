@@ -1,0 +1,12 @@
+README.md
+setup.py
+JavascriptEnlightenment/README.md
+JavascriptEnlightenment/__init__.py
+JavascriptEnlightenment/__main__.py
+JavascriptEnlightenment/file.pdf
+JavascriptEnlightenment/index.html
+javascript_enlightenment.egg-info/PKG-INFO
+javascript_enlightenment.egg-info/SOURCES.txt
+javascript_enlightenment.egg-info/dependency_links.txt
+javascript_enlightenment.egg-info/entry_points.txt
+javascript_enlightenment.egg-info/top_level.txt
