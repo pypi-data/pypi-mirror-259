@@ -1,0 +1,3 @@
+[console_scripts]
+RustGuanfangJiaochengZhongwenban = RustGuanfangJiaochengZhongwenban.__main__:main
+rust-guanfang-jiaocheng-zhongwenban = RustGuanfangJiaochengZhongwenban.__main__:main
