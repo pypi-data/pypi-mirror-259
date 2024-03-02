@@ -1,0 +1,4 @@
+[console_scripts]
+ElasticsearchJavaShouce = ElasticsearchJavaShouce.__main__:main
+elasticsearch-java-shouce = ElasticsearchJavaShouce.__main__:main
+
