@@ -1,0 +1,4 @@
+[console_scripts]
+Mysql50CunchuGuocheng = Mysql50CunchuGuocheng.__main__:main
+mysql-5-0-cunchu-guocheng = Mysql50CunchuGuocheng.__main__:main
+
