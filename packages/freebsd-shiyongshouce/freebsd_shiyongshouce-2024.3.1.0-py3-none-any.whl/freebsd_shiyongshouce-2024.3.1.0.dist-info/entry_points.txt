@@ -1,0 +1,3 @@
+[console_scripts]
+FreebsdShiyongshouce = FreebsdShiyongshouce.__main__:main
+freebsd-shiyongshouce = FreebsdShiyongshouce.__main__:main
