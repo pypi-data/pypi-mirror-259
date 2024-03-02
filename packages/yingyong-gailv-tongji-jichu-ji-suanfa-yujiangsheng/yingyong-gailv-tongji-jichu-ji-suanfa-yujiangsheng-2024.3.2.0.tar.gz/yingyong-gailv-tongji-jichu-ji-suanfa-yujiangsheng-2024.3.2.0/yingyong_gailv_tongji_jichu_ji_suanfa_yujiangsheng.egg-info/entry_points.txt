@@ -1,0 +1,4 @@
+[console_scripts]
+YingyongGailvTongjiJichuJiSuanfaYujiangsheng = YingyongGailvTongjiJichuJiSuanfaYujiangsheng.__main__:main
+yingyong-gailv-tongji-jichu-ji-suanfa-yujiangsheng = YingyongGailvTongjiJichuJiSuanfaYujiangsheng.__main__:main
+
