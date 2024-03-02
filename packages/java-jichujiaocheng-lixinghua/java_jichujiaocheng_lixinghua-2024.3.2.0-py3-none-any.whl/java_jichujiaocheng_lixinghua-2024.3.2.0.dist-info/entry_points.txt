@@ -1,0 +1,4 @@
+[console_scripts]
+JavaJichujiaochengLixinghua = JavaJichujiaochengLixinghua.__main__:main
+java-jichujiaocheng-lixinghua = JavaJichujiaochengLixinghua.__main__:main
+
