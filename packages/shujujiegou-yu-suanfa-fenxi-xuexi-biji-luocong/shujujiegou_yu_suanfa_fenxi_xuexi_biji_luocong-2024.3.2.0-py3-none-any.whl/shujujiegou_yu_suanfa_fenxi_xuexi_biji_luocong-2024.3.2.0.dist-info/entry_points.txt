@@ -1,0 +1,4 @@
+[console_scripts]
+ShujujiegouYuSuanfaFenxiXuexiBijiLuocong = ShujujiegouYuSuanfaFenxiXuexiBijiLuocong.__main__:main
+shujujiegou-yu-suanfa-fenxi-xuexi-biji-luocong = ShujujiegouYuSuanfaFenxiXuexiBijiLuocong.__main__:main
+
