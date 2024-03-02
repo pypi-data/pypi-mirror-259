@@ -1,0 +1,12 @@
+README.md
+setup.py
+InventionsAndPatentsLectureNotesMit6901/README.md
+InventionsAndPatentsLectureNotesMit6901/__init__.py
+InventionsAndPatentsLectureNotesMit6901/__main__.py
+InventionsAndPatentsLectureNotesMit6901/file.pdf
+InventionsAndPatentsLectureNotesMit6901/index.html
+inventions_and_patents_lecture_notes_mit_6_901.egg-info/PKG-INFO
+inventions_and_patents_lecture_notes_mit_6_901.egg-info/SOURCES.txt
+inventions_and_patents_lecture_notes_mit_6_901.egg-info/dependency_links.txt
+inventions_and_patents_lecture_notes_mit_6_901.egg-info/entry_points.txt
+inventions_and_patents_lecture_notes_mit_6_901.egg-info/top_level.txt
