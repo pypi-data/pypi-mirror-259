@@ -1,0 +1,4 @@
+[console_scripts]
+AnIntroductionToElm = AnIntroductionToElm.__main__:main
+an-introduction-to-elm = AnIntroductionToElm.__main__:main
+
