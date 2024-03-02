@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: dart-bianma-fengge-zhinan
+Version: 2024.3.2.0
+Summary: Dart 编码风格指南
+Home-page: https://github.com/apachecn/dart-bianma-fengge-zhinan
+Author: ApacheCN
+Author-email: apachecn@163.com
+License: UNKNOWN
+Description: # Dart 编码风格指南
+        
+        ## 下载
+        
+        ### Docker
+        
+        ```
+        docker pull apachecn0/dart-bianma-fengge-zhinan
+        docker run -tid -p <port>:80 apachecn0/dart-bianma-fengge-zhinan
+        # 访问 http://localhost:{port} 查看文档
+        ```
+        
+        ### PYPI
+        
+        ```
+        pip install dart-bianma-fengge-zhinan
+        dart-bianma-fengge-zhinan <port>
+        # 访问 http://localhost:{port} 查看文档
+        ```
+        
+        ### NPM
+        
+        ```
+        npm install -g dart-bianma-fengge-zhinan
+        dart-bianma-fengge-zhinan <port>
+        # 访问 http://localhost:{port} 查看文档
+        ```
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: Other/Proprietary License
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Text Processing :: Markup :: Markdown
+Classifier: Topic :: Text Processing :: Markup :: HTML
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development :: Documentation
+Classifier: Topic :: Documentation
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

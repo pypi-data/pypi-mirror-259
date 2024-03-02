@@ -1,0 +1,4 @@
+[console_scripts]
+DartBianmaFenggeZhinan = DartBianmaFenggeZhinan.__main__:main
+dart-bianma-fengge-zhinan = DartBianmaFenggeZhinan.__main__:main
+
