@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "unique_queue"
+version = "0.2.1"
+authors = [
+  { name="StudioBreeze", email="StudioBreeze+unique_queue@proton.me" },
+]
+description = "A UniqueQueue class - a FIFO queue, but which ignores attempts to re-add duplicate items, even after they're popped."
+readme = "README.md"
+requires-python = ">=3.5"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://gitopia.com/StudioBreeze/UniqueQueue"
+Issues = "https://gitopia.com/StudioBreeze/UniqueQueue/issues"
+License = "https://gitopia.com/StudioBreeze/UniqueQueue/tree/main/LICENSE"
