@@ -1,0 +1,17 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "jonnys-single-file-package"
+version = "v0.0.1"
+description = "A single file package I gone and made"
+requires-python = ">=3.8"
+license = "GPL-3.0"
+authors = [{ name = "jonny" }]
+dependencies = [
+	"numpy>=1.24.0"
+]
+
+[project.scripts]
+run-this-package = "jonnys_single_file_package:main"
