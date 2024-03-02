@@ -1,0 +1,3 @@
+[console_scripts]
+FlaskKuozhanWendangHuizong = FlaskKuozhanWendangHuizong.__main__:main
+flask-kuozhan-wendang-huizong = FlaskKuozhanWendangHuizong.__main__:main
