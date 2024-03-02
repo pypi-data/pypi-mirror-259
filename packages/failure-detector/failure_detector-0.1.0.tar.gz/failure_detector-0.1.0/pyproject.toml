@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "failure-detector"
+version = "0.1.0"
+description = "A Pythonic implementation of the Phi-Accrual failure detector"
+authors = ["Lucas Wolf <iamlucaswolf@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+exclude = ["test_*"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.3.0"
+black = "^24.2.0"
+pytest = "^8.0.2"
+pyright = "^1.1.352"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
