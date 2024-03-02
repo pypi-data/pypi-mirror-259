@@ -1,0 +1,3 @@
+[console_scripts]
+PwntoolsDocumentation = PwntoolsDocumentation.__main__:main
+pwntools-documentation = PwntoolsDocumentation.__main__:main
