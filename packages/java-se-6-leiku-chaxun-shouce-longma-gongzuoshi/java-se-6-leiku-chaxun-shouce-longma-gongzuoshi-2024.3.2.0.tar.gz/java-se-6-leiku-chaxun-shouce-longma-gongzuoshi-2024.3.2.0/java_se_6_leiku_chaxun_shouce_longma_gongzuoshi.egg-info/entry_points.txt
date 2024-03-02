@@ -1,0 +1,4 @@
+[console_scripts]
+JavaSe6LeikuChaxunShouceLongmaGongzuoshi = JavaSe6LeikuChaxunShouceLongmaGongzuoshi.__main__:main
+java-se-6-leiku-chaxun-shouce-longma-gongzuoshi = JavaSe6LeikuChaxunShouceLongmaGongzuoshi.__main__:main
+
