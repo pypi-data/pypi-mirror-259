@@ -1,0 +1,4 @@
+[console_scripts]
+CtfWriteups2016929 = CtfWriteups2016929.__main__:main
+ctf-writeups-2016-9-29 = CtfWriteups2016929.__main__:main
+
