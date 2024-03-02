@@ -1,0 +1,3 @@
+[console_scripts]
+TutorialspointJavaJishuJiaocheng20160127Fix1 = TutorialspointJavaJishuJiaocheng20160127Fix1.__main__:main
+tutorialspoint-java-jishu-jiaocheng-20160127-fix1 = TutorialspointJavaJishuJiaocheng20160127Fix1.__main__:main
