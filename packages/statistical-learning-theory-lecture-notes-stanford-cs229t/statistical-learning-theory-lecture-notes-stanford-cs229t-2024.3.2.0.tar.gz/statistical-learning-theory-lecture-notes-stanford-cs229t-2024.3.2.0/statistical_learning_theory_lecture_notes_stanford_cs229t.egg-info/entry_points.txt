@@ -1,0 +1,4 @@
+[console_scripts]
+StatisticalLearningTheoryLectureNotesStanfordCs229t = StatisticalLearningTheoryLectureNotesStanfordCs229t.__main__:main
+statistical-learning-theory-lecture-notes-stanford-cs229t = StatisticalLearningTheoryLectureNotesStanfordCs229t.__main__:main
+
