@@ -1,0 +1,4 @@
+[console_scripts]
+MasteringDjangoCore = MasteringDjangoCore.__main__:main
+mastering-django-core = MasteringDjangoCore.__main__:main
+
