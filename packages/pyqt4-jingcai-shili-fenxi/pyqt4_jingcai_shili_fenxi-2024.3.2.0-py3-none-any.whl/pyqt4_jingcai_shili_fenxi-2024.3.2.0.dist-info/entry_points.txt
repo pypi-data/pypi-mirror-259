@@ -1,0 +1,4 @@
+[console_scripts]
+Pyqt4JingcaiShiliFenxi = Pyqt4JingcaiShiliFenxi.__main__:main
+pyqt4-jingcai-shili-fenxi = Pyqt4JingcaiShiliFenxi.__main__:main
+
