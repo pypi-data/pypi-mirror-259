@@ -1,0 +1,3 @@
+[console_scripts]
+FlaskChs = FlaskChs.__main__:main
+flask-chs = FlaskChs.__main__:main
