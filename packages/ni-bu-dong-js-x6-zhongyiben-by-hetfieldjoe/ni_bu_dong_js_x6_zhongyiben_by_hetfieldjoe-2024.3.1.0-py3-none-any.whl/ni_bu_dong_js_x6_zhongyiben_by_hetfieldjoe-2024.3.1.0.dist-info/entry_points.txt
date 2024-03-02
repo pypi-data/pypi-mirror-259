@@ -1,0 +1,3 @@
+[console_scripts]
+NiBuDongJsX6ZhongyibenByHetfieldjoe = NiBuDongJsX6ZhongyibenByHetfieldjoe.__main__:main
+ni-bu-dong-js-x6-zhongyiben-by-hetfieldjoe = NiBuDongJsX6ZhongyibenByHetfieldjoe.__main__:main
