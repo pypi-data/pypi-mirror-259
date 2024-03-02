@@ -1,0 +1,4 @@
+[console_scripts]
+MachineLearningForNaturalLanguageProcessingLectureNotesColumbiaE6998 = MachineLearningForNaturalLanguageProcessingLectureNotesColumbiaE6998.__main__:main
+machine-learning-for-natural-language-processing-lecture-notes-columbia-e6998 = MachineLearningForNaturalLanguageProcessingLectureNotesColumbiaE6998.__main__:main
+
