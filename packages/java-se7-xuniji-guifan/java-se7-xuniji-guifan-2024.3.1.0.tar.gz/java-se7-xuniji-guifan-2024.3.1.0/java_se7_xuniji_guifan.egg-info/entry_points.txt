@@ -1,0 +1,3 @@
+[console_scripts]
+JavaSe7XunijiGuifan = JavaSe7XunijiGuifan.__main__:main
+java-se7-xuniji-guifan = JavaSe7XunijiGuifan.__main__:main
