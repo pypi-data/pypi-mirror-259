@@ -1,0 +1,3 @@
+[console_scripts]
+Jersey2XYonghuZhinan = Jersey2XYonghuZhinan.__main__:main
+jersey-2-x-yonghu-zhinan = Jersey2XYonghuZhinan.__main__:main
