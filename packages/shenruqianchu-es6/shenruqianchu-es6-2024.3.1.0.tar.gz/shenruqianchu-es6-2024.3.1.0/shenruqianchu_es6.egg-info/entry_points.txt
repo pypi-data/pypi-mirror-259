@@ -1,0 +1,3 @@
+[console_scripts]
+ShenruqianchuEs6 = ShenruqianchuEs6.__main__:main
+shenruqianchu-es6 = ShenruqianchuEs6.__main__:main
