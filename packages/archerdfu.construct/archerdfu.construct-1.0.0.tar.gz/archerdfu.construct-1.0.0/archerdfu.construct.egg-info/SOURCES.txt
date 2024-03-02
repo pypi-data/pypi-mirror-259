@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+archerdfu.construct.egg-info/PKG-INFO
+archerdfu.construct.egg-info/SOURCES.txt
+archerdfu.construct.egg-info/dependency_links.txt
+archerdfu.construct.egg-info/requires.txt
+archerdfu.construct.egg-info/top_level.txt
+archerdfu/construct/__init__.py
+archerdfu/construct/array_pointer.py
+archerdfu/construct/checksum_stream.py
+archerdfu/construct/detailed.py
+archerdfu/construct/jsonify.py
+archerdfu/construct/padded_cstring.py
