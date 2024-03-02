@@ -1,0 +1,4 @@
+[console_scripts]
+ObjectiveCJichujiaocheng1TianWanzhuanObjectiveCYufa = ObjectiveCJichujiaocheng1TianWanzhuanObjectiveCYufa.__main__:main
+objective-c-jichujiaocheng-1-tian-wanzhuan-objective-c-yufa = ObjectiveCJichujiaocheng1TianWanzhuanObjectiveCYufa.__main__:main
+
