@@ -1,0 +1,4 @@
+[console_scripts]
+IntuitionisticTypeTheory = IntuitionisticTypeTheory.__main__:main
+intuitionistic-type-theory = IntuitionisticTypeTheory.__main__:main
+
