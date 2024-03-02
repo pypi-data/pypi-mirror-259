@@ -1,0 +1,4 @@
+[console_scripts]
+Hbase097ZhongwenWendang = Hbase097ZhongwenWendang.__main__:main
+hbase-0-97-zhongwen-wendang = Hbase097ZhongwenWendang.__main__:main
+
