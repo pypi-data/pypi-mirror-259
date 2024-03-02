@@ -1,0 +1,3 @@
+[console_scripts]
+TushuoShejimoshi = TushuoShejimoshi.__main__:main
+tushuo-shejimoshi = TushuoShejimoshi.__main__:main
