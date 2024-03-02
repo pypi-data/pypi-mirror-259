@@ -1,0 +1,3 @@
+[console_scripts]
+ShoubashouJiaonizuoYigeCYuyanBianyiqi = ShoubashouJiaonizuoYigeCYuyanBianyiqi.__main__:main
+shoubashou-jiaonizuo-yige-c-yuyan-bianyiqi = ShoubashouJiaonizuoYigeCYuyanBianyiqi.__main__:main
