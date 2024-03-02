@@ -1,0 +1,4 @@
+[console_scripts]
+MysqlXingnengDiaoyouYuJiagoushejiJesselzj = MysqlXingnengDiaoyouYuJiagoushejiJesselzj.__main__:main
+mysql-xingneng-diaoyou-yu-jiagousheji-jesselzj = MysqlXingnengDiaoyouYuJiagoushejiJesselzj.__main__:main
+
