@@ -1,0 +1,4 @@
+[console_scripts]
+YixueCDiyiban = YixueCDiyiban.__main__:main
+yixue-c-diyiban = YixueCDiyiban.__main__:main
+
