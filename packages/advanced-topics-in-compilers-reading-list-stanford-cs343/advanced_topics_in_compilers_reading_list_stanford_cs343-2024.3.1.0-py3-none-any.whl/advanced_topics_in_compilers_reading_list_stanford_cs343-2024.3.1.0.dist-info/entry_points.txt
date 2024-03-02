@@ -1,0 +1,4 @@
+[console_scripts]
+AdvancedTopicsInCompilersReadingListStanfordCs343 = AdvancedTopicsInCompilersReadingListStanfordCs343.__main__:main
+advanced-topics-in-compilers-reading-list-stanford-cs343 = AdvancedTopicsInCompilersReadingListStanfordCs343.__main__:main
+
