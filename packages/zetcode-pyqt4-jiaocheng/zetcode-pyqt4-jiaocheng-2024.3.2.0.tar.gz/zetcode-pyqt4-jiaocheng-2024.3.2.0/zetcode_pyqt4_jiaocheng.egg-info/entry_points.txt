@@ -1,0 +1,4 @@
+[console_scripts]
+ZetcodePyqt4Jiaocheng = ZetcodePyqt4Jiaocheng.__main__:main
+zetcode-pyqt4-jiaocheng = ZetcodePyqt4Jiaocheng.__main__:main
+
