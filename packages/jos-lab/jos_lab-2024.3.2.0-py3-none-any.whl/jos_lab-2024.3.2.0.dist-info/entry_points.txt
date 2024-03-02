@@ -1,0 +1,3 @@
+[console_scripts]
+JosLab = JosLab.__main__:main
+jos-lab = JosLab.__main__:main
