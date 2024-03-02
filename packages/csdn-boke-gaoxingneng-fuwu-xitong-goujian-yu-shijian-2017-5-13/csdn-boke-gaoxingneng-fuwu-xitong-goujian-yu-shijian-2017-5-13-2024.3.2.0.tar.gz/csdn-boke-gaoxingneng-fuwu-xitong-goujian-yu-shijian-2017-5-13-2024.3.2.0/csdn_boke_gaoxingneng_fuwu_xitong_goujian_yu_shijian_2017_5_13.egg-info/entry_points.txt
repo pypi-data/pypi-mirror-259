@@ -1,0 +1,4 @@
+[console_scripts]
+CsdnBokeGaoxingnengFuwuXitongGoujianYuShijian2017513 = CsdnBokeGaoxingnengFuwuXitongGoujianYuShijian2017513.__main__:main
+csdn-boke-gaoxingneng-fuwu-xitong-goujian-yu-shijian-2017-5-13 = CsdnBokeGaoxingnengFuwuXitongGoujianYuShijian2017513.__main__:main
+
