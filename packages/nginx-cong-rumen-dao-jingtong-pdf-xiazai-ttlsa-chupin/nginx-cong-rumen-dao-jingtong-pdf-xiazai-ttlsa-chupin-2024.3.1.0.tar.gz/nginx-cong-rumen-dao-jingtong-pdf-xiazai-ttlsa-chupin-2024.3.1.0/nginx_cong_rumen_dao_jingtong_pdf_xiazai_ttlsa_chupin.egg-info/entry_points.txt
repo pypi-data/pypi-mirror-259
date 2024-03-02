@@ -1,0 +1,3 @@
+[console_scripts]
+NginxCongRumenDaoJingtongPdfXiazaiTtlsaChupin = NginxCongRumenDaoJingtongPdfXiazaiTtlsaChupin.__main__:main
+nginx-cong-rumen-dao-jingtong-pdf-xiazai-ttlsa-chupin = NginxCongRumenDaoJingtongPdfXiazaiTtlsaChupin.__main__:main
