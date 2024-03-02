@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ezstools"
+version = "3.6.4"
+authors = [
+  { name="Hendrick", email="hendrickrodriguez.py@gmail.com" },
+]
+dependencies = [
+  "pick"
+]
+
+description = "Multi-purpose utility package"
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
