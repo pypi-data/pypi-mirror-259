@@ -1,0 +1,3 @@
+[console_scripts]
+ReactWebpackCookbook = ReactWebpackCookbook.__main__:main
+react-webpack-cookbook = ReactWebpackCookbook.__main__:main
