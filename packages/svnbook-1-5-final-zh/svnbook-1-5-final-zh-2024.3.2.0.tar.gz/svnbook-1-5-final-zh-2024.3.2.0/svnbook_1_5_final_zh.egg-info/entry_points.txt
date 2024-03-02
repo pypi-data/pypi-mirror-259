@@ -1,0 +1,3 @@
+[console_scripts]
+Svnbook15FinalZh = Svnbook15FinalZh.__main__:main
+svnbook-1-5-final-zh = Svnbook15FinalZh.__main__:main
