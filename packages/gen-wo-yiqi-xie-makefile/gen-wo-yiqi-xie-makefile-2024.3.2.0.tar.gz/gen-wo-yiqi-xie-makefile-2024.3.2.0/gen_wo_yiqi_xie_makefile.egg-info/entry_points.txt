@@ -1,0 +1,3 @@
+[console_scripts]
+GenWoYiqiXieMakefile = GenWoYiqiXieMakefile.__main__:main
+gen-wo-yiqi-xie-makefile = GenWoYiqiXieMakefile.__main__:main
