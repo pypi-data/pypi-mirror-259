@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+winfetch.py
+winfetch_py.egg-info/PKG-INFO
+winfetch_py.egg-info/SOURCES.txt
+winfetch_py.egg-info/dependency_links.txt
+winfetch_py.egg-info/top_level.txt
