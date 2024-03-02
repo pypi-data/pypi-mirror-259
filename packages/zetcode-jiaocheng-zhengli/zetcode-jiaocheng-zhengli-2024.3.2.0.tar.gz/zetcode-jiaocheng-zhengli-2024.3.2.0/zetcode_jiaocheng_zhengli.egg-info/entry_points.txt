@@ -1,0 +1,3 @@
+[console_scripts]
+ZetcodeJiaochengZhengli = ZetcodeJiaochengZhengli.__main__:main
+zetcode-jiaocheng-zhengli = ZetcodeJiaochengZhengli.__main__:main
