@@ -1,0 +1,3 @@
+[console_scripts]
+ShiyanlouHtml5JiaochengHeji20160904 = ShiyanlouHtml5JiaochengHeji20160904.__main__:main
+shiyanlou-html5-jiaocheng-heji-20160904 = ShiyanlouHtml5JiaochengHeji20160904.__main__:main
