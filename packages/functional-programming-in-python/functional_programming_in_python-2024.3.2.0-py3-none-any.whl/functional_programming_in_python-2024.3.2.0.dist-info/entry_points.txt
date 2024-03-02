@@ -1,0 +1,3 @@
+[console_scripts]
+FunctionalProgrammingInPython = FunctionalProgrammingInPython.__main__:main
+functional-programming-in-python = FunctionalProgrammingInPython.__main__:main
