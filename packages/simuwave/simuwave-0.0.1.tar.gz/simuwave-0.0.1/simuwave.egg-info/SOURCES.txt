@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+simuwave/__init__.py
+simuwave.egg-info/PKG-INFO
+simuwave.egg-info/SOURCES.txt
+simuwave.egg-info/dependency_links.txt
+simuwave.egg-info/requires.txt
+simuwave.egg-info/top_level.txt
