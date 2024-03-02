@@ -1,0 +1,3 @@
+[console_scripts]
+PythonJinjie = PythonJinjie.__main__:main
+python-jinjie = PythonJinjie.__main__:main
