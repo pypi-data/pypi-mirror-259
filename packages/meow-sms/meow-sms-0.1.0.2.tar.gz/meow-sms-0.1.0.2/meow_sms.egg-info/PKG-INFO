@@ -1,0 +1,85 @@
+Metadata-Version: 2.1
+Name: meow-sms
+Version: 0.1.0.2
+Summary: Асинхронный модуль для работы с Meow SMS API
+Author: fafatypoty
+Author-email: fafatypoty@proton.me
+License: Apache License, Version 2.0, see LICENSE file
+Project-URL: Telegram, https://t.me/fafatypoty_cloaca
+Project-URL: Github, https://github.com/fafatypoty/meow-sms
+Keywords: meow,meow api,asyncmeow,meow sms,meowsms
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: setuptools
+Requires-Dist: pydantic
+Requires-Dist: aiohttp
+Requires-Dist: APScheduler
+
+# **MeowSMS Python Package**
+
+![](./img.webp)
+
+The MeowSMS Python package is an asynchronous module designed for seamless interaction with the Meow SMS API. It
+provides a comprehensive set of features for sending SMS messages, customizing SMS content, checking domain status, and
+more. Whether you're looking to integrate SMS notifications into your application or automate messaging based on
+specific triggers, MeowSMS has got you covered.
+
+## **Features**
+
+- **Async Support**: Designed with asyncio in mind, enabling efficient I/O operations.
+- **Comprehensive API Coverage**: From sending SMS and custom SMS to checking domain status and retrieving service information.
+- **Dynamic Service Updates**: Automatically updates service lists and patterns daily.
+- **User Profile Management**: Access and manage your Meow SMS profile information with ease.
+- **Flexible Proxy Configuration**: Supports proxy settings for requests allowing usage behind firewalls or for anonymity.
+
+## **Installation**
+
+Install the package using pip:
+```bash
+pip install moonheimsms
+```
+
+## **Quick Start**
+
+Here's a quick example to get you started with sending an SMS:
+
+```python
+from meowsms import MeowSMS
+
+# Initialize MeowSMS with your API token
+sms = MeowSMS(token="your_api_token_here")
+
+# Send an SMS
+response = await sms.sendSms(number="1234567890", service="your_service_id", link="http://yourlink.com", template=1)
+
+print(response)
+```
+
+## Documentation
+
+For detailed documentation on all available methods and their usage, please refer to the official Meow SMS API documentation.
+
+## License
+
+This project is licensed under the Apache License 2.0. See the [LICENSE](./LICENSE) file for details.
+
+## Contributing
+
+Contributions are welcome! Please read the contributing guidelines before starting any work.
+
+## Support
+
+If you encounter any issues or have questions, please file an issue on the GitHub repository.
+
+
+> [!IMPORTANT]
+> This package is not officially affiliated with Meow SMS. All trademarks belong to their respective owners.
