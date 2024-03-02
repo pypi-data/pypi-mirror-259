@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+Pychoreographer.egg-info/PKG-INFO
+Pychoreographer.egg-info/SOURCES.txt
+Pychoreographer.egg-info/dependency_links.txt
+Pychoreographer.egg-info/entry_points.txt
+Pychoreographer.egg-info/top_level.txt
+pychoreographer/__init__.py
+pychoreographer/pychoreographer.py
+pychoreographer.egg-info/PKG-INFO
+pychoreographer.egg-info/SOURCES.txt
+pychoreographer.egg-info/dependency_links.txt
+pychoreographer.egg-info/entry_points.txt
+pychoreographer.egg-info/top_level.txt
