@@ -1,0 +1,4 @@
+[console_scripts]
+WordpressGaojiJiaochengJinjiBan = WordpressGaojiJiaochengJinjiBan.__main__:main
+wordpress-gaoji-jiaocheng-jinji-ban = WordpressGaojiJiaochengJinjiBan.__main__:main
+
