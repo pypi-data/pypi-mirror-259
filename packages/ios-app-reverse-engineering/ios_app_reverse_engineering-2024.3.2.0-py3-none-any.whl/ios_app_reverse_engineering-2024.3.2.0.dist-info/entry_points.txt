@@ -1,0 +1,4 @@
+[console_scripts]
+IosAppReverseEngineering = IosAppReverseEngineering.__main__:main
+ios-app-reverse-engineering = IosAppReverseEngineering.__main__:main
+
