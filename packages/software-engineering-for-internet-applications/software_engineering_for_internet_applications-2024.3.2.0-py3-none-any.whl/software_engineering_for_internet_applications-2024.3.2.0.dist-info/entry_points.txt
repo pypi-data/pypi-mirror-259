@@ -1,0 +1,4 @@
+[console_scripts]
+SoftwareEngineeringForInternetApplications = SoftwareEngineeringForInternetApplications.__main__:main
+software-engineering-for-internet-applications = SoftwareEngineeringForInternetApplications.__main__:main
+
