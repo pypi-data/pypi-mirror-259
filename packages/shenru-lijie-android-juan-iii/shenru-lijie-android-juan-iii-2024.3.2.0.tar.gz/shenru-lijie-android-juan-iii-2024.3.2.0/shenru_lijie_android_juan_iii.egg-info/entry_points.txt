@@ -1,0 +1,3 @@
+[console_scripts]
+ShenruLijieAndroidJuanIii = ShenruLijieAndroidJuanIii.__main__:main
+shenru-lijie-android-juan-iii = ShenruLijieAndroidJuanIii.__main__:main
