@@ -1,0 +1,4 @@
+[console_scripts]
+LinuxShellJiaobenJiaocheng30FenzhongWanzhuanShellJiaobenBiancheng = LinuxShellJiaobenJiaocheng30FenzhongWanzhuanShellJiaobenBiancheng.__main__:main
+linux-shell-jiaoben-jiaocheng-30-fenzhong-wanzhuan-shell-jiaoben-biancheng = LinuxShellJiaobenJiaocheng30FenzhongWanzhuanShellJiaobenBiancheng.__main__:main
+
