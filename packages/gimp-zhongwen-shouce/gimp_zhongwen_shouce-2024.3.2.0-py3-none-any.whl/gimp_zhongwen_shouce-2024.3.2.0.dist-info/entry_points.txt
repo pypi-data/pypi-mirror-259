@@ -1,0 +1,3 @@
+[console_scripts]
+GimpZhongwenShouce = GimpZhongwenShouce.__main__:main
+gimp-zhongwen-shouce = GimpZhongwenShouce.__main__:main
