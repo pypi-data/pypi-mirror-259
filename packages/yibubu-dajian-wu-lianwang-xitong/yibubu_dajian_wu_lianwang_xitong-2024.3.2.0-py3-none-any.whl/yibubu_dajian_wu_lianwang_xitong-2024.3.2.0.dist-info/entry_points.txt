@@ -1,0 +1,3 @@
+[console_scripts]
+YibubuDajianWuLianwangXitong = YibubuDajianWuLianwangXitong.__main__:main
+yibubu-dajian-wu-lianwang-xitong = YibubuDajianWuLianwangXitong.__main__:main
