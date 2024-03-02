@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+
+[project]
+license = {file = "LICENSE"}
+name = "reproplot"
+version = "0.0.1"
+authors = [
+  { name="Oscar Villemaud", email="oscar.villemaud@epfl.ch" },
+]
+description = "General package for experimenting and automatically plotting. "
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[tool.hatch.build.targets.wheel]
+include = [
+  "reproplot/*.py",
+  "/tests",
+]

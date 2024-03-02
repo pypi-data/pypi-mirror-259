@@ -1,0 +1,1 @@
+General package for experimenting and automatically plotting. 
