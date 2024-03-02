@@ -1,0 +1,12 @@
+tk
+ipywidgets
+xarray
+rioxarray
+rasterio
+numpy
+spyndex
+pandas
+matplotlib
+seaborn
+ray
+tqdm
