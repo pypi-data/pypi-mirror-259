@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: example-pkg-flobsx
+Version: 0.0.1
+Summary: A small package example
+Home-page: https://gitlab.com/learning-fox/packaging-tutorial
+Author: Flobsx
+Author-email: flobsx@gmail.com
+Project-URL: Bug Tracker, https://gitlab.com/learning-fox/packaging-tutorial/-/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE
+
+# Example Package
+
+This is a simple example package.
+
+Sources : https://www.bluedoa.com/auto-deploying-python-pypi-package-with-gitlab-ci-cd-simplified-/
