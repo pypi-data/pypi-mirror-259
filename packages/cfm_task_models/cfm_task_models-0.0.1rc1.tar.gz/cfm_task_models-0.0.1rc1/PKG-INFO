@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: cfm-task-models
+Version: 0.0.1rc1
+Summary: CFM - model zoo
+Author: Alon Harell
+Author-email: aharell@sfu.ca
+Requires-Python: >=3.9.5,<=3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Provides-Extra: extras
+Requires-Dist: Pillow
+Requires-Dist: cython (>=0,<1)
+Requires-Dist: mmcv-lite
+Requires-Dist: mmdet
+Requires-Dist: mmengine
+Requires-Dist: numpy
+Requires-Dist: openmim
+Requires-Dist: pytorch-msssim (==0.2.0)
+Requires-Dist: scikit-learn
+Requires-Dist: timm
+Requires-Dist: torchsummary (==1.5.1)
+Requires-Dist: tqdm (==4.61.2)
