@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: ant31box
+Version: 0.1.0
+Summary: 
+Author: ant31
+Author-email: 2t.antoine@gmail.com
+Requires-Python: >=3.11,<4
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: aiofiles
+Requires-Dist: aiohttp-prometheus-exporter
+Requires-Dist: aiohttp[speedups]
+Requires-Dist: aiohttp_requests
+Requires-Dist: aioshutil (>=1.3,<2.0)
+Requires-Dist: asyncio (>=3,<4)
+Requires-Dist: cachetools (>=5.3.3,<6.0.0)
+Requires-Dist: click
+Requires-Dist: fastapi[all]
+Requires-Dist: paramiko
+Requires-Dist: pydantic
+Requires-Dist: pydantic-settings
+Requires-Dist: python-multipart (>=0.0.6,<0.0.7)
+Requires-Dist: pyyaml
+Requires-Dist: sentry-sdk[fastapi]
+Requires-Dist: starlette-exporter
+Requires-Dist: typing-extensions
+Description-Content-Type: text/markdown
+
+# ant31box
+Python various utils. Should be separated packages, but who cares :) 
+
