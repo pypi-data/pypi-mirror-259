@@ -1,0 +1,3 @@
+[console_scripts]
+TheLinuxCommandLineZhongwenban = TheLinuxCommandLineZhongwenban.__main__:main
+the-linux-command-line-zhongwenban = TheLinuxCommandLineZhongwenban.__main__:main
