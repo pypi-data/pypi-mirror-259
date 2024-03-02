@@ -1,0 +1,3 @@
+[console_scripts]
+MsdnCBianchengZhinanCankaoshouce2015 = MsdnCBianchengZhinanCankaoshouce2015.__main__:main
+msdn-c-biancheng-zhinan-cankaoshouce-2015 = MsdnCBianchengZhinanCankaoshouce2015.__main__:main
