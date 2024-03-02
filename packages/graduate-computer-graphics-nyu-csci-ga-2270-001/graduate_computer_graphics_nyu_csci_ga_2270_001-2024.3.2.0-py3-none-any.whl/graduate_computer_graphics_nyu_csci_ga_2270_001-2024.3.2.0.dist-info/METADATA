@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: graduate-computer-graphics-nyu-csci-ga-2270-001
+Version: 2024.3.2.0
+Summary: Graduate Computer Graphics (NYU CSCI-GA.2270-001)
+Home-page: https://github.com/apachecn/graduate-computer-graphics-nyu-csci-ga-2270-001
+Author: ApacheCN
+Author-email: apachecn@163.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: Other/Proprietary License
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Text Processing :: Markup :: Markdown
+Classifier: Topic :: Text Processing :: Markup :: HTML
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development :: Documentation
+Classifier: Topic :: Documentation
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Graduate Computer Graphics (NYU CSCI-GA.2270-001)
+
+## 下载
+
+### Docker
+
+```
+docker pull apachecn0/graduate-computer-graphics-nyu-csci-ga-2270-001
+docker run -tid -p <port>:80 apachecn0/graduate-computer-graphics-nyu-csci-ga-2270-001
+# 访问 http://localhost:{port} 查看文档
+```
+
+### PYPI
+
+```
+pip install graduate-computer-graphics-nyu-csci-ga-2270-001
+graduate-computer-graphics-nyu-csci-ga-2270-001 <port>
+# 访问 http://localhost:{port} 查看文档
+```
+
+### NPM
+
+```
+npm install -g graduate-computer-graphics-nyu-csci-ga-ererqiling-linglingyi
+graduate-computer-graphics-nyu-csci-ga-ererqiling-linglingyi <port>
+# 访问 http://localhost:{port} 查看文档
+```
+
