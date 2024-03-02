@@ -1,0 +1,4 @@
+[console_scripts]
+OpencvZhongwenWendang = OpencvZhongwenWendang.__main__:main
+opencv-zhongwen-wendang = OpencvZhongwenWendang.__main__:main
+
