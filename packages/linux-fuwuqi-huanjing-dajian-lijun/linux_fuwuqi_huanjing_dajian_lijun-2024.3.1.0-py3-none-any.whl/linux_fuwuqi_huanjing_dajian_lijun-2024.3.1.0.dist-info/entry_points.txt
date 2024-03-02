@@ -1,0 +1,3 @@
+[console_scripts]
+LinuxFuwuqiHuanjingDajianLijun = LinuxFuwuqiHuanjingDajianLijun.__main__:main
+linux-fuwuqi-huanjing-dajian-lijun = LinuxFuwuqiHuanjingDajianLijun.__main__:main
