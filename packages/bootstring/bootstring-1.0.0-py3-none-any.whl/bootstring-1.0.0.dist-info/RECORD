@@ -1,0 +1,8 @@
+bootstring/__init__.py,sha256=lCC5oWRzIKG4rkNFGEUoQrvRb_9IPHfxJvuaGy6Rqus,957
+bootstring/decode.py,sha256=krYtiz6VpqqIJUw2m-nZFIr8lU-5JrX10QRtz4FialQ,4056
+bootstring/encode.py,sha256=Ug_JFqfhRLnAEJvBVzw7w0-ckN8WlaJ0dQui2KFSqOg,5130
+bootstring/generalized_variable_length_integers.py,sha256=qUKwOqFun88hSq4j1VnnwDF94-fNoQN7HRPw6LInofM,2688
+bootstring-1.0.0.dist-info/METADATA,sha256=y1AVjmLtKGDTBj5mopo9BeHq4hCJCxy37mEy_VQ0OaE,1606
+bootstring-1.0.0.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+bootstring-1.0.0.dist-info/licenses/LICENSE,sha256=8FENO50SI8Rej90rSScOyHNP_0kcf30blI7nAWLhzv8,1210
+bootstring-1.0.0.dist-info/RECORD,,
