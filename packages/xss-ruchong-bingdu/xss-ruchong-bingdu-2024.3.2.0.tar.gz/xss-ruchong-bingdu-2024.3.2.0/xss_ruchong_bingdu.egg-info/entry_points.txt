@@ -1,0 +1,3 @@
+[console_scripts]
+XssRuchongBingdu = XssRuchongBingdu.__main__:main
+xss-ruchong-bingdu = XssRuchongBingdu.__main__:main
