@@ -1,0 +1,4 @@
+[console_scripts]
+CJichujiaochengBetaBanJuanSoulie = CJichujiaochengBetaBanJuanSoulie.__main__:main
+c-jichujiaocheng-beta-ban-juan-soulie = CJichujiaochengBetaBanJuanSoulie.__main__:main
+
