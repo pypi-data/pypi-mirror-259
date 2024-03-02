@@ -1,0 +1,3 @@
+[console_scripts]
+ketos-metrics = ketos.ketos_commands.ketos_metrics:main
+ketos-run = ketos.ketos_commands.ketos_run:main
