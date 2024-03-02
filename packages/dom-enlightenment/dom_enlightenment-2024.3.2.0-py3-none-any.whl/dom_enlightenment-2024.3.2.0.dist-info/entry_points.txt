@@ -1,0 +1,4 @@
+[console_scripts]
+DomEnlightenment = DomEnlightenment.__main__:main
+dom-enlightenment = DomEnlightenment.__main__:main
+
