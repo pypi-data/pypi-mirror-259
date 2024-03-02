@@ -1,0 +1,4 @@
+[console_scripts]
+SpringCloudJiaochengZhaiyongchao = SpringCloudJiaochengZhaiyongchao.__main__:main
+spring-cloud-jiaocheng-zhaiyongchao = SpringCloudJiaochengZhaiyongchao.__main__:main
+
