@@ -1,0 +1,4 @@
+[console_scripts]
+ShangzhaoZiDeJiemiRumenJiaoxue = ShangzhaoZiDeJiemiRumenJiaoxue.__main__:main
+shangzhao-zi-de-jiemi-rumen-jiaoxue = ShangzhaoZiDeJiemiRumenJiaoxue.__main__:main
+
