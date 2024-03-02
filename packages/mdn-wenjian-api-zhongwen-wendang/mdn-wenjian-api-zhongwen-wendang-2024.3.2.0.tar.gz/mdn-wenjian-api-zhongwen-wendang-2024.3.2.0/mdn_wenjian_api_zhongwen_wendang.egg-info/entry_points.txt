@@ -1,0 +1,4 @@
+[console_scripts]
+MdnWenjianApiZhongwenWendang = MdnWenjianApiZhongwenWendang.__main__:main
+mdn-wenjian-api-zhongwen-wendang = MdnWenjianApiZhongwenWendang.__main__:main
+
