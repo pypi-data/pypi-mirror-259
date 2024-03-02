@@ -1,0 +1,4 @@
+[console_scripts]
+PythonZhilv = PythonZhilv.__main__:main
+python-zhilv = PythonZhilv.__main__:main
+
