@@ -1,0 +1,4 @@
+[console_scripts]
+ShiyongOllydbgConglingkaishiCracking = ShiyongOllydbgConglingkaishiCracking.__main__:main
+shiyong-ollydbg-conglingkaishi-cracking = ShiyongOllydbgConglingkaishiCracking.__main__:main
+
