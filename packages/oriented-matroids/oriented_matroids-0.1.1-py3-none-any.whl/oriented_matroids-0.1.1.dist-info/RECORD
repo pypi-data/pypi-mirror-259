@@ -1,0 +1,16 @@
+oriented_matroids/__init__.py,sha256=8STsFzIGEycrJTR1nBGqSd7FF5VKwhJvldTuXEh2wA4,270
+oriented_matroids/abstract_oriented_matroid.py,sha256=yn0NC3HKwpp1-O7ARm-L26zK3NjmOim41V34X_CY8b0,16430
+oriented_matroids/all.py,sha256=rj5ozOf-sm5foFY4HLwmoYdJ1wzmczFXt05A792Epq8,281
+oriented_matroids/catalog.py,sha256=eHiGgbkjnu0JuhP2UezbM8ucnnqbSdY7Bt4ozrbO3vU,113
+oriented_matroids/circuit_oriented_matroid.py,sha256=qKr1mNOR4ET_7ItrtmbtpYdEYAfVZsZiqnHI0heEeXY,8631
+oriented_matroids/covector_oriented_matroid.py,sha256=jiNJsmIj2eicIoagzNfXT8R3Grqiyu6cPkpYoxkBmJw,8230
+oriented_matroids/oriented_matroid.py,sha256=yWEnUAmM9m3Uws0ijQjt8sriQxbE1hm7oMTAaHqfhYo,9752
+oriented_matroids/oriented_matroids_catalog.py,sha256=LhfI27TZf58TJFgkf_QVCDv7oebLdPD-uYKatsAZjjY,221
+oriented_matroids/real_hyperplane_arrangement_oriented_matroid.py,sha256=wAC402XIf7i3o29GXPf8oUQdbE-CWrRk-n482kM-okE,5321
+oriented_matroids/signed_subset_element.py,sha256=CvOmrphQz05nfqRovYNHrulWIk3otQyfcR00AWCZ7VA,20072
+oriented_matroids/vector_oriented_matroid.py,sha256=acx961AY4GjQ1UoMs9B1aqyV1SGRB4s3WaJ5Ebqy4E4,8809
+oriented_matroids-0.1.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+oriented_matroids-0.1.1.dist-info/METADATA,sha256=bePMRZfDqYg_lG1--q0lqB9YF-pLlcZFcRYhubtN_BQ,43079
+oriented_matroids-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+oriented_matroids-0.1.1.dist-info/top_level.txt,sha256=NdimC9MP6TFZip2Wz-Jfo02qxAWe_HyipT0lMGX_gmc,18
+oriented_matroids-0.1.1.dist-info/RECORD,,
