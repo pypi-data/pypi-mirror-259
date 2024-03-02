@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "mainmatrix"
+version = "0.0.1"
+description = "null"
+authors = ["MainPlay TG <xbox.roman6666666666@gmail.com>"]
+readme = "README.md"
+repository = "https://github.com/MainPlay-TG/MainMatrix.py"
+packages = [
+    { include = "MainMatrix", from = "src" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.group.PIL]
+optional = true
+
+[tool.poetry.group.PIL.dependencies]
+pillow = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
