@@ -1,0 +1,17 @@
+ews_nox/__init__.py,sha256=zR0QeMnMcER7Bw7fwtlTwIYA0RNxyqO8D88X-6C91g8,186
+ews_nox/helpers.py,sha256=w6gHLnDEzZOaxeTosHEpgJPDGqheCQ1gWAAmGE0RiGk,68278
+ews_nox/version.py,sha256=BQsc-M2SVQfga4ALTPaDrnhlBPIZQulI1VujtzDPlEw,981
+ews_nox/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ews_nox/tests/test.py,sha256=-qdSluGvfTkOIlmLwTvMje88K_z2cqQ5wTCDO6AZXz8,572
+ews_nox/tests/test_version.py,sha256=Ii8NOsMS8AV687iI1beFEElFQpLwCSCMO9Go9rGjDqA,1248
+ews_nox/utilities/__init__.py,sha256=TiYpHxFFsHhUmzlzxrFNl1XQn-YxbLT2vpKQ-W5smt8,146
+ews_nox/utilities/git.py,sha256=c7QvjhJPlMsMDmaw66quMemXQHd8TOqquJR7W5_nxJM,4511
+ews_nox/utilities/hosts.py,sha256=L3wbxjGliLd-blLaMEvU_6QsDWC_mQwlBwEWog_3CFc,1983
+ews_nox/utilities/installation.py,sha256=CuV8UjZMTBamhPmoFPeiFZ058UuYgkblGF6atoN3dMo,11913
+ews_nox/utilities/misc.py,sha256=zuKSzNBvxbNNFWl3bcB2SOg4Qv2P3dZoSe3f08Yn7yA,946
+ews_nox/utilities/package.py,sha256=qbqZSr1vhgJ2aiqF_TCKM-1fy-zWFhiq-_3hA3_gVQ4,17683
+ews_nox-20240301.dist-info/LICENSE,sha256=EsEsEJM7Tudfgqfg65xUqIRZSkqtdrJzyZDfFlvZTKo,1071
+ews_nox-20240301.dist-info/METADATA,sha256=QBTJvz8vRlNcH0zc2Z7vq-tDAqC_MoB5ulpOhEMtG8s,2259
+ews_nox-20240301.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+ews_nox-20240301.dist-info/top_level.txt,sha256=x8mL-78KaH3MCaYrgoZVYwFU0XyMI8hrm7osalYRS1g,8
+ews_nox-20240301.dist-info/RECORD,,
