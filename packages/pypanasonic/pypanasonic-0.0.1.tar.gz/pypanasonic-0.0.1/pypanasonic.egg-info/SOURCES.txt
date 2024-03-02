@@ -1,0 +1,5 @@
+setup.py
+pypanasonic.egg-info/PKG-INFO
+pypanasonic.egg-info/SOURCES.txt
+pypanasonic.egg-info/dependency_links.txt
+pypanasonic.egg-info/top_level.txt

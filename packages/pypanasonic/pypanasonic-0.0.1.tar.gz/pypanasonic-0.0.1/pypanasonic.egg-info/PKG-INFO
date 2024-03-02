@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: pypanasonic
+Version: 0.0.1
+Summary: A panasonic serial communication tool
+Author: luweizhao
+Author-email: luweizhao09@gmail.com
+License: MIT License
