@@ -1,0 +1,3 @@
+[console_scripts]
+QianruQianchuJavaWeb = QianruQianchuJavaWeb.__main__:main
+qianru-qianchu-java-web = QianruQianchuJavaWeb.__main__:main
