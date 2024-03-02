@@ -1,0 +1,3 @@
+[console_scripts]
+Java8XinTexingTanjiu = Java8XinTexingTanjiu.__main__:main
+java8-xin-texing-tanjiu = Java8XinTexingTanjiu.__main__:main
