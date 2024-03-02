@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: copspy
+Version: 0.1.2
+Summary: a fan made python API wrapper for the c-ops public api
+Home-page: https://github.com/Kitsune-San/cops.py
+Author: Kitsune
+Author-email: kitsune@yokaigroup.gg
+License: MIT
+Keywords: cops,api,wrapper,apiwrapper,python,c-ops
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt

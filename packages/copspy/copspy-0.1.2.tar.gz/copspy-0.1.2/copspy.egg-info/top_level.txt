@@ -1,0 +1,3 @@
+copspy/
+copspy/errors
+copspy/urls
