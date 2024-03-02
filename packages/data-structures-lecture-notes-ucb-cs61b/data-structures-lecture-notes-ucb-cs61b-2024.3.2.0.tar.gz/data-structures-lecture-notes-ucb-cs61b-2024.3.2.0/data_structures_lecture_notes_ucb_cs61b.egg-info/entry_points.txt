@@ -1,0 +1,4 @@
+[console_scripts]
+DataStructuresLectureNotesUcbCs61b = DataStructuresLectureNotesUcbCs61b.__main__:main
+data-structures-lecture-notes-ucb-cs61b = DataStructuresLectureNotesUcbCs61b.__main__:main
+
