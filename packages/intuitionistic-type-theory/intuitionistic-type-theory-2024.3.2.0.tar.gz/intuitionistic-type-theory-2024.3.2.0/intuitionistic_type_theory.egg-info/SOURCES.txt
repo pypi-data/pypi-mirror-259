@@ -1,0 +1,12 @@
+README.md
+setup.py
+IntuitionisticTypeTheory/README.md
+IntuitionisticTypeTheory/__init__.py
+IntuitionisticTypeTheory/__main__.py
+IntuitionisticTypeTheory/file.pdf
+IntuitionisticTypeTheory/index.html
+intuitionistic_type_theory.egg-info/PKG-INFO
+intuitionistic_type_theory.egg-info/SOURCES.txt
+intuitionistic_type_theory.egg-info/dependency_links.txt
+intuitionistic_type_theory.egg-info/entry_points.txt
+intuitionistic_type_theory.egg-info/top_level.txt
