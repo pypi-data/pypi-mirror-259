@@ -1,0 +1,3 @@
+[console_scripts]
+TornadoGailan = TornadoGailan.__main__:main
+tornado-gailan = TornadoGailan.__main__:main
