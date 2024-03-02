@@ -1,0 +1,4 @@
+[console_scripts]
+PythonDataScienceHandbookJupyterNotebookVersion = PythonDataScienceHandbookJupyterNotebookVersion.__main__:main
+python-data-science-handbook-jupyter-notebook-version = PythonDataScienceHandbookJupyterNotebookVersion.__main__:main
+
