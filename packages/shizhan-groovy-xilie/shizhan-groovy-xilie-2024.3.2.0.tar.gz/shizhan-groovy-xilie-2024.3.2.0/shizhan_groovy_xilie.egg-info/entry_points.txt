@@ -1,0 +1,3 @@
+[console_scripts]
+ShizhanGroovyXilie = ShizhanGroovyXilie.__main__:main
+shizhan-groovy-xilie = ShizhanGroovyXilie.__main__:main
