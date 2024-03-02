@@ -1,0 +1,4 @@
+[console_scripts]
+SuijiGuochengJiangyiZhongkeyuanSunyingFei = SuijiGuochengJiangyiZhongkeyuanSunyingFei.__main__:main
+suiji-guocheng-jiangyi-zhongkeyuan-sunying-fei = SuijiGuochengJiangyiZhongkeyuanSunyingFei.__main__:main
+
