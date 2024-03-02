@@ -1,0 +1,4 @@
+[console_scripts]
+AuklandCompsci111PracticalComputingReferenceManual = AuklandCompsci111PracticalComputingReferenceManual.__main__:main
+aukland-compsci-111-practical-computing-reference-manual = AuklandCompsci111PracticalComputingReferenceManual.__main__:main
+
