@@ -1,0 +1,3 @@
+[console_scripts]
+ZhuiqiuDaimaZhiliang = ZhuiqiuDaimaZhiliang.__main__:main
+zhuiqiu-daima-zhiliang = ZhuiqiuDaimaZhiliang.__main__:main
