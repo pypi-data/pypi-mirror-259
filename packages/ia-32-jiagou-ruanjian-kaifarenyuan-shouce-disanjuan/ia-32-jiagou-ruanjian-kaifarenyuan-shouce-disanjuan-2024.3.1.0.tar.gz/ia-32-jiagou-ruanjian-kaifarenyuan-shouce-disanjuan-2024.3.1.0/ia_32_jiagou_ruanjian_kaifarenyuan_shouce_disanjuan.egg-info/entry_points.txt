@@ -1,0 +1,3 @@
+[console_scripts]
+Ia32JiagouRuanjianKaifarenyuanShouceDisanjuan = Ia32JiagouRuanjianKaifarenyuanShouceDisanjuan.__main__:main
+ia-32-jiagou-ruanjian-kaifarenyuan-shouce-disanjuan = Ia32JiagouRuanjianKaifarenyuanShouceDisanjuan.__main__:main
