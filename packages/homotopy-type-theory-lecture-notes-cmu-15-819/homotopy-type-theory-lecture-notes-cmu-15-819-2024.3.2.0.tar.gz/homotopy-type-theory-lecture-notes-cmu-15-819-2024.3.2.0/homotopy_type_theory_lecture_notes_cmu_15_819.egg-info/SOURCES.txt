@@ -1,0 +1,12 @@
+README.md
+setup.py
+HomotopyTypeTheoryLectureNotesCmu15819/README.md
+HomotopyTypeTheoryLectureNotesCmu15819/__init__.py
+HomotopyTypeTheoryLectureNotesCmu15819/__main__.py
+HomotopyTypeTheoryLectureNotesCmu15819/file.pdf
+HomotopyTypeTheoryLectureNotesCmu15819/index.html
+homotopy_type_theory_lecture_notes_cmu_15_819.egg-info/PKG-INFO
+homotopy_type_theory_lecture_notes_cmu_15_819.egg-info/SOURCES.txt
+homotopy_type_theory_lecture_notes_cmu_15_819.egg-info/dependency_links.txt
+homotopy_type_theory_lecture_notes_cmu_15_819.egg-info/entry_points.txt
+homotopy_type_theory_lecture_notes_cmu_15_819.egg-info/top_level.txt

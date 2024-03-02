@@ -1,0 +1,4 @@
+[console_scripts]
+HomotopyTypeTheoryLectureNotesCmu15819 = HomotopyTypeTheoryLectureNotesCmu15819.__main__:main
+homotopy-type-theory-lecture-notes-cmu-15-819 = HomotopyTypeTheoryLectureNotesCmu15819.__main__:main
+
