@@ -1,0 +1,3 @@
+[console_scripts]
+FlaskWebKaifaRumen = FlaskWebKaifaRumen.__main__:main
+flask-web-kaifa-rumen = FlaskWebKaifaRumen.__main__:main
