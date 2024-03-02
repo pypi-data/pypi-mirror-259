@@ -1,0 +1,55 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+import setuptools
+import ShujujiegouYuSuanfaFenxiXuexiBijiLuocong
+import os
+from os import path
+
+with open("README.md", "r", encoding="utf-8") as fh:
+    long_description = fh.read()
+
+for subdir, _, _ in os.walk('ShujujiegouYuSuanfaFenxiXuexiBijiLuocong'):
+    fname = path.join(subdir, '__init__.py')
+    open(fname, 'a').close()
+    
+setuptools.setup(
+    name="shujujiegou-yu-suanfa-fenxi-xuexi-biji-luocong",
+    version=ShujujiegouYuSuanfaFenxiXuexiBijiLuocong.__version__,
+    url="https://github.com/apachecn/shujujiegou-yu-suanfa-fenxi-xuexi-biji-luocong",
+    author=ShujujiegouYuSuanfaFenxiXuexiBijiLuocong.__author__,
+    author_email=ShujujiegouYuSuanfaFenxiXuexiBijiLuocong.__email__,
+    classifiers=[
+        "Development Status :: 4 - Beta",
+        "Environment :: Console",
+        "Intended Audience :: Developers",
+        "Intended Audience :: End Users/Desktop",
+        "License :: Other/Proprietary License",
+        "Natural Language :: Chinese (Simplified)",
+        "Natural Language :: English",
+        "Operating System :: OS Independent",
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3 :: Only",
+        "Programming Language :: Python :: 3.6",
+        "Programming Language :: Python :: 3.7",
+        "Topic :: Text Processing :: Markup :: Markdown",
+        "Topic :: Text Processing :: Markup :: HTML",
+        "Topic :: Internet :: WWW/HTTP",
+        "Topic :: Software Development :: Documentation",
+        "Topic :: Documentation",
+    ],
+    description="数据结构与算法分析学习笔记（罗聪）",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+    keywords=[],
+    install_requires=[],
+    python_requires=">=3.6",
+    entry_points={
+        'console_scripts': [
+            "shujujiegou-yu-suanfa-fenxi-xuexi-biji-luocong=ShujujiegouYuSuanfaFenxiXuexiBijiLuocong.__main__:main",
+            "ShujujiegouYuSuanfaFenxiXuexiBijiLuocong=ShujujiegouYuSuanfaFenxiXuexiBijiLuocong.__main__:main",
+        ],
+    },
+    packages=setuptools.find_packages(),
+    package_data={'': ['*']},
+)
