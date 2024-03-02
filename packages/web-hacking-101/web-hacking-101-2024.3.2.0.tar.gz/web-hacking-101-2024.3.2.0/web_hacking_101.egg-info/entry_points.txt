@@ -1,0 +1,4 @@
+[console_scripts]
+WebHacking101 = WebHacking101.__main__:main
+web-hacking-101 = WebHacking101.__main__:main
+
