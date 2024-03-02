@@ -1,0 +1,3 @@
+[console_scripts]
+PhpKaifazheShijian = PhpKaifazheShijian.__main__:main
+php-kaifazhe-shijian = PhpKaifazheShijian.__main__:main
