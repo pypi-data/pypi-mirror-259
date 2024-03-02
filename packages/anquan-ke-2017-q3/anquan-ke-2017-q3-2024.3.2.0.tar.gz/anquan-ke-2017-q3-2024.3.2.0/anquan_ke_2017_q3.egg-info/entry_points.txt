@@ -1,0 +1,4 @@
+[console_scripts]
+AnquanKe2017Q3 = AnquanKe2017Q3.__main__:main
+anquan-ke-2017-q3 = AnquanKe2017Q3.__main__:main
+
