@@ -1,0 +1,4 @@
+[console_scripts]
+ReinforcementLearningAnIntroductionCompleteDraft = ReinforcementLearningAnIntroductionCompleteDraft.__main__:main
+reinforcement-learning-an-introduction-complete-draft = ReinforcementLearningAnIntroductionCompleteDraft.__main__:main
+
