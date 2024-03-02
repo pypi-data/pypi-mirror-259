@@ -1,0 +1,12 @@
+machineroom/__init__.py,sha256=DOAT1DCDulBoY8iBuSukXtkh_xxxretf6myzSdv0Ers,1440
+machineroom/const.py,sha256=wzYafXqXB2cjvvZjXlqwB0broSgti06tRKdAjXOojEU,767
+machineroom/schema.json,sha256=T6HDodkvARrUTZ4lRAh-FW81e64kEFYCdm46o2hQFew,996
+machineroom/sql.py,sha256=5ayJJMoOry6TbBV6xJf541v_r9NvU3-U32QNc6SlOfk,13012
+machineroom/taskbase.py,sha256=v9xy3wIO0YyebzvRFw6rfhoSamBMr9i_apIXuR6Ahy0,12785
+machineroom/util.py,sha256=9tYiXdDiZXTYLfW7IoXmBJgdmG4nx3RXkhBBLXI73oY,13387
+machineroom/worker.py,sha256=H9XIEJXUNx-9m1lnFEUjdd964KsUUA_H5tXOGzDgWH8,1428
+machineroom-0.42.9.dist-info/LICENSE,sha256=0HJT2ahRLSeJGSqyjSCcgxsErG-DbPgp-cdZMY_Jxd8,1068
+machineroom-0.42.9.dist-info/METADATA,sha256=p3xqXz_biaIkwkxAbGXvHO-AoIyXXDni-UfWukllUk4,4392
+machineroom-0.42.9.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+machineroom-0.42.9.dist-info/top_level.txt,sha256=TkiXjsqLJ8eQ8BwoY5nQlUdINLotUl3G_ObtLbup5GE,12
+machineroom-0.42.9.dist-info/RECORD,,
