@@ -1,0 +1,3 @@
+[console_scripts]
+YifenButaiJianduanDeLatex2Jieshao = YifenButaiJianduanDeLatex2Jieshao.__main__:main
+yifen-butai-jianduan-de-latex-2-jieshao = YifenButaiJianduanDeLatex2Jieshao.__main__:main
