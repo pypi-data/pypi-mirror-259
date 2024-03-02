@@ -1,0 +1,4 @@
+[console_scripts]
+SharkHenglingJichuPojieJiaochengZhiTuwenBan = SharkHenglingJichuPojieJiaochengZhiTuwenBan.__main__:main
+shark-hengling-jichu-pojie-jiaocheng-zhi-tuwen-ban = SharkHenglingJichuPojieJiaochengZhiTuwenBan.__main__:main
+
