@@ -1,0 +1,4 @@
+[console_scripts]
+HuangeJiaodukanXianxingdaishuFengxiaoxiao = HuangeJiaodukanXianxingdaishuFengxiaoxiao.__main__:main
+huange-jiaodukan-xianxingdaishu-fengxiaoxiao = HuangeJiaodukanXianxingdaishuFengxiaoxiao.__main__:main
+
