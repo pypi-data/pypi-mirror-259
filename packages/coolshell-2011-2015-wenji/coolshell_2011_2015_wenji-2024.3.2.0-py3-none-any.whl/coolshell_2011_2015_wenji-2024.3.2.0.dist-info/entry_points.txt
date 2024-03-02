@@ -1,0 +1,3 @@
+[console_scripts]
+Coolshell20112015Wenji = Coolshell20112015Wenji.__main__:main
+coolshell-2011-2015-wenji = Coolshell20112015Wenji.__main__:main
