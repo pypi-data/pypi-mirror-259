@@ -1,0 +1,4 @@
+[console_scripts]
+ReactInDepth = ReactInDepth.__main__:main
+react-in-depth = ReactInDepth.__main__:main
+
