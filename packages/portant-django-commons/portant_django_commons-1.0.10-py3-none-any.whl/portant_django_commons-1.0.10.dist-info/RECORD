@@ -1,0 +1,15 @@
+portant/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+portant/decorators.py,sha256=nnYMe7tWFAdbL_CD6XeTGeL_X1yIBR6oE5__iQtoL34,378
+portant/mixins.py,sha256=AmdWQuFWUkukrhOZP5K5L21r2joEtw36kM5IMOKaZFQ,383
+portant/commons/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+portant/commons/imaging.py,sha256=DmuxTRviPPeLaDLx2UmiiG9fpjMQUlZQuw0HVZ9amdo,1402
+portant/commons/mixins.py,sha256=OglKxMwMPmXYGhvghTuzaTJXb_V2wxWWr_ietodaLvs,810
+portant/commons/pdf.py,sha256=1QImxuSNZBXyWvuKlvg9-DtkvA6DTL-PjJuNRuhzmfk,790
+portant/commons/pricing.py,sha256=1OtGDOxHNrQ5OlpuYCeJTPrA621Wah7GStdEg3QDzJM,934
+portant/commons/slugify.py,sha256=nfKnFkMMQpMq9Tmf00dG4NtiqPAHVwyGOrbxUTup94k,2568
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_noop.py,sha256=6JMSGDxL5n5MU6aZ-iqwv7_l0o-8pgLpgSP6WdhOmko,59
+portant_django_commons-1.0.10.dist-info/METADATA,sha256=lGGa6p3FonejYrc9OPc8E8MgnQgjxvlbF1gSfuZN_uY,969
+portant_django_commons-1.0.10.dist-info/WHEEL,sha256=Xo9-1PvkuimrydujYJAjF7pCkriuXBpUPEjma1nZyJ0,92
+portant_django_commons-1.0.10.dist-info/top_level.txt,sha256=xVDuMCbEPZDEWJeCchUdtsNPYIbxfIvnjH-oek0JARI,14
+portant_django_commons-1.0.10.dist-info/RECORD,,
