@@ -1,0 +1,4 @@
+[console_scripts]
+AdvancedTopicsInComputerSystemsLectureNotesUcbCs262a = AdvancedTopicsInComputerSystemsLectureNotesUcbCs262a.__main__:main
+advanced-topics-in-computer-systems-lecture-notes-ucb-cs262a = AdvancedTopicsInComputerSystemsLectureNotesUcbCs262a.__main__:main
+
