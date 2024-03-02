@@ -1,0 +1,3 @@
+[console_scripts]
+WoDeWafbypassZhiLuSqlZhuruPian = WoDeWafbypassZhiLuSqlZhuruPian.__main__:main
+wo-de-wafbypass-zhi-lu-sql-zhuru-pian = WoDeWafbypassZhiLuSqlZhuruPian.__main__:main
