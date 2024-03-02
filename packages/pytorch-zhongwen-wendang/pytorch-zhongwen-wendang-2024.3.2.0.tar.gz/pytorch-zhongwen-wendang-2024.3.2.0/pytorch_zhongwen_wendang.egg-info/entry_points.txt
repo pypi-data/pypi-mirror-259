@@ -1,0 +1,4 @@
+[console_scripts]
+PytorchZhongwenWendang = PytorchZhongwenWendang.__main__:main
+pytorch-zhongwen-wendang = PytorchZhongwenWendang.__main__:main
+
