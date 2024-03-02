@@ -1,0 +1,3 @@
+[console_scripts]
+Zhengzebiaodashi30FenzhongRumen = Zhengzebiaodashi30FenzhongRumen.__main__:main
+zhengzebiaodashi-30-fenzhong-rumen = Zhengzebiaodashi30FenzhongRumen.__main__:main
