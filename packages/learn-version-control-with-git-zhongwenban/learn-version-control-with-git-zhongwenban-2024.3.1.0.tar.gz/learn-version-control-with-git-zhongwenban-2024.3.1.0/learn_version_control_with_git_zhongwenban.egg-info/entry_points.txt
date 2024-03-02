@@ -1,0 +1,3 @@
+[console_scripts]
+LearnVersionControlWithGitZhongwenban = LearnVersionControlWithGitZhongwenban.__main__:main
+learn-version-control-with-git-zhongwenban = LearnVersionControlWithGitZhongwenban.__main__:main
