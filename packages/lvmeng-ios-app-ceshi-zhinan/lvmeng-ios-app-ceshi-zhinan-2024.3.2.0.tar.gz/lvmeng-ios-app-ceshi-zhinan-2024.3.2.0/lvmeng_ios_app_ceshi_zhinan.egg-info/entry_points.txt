@@ -1,0 +1,4 @@
+[console_scripts]
+LvmengIosAppCeshiZhinan = LvmengIosAppCeshiZhinan.__main__:main
+lvmeng-ios-app-ceshi-zhinan = LvmengIosAppCeshiZhinan.__main__:main
+
