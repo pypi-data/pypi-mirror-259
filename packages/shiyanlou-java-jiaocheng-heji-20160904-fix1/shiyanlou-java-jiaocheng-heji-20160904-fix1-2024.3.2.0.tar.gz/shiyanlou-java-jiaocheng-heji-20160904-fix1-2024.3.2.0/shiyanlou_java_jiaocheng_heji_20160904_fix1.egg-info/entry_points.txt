@@ -1,0 +1,3 @@
+[console_scripts]
+ShiyanlouJavaJiaochengHeji20160904Fix1 = ShiyanlouJavaJiaochengHeji20160904Fix1.__main__:main
+shiyanlou-java-jiaocheng-heji-20160904-fix1 = ShiyanlouJavaJiaochengHeji20160904Fix1.__main__:main
