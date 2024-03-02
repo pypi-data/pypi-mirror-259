@@ -1,0 +1,3 @@
+[console_scripts]
+HginitZhongwenWendang = HginitZhongwenWendang.__main__:main
+hginit-zhongwen-wendang = HginitZhongwenWendang.__main__:main
