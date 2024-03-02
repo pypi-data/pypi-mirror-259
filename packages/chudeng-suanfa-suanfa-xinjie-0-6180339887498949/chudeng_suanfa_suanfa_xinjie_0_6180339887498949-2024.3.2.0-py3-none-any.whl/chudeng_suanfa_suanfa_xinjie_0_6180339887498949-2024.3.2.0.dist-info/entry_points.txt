@@ -1,0 +1,4 @@
+[console_scripts]
+ChudengSuanfaSuanfaXinjie06180339887498949 = ChudengSuanfaSuanfaXinjie06180339887498949.__main__:main
+chudeng-suanfa-suanfa-xinjie-0-6180339887498949 = ChudengSuanfaSuanfaXinjie06180339887498949.__main__:main
+
