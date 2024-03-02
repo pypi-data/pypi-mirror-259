@@ -1,0 +1,5 @@
+[console_scripts]
+jetline-analyze-project = jetline.commands.analyze_project:run
+jetline-create-pipe = jetline.commands.create_pipe:run
+jetline-info = jetline.commands.info:run
+jetline-setup = jetline.commands.installer:run
