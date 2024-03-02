@@ -1,0 +1,3 @@
+[console_scripts]
+SpeakingJavascript = SpeakingJavascript.__main__:main
+speaking-javascript = SpeakingJavascript.__main__:main
