@@ -1,0 +1,12 @@
+README.md
+setup.py
+R4ndomPojieJiaochengFanyi120aByQqsniper/README.md
+R4ndomPojieJiaochengFanyi120aByQqsniper/__init__.py
+R4ndomPojieJiaochengFanyi120aByQqsniper/__main__.py
+R4ndomPojieJiaochengFanyi120aByQqsniper/file.pdf
+R4ndomPojieJiaochengFanyi120aByQqsniper/index.html
+r4ndom_pojie_jiaocheng_fanyi_1_20a_by_qqsniper.egg-info/PKG-INFO
+r4ndom_pojie_jiaocheng_fanyi_1_20a_by_qqsniper.egg-info/SOURCES.txt
+r4ndom_pojie_jiaocheng_fanyi_1_20a_by_qqsniper.egg-info/dependency_links.txt
+r4ndom_pojie_jiaocheng_fanyi_1_20a_by_qqsniper.egg-info/entry_points.txt
+r4ndom_pojie_jiaocheng_fanyi_1_20a_by_qqsniper.egg-info/top_level.txt

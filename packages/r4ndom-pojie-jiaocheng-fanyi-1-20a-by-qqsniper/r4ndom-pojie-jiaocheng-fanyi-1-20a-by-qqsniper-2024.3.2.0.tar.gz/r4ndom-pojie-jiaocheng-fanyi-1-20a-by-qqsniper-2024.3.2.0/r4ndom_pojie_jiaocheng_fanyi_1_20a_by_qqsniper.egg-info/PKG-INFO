@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: r4ndom-pojie-jiaocheng-fanyi-1-20a-by-qqsniper
+Version: 2024.3.2.0
+Summary: R4ndom 破解教程翻译 1~20a by QQSniper
+Home-page: https://github.com/apachecn/r4ndom-pojie-jiaocheng-fanyi-1-20a-by-qqsniper
+Author: ApacheCN
+Author-email: apachecn@163.com
+License: UNKNOWN
+Description: # R4ndom 破解教程翻译 1~20a by QQSniper
+        
+        ## 下载
+        
+        ### Docker
+        
+        ```
+        docker pull apachecn0/r4ndom-pojie-jiaocheng-fanyi-1-20a-by-qqsniper
+        docker run -tid -p <port>:80 apachecn0/r4ndom-pojie-jiaocheng-fanyi-1-20a-by-qqsniper
+        # 访问 http://localhost:{port} 查看文档
+        ```
+        
+        ### PYPI
+        
+        ```
+        pip install r4ndom-pojie-jiaocheng-fanyi-1-20a-by-qqsniper
+        r4ndom-pojie-jiaocheng-fanyi-1-20a-by-qqsniper <port>
+        # 访问 http://localhost:{port} 查看文档
+        ```
+        
+        ### NPM
+        
+        ```
+        npm install -g r4ndom-pojie-jiaocheng-fanyi-1-erlinga-by-qqsniper
+        r4ndom-pojie-jiaocheng-fanyi-1-erlinga-by-qqsniper <port>
+        # 访问 http://localhost:{port} 查看文档
+        ```
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: Other/Proprietary License
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Text Processing :: Markup :: Markdown
+Classifier: Topic :: Text Processing :: Markup :: HTML
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development :: Documentation
+Classifier: Topic :: Documentation
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
