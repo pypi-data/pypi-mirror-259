@@ -1,0 +1,4 @@
+[console_scripts]
+AdvancedTopicsInComputerSystemsReadingListUcbCs262a = AdvancedTopicsInComputerSystemsReadingListUcbCs262a.__main__:main
+advanced-topics-in-computer-systems-reading-list-ucb-cs262a = AdvancedTopicsInComputerSystemsReadingListUcbCs262a.__main__:main
+
