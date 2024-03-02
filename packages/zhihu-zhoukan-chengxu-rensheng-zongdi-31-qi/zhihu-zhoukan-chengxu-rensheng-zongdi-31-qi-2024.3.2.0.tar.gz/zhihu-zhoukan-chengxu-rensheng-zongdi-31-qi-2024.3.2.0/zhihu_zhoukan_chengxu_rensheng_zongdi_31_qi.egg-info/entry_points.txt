@@ -1,0 +1,3 @@
+[console_scripts]
+ZhihuZhoukanChengxuRenshengZongdi31Qi = ZhihuZhoukanChengxuRenshengZongdi31Qi.__main__:main
+zhihu-zhoukan-chengxu-rensheng-zongdi-31-qi = ZhihuZhoukanChengxuRenshengZongdi31Qi.__main__:main
