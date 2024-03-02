@@ -1,0 +1,11 @@
+cpu-controller-linux/__init__.py,sha256=_iXWwidNpokEYHm4bPwAEppUg0DiH5MlpsDy_QrEye8,32
+cpu-controller-linux/main.py,sha256=jOZCKDUf62lfNGzxNLJJeITbLwLPRLcgGuKpB0-J0Vg,4100
+cpu_controller_linux/__init__.py,sha256=tpEQEEcxikT8MnI_Achate8gp8LyyXcDZZnuxD95tX4,38
+cpu_controller_linux/cpu.png,sha256=iNKOGn1getWOpUzwcAeJ3jPxL5YdvHuvwFSKppEyqJA,9627
+cpu_controller_linux/main.py,sha256=R0VbuiVffuyicBlMHou4JWF3ZqTuP327VGDgCToj4vM,4189
+cpu_controller_linux-0.0.9.dist-info/LICENSE,sha256=zVGDOYaBm9yOf0kkNlcisz0gi1gAK1eAClbkCcoMxKU,1070
+cpu_controller_linux-0.0.9.dist-info/METADATA,sha256=dv6etUcPyebSLskuVurpRsY5YEyBvpo_djrtI9l98oc,514
+cpu_controller_linux-0.0.9.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+cpu_controller_linux-0.0.9.dist-info/entry_points.txt,sha256=Lgei3cJfXBhMsQdb4y-Xdr9h01lDNIPNHQlJFAlma2s,66
+cpu_controller_linux-0.0.9.dist-info/top_level.txt,sha256=aImortfMdKS1Z1xqGnE10t0NmNgLesNHN2xdwMsjkbU,21
+cpu_controller_linux-0.0.9.dist-info/RECORD,,
