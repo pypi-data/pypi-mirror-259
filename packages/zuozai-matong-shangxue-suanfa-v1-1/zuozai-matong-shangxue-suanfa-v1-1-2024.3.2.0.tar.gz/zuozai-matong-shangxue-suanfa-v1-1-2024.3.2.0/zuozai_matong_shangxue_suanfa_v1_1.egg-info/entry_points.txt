@@ -1,0 +1,3 @@
+[console_scripts]
+ZuozaiMatongShangxueSuanfaV11 = ZuozaiMatongShangxueSuanfaV11.__main__:main
+zuozai-matong-shangxue-suanfa-v1-1 = ZuozaiMatongShangxueSuanfaV11.__main__:main
