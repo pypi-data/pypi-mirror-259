@@ -1,0 +1,3 @@
+[console_scripts]
+TtAnquanXinxianquanRenyuanCongyeZhinan = TtAnquanXinxianquanRenyuanCongyeZhinan.__main__:main
+tt-anquan-xinxianquan-renyuan-congye-zhinan = TtAnquanXinxianquanRenyuanCongyeZhinan.__main__:main
