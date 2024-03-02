@@ -1,0 +1,13 @@
+opentelemetry/instrumentation/openai/__init__.py,sha256=iiuJICVwzv0K2OeskonjZIYpPnxooSEsIkXOS7uZEf8,937
+opentelemetry/instrumentation/openai/shared/__init__.py,sha256=0L1vNdsrG9aMyGRjm2ri3rzz0gGG8syCjCPFoUuC1ns,5728
+opentelemetry/instrumentation/openai/shared/chat_wrappers.py,sha256=TAWYT1x_YGua8p9quebTxFFwC_9ny40lbgk8yI28vqw,10065
+opentelemetry/instrumentation/openai/shared/completion_wrappers.py,sha256=QwhEUkVk_HRuTEZ6a-oi5laM1CF-r2Hpq8-xyjfJKB8,5839
+opentelemetry/instrumentation/openai/shared/embeddings_wrappers.py,sha256=zr7qsH5bpnRMahErgstpphLI-XPN8y7Pxh2_39Oo4Ds,5573
+opentelemetry/instrumentation/openai/shared/image_gen_wrappers.py,sha256=SnmhXnnO5pyc0x9wvbYb1S_OVM4TYr7qeJPZbs3YxJg,1899
+opentelemetry/instrumentation/openai/utils.py,sha256=5EI2r3df83mOwQGtz2o23BNHPWbEfsKpa5fSPS9jvLI,1844
+opentelemetry/instrumentation/openai/v0/__init__.py,sha256=z-ueiax_1LvNTSKI4M4Ha-jlfdAQXx3q4FcFecUOh4E,1613
+opentelemetry/instrumentation/openai/v1/__init__.py,sha256=Q_T5yvNxvwk_j_v2TRcVf6Mcpg5O9YJHQKkI0VTdCKE,6005
+opentelemetry/instrumentation/openai/version.py,sha256=Zg3oo58_HXe_ieb_PwWnYkKGH2zTvu6G2jly-7GnPGo,23
+opentelemetry_instrumentation_openai-0.13.1.dist-info/METADATA,sha256=miIaoDp7VzgLOzovU5E3OYNi47y2EhIyXXHYXbRMjqI,2128
+opentelemetry_instrumentation_openai-0.13.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+opentelemetry_instrumentation_openai-0.13.1.dist-info/RECORD,,
