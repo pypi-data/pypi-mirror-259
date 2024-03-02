@@ -1,0 +1,11 @@
+README.txt
+setup.cfg
+setup.py
+mmda2.egg-info/PKG-INFO
+mmda2.egg-info/SOURCES.txt
+mmda2.egg-info/dependency_links.txt
+mmda2.egg-info/top_level.txt
+src/__init__.py
+src/main.py
+src/pasTozihat.py
+src/setup.py
