@@ -1,0 +1,12 @@
+README.md
+setup.py
+KaliLinuxRevealed/README.md
+KaliLinuxRevealed/__init__.py
+KaliLinuxRevealed/__main__.py
+KaliLinuxRevealed/file.pdf
+KaliLinuxRevealed/index.html
+kali_linux_revealed.egg-info/PKG-INFO
+kali_linux_revealed.egg-info/SOURCES.txt
+kali_linux_revealed.egg-info/dependency_links.txt
+kali_linux_revealed.egg-info/entry_points.txt
+kali_linux_revealed.egg-info/top_level.txt
