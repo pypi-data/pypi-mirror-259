@@ -1,0 +1,3 @@
+[console_scripts]
+WangluoJibengongXilie = WangluoJibengongXilie.__main__:main
+wangluo-jibengong-xilie = WangluoJibengongXilie.__main__:main
