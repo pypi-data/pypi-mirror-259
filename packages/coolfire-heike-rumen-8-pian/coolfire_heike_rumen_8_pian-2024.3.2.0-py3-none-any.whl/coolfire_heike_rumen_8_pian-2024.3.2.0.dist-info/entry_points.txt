@@ -1,0 +1,4 @@
+[console_scripts]
+CoolfireHeikeRumen8Pian = CoolfireHeikeRumen8Pian.__main__:main
+coolfire-heike-rumen-8-pian = CoolfireHeikeRumen8Pian.__main__:main
+
