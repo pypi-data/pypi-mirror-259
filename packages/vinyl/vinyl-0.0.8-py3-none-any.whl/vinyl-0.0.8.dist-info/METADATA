@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: vinyl
+Version: 0.0.8
+Summary: A python framework for building next-gen analytics infrastructure
+License: LICENSE.md
+Author: Ian Tracey
+Author-email: ian@turntable.so
+Requires-Python: >=3.10,<3.12
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: boto3 (>=1.34.13,<2.0.0)
+Requires-Dist: cibuildwheel (>=2.16.5,<3.0.0)
+Requires-Dist: fastapi (>=0.110.0,<0.111.0)
+Requires-Dist: fsspec (>=2024.2.0,<2025.0.0)
+Requires-Dist: geopandas (>=0.14.2,<0.15.0)
+Requires-Dist: google-auth (>=2.28.0,<3.0.0)
+Requires-Dist: httpx (>=0.27.0,<0.28.0)
+Requires-Dist: lets-plot (>=4.2.0,<5.0.0)
+Requires-Dist: netext (>=0.2.1,<0.3.0)
+Requires-Dist: nuitka (>=2.0.3,<3.0.0)
+Requires-Dist: platformdirs (>=3.0,<4.0)
+Requires-Dist: pydantic (>=2.5.3,<3.0.0)
+Requires-Dist: python-dotenv (>=1.0.0,<2.0.0)
+Requires-Dist: rustworkx (>=0.13.2,<0.14.0)
+Requires-Dist: sqlglot[rs] (>=20.7.1,<21.0.0)
+Requires-Dist: textual (>=0.49.0,<0.50.0)
+Requires-Dist: toml (>=0.10.2,<0.11.0)
+Requires-Dist: tqdm (>=4.66.1,<5.0.0)
+Requires-Dist: turntable-spoonbill[duckdb] (>=8.0.0,<9.0.0)
+Requires-Dist: typer[all] (>=0.9.0,<0.10.0)
+Requires-Dist: uvicorn (>=0.27.1,<0.28.0)
+Requires-Dist: watchdog[watchmedo] (>=3.0.0,<4.0.0)
+Project-URL: changelog, https://turntable-so.github.io/docs/changelog
+Project-URL: documentation, https://turntable-so.github.io/docs/
+Project-URL: homepage, https://www.turntable.so/
+Description-Content-Type: text/markdown
+
+# Vinyl
+
+## 
