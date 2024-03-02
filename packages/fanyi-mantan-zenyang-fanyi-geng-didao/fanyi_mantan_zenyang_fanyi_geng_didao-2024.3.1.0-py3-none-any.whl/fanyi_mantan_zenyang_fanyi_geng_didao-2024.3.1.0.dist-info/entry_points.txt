@@ -1,0 +1,3 @@
+[console_scripts]
+FanyiMantanZenyangFanyiGengDidao = FanyiMantanZenyangFanyiGengDidao.__main__:main
+fanyi-mantan-zenyang-fanyi-geng-didao = FanyiMantanZenyangFanyiGengDidao.__main__:main
