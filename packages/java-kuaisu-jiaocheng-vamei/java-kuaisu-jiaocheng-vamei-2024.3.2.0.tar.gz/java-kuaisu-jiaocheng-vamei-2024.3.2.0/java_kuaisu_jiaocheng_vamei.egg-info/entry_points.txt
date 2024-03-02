@@ -1,0 +1,3 @@
+[console_scripts]
+JavaKuaisuJiaochengVamei = JavaKuaisuJiaochengVamei.__main__:main
+java-kuaisu-jiaocheng-vamei = JavaKuaisuJiaochengVamei.__main__:main
