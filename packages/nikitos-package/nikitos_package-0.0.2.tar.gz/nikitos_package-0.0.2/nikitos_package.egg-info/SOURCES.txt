@@ -1,0 +1,7 @@
+setup.py
+hello_module/__init__.py
+hello_module/testmod.py
+nikitos_package.egg-info/PKG-INFO
+nikitos_package.egg-info/SOURCES.txt
+nikitos_package.egg-info/dependency_links.txt
+nikitos_package.egg-info/top_level.txt
