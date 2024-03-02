@@ -1,0 +1,4 @@
+[console_scripts]
+ASecondCourseInAlgorithmsLectureNotesStanfordCs261 = ASecondCourseInAlgorithmsLectureNotesStanfordCs261.__main__:main
+a-second-course-in-algorithms-lecture-notes-stanford-cs261 = ASecondCourseInAlgorithmsLectureNotesStanfordCs261.__main__:main
+
