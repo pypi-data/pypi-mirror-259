@@ -1,0 +1,4 @@
+[console_scripts]
+MoshishibieYuJiqiXuexiZhongwenbanMachunpeng = MoshishibieYuJiqiXuexiZhongwenbanMachunpeng.__main__:main
+moshishibie-yu-jiqi-xuexi-zhongwenban-machunpeng = MoshishibieYuJiqiXuexiZhongwenbanMachunpeng.__main__:main
+
