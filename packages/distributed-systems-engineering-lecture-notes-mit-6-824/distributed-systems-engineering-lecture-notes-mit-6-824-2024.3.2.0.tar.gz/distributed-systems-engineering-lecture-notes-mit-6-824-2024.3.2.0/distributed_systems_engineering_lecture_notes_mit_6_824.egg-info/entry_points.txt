@@ -1,0 +1,4 @@
+[console_scripts]
+DistributedSystemsEngineeringLectureNotesMit6824 = DistributedSystemsEngineeringLectureNotesMit6824.__main__:main
+distributed-systems-engineering-lecture-notes-mit-6-824 = DistributedSystemsEngineeringLectureNotesMit6824.__main__:main
+
