@@ -1,0 +1,4 @@
+[console_scripts]
+WeiXueyuanJavaJiaocheng = WeiXueyuanJavaJiaocheng.__main__:main
+wei-xueyuan-java-jiaocheng = WeiXueyuanJavaJiaocheng.__main__:main
+
