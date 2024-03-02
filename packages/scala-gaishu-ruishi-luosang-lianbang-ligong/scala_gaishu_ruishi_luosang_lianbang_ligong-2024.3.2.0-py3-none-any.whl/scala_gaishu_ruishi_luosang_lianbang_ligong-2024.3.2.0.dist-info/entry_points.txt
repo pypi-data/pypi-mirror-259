@@ -1,0 +1,4 @@
+[console_scripts]
+ScalaGaishuRuishiLuosangLianbangLigong = ScalaGaishuRuishiLuosangLianbangLigong.__main__:main
+scala-gaishu-ruishi-luosang-lianbang-ligong = ScalaGaishuRuishiLuosangLianbangLigong.__main__:main
+
