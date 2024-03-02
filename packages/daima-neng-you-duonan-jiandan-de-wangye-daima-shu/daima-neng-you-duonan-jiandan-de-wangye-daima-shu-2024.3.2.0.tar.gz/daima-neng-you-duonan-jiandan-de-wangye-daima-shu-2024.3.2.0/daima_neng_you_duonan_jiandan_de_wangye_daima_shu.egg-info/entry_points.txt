@@ -1,0 +1,4 @@
+[console_scripts]
+DaimaNengYouDuonanJiandanDeWangyeDaimaShu = DaimaNengYouDuonanJiandanDeWangyeDaimaShu.__main__:main
+daima-neng-you-duonan-jiandan-de-wangye-daima-shu = DaimaNengYouDuonanJiandanDeWangyeDaimaShu.__main__:main
+
