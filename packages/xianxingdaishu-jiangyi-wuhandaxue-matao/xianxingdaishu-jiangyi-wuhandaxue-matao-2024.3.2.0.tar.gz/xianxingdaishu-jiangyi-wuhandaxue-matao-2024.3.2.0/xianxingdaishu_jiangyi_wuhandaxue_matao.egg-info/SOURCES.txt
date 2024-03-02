@@ -1,0 +1,12 @@
+README.md
+setup.py
+XianxingdaishuJiangyiWuhandaxueMatao/README.md
+XianxingdaishuJiangyiWuhandaxueMatao/__init__.py
+XianxingdaishuJiangyiWuhandaxueMatao/__main__.py
+XianxingdaishuJiangyiWuhandaxueMatao/file.pdf
+XianxingdaishuJiangyiWuhandaxueMatao/index.html
+xianxingdaishu_jiangyi_wuhandaxue_matao.egg-info/PKG-INFO
+xianxingdaishu_jiangyi_wuhandaxue_matao.egg-info/SOURCES.txt
+xianxingdaishu_jiangyi_wuhandaxue_matao.egg-info/dependency_links.txt
+xianxingdaishu_jiangyi_wuhandaxue_matao.egg-info/entry_points.txt
+xianxingdaishu_jiangyi_wuhandaxue_matao.egg-info/top_level.txt
