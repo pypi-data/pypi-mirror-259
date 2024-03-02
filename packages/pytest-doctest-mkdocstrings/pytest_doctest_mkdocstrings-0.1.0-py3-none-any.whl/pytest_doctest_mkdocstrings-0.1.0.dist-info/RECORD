@@ -1,0 +1,11 @@
+pytest_doctest_mkdocstrings/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_doctest_mkdocstrings/patch_doctest.py,sha256=RQwY2gN1T-BxEEeDM3sG4p0kXmWGOeVuzFtmTqRnNp0,2736
+test/conftest.py,sha256=HXTcfzAhn0Y26vgVpdcAtP_wgET6KqTxUokYLsvmiy0,913
+test/test_plugin.py,sha256=pSiGYqawvSMGXhq2-EL5rtO-wrOqloNCCiDvIOpmrq4,2373
+test/assets/codeblocks.py,sha256=84nBNPjwfYmif0GW9JutNo02-NOW_P2V7oJ0KWub61Y,394
+test/assets/test_patch.py,sha256=J99meQEpeoqBrMWDdyJchmj03L_U8Pr9okae8W_3q00,815
+pytest_doctest_mkdocstrings-0.1.0.dist-info/METADATA,sha256=VRNxhJsuHj_8Nk71Lyg4KRZGGzAU8D9tYonMXQQDJtY,2298
+pytest_doctest_mkdocstrings-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+pytest_doctest_mkdocstrings-0.1.0.dist-info/entry_points.txt,sha256=IIFWSBAZdH8hyxC5bbFX0MwRlEJAyheMyYyZV8WURi0,70
+pytest_doctest_mkdocstrings-0.1.0.dist-info/top_level.txt,sha256=XY5emE99eCbg-ljlRU9758Vn8W2hg8nCrLQvfG4-f6Q,33
+pytest_doctest_mkdocstrings-0.1.0.dist-info/RECORD,,
