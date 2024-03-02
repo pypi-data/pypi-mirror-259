@@ -1,0 +1,3 @@
+[console_scripts]
+SeoJiaochengV10 = SeoJiaochengV10.__main__:main
+seo-jiaocheng-v1-0 = SeoJiaochengV10.__main__:main
