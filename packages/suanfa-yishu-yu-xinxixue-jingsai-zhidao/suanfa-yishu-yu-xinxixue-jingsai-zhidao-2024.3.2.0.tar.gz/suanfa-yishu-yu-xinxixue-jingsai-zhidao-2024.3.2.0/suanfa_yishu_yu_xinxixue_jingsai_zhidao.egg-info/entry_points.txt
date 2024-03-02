@@ -1,0 +1,4 @@
+[console_scripts]
+SuanfaYishuYuXinxixueJingsaiZhidao = SuanfaYishuYuXinxixueJingsaiZhidao.__main__:main
+suanfa-yishu-yu-xinxixue-jingsai-zhidao = SuanfaYishuYuXinxixueJingsaiZhidao.__main__:main
+
