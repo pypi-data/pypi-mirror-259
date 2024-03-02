@@ -1,0 +1,3 @@
+[console_scripts]
+Shell13Wen = Shell13Wen.__main__:main
+shell-13-wen = Shell13Wen.__main__:main
