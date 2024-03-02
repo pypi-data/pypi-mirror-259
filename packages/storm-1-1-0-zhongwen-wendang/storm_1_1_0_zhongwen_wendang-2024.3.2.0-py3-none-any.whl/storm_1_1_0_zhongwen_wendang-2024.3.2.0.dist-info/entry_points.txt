@@ -1,0 +1,4 @@
+[console_scripts]
+Storm110ZhongwenWendang = Storm110ZhongwenWendang.__main__:main
+storm-1-1-0-zhongwen-wendang = Storm110ZhongwenWendang.__main__:main
+
