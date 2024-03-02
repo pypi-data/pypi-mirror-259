@@ -1,0 +1,4 @@
+[console_scripts]
+ElectromagneticsAndApplicationsLectureNotesMit6013 = ElectromagneticsAndApplicationsLectureNotesMit6013.__main__:main
+electromagnetics-and-applications-lecture-notes-mit-6-013 = ElectromagneticsAndApplicationsLectureNotesMit6013.__main__:main
+
