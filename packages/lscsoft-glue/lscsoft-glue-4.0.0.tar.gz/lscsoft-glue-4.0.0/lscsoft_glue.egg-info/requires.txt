@@ -1,0 +1,12 @@
+ligo-segments
+numpy
+pyOpenSSL
+six
+
+[docs]
+sphinx
+sphinx_rtd_theme
+
+[test]
+coverage
+lalsuite
