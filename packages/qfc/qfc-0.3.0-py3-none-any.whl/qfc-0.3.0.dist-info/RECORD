@@ -1,0 +1,8 @@
+qfc/__init__.py,sha256=5Qik7DbGkZzv_-Wp0QzaX6GFEL0EA7AZP1jF_pP3Ccs,89
+qfc/codecs/QFCCodec.py,sha256=bHnRPMoF6h42JylrNwZyp9e67VGHtEufQQaJq5EM_ZM,6831
+qfc/codecs/__init__.py,sha256=VFU59VuCP0ix1RCDTfpocKjdaIEiD1biSIv8RNa23f4,39
+qfc/internal/qfc_compress.py,sha256=EFoPY4d66rtoeRDIB50r_z8KnzUGLrQejtZWt16ro5I,11958
+qfc/internal/qfc_multi_segment_compress.py,sha256=ag5_8yoEnc20eoW8GNSRUDoUubkDaV0BYyII4bdCagk,6535
+qfc-0.3.0.dist-info/METADATA,sha256=3vv3gALmMHwqAwSmEiFkIuAWPcfXgOQh2eXG6Mrq8dA,4979
+qfc-0.3.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+qfc-0.3.0.dist-info/RECORD,,
