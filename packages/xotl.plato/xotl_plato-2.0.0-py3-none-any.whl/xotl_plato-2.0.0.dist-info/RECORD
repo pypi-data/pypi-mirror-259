@@ -1,0 +1,12 @@
+xotl/plato/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xotl/plato/_version.py,sha256=o9XMlNC6GoiUn7mwoOOgJdijgp3B_2fLdgizcKs1i2o,411
+xotl/plato/base.py,sha256=zz9ouPBR1_LUzwame26AYxRCIXOFTxb4FPZLNvhf26g,6707
+xotl/plato/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xotl/plato/release.py,sha256=9C8U_kMX0x98w3CUW1G2vm12pYBsE-TE72pXihbWYqU,18
+xotl/plato/schema.py,sha256=fpug3XV0IBbmiPdbKPbK0z2o2P6YnmIXuIG8pcq2198,32199
+xotl/plato/testing.py,sha256=BlHnveR_HaKiD0W3bnSY_iBhCI7OZShGf4MPy0fpLPg,33335
+xotl/plato/types.py,sha256=HGDYP3l6ruVFr0_V1D3WmLbQuCQ43Uh443Jpxb81gO0,61661
+xotl_plato-2.0.0.dist-info/METADATA,sha256=XHGU2nG5djMKGJXhPprSCaOlro_serilU4rsgWpEinA,1400
+xotl_plato-2.0.0.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+xotl_plato-2.0.0.dist-info/licenses/LICENSE,sha256=qF9bEskAJeWPE2eOgj1nLacmMl7R9SleNc4F79dgE4w,1079
+xotl_plato-2.0.0.dist-info/RECORD,,
