@@ -1,0 +1,4 @@
+[console_scripts]
+SsdbShujukuShiyongshouce = SsdbShujukuShiyongshouce.__main__:main
+ssdb-shujuku-shiyongshouce = SsdbShujukuShiyongshouce.__main__:main
+
