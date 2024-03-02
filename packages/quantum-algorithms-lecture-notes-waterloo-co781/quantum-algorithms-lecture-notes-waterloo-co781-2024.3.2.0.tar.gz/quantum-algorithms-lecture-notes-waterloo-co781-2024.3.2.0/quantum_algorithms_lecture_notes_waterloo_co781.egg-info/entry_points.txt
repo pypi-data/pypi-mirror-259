@@ -1,0 +1,4 @@
+[console_scripts]
+QuantumAlgorithmsLectureNotesWaterlooCo781 = QuantumAlgorithmsLectureNotesWaterlooCo781.__main__:main
+quantum-algorithms-lecture-notes-waterloo-co781 = QuantumAlgorithmsLectureNotesWaterlooCo781.__main__:main
+

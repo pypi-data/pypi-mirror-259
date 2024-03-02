@@ -1,0 +1,12 @@
+README.md
+setup.py
+QuantumAlgorithmsLectureNotesWaterlooCo781/README.md
+QuantumAlgorithmsLectureNotesWaterlooCo781/__init__.py
+QuantumAlgorithmsLectureNotesWaterlooCo781/__main__.py
+QuantumAlgorithmsLectureNotesWaterlooCo781/file.pdf
+QuantumAlgorithmsLectureNotesWaterlooCo781/index.html
+quantum_algorithms_lecture_notes_waterloo_co781.egg-info/PKG-INFO
+quantum_algorithms_lecture_notes_waterloo_co781.egg-info/SOURCES.txt
+quantum_algorithms_lecture_notes_waterloo_co781.egg-info/dependency_links.txt
+quantum_algorithms_lecture_notes_waterloo_co781.egg-info/entry_points.txt
+quantum_algorithms_lecture_notes_waterloo_co781.egg-info/top_level.txt
