@@ -1,0 +1,4 @@
+[console_scripts]
+jetline-create-pipe = jetline.commands.create_pipe:main
+jetline-info = jetline.commands.info:main
+jetline-setup = jetline.commands.installer:main
