@@ -1,0 +1,4 @@
+[console_scripts]
+ReactEnlightenment = ReactEnlightenment.__main__:main
+react-enlightenment = ReactEnlightenment.__main__:main
+
