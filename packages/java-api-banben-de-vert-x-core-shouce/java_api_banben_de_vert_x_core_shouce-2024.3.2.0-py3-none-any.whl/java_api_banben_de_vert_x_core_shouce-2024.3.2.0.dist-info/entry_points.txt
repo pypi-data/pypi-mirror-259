@@ -1,0 +1,4 @@
+[console_scripts]
+JavaApiBanbenDeVertXCoreShouce = JavaApiBanbenDeVertXCoreShouce.__main__:main
+java-api-banben-de-vert-x-core-shouce = JavaApiBanbenDeVertXCoreShouce.__main__:main
+
