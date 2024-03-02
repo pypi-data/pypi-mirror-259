@@ -1,0 +1,4 @@
+[console_scripts]
+DesignAndAnalysisOfAlgorithmsLectureNotesMit6046j = DesignAndAnalysisOfAlgorithmsLectureNotesMit6046j.__main__:main
+design-and-analysis-of-algorithms-lecture-notes-mit-6-046j = DesignAndAnalysisOfAlgorithmsLectureNotesMit6046j.__main__:main
+
