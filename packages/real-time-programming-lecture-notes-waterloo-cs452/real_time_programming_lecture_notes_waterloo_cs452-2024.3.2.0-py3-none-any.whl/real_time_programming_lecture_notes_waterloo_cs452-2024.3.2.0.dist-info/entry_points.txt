@@ -1,0 +1,4 @@
+[console_scripts]
+RealTimeProgrammingLectureNotesWaterlooCs452 = RealTimeProgrammingLectureNotesWaterlooCs452.__main__:main
+real-time-programming-lecture-notes-waterloo-cs452 = RealTimeProgrammingLectureNotesWaterlooCs452.__main__:main
+
