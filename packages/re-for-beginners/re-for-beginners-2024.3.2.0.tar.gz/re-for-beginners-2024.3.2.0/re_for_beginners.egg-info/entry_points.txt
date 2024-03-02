@@ -1,0 +1,3 @@
+[console_scripts]
+ReForBeginners = ReForBeginners.__main__:main
+re-for-beginners = ReForBeginners.__main__:main
