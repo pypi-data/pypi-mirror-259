@@ -1,0 +1,4 @@
+[console_scripts]
+ElectronicFeedbackSystemsMit6010 = ElectronicFeedbackSystemsMit6010.__main__:main
+electronic-feedback-systems-mit-6-010 = ElectronicFeedbackSystemsMit6010.__main__:main
+
