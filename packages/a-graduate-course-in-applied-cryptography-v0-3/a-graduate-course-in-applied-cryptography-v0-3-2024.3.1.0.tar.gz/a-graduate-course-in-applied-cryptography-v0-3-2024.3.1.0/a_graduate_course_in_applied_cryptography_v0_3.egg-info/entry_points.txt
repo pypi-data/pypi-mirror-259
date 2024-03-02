@@ -1,0 +1,4 @@
+[console_scripts]
+AGraduateCourseInAppliedCryptographyV03 = AGraduateCourseInAppliedCryptographyV03.__main__:main
+a-graduate-course-in-applied-cryptography-v0-3 = AGraduateCourseInAppliedCryptographyV03.__main__:main
+
