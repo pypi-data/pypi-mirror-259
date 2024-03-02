@@ -1,0 +1,4 @@
+[console_scripts]
+ProgrammingLanguagesApplicationAndInterpretation = ProgrammingLanguagesApplicationAndInterpretation.__main__:main
+programming-languages-application-and-interpretation = ProgrammingLanguagesApplicationAndInterpretation.__main__:main
+
