@@ -1,0 +1,3 @@
+[console_scripts]
+WritingASimpleOperatingSystem = WritingASimpleOperatingSystem.__main__:main
+writing-a-simple-operating-system = WritingASimpleOperatingSystem.__main__:main
