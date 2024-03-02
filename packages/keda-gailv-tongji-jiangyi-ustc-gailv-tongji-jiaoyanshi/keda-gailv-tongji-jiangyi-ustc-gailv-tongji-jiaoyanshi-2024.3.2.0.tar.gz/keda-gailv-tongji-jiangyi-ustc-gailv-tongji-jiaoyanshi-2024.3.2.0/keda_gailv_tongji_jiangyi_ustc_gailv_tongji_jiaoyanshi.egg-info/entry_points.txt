@@ -1,0 +1,4 @@
+[console_scripts]
+KedaGailvTongjiJiangyiUstcGailvTongjiJiaoyanshi = KedaGailvTongjiJiangyiUstcGailvTongjiJiaoyanshi.__main__:main
+keda-gailv-tongji-jiangyi-ustc-gailv-tongji-jiaoyanshi = KedaGailvTongjiJiangyiUstcGailvTongjiJiaoyanshi.__main__:main
+
