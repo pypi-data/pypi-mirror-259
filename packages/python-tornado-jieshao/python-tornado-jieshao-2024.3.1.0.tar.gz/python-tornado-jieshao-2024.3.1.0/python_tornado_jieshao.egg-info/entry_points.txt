@@ -1,0 +1,3 @@
+[console_scripts]
+PythonTornadoJieshao = PythonTornadoJieshao.__main__:main
+python-tornado-jieshao = PythonTornadoJieshao.__main__:main
