@@ -1,0 +1,3 @@
+[console_scripts]
+RuheChengweiYimingHeike = RuheChengweiYimingHeike.__main__:main
+ruhe-chengwei-yiming-heike = RuheChengweiYimingHeike.__main__:main
