@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: RDG-Networks
+Version: 0.0.1
+Summary: Most of the code from the RDG Networks project
+Home-page: https://github.com/NiekMooij/RDG_networks
+Author: Niek Mooij
+Author-email: mooij.niek@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE.txt
+Requires-Dist: networkx
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: shapely
+Requires-Dist: typing
