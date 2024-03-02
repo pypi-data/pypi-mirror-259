@@ -1,0 +1,3 @@
+[console_scripts]
+YongJerseyGoujianRestfulFuwu = YongJerseyGoujianRestfulFuwu.__main__:main
+yong-jersey-goujian-restful-fuwu = YongJerseyGoujianRestfulFuwu.__main__:main
