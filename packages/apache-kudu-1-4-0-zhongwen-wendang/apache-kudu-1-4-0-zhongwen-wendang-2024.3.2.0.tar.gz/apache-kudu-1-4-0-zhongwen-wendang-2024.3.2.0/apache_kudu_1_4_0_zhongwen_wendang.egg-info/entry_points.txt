@@ -1,0 +1,4 @@
+[console_scripts]
+ApacheKudu140ZhongwenWendang = ApacheKudu140ZhongwenWendang.__main__:main
+apache-kudu-1-4-0-zhongwen-wendang = ApacheKudu140ZhongwenWendang.__main__:main
+
