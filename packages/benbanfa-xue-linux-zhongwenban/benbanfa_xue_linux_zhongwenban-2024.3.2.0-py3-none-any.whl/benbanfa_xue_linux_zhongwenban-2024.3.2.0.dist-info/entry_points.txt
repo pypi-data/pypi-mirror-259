@@ -1,0 +1,4 @@
+[console_scripts]
+BenbanfaXueLinuxZhongwenban = BenbanfaXueLinuxZhongwenban.__main__:main
+benbanfa-xue-linux-zhongwenban = BenbanfaXueLinuxZhongwenban.__main__:main
+
