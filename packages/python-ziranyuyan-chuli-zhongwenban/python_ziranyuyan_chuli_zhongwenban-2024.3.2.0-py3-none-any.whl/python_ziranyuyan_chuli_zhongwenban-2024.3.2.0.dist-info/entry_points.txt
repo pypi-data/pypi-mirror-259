@@ -1,0 +1,3 @@
+[console_scripts]
+PythonZiranyuyanChuliZhongwenban = PythonZiranyuyanChuliZhongwenban.__main__:main
+python-ziranyuyan-chuli-zhongwenban = PythonZiranyuyanChuliZhongwenban.__main__:main
