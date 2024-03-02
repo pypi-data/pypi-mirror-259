@@ -1,0 +1,12 @@
+README.md
+setup.py
+WritingASimpleOperatingSystem/README.md
+WritingASimpleOperatingSystem/__init__.py
+WritingASimpleOperatingSystem/__main__.py
+WritingASimpleOperatingSystem/file.pdf
+WritingASimpleOperatingSystem/index.html
+writing_a_simple_operating_system.egg-info/PKG-INFO
+writing_a_simple_operating_system.egg-info/SOURCES.txt
+writing_a_simple_operating_system.egg-info/dependency_links.txt
+writing_a_simple_operating_system.egg-info/entry_points.txt
+writing_a_simple_operating_system.egg-info/top_level.txt
