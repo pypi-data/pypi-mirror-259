@@ -1,0 +1,4 @@
+[console_scripts]
+AlgorithmsForBigDataLectureNotesHarvardCs229r = AlgorithmsForBigDataLectureNotesHarvardCs229r.__main__:main
+algorithms-for-big-data-lecture-notes-harvard-cs229r = AlgorithmsForBigDataLectureNotesHarvardCs229r.__main__:main
+
