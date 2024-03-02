@@ -1,0 +1,14 @@
+persidict
+lz4
+joblib
+isort
+numpy
+scipy
+pandas
+scikit-learn
+jsonpickle
+psutil
+boto3
+moto
+pytest
+autopep8
