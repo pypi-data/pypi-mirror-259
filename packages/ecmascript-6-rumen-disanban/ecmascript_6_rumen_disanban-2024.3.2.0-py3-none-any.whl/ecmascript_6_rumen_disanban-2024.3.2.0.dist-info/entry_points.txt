@@ -1,0 +1,4 @@
+[console_scripts]
+Ecmascript6RumenDisanban = Ecmascript6RumenDisanban.__main__:main
+ecmascript-6-rumen-disanban = Ecmascript6RumenDisanban.__main__:main
+
