@@ -1,0 +1,4 @@
+[console_scripts]
+StaticProgramAnalysisReadingListUclaCs232 = StaticProgramAnalysisReadingListUclaCs232.__main__:main
+static-program-analysis-reading-list-ucla-cs232 = StaticProgramAnalysisReadingListUclaCs232.__main__:main
+
