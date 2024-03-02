@@ -1,0 +1,4 @@
+[console_scripts]
+IntroductionToAlgorithmsLectureNotesMit6006 = IntroductionToAlgorithmsLectureNotesMit6006.__main__:main
+introduction-to-algorithms-lecture-notes-mit-6-006 = IntroductionToAlgorithmsLectureNotesMit6006.__main__:main
+
