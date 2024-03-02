@@ -1,0 +1,4 @@
+[console_scripts]
+ProbabilisticGraphicalModelsLectureNotesCmu10708 = ProbabilisticGraphicalModelsLectureNotesCmu10708.__main__:main
+probabilistic-graphical-models-lecture-notes-cmu-10-708 = ProbabilisticGraphicalModelsLectureNotesCmu10708.__main__:main
+

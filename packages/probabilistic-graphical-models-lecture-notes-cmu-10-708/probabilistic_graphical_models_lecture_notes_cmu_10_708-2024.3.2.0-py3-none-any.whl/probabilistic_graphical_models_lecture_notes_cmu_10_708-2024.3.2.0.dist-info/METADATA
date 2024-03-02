@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: probabilistic-graphical-models-lecture-notes-cmu-10-708
+Version: 2024.3.2.0
+Summary: Probabilistic Graphical Models Lecture Notes (CMU 10.708)
+Home-page: https://github.com/apachecn/probabilistic-graphical-models-lecture-notes-cmu-10-708
+Author: ApacheCN
+Author-email: apachecn@163.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: Other/Proprietary License
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Text Processing :: Markup :: Markdown
+Classifier: Topic :: Text Processing :: Markup :: HTML
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development :: Documentation
+Classifier: Topic :: Documentation
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Probabilistic Graphical Models Lecture Notes (CMU 10.708)
+
+## 下载
+
+### Docker
+
+```
+docker pull apachecn0/probabilistic-graphical-models-lecture-notes-cmu-10-708
+docker run -tid -p <port>:80 apachecn0/probabilistic-graphical-models-lecture-notes-cmu-10-708
+# 访问 http://localhost:{port} 查看文档
+```
+
+### PYPI
+
+```
+pip install probabilistic-graphical-models-lecture-notes-cmu-10-708
+probabilistic-graphical-models-lecture-notes-cmu-10-708 <port>
+# 访问 http://localhost:{port} 查看文档
+```
+
+### NPM
+
+```
+npm install -g probabilistic-graphical-models-lecture-notes-cmu-yiling-qilingba
+probabilistic-graphical-models-lecture-notes-cmu-yiling-qilingba <port>
+# 访问 http://localhost:{port} 查看文档
+```
+
