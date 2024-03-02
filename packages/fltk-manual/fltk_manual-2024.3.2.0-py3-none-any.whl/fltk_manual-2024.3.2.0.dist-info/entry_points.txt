@@ -1,0 +1,3 @@
+[console_scripts]
+FltkManual = FltkManual.__main__:main
+fltk-manual = FltkManual.__main__:main
