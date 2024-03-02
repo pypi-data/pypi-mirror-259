@@ -1,0 +1,3 @@
+[console_scripts]
+ShenruLijieYii20 = ShenruLijieYii20.__main__:main
+shenru-lijie-yii2-0 = ShenruLijieYii20.__main__:main
