@@ -1,0 +1,12 @@
+README.md
+setup.py
+WoDeShuxuefenxiJimuXiudingban/README.md
+WoDeShuxuefenxiJimuXiudingban/__init__.py
+WoDeShuxuefenxiJimuXiudingban/__main__.py
+WoDeShuxuefenxiJimuXiudingban/file.pdf
+WoDeShuxuefenxiJimuXiudingban/index.html
+wo_de_shuxuefenxi_jimu_xiudingban.egg-info/PKG-INFO
+wo_de_shuxuefenxi_jimu_xiudingban.egg-info/SOURCES.txt
+wo_de_shuxuefenxi_jimu_xiudingban.egg-info/dependency_links.txt
+wo_de_shuxuefenxi_jimu_xiudingban.egg-info/entry_points.txt
+wo_de_shuxuefenxi_jimu_xiudingban.egg-info/top_level.txt

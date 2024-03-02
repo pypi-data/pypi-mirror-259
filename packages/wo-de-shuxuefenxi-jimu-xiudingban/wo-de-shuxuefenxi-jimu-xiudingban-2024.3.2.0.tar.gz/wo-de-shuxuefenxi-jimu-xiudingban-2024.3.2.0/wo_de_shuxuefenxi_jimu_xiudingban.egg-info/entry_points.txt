@@ -1,0 +1,4 @@
+[console_scripts]
+WoDeShuxuefenxiJimuXiudingban = WoDeShuxuefenxiJimuXiudingban.__main__:main
+wo-de-shuxuefenxi-jimu-xiudingban = WoDeShuxuefenxiJimuXiudingban.__main__:main
+
