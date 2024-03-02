@@ -1,0 +1,3 @@
+[console_scripts]
+ShiyanlouPerlJiaochengHeji20160904 = ShiyanlouPerlJiaochengHeji20160904.__main__:main
+shiyanlou-perl-jiaocheng-heji-20160904 = ShiyanlouPerlJiaochengHeji20160904.__main__:main
