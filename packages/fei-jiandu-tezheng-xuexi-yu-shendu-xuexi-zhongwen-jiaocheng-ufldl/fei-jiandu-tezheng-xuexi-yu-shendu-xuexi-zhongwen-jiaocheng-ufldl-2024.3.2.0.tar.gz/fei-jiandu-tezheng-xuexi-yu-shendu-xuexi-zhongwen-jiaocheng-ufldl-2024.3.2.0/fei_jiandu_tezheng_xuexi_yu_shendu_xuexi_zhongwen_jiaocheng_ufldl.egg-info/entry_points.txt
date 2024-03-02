@@ -1,0 +1,4 @@
+[console_scripts]
+FeiJianduTezhengXuexiYuShenduXuexiZhongwenJiaochengUfldl = FeiJianduTezhengXuexiYuShenduXuexiZhongwenJiaochengUfldl.__main__:main
+fei-jiandu-tezheng-xuexi-yu-shendu-xuexi-zhongwen-jiaocheng-ufldl = FeiJianduTezhengXuexiYuShenduXuexiZhongwenJiaochengUfldl.__main__:main
+
