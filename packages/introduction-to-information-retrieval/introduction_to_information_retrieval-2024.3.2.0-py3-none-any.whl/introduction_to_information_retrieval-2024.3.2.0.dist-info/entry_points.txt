@@ -1,0 +1,4 @@
+[console_scripts]
+IntroductionToInformationRetrieval = IntroductionToInformationRetrieval.__main__:main
+introduction-to-information-retrieval = IntroductionToInformationRetrieval.__main__:main
+
