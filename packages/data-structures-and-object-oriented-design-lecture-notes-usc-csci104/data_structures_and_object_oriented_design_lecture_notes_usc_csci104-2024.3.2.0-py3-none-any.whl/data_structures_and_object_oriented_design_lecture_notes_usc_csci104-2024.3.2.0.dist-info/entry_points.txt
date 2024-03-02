@@ -1,0 +1,4 @@
+[console_scripts]
+DataStructuresAndObjectOrientedDesignLectureNotesUscCsci104 = DataStructuresAndObjectOrientedDesignLectureNotesUscCsci104.__main__:main
+data-structures-and-object-oriented-design-lecture-notes-usc-csci104 = DataStructuresAndObjectOrientedDesignLectureNotesUscCsci104.__main__:main
+
