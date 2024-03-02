@@ -1,0 +1,3 @@
+[console_scripts]
+ShellcoderSHandbookZhongwenbanByArhat = ShellcoderSHandbookZhongwenbanByArhat.__main__:main
+shellcoder-s-handbook-zhongwenban-by-arhat = ShellcoderSHandbookZhongwenbanByArhat.__main__:main
