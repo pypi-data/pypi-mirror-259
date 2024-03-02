@@ -1,0 +1,3 @@
+[console_scripts]
+SitanfuCs229JiqiXuexiKechengBiji = SitanfuCs229JiqiXuexiKechengBiji.__main__:main
+sitanfu-cs229-jiqi-xuexi-kecheng-biji = SitanfuCs229JiqiXuexiKechengBiji.__main__:main
