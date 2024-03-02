@@ -1,0 +1,11 @@
+pycparser-stubs/__init__.pyi,sha256=k5BnozikA88Z-Lc-RRdT_4NH2z7vj3MPCP9Hx-TV0Rs,1816
+pycparser-stubs/c_ast.pyi,sha256=3ymhj2UiWfyLwC6Icj6QG5akw-9hWVoEOFFMRV3PR3Q,14353
+pycparser-stubs/c_generator.pyi,sha256=g8Dtd1ASaoBEbywrEbE5N8nglwVnkRsh08F6he2xWwA,5020
+pycparser-stubs/c_lexer.pyi,sha256=kNnkmBpFiBuQKSKgUbMx0hXTs4ytM6YCY3J-Col0Bok,1920
+pycparser-stubs/c_parser.pyi,sha256=pL4P5sD1MdfERlQ-asA5mNUaV0NnTaEhlG9-Dw52kVs,3005
+pycparser-stubs/py.typed,sha256=2Ox0AU4FNnXJ0T5LyWKc_BbJXopWJJUFe8o2V7Zhvjc,9
+pycparser_stubs-0.0.1.dist-info/LICENSE,sha256=y5hrjmUfqAs8umiu4MOfPE2OlvJeHb4YQvtaZKiNmkE,1088
+pycparser_stubs-0.0.1.dist-info/METADATA,sha256=9U4GZzGtOuPkUS9wuMDCuvV5P-As6_sixO3VxGBV9-4,1230
+pycparser_stubs-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pycparser_stubs-0.0.1.dist-info/top_level.txt,sha256=tQKDeZOO07AdgWpLhMlpNDpePZF2mML98ordOEBV5pw,16
+pycparser_stubs-0.0.1.dist-info/RECORD,,
