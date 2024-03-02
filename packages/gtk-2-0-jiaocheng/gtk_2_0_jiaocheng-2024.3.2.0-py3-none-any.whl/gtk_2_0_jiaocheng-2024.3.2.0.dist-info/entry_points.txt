@@ -1,0 +1,4 @@
+[console_scripts]
+Gtk20Jiaocheng = Gtk20Jiaocheng.__main__:main
+gtk-2-0-jiaocheng = Gtk20Jiaocheng.__main__:main
+
