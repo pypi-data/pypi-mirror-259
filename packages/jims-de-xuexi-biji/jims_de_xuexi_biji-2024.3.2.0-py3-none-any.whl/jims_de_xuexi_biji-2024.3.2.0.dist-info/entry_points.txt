@@ -1,0 +1,3 @@
+[console_scripts]
+JimsDeXuexiBiji = JimsDeXuexiBiji.__main__:main
+jims-de-xuexi-biji = JimsDeXuexiBiji.__main__:main
