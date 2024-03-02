@@ -1,0 +1,4 @@
+[console_scripts]
+MiSiteBaimaoPeixunJiangyiV15 = MiSiteBaimaoPeixunJiangyiV15.__main__:main
+mi-site-baimao-peixun-jiangyi-v1-5 = MiSiteBaimaoPeixunJiangyiV15.__main__:main
+
