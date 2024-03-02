@@ -1,0 +1,3 @@
+[console_scripts]
+ShenruLijieNodeJsHexinsixiangYuYuanmaFenxi = ShenruLijieNodeJsHexinsixiangYuYuanmaFenxi.__main__:main
+shenru-lijie-node-js-hexinsixiang-yu-yuanma-fenxi = ShenruLijieNodeJsHexinsixiangYuYuanmaFenxi.__main__:main
