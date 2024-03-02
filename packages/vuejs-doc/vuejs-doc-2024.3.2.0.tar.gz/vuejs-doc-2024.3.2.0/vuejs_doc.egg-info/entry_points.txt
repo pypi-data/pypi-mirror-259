@@ -1,0 +1,3 @@
+[console_scripts]
+VuejsDoc = VuejsDoc.__main__:main
+vuejs-doc = VuejsDoc.__main__:main
