@@ -1,0 +1,12 @@
+README.md
+setup.py
+ScipyRef0180/README.md
+ScipyRef0180/__init__.py
+ScipyRef0180/__main__.py
+ScipyRef0180/file.pdf
+ScipyRef0180/index.html
+scipy_ref_0_18_0.egg-info/PKG-INFO
+scipy_ref_0_18_0.egg-info/SOURCES.txt
+scipy_ref_0_18_0.egg-info/dependency_links.txt
+scipy_ref_0_18_0.egg-info/entry_points.txt
+scipy_ref_0_18_0.egg-info/top_level.txt
