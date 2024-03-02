@@ -1,0 +1,4 @@
+[console_scripts]
+XianxingdaishuZongjieYuFuxiWuhandaxueHuangzhenghua = XianxingdaishuZongjieYuFuxiWuhandaxueHuangzhenghua.__main__:main
+xianxingdaishu-zongjie-yu-fuxi-wuhandaxue-huangzhenghua = XianxingdaishuZongjieYuFuxiWuhandaxueHuangzhenghua.__main__:main
+
