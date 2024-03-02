@@ -1,0 +1,5 @@
+autogluon-tonyhu-test.core[all]==1.0.1b20240301
+autogluon-tonyhu-test.features==1.0.1b20240301
+autogluon-tonyhu-test.tabular[all]==1.0.1b20240301
+autogluon-tonyhu-test.multimodal==1.0.1b20240301
+autogluon-tonyhu-test.timeseries[all]==1.0.1b20240301
