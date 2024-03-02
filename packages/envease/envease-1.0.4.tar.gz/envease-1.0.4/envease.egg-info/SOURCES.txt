@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+envease.egg-info/PKG-INFO
+envease.egg-info/SOURCES.txt
+envease.egg-info/dependency_links.txt
+envease.egg-info/requires.txt
+envease.egg-info/top_level.txt
