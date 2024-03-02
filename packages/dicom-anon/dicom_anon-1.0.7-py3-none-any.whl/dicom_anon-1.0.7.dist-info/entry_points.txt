@@ -1,0 +1,3 @@
+[console_scripts]
+dicomanonymizer=dicomanonymizer.anonymizer:main
+
