@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: jisuanjichengxu-de-siwei-luoji-java-miaoshu
+Version: 2024.3.2.0
+Summary: 计算机程序的思维逻辑（Java 描述）
+Home-page: https://github.com/apachecn/jisuanjichengxu-de-siwei-luoji-java-miaoshu
+Author: ApacheCN
+Author-email: apachecn@163.com
+License: UNKNOWN
+Description: # 计算机程序的思维逻辑（Java 描述）
+        
+        ## 下载
+        
+        ### Docker
+        
+        ```
+        docker pull apachecn0/jisuanjichengxu-de-siwei-luoji-java-miaoshu
+        docker run -tid -p <port>:80 apachecn0/jisuanjichengxu-de-siwei-luoji-java-miaoshu
+        # 访问 http://localhost:{port} 查看文档
+        ```
+        
+        ### PYPI
+        
+        ```
+        pip install jisuanjichengxu-de-siwei-luoji-java-miaoshu
+        jisuanjichengxu-de-siwei-luoji-java-miaoshu <port>
+        # 访问 http://localhost:{port} 查看文档
+        ```
+        
+        ### NPM
+        
+        ```
+        npm install -g jisuanjichengxu-de-siwei-luoji-java-miaoshu
+        jisuanjichengxu-de-siwei-luoji-java-miaoshu <port>
+        # 访问 http://localhost:{port} 查看文档
+        ```
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: Other/Proprietary License
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Text Processing :: Markup :: Markdown
+Classifier: Topic :: Text Processing :: Markup :: HTML
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development :: Documentation
+Classifier: Topic :: Documentation
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
