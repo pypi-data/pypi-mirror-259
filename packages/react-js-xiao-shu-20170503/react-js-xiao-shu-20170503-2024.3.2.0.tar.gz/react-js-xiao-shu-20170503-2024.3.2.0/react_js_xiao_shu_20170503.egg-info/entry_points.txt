@@ -1,0 +1,4 @@
+[console_scripts]
+ReactJsXiaoShu20170503 = ReactJsXiaoShu20170503.__main__:main
+react-js-xiao-shu-20170503 = ReactJsXiaoShu20170503.__main__:main
+
