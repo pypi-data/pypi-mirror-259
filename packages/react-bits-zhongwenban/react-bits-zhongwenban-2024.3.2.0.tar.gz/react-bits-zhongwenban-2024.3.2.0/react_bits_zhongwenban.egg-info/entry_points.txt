@@ -1,0 +1,4 @@
+[console_scripts]
+ReactBitsZhongwenban = ReactBitsZhongwenban.__main__:main
+react-bits-zhongwenban = ReactBitsZhongwenban.__main__:main
+
