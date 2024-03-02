@@ -1,0 +1,10 @@
+README.md
+setup.py
+easyLang/__init__.py
+easyLang/detect_language.py
+easyLang/translate_text.py
+easyLang.egg-info/PKG-INFO
+easyLang.egg-info/SOURCES.txt
+easyLang.egg-info/dependency_links.txt
+easyLang.egg-info/requires.txt
+easyLang.egg-info/top_level.txt
