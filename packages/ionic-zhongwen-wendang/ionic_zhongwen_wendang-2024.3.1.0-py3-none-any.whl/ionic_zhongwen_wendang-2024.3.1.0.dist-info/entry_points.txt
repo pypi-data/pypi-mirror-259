@@ -1,0 +1,3 @@
+[console_scripts]
+IonicZhongwenWendang = IonicZhongwenWendang.__main__:main
+ionic-zhongwen-wendang = IonicZhongwenWendang.__main__:main
