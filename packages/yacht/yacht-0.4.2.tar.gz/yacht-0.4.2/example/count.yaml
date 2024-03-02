@@ -1,0 +1,26 @@
+html:
+    - body:
+        - script: anchors.js
+        - script: |-
+            harbour.pollingDelay=100;
+            harbour.startPolling();
+        - h1: counter!
+        
+        - button: SUB
+          anchors:
+            - bind: counter/decrement
+              trigger: onclick       
+        - h2: 'null'
+          anchors:
+            - bind: counter/get
+              trigger: always
+              target: innerHTML               
+        - button: ADD
+          anchors:
+            - bind: counter/increment
+              trigger: onclick
+
+          
+
+
+              
