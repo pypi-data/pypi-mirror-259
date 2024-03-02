@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: bigone_tool
+Version: 0.0.1
+Summary: An python3 library for bigone commonly used function
+Home-page: https://github.com/lilasxie/bigone_tool
+Author: lilasxie
+Author-email: thanklilas@163.com
+Maintainer: lilasxie
+Maintainer-email: thanklilas@163.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# BigOne Tool in Python
+
+This is a common used library python package for the [BigOne exchange](https://big.one)
