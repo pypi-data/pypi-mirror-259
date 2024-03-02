@@ -1,0 +1,4 @@
+[console_scripts]
+BigquantLianghuaJiaocheng = BigquantLianghuaJiaocheng.__main__:main
+bigquant-lianghua-jiaocheng = BigquantLianghuaJiaocheng.__main__:main
+
