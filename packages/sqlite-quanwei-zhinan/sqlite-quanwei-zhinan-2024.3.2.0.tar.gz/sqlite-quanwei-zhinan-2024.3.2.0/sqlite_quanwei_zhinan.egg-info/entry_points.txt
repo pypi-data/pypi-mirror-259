@@ -1,0 +1,3 @@
+[console_scripts]
+SqliteQuanweiZhinan = SqliteQuanweiZhinan.__main__:main
+sqlite-quanwei-zhinan = SqliteQuanweiZhinan.__main__:main
