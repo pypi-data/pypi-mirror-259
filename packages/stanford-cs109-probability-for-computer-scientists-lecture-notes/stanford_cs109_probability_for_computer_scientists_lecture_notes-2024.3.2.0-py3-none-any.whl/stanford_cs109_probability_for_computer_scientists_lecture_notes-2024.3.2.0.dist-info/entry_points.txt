@@ -1,0 +1,4 @@
+[console_scripts]
+StanfordCs109ProbabilityForComputerScientistsLectureNotes = StanfordCs109ProbabilityForComputerScientistsLectureNotes.__main__:main
+stanford-cs109-probability-for-computer-scientists-lecture-notes = StanfordCs109ProbabilityForComputerScientistsLectureNotes.__main__:main
+
