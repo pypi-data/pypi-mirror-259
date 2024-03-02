@@ -1,0 +1,4 @@
+[console_scripts]
+SitanfuCs229JiqiXuexiJiangyiYingwenbanQuan = SitanfuCs229JiqiXuexiJiangyiYingwenbanQuan.__main__:main
+sitanfu-cs229-jiqi-xuexi-jiangyi-yingwenban-quan = SitanfuCs229JiqiXuexiJiangyiYingwenbanQuan.__main__:main
+
