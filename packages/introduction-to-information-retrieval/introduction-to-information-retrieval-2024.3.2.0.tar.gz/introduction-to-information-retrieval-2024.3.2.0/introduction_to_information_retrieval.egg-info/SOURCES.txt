@@ -1,0 +1,12 @@
+README.md
+setup.py
+IntroductionToInformationRetrieval/README.md
+IntroductionToInformationRetrieval/__init__.py
+IntroductionToInformationRetrieval/__main__.py
+IntroductionToInformationRetrieval/file.pdf
+IntroductionToInformationRetrieval/index.html
+introduction_to_information_retrieval.egg-info/PKG-INFO
+introduction_to_information_retrieval.egg-info/SOURCES.txt
+introduction_to_information_retrieval.egg-info/dependency_links.txt
+introduction_to_information_retrieval.egg-info/entry_points.txt
+introduction_to_information_retrieval.egg-info/top_level.txt
