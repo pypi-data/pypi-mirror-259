@@ -1,0 +1,2 @@
+[ivpm.pkginfo]
+debug-mgr = debug_mgr.pkginfo:PkgInfo
