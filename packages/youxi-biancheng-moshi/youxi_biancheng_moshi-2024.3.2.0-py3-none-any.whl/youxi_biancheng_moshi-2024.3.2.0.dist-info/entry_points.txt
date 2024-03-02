@@ -1,0 +1,3 @@
+[console_scripts]
+YouxiBianchengMoshi = YouxiBianchengMoshi.__main__:main
+youxi-biancheng-moshi = YouxiBianchengMoshi.__main__:main
