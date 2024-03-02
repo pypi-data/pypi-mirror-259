@@ -1,0 +1,3 @@
+[console_scripts]
+QuyueDeGongxuRuheLijieYouxi = QuyueDeGongxuRuheLijieYouxi.__main__:main
+quyue-de-gongxu-ruhe-lijie-youxi = QuyueDeGongxuRuheLijieYouxi.__main__:main
