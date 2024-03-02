@@ -1,0 +1,12 @@
+README.md
+setup.py
+FoundationsOfComputation/README.md
+FoundationsOfComputation/__init__.py
+FoundationsOfComputation/__main__.py
+FoundationsOfComputation/file.pdf
+FoundationsOfComputation/index.html
+foundations_of_computation.egg-info/PKG-INFO
+foundations_of_computation.egg-info/SOURCES.txt
+foundations_of_computation.egg-info/dependency_links.txt
+foundations_of_computation.egg-info/entry_points.txt
+foundations_of_computation.egg-info/top_level.txt
