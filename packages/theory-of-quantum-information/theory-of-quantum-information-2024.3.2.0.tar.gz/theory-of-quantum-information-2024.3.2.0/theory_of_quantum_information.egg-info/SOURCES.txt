@@ -1,0 +1,12 @@
+README.md
+setup.py
+TheoryOfQuantumInformation/README.md
+TheoryOfQuantumInformation/__init__.py
+TheoryOfQuantumInformation/__main__.py
+TheoryOfQuantumInformation/file.pdf
+TheoryOfQuantumInformation/index.html
+theory_of_quantum_information.egg-info/PKG-INFO
+theory_of_quantum_information.egg-info/SOURCES.txt
+theory_of_quantum_information.egg-info/dependency_links.txt
+theory_of_quantum_information.egg-info/entry_points.txt
+theory_of_quantum_information.egg-info/top_level.txt

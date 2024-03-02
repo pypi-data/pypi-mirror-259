@@ -1,0 +1,4 @@
+[console_scripts]
+TheoryOfQuantumInformation = TheoryOfQuantumInformation.__main__:main
+theory-of-quantum-information = TheoryOfQuantumInformation.__main__:main
+
