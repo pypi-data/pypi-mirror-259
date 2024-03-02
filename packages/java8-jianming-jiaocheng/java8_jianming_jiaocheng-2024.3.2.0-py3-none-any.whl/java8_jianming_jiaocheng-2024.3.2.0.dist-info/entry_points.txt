@@ -1,0 +1,3 @@
+[console_scripts]
+Java8JianmingJiaocheng = Java8JianmingJiaocheng.__main__:main
+java8-jianming-jiaocheng = Java8JianmingJiaocheng.__main__:main
