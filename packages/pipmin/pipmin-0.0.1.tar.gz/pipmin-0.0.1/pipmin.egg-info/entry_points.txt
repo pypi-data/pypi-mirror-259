@@ -1,0 +1,2 @@
+[console_scripts]
+pipmin = pipmin.trim:main
