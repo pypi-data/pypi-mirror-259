@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: binance-spot-sdk
+Version: 0.0.1
+Summary: A SDK for Binance Public Spot API
+Home-page: https://github.com/Halimao/binance-spot-sdk
+Author-email: halimao.lin@gmail.com
+Keywords: Binance Public Spot API
+License-File: LICENSE
+Requires-Dist: urllib3>=1.15
+Requires-Dist: six>=1.10
+Requires-Dist: certifi
+Requires-Dist: python-dateutil
+
+    OpenAPI Specifications for the Binance Public Spot API  API documents:   - [https://github.com/binance/binance-spot-api-docs](https://github.com/binance/binance-spot-api-docs)   - [https://binance-docs.github.io/apidocs/spot/en](https://binance-docs.github.io/apidocs/spot/en)  # noqa: E501
+    
