@@ -1,0 +1,4 @@
+[console_scripts]
+DeepLearningInNeuralNetworksAnOverview = DeepLearningInNeuralNetworksAnOverview.__main__:main
+deep-learning-in-neural-networks-an-overview = DeepLearningInNeuralNetworksAnOverview.__main__:main
+
