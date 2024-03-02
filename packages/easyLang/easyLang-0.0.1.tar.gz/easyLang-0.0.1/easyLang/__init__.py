@@ -1,0 +1,2 @@
+from .Language_detection import via_detectlanguage, via_googletrans
+from .Language_translation import via_deeptranslator, via_googletrans
