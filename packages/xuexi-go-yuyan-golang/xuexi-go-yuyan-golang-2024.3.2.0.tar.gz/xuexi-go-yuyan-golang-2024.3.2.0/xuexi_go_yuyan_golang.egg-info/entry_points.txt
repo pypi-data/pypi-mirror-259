@@ -1,0 +1,3 @@
+[console_scripts]
+XuexiGoYuyanGolang = XuexiGoYuyanGolang.__main__:main
+xuexi-go-yuyan-golang = XuexiGoYuyanGolang.__main__:main

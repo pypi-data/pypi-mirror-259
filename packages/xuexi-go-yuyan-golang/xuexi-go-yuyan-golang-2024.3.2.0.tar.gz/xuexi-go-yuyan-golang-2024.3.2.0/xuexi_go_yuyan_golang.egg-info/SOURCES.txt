@@ -1,0 +1,12 @@
+README.md
+setup.py
+XuexiGoYuyanGolang/README.md
+XuexiGoYuyanGolang/__init__.py
+XuexiGoYuyanGolang/__main__.py
+XuexiGoYuyanGolang/file.pdf
+XuexiGoYuyanGolang/index.html
+xuexi_go_yuyan_golang.egg-info/PKG-INFO
+xuexi_go_yuyan_golang.egg-info/SOURCES.txt
+xuexi_go_yuyan_golang.egg-info/dependency_links.txt
+xuexi_go_yuyan_golang.egg-info/entry_points.txt
+xuexi_go_yuyan_golang.egg-info/top_level.txt
