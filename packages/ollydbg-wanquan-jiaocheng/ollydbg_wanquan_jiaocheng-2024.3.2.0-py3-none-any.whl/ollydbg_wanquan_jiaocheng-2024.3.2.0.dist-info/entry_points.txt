@@ -1,0 +1,4 @@
+[console_scripts]
+OllydbgWanquanJiaocheng = OllydbgWanquanJiaocheng.__main__:main
+ollydbg-wanquan-jiaocheng = OllydbgWanquanJiaocheng.__main__:main
+
