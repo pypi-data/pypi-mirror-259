@@ -1,0 +1,4 @@
+[console_scripts]
+BentuTuDeGushi = BentuTuDeGushi.__main__:main
+bentu-tu-de-gushi = BentuTuDeGushi.__main__:main
+
