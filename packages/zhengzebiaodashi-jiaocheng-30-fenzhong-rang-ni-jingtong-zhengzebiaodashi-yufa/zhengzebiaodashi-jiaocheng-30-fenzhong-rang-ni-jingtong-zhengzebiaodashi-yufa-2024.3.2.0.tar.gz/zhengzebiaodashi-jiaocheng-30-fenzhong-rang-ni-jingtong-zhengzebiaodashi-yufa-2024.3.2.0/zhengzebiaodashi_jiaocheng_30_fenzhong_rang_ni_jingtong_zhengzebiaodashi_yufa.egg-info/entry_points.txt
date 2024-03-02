@@ -1,0 +1,4 @@
+[console_scripts]
+ZhengzebiaodashiJiaocheng30FenzhongRangNiJingtongZhengzebiaodashiYufa = ZhengzebiaodashiJiaocheng30FenzhongRangNiJingtongZhengzebiaodashiYufa.__main__:main
+zhengzebiaodashi-jiaocheng-30-fenzhong-rang-ni-jingtong-zhengzebiaodashi-yufa = ZhengzebiaodashiJiaocheng30FenzhongRangNiJingtongZhengzebiaodashiYufa.__main__:main
+
