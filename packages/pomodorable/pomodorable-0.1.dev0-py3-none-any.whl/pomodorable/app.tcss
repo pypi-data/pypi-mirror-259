@@ -1,0 +1,89 @@
+
+/* Do not show the icon character in the header. */
+HeaderIcon {
+    display: none;
+}
+
+Horizontal {
+    height: 3;
+}
+
+Label {
+    padding: 1;
+}
+
+CountdownDisplay, TimeDisplay {
+    border: solid gray;
+    content-align: center middle;
+    margin: 0 1;
+    max-width: 12;
+}
+
+CountdownDisplay {
+    color: greenyellow;
+    text-style: bold;
+}
+
+TimeDisplay {
+    color: darkgoldenrod;
+}
+
+#frm-times {
+    content-align-vertical: middle;
+}
+
+Button {
+    border: solid gray;
+}
+
+#btn-start {
+    color: green;
+}
+
+#btn-pause {
+    color: yellow;
+}
+
+#btn-resume {
+    color: green;
+}
+
+#btn-extend {
+    color: teal;
+}
+
+#btn-stop {
+    color: red;
+}
+
+#frm-set {
+    display: block;
+}
+
+.running #frm-set {
+    display: none;
+}
+
+#frm-start {
+    display: block;
+}
+
+.running #frm-start {
+    display: none;
+}
+
+#frm-pause {
+    display: none;
+}
+
+.running #frm-pause {
+    display: block;
+}
+
+#frm-paused {
+    display: none;
+}
+
+.paused #frm-paused {
+    display: block;
+}
