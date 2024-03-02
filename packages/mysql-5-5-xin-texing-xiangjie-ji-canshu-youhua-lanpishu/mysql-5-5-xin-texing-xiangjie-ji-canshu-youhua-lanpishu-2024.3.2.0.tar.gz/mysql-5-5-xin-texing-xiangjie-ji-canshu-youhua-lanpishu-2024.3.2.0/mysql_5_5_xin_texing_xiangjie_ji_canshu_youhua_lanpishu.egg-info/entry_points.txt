@@ -1,0 +1,4 @@
+[console_scripts]
+Mysql55XinTexingXiangjieJiCanshuYouhuaLanpishu = Mysql55XinTexingXiangjieJiCanshuYouhuaLanpishu.__main__:main
+mysql-5-5-xin-texing-xiangjie-ji-canshu-youhua-lanpishu = Mysql55XinTexingXiangjieJiCanshuYouhuaLanpishu.__main__:main
+
