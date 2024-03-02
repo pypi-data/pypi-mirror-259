@@ -1,0 +1,4 @@
+[console_scripts]
+LearningDeepArchitecturesForAiZhongwenban = LearningDeepArchitecturesForAiZhongwenban.__main__:main
+learning-deep-architectures-for-ai-zhongwenban = LearningDeepArchitecturesForAiZhongwenban.__main__:main
+

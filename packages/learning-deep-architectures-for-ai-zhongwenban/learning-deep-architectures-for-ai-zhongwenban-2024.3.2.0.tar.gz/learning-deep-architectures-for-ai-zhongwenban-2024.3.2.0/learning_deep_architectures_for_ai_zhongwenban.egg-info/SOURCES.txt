@@ -1,0 +1,12 @@
+README.md
+setup.py
+LearningDeepArchitecturesForAiZhongwenban/README.md
+LearningDeepArchitecturesForAiZhongwenban/__init__.py
+LearningDeepArchitecturesForAiZhongwenban/__main__.py
+LearningDeepArchitecturesForAiZhongwenban/file.pdf
+LearningDeepArchitecturesForAiZhongwenban/index.html
+learning_deep_architectures_for_ai_zhongwenban.egg-info/PKG-INFO
+learning_deep_architectures_for_ai_zhongwenban.egg-info/SOURCES.txt
+learning_deep_architectures_for_ai_zhongwenban.egg-info/dependency_links.txt
+learning_deep_architectures_for_ai_zhongwenban.egg-info/entry_points.txt
+learning_deep_architectures_for_ai_zhongwenban.egg-info/top_level.txt
