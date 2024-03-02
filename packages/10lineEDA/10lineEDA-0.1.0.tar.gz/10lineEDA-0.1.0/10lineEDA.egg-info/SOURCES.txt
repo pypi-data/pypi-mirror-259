@@ -1,0 +1,5 @@
+setup.py
+10lineEDA.egg-info/PKG-INFO
+10lineEDA.egg-info/SOURCES.txt
+10lineEDA.egg-info/dependency_links.txt
+10lineEDA.egg-info/top_level.txt
