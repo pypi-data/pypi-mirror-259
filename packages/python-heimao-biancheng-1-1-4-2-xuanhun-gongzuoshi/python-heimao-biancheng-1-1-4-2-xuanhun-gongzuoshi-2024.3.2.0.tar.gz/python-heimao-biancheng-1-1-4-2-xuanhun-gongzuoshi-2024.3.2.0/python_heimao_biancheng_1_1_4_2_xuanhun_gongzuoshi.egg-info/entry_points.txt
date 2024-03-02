@@ -1,0 +1,4 @@
+[console_scripts]
+PythonHeimaoBiancheng1142XuanhunGongzuoshi = PythonHeimaoBiancheng1142XuanhunGongzuoshi.__main__:main
+python-heimao-biancheng-1-1-4-2-xuanhun-gongzuoshi = PythonHeimaoBiancheng1142XuanhunGongzuoshi.__main__:main
+
