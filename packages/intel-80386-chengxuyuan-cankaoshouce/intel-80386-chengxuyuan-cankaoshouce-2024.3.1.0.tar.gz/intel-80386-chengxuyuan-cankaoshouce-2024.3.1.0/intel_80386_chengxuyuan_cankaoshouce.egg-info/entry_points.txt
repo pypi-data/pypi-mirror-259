@@ -1,0 +1,3 @@
+[console_scripts]
+Intel80386ChengxuyuanCankaoshouce = Intel80386ChengxuyuanCankaoshouce.__main__:main
+intel-80386-chengxuyuan-cankaoshouce = Intel80386ChengxuyuanCankaoshouce.__main__:main
