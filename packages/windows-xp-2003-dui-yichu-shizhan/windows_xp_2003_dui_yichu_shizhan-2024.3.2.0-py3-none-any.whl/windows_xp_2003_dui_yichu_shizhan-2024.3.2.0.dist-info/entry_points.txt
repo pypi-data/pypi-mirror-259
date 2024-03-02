@@ -1,0 +1,4 @@
+[console_scripts]
+WindowsXp2003DuiYichuShizhan = WindowsXp2003DuiYichuShizhan.__main__:main
+windows-xp-2003-dui-yichu-shizhan = WindowsXp2003DuiYichuShizhan.__main__:main
+
