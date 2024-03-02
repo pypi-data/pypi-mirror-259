@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: ling-jichu-rumen-shendu-xuexi-hanbingtao
+Version: 2024.3.2.0
+Summary: 零基础入门深度学习（hanbingtao）
+Home-page: https://github.com/apachecn/ling-jichu-rumen-shendu-xuexi-hanbingtao
+Author: ApacheCN
+Author-email: apachecn@163.com
+License: UNKNOWN
+Description: # 零基础入门深度学习（hanbingtao）
+        
+        ## 下载
+        
+        ### Docker
+        
+        ```
+        docker pull apachecn0/ling-jichu-rumen-shendu-xuexi-hanbingtao
+        docker run -tid -p <port>:80 apachecn0/ling-jichu-rumen-shendu-xuexi-hanbingtao
+        # 访问 http://localhost:{port} 查看文档
+        ```
+        
+        ### PYPI
+        
+        ```
+        pip install ling-jichu-rumen-shendu-xuexi-hanbingtao
+        ling-jichu-rumen-shendu-xuexi-hanbingtao <port>
+        # 访问 http://localhost:{port} 查看文档
+        ```
+        
+        ### NPM
+        
+        ```
+        npm install -g ling-jichu-rumen-shendu-xuexi-hanbingtao
+        ling-jichu-rumen-shendu-xuexi-hanbingtao <port>
+        # 访问 http://localhost:{port} 查看文档
+        ```
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: Other/Proprietary License
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Text Processing :: Markup :: Markdown
+Classifier: Topic :: Text Processing :: Markup :: HTML
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development :: Documentation
+Classifier: Topic :: Documentation
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

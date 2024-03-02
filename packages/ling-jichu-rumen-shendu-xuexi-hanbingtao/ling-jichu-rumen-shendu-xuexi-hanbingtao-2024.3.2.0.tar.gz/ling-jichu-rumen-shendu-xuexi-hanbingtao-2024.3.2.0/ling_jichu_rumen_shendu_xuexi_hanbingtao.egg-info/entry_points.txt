@@ -1,0 +1,4 @@
+[console_scripts]
+LingJichuRumenShenduXuexiHanbingtao = LingJichuRumenShenduXuexiHanbingtao.__main__:main
+ling-jichu-rumen-shendu-xuexi-hanbingtao = LingJichuRumenShenduXuexiHanbingtao.__main__:main
+
