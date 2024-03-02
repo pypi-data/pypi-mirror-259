@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+crm-chatbot/__init__.py
+crm-chatbot/access_token.py
+crm-chatbot/agent.py
+crm-chatbot/answerRequests.py
+crm-chatbot/formatData.py
+crm-chatbot/get_data.py
+crm-chatbot/handle_user_input.py
+crm-chatbot/response.py
+crm-chatbot/syntax.py
+crmchatbot.egg-info/PKG-INFO
+crmchatbot.egg-info/SOURCES.txt
+crmchatbot.egg-info/dependency_links.txt
+crmchatbot.egg-info/requires.txt
+crmchatbot.egg-info/top_level.txt
