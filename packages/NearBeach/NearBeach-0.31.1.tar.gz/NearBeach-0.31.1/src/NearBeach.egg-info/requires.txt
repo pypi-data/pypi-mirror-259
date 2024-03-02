@@ -1,0 +1,14 @@
+Django>=3.1
+simplejson
+pillow>=10.0.1
+urllib3
+boto3
+azure-storage-blob
+azure-identity
+pip>=19.2
+
+[dev]
+black
+bandit
+python-dotenv
+django-storages
