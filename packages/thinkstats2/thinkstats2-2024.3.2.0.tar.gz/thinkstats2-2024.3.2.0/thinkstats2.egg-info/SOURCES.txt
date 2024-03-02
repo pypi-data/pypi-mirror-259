@@ -1,0 +1,12 @@
+README.md
+setup.py
+Thinkstats2/README.md
+Thinkstats2/__init__.py
+Thinkstats2/__main__.py
+Thinkstats2/file.pdf
+Thinkstats2/index.html
+thinkstats2.egg-info/PKG-INFO
+thinkstats2.egg-info/SOURCES.txt
+thinkstats2.egg-info/dependency_links.txt
+thinkstats2.egg-info/entry_points.txt
+thinkstats2.egg-info/top_level.txt
