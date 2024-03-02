@@ -1,0 +1,3 @@
+[console_scripts]
+FlaskDaxingJiaocheng = FlaskDaxingJiaocheng.__main__:main
+flask-daxing-jiaocheng = FlaskDaxingJiaocheng.__main__:main
