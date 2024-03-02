@@ -1,0 +1,4 @@
+[console_scripts]
+AdvancedDataFlowAnalysisLectureNotesCambridgeL111 = AdvancedDataFlowAnalysisLectureNotesCambridgeL111.__main__:main
+advanced-data-flow-analysis-lecture-notes-cambridge-l111 = AdvancedDataFlowAnalysisLectureNotesCambridgeL111.__main__:main
+
