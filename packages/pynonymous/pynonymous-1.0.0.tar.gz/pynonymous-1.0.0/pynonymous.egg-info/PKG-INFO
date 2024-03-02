@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: pynonymous
+Version: 1.0.0
+Summary: A simple Python library to provide public proxies and generate random headers.
+Author: Purple Beast
+Author-email: purpleb796@gmail.com
+Requires-Python: >=3.6
