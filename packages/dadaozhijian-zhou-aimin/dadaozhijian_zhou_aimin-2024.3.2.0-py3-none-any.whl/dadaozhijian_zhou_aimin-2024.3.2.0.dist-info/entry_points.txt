@@ -1,0 +1,4 @@
+[console_scripts]
+DadaozhijianZhouAimin = DadaozhijianZhouAimin.__main__:main
+dadaozhijian-zhou-aimin = DadaozhijianZhouAimin.__main__:main
+
