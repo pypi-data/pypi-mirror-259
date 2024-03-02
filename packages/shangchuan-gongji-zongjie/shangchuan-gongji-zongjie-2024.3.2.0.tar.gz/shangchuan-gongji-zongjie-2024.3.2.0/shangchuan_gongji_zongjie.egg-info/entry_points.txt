@@ -1,0 +1,3 @@
+[console_scripts]
+ShangchuanGongjiZongjie = ShangchuanGongjiZongjie.__main__:main
+shangchuan-gongji-zongjie = ShangchuanGongjiZongjie.__main__:main
