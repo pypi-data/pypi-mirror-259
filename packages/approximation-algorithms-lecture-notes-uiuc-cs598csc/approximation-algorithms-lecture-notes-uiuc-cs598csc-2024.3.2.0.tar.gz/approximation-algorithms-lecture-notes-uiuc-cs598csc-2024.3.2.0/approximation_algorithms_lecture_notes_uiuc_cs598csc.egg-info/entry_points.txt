@@ -1,0 +1,4 @@
+[console_scripts]
+ApproximationAlgorithmsLectureNotesUiucCs598csc = ApproximationAlgorithmsLectureNotesUiucCs598csc.__main__:main
+approximation-algorithms-lecture-notes-uiuc-cs598csc = ApproximationAlgorithmsLectureNotesUiucCs598csc.__main__:main
+
