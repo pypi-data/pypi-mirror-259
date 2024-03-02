@@ -1,0 +1,51 @@
+[tool.poetry]
+name = "gophient"
+version = "2.0.0"
+description = "Client library for the Gopherspace"
+license = "MIT"
+authors = ["Arisu Wonderland <arisuchr@riseup.net>"]
+readme = "README.md"
+repository = "https://github.com/arichr/gophient"
+documentation = "https://arichr.github.io/gophient/"
+keywords = ["gopher", "gophient", "client", "python3", "gopher-client", "gopherspace", "module", "library"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Communications",
+    "Topic :: Internet",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+include = [
+    {path = "tests", format = "sdist"},
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.3.0"
+pytest = "^8.0.2"
+
+[tool.poetry.group.docs.dependencies]
+mkdocs = "^1.5.3"
+mkdocs-material = "^9.5.12"
+mkdocstrings = {extras = ["python"], version = "^0.24.1"}
+mkdocs-git-authors-plugin = "^0.7.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
