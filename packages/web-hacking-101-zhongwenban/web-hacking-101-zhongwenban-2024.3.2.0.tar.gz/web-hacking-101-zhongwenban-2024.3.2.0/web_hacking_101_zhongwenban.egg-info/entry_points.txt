@@ -1,0 +1,4 @@
+[console_scripts]
+WebHacking101Zhongwenban = WebHacking101Zhongwenban.__main__:main
+web-hacking-101-zhongwenban = WebHacking101Zhongwenban.__main__:main
+
