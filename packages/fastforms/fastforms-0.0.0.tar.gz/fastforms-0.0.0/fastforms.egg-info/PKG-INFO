@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: fastforms
+Version: 0.0.0
+Summary: FastAPI rendered as HTML forms
+Home-page: https://github.com/divbzero/fastforms
+Author: Chris Lei
+Author-email: chris@divbzero.com
+License: MIT
+Keywords: FastAPI HTTP form
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: AsyncIO
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Classifier: Topic :: Internet
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: HTTP Servers
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: fastapi
+
+*FastAPI rendered as HTML forms*
