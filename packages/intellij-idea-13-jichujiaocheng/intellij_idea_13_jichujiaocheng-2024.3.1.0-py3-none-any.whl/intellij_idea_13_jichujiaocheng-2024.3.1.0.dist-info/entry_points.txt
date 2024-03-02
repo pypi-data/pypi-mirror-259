@@ -1,0 +1,3 @@
+[console_scripts]
+IntellijIdea13Jichujiaocheng = IntellijIdea13Jichujiaocheng.__main__:main
+intellij-idea-13-jichujiaocheng = IntellijIdea13Jichujiaocheng.__main__:main
