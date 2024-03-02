@@ -1,0 +1,3 @@
+[console_scripts]
+RxjavaEssentialsZhongwenfanyiBan = RxjavaEssentialsZhongwenfanyiBan.__main__:main
+rxjava-essentials-zhongwenfanyi-ban = RxjavaEssentialsZhongwenfanyiBan.__main__:main
