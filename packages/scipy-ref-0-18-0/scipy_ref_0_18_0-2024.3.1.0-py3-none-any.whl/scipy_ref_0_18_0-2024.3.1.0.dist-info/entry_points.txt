@@ -1,0 +1,3 @@
+[console_scripts]
+ScipyRef0180 = ScipyRef0180.__main__:main
+scipy-ref-0-18-0 = ScipyRef0180.__main__:main
