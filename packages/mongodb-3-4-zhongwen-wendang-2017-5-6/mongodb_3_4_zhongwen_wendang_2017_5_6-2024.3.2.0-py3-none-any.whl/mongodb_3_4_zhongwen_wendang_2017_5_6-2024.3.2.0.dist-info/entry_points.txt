@@ -1,0 +1,4 @@
+[console_scripts]
+Mongodb34ZhongwenWendang201756 = Mongodb34ZhongwenWendang201756.__main__:main
+mongodb-3-4-zhongwen-wendang-2017-5-6 = Mongodb34ZhongwenWendang201756.__main__:main
+
