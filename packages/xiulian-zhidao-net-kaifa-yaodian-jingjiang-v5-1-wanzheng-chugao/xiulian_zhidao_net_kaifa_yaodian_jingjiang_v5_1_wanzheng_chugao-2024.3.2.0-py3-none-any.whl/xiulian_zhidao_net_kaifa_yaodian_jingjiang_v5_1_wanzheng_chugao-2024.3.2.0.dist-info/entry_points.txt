@@ -1,0 +1,3 @@
+[console_scripts]
+XiulianZhidaoNetKaifaYaodianJingjiangV51WanzhengChugao = XiulianZhidaoNetKaifaYaodianJingjiangV51WanzhengChugao.__main__:main
+xiulian-zhidao-net-kaifa-yaodian-jingjiang-v5-1-wanzheng-chugao = XiulianZhidaoNetKaifaYaodianJingjiangV51WanzhengChugao.__main__:main
