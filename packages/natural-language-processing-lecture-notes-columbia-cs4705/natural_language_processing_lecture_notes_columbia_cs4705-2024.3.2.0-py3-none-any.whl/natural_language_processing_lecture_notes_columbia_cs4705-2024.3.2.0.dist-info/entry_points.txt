@@ -1,0 +1,4 @@
+[console_scripts]
+NaturalLanguageProcessingLectureNotesColumbiaCs4705 = NaturalLanguageProcessingLectureNotesColumbiaCs4705.__main__:main
+natural-language-processing-lecture-notes-columbia-cs4705 = NaturalLanguageProcessingLectureNotesColumbiaCs4705.__main__:main
+
