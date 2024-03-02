@@ -1,0 +1,3 @@
+[console_scripts]
+JavaKaiyuanXiangmuZhongwenWendang20160518 = JavaKaiyuanXiangmuZhongwenWendang20160518.__main__:main
+java-kaiyuan-xiangmu-zhongwen-wendang-20160518 = JavaKaiyuanXiangmuZhongwenWendang20160518.__main__:main
