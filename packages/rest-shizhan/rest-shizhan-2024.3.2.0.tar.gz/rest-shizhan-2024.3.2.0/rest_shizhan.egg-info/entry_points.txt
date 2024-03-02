@@ -1,0 +1,3 @@
+[console_scripts]
+RestShizhan = RestShizhan.__main__:main
+rest-shizhan = RestShizhan.__main__:main
