@@ -1,0 +1,3 @@
+[console_scripts]
+ShejimoshiBaojiaoBuBaohui = ShejimoshiBaojiaoBuBaohui.__main__:main
+shejimoshi-baojiao-bu-baohui = ShejimoshiBaojiaoBuBaohui.__main__:main
