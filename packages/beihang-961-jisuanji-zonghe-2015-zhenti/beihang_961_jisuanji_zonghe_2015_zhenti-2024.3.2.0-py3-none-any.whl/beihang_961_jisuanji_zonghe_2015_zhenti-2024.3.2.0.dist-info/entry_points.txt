@@ -1,0 +1,4 @@
+[console_scripts]
+Beihang961JisuanjiZonghe2015Zhenti = Beihang961JisuanjiZonghe2015Zhenti.__main__:main
+beihang-961-jisuanji-zonghe-2015-zhenti = Beihang961JisuanjiZonghe2015Zhenti.__main__:main
+
