@@ -1,0 +1,3 @@
+[console_scripts]
+Thinkcomplexity = Thinkcomplexity.__main__:main
+thinkcomplexity = Thinkcomplexity.__main__:main

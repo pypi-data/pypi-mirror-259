@@ -1,0 +1,12 @@
+README.md
+setup.py
+Thinkcomplexity/README.md
+Thinkcomplexity/__init__.py
+Thinkcomplexity/__main__.py
+Thinkcomplexity/file.pdf
+Thinkcomplexity/index.html
+thinkcomplexity.egg-info/PKG-INFO
+thinkcomplexity.egg-info/SOURCES.txt
+thinkcomplexity.egg-info/dependency_links.txt
+thinkcomplexity.egg-info/entry_points.txt
+thinkcomplexity.egg-info/top_level.txt
