@@ -1,0 +1,3 @@
+[console_scripts]
+SilicSecurityHandbook = SilicSecurityHandbook.__main__:main
+silic-security-handbook = SilicSecurityHandbook.__main__:main
