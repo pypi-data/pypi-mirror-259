@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: cvc5
+Version: 1.1.2
+Summary: UNKNOWN
+Home-page: https://github.com/cvc5/cvc5
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: BSD-3-Clause AND LGPL-3.0-or-later AND MIT
+Platform: UNKNOWN
+
+Python bindings for cvc5
+
+
