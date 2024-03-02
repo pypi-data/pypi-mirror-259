@@ -1,0 +1,3 @@
+[console_scripts]
+Ios8KaifaRumenFix1 = Ios8KaifaRumenFix1.__main__:main
+ios8-kaifa-rumen-fix1 = Ios8KaifaRumenFix1.__main__:main
