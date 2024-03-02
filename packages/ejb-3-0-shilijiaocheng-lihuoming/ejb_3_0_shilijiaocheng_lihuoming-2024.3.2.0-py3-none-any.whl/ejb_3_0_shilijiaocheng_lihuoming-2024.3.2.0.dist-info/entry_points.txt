@@ -1,0 +1,4 @@
+[console_scripts]
+Ejb30ShilijiaochengLihuoming = Ejb30ShilijiaochengLihuoming.__main__:main
+ejb-3-0-shilijiaocheng-lihuoming = Ejb30ShilijiaochengLihuoming.__main__:main
+
