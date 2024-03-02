@@ -1,0 +1,4 @@
+[console_scripts]
+JavaWentiDingweiJishu = JavaWentiDingweiJishu.__main__:main
+java-wenti-dingwei-jishu = JavaWentiDingweiJishu.__main__:main
+
