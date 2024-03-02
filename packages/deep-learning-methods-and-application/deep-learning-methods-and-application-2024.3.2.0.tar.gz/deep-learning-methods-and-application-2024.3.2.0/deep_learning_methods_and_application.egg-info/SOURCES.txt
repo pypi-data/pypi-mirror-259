@@ -1,0 +1,12 @@
+README.md
+setup.py
+DeepLearningMethodsAndApplication/README.md
+DeepLearningMethodsAndApplication/__init__.py
+DeepLearningMethodsAndApplication/__main__.py
+DeepLearningMethodsAndApplication/file.pdf
+DeepLearningMethodsAndApplication/index.html
+deep_learning_methods_and_application.egg-info/PKG-INFO
+deep_learning_methods_and_application.egg-info/SOURCES.txt
+deep_learning_methods_and_application.egg-info/dependency_links.txt
+deep_learning_methods_and_application.egg-info/entry_points.txt
+deep_learning_methods_and_application.egg-info/top_level.txt

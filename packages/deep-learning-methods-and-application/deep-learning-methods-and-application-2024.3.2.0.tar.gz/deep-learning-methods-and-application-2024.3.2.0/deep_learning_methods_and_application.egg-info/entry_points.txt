@@ -1,0 +1,4 @@
+[console_scripts]
+DeepLearningMethodsAndApplication = DeepLearningMethodsAndApplication.__main__:main
+deep-learning-methods-and-application = DeepLearningMethodsAndApplication.__main__:main
+
