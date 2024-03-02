@@ -1,0 +1,4 @@
+[console_scripts]
+ComputerAndNetworkSecurityByAvinashKak = ComputerAndNetworkSecurityByAvinashKak.__main__:main
+computer-and-network-security-by-avinash-kak = ComputerAndNetworkSecurityByAvinashKak.__main__:main
+

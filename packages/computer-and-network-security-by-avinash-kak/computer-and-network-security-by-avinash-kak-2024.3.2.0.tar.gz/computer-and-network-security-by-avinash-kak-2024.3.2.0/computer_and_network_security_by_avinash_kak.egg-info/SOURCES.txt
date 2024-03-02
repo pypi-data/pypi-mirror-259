@@ -1,0 +1,12 @@
+README.md
+setup.py
+ComputerAndNetworkSecurityByAvinashKak/README.md
+ComputerAndNetworkSecurityByAvinashKak/__init__.py
+ComputerAndNetworkSecurityByAvinashKak/__main__.py
+ComputerAndNetworkSecurityByAvinashKak/file.pdf
+ComputerAndNetworkSecurityByAvinashKak/index.html
+computer_and_network_security_by_avinash_kak.egg-info/PKG-INFO
+computer_and_network_security_by_avinash_kak.egg-info/SOURCES.txt
+computer_and_network_security_by_avinash_kak.egg-info/dependency_links.txt
+computer_and_network_security_by_avinash_kak.egg-info/entry_points.txt
+computer_and_network_security_by_avinash_kak.egg-info/top_level.txt
