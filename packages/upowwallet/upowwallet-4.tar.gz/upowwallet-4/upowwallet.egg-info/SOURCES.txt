@@ -1,0 +1,7 @@
+pyproject.toml
+setup.py
+upowwallet.egg-info/PKG-INFO
+upowwallet.egg-info/SOURCES.txt
+upowwallet.egg-info/dependency_links.txt
+upowwallet.egg-info/requires.txt
+upowwallet.egg-info/top_level.txt
