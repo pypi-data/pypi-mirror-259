@@ -1,0 +1,3 @@
+[console_scripts]
+ShiyanlouSqlJiaochengHeji20160904Fix1 = ShiyanlouSqlJiaochengHeji20160904Fix1.__main__:main
+shiyanlou-sql-jiaocheng-heji-20160904-fix1 = ShiyanlouSqlJiaochengHeji20160904Fix1.__main__:main
