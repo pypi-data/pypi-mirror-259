@@ -1,0 +1,4 @@
+[console_scripts]
+IntroductionToArithmeticGeometryLectureNotesMit18782 = IntroductionToArithmeticGeometryLectureNotesMit18782.__main__:main
+introduction-to-arithmetic-geometry-lecture-notes-mit-18-782 = IntroductionToArithmeticGeometryLectureNotesMit18782.__main__:main
+
