@@ -1,0 +1,3 @@
+[console_scripts]
+Thinkocaml = Thinkocaml.__main__:main
+thinkocaml = Thinkocaml.__main__:main
