@@ -1,0 +1,3 @@
+[console_scripts]
+ChromeDoc = ChromeDoc.__main__:main
+chrome-doc = ChromeDoc.__main__:main
