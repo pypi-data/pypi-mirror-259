@@ -1,0 +1,4 @@
+[console_scripts]
+KerasZhongwenWendang = KerasZhongwenWendang.__main__:main
+keras-zhongwen-wendang = KerasZhongwenWendang.__main__:main
+
