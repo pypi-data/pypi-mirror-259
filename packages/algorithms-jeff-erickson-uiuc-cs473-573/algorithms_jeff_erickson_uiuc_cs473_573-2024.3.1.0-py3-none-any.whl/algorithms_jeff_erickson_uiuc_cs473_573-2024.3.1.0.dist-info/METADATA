@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: algorithms-jeff-erickson-uiuc-cs473-573
+Version: 2024.3.1.0
+Summary: Algorithms Jeff Erickson (UIUC CS473 573)
+Home-page: https://github.com/apachecn/algorithms-jeff-erickson-uiuc-cs473-573
+Author: ApacheCN
+Author-email: apachecn@163.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: Other/Proprietary License
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Text Processing :: Markup :: Markdown
+Classifier: Topic :: Text Processing :: Markup :: HTML
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development :: Documentation
+Classifier: Topic :: Documentation
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Algorithms Jeff Erickson (UIUC CS473 573)
+
+## 下载
+
+### Docker
+
+```
+docker pull apachecn0/algorithms-jeff-erickson-uiuc-cs473-573
+docker run -tid -p <port>:80 apachecn0/algorithms-jeff-erickson-uiuc-cs473-573
+# 访问 http://localhost:{port} 查看文档
+```
+
+### PYPI
+
+```
+pip install algorithms-jeff-erickson-uiuc-cs473-573
+algorithms-jeff-erickson-uiuc-cs473-573 <port>
+# 访问 http://localhost:{port} 查看文档
+```
+
+### NPM
+
+```
+npm install -g algorithms-jeff-erickson-uiuc-cssiqisan-wuqisan
+algorithms-jeff-erickson-uiuc-cssiqisan-wuqisan <port>
+# 访问 http://localhost:{port} 查看文档
+```
+
