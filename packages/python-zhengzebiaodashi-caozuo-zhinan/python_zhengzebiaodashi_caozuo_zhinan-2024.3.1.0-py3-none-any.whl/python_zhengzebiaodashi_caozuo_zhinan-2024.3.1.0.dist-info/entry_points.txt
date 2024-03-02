@@ -1,0 +1,3 @@
+[console_scripts]
+PythonZhengzebiaodashiCaozuoZhinan = PythonZhengzebiaodashiCaozuoZhinan.__main__:main
+python-zhengzebiaodashi-caozuo-zhinan = PythonZhengzebiaodashiCaozuoZhinan.__main__:main
