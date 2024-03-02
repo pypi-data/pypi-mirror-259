@@ -1,0 +1,3 @@
+[console_scripts]
+QtXuexiZhiLuV11 = QtXuexiZhiLuV11.__main__:main
+qt-xuexi-zhi-lu-v1-1 = QtXuexiZhiLuV11.__main__:main
