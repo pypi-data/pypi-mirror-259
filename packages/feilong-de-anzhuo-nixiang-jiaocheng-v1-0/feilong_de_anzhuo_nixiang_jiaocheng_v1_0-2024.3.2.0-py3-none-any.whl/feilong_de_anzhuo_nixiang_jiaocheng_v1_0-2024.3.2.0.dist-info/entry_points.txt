@@ -1,0 +1,4 @@
+[console_scripts]
+FeilongDeAnzhuoNixiangJiaochengV10 = FeilongDeAnzhuoNixiangJiaochengV10.__main__:main
+feilong-de-anzhuo-nixiang-jiaocheng-v1-0 = FeilongDeAnzhuoNixiangJiaochengV10.__main__:main
+
