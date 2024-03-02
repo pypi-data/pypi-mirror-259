@@ -1,0 +1,4 @@
+[console_scripts]
+AircrackNgJiaochengJiWendangBufen = AircrackNgJiaochengJiWendangBufen.__main__:main
+aircrack-ng-jiaocheng-ji-wendang-bufen = AircrackNgJiaochengJiWendangBufen.__main__:main
+
