@@ -1,0 +1,4 @@
+[console_scripts]
+MfcRumenjiaocheng1TianShenruqianchuMfc = MfcRumenjiaocheng1TianShenruqianchuMfc.__main__:main
+mfc-rumenjiaocheng-1-tian-shenruqianchu-mfc = MfcRumenjiaocheng1TianShenruqianchuMfc.__main__:main
+
