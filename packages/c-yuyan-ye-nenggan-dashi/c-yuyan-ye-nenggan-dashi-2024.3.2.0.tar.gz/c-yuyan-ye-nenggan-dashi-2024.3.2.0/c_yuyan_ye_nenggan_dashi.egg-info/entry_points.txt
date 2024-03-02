@@ -1,0 +1,4 @@
+[console_scripts]
+CYuyanYeNengganDashi = CYuyanYeNengganDashi.__main__:main
+c-yuyan-ye-nenggan-dashi = CYuyanYeNengganDashi.__main__:main
+

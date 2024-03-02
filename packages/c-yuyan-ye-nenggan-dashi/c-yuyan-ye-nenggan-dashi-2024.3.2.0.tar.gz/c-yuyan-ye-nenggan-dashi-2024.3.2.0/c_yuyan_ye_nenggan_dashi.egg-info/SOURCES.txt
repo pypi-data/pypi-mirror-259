@@ -1,0 +1,12 @@
+README.md
+setup.py
+CYuyanYeNengganDashi/README.md
+CYuyanYeNengganDashi/__init__.py
+CYuyanYeNengganDashi/__main__.py
+CYuyanYeNengganDashi/file.pdf
+CYuyanYeNengganDashi/index.html
+c_yuyan_ye_nenggan_dashi.egg-info/PKG-INFO
+c_yuyan_ye_nenggan_dashi.egg-info/SOURCES.txt
+c_yuyan_ye_nenggan_dashi.egg-info/dependency_links.txt
+c_yuyan_ye_nenggan_dashi.egg-info/entry_points.txt
+c_yuyan_ye_nenggan_dashi.egg-info/top_level.txt
