@@ -1,0 +1,4 @@
+[console_scripts]
+StreetFightingMathematicsLectureNotesMit6009 = StreetFightingMathematicsLectureNotesMit6009.__main__:main
+street-fighting-mathematics-lecture-notes-mit-6-009 = StreetFightingMathematicsLectureNotesMit6009.__main__:main
+
