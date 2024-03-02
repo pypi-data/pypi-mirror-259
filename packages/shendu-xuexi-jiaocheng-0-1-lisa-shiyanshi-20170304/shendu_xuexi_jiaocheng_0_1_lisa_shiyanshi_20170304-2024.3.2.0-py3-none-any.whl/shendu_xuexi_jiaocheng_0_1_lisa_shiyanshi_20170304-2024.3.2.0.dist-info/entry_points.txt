@@ -1,0 +1,4 @@
+[console_scripts]
+ShenduXuexiJiaocheng01LisaShiyanshi20170304 = ShenduXuexiJiaocheng01LisaShiyanshi20170304.__main__:main
+shendu-xuexi-jiaocheng-0-1-lisa-shiyanshi-20170304 = ShenduXuexiJiaocheng01LisaShiyanshi20170304.__main__:main
+
