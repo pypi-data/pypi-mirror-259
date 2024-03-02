@@ -1,0 +1,4 @@
+[console_scripts]
+SoftwareDesignAndImplementationLectureNotesWashingtonCse331 = SoftwareDesignAndImplementationLectureNotesWashingtonCse331.__main__:main
+software-design-and-implementation-lecture-notes-washington-cse331 = SoftwareDesignAndImplementationLectureNotesWashingtonCse331.__main__:main
+
