@@ -1,0 +1,3 @@
+[console_scripts]
+SitanfuCs231nJuanjiShenjingwangluoKechengBijiFanyi = SitanfuCs231nJuanjiShenjingwangluoKechengBijiFanyi.__main__:main
+sitanfu-cs231n-juanji-shenjingwangluo-kecheng-biji-fanyi = SitanfuCs231nJuanjiShenjingwangluoKechengBijiFanyi.__main__:main
