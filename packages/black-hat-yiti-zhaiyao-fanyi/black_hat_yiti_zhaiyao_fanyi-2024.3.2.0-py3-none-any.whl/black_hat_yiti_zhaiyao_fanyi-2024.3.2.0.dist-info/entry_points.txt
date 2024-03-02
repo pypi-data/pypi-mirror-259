@@ -1,0 +1,4 @@
+[console_scripts]
+BlackHatYitiZhaiyaoFanyi = BlackHatYitiZhaiyaoFanyi.__main__:main
+black-hat-yiti-zhaiyao-fanyi = BlackHatYitiZhaiyaoFanyi.__main__:main
+
