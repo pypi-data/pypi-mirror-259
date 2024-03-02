@@ -1,0 +1,4 @@
+[console_scripts]
+CGongchengShijianChenshuo = CGongchengShijianChenshuo.__main__:main
+c-gongcheng-shijian-chenshuo = CGongchengShijianChenshuo.__main__:main
+
