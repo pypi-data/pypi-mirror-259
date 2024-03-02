@@ -1,0 +1,3 @@
+[console_scripts]
+ShiyanlouPhpJiaochengHeji20160904Fix1 = ShiyanlouPhpJiaochengHeji20160904Fix1.__main__:main
+shiyanlou-php-jiaocheng-heji-20160904-fix1 = ShiyanlouPhpJiaochengHeji20160904Fix1.__main__:main
