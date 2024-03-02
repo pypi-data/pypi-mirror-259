@@ -1,0 +1,4 @@
+[console_scripts]
+SublimeTextZhongwenWendangShiyongshouce = SublimeTextZhongwenWendangShiyongshouce.__main__:main
+sublime-text-zhongwen-wendang-shiyongshouce = SublimeTextZhongwenWendangShiyongshouce.__main__:main
+
