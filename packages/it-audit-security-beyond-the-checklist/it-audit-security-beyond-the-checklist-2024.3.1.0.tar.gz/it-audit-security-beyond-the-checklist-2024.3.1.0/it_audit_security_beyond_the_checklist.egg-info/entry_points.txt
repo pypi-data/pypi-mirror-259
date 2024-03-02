@@ -1,0 +1,3 @@
+[console_scripts]
+ItAuditSecurityBeyondTheChecklist = ItAuditSecurityBeyondTheChecklist.__main__:main
+it-audit-security-beyond-the-checklist = ItAuditSecurityBeyondTheChecklist.__main__:main
