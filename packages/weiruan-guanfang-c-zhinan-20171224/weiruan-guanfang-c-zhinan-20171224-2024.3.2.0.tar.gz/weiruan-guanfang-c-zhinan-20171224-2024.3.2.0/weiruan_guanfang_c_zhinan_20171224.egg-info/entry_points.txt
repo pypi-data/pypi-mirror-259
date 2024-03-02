@@ -1,0 +1,4 @@
+[console_scripts]
+WeiruanGuanfangCZhinan20171224 = WeiruanGuanfangCZhinan20171224.__main__:main
+weiruan-guanfang-c-zhinan-20171224 = WeiruanGuanfangCZhinan20171224.__main__:main
+
