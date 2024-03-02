@@ -1,0 +1,3 @@
+[console_scripts]
+ZouxiangFenbushi = ZouxiangFenbushi.__main__:main
+zouxiang-fenbushi = ZouxiangFenbushi.__main__:main
