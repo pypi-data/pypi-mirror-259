@@ -1,0 +1,4 @@
+[console_scripts]
+MianxiangduixiangDeJiaobenyuyanRuby = MianxiangduixiangDeJiaobenyuyanRuby.__main__:main
+mianxiangduixiang-de-jiaobenyuyan-ruby = MianxiangduixiangDeJiaobenyuyanRuby.__main__:main
+
