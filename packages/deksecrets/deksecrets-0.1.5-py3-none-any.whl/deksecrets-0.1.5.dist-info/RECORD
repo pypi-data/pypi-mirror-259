@@ -1,0 +1,10 @@
+deksecrets-0.1.5.dist-info/METADATA,sha256=GNMeh1Svxws1AUPLJhtHkWpk-p9t3F8yLOA7i9-DGoc,246
+deksecrets-0.1.5.dist-info/WHEEL,sha256=N2J68yzZqJh3mI_Wg92rwhw0rtJDFpZj9bwQIMJgaVg,90
+deksecrets-0.1.5.dist-info/entry_points.txt,sha256=cBEGROw5si4JdYitkIOM06clqNvvq8JbPJoMLq9scM4,64
+deksecrets/click/__entry__.py,sha256=S9f37-CUkLfSJ92Ve082O91IIHO2fjJH3qLKgiWso9E,201
+deksecrets/click/__init__.py,sha256=p84Vh1d4rwvBtw0xk6nxNDBSda6yEhKTgjTKCR-zC9s,54
+deksecrets/click/infisical.py,sha256=9bwFusm_mDvT1Ddhl_hk5qqWMssb8Wc-OSPaDYF0iV0,1254
+deksecrets/click/k8s.py,sha256=vi6cXURM-049YSZMRRbPreNWMezB_YLzxQfBtEKp7rE,705
+deksecrets/tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deksecrets/tools/infisical.py,sha256=5xEi2isgvOYrMdDEfS_KyS9ZqA-iWZGGU08BNImCJH8,573
+deksecrets-0.1.5.dist-info/RECORD,,
