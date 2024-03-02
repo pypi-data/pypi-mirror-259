@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: kcp.py
+Version: 0.1.5
+Summary: kcp.py is now kcp
+Classifier: Development Status :: 7 - Inactive
+Description-Content-Type: text/markdown
+Requires-Dist: kcp
+
+# kcp.py is now kcp
+
+This package has been renamed. Use `pip install kcp` instead.
+
+New package: https://pypi.org/project/kcp/

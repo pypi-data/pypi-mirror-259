@@ -1,0 +1,7 @@
+README.md
+setup.py
+kcp.py.egg-info/PKG-INFO
+kcp.py.egg-info/SOURCES.txt
+kcp.py.egg-info/dependency_links.txt
+kcp.py.egg-info/requires.txt
+kcp.py.egg-info/top_level.txt
