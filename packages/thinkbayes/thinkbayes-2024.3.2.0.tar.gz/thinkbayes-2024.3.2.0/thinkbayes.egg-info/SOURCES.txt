@@ -1,0 +1,12 @@
+README.md
+setup.py
+Thinkbayes/README.md
+Thinkbayes/__init__.py
+Thinkbayes/__main__.py
+Thinkbayes/file.pdf
+Thinkbayes/index.html
+thinkbayes.egg-info/PKG-INFO
+thinkbayes.egg-info/SOURCES.txt
+thinkbayes.egg-info/dependency_links.txt
+thinkbayes.egg-info/entry_points.txt
+thinkbayes.egg-info/top_level.txt
