@@ -1,0 +1,4 @@
+[console_scripts]
+CYuyanJichujiaochengLellansin = CYuyanJichujiaochengLellansin.__main__:main
+c-yuyan-jichujiaocheng-lellansin = CYuyanJichujiaochengLellansin.__main__:main
+
