@@ -1,0 +1,4 @@
+[console_scripts]
+MathematicsForComputerScienceMit6042j = MathematicsForComputerScienceMit6042j.__main__:main
+mathematics-for-computer-science-mit-6-042j = MathematicsForComputerScienceMit6042j.__main__:main
+

@@ -1,0 +1,12 @@
+README.md
+setup.py
+MathematicsForComputerScienceMit6042j/README.md
+MathematicsForComputerScienceMit6042j/__init__.py
+MathematicsForComputerScienceMit6042j/__main__.py
+MathematicsForComputerScienceMit6042j/file.pdf
+MathematicsForComputerScienceMit6042j/index.html
+mathematics_for_computer_science_mit_6_042j.egg-info/PKG-INFO
+mathematics_for_computer_science_mit_6_042j.egg-info/SOURCES.txt
+mathematics_for_computer_science_mit_6_042j.egg-info/dependency_links.txt
+mathematics_for_computer_science_mit_6_042j.egg-info/entry_points.txt
+mathematics_for_computer_science_mit_6_042j.egg-info/top_level.txt
