@@ -1,0 +1,3 @@
+[console_scripts]
+ramsis2any=ramsis2any.cli:cli
+

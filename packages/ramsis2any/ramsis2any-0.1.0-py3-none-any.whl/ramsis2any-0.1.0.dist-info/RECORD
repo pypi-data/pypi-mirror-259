@@ -1,0 +1,9 @@
+ramsis2any/__init__.py,sha256=8kcZxHHB-x-AWSp4HT2-DQ-6aePF5RQJdsoAYcbxwKg,27
+ramsis2any/aci_convert.py,sha256=CtYaTcSgwSSg2Sc_ipF6VwmEZcA7L210kAWehyvr5CE,2307
+ramsis2any/cli.py,sha256=iKBr0HKLXmDYCKqDeZMbzZvVkohajJbUAsoK1uWDZPI,1045
+ramsis2any/stl_split.py,sha256=rtPFcNzniDQXXet7PANFUR6N8UxwDluJdz-FDw1ZGNk,1126
+ramsis2any/templates/ramsis-data.any.jinja,sha256=nv8CMgPzvFLcv41WdApllk9193B_4QpvDN8Otsmxe2w,434
+ramsis2any-0.1.0.dist-info/entry_points.txt,sha256=PE4ReSNUmB_uyq6Rvgj8Vp1LTP54JHo2fIKXiU_5GN8,49
+ramsis2any-0.1.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+ramsis2any-0.1.0.dist-info/METADATA,sha256=2AlkhguUnGhOchXmZbd3MuqR03R6op6uU32r7-ByAeo,774
+ramsis2any-0.1.0.dist-info/RECORD,,
