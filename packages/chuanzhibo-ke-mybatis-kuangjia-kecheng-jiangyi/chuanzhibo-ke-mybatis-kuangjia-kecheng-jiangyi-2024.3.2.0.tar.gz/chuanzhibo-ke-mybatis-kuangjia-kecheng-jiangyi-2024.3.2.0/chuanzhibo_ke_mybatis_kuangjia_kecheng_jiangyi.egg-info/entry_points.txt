@@ -1,0 +1,4 @@
+[console_scripts]
+ChuanzhiboKeMybatisKuangjiaKechengJiangyi = ChuanzhiboKeMybatisKuangjiaKechengJiangyi.__main__:main
+chuanzhibo-ke-mybatis-kuangjia-kecheng-jiangyi = ChuanzhiboKeMybatisKuangjiaKechengJiangyi.__main__:main
+
