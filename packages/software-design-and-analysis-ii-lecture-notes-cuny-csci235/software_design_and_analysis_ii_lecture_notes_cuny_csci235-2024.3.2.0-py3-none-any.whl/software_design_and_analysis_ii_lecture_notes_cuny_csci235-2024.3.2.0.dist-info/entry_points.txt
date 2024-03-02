@@ -1,0 +1,4 @@
+[console_scripts]
+SoftwareDesignAndAnalysisIiLectureNotesCunyCsci235 = SoftwareDesignAndAnalysisIiLectureNotesCunyCsci235.__main__:main
+software-design-and-analysis-ii-lecture-notes-cuny-csci235 = SoftwareDesignAndAnalysisIiLectureNotesCunyCsci235.__main__:main
+
