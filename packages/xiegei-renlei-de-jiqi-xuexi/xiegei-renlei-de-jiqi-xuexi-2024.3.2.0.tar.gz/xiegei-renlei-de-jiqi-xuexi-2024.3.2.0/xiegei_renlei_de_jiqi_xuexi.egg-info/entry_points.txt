@@ -1,0 +1,4 @@
+[console_scripts]
+XiegeiRenleiDeJiqiXuexi = XiegeiRenleiDeJiqiXuexi.__main__:main
+xiegei-renlei-de-jiqi-xuexi = XiegeiRenleiDeJiqiXuexi.__main__:main
+
