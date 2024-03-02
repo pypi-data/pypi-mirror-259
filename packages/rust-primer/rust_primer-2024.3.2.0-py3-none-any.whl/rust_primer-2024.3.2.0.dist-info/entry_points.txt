@@ -1,0 +1,3 @@
+[console_scripts]
+RustPrimer = RustPrimer.__main__:main
+rust-primer = RustPrimer.__main__:main
