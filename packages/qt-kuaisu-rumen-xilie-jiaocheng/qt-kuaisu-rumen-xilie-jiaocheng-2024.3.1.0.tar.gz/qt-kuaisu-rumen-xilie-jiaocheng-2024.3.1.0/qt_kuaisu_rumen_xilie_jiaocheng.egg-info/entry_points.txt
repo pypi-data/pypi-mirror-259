@@ -1,0 +1,3 @@
+[console_scripts]
+QtKuaisuRumenXilieJiaocheng = QtKuaisuRumenXilieJiaocheng.__main__:main
+qt-kuaisu-rumen-xilie-jiaocheng = QtKuaisuRumenXilieJiaocheng.__main__:main
