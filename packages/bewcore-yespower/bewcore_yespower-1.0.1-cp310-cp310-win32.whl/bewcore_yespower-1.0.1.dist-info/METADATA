@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: bewcore-yespower
+Version: 1.0.1
+Summary: Bindings for yespower-1.0.1 proof of work used by bewcore
+Home-page: https://github.com/bewcore-project/bewcore_yespower_python3
+Author: mraksoll
+Author-email: mraksoll4@gmail.com
+License-File: LICENSE
+
