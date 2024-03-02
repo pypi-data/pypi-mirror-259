@@ -1,0 +1,4 @@
+[console_scripts]
+XinshouZhinanDvwa19QuanJibieJiaocheng = XinshouZhinanDvwa19QuanJibieJiaocheng.__main__:main
+xinshou-zhinan-dvwa-1-9-quan-jibie-jiaocheng = XinshouZhinanDvwa19QuanJibieJiaocheng.__main__:main
+
