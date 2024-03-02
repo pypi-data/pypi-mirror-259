@@ -1,0 +1,4 @@
+[console_scripts]
+BeihangJisuanjiFushiShangjiZhenti20062016 = BeihangJisuanjiFushiShangjiZhenti20062016.__main__:main
+beihang-jisuanji-fushi-shangji-zhenti-2006-2016 = BeihangJisuanjiFushiShangjiZhenti20062016.__main__:main
+
