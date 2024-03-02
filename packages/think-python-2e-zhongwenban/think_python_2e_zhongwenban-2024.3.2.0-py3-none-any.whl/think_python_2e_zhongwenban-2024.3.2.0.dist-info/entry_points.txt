@@ -1,0 +1,3 @@
+[console_scripts]
+ThinkPython2eZhongwenban = ThinkPython2eZhongwenban.__main__:main
+think-python-2e-zhongwenban = ThinkPython2eZhongwenban.__main__:main
