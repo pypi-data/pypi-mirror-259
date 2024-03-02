@@ -1,0 +1,3 @@
+[console_scripts]
+RequestsHttpForHumans = RequestsHttpForHumans.__main__:main
+requests-http-for-humans = RequestsHttpForHumans.__main__:main
