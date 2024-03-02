@@ -1,0 +1,4 @@
+[console_scripts]
+kiper create-pipe = kiper.commands.create_pipe:main
+kiper info = kiper.commands.info:main
+kiper setup = kiper.commands.installer:main
