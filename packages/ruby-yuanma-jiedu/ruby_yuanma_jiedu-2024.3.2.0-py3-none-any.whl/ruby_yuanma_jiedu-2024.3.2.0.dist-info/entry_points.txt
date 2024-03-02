@@ -1,0 +1,3 @@
+[console_scripts]
+RubyYuanmaJiedu = RubyYuanmaJiedu.__main__:main
+ruby-yuanma-jiedu = RubyYuanmaJiedu.__main__:main
