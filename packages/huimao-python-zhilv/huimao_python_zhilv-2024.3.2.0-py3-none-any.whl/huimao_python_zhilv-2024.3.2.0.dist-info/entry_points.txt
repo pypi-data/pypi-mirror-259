@@ -1,0 +1,3 @@
+[console_scripts]
+HuimaoPythonZhilv = HuimaoPythonZhilv.__main__:main
+huimao-python-zhilv = HuimaoPythonZhilv.__main__:main
