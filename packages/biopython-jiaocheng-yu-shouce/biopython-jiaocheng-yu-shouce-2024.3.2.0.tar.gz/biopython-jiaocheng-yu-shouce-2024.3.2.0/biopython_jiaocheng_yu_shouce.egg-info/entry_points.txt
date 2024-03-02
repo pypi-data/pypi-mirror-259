@@ -1,0 +1,4 @@
+[console_scripts]
+BiopythonJiaochengYuShouce = BiopythonJiaochengYuShouce.__main__:main
+biopython-jiaocheng-yu-shouce = BiopythonJiaochengYuShouce.__main__:main
+
