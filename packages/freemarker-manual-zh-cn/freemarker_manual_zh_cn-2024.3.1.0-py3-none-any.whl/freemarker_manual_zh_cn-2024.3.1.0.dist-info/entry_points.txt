@@ -1,0 +1,3 @@
+[console_scripts]
+FreemarkerManualZhCn = FreemarkerManualZhCn.__main__:main
+freemarker-manual-zh-cn = FreemarkerManualZhCn.__main__:main
