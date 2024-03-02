@@ -1,0 +1,4 @@
+[console_scripts]
+JavascriptJichujiaochengZhangChenbin = JavascriptJichujiaochengZhangChenbin.__main__:main
+javascript-jichujiaocheng-zhang-chenbin = JavascriptJichujiaochengZhangChenbin.__main__:main
+
