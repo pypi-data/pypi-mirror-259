@@ -1,0 +1,4 @@
+[console_scripts]
+SeabornTongjiHuituMokuaiZhongwenZhinan = SeabornTongjiHuituMokuaiZhongwenZhinan.__main__:main
+seaborn-tongji-huitu-mokuai-zhongwen-zhinan = SeabornTongjiHuituMokuaiZhongwenZhinan.__main__:main
+
