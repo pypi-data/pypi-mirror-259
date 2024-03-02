@@ -1,0 +1,3 @@
+[console_scripts]
+ShiyanlouCJiaochengHeji20160904Fix1 = ShiyanlouCJiaochengHeji20160904Fix1.__main__:main
+shiyanlou-c-jiaocheng-heji-20160904-fix1 = ShiyanlouCJiaochengHeji20160904Fix1.__main__:main
