@@ -1,0 +1,3 @@
+[console_scripts]
+RangKaifaZidonghuaXilieZhuanlan = RangKaifaZidonghuaXilieZhuanlan.__main__:main
+rang-kaifa-zidonghua-xilie-zhuanlan = RangKaifaZidonghuaXilieZhuanlan.__main__:main
