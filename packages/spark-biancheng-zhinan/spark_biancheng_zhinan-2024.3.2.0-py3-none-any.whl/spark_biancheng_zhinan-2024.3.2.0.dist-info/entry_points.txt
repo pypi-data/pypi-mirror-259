@@ -1,0 +1,3 @@
+[console_scripts]
+SparkBianchengZhinan = SparkBianchengZhinan.__main__:main
+spark-biancheng-zhinan = SparkBianchengZhinan.__main__:main
