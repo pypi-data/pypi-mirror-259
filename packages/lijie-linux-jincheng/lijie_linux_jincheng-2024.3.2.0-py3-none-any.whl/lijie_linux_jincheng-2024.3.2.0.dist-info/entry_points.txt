@@ -1,0 +1,3 @@
+[console_scripts]
+LijieLinuxJincheng = LijieLinuxJincheng.__main__:main
+lijie-linux-jincheng = LijieLinuxJincheng.__main__:main
