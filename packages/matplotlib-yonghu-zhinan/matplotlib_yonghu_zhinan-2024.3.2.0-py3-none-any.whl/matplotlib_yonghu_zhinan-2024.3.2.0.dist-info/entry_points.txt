@@ -1,0 +1,4 @@
+[console_scripts]
+MatplotlibYonghuZhinan = MatplotlibYonghuZhinan.__main__:main
+matplotlib-yonghu-zhinan = MatplotlibYonghuZhinan.__main__:main
+
