@@ -1,0 +1,3 @@
+[console_scripts]
+JiaoNiChengweiQuanzhanGongchengshiFullStackDeveloper = JiaoNiChengweiQuanzhanGongchengshiFullStackDeveloper.__main__:main
+jiao-ni-chengwei-quanzhan-gongchengshi-full-stack-developer = JiaoNiChengweiQuanzhanGongchengshiFullStackDeveloper.__main__:main
