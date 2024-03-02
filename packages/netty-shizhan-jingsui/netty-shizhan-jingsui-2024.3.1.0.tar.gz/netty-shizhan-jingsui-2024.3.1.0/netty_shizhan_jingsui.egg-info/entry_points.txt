@@ -1,0 +1,3 @@
+[console_scripts]
+NettyShizhanJingsui = NettyShizhanJingsui.__main__:main
+netty-shizhan-jingsui = NettyShizhanJingsui.__main__:main
