@@ -1,0 +1,3 @@
+[console_scripts]
+WiresharkManual = WiresharkManual.__main__:main
+wireshark-manual = WiresharkManual.__main__:main
