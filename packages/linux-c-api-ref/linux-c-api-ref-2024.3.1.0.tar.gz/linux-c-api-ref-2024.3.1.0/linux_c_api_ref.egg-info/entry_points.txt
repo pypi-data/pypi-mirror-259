@@ -1,0 +1,3 @@
+[console_scripts]
+LinuxCApiRef = LinuxCApiRef.__main__:main
+linux-c-api-ref = LinuxCApiRef.__main__:main
