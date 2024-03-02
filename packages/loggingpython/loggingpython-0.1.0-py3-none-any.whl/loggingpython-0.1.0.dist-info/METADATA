@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: loggingpython
+Version: 0.1.0
+Summary: loggingpython is a Python package that provides a simple and extensible way to integrate logging into your applications. The package starts with a simple logger and can be extended with additional functions to meet the requirements of your application.
+Home-page: https://github.com/mr-major-k-programmer/logpy
+Author: mrmajor.programmer
+Author-email: mrmajork.programmer@gmail.de
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# logpy
+ Logpy is a Python package that provides a simple and extensible way to integrate logging into your applications. The package starts with a simple logger and can be extended with additional functions to meet the requirements of your application.
