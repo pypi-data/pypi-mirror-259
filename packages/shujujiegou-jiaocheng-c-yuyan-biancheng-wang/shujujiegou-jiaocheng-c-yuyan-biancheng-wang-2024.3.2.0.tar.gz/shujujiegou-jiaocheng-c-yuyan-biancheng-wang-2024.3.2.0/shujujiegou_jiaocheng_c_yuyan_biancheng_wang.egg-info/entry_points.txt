@@ -1,0 +1,4 @@
+[console_scripts]
+ShujujiegouJiaochengCYuyanBianchengWang = ShujujiegouJiaochengCYuyanBianchengWang.__main__:main
+shujujiegou-jiaocheng-c-yuyan-biancheng-wang = ShujujiegouJiaochengCYuyanBianchengWang.__main__:main
+
