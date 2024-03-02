@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "social-auth-gsis"
+version = "0.3.1"
+description = "Social Auth backend for GSIS"
+authors = ["Paris Kasidiaris <paris@withlogic.co>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+django = ">=3.2.0"
+social-auth-core = "^4.0.2"
+social-auth-app-django = "^4.0.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.2.0"
+
