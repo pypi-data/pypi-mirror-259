@@ -1,0 +1,3 @@
+[console_scripts]
+ShiyanlouPythonJiaochengHeji20160905Fix1 = ShiyanlouPythonJiaochengHeji20160905Fix1.__main__:main
+shiyanlou-python-jiaocheng-heji-20160905-fix1 = ShiyanlouPythonJiaochengHeji20160905Fix1.__main__:main
