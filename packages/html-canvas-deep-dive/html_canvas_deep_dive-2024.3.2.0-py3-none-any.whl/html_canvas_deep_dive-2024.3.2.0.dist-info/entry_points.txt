@@ -1,0 +1,3 @@
+[console_scripts]
+HtmlCanvasDeepDive = HtmlCanvasDeepDive.__main__:main
+html-canvas-deep-dive = HtmlCanvasDeepDive.__main__:main
