@@ -1,0 +1,4 @@
+[console_scripts]
+SoftwareConstructionLectureNotesMit6005 = SoftwareConstructionLectureNotesMit6005.__main__:main
+software-construction-lecture-notes-mit-6-005 = SoftwareConstructionLectureNotesMit6005.__main__:main
+
