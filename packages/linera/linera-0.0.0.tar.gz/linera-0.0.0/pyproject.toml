@@ -1,0 +1,22 @@
+[project]
+name = "linera"
+version = "0.0.0"
+description = "Linera SDK in Python"
+authors = [
+    { name = "yallxe" },
+]
+dependencies = []
+requires-python = ">=3.8"
+readme = "README.md"
+
+[project.license]
+text = "MIT"
+
+[build-system]
+requires = [
+    "pdm-backend",
+]
+build-backend = "pdm.backend"
+
+[tool.pdm]
+distribution = true
