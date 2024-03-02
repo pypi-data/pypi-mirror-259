@@ -1,0 +1,3 @@
+[console_scripts]
+VisualStudioCodeGuide = VisualStudioCodeGuide.__main__:main
+visual-studio-code-guide = VisualStudioCodeGuide.__main__:main
