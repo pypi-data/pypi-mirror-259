@@ -1,0 +1,3 @@
+[console_scripts]
+ReactNativeRumenZhinan = ReactNativeRumenZhinan.__main__:main
+react-native-rumen-zhinan = ReactNativeRumenZhinan.__main__:main
