@@ -1,0 +1,3 @@
+[console_scripts]
+IntellijIdeaShiyongJiaochengV10 = IntellijIdeaShiyongJiaochengV10.__main__:main
+intellij-idea-shiyong-jiaocheng-v1-0 = IntellijIdeaShiyongJiaochengV10.__main__:main
