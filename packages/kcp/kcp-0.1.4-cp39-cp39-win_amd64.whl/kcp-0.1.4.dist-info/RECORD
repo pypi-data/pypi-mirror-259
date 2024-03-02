@@ -1,0 +1,14 @@
+kcp/__init__.py,sha256=LGg2IypHNTfU1roQbB0QfT02QMEbeYNodXvNOOctkXk,411
+kcp/client.py,sha256=7J6rdatS2aw7jXrYrBkH7kJ0Y5r6_T0Qa3D2t1HukBY,4473
+kcp/exceptions.py,sha256=DvegBqMyQT5yJ5eM1CJdDcmtPnB0CT0da9fAVY3mB7M,310
+kcp/extension.cp39-win_amd64.pyd,sha256=KRgm8h_iyucWwKj77d9SCF8zE_wSUhDnkzC7nNjclUg,84480
+kcp/extension.pyi,sha256=mCeSFBOQzsJteAdJPr49VsABhMdrefMLMbG0KGbh64o,4666
+kcp/extension.pyx,sha256=vis4cVEDFxmYako8go8JVtPOTZ6tx_9TEHSPPWvzkFg,9932
+kcp/ikcp.c,sha256=1utYIV-gWSvrhy-FGtwamaiHfNvmIyhMQ9saDlN14Wc,32985
+kcp/ikcp.h,sha256=I0eMReRkuxyLcB5xWWqJk-KPRMPrVHQ3BUi5xLi21Zg,12436
+kcp/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kcp/server.py,sha256=C21hUYJp074he4B2AjWbDUa5pM20iXKvY1ArSj8vmE4,10282
+kcp-0.1.4.dist-info/LICENSE,sha256=Q87lR3hJZffgX186K1JVe78u-BwuJQzr-lTum8k2zaQ,1091
+kcp-0.1.4.dist-info/METADATA,sha256=PRfcQY-whAq_zllIVthgOgzfamugbDQ6Z5gADi2ZE6I,3059
+kcp-0.1.4.dist-info/WHEEL,sha256=1IyMrlk0wO7UertYm7pyjf3m1sV0KDb8wW6mQlBtUog,96
+kcp-0.1.4.dist-info/RECORD,,
