@@ -1,0 +1,4 @@
+[console_scripts]
+GuanyuCBianchengDe42TiaoJianyi = GuanyuCBianchengDe42TiaoJianyi.__main__:main
+guanyu-c-biancheng-de-42-tiao-jianyi = GuanyuCBianchengDe42TiaoJianyi.__main__:main
+
