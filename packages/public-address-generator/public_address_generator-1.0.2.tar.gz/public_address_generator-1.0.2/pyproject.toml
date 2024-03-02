@@ -1,0 +1,7 @@
+dependencies = [
+    "pycryptodome",
+    "erc20_scanner",
+    "blocksmith",
+    "eth-account",
+    "hdwallet",
+]
