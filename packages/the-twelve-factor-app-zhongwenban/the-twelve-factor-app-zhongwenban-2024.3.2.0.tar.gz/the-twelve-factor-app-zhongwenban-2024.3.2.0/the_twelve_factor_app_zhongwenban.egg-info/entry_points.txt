@@ -1,0 +1,3 @@
+[console_scripts]
+TheTwelveFactorAppZhongwenban = TheTwelveFactorAppZhongwenban.__main__:main
+the-twelve-factor-app-zhongwenban = TheTwelveFactorAppZhongwenban.__main__:main
