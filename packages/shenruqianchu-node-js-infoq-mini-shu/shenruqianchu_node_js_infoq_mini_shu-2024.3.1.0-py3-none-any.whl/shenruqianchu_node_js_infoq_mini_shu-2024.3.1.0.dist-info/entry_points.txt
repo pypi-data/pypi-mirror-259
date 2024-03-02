@@ -1,0 +1,3 @@
+[console_scripts]
+ShenruqianchuNodeJsInfoqMiniShu = ShenruqianchuNodeJsInfoqMiniShu.__main__:main
+shenruqianchu-node-js-infoq-mini-shu = ShenruqianchuNodeJsInfoqMiniShu.__main__:main
