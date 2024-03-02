@@ -1,0 +1,3 @@
+[console_scripts]
+TwistedYuYibuBianchengRumen = TwistedYuYibuBianchengRumen.__main__:main
+twisted-yu-yibu-biancheng-rumen = TwistedYuYibuBianchengRumen.__main__:main
