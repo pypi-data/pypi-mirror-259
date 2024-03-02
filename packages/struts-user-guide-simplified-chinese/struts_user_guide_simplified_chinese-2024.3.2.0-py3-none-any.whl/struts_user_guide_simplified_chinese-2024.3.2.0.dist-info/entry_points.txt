@@ -1,0 +1,3 @@
+[console_scripts]
+StrutsUserGuideSimplifiedChinese = StrutsUserGuideSimplifiedChinese.__main__:main
+struts-user-guide-simplified-chinese = StrutsUserGuideSimplifiedChinese.__main__:main
