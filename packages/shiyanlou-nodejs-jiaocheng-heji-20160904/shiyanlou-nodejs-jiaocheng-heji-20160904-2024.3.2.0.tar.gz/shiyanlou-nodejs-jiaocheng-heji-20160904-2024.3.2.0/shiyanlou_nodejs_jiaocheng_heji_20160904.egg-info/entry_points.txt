@@ -1,0 +1,3 @@
+[console_scripts]
+ShiyanlouNodejsJiaochengHeji20160904 = ShiyanlouNodejsJiaochengHeji20160904.__main__:main
+shiyanlou-nodejs-jiaocheng-heji-20160904 = ShiyanlouNodejsJiaochengHeji20160904.__main__:main
