@@ -1,0 +1,3 @@
+[console_scripts]
+UikitZhongwenWendang = UikitZhongwenWendang.__main__:main
+uikit-zhongwen-wendang = UikitZhongwenWendang.__main__:main
