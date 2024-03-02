@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: salgorithm
+Version: 0.0.5
+Summary: 让算法变得简单一点
+Home-page: https://github.com/SoulCodingYanhun/salgorithm
+Author: SoulCodingYanhun
+Author-email: souls2906@gmail.com
+Maintainer: SoulCodingYanhun
+Maintainer-email: souls2906@gmail.com
+License: Apache License
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+License-File: LICENSE
+
+# salgorithm
+
