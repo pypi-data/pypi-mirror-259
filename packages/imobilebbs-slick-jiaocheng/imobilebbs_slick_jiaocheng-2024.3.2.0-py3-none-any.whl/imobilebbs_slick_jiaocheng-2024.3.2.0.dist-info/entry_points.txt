@@ -1,0 +1,4 @@
+[console_scripts]
+ImobilebbsSlickJiaocheng = ImobilebbsSlickJiaocheng.__main__:main
+imobilebbs-slick-jiaocheng = ImobilebbsSlickJiaocheng.__main__:main
+
