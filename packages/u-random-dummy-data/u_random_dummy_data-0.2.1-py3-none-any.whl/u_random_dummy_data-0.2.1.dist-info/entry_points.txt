@@ -1,0 +1,4 @@
+[console_scripts]
+u_random = u_random_dummy_data.__main__:main
+u_random_dummy_data = u_random_dummy_data.__main__:main
+urdd = u_random_dummy_data.__main__:main
