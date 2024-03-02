@@ -1,0 +1,4 @@
+[console_scripts]
+ChromeKaifagongjuZhinan = ChromeKaifagongjuZhinan.__main__:main
+chrome-kaifagongju-zhinan = ChromeKaifagongjuZhinan.__main__:main
+
