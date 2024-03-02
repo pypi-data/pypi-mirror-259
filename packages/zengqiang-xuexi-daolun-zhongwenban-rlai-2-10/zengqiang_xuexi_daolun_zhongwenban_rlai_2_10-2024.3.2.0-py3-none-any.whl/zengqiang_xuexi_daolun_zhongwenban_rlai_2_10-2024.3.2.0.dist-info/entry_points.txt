@@ -1,0 +1,4 @@
+[console_scripts]
+ZengqiangXuexiDaolunZhongwenbanRlai210 = ZengqiangXuexiDaolunZhongwenbanRlai210.__main__:main
+zengqiang-xuexi-daolun-zhongwenban-rlai-2-10 = ZengqiangXuexiDaolunZhongwenbanRlai210.__main__:main
+
