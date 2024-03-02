@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: aps-toolkit
+Version: 0.0.3
+Summary: A Toolkit Autodesk Platform Services for Python
+Home-page: https://github.com/chuongmep/aps-toolkit
+Author: chuong mep
+Author-email: chuongpqvn@gmail.com
+Project-URL: Bug Tracker, https://github.com/chuongmep/aps-toolkit/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+APSToolkit 
+
+
+## How to install the project
+
+```bash
+pip install aps-toolkit
+```
+
+## Get Started
+
+```python
+from aps_toolkit_python import Auth
+auth = Auth()
+token = auth.auth2leg()
+```
+
+## Tutorial
+
+Please refer to the github [tutorial](https://github.com/chuongmep/aps-toolkit)
+
+## How to build the project
+
+Install package : pip install wheel
+
+```bash
+python setup.py bdist_wheel
+python setup.py sdist
+python setup.py bdist_wheel sdist
+```
+
+## Publish the project
+
+```bash
+python -m twine check dist/*
+python -m twine upload dist/*
+```
