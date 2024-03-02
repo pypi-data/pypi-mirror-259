@@ -1,0 +1,3 @@
+[console_scripts]
+LinuxCYizhanshiXuexi = LinuxCYizhanshiXuexi.__main__:main
+linux-c-yizhanshi-xuexi = LinuxCYizhanshiXuexi.__main__:main
