@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pyrosim
+Version: 0.0.4
+Summary: A Python simulator for generating vehicle routing (VRP), capacitated vehicle routing (CVRP) and and drone routing problems (DRP) data.
+Home-page: https://github.com/benmhamed-a/pyrosim
+Author: Abdelouahed Ben Mhamed
+Author-email: a.benmhamed@intelligentica.net
+License: UNKNOWN
+Description: # pyrosim
+        
+        description
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
