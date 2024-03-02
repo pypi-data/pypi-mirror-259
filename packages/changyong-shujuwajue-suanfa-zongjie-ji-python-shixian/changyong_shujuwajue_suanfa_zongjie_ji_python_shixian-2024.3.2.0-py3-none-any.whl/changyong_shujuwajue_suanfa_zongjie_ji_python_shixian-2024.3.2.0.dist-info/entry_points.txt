@@ -1,0 +1,4 @@
+[console_scripts]
+ChangyongShujuwajueSuanfaZongjieJiPythonShixian = ChangyongShujuwajueSuanfaZongjieJiPythonShixian.__main__:main
+changyong-shujuwajue-suanfa-zongjie-ji-python-shixian = ChangyongShujuwajueSuanfaZongjieJiPythonShixian.__main__:main
+
