@@ -1,0 +1,3 @@
+[console_scripts]
+Repractise = Repractise.__main__:main
+repractise = Repractise.__main__:main
