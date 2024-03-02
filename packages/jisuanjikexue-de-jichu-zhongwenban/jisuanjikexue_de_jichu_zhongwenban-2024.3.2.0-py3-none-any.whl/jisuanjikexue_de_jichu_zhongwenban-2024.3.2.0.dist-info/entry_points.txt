@@ -1,0 +1,3 @@
+[console_scripts]
+JisuanjikexueDeJichuZhongwenban = JisuanjikexueDeJichuZhongwenban.__main__:main
+jisuanjikexue-de-jichu-zhongwenban = JisuanjikexueDeJichuZhongwenban.__main__:main
