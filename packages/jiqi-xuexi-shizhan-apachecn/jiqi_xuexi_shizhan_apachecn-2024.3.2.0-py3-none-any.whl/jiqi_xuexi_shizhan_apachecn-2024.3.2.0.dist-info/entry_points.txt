@@ -1,0 +1,4 @@
+[console_scripts]
+JiqiXuexiShizhanApachecn = JiqiXuexiShizhanApachecn.__main__:main
+jiqi-xuexi-shizhan-apachecn = JiqiXuexiShizhanApachecn.__main__:main
+
