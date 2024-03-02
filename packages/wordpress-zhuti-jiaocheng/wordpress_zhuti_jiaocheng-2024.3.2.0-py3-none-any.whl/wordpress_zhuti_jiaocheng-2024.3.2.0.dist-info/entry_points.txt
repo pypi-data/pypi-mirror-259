@@ -1,0 +1,4 @@
+[console_scripts]
+WordpressZhutiJiaocheng = WordpressZhutiJiaocheng.__main__:main
+wordpress-zhuti-jiaocheng = WordpressZhutiJiaocheng.__main__:main
+
