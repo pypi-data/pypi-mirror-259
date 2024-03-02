@@ -1,0 +1,3 @@
+[console_scripts]
+Linux101HacksZhongwenban = Linux101HacksZhongwenban.__main__:main
+linux-101-hacks-zhongwenban = Linux101HacksZhongwenban.__main__:main
