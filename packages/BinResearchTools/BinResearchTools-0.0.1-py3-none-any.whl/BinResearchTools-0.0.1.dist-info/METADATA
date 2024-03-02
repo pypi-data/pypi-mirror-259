@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: BinResearchTools
+Version: 0.0.1
+Summary: This project is a set of tools for binary software component analysis. It is designed to help researchers and developers to analyze the binary software components, such as libraries, executables, and firmware. The tools are written in Python.
+Author-email: Liu Chengyue <liuchengyuechina@gmail.com>
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8.6
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: loguru >=0.7.2
+
+# BinTool
+
+## Author
+I am a Ph.D. of Nanyang Technological University, Singapore, researching in the field of Binary Software Component Analysis(SCA).
+
+## Introduction
+This project is a set of tools for binary software component analysis. It is designed to help researchers and developers to analyze the binary software components, such as libraries, executables, and firmware. The tools are written in Python.
+
+I hope this project could help you to analyze binaries easily and efficiently. If you have any questions or suggestions, please feel free to contact me.
+
+## Features
+    on the way...
