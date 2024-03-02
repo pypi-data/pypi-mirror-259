@@ -1,0 +1,12 @@
+README.md
+setup.py
+PhpDebugManualPublic/README.md
+PhpDebugManualPublic/__init__.py
+PhpDebugManualPublic/__main__.py
+PhpDebugManualPublic/file.pdf
+PhpDebugManualPublic/index.html
+php_debug_manual_public.egg-info/PKG-INFO
+php_debug_manual_public.egg-info/SOURCES.txt
+php_debug_manual_public.egg-info/dependency_links.txt
+php_debug_manual_public.egg-info/entry_points.txt
+php_debug_manual_public.egg-info/top_level.txt

@@ -1,0 +1,3 @@
+[console_scripts]
+PhpDebugManualPublic = PhpDebugManualPublic.__main__:main
+php-debug-manual-public = PhpDebugManualPublic.__main__:main
