@@ -1,0 +1,4 @@
+[console_scripts]
+CBianchengyuyanYuMianxiangduixiangJichuJingjianJiaochengJinxuliang = CBianchengyuyanYuMianxiangduixiangJichuJingjianJiaochengJinxuliang.__main__:main
+c-bianchengyuyan-yu-mianxiangduixiang-jichu-jingjian-jiaocheng-jinxuliang = CBianchengyuyanYuMianxiangduixiangJichuJingjianJiaochengJinxuliang.__main__:main
+
