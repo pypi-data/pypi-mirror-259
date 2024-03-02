@@ -1,0 +1,11 @@
+morast/__init__.py,sha256=FpteCqvRBGPr3C2Odu1pmSGLn4y53YrvRCXnh5G8ov8,610
+morast/__main__.py,sha256=kdpv0S9pvl02YZhY8xkXyuNoRN9okX9wYla_y4LZCx4,933
+morast/commandline.py,sha256=T9c7FNcPmwhV0yRYpW-TBwr7dCdyAIjGG57lPMR_Cxo,4060
+morast/core.py,sha256=gy_Zu2i4gRYE3Kj1TTgHgqS_hsm--zugrr4sTodkF_Y,22020
+morast/nodes.py,sha256=A8y4VP9cieRzIk49WdC1Yr3-CNWRZX2nSgjPTqIWO-s,27351
+morast/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+morast-0.2.1.dist-info/LICENSE,sha256=LaZU96gqeh5MfXqjTs-AL_uWhoaQS8RaLexLx9pfJKc,1075
+morast-0.2.1.dist-info/METADATA,sha256=5e2d0iFt_XFaXeGr5CfkwbFthnFj5xoXy5azMKwPQO0,2990
+morast-0.2.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+morast-0.2.1.dist-info/top_level.txt,sha256=mIcCCeEhc-_SIkGgcYmdZpvomO_UQuW5qzQhemIUadI,7
+morast-0.2.1.dist-info/RECORD,,
