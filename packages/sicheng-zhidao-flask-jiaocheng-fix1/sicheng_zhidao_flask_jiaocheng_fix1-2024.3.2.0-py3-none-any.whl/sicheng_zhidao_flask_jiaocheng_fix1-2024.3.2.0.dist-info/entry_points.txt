@@ -1,0 +1,3 @@
+[console_scripts]
+SichengZhidaoFlaskJiaochengFix1 = SichengZhidaoFlaskJiaochengFix1.__main__:main
+sicheng-zhidao-flask-jiaocheng-fix1 = SichengZhidaoFlaskJiaochengFix1.__main__:main
