@@ -1,0 +1,4 @@
+[console_scripts]
+ShishangZuiqiangDeWordpressChujiZhongjiGaojiJiaocheng = ShishangZuiqiangDeWordpressChujiZhongjiGaojiJiaocheng.__main__:main
+shishang-zuiqiang-de-wordpress-chuji-zhongji-gaoji-jiaocheng = ShishangZuiqiangDeWordpressChujiZhongjiGaojiJiaocheng.__main__:main
+
