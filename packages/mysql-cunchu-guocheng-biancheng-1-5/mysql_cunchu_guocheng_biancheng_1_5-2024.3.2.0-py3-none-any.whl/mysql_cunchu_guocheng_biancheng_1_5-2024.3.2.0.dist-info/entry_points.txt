@@ -1,0 +1,4 @@
+[console_scripts]
+MysqlCunchuGuochengBiancheng15 = MysqlCunchuGuochengBiancheng15.__main__:main
+mysql-cunchu-guocheng-biancheng-1-5 = MysqlCunchuGuochengBiancheng15.__main__:main
+
