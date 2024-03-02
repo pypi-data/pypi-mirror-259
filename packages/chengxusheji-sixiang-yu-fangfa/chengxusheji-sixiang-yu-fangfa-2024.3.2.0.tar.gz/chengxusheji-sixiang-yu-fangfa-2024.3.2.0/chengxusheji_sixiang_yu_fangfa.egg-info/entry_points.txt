@@ -1,0 +1,3 @@
+[console_scripts]
+ChengxushejiSixiangYuFangfa = ChengxushejiSixiangYuFangfa.__main__:main
+chengxusheji-sixiang-yu-fangfa = ChengxushejiSixiangYuFangfa.__main__:main
