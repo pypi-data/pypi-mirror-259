@@ -1,0 +1,4 @@
+[console_scripts]
+ProgrammingAndProgrammingLanguagesBrownUniv = ProgrammingAndProgrammingLanguagesBrownUniv.__main__:main
+programming-and-programming-languages-brown-univ = ProgrammingAndProgrammingLanguagesBrownUniv.__main__:main
+
