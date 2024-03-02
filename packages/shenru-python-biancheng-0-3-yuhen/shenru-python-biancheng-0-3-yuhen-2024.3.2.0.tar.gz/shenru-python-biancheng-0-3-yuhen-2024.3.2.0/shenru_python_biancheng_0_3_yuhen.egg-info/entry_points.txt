@@ -1,0 +1,4 @@
+[console_scripts]
+ShenruPythonBiancheng03Yuhen = ShenruPythonBiancheng03Yuhen.__main__:main
+shenru-python-biancheng-0-3-yuhen = ShenruPythonBiancheng03Yuhen.__main__:main
+
