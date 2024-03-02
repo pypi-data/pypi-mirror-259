@@ -1,0 +1,12 @@
+README.md
+setup.py
+CoffeescriptXiaoShu/README.md
+CoffeescriptXiaoShu/__init__.py
+CoffeescriptXiaoShu/__main__.py
+CoffeescriptXiaoShu/file.pdf
+CoffeescriptXiaoShu/index.html
+coffeescript_xiao_shu.egg-info/PKG-INFO
+coffeescript_xiao_shu.egg-info/SOURCES.txt
+coffeescript_xiao_shu.egg-info/dependency_links.txt
+coffeescript_xiao_shu.egg-info/entry_points.txt
+coffeescript_xiao_shu.egg-info/top_level.txt

@@ -1,0 +1,3 @@
+[console_scripts]
+CoffeescriptXiaoShu = CoffeescriptXiaoShu.__main__:main
+coffeescript-xiao-shu = CoffeescriptXiaoShu.__main__:main
