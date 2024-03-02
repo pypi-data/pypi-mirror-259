@@ -1,0 +1,4 @@
+[console_scripts]
+MysqlJiaochengCYuyanZhongwenwang = MysqlJiaochengCYuyanZhongwenwang.__main__:main
+mysql-jiaocheng-c-yuyan-zhongwenwang = MysqlJiaochengCYuyanZhongwenwang.__main__:main
+
