@@ -1,0 +1,4 @@
+[console_scripts]
+AlibabaJavaKaifaShouceZhengshiban = AlibabaJavaKaifaShouceZhengshiban.__main__:main
+alibaba-java-kaifa-shouce-zhengshiban = AlibabaJavaKaifaShouceZhengshiban.__main__:main
+
