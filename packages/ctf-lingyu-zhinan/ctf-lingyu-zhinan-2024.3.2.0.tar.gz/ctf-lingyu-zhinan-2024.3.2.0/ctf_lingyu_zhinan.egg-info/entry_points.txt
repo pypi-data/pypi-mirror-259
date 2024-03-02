@@ -1,0 +1,3 @@
+[console_scripts]
+CtfLingyuZhinan = CtfLingyuZhinan.__main__:main
+ctf-lingyu-zhinan = CtfLingyuZhinan.__main__:main
