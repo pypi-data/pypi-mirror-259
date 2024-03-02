@@ -1,0 +1,4 @@
+[console_scripts]
+ScipyAndNumpyZhongwenJingyao = ScipyAndNumpyZhongwenJingyao.__main__:main
+scipy-and-numpy-zhongwen-jingyao = ScipyAndNumpyZhongwenJingyao.__main__:main
+

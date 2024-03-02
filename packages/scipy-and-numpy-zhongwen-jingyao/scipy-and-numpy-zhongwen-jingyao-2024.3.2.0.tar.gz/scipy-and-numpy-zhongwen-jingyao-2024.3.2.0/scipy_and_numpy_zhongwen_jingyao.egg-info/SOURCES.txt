@@ -1,0 +1,12 @@
+README.md
+setup.py
+ScipyAndNumpyZhongwenJingyao/README.md
+ScipyAndNumpyZhongwenJingyao/__init__.py
+ScipyAndNumpyZhongwenJingyao/__main__.py
+ScipyAndNumpyZhongwenJingyao/file.pdf
+ScipyAndNumpyZhongwenJingyao/index.html
+scipy_and_numpy_zhongwen_jingyao.egg-info/PKG-INFO
+scipy_and_numpy_zhongwen_jingyao.egg-info/SOURCES.txt
+scipy_and_numpy_zhongwen_jingyao.egg-info/dependency_links.txt
+scipy_and_numpy_zhongwen_jingyao.egg-info/entry_points.txt
+scipy_and_numpy_zhongwen_jingyao.egg-info/top_level.txt
