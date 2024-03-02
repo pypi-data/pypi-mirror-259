@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+chileanrutify/__init__.py
+chileanrutify/rutfunctions.py
+chileanrutify.egg-info/PKG-INFO
+chileanrutify.egg-info/SOURCES.txt
+chileanrutify.egg-info/dependency_links.txt
+chileanrutify.egg-info/top_level.txt
+tests/test_chileanrutify.py
