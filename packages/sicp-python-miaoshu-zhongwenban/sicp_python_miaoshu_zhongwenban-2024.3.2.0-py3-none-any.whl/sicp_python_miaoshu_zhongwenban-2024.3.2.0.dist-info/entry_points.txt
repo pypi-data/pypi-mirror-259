@@ -1,0 +1,3 @@
+[console_scripts]
+SicpPythonMiaoshuZhongwenban = SicpPythonMiaoshuZhongwenban.__main__:main
+sicp-python-miaoshu-zhongwenban = SicpPythonMiaoshuZhongwenban.__main__:main
