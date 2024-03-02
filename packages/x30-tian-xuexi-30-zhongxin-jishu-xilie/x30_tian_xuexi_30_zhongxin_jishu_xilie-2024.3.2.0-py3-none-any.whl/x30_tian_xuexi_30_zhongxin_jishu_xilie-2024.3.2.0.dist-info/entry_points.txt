@@ -1,0 +1,4 @@
+[console_scripts]
+X30TianXuexi30ZhongxinJishuXilie = X30TianXuexi30ZhongxinJishuXilie.__main__:main
+x30-tian-xuexi-30-zhongxin-jishu-xilie = X30TianXuexi30ZhongxinJishuXilie.__main__:main
+
