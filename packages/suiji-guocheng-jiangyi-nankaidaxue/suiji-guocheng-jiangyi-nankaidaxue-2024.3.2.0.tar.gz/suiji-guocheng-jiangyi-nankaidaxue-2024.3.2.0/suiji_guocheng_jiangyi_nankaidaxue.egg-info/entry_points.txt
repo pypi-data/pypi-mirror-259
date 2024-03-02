@@ -1,0 +1,4 @@
+[console_scripts]
+SuijiGuochengJiangyiNankaidaxue = SuijiGuochengJiangyiNankaidaxue.__main__:main
+suiji-guocheng-jiangyi-nankaidaxue = SuijiGuochengJiangyiNankaidaxue.__main__:main
+
