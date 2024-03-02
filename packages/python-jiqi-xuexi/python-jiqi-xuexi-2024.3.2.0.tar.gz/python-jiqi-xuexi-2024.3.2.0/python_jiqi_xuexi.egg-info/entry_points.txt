@@ -1,0 +1,4 @@
+[console_scripts]
+PythonJiqiXuexi = PythonJiqiXuexi.__main__:main
+python-jiqi-xuexi = PythonJiqiXuexi.__main__:main
+
