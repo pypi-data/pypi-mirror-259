@@ -1,0 +1,3 @@
+[console_scripts]
+JavascriptHexinGainianJiShijian = JavascriptHexinGainianJiShijian.__main__:main
+javascript-hexin-gainian-ji-shijian = JavascriptHexinGainianJiShijian.__main__:main
