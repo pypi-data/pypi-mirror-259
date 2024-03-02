@@ -1,0 +1,13 @@
+diceutils-0.2.12.dist-info/METADATA,sha256=Ocd0EeVNSOyBN_C5gLzINB7tfHt9uixb8kJUi_HqUTI,1130
+diceutils-0.2.12.dist-info/WHEEL,sha256=N2J68yzZqJh3mI_Wg92rwhw0rtJDFpZj9bwQIMJgaVg,90
+diceutils-0.2.12.dist-info/licenses/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+diceutils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+diceutils/cards.py,sha256=EIKHFFxxdPdb5iDZFscC99huqPFbiXVcvYjqjtCO1T0,12256
+diceutils/charactors.py,sha256=f29zNNtI50Tlcvho02uaFRpNyPJnl3CMbo7UKc5LLys,7285
+diceutils/dicer.py,sha256=kIe7QyE62dd0meowQI5d6dpB1vM-M0jAAjChE5ey12U,10440
+diceutils/exceptions.py,sha256=HJS8ezuPIZkg6sMrQf-4vuA4a9LJsiv-J5r6zBS3p54,673
+diceutils/logging.py,sha256=fmUsUu8uGyK3yHinan0bvErw3IXRL8_4P_HkDs38T6c,6519
+diceutils/parser.py,sha256=oVcBxcJ62Mm8m-MXW9UF6X2mtqKXymjjzFzhF0jx02w,7471
+diceutils/status.py,sha256=h_23an-fD-vE-cn8z9b1ccIY62idaUF9B6HbPqTtaLc,4312
+diceutils/utils.py,sha256=KOrldGFcZlSJ6aD7DMVeY8ZgM40gKXgjkHS5Igc-Ya4,2174
+diceutils-0.2.12.dist-info/RECORD,,
