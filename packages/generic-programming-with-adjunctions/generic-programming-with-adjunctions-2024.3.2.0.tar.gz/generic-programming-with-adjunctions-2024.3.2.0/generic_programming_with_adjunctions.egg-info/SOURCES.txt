@@ -1,0 +1,12 @@
+README.md
+setup.py
+GenericProgrammingWithAdjunctions/README.md
+GenericProgrammingWithAdjunctions/__init__.py
+GenericProgrammingWithAdjunctions/__main__.py
+GenericProgrammingWithAdjunctions/file.pdf
+GenericProgrammingWithAdjunctions/index.html
+generic_programming_with_adjunctions.egg-info/PKG-INFO
+generic_programming_with_adjunctions.egg-info/SOURCES.txt
+generic_programming_with_adjunctions.egg-info/dependency_links.txt
+generic_programming_with_adjunctions.egg-info/entry_points.txt
+generic_programming_with_adjunctions.egg-info/top_level.txt

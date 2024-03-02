@@ -1,0 +1,4 @@
+[console_scripts]
+GenericProgrammingWithAdjunctions = GenericProgrammingWithAdjunctions.__main__:main
+generic-programming-with-adjunctions = GenericProgrammingWithAdjunctions.__main__:main
+
