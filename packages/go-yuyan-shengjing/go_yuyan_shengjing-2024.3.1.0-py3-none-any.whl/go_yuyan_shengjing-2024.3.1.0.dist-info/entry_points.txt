@@ -1,0 +1,3 @@
+[console_scripts]
+GoYuyanShengjing = GoYuyanShengjing.__main__:main
+go-yuyan-shengjing = GoYuyanShengjing.__main__:main
