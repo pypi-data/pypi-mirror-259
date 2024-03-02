@@ -1,0 +1,22 @@
+0.1.3 - 2024-03-01
+------------------
+
+- Reorganize back to flat-layout, it is really not a module (no
+  __init__.py anywhere).
+
+0.1.2 - 2024-03-01
+------------------
+
+- Fix the URL of the home page, now when the package became
+  relevant.
+
+0.1.1 - 2023-04-14
+------------------
+
+- Add metadata for home page and bug reporting.
+
+0.1.0 - 2023-04-13
+------------------
+
+- Initial repackaging of the module from the standard library of
+  3.10.10.

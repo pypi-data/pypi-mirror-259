@@ -1,0 +1,39 @@
+[project]
+name = "nntplib"
+version = "0.1.3"
+description = "NNTP module from the standard library"
+keywords = ["nntp"]
+authors = [
+    { name = "Matěj Cepl", email = "mcepl@cepl.eu" }
+]
+dependencies = [
+    'importlib-metadata; python_version<"3.8"',
+]
+readme = "README.md"
+license = {text = "BSD-3-Clause"}
+classifiers = [
+    "Framework :: Django",
+    "License :: OSI Approved :: Python Software Foundation License",
+    "Topic :: Internet",
+    "Topic :: Communications :: Usenet News",
+    "Topic :: Software Development :: Libraries",
+    "Programming Language :: Python :: 3",
+    "Development Status :: 3 - Alpha",
+]
+
+# [tool.setuptools.packages.find]
+# where = ["src"]
+# # include = ["nntplib*"]  # package names should match these glob patterns (["*"] by default)
+# # exclude = ["my_package.tests*"]  # exclude packages matching these glob patterns (empty by default)
+# namespaces = false
+
+[project.urls]
+"Homepage" = "https://git.cepl.eu/cgit/python/nntplib/"
+"Bug Tracker" = "https://lists.sr.ht/~mcepl/devel"
+
+# [project.scripts]
+# my-script = "my_package.module:function"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
