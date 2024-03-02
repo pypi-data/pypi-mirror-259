@@ -1,0 +1,3 @@
+[console_scripts]
+YiqiXueNodeJs = YiqiXueNodeJs.__main__:main
+yiqi-xue-node-js = YiqiXueNodeJs.__main__:main
