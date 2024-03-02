@@ -1,0 +1,27 @@
+# fltk-manual
+
+## 下载
+
+### Docker
+
+```
+docker pull apachecn0/fltk-manual
+docker run -tid -p <port>:80 apachecn0/fltk-manual
+# 访问 http://localhost:{port} 查看文档
+```
+
+### PYPI
+
+```
+pip install fltk-manual
+fltk-manual <port>
+# 访问 http://localhost:{port} 查看文档
+```
+
+### NPM
+
+```
+npm install -g fltk-manual
+fltk-manual <port>
+# 访问 http://localhost:{port} 查看文档
+```
