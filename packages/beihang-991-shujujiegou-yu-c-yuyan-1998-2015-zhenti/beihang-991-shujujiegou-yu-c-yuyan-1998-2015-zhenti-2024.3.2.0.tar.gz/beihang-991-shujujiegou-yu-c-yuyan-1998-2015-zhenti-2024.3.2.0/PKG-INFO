@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: beihang-991-shujujiegou-yu-c-yuyan-1998-2015-zhenti
+Version: 2024.3.2.0
+Summary: 北航 991 数据结构与C语言 1998~2015 真题
+Home-page: https://github.com/apachecn/beihang-991-shujujiegou-yu-c-yuyan-1998-2015-zhenti
+Author: ApacheCN
+Author-email: apachecn@163.com
+License: UNKNOWN
+Description: # 北航 991 数据结构与C语言 1998~2015 真题
+        
+        ## 下载
+        
+        ### Docker
+        
+        ```
+        docker pull apachecn0/beihang-991-shujujiegou-yu-c-yuyan-1998-2015-zhenti
+        docker run -tid -p <port>:80 apachecn0/beihang-991-shujujiegou-yu-c-yuyan-1998-2015-zhenti
+        # 访问 http://localhost:{port} 查看文档
+        ```
+        
+        ### PYPI
+        
+        ```
+        pip install beihang-991-shujujiegou-yu-c-yuyan-1998-2015-zhenti
+        beihang-991-shujujiegou-yu-c-yuyan-1998-2015-zhenti <port>
+        # 访问 http://localhost:{port} 查看文档
+        ```
+        
+        ### NPM
+        
+        ```
+        npm install -g beihang-jiujiuyi-shujujiegou-yu-c-yuyan-yijiujiuba-erlingyiwu-zhenti
+        beihang-jiujiuyi-shujujiegou-yu-c-yuyan-yijiujiuba-erlingyiwu-zhenti <port>
+        # 访问 http://localhost:{port} 查看文档
+        ```
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: Other/Proprietary License
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Text Processing :: Markup :: Markdown
+Classifier: Topic :: Text Processing :: Markup :: HTML
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development :: Documentation
+Classifier: Topic :: Documentation
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

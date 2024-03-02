@@ -1,0 +1,4 @@
+[console_scripts]
+Beihang991ShujujiegouYuCYuyan19982015Zhenti = Beihang991ShujujiegouYuCYuyan19982015Zhenti.__main__:main
+beihang-991-shujujiegou-yu-c-yuyan-1998-2015-zhenti = Beihang991ShujujiegouYuCYuyan19982015Zhenti.__main__:main
+
