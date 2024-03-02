@@ -1,0 +1,4 @@
+[console_scripts]
+SystemSecurityLectureNotesStonybrookCse509 = SystemSecurityLectureNotesStonybrookCse509.__main__:main
+system-security-lecture-notes-stonybrook-cse509 = SystemSecurityLectureNotesStonybrookCse509.__main__:main
+
