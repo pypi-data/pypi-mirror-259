@@ -1,0 +1,4 @@
+[console_scripts]
+MqttXieyiZhongwenban = MqttXieyiZhongwenban.__main__:main
+mqtt-xieyi-zhongwenban = MqttXieyiZhongwenban.__main__:main
+
