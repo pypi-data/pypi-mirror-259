@@ -1,0 +1,3 @@
+[console_scripts]
+FabricZhongwenWendang = FabricZhongwenWendang.__main__:main
+fabric-zhongwen-wendang = FabricZhongwenWendang.__main__:main
