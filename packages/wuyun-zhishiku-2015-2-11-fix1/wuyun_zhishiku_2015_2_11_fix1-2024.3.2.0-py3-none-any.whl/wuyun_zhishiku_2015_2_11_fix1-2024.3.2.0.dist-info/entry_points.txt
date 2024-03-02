@@ -1,0 +1,3 @@
+[console_scripts]
+WuyunZhishiku2015211Fix1 = WuyunZhishiku2015211Fix1.__main__:main
+wuyun-zhishiku-2015-2-11-fix1 = WuyunZhishiku2015211Fix1.__main__:main
