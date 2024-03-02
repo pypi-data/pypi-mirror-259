@@ -1,0 +1,3 @@
+[console_scripts]
+FlaskZhilv = FlaskZhilv.__main__:main
+flask-zhilv = FlaskZhilv.__main__:main
