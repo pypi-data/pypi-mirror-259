@@ -1,0 +1,3 @@
+[console_scripts]
+RxjavaWendangZhongwenbanFix1 = RxjavaWendangZhongwenbanFix1.__main__:main
+rxjava-wendang-zhongwenban-fix1 = RxjavaWendangZhongwenbanFix1.__main__:main
