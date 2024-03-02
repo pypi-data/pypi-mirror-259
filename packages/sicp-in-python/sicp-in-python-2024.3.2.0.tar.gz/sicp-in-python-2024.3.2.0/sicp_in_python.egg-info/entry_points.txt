@@ -1,0 +1,3 @@
+[console_scripts]
+SicpInPython = SicpInPython.__main__:main
+sicp-in-python = SicpInPython.__main__:main
