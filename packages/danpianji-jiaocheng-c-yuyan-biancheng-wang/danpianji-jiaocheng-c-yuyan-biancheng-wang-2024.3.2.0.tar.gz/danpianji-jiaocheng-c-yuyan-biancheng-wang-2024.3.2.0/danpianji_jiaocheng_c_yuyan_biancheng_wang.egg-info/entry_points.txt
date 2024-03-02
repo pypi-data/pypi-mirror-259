@@ -1,0 +1,4 @@
+[console_scripts]
+DanpianjiJiaochengCYuyanBianchengWang = DanpianjiJiaochengCYuyanBianchengWang.__main__:main
+danpianji-jiaocheng-c-yuyan-biancheng-wang = DanpianjiJiaochengCYuyanBianchengWang.__main__:main
+
