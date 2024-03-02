@@ -1,0 +1,4 @@
+[console_scripts]
+JavaMianshiBaodian2016Ban = JavaMianshiBaodian2016Ban.__main__:main
+java-mianshi-baodian-2016-ban = JavaMianshiBaodian2016Ban.__main__:main
+
