@@ -1,0 +1,3 @@
+[console_scripts]
+SqliteDocumentation = SqliteDocumentation.__main__:main
+sqlite-documentation = SqliteDocumentation.__main__:main
