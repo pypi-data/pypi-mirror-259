@@ -1,0 +1,16 @@
+AdDownloader/__init__.py,sha256=cV-DSYJbFmhdUuLE23vhopvmmLwpICeIfEeSEfDaOYk,266
+AdDownloader/__main__.py,sha256=dsna-XHVs99trxiFWaYpCTDsGqOyiKkfT5xNEvvq3Iw,206
+AdDownloader/ad_app.py,sha256=b6bMaYKIaH1MHYId9vaGfpedGl86US1zzGvzLuOUFbw,17840
+AdDownloader/adlib_api.py,sha256=Atl9pg86cT90EhsXBOtoY_OjEBdx_HsyEpLka_0cbPE,10425
+AdDownloader/analysis.py,sha256=jfOKcaMo_ZWbCPrydVrlljB_Dz_9O45BVZQsX-lEeaY,19825
+AdDownloader/app.py,sha256=W-eL9ZV2raBvQbrfFxtagHrhixr7Ca-yTFQLbRO5oTk,11295
+AdDownloader/cli.py,sha256=0edkijvrM3pwNz2Z75ozGzFUnPTMURh9s_pJYDPfIgA,12559
+AdDownloader/helpers.py,sha256=yMMdYjmWP87SHWNZ5Tm3OadxtGbr7o42ldgaSkw0XoE,15856
+AdDownloader/media_download.py,sha256=acXHwwMy_lnMTEOVmwdOyqkhbsZ1u9qf5tDIyFcWorg,10841
+AdDownloader/start_app.py,sha256=fpuw2YEi-LSC-svQtxmoyKE-rMbESRBoUIlnEsu3z1I,117
+AdDownloader-0.2.4.dist-info/LICENSE.txt,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+AdDownloader-0.2.4.dist-info/METADATA,sha256=iRTcvIkFYVhihsnXeas-fFFHwoKk2myIfnnf0PXljo0,51383
+AdDownloader-0.2.4.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+AdDownloader-0.2.4.dist-info/entry_points.txt,sha256=4rkAgexjJZP2ozbyROYH0mHu6SSAZX8b3wNzCfNsf7o,55
+AdDownloader-0.2.4.dist-info/top_level.txt,sha256=dWIbv5Du89QtiwDebz1WgQDotptJglxl-Ygr0SuWiqo,13
+AdDownloader-0.2.4.dist-info/RECORD,,
