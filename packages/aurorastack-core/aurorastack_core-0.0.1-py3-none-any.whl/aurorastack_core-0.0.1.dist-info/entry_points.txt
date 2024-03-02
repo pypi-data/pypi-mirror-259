@@ -1,0 +1,2 @@
+[console_scripts]
+aurora = aurorastack.core.command:cli
