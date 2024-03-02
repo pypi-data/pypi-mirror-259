@@ -1,0 +1,4 @@
+[console_scripts]
+JavaForSmallTeams = JavaForSmallTeams.__main__:main
+java-for-small-teams = JavaForSmallTeams.__main__:main
+
