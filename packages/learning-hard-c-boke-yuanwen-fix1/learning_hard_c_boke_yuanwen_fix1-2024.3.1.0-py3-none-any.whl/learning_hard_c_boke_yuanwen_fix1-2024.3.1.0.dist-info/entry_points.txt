@@ -1,0 +1,3 @@
+[console_scripts]
+LearningHardCBokeYuanwenFix1 = LearningHardCBokeYuanwenFix1.__main__:main
+learning-hard-c-boke-yuanwen-fix1 = LearningHardCBokeYuanwenFix1.__main__:main
