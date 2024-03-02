@@ -1,0 +1,4 @@
+[console_scripts]
+WuaiPojieWoShiYonghuPojieShizhan = WuaiPojieWoShiYonghuPojieShizhan.__main__:main
+wuai-pojie-wo-shi-yonghu-pojie-shizhan = WuaiPojieWoShiYonghuPojieShizhan.__main__:main
+
