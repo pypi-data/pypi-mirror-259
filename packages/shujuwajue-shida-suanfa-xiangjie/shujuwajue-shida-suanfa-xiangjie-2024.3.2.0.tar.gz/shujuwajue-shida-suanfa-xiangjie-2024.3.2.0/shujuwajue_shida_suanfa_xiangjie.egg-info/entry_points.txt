@@ -1,0 +1,3 @@
+[console_scripts]
+ShujuwajueShidaSuanfaXiangjie = ShujuwajueShidaSuanfaXiangjie.__main__:main
+shujuwajue-shida-suanfa-xiangjie = ShujuwajueShidaSuanfaXiangjie.__main__:main
