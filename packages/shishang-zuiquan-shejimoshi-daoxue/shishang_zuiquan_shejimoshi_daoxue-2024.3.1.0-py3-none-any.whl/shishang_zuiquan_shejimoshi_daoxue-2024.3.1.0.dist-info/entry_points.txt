@@ -1,0 +1,3 @@
+[console_scripts]
+ShishangZuiquanShejimoshiDaoxue = ShishangZuiquanShejimoshiDaoxue.__main__:main
+shishang-zuiquan-shejimoshi-daoxue = ShishangZuiquanShejimoshiDaoxue.__main__:main
