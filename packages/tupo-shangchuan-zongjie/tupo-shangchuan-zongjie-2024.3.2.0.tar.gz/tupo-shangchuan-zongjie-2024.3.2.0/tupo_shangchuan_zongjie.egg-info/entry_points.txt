@@ -1,0 +1,3 @@
+[console_scripts]
+TupoShangchuanZongjie = TupoShangchuanZongjie.__main__:main
+tupo-shangchuan-zongjie = TupoShangchuanZongjie.__main__:main
