@@ -1,0 +1,3 @@
+[console_scripts]
+Http2XieyiZhongwenfanyi = Http2XieyiZhongwenfanyi.__main__:main
+http2-xieyi-zhongwenfanyi = Http2XieyiZhongwenfanyi.__main__:main
