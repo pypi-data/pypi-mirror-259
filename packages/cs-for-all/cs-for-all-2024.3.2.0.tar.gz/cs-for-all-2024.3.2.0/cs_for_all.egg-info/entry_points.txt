@@ -1,0 +1,4 @@
+[console_scripts]
+CsForAll = CsForAll.__main__:main
+cs-for-all = CsForAll.__main__:main
+
