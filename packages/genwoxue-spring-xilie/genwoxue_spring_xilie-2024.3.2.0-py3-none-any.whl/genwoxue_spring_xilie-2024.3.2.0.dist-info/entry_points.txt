@@ -1,0 +1,3 @@
+[console_scripts]
+GenwoxueSpringXilie = GenwoxueSpringXilie.__main__:main
+genwoxue-spring-xilie = GenwoxueSpringXilie.__main__:main
