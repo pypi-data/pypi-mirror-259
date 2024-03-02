@@ -1,0 +1,3 @@
+[console_scripts]
+ZmqZhinan = ZmqZhinan.__main__:main
+zmq-zhinan = ZmqZhinan.__main__:main
