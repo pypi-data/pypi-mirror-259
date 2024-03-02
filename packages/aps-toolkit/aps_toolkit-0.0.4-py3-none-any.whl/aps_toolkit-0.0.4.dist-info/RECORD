@@ -1,0 +1,16 @@
+aps_toolkit_python/Auth.py,sha256=nCc2NRZ9L42ryGKRFLxdj970QLY9SmhYd4BB2Xkaa7c,1139
+aps_toolkit_python/BIM360.py,sha256=MXJU5Am-ZYkFvRfQPECdYTG64IsLN55whr384YaqC7Q,5951
+aps_toolkit_python/ProDbReaderRevit.py,sha256=ndyUU-u867Hh6u-GWoO3WYvTvlced0qYBoirXBExeaI,5408
+aps_toolkit_python/PropReader.py,sha256=UXIcAWj3X9iVDWpXLOacej8qyt-zhoeUBvU-LQ63r4A,7442
+aps_toolkit_python/Token.py,sha256=cQxi-0g-pH-kNTpPxn7SSk1YhsyaAsaBG-g4950GTAU,261
+aps_toolkit_python/__init__.py,sha256=_Af-dKljO7yOKCAi4YIU45SybluNhCQ6p4ywanqqfas,163
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/context.py,sha256=PLiABShXJ6WIYj9BAf_KAs93uQMsEu3s-2nXq_PQD5g,558
+test/test_auth.py,sha256=oymEqyWo6NSC73lJ7KbWTTVu260ozmKseQvbAk1-hMQ,508
+test/test_bim360.py,sha256=i0Q5kknGehHv9OfMu4cU_YX-GVBADddrvhwURMZA1aM,1865
+test/test_prop_reader.py,sha256=9rl75Ztd4bqzFD5Pbk_8kU_sjImVaMrjVBDdYgS3pxg,470
+test/test_prop_reader_revit.py,sha256=NwOuHKGeFi-iEnrziF_W4MswUGgAhyWLc1QpGpfgNMs,1863
+aps_toolkit-0.0.4.dist-info/METADATA,sha256=cxEjpC2hzN43I5lcR4NIli3eNlumBYwhQr_Wve1REDQ,1176
+aps_toolkit-0.0.4.dist-info/WHEEL,sha256=yQN5g4mg4AybRjkgi-9yy4iQEFibGQmlz78Pik5Or-A,92
+aps_toolkit-0.0.4.dist-info/top_level.txt,sha256=I0R_x9iOtvTvdNznC2rQi7pjBQkXzL1Ow4_xGUGBA_E,24
+aps_toolkit-0.0.4.dist-info/RECORD,,
