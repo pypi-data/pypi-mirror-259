@@ -1,0 +1,3 @@
+[console_scripts]
+YFenzhongXuexiXZhongYuyan = YFenzhongXuexiXZhongYuyan.__main__:main
+y-fenzhong-xuexi-x-zhong-yuyan = YFenzhongXuexiXZhongYuyan.__main__:main
