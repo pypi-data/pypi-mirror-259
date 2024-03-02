@@ -1,0 +1,4 @@
+[console_scripts]
+EmberJsCankaoWendang = EmberJsCankaoWendang.__main__:main
+ember-js-cankao-wendang = EmberJsCankaoWendang.__main__:main
+
