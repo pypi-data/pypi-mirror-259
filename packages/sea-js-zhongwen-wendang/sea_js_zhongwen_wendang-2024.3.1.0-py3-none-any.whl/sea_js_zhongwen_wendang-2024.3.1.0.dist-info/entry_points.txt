@@ -1,0 +1,3 @@
+[console_scripts]
+SeaJsZhongwenWendang = SeaJsZhongwenWendang.__main__:main
+sea-js-zhongwen-wendang = SeaJsZhongwenWendang.__main__:main
