@@ -1,0 +1,4 @@
+[console_scripts]
+GaojiBashJiaobenBianchengZhinan391YangchunminHuangyiYi = GaojiBashJiaobenBianchengZhinan391YangchunminHuangyiYi.__main__:main
+gaoji-bash-jiaoben-biancheng-zhinan-3-9-1-yangchunmin-huangyi-yi = GaojiBashJiaobenBianchengZhinan391YangchunminHuangyiYi.__main__:main
+
