@@ -1,0 +1,4 @@
+[console_scripts]
+SecurityEngineeringTheBookV2 = SecurityEngineeringTheBookV2.__main__:main
+security-engineering-the-book-v2 = SecurityEngineeringTheBookV2.__main__:main
+
