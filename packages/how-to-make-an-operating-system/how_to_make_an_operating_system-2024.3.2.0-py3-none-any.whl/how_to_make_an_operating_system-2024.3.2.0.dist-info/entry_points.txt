@@ -1,0 +1,3 @@
+[console_scripts]
+HowToMakeAnOperatingSystem = HowToMakeAnOperatingSystem.__main__:main
+how-to-make-an-operating-system = HowToMakeAnOperatingSystem.__main__:main
