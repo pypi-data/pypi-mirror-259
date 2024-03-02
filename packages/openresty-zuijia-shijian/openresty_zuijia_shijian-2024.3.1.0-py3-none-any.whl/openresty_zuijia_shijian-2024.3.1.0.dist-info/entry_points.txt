@@ -1,0 +1,3 @@
+[console_scripts]
+OpenrestyZuijiaShijian = OpenrestyZuijiaShijian.__main__:main
+openresty-zuijia-shijian = OpenrestyZuijiaShijian.__main__:main
