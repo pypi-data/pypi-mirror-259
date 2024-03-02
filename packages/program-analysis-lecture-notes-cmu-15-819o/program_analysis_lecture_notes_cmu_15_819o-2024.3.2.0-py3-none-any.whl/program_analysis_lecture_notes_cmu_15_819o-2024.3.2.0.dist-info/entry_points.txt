@@ -1,0 +1,4 @@
+[console_scripts]
+ProgramAnalysisLectureNotesCmu15819o = ProgramAnalysisLectureNotesCmu15819o.__main__:main
+program-analysis-lecture-notes-cmu-15-819o = ProgramAnalysisLectureNotesCmu15819o.__main__:main
+
