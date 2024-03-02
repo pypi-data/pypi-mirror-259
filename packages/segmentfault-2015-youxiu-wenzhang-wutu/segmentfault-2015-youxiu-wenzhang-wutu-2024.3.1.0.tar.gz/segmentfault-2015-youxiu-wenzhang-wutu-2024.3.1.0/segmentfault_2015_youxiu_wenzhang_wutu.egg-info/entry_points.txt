@@ -1,0 +1,3 @@
+[console_scripts]
+Segmentfault2015YouxiuWenzhangWutu = Segmentfault2015YouxiuWenzhangWutu.__main__:main
+segmentfault-2015-youxiu-wenzhang-wutu = Segmentfault2015YouxiuWenzhangWutu.__main__:main
