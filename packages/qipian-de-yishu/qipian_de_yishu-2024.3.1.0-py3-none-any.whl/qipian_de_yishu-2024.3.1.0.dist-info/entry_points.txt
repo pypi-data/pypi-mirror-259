@@ -1,0 +1,3 @@
+[console_scripts]
+QipianDeYishu = QipianDeYishu.__main__:main
+qipian-de-yishu = QipianDeYishu.__main__:main
