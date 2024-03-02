@@ -1,0 +1,4 @@
+[console_scripts]
+CCSocketBianchengJiaocheng1TianWanzhuanSocketTongxinJishu = CCSocketBianchengJiaocheng1TianWanzhuanSocketTongxinJishu.__main__:main
+c-c-socket-biancheng-jiaocheng-1-tian-wanzhuan-socket-tongxin-jishu = CCSocketBianchengJiaocheng1TianWanzhuanSocketTongxinJishu.__main__:main
+
