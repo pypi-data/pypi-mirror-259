@@ -1,0 +1,4 @@
+[console_scripts]
+LinuxLingJichuChujijiaochengHonglian = LinuxLingJichuChujijiaochengHonglian.__main__:main
+linux-ling-jichu-chujijiaocheng-honglian = LinuxLingJichuChujijiaochengHonglian.__main__:main
+
