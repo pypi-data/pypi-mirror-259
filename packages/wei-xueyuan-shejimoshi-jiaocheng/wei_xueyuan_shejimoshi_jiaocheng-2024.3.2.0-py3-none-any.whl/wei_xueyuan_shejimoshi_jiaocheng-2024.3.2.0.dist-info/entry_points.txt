@@ -1,0 +1,4 @@
+[console_scripts]
+WeiXueyuanShejimoshiJiaocheng = WeiXueyuanShejimoshiJiaocheng.__main__:main
+wei-xueyuan-shejimoshi-jiaocheng = WeiXueyuanShejimoshiJiaocheng.__main__:main
+
