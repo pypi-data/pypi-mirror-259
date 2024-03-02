@@ -1,0 +1,9 @@
+pandas
+progressbar
+yfinance
+stockstats
+datetime
+pytz
+numpy
+tables
+seaborn>=0.13.2

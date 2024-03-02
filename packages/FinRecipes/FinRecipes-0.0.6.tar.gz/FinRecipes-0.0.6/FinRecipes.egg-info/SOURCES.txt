@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+FinRecipes/__init__.py
+FinRecipes/evaluate.py
+FinRecipes/feature_extraction.py
+FinRecipes/models.py
+FinRecipes/plots.py
+FinRecipes/preprocess.py
+FinRecipes/utils.py
+FinRecipes.egg-info/PKG-INFO
+FinRecipes.egg-info/SOURCES.txt
+FinRecipes.egg-info/dependency_links.txt
+FinRecipes.egg-info/requires.txt
+FinRecipes.egg-info/top_level.txt
