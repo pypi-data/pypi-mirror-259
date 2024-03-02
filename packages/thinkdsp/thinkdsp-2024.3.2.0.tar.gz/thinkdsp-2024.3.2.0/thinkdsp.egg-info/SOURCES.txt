@@ -1,0 +1,12 @@
+README.md
+setup.py
+Thinkdsp/README.md
+Thinkdsp/__init__.py
+Thinkdsp/__main__.py
+Thinkdsp/file.pdf
+Thinkdsp/index.html
+thinkdsp.egg-info/PKG-INFO
+thinkdsp.egg-info/SOURCES.txt
+thinkdsp.egg-info/dependency_links.txt
+thinkdsp.egg-info/entry_points.txt
+thinkdsp.egg-info/top_level.txt

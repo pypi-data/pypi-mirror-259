@@ -1,0 +1,3 @@
+[console_scripts]
+Thinkdsp = Thinkdsp.__main__:main
+thinkdsp = Thinkdsp.__main__:main
