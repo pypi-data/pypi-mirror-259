@@ -1,0 +1,4 @@
+[console_scripts]
+CKuhanshuChaxunShouceLongmaGongzuoshi = CKuhanshuChaxunShouceLongmaGongzuoshi.__main__:main
+c-kuhanshu-chaxun-shouce-longma-gongzuoshi = CKuhanshuChaxunShouceLongmaGongzuoshi.__main__:main
+
