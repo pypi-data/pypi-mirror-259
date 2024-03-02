@@ -1,0 +1,9 @@
+submitit_oar/__init__.py,sha256=6AVcRMKdcKa7yr4epMTjBHNA4c3X88rDUMe5UiwNkTs,200
+submitit_oar/conftest.py,sha256=SXlNtK0NvMXA7vQa5EWLQDJneG5Bp3PX-NN7djQU4aY,499
+submitit_oar/oar.py,sha256=kkCicXZy3BgwdYR8zYCjraUF2cnVyvLu0Z9n2Rhi89A,26520
+submitit_oar/test_oar.py,sha256=qcpSMt91T40ZvsSrEnNmaoSue6inpBVApgmOBHMDVbc,27554
+submitit_oar-1.1.0.dist-info/entry_points.txt,sha256=QivRotjcpcA1VIaSasFlgUN0RngpLtAiVA7ZEkQUyyQ,101
+submitit_oar-1.1.0.dist-info/LICENSE,sha256=K3Rm7vrmMi3G9k9U2JejjT14OmfmjNCAUwuwz4RVKXM,1065
+submitit_oar-1.1.0.dist-info/WHEEL,sha256=EZbGkh7Ie4PoZfRQ8I0ZuP9VklN_TvcZ6DSE5Uar4z4,81
+submitit_oar-1.1.0.dist-info/METADATA,sha256=_9rOJd7S91zhZKmEkCULAd0A2KFIRm2YXv489e5_Y4k,2658
+submitit_oar-1.1.0.dist-info/RECORD,,
