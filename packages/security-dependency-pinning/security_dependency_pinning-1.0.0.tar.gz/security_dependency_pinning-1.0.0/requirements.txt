@@ -1,0 +1,11 @@
+## Project Requirements
+click
+toml
+
+## security pinnings
+certifi>=2024.2.2  # not directly required, pinned to avoid vulnerability CVE-2023-37920
+pip>=24.0          # not directly required, pinned to avoid vulnerability CVE-2023-5752
+urllib3>=2.2.0     # not directly required, pinned to avoid vulnerability CVE-2023-43804, CVE-2023-45803
+
+## not available on windows
+uwsgi>=2.0.21 ; sys_platform != 'win32'  # not directly required, pinned to avoid vulnerability CVE-2023-27522
