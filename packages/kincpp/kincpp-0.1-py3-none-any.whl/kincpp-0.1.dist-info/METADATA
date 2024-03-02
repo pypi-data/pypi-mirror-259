@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: kincpp
+Version: 0.1
+Summary: A pybind C++ kinematics module for manipulators.
+Home-page: UNKNOWN
+Author: Andrew Choi
+Author-email: andrew.choi@horizon.cc
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+
+UNKNOWN
+
