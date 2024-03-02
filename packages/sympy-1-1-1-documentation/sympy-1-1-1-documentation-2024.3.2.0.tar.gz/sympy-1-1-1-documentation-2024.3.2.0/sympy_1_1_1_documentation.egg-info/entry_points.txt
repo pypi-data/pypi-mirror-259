@@ -1,0 +1,4 @@
+[console_scripts]
+Sympy111Documentation = Sympy111Documentation.__main__:main
+sympy-1-1-1-documentation = Sympy111Documentation.__main__:main
+
