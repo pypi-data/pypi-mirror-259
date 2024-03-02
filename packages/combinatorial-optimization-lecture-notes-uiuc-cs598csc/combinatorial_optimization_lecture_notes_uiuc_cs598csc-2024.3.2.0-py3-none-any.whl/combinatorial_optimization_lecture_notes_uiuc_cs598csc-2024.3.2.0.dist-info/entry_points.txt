@@ -1,0 +1,4 @@
+[console_scripts]
+CombinatorialOptimizationLectureNotesUiucCs598csc = CombinatorialOptimizationLectureNotesUiucCs598csc.__main__:main
+combinatorial-optimization-lecture-notes-uiuc-cs598csc = CombinatorialOptimizationLectureNotesUiucCs598csc.__main__:main
+
