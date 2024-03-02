@@ -1,0 +1,4 @@
+[console_scripts]
+ExcelJiaochengShiyongjiqiaoXilie = ExcelJiaochengShiyongjiqiaoXilie.__main__:main
+excel-jiaocheng-shiyongjiqiao-xilie = ExcelJiaochengShiyongjiqiaoXilie.__main__:main
+
