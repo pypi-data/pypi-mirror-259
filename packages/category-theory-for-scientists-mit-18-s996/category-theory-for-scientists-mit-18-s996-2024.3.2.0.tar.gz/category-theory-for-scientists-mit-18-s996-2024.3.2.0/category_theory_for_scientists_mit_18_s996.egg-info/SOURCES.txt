@@ -1,0 +1,12 @@
+README.md
+setup.py
+CategoryTheoryForScientistsMit18S996/README.md
+CategoryTheoryForScientistsMit18S996/__init__.py
+CategoryTheoryForScientistsMit18S996/__main__.py
+CategoryTheoryForScientistsMit18S996/file.pdf
+CategoryTheoryForScientistsMit18S996/index.html
+category_theory_for_scientists_mit_18_s996.egg-info/PKG-INFO
+category_theory_for_scientists_mit_18_s996.egg-info/SOURCES.txt
+category_theory_for_scientists_mit_18_s996.egg-info/dependency_links.txt
+category_theory_for_scientists_mit_18_s996.egg-info/entry_points.txt
+category_theory_for_scientists_mit_18_s996.egg-info/top_level.txt
