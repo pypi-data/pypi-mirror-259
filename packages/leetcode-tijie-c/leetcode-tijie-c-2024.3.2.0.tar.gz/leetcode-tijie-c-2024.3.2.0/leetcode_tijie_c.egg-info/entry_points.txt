@@ -1,0 +1,3 @@
+[console_scripts]
+LeetcodeTijieC = LeetcodeTijieC.__main__:main
+leetcode-tijie-c = LeetcodeTijieC.__main__:main
