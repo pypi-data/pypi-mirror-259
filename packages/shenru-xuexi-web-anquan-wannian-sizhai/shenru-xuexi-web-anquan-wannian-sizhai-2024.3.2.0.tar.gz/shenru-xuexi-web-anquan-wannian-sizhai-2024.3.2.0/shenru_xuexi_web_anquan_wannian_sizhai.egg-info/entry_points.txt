@@ -1,0 +1,4 @@
+[console_scripts]
+ShenruXuexiWebAnquanWannianSizhai = ShenruXuexiWebAnquanWannianSizhai.__main__:main
+shenru-xuexi-web-anquan-wannian-sizhai = ShenruXuexiWebAnquanWannianSizhai.__main__:main
+
