@@ -1,0 +1,14 @@
+aiogram_newsletter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aiogram_newsletter/handlers.py,sha256=BiMl4OVn-SS77ZwZuI7rdNzZN9qR8CoE7lVw55-w1To,10587
+aiogram_newsletter/manager.py,sha256=7eQMA0l3-JIf7kvipbBVW2Lhz-qlfG6_pA9RvkNFW3s,7911
+aiogram_newsletter/middleware.py,sha256=-axQdn1saRY2ieX2GE5v7LaQHO87vhGQafw2VkycPVQ,1649
+aiogram_newsletter/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+aiogram_newsletter/utils/exceptions.py,sha256=Idw0JAJxFKzFawtXWLGOOXo9TI4G7nxdXz1uVObUCjk,409
+aiogram_newsletter/utils/keyboards.py,sha256=tEaT6Y_n1IfEo1QYuqXP0NO0zLMnLYrnsMuf5Klx8eQ,7165
+aiogram_newsletter/utils/misc.py,sha256=cqLQEDEN05FULFNNWZELRPN1tvE7KL8H9rqQQVig46o,2760
+aiogram_newsletter/utils/states.py,sha256=9WRb-On5J2oFEva07gyiXc-FjoixGsnMwa5CQ4tRjOM,367
+aiogram_newsletter/utils/texts.py,sha256=JjEilu6r4HW6UB_Nn5uTkxKOZVMiuO3QAIC78_r1sro,8950
+aiogram_newsletter-0.0.1.dist-info/METADATA,sha256=ivmbkLgUGbk-gHFeiyQrPELpNUGQP7EMWTcIzB4e-Go,2613
+aiogram_newsletter-0.0.1.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+aiogram_newsletter-0.0.1.dist-info/top_level.txt,sha256=Q9WU8yP0U0zkNMk-uxfzKm89koJmtoZg2zosoc-1SEA,19
+aiogram_newsletter-0.0.1.dist-info/RECORD,,
