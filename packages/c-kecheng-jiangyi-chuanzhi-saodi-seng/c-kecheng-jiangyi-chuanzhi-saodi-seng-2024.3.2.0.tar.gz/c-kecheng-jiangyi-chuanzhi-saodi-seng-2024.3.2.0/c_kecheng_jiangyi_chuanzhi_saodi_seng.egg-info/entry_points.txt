@@ -1,0 +1,4 @@
+[console_scripts]
+CKechengJiangyiChuanzhiSaodiSeng = CKechengJiangyiChuanzhiSaodiSeng.__main__:main
+c-kecheng-jiangyi-chuanzhi-saodi-seng = CKechengJiangyiChuanzhiSaodiSeng.__main__:main
+
