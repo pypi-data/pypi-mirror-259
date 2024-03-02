@@ -1,0 +1,4 @@
+[console_scripts]
+AlgorithmsForBigDataLectureNotesUiucCs598csc = AlgorithmsForBigDataLectureNotesUiucCs598csc.__main__:main
+algorithms-for-big-data-lecture-notes-uiuc-cs598csc = AlgorithmsForBigDataLectureNotesUiucCs598csc.__main__:main
+
