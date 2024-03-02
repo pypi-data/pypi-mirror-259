@@ -1,0 +1,3 @@
+[console_scripts]
+YizhanshiXuexiWireshark = YizhanshiXuexiWireshark.__main__:main
+yizhanshi-xuexi-wireshark = YizhanshiXuexiWireshark.__main__:main
