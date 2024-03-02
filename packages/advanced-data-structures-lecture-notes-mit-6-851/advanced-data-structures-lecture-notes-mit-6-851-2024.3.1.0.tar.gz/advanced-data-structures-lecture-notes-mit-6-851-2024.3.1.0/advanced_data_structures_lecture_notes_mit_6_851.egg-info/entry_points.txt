@@ -1,0 +1,4 @@
+[console_scripts]
+AdvancedDataStructuresLectureNotesMit6851 = AdvancedDataStructuresLectureNotesMit6851.__main__:main
+advanced-data-structures-lecture-notes-mit-6-851 = AdvancedDataStructuresLectureNotesMit6851.__main__:main
+
