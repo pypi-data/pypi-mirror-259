@@ -1,0 +1,4 @@
+[console_scripts]
+IntroductionToEecsIiDigitalCommunicationSystemsMit602 = IntroductionToEecsIiDigitalCommunicationSystemsMit602.__main__:main
+introduction-to-eecs-ii-digital-communication-systems-mit-6-02 = IntroductionToEecsIiDigitalCommunicationSystemsMit602.__main__:main
+
