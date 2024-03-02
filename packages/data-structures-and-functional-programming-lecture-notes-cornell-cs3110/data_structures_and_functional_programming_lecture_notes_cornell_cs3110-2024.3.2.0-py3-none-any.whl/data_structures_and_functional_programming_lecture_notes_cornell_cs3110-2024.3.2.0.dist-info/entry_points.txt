@@ -1,0 +1,4 @@
+[console_scripts]
+DataStructuresAndFunctionalProgrammingLectureNotesCornellCs3110 = DataStructuresAndFunctionalProgrammingLectureNotesCornellCs3110.__main__:main
+data-structures-and-functional-programming-lecture-notes-cornell-cs3110 = DataStructuresAndFunctionalProgrammingLectureNotesCornellCs3110.__main__:main
+
