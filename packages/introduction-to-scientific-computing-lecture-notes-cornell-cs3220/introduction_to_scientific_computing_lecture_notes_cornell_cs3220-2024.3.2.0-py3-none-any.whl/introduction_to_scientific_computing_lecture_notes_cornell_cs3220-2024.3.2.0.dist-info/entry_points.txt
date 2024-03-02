@@ -1,0 +1,4 @@
+[console_scripts]
+IntroductionToScientificComputingLectureNotesCornellCs3220 = IntroductionToScientificComputingLectureNotesCornellCs3220.__main__:main
+introduction-to-scientific-computing-lecture-notes-cornell-cs3220 = IntroductionToScientificComputingLectureNotesCornellCs3220.__main__:main
+
