@@ -1,0 +1,4 @@
+[console_scripts]
+InventYourOwnComputerGamesWithPython2nd = InventYourOwnComputerGamesWithPython2nd.__main__:main
+invent-your-own-computer-games-with-python-2nd = InventYourOwnComputerGamesWithPython2nd.__main__:main
+

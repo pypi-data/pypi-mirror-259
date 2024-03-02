@@ -1,0 +1,12 @@
+README.md
+setup.py
+InventYourOwnComputerGamesWithPython2nd/README.md
+InventYourOwnComputerGamesWithPython2nd/__init__.py
+InventYourOwnComputerGamesWithPython2nd/__main__.py
+InventYourOwnComputerGamesWithPython2nd/file.pdf
+InventYourOwnComputerGamesWithPython2nd/index.html
+invent_your_own_computer_games_with_python_2nd.egg-info/PKG-INFO
+invent_your_own_computer_games_with_python_2nd.egg-info/SOURCES.txt
+invent_your_own_computer_games_with_python_2nd.egg-info/dependency_links.txt
+invent_your_own_computer_games_with_python_2nd.egg-info/entry_points.txt
+invent_your_own_computer_games_with_python_2nd.egg-info/top_level.txt
