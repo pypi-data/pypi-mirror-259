@@ -1,0 +1,4 @@
+[console_scripts]
+KaiyuanPhpKaifaKuangjiaYiiQuanfangweiJiaocheng = KaiyuanPhpKaifaKuangjiaYiiQuanfangweiJiaocheng.__main__:main
+kaiyuan-php-kaifa-kuangjia-yii-quanfangwei-jiaocheng = KaiyuanPhpKaifaKuangjiaYiiQuanfangweiJiaocheng.__main__:main
+
