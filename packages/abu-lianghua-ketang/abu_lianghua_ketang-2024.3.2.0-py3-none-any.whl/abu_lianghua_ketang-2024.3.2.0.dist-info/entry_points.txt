@@ -1,0 +1,4 @@
+[console_scripts]
+AbuLianghuaKetang = AbuLianghuaKetang.__main__:main
+abu-lianghua-ketang = AbuLianghuaKetang.__main__:main
+
