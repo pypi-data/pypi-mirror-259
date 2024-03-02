@@ -1,0 +1,3 @@
+[console_scripts]
+GaojiPhpYingyongchengxuLoudongShenheJishu = GaojiPhpYingyongchengxuLoudongShenheJishu.__main__:main
+gaoji-php-yingyongchengxu-loudong-shenhe-jishu = GaojiPhpYingyongchengxuLoudongShenheJishu.__main__:main
