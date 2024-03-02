@@ -1,0 +1,14 @@
+.gitignore
+Dockerfile
+Makefile
+README.md
+docker-compose.yml
+pyproject.toml
+scrapeproxy/__init__.py
+scrapeproxy/_version.py
+scrapeproxy/scraper.py
+scrapeproxy.egg-info/PKG-INFO
+scrapeproxy.egg-info/SOURCES.txt
+scrapeproxy.egg-info/dependency_links.txt
+scrapeproxy.egg-info/requires.txt
+scrapeproxy.egg-info/top_level.txt
