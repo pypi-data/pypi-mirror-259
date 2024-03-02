@@ -1,0 +1,3 @@
+[console_scripts]
+ShenruJiexiGo = ShenruJiexiGo.__main__:main
+shenru-jiexi-go = ShenruJiexiGo.__main__:main
