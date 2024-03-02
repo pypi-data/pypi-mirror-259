@@ -1,0 +1,3 @@
+[console_scripts]
+PythonCookbookZhongwenban = PythonCookbookZhongwenban.__main__:main
+python-cookbook-zhongwenban = PythonCookbookZhongwenban.__main__:main
