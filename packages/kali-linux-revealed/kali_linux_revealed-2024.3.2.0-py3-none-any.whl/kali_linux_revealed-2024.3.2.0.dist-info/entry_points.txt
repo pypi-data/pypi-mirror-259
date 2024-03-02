@@ -1,0 +1,4 @@
+[console_scripts]
+KaliLinuxRevealed = KaliLinuxRevealed.__main__:main
+kali-linux-revealed = KaliLinuxRevealed.__main__:main
+
