@@ -1,0 +1,3 @@
+[console_scripts]
+ScipyLectureNotesZhongwenbanFix1 = ScipyLectureNotesZhongwenbanFix1.__main__:main
+scipy-lecture-notes-zhongwenban-fix1 = ScipyLectureNotesZhongwenbanFix1.__main__:main
