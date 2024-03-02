@@ -1,0 +1,4 @@
+[console_scripts]
+SitanfuJiqiXuexiGerenBijiV42HuanghaiGuang = SitanfuJiqiXuexiGerenBijiV42HuanghaiGuang.__main__:main
+sitanfu-jiqi-xuexi-geren-biji-v4-2-huanghai-guang = SitanfuJiqiXuexiGerenBijiV42HuanghaiGuang.__main__:main
+
