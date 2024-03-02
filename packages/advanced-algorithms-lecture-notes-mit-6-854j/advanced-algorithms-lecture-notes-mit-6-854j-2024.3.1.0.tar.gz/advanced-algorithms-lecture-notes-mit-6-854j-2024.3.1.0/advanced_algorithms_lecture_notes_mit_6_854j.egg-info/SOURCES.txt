@@ -1,0 +1,12 @@
+README.md
+setup.py
+AdvancedAlgorithmsLectureNotesMit6854j/README.md
+AdvancedAlgorithmsLectureNotesMit6854j/__init__.py
+AdvancedAlgorithmsLectureNotesMit6854j/__main__.py
+AdvancedAlgorithmsLectureNotesMit6854j/file.pdf
+AdvancedAlgorithmsLectureNotesMit6854j/index.html
+advanced_algorithms_lecture_notes_mit_6_854j.egg-info/PKG-INFO
+advanced_algorithms_lecture_notes_mit_6_854j.egg-info/SOURCES.txt
+advanced_algorithms_lecture_notes_mit_6_854j.egg-info/dependency_links.txt
+advanced_algorithms_lecture_notes_mit_6_854j.egg-info/entry_points.txt
+advanced_algorithms_lecture_notes_mit_6_854j.egg-info/top_level.txt

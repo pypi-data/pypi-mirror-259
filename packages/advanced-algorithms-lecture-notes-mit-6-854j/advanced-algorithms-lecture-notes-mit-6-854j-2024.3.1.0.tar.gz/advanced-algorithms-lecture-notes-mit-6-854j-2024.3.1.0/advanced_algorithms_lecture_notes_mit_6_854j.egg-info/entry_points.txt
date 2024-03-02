@@ -1,0 +1,4 @@
+[console_scripts]
+AdvancedAlgorithmsLectureNotesMit6854j = AdvancedAlgorithmsLectureNotesMit6854j.__main__:main
+advanced-algorithms-lecture-notes-mit-6-854j = AdvancedAlgorithmsLectureNotesMit6854j.__main__:main
+
