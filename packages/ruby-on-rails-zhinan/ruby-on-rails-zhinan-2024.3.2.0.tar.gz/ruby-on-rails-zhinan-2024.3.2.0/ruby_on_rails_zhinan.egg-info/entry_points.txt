@@ -1,0 +1,3 @@
+[console_scripts]
+RubyOnRailsZhinan = RubyOnRailsZhinan.__main__:main
+ruby-on-rails-zhinan = RubyOnRailsZhinan.__main__:main
