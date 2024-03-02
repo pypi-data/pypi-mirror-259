@@ -1,0 +1,12 @@
+README.md
+setup.py
+GdiSdkCankaoFanyiBanben/README.md
+GdiSdkCankaoFanyiBanben/__init__.py
+GdiSdkCankaoFanyiBanben/__main__.py
+GdiSdkCankaoFanyiBanben/file.pdf
+GdiSdkCankaoFanyiBanben/index.html
+gdi_sdk_cankao_fanyi_banben.egg-info/PKG-INFO
+gdi_sdk_cankao_fanyi_banben.egg-info/SOURCES.txt
+gdi_sdk_cankao_fanyi_banben.egg-info/dependency_links.txt
+gdi_sdk_cankao_fanyi_banben.egg-info/entry_points.txt
+gdi_sdk_cankao_fanyi_banben.egg-info/top_level.txt
