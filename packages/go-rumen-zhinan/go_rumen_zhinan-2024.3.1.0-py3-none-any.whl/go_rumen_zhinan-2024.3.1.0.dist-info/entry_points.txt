@@ -1,0 +1,3 @@
+[console_scripts]
+GoRumenZhinan = GoRumenZhinan.__main__:main
+go-rumen-zhinan = GoRumenZhinan.__main__:main
