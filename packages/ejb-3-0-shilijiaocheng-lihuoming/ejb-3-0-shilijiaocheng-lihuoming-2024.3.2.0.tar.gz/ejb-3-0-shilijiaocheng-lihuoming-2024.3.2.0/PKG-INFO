@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: ejb-3-0-shilijiaocheng-lihuoming
+Version: 2024.3.2.0
+Summary: ejb 3.0 实例教程（黎活明）
+Home-page: https://github.com/apachecn/ejb-3-0-shilijiaocheng-lihuoming
+Author: ApacheCN
+Author-email: apachecn@163.com
+License: UNKNOWN
+Description: # ejb 3.0 实例教程（黎活明）
+        
+        ## 下载
+        
+        ### Docker
+        
+        ```
+        docker pull apachecn0/ejb-3-0-shilijiaocheng-lihuoming
+        docker run -tid -p <port>:80 apachecn0/ejb-3-0-shilijiaocheng-lihuoming
+        # 访问 http://localhost:{port} 查看文档
+        ```
+        
+        ### PYPI
+        
+        ```
+        pip install ejb-3-0-shilijiaocheng-lihuoming
+        ejb-3-0-shilijiaocheng-lihuoming <port>
+        # 访问 http://localhost:{port} 查看文档
+        ```
+        
+        ### NPM
+        
+        ```
+        npm install -g ejb-3-0-shilijiaocheng-lihuoming
+        ejb-3-0-shilijiaocheng-lihuoming <port>
+        # 访问 http://localhost:{port} 查看文档
+        ```
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: Other/Proprietary License
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Text Processing :: Markup :: Markdown
+Classifier: Topic :: Text Processing :: Markup :: HTML
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development :: Documentation
+Classifier: Topic :: Documentation
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
