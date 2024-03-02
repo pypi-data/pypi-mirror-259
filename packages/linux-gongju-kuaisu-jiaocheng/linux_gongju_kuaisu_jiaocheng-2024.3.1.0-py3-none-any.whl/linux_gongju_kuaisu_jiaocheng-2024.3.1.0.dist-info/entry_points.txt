@@ -1,0 +1,3 @@
+[console_scripts]
+LinuxGongjuKuaisuJiaocheng = LinuxGongjuKuaisuJiaocheng.__main__:main
+linux-gongju-kuaisu-jiaocheng = LinuxGongjuKuaisuJiaocheng.__main__:main
