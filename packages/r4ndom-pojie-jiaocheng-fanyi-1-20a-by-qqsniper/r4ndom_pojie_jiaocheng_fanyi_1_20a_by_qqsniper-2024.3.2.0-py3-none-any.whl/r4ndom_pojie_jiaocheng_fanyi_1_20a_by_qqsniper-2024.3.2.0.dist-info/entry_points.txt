@@ -1,0 +1,4 @@
+[console_scripts]
+R4ndomPojieJiaochengFanyi120aByQqsniper = R4ndomPojieJiaochengFanyi120aByQqsniper.__main__:main
+r4ndom-pojie-jiaocheng-fanyi-1-20a-by-qqsniper = R4ndomPojieJiaochengFanyi120aByQqsniper.__main__:main
+
