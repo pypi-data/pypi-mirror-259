@@ -1,0 +1,5 @@
+pyvslvm.cp310-win_amd64.pyd,sha256=1ibeTekrWrFuQ8Iqc9c10fCG_cuhOyZe_mqpiy2dCLo,393728
+libvslvm_python-20240301.dist-info/METADATA,sha256=Ab_bQIsDY5CLfWTSBKwcHUEzen7G6gSZ3__gNiMwD_s,431
+libvslvm_python-20240301.dist-info/WHEEL,sha256=5JPYeYl5ZdvdSkrGS4u21mmpPzpFx42qrXOSIgWf4pg,102
+libvslvm_python-20240301.dist-info/top_level.txt,sha256=lbKqeYStfjEhugf-vBADKH2dEx8oOAAF9QJhfpT2k38,8
+libvslvm_python-20240301.dist-info/RECORD,,
