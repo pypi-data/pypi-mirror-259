@@ -1,0 +1,4 @@
+[console_scripts]
+Opencl20YigoujisuanZhongwenDisanban = Opencl20YigoujisuanZhongwenDisanban.__main__:main
+opencl-2-0-yigoujisuan-zhongwen-disanban = Opencl20YigoujisuanZhongwenDisanban.__main__:main
+
