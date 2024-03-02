@@ -1,0 +1,3 @@
+[console_scripts]
+UnderstandingEcmascript6Zhongwenban = UnderstandingEcmascript6Zhongwenban.__main__:main
+understanding-ecmascript-6-zhongwenban = UnderstandingEcmascript6Zhongwenban.__main__:main
