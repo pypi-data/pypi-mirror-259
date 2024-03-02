@@ -1,0 +1,3 @@
+[console_scripts]
+ShiyanlouGitJiaochengHeji20160904 = ShiyanlouGitJiaochengHeji20160904.__main__:main
+shiyanlou-git-jiaocheng-heji-20160904 = ShiyanlouGitJiaochengHeji20160904.__main__:main
