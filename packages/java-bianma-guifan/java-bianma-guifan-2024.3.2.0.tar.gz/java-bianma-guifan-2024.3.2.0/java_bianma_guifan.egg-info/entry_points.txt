@@ -1,0 +1,3 @@
+[console_scripts]
+JavaBianmaGuifan = JavaBianmaGuifan.__main__:main
+java-bianma-guifan = JavaBianmaGuifan.__main__:main
