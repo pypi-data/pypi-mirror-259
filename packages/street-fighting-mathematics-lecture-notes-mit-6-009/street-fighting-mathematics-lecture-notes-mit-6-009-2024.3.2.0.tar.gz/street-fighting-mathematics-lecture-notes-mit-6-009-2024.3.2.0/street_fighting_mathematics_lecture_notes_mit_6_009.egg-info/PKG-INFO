@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: street-fighting-mathematics-lecture-notes-mit-6-009
+Version: 2024.3.2.0
+Summary: Street-Fighting Mathematics Lecture Notes (MIT 6.009)
+Home-page: https://github.com/apachecn/street-fighting-mathematics-lecture-notes-mit-6-009
+Author: ApacheCN
+Author-email: apachecn@163.com
+License: UNKNOWN
+Description: # Street-Fighting Mathematics Lecture Notes (MIT 6.009)
+        
+        ## 下载
+        
+        ### Docker
+        
+        ```
+        docker pull apachecn0/street-fighting-mathematics-lecture-notes-mit-6-009
+        docker run -tid -p <port>:80 apachecn0/street-fighting-mathematics-lecture-notes-mit-6-009
+        # 访问 http://localhost:{port} 查看文档
+        ```
+        
+        ### PYPI
+        
+        ```
+        pip install street-fighting-mathematics-lecture-notes-mit-6-009
+        street-fighting-mathematics-lecture-notes-mit-6-009 <port>
+        # 访问 http://localhost:{port} 查看文档
+        ```
+        
+        ### NPM
+        
+        ```
+        npm install -g street-fighting-mathematics-lecture-notes-mit-6-linglingjiu
+        street-fighting-mathematics-lecture-notes-mit-6-linglingjiu <port>
+        # 访问 http://localhost:{port} 查看文档
+        ```
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: Other/Proprietary License
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Text Processing :: Markup :: Markdown
+Classifier: Topic :: Text Processing :: Markup :: HTML
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development :: Documentation
+Classifier: Topic :: Documentation
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
