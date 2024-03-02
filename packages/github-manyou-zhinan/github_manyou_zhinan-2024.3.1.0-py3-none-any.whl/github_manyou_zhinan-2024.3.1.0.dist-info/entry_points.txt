@@ -1,0 +1,3 @@
+[console_scripts]
+GithubManyouZhinan = GithubManyouZhinan.__main__:main
+github-manyou-zhinan = GithubManyouZhinan.__main__:main
