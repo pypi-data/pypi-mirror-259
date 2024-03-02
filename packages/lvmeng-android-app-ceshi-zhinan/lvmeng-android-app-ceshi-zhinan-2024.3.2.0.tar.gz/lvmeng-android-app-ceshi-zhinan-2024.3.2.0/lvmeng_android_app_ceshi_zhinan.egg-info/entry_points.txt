@@ -1,0 +1,4 @@
+[console_scripts]
+LvmengAndroidAppCeshiZhinan = LvmengAndroidAppCeshiZhinan.__main__:main
+lvmeng-android-app-ceshi-zhinan = LvmengAndroidAppCeshiZhinan.__main__:main
+
