@@ -1,0 +1,4 @@
+[console_scripts]
+MofanGitJiaocheng2017510 = MofanGitJiaocheng2017510.__main__:main
+mofan-git-jiaocheng-2017-5-10 = MofanGitJiaocheng2017510.__main__:main
+
