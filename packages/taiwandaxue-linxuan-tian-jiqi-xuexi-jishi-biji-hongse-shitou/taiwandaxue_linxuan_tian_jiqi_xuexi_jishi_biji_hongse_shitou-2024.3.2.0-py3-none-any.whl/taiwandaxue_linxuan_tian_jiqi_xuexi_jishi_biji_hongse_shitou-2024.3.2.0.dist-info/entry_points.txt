@@ -1,0 +1,4 @@
+[console_scripts]
+TaiwandaxueLinxuanTianJiqiXuexiJishiBijiHongseShitou = TaiwandaxueLinxuanTianJiqiXuexiJishiBijiHongseShitou.__main__:main
+taiwandaxue-linxuan-tian-jiqi-xuexi-jishi-biji-hongse-shitou = TaiwandaxueLinxuanTianJiqiXuexiJishiBijiHongseShitou.__main__:main
+
