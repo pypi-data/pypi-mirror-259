@@ -1,0 +1,26 @@
+[build-system]
+requires = [
+    "hatchling",
+    "requests>=2.3"
+]
+build-backend = "hatchling.build"
+
+[project]
+name = "parsify"
+version = "2.1"
+authors = [
+    { name = "Luka Sosiashvili", email = "luksosiashvili@gmail.com" }
+]
+license = { text = "MIT License" }
+description = "Parsing tool for massive parsing - stop writing many single parsers."
+readme = {file = "README.md", content-type = "text/markdown"}
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/lukasanukvari/parsify"
+Repository = "https://github.com/lukasanukvari/parsify"
