@@ -1,0 +1,3 @@
+[console_scripts]
+RuheBianxieJqueryChajian = RuheBianxieJqueryChajian.__main__:main
+ruhe-bianxie-jquery-chajian = RuheBianxieJqueryChajian.__main__:main
