@@ -1,0 +1,4 @@
+[console_scripts]
+CaffeGuanfangJiaochengZhongyibenCaffecnShequFanyi = CaffeGuanfangJiaochengZhongyibenCaffecnShequFanyi.__main__:main
+caffe-guanfang-jiaocheng-zhongyiben-caffecn-shequ-fanyi = CaffeGuanfangJiaochengZhongyibenCaffecnShequFanyi.__main__:main
+
