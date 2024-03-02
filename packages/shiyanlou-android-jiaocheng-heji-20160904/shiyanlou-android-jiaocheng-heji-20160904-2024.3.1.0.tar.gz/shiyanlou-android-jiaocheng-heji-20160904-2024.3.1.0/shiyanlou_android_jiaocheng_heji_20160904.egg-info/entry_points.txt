@@ -1,0 +1,3 @@
+[console_scripts]
+ShiyanlouAndroidJiaochengHeji20160904 = ShiyanlouAndroidJiaochengHeji20160904.__main__:main
+shiyanlou-android-jiaocheng-heji-20160904 = ShiyanlouAndroidJiaochengHeji20160904.__main__:main
