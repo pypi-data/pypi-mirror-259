@@ -1,0 +1,10 @@
+XGeoML/__init__.py,sha256=eFcKtkqUJren_i4NefM7WHMHx5zB57ZUJKCiXgBOWrc,142
+XGeoML/fast_train.py,sha256=5_G8-dR4gLnk6sTXdA8gFaY_t5w4nJI153unNwxGiiE,5714
+XGeoML/fasttrain.py,sha256=v8ifOHyDIPFDIbPaAyUgtMuFDQ3gbDZSWPRVeXaMTUI,6214
+XGeoML/preprocess.py,sha256=nznKrv9s4Yt61BXaytPlZeBvtUgNsdf5DDnBmM0hBP4,3707
+XGeoML/train_model.py,sha256=8qCT7vt-c_eVZu7F6kpLZL_wIxIYVwZhv-vws4lXv8c,7280
+XGeoML/w_matrix.py,sha256=VKwsIRbCkG4lsV23B5psYH9vLEE0NSAH81rBiZORBp8,1891
+XGeoML-0.1.5.dist-info/METADATA,sha256=zIWlBhDoqMKLOKKjLzQlTSuhTd-A5bLVPdg1pq3ZiOg,6630
+XGeoML-0.1.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+XGeoML-0.1.5.dist-info/top_level.txt,sha256=QZYvcakhrNn4DQWhuW9SXGJIQ6DqZ_xA_fJ-4qNjQVY,7
+XGeoML-0.1.5.dist-info/RECORD,,
