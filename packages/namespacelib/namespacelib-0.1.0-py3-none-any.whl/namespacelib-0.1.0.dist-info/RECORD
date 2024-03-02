@@ -1,0 +1,13 @@
+namespacelib/__init__.py,sha256=8-aA8_kxZ3-lgHWIHoKQhs6apo0X6sZHmr5DXAWKpcA,177
+namespacelib/_version.py,sha256=qGbsYy4KiK-T9938pDVRD2UXDk1UAHCy_70hCA7DncU,232
+namespacelib/core.py,sha256=mpVpEeDMXCBNHwvVoqQs978joTjkWGWK48ndNhAGM6s,4579
+namespacelib/m4i.py,sha256=UKpufeo9nkdCdAMlyrIgScPhePVntgorEbwUlHnsGW0,12857
+namespacelib/obo.py,sha256=knIzzv3oAyiyNWQYC7a46BJo7TM-NM9MV-BAV--WKmY,2907
+namespacelib/pivmeta.py,sha256=1lj1I21_hUBIHIya8el-pXLLCYgJaGUS2Yl3YrG9QY4,12604
+namespacelib/qudt_kind.py,sha256=hA8lj7-R1MKEysAMsyMfJTXz9O0xGFMe6yTfnkzIVHY,1979527
+namespacelib/qudt_unit.py,sha256=9vMmlzFW1Yey8i5Rqa8oaaMa98L2bm_rwTVLgW_prJ0,2428299
+namespacelib-0.1.0.dist-info/LICENSE,sha256=LTqCPstC3v6vxy6rdGlifIxmr2yg0gHcJsBWgaQSmfM,1092
+namespacelib-0.1.0.dist-info/METADATA,sha256=2soPpmPDrDxKZOEOAXxSC3n85k766lQwwnkeUEYrqLo,2464
+namespacelib-0.1.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+namespacelib-0.1.0.dist-info/top_level.txt,sha256=A6T-GB3dX3IAbcJm5yDXEsi_0_q8uk1246m_wGS0tCE,13
+namespacelib-0.1.0.dist-info/RECORD,,
