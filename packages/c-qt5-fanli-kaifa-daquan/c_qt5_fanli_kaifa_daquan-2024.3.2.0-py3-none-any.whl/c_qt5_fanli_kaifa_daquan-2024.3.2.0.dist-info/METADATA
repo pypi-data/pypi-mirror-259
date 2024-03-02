@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: c-qt5-fanli-kaifa-daquan
+Version: 2024.3.2.0
+Summary: C++ Qt5 范例开发大全
+Home-page: https://github.com/apachecn/c-qt5-fanli-kaifa-daquan
+Author: ApacheCN
+Author-email: apachecn@163.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: Other/Proprietary License
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Text Processing :: Markup :: Markdown
+Classifier: Topic :: Text Processing :: Markup :: HTML
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development :: Documentation
+Classifier: Topic :: Documentation
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# C++ Qt5 范例开发大全
+
+## 下载
+
+### Docker
+
+```
+docker pull apachecn0/c-qt5-fanli-kaifa-daquan
+docker run -tid -p <port>:80 apachecn0/c-qt5-fanli-kaifa-daquan
+# 访问 http://localhost:{port} 查看文档
+```
+
+### PYPI
+
+```
+pip install c-qt5-fanli-kaifa-daquan
+c-qt5-fanli-kaifa-daquan <port>
+# 访问 http://localhost:{port} 查看文档
+```
+
+### NPM
+
+```
+npm install -g c-qt5-fanli-kaifa-daquan
+c-qt5-fanli-kaifa-daquan <port>
+# 访问 http://localhost:{port} 查看文档
+```
+
