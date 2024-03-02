@@ -1,0 +1,4 @@
+[console_scripts]
+QingsongXuexiWeijifenYiyanGudengbao = QingsongXuexiWeijifenYiyanGudengbao.__main__:main
+qingsong-xuexi-weijifen-yiyan-gudengbao = QingsongXuexiWeijifenYiyanGudengbao.__main__:main
+
