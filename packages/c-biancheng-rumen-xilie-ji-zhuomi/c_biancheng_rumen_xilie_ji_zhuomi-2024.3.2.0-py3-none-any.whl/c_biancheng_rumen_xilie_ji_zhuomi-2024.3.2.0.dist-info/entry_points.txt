@@ -1,0 +1,4 @@
+[console_scripts]
+CBianchengRumenXilieJiZhuomi = CBianchengRumenXilieJiZhuomi.__main__:main
+c-biancheng-rumen-xilie-ji-zhuomi = CBianchengRumenXilieJiZhuomi.__main__:main
+
