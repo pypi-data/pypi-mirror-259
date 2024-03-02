@@ -1,0 +1,4 @@
+[console_scripts]
+BuzhouShanzhiduBoCsapp = BuzhouShanzhiduBoCsapp.__main__:main
+buzhou-shanzhidu-bo-csapp = BuzhouShanzhiduBoCsapp.__main__:main
+
