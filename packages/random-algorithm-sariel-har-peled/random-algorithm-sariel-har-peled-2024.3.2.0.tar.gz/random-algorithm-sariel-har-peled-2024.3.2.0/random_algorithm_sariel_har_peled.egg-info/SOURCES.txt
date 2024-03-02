@@ -1,0 +1,12 @@
+README.md
+setup.py
+RandomAlgorithmSarielHarPeled/README.md
+RandomAlgorithmSarielHarPeled/__init__.py
+RandomAlgorithmSarielHarPeled/__main__.py
+RandomAlgorithmSarielHarPeled/file.pdf
+RandomAlgorithmSarielHarPeled/index.html
+random_algorithm_sariel_har_peled.egg-info/PKG-INFO
+random_algorithm_sariel_har_peled.egg-info/SOURCES.txt
+random_algorithm_sariel_har_peled.egg-info/dependency_links.txt
+random_algorithm_sariel_har_peled.egg-info/entry_points.txt
+random_algorithm_sariel_har_peled.egg-info/top_level.txt
