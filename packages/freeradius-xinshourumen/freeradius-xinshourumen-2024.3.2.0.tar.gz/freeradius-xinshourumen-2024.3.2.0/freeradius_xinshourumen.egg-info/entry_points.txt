@@ -1,0 +1,3 @@
+[console_scripts]
+FreeradiusXinshourumen = FreeradiusXinshourumen.__main__:main
+freeradius-xinshourumen = FreeradiusXinshourumen.__main__:main
