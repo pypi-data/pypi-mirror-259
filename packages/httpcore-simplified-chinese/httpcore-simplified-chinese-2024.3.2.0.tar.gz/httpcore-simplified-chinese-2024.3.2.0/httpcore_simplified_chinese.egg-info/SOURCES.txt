@@ -1,0 +1,12 @@
+README.md
+setup.py
+HttpcoreSimplifiedChinese/README.md
+HttpcoreSimplifiedChinese/__init__.py
+HttpcoreSimplifiedChinese/__main__.py
+HttpcoreSimplifiedChinese/file.pdf
+HttpcoreSimplifiedChinese/index.html
+httpcore_simplified_chinese.egg-info/PKG-INFO
+httpcore_simplified_chinese.egg-info/SOURCES.txt
+httpcore_simplified_chinese.egg-info/dependency_links.txt
+httpcore_simplified_chinese.egg-info/entry_points.txt
+httpcore_simplified_chinese.egg-info/top_level.txt
