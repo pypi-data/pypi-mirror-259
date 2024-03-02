@@ -1,0 +1,4 @@
+[console_scripts]
+MysqlChaoXinshourumen = MysqlChaoXinshourumen.__main__:main
+mysql-chao-xinshourumen = MysqlChaoXinshourumen.__main__:main
+
