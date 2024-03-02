@@ -1,0 +1,4 @@
+[console_scripts]
+FoundationsOfProgrammingLanguagesLectureNotesCmu15312 = FoundationsOfProgrammingLanguagesLectureNotesCmu15312.__main__:main
+foundations-of-programming-languages-lecture-notes-cmu-15-312 = FoundationsOfProgrammingLanguagesLectureNotesCmu15312.__main__:main
+
