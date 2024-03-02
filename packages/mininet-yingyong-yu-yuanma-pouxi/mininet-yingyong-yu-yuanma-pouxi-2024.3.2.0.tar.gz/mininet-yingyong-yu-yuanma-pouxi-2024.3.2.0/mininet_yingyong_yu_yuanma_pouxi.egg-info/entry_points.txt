@@ -1,0 +1,4 @@
+[console_scripts]
+MininetYingyongYuYuanmaPouxi = MininetYingyongYuYuanmaPouxi.__main__:main
+mininet-yingyong-yu-yuanma-pouxi = MininetYingyongYuYuanmaPouxi.__main__:main
+
