@@ -1,0 +1,4 @@
+[console_scripts]
+ImplementingALanguageWithLlvm = ImplementingALanguageWithLlvm.__main__:main
+implementing-a-language-with-llvm = ImplementingALanguageWithLlvm.__main__:main
+
