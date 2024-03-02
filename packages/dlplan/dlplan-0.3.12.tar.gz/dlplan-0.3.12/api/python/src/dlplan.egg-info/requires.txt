@@ -1,0 +1,7 @@
+pybind11==2.10.4
+pybind11-global==2.10.4
+state_space_generator==0.1.9
+cmake>=3.21
+
+[test]
+pytest
