@@ -1,0 +1,7 @@
+appdirs
+attrs
+cattrs
+jsonschema
+python-decouple
+ruamel.yaml
+termcolor
