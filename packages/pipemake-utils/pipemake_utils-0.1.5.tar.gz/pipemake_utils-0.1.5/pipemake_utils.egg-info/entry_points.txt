@@ -1,0 +1,6 @@
+[console_scripts]
+filter-gemma = pipemake_utils.filter_gemma:main
+model-category-inds = pipemake_utils.model_category_inds:main
+ped-phenotype-file = pipemake_utils.ped_phenotype_file:main
+process-braker = pipemake_utils.process_braker:main
+
