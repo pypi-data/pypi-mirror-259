@@ -1,0 +1,4 @@
+[console_scripts]
+UltrafastOpticsLectureNotesMit6977 = UltrafastOpticsLectureNotesMit6977.__main__:main
+ultrafast-optics-lecture-notes-mit-6-977 = UltrafastOpticsLectureNotesMit6977.__main__:main
+
