@@ -1,0 +1,4 @@
+[console_scripts]
+GettingStartedWithStormZhongwenban = GettingStartedWithStormZhongwenban.__main__:main
+getting-started-with-storm-zhongwenban = GettingStartedWithStormZhongwenban.__main__:main
+
