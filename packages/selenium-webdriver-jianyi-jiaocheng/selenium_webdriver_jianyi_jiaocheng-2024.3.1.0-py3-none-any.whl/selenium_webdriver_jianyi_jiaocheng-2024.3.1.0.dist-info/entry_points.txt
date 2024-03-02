@@ -1,0 +1,3 @@
+[console_scripts]
+SeleniumWebdriverJianyiJiaocheng = SeleniumWebdriverJianyiJiaocheng.__main__:main
+selenium-webdriver-jianyi-jiaocheng = SeleniumWebdriverJianyiJiaocheng.__main__:main
