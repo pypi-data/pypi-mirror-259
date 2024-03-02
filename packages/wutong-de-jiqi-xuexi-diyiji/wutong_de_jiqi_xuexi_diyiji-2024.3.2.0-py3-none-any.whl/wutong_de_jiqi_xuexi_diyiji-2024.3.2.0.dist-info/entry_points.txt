@@ -1,0 +1,3 @@
+[console_scripts]
+WutongDeJiqiXuexiDiyiji = WutongDeJiqiXuexiDiyiji.__main__:main
+wutong-de-jiqi-xuexi-diyiji = WutongDeJiqiXuexiDiyiji.__main__:main
