@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.py
+src/morseutils/__init__.py
+src/morseutils/player.py
+src/morseutils/translator.py
+src/morseutils.egg-info/PKG-INFO
+src/morseutils.egg-info/SOURCES.txt
+src/morseutils.egg-info/dependency_links.txt
+src/morseutils.egg-info/top_level.txt
+tests/test_translator.py
