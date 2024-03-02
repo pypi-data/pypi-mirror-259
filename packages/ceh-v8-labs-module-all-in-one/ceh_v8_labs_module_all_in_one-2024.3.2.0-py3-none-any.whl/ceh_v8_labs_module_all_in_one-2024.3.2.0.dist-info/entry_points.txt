@@ -1,0 +1,4 @@
+[console_scripts]
+CehV8LabsModuleAllInOne = CehV8LabsModuleAllInOne.__main__:main
+ceh-v8-labs-module-all-in-one = CehV8LabsModuleAllInOne.__main__:main
+
