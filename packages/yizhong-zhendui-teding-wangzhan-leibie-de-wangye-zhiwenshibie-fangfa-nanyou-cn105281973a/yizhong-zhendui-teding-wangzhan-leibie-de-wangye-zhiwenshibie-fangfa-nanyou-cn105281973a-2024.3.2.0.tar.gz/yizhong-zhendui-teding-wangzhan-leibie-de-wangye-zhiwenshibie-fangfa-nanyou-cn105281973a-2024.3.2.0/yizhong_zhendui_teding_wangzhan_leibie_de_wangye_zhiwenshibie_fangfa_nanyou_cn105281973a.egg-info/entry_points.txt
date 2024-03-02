@@ -1,0 +1,4 @@
+[console_scripts]
+YizhongZhenduiTedingWangzhanLeibieDeWangyeZhiwenshibieFangfaNanyouCn105281973a = YizhongZhenduiTedingWangzhanLeibieDeWangyeZhiwenshibieFangfaNanyouCn105281973a.__main__:main
+yizhong-zhendui-teding-wangzhan-leibie-de-wangye-zhiwenshibie-fangfa-nanyou-cn105281973a = YizhongZhenduiTedingWangzhanLeibieDeWangyeZhiwenshibieFangfaNanyouCn105281973a.__main__:main
+
