@@ -1,0 +1,3 @@
+[console_scripts]
+WebglJiaochengZhongwenban = WebglJiaochengZhongwenban.__main__:main
+webgl-jiaocheng-zhongwenban = WebglJiaochengZhongwenban.__main__:main
