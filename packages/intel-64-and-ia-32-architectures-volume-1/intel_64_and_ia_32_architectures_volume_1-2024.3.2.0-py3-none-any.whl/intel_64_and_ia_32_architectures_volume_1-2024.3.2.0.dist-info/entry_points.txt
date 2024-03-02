@@ -1,0 +1,4 @@
+[console_scripts]
+Intel64AndIa32ArchitecturesVolume1 = Intel64AndIa32ArchitecturesVolume1.__main__:main
+intel-64-and-ia-32-architectures-volume-1 = Intel64AndIa32ArchitecturesVolume1.__main__:main
+
