@@ -1,0 +1,4 @@
+[console_scripts]
+DeeplearningaiBijiV51HuanghaiGuang = DeeplearningaiBijiV51HuanghaiGuang.__main__:main
+deeplearningai-biji-v5-1-huanghai-guang = DeeplearningaiBijiV51HuanghaiGuang.__main__:main
+
