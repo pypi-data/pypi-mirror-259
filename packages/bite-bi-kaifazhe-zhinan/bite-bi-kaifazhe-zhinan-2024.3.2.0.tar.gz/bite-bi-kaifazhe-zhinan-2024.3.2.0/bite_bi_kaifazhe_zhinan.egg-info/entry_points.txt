@@ -1,0 +1,4 @@
+[console_scripts]
+BiteBiKaifazheZhinan = BiteBiKaifazheZhinan.__main__:main
+bite-bi-kaifazhe-zhinan = BiteBiKaifazheZhinan.__main__:main
+
