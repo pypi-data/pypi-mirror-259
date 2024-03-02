@@ -1,0 +1,3 @@
+[console_scripts]
+SqliteXuexiShouce = SqliteXuexiShouce.__main__:main
+sqlite-xuexi-shouce = SqliteXuexiShouce.__main__:main
