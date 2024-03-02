@@ -1,0 +1,4 @@
+[console_scripts]
+TheArtOfDataScience = TheArtOfDataScience.__main__:main
+the-art-of-data-science = TheArtOfDataScience.__main__:main
+
