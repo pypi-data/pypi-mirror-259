@@ -1,0 +1,4 @@
+[console_scripts]
+TensorflowGuanfangWendangZhongwenban = TensorflowGuanfangWendangZhongwenban.__main__:main
+tensorflow-guanfang-wendang-zhongwenban = TensorflowGuanfangWendangZhongwenban.__main__:main
+
