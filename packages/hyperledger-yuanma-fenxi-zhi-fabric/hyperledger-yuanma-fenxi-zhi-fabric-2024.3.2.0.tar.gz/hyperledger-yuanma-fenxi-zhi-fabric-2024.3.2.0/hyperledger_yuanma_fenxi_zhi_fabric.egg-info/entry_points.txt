@@ -1,0 +1,4 @@
+[console_scripts]
+HyperledgerYuanmaFenxiZhiFabric = HyperledgerYuanmaFenxiZhiFabric.__main__:main
+hyperledger-yuanma-fenxi-zhi-fabric = HyperledgerYuanmaFenxiZhiFabric.__main__:main
+
