@@ -1,0 +1,3 @@
+[console_scripts]
+ComputationalStatisticsInPython = ComputationalStatisticsInPython.__main__:main
+computational-statistics-in-python = ComputationalStatisticsInPython.__main__:main
