@@ -1,0 +1,3 @@
+[console_scripts]
+RedisShejiYuShixianDierBan = RedisShejiYuShixianDierBan.__main__:main
+redis-sheji-yu-shixian-dier-ban = RedisShejiYuShixianDierBan.__main__:main
