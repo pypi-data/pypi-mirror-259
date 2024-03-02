@@ -1,0 +1,2 @@
+[console_scripts]
+meowcorp = meowcorp.commands:execute_from_command_line
