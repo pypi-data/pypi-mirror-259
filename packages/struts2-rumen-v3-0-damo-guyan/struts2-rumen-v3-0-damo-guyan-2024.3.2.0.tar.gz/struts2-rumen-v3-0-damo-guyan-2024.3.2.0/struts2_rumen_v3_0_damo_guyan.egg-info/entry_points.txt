@@ -1,0 +1,3 @@
+[console_scripts]
+Struts2RumenV30DamoGuyan = Struts2RumenV30DamoGuyan.__main__:main
+struts2-rumen-v3-0-damo-guyan = Struts2RumenV30DamoGuyan.__main__:main
