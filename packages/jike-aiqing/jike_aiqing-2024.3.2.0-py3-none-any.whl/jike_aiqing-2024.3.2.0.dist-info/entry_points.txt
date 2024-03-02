@@ -1,0 +1,3 @@
+[console_scripts]
+JikeAiqing = JikeAiqing.__main__:main
+jike-aiqing = JikeAiqing.__main__:main
