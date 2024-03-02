@@ -1,0 +1,4 @@
+[console_scripts]
+OvercomingIntractabilityInMachineLearningLectureNotesPrincetonCos598d = OvercomingIntractabilityInMachineLearningLectureNotesPrincetonCos598d.__main__:main
+overcoming-intractability-in-machine-learning-lecture-notes-princeton-cos598d = OvercomingIntractabilityInMachineLearningLectureNotesPrincetonCos598d.__main__:main
+
