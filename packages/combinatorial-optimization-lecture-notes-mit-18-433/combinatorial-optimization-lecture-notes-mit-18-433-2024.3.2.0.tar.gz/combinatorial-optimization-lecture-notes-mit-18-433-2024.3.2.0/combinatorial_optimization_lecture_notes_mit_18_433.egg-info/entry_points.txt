@@ -1,0 +1,4 @@
+[console_scripts]
+CombinatorialOptimizationLectureNotesMit18433 = CombinatorialOptimizationLectureNotesMit18433.__main__:main
+combinatorial-optimization-lecture-notes-mit-18-433 = CombinatorialOptimizationLectureNotesMit18433.__main__:main
+
