@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/higher_institutions_ng/Nigerian Higher Institutions.json
+src/higher_institutions_ng/__init__.py
+src/higher_institutions_ng/main.py
+src/higher_institutions_ng.egg-info/PKG-INFO
+src/higher_institutions_ng.egg-info/SOURCES.txt
+src/higher_institutions_ng.egg-info/dependency_links.txt
+src/higher_institutions_ng.egg-info/top_level.txt
+tests/test.py
