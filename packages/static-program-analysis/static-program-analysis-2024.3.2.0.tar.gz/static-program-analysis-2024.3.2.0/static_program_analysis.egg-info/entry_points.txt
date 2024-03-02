@@ -1,0 +1,4 @@
+[console_scripts]
+StaticProgramAnalysis = StaticProgramAnalysis.__main__:main
+static-program-analysis = StaticProgramAnalysis.__main__:main
+

@@ -1,0 +1,12 @@
+README.md
+setup.py
+StaticProgramAnalysis/README.md
+StaticProgramAnalysis/__init__.py
+StaticProgramAnalysis/__main__.py
+StaticProgramAnalysis/file.pdf
+StaticProgramAnalysis/index.html
+static_program_analysis.egg-info/PKG-INFO
+static_program_analysis.egg-info/SOURCES.txt
+static_program_analysis.egg-info/dependency_links.txt
+static_program_analysis.egg-info/entry_points.txt
+static_program_analysis.egg-info/top_level.txt
