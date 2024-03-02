@@ -1,0 +1,4 @@
+[console_scripts]
+CalculusForBeginnersMit = CalculusForBeginnersMit.__main__:main
+calculus-for-beginners-mit = CalculusForBeginnersMit.__main__:main
+
