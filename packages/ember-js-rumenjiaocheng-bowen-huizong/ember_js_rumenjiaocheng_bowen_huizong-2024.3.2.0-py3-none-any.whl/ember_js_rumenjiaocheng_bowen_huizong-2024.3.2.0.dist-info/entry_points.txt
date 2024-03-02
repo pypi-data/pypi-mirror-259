@@ -1,0 +1,3 @@
+[console_scripts]
+EmberJsRumenjiaochengBowenHuizong = EmberJsRumenjiaochengBowenHuizong.__main__:main
+ember-js-rumenjiaocheng-bowen-huizong = EmberJsRumenjiaochengBowenHuizong.__main__:main
