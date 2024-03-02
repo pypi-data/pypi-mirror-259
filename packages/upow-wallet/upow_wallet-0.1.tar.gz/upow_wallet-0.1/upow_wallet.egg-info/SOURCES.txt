@@ -1,0 +1,6 @@
+setup.py
+upow_wallet.egg-info/PKG-INFO
+upow_wallet.egg-info/SOURCES.txt
+upow_wallet.egg-info/dependency_links.txt
+upow_wallet.egg-info/requires.txt
+upow_wallet.egg-info/top_level.txt
