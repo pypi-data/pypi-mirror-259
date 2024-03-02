@@ -1,0 +1,4 @@
+[console_scripts]
+JisuanjichengxuDeSiweiLuojiJavaMiaoshu = JisuanjichengxuDeSiweiLuojiJavaMiaoshu.__main__:main
+jisuanjichengxu-de-siwei-luoji-java-miaoshu = JisuanjichengxuDeSiweiLuojiJavaMiaoshu.__main__:main
+
