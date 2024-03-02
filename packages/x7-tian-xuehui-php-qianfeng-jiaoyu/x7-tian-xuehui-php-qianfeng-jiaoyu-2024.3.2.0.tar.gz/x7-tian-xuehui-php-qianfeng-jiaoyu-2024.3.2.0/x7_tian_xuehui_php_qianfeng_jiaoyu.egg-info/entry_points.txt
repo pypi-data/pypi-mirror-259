@@ -1,0 +1,4 @@
+[console_scripts]
+X7TianXuehuiPhpQianfengJiaoyu = X7TianXuehuiPhpQianfengJiaoyu.__main__:main
+x7-tian-xuehui-php-qianfeng-jiaoyu = X7TianXuehuiPhpQianfengJiaoyu.__main__:main
+
