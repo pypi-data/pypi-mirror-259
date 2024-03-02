@@ -1,0 +1,4 @@
+[console_scripts]
+ProbabilisticMachineLearningDukeSta561 = ProbabilisticMachineLearningDukeSta561.__main__:main
+probabilistic-machine-learning-duke-sta561 = ProbabilisticMachineLearningDukeSta561.__main__:main
+
