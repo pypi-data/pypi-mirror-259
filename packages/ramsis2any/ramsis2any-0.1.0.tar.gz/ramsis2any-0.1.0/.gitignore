@@ -1,0 +1,8 @@
+# pixi environments
+.pixi
+
+build/
+dist/
+.vscode
+output/
+

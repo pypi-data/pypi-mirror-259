@@ -1,0 +1,19 @@
+// AnyScript
+{% macro slug(name) -%}
+    {{ name | replace(" ", "_") | replace("-", "_") }}
+{%- endmacro %}
+
+AnyFolder BodyMass = {
+{% for elem in body_masses %}
+    AnyFloat {{slug(elem.name) }} = {{elem.value}};
+{%- endfor %}
+};
+
+
+AnyFolder ContactMasks = {
+{% for name, mask_array in contact_masks.items() %}
+    AnyInt {{ slug(name) }} = { {%- for d in mask_array %}{{d}}, {% endfor -%} };
+
+
+{%- endfor %}
+};  

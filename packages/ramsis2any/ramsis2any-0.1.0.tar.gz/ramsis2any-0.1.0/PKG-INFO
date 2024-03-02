@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: ramsis2any
+Version: 0.1.0
+Summary: Tool for reading Ramsis files and writing data to AnyScript files
+Author-email: Morten E Lund <mel@anybodytech.com>
+Requires-Python: >= 3.12
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.12
+Requires-Dist: numpy
+Requires-Dist: jinja2
+Requires-Dist: rich
+Requires-Dist: xmltodict
+Requires-Dist: click
+Project-URL: Issue tracker, https://github.com/anybody/ramsis2any/issues
+Project-URL: Source code, https://github.com/anybody/ramsis2any
+
+# Ramsis to AnyScript tools
+
+

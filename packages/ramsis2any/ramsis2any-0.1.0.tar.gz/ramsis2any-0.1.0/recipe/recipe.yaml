@@ -1,0 +1,37 @@
+context:
+  version: "0.1.0"
+
+package:
+  name: ramsis2any
+  version: ${{ version }}
+
+source:
+    path: ../
+
+build:
+  script: python -m pip install .
+  noarch: python
+
+  number: 0
+
+requirements:
+  build:
+      - python
+      - flit
+      - pip
+  run:
+      - python >=3.12
+      - xmltodict
+      - numpy 
+      - jinja2
+      - rich 
+      - click
+
+
+about:
+  homepage: https://www.anybodytech.com/
+  #license: "AnyBody Technology A/S Software License Agreement"
+  #license_file: COPYING
+  summary: "Convert RAMSIS data to AnyScript output"
+  description:   "This package provides a command line tool to convert RAMSIS data to AnyScript output."
+  documentation: https://anybodytech.com/

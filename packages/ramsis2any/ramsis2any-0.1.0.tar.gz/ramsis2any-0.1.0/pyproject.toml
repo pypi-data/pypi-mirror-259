@@ -1,0 +1,44 @@
+
+[project]
+name = "ramsis2any"
+
+readme = "README.md"
+
+authors = [
+    {name = "Morten E Lund", email = "mel@anybodytech.com"},
+]
+
+license.text = "Apache-2.0"
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.12",
+]
+
+requires-python = ">= 3.12"
+
+dependencies = [
+    "numpy", 
+    "jinja2",
+    "rich",
+    "xmltodict",
+    "click",
+]
+
+description = "Tool for reading Ramsis files and writing data to AnyScript files"
+
+dynamic = ["version"]
+
+[project.urls]
+"Source code" = "https://github.com/anybody/ramsis2any"
+"Issue tracker" = "https://github.com/anybody/ramsis2any/issues"
+
+[project.scripts]
+ramsis2any = "ramsis2any.cli:cli"
+
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
