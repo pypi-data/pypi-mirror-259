@@ -1,0 +1,3 @@
+[console_scripts]
+ConglingkaishiXuexiRuanjianLoudongWajueXilieJiaocheng = ConglingkaishiXuexiRuanjianLoudongWajueXilieJiaocheng.__main__:main
+conglingkaishi-xuexi-ruanjian-loudong-wajue-xilie-jiaocheng = ConglingkaishiXuexiRuanjianLoudongWajueXilieJiaocheng.__main__:main
