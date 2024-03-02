@@ -1,0 +1,4 @@
+[console_scripts]
+PlotlyHuituMokuaiZhongwenZhinanDi1Qi = PlotlyHuituMokuaiZhongwenZhinanDi1Qi.__main__:main
+plotly-huitu-mokuai-zhongwen-zhinan-di-1-qi = PlotlyHuituMokuaiZhongwenZhinanDi1Qi.__main__:main
+
