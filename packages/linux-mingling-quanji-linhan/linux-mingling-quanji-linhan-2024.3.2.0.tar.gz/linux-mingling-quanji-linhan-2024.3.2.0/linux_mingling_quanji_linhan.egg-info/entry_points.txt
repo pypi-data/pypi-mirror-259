@@ -1,0 +1,4 @@
+[console_scripts]
+LinuxMinglingQuanjiLinhan = LinuxMinglingQuanjiLinhan.__main__:main
+linux-mingling-quanji-linhan = LinuxMinglingQuanjiLinhan.__main__:main
+
