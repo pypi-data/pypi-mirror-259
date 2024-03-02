@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: easyLang
+Version: 0.0.4
+Summary: Language translations & detections module
+Author: Fizahat
+Requires-Dist: detectlanguage
+Requires-Dist: googletrans
+Requires-Dist: deep-translator
