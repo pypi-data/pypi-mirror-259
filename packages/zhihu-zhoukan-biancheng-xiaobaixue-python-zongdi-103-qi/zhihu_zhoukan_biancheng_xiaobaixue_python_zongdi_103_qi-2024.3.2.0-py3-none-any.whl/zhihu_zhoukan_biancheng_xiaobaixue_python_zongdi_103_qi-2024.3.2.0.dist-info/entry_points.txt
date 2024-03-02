@@ -1,0 +1,3 @@
+[console_scripts]
+ZhihuZhoukanBianchengXiaobaixuePythonZongdi103Qi = ZhihuZhoukanBianchengXiaobaixuePythonZongdi103Qi.__main__:main
+zhihu-zhoukan-biancheng-xiaobaixue-python-zongdi-103-qi = ZhihuZhoukanBianchengXiaobaixuePythonZongdi103Qi.__main__:main
