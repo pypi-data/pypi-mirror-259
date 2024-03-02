@@ -1,0 +1,3 @@
+[console_scripts]
+SeleniumDoc = SeleniumDoc.__main__:main
+selenium-doc = SeleniumDoc.__main__:main
