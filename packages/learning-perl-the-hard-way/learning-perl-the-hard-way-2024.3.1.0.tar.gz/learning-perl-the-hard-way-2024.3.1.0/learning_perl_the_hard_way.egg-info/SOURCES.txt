@@ -1,0 +1,12 @@
+README.md
+setup.py
+LearningPerlTheHardWay/README.md
+LearningPerlTheHardWay/__init__.py
+LearningPerlTheHardWay/__main__.py
+LearningPerlTheHardWay/file.pdf
+LearningPerlTheHardWay/index.html
+learning_perl_the_hard_way.egg-info/PKG-INFO
+learning_perl_the_hard_way.egg-info/SOURCES.txt
+learning_perl_the_hard_way.egg-info/dependency_links.txt
+learning_perl_the_hard_way.egg-info/entry_points.txt
+learning_perl_the_hard_way.egg-info/top_level.txt

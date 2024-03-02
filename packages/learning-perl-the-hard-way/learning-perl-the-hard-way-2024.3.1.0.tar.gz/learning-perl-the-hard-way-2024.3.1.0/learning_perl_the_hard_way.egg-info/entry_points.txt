@@ -1,0 +1,3 @@
+[console_scripts]
+LearningPerlTheHardWay = LearningPerlTheHardWay.__main__:main
+learning-perl-the-hard-way = LearningPerlTheHardWay.__main__:main
