@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: segmentfault-2015-youxiu-wenzhang
+Version: 2024.3.1.0
+Summary: SegmentFault 2015 优秀文章
+Home-page: https://github.com/apachecn/segmentfault-2015-youxiu-wenzhang
+Author: ApacheCN
+Author-email: apachecn@163.com
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: Other/Proprietary License
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Text Processing :: Markup :: Markdown
+Classifier: Topic :: Text Processing :: Markup :: HTML
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development :: Documentation
+Classifier: Topic :: Documentation
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# SegmentFault 2015 优秀文章
+
+## 下载
+
+### Docker
+
+```
+docker pull apachecn0/segmentfault-2015-youxiu-wenzhang
+docker run -tid -p <port>:80 apachecn0/segmentfault-2015-youxiu-wenzhang
+# 访问 http://localhost:{port} 查看文档
+```
+
+### PYPI
+
+```
+pip install segmentfault-2015-youxiu-wenzhang
+segmentfault-2015-youxiu-wenzhang <port>
+# 访问 http://localhost:{port} 查看文档
+```
+
+### NPM
+
+```
+npm install -g segmentfault-erlingyiwu-youxiu-wenzhang
+segmentfault-erlingyiwu-youxiu-wenzhang <port>
+# 访问 http://localhost:{port} 查看文档
+```
