@@ -1,0 +1,12 @@
+tfrecord_slow/__init__.py,sha256=hQXCQkdOEbZMQnU4p7l-Np1ytVP6-AXP-2AbpvTWkQY,70
+tfrecord_slow/__main__.py,sha256=2Ml4Gk-3g-fVKLWxi00wKRxGgoX8x4ui6rgqcIYY4hc,1285
+tfrecord_slow/msgpack.py,sha256=UXTZW3_lUa-Rcbm8YARDfG2c-_x21i8r7ni967nL6DQ,856
+tfrecord_slow/reader.py,sha256=R3ITsqrVSto22uCC3Xg0aHSmF8YZt1hPH-S9uHfx5V8,1999
+tfrecord_slow/writer.py,sha256=seKlfgeNQ1Nhs115_UXR9v3IWj_WLU8xg_Ms8pZcjyA,834
+tfrecord_slow/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tfrecord_slow/utils/loader.py,sha256=ql0GsG_52vJofSF6bFWDoy67qOPyTvW4IcDp4-pb_Ug,1539
+tfrecord_slow/utils/masked_crc.py,sha256=_WIHFMd4qCL8NahQ3Wg1eZjDx6Ne7du4ogrpaY-Ey7M,308
+tfrecord_slow-0.3.2.dist-info/METADATA,sha256=zjewk5frWoEZsaXEBgZSOkdGClRWIzXdZHjKazQJRic,454
+tfrecord_slow-0.3.2.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+tfrecord_slow-0.3.2.dist-info/entry_points.txt,sha256=Mv6LaxUDYt-2AUEuZ1uDN8lxwoW1iJD1zUYDHjwrLk4,46
+tfrecord_slow-0.3.2.dist-info/RECORD,,
