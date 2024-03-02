@@ -1,0 +1,3 @@
+[console_scripts]
+HighchartsZhongwenJiaocheng = HighchartsZhongwenJiaocheng.__main__:main
+highcharts-zhongwen-jiaocheng = HighchartsZhongwenJiaocheng.__main__:main
