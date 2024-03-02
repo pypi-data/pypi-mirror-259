@@ -1,0 +1,4 @@
+[console_scripts]
+ChuKuangrenWindowsQudongBianchengJichujiaocheng = ChuKuangrenWindowsQudongBianchengJichujiaocheng.__main__:main
+chu-kuangren-windows-qudong-biancheng-jichujiaocheng = ChuKuangrenWindowsQudongBianchengJichujiaocheng.__main__:main
+
