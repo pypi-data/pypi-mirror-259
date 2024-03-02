@@ -1,0 +1,4 @@
+[console_scripts]
+ChangWeifenfangchengFengwei = ChangWeifenfangchengFengwei.__main__:main
+chang-weifenfangcheng-fengwei = ChangWeifenfangchengFengwei.__main__:main
+
