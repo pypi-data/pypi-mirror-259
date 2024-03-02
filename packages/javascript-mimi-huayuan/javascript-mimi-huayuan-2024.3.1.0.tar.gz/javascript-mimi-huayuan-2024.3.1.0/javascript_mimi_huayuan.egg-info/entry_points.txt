@@ -1,0 +1,3 @@
+[console_scripts]
+JavascriptMimiHuayuan = JavascriptMimiHuayuan.__main__:main
+javascript-mimi-huayuan = JavascriptMimiHuayuan.__main__:main
