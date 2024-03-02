@@ -1,0 +1,4 @@
+[console_scripts]
+QianduankaifaZheZhinan2017 = QianduankaifaZheZhinan2017.__main__:main
+qianduankaifa-zhe-zhinan-2017 = QianduankaifaZheZhinan2017.__main__:main
+
