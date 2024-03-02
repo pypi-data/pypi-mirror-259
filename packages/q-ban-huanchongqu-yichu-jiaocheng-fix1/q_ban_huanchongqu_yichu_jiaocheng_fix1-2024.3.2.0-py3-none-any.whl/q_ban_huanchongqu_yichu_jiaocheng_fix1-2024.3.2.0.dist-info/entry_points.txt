@@ -1,0 +1,3 @@
+[console_scripts]
+QBanHuanchongquYichuJiaochengFix1 = QBanHuanchongquYichuJiaochengFix1.__main__:main
+q-ban-huanchongqu-yichu-jiaocheng-fix1 = QBanHuanchongquYichuJiaochengFix1.__main__:main
