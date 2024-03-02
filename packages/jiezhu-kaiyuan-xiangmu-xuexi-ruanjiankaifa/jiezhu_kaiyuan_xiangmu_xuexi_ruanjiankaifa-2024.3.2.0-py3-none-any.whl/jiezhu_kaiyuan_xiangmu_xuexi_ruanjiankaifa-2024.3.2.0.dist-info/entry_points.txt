@@ -1,0 +1,4 @@
+[console_scripts]
+JiezhuKaiyuanXiangmuXuexiRuanjiankaifa = JiezhuKaiyuanXiangmuXuexiRuanjiankaifa.__main__:main
+jiezhu-kaiyuan-xiangmu-xuexi-ruanjiankaifa = JiezhuKaiyuanXiangmuXuexiRuanjiankaifa.__main__:main
+
