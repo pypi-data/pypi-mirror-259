@@ -1,0 +1,11 @@
+setup.py
+paquete-prueba-Eli-1/__init__.py
+paquete-prueba-Eli-1/resta.py
+paquete-prueba-Eli-1/suma.py
+paquete-prueba-Eli-1/extras/__init__.py
+paquete-prueba-Eli-1/extras/divide.py
+paquete-prueba-Eli-1/extras/multiplica.py
+paquete_prueba_Eli_1.egg-info/PKG-INFO
+paquete_prueba_Eli_1.egg-info/SOURCES.txt
+paquete_prueba_Eli_1.egg-info/dependency_links.txt
+paquete_prueba_Eli_1.egg-info/top_level.txt
