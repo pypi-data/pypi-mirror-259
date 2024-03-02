@@ -1,0 +1,4 @@
+[console_scripts]
+TansuoEs6WeiWan = TansuoEs6WeiWan.__main__:main
+tansuo-es6-wei-wan = TansuoEs6WeiWan.__main__:main
+
