@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: yizhong-zhendui-teding-wangzhan-leibie-de-wangye-zhiwenshibie-fangfa-nanyou-cn105281973a
+Version: 2024.3.2.0
+Summary: 一种针对特定网站类别的网页指纹识别方法 （南邮 CN105281973A）
+Home-page: https://github.com/apachecn/yizhong-zhendui-teding-wangzhan-leibie-de-wangye-zhiwenshibie-fangfa-nanyou-cn105281973a
+Author: ApacheCN
+Author-email: apachecn@163.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: Other/Proprietary License
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Text Processing :: Markup :: Markdown
+Classifier: Topic :: Text Processing :: Markup :: HTML
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development :: Documentation
+Classifier: Topic :: Documentation
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# 一种针对特定网站类别的网页指纹识别方法 （南邮 CN105281973A）
+
+## 下载
+
+### Docker
+
+```
+docker pull apachecn0/yizhong-zhendui-teding-wangzhan-leibie-de-wangye-zhiwenshibie-fangfa-nanyou-cn105281973a
+docker run -tid -p <port>:80 apachecn0/yizhong-zhendui-teding-wangzhan-leibie-de-wangye-zhiwenshibie-fangfa-nanyou-cn105281973a
+# 访问 http://localhost:{port} 查看文档
+```
+
+### PYPI
+
+```
+pip install yizhong-zhendui-teding-wangzhan-leibie-de-wangye-zhiwenshibie-fangfa-nanyou-cn105281973a
+yizhong-zhendui-teding-wangzhan-leibie-de-wangye-zhiwenshibie-fangfa-nanyou-cn105281973a <port>
+# 访问 http://localhost:{port} 查看文档
+```
+
+### NPM
+
+```
+npm install -g yizhong-zhendui-teding-wangzhan-leibie-de-wangye-zhiwenshibie-fangfa-nanyou-cnyilingwuerbayijiuqisana
+yizhong-zhendui-teding-wangzhan-leibie-de-wangye-zhiwenshibie-fangfa-nanyou-cnyilingwuerbayijiuqisana <port>
+# 访问 http://localhost:{port} 查看文档
+```
+
