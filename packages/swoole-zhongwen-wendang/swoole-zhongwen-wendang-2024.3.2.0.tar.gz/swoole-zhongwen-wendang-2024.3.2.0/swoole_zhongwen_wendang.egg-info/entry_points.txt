@@ -1,0 +1,4 @@
+[console_scripts]
+SwooleZhongwenWendang = SwooleZhongwenWendang.__main__:main
+swoole-zhongwen-wendang = SwooleZhongwenWendang.__main__:main
+
