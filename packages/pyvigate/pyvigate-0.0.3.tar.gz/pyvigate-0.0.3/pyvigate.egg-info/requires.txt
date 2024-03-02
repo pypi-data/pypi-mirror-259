@@ -1,0 +1,10 @@
+pytest-playwright
+beautifulsoup4
+python-dotenv
+llama_index
+mkdocs
+mkdocstrings
+
+[docs]
+sphinx>=3.0
+sphinx_rtd_theme
