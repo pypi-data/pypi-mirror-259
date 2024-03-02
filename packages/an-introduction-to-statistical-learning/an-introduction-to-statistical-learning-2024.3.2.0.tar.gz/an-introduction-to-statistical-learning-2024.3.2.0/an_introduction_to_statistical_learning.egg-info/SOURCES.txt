@@ -1,0 +1,12 @@
+README.md
+setup.py
+AnIntroductionToStatisticalLearning/README.md
+AnIntroductionToStatisticalLearning/__init__.py
+AnIntroductionToStatisticalLearning/__main__.py
+AnIntroductionToStatisticalLearning/file.pdf
+AnIntroductionToStatisticalLearning/index.html
+an_introduction_to_statistical_learning.egg-info/PKG-INFO
+an_introduction_to_statistical_learning.egg-info/SOURCES.txt
+an_introduction_to_statistical_learning.egg-info/dependency_links.txt
+an_introduction_to_statistical_learning.egg-info/entry_points.txt
+an_introduction_to_statistical_learning.egg-info/top_level.txt
