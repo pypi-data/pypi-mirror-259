@@ -1,0 +1,11 @@
+setup.py
+../LICENSE
+../NOTICE
+src/autogluon-tonyhu-test/_internal_/__init__.py
+src/autogluon_tonyhu_test.egg-info/PKG-INFO
+src/autogluon_tonyhu_test.egg-info/SOURCES.txt
+src/autogluon_tonyhu_test.egg-info/dependency_links.txt
+src/autogluon_tonyhu_test.egg-info/namespace_packages.txt
+src/autogluon_tonyhu_test.egg-info/requires.txt
+src/autogluon_tonyhu_test.egg-info/top_level.txt
+src/autogluon_tonyhu_test.egg-info/zip-safe
