@@ -1,0 +1,4 @@
+[console_scripts]
+TensorflowJiaochengHvass = TensorflowJiaochengHvass.__main__:main
+tensorflow-jiaocheng-hvass = TensorflowJiaochengHvass.__main__:main
+
