@@ -1,0 +1,4 @@
+[console_scripts]
+SpringMvc424ReleaseZhongwenWendang = SpringMvc424ReleaseZhongwenWendang.__main__:main
+spring-mvc-4-2-4-release-zhongwen-wendang = SpringMvc424ReleaseZhongwenWendang.__main__:main
+
