@@ -1,0 +1,4 @@
+[console_scripts]
+AdvancedAlgorithmDesignLectureNotesPrincetonCos521 = AdvancedAlgorithmDesignLectureNotesPrincetonCos521.__main__:main
+advanced-algorithm-design-lecture-notes-princeton-cos521 = AdvancedAlgorithmDesignLectureNotesPrincetonCos521.__main__:main
+
