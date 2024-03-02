@@ -1,0 +1,3 @@
+[console_scripts]
+ScipyCookbookFix1 = ScipyCookbookFix1.__main__:main
+scipy-cookbook-fix1 = ScipyCookbookFix1.__main__:main
