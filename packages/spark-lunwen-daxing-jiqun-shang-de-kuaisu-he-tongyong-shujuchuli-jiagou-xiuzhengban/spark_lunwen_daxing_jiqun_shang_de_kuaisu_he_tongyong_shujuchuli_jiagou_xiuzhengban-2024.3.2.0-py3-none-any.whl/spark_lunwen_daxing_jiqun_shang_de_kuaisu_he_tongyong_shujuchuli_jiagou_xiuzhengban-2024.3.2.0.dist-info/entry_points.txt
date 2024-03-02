@@ -1,0 +1,4 @@
+[console_scripts]
+SparkLunwenDaxingJiqunShangDeKuaisuHeTongyongShujuchuliJiagouXiuzhengban = SparkLunwenDaxingJiqunShangDeKuaisuHeTongyongShujuchuliJiagouXiuzhengban.__main__:main
+spark-lunwen-daxing-jiqun-shang-de-kuaisu-he-tongyong-shujuchuli-jiagou-xiuzhengban = SparkLunwenDaxingJiqunShangDeKuaisuHeTongyongShujuchuliJiagouXiuzhengban.__main__:main
+
