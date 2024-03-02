@@ -1,0 +1,3 @@
+[console_scripts]
+miminstaller=split_utils.split_utils.miminstaller:install_mmdet
+
