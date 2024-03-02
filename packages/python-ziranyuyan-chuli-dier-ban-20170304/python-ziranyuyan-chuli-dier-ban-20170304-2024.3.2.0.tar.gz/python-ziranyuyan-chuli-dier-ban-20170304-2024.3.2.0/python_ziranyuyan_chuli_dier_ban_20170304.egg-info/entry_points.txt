@@ -1,0 +1,4 @@
+[console_scripts]
+PythonZiranyuyanChuliDierBan20170304 = PythonZiranyuyanChuliDierBan20170304.__main__:main
+python-ziranyuyan-chuli-dier-ban-20170304 = PythonZiranyuyanChuliDierBan20170304.__main__:main
+
