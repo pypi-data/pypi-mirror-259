@@ -1,0 +1,8 @@
+soil_power_sensor_protobuf/__init__.py,sha256=EfyKwEuqqGkbdJT-w_AgyX_LV_gH1gmQ1jtJVsvu9qY,169
+soil_power_sensor_protobuf/decode.py,sha256=U11S46_Q98wDVy_La3oXOOTavRaND6sv1CIDNY_RLHI,1994
+soil_power_sensor_protobuf/encode.py,sha256=Zz_3om6qTA2hPDpe7QjteMUQQRazVzUcp-i8QVnJMas,2707
+soil_power_sensor_protobuf/soil_power_sensor_pb2.py,sha256=Ldw97RgfTnQjZqkmRYYHxPJtx8l3jSD49lDcVWaCUKM,2348
+soil_power_sensor_protobuf-0.0.4.dist-info/METADATA,sha256=dydUCGiNnbbDmY3sBZBjasHwjM2wOmKJMuq1ABwg4cY,2662
+soil_power_sensor_protobuf-0.0.4.dist-info/WHEEL,sha256=TJPnKdtrSue7xZ_AVGkp9YXcvDrobsjBds1du3Nx6dc,87
+soil_power_sensor_protobuf-0.0.4.dist-info/licenses/LICENSE,sha256=2WLObzfS99jXXcPS5INqnmDVZ1nlO8Rj8mzQn2xkn14,1086
+soil_power_sensor_protobuf-0.0.4.dist-info/RECORD,,
