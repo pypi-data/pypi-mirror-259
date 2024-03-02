@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+themes.json
+winfetch.py
+winfetch_py.egg-info/PKG-INFO
+winfetch_py.egg-info/SOURCES.txt
+winfetch_py.egg-info/dependency_links.txt
+winfetch_py.egg-info/top_level.txt
