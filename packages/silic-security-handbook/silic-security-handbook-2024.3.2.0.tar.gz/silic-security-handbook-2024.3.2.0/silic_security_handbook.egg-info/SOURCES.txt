@@ -1,0 +1,12 @@
+README.md
+setup.py
+SilicSecurityHandbook/README.md
+SilicSecurityHandbook/__init__.py
+SilicSecurityHandbook/__main__.py
+SilicSecurityHandbook/file.pdf
+SilicSecurityHandbook/index.html
+silic_security_handbook.egg-info/PKG-INFO
+silic_security_handbook.egg-info/SOURCES.txt
+silic_security_handbook.egg-info/dependency_links.txt
+silic_security_handbook.egg-info/entry_points.txt
+silic_security_handbook.egg-info/top_level.txt
