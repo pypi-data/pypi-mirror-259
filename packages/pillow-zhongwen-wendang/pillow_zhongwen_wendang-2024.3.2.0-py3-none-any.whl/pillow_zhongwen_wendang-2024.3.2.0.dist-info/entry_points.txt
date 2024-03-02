@@ -1,0 +1,3 @@
+[console_scripts]
+PillowZhongwenWendang = PillowZhongwenWendang.__main__:main
+pillow-zhongwen-wendang = PillowZhongwenWendang.__main__:main
