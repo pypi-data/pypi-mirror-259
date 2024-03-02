@@ -1,0 +1,11 @@
+setup.py
+paqueteelirm/__init__.py
+paqueteelirm/resta.py
+paqueteelirm/suma.py
+paqueteelirm.egg-info/PKG-INFO
+paqueteelirm.egg-info/SOURCES.txt
+paqueteelirm.egg-info/dependency_links.txt
+paqueteelirm.egg-info/top_level.txt
+paqueteelirm/extras/__init__.py
+paqueteelirm/extras/divide.py
+paqueteelirm/extras/multiplica.py
