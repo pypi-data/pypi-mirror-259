@@ -1,0 +1,3 @@
+[console_scripts]
+JavaBianchengYaodian = JavaBianchengYaodian.__main__:main
+java-biancheng-yaodian = JavaBianchengYaodian.__main__:main
