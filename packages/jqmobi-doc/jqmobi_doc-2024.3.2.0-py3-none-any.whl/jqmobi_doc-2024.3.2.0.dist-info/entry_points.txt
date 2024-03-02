@@ -1,0 +1,3 @@
+[console_scripts]
+JqmobiDoc = JqmobiDoc.__main__:main
+jqmobi-doc = JqmobiDoc.__main__:main
