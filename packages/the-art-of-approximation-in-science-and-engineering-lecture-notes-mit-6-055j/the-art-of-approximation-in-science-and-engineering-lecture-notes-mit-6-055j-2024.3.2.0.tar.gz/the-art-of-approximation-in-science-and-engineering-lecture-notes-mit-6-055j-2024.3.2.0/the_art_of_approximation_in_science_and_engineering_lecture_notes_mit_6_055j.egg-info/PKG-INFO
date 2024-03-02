@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: the-art-of-approximation-in-science-and-engineering-lecture-notes-mit-6-055j
+Version: 2024.3.2.0
+Summary: The Art of Approximation in Science and Engineering Lecture Notes (MIT 6.055J)
+Home-page: https://github.com/apachecn/the-art-of-approximation-in-science-and-engineering-lecture-notes-mit-6-055j
+Author: ApacheCN
+Author-email: apachecn@163.com
+License: UNKNOWN
+Description: # The Art of Approximation in Science and Engineering Lecture Notes (MIT 6.055J)
+        
+        ## 下载
+        
+        ### Docker
+        
+        ```
+        docker pull apachecn0/the-art-of-approximation-in-science-and-engineering-lecture-notes-mit-6-055j
+        docker run -tid -p <port>:80 apachecn0/the-art-of-approximation-in-science-and-engineering-lecture-notes-mit-6-055j
+        # 访问 http://localhost:{port} 查看文档
+        ```
+        
+        ### PYPI
+        
+        ```
+        pip install the-art-of-approximation-in-science-and-engineering-lecture-notes-mit-6-055j
+        the-art-of-approximation-in-science-and-engineering-lecture-notes-mit-6-055j <port>
+        # 访问 http://localhost:{port} 查看文档
+        ```
+        
+        ### NPM
+        
+        ```
+        npm install -g the-art-of-approximation-in-science-and-engineering-lecture-notes-mit-6-lingwuwuj
+        the-art-of-approximation-in-science-and-engineering-lecture-notes-mit-6-lingwuwuj <port>
+        # 访问 http://localhost:{port} 查看文档
+        ```
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: Other/Proprietary License
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Text Processing :: Markup :: Markdown
+Classifier: Topic :: Text Processing :: Markup :: HTML
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development :: Documentation
+Classifier: Topic :: Documentation
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

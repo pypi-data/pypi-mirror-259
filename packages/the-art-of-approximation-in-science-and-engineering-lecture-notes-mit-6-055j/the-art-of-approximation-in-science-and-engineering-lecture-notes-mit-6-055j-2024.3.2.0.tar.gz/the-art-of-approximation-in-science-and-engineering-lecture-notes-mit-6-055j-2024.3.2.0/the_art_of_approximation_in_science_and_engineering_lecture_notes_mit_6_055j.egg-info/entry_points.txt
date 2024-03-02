@@ -1,0 +1,4 @@
+[console_scripts]
+TheArtOfApproximationInScienceAndEngineeringLectureNotesMit6055j = TheArtOfApproximationInScienceAndEngineeringLectureNotesMit6055j.__main__:main
+the-art-of-approximation-in-science-and-engineering-lecture-notes-mit-6-055j = TheArtOfApproximationInScienceAndEngineeringLectureNotesMit6055j.__main__:main
+
