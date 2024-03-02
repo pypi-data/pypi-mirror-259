@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: shpiyu-greet
+Version: 0.1.0
+Summary: A simple package to greet the user.
+Home-page: https://github.com/shpiyu/greet
+Author: Piyush Ranjan
+Author-email: piyushranjan95@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+UNKNOWN
+

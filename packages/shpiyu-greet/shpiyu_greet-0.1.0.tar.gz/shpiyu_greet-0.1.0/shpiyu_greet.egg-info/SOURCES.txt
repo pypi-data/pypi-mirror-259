@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+greet/__init__.py
+greet/main.py
+shpiyu_greet.egg-info/PKG-INFO
+shpiyu_greet.egg-info/SOURCES.txt
+shpiyu_greet.egg-info/dependency_links.txt
+shpiyu_greet.egg-info/top_level.txt
