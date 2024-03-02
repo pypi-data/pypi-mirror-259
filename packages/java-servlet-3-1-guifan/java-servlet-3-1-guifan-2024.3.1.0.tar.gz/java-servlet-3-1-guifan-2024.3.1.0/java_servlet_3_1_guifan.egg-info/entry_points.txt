@@ -1,0 +1,3 @@
+[console_scripts]
+JavaServlet31Guifan = JavaServlet31Guifan.__main__:main
+java-servlet-3-1-guifan = JavaServlet31Guifan.__main__:main
