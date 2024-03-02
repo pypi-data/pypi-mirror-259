@@ -1,0 +1,3 @@
+[console_scripts]
+WerkzeugZhongwenWendang = WerkzeugZhongwenWendang.__main__:main
+werkzeug-zhongwen-wendang = WerkzeugZhongwenWendang.__main__:main
