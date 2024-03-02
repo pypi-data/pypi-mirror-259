@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: nendo-plugin-import-core
+Version: 0.1.0
+Summary: A plugin for importing NendoTracks and NendoCollections from the web. Works with youtube links and direct downloads currently.
+Home-page: https://nendo.ai
+License: MIT
+Keywords: AI,generative,music,okio,nendo,music retrieval,web crawling
+Author: Aaron Abebe
+Author-email: aaron@okio.ai
+Requires-Python: >=3.8,<3.11
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Multimedia :: Sound/Audio
+Requires-Dist: nendo (>=0.2.1,<0.3.0)
+Requires-Dist: pydantic (>=2.4.2,<3.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: tqdm (>=4.65.0,<5.0.0)
+Requires-Dist: yt_dlp (>=2023.11.16,<2024.0.0)
+Project-URL: Repository, https://github.com/okio-ai/nendo_plugin_import_core
+Description-Content-Type: text/markdown
+
+# Nendo Plugin Import Core
+
+<br>
+<p align="left">
+    <img src="https://okio.ai/docs/assets/nendo_core_logo.png" width="350" alt="nendo core">
+</p>
+<br>
+
+<p align="left">
+<a href="https://okio.ai" target="_blank">
+    <img src="https://img.shields.io/website/https/okio.ai" alt="Website">
+</a>
+<a href="https://twitter.com/okio_ai" target="_blank">
+    <img src="https://img.shields.io/twitter/url/https/twitter.com/okio_ai.svg?style=social&label=Follow%20%40okio_ai" alt="Twitter">
+</a>
+<a href="https://discord.gg/gaZMZKzScj" target="_blank">
+    <img src="https://dcbadge.vercel.app/api/server/XpkUsjwXTp?compact=true&style=flat" alt="Discord">
+</a>
+</p>
+
+---
+
+A plugin for importing NendoTracks and NendoCollections from the web. Works with youtube links and direct downloads currently.
+
+## Features
+
+- Import tracks from youtube and other supported sites. 
+- Directly import tracks from file links.
+
+## Installation
+
+```bash
+pip install nendo-plugin-import-core
+```
+
+## Usage
+```pycon
+>>> from nendo import Nendo
+>>> nd = Nendo(plugins=["nendo_plugin_import_core"])
+
+>>> tracks = nd.plugins.import_core(links=["https://www.youtube.com/watch?v=6JYIGclVQdw"])
+>>> tracks[0].play()
+```
+
+    
