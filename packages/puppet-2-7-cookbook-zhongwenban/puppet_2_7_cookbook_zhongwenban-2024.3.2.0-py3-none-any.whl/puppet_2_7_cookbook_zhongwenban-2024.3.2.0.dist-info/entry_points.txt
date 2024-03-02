@@ -1,0 +1,3 @@
+[console_scripts]
+Puppet27CookbookZhongwenban = Puppet27CookbookZhongwenban.__main__:main
+puppet-2-7-cookbook-zhongwenban = Puppet27CookbookZhongwenban.__main__:main
