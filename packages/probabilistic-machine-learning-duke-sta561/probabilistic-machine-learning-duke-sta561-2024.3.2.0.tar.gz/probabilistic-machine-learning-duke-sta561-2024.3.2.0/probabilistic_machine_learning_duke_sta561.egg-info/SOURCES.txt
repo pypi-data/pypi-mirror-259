@@ -1,0 +1,12 @@
+README.md
+setup.py
+ProbabilisticMachineLearningDukeSta561/README.md
+ProbabilisticMachineLearningDukeSta561/__init__.py
+ProbabilisticMachineLearningDukeSta561/__main__.py
+ProbabilisticMachineLearningDukeSta561/file.pdf
+ProbabilisticMachineLearningDukeSta561/index.html
+probabilistic_machine_learning_duke_sta561.egg-info/PKG-INFO
+probabilistic_machine_learning_duke_sta561.egg-info/SOURCES.txt
+probabilistic_machine_learning_duke_sta561.egg-info/dependency_links.txt
+probabilistic_machine_learning_duke_sta561.egg-info/entry_points.txt
+probabilistic_machine_learning_duke_sta561.egg-info/top_level.txt
