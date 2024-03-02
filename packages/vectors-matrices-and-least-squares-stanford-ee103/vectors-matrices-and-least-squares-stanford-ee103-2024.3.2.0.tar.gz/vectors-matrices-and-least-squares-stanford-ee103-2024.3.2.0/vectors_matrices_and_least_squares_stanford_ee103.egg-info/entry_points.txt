@@ -1,0 +1,4 @@
+[console_scripts]
+VectorsMatricesAndLeastSquaresStanfordEe103 = VectorsMatricesAndLeastSquaresStanfordEe103.__main__:main
+vectors-matrices-and-least-squares-stanford-ee103 = VectorsMatricesAndLeastSquaresStanfordEe103.__main__:main
+
