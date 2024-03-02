@@ -1,0 +1,3 @@
+[console_scripts]
+IpythonJiaohushiJisuanHeShujuKeshihua = IpythonJiaohushiJisuanHeShujuKeshihua.__main__:main
+ipython-jiaohushi-jisuan-he-shuju-keshihua = IpythonJiaohushiJisuanHeShujuKeshihua.__main__:main
