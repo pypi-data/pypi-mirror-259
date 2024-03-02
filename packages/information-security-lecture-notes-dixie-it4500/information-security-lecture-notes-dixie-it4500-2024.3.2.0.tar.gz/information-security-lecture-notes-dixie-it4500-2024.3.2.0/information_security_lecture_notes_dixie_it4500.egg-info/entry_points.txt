@@ -1,0 +1,4 @@
+[console_scripts]
+InformationSecurityLectureNotesDixieIt4500 = InformationSecurityLectureNotesDixieIt4500.__main__:main
+information-security-lecture-notes-dixie-it4500 = InformationSecurityLectureNotesDixieIt4500.__main__:main
+
