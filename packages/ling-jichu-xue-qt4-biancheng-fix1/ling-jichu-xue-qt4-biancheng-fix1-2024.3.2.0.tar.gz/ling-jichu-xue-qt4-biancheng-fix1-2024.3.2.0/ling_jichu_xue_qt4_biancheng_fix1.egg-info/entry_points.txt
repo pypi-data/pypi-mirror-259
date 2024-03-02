@@ -1,0 +1,3 @@
+[console_scripts]
+LingJichuXueQt4BianchengFix1 = LingJichuXueQt4BianchengFix1.__main__:main
+ling-jichu-xue-qt4-biancheng-fix1 = LingJichuXueQt4BianchengFix1.__main__:main
