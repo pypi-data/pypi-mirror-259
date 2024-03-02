@@ -1,0 +1,3 @@
+detectlanguage
+googletrans
+deep-translator
