@@ -1,0 +1,4 @@
+[console_scripts]
+MarkdownYufaShuoming = MarkdownYufaShuoming.__main__:main
+markdown-yufa-shuoming = MarkdownYufaShuoming.__main__:main
+
