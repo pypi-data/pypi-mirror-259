@@ -1,0 +1,7 @@
+include requirements.txt
+include README.rst
+include LICENSE.txt
+include calculateForces_benchmark.py
+graft docs
+recursive-exclude docs/_build *
+graft tscw_module/ffmpeg
