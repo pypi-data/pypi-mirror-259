@@ -1,0 +1,3 @@
+[console_scripts]
+LinuxInsideZhongwenban = LinuxInsideZhongwenban.__main__:main
+linux-inside-zhongwenban = LinuxInsideZhongwenban.__main__:main
