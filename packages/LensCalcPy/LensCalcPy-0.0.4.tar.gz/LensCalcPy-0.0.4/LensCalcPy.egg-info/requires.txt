@@ -1,0 +1,10 @@
+numpy
+scipy
+matplotlib
+astropy
+pathos
+tqdm
+pandas
+seaborn
+
+[dev]
