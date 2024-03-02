@@ -1,0 +1,4 @@
+[console_scripts]
+IntroductionToTheoryOfComputingLectureNotesCornellCs4810 = IntroductionToTheoryOfComputingLectureNotesCornellCs4810.__main__:main
+introduction-to-theory-of-computing-lecture-notes-cornell-cs4810 = IntroductionToTheoryOfComputingLectureNotesCornellCs4810.__main__:main
+
