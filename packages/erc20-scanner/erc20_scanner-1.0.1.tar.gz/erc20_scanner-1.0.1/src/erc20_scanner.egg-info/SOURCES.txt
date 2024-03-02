@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+src/erc20_scanner/__init__.py
+src/erc20_scanner.egg-info/PKG-INFO
+src/erc20_scanner.egg-info/SOURCES.txt
+src/erc20_scanner.egg-info/dependency_links.txt
+src/erc20_scanner.egg-info/requires.txt
+src/erc20_scanner.egg-info/top_level.txt
