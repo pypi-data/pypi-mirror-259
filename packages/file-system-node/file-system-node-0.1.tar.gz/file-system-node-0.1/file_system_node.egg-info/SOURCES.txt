@@ -1,0 +1,9 @@
+setup.py
+file_system_node.egg-info/PKG-INFO
+file_system_node.egg-info/SOURCES.txt
+file_system_node.egg-info/dependency_links.txt
+file_system_node.egg-info/top_level.txt
+src/__init__.py
+src/fileSystemNode.py
+src/internalFunctions/__init__.py
+src/internalFunctions/predicates.py
