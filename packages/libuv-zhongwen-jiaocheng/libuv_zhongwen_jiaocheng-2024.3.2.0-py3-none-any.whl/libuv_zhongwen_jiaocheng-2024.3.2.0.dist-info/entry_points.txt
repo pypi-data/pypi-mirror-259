@@ -1,0 +1,3 @@
+[console_scripts]
+LibuvZhongwenJiaocheng = LibuvZhongwenJiaocheng.__main__:main
+libuv-zhongwen-jiaocheng = LibuvZhongwenJiaocheng.__main__:main
