@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/hello_world_ary.egg-info/PKG-INFO
+src/hello_world_ary.egg-info/SOURCES.txt
+src/hello_world_ary.egg-info/dependency_links.txt
+src/hello_world_ary.egg-info/top_level.txt
