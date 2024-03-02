@@ -1,0 +1,4 @@
+[console_scripts]
+CBestPractices = CBestPractices.__main__:main
+c-best-practices = CBestPractices.__main__:main
+
