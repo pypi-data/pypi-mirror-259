@@ -1,0 +1,4 @@
+[console_scripts]
+AlgorithmsModelsOfComputationLectureNotesUiucCs374 = AlgorithmsModelsOfComputationLectureNotesUiucCs374.__main__:main
+algorithms-models-of-computation-lecture-notes-uiuc-cs374 = AlgorithmsModelsOfComputationLectureNotesUiucCs374.__main__:main
+
