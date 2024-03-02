@@ -1,0 +1,4 @@
+[console_scripts]
+MicrosoftKeyizhiKezhixingwenjianHeTongyongMubiaoWenjiangeshiWenjianGuifan = MicrosoftKeyizhiKezhixingwenjianHeTongyongMubiaoWenjiangeshiWenjianGuifan.__main__:main
+microsoft-keyizhi-kezhixingwenjian-he-tongyong-mubiao-wenjiangeshi-wenjian-guifan = MicrosoftKeyizhiKezhixingwenjianHeTongyongMubiaoWenjiangeshiWenjianGuifan.__main__:main
+
