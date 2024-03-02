@@ -1,0 +1,4 @@
+[console_scripts]
+PythonJichujiaochengCrossinQuan60Ke = PythonJichujiaochengCrossinQuan60Ke.__main__:main
+python-jichujiaocheng-crossin-quan-60-ke = PythonJichujiaochengCrossinQuan60Ke.__main__:main
+
