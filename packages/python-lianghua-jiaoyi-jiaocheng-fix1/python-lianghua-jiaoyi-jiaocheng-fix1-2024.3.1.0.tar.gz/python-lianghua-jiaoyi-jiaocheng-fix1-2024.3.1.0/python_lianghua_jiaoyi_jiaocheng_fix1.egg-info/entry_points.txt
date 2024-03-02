@@ -1,0 +1,3 @@
+[console_scripts]
+PythonLianghuaJiaoyiJiaochengFix1 = PythonLianghuaJiaoyiJiaochengFix1.__main__:main
+python-lianghua-jiaoyi-jiaocheng-fix1 = PythonLianghuaJiaoyiJiaochengFix1.__main__:main
