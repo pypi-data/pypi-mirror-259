@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: dnevnik-mos-ru-api
+Version: 1.2.7
+Summary: API for dnevnik.mos.ru
+Author: RedGuy
+License: MIT
+Description-Content-Type: text/markdown
+Requires-Dist: playwright==1.41.2
+Requires-Dist: aiohttp==3.9.3
+Requires-Dist: mintotp==0.3.0
+Requires-Dist: pytz==2024.1
+
+# Dnevnik.mos.ru
+Официальный порт библиотеки [dnevnik-mos-ru-api](https://github.com/RedGuyRu/DnevnikApi) на Python.
+
+## Установка
+
+```bash
+pip install dnevnik-mos-ru-api
+```
