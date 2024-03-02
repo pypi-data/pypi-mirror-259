@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "midjounery-python-sdk"
+version = "0.1.0"
+description = "Python client for the unofficial MidJourney API."
+authors = ["ezioruan <ezioruan@gmail.com>"]
+readme = "README.md"
+packages = [{include = "*.py"}]
+homepage="https://github.com/ezioruan/midjourney-python-api"
+repository="https://github.com/ezioruan/midjourney-python-api"
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
