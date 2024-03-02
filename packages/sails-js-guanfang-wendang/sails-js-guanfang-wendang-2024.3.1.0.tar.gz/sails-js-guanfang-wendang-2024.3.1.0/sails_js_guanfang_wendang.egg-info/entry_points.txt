@@ -1,0 +1,3 @@
+[console_scripts]
+SailsJsGuanfangWendang = SailsJsGuanfangWendang.__main__:main
+sails-js-guanfang-wendang = SailsJsGuanfangWendang.__main__:main
