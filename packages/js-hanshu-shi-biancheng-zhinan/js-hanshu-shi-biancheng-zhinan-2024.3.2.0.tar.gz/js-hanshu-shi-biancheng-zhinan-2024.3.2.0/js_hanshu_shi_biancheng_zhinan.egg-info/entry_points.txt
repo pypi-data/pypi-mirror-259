@@ -1,0 +1,4 @@
+[console_scripts]
+JsHanshuShiBianchengZhinan = JsHanshuShiBianchengZhinan.__main__:main
+js-hanshu-shi-biancheng-zhinan = JsHanshuShiBianchengZhinan.__main__:main
+
