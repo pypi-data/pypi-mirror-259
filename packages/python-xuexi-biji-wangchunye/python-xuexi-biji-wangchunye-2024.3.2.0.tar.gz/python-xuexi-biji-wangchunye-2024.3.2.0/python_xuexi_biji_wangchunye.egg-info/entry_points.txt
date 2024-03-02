@@ -1,0 +1,4 @@
+[console_scripts]
+PythonXuexiBijiWangchunye = PythonXuexiBijiWangchunye.__main__:main
+python-xuexi-biji-wangchunye = PythonXuexiBijiWangchunye.__main__:main
+
