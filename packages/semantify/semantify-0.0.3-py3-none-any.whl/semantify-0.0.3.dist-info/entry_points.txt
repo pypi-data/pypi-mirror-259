@@ -1,0 +1,4 @@
+[console_scripts]
+semantify=semantify.semantify:main
+test=semantify.run_tests:main
+
