@@ -1,0 +1,4 @@
+[console_scripts]
+PythonJingyaoCankaoDierBan = PythonJingyaoCankaoDierBan.__main__:main
+python-jingyao-cankao-dier-ban = PythonJingyaoCankaoDierBan.__main__:main
+
