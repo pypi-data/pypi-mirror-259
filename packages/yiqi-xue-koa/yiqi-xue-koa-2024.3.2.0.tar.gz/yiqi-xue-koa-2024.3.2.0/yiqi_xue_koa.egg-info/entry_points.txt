@@ -1,0 +1,3 @@
+[console_scripts]
+YiqiXueKoa = YiqiXueKoa.__main__:main
+yiqi-xue-koa = YiqiXueKoa.__main__:main
