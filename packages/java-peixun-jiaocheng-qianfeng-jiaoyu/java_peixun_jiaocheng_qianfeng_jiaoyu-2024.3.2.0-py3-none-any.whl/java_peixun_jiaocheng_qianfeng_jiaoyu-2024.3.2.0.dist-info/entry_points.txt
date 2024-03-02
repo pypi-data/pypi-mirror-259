@@ -1,0 +1,4 @@
+[console_scripts]
+JavaPeixunJiaochengQianfengJiaoyu = JavaPeixunJiaochengQianfengJiaoyu.__main__:main
+java-peixun-jiaocheng-qianfeng-jiaoyu = JavaPeixunJiaochengQianfengJiaoyu.__main__:main
+
