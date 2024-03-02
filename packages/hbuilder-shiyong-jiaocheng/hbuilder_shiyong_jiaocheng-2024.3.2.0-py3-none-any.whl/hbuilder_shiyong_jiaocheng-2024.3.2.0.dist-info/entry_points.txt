@@ -1,0 +1,4 @@
+[console_scripts]
+HbuilderShiyongJiaocheng = HbuilderShiyongJiaocheng.__main__:main
+hbuilder-shiyong-jiaocheng = HbuilderShiyongJiaocheng.__main__:main
+
