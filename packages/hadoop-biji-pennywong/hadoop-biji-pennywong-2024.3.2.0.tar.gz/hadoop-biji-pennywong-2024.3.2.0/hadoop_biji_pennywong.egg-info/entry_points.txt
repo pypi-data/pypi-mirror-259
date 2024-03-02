@@ -1,0 +1,4 @@
+[console_scripts]
+HadoopBijiPennywong = HadoopBijiPennywong.__main__:main
+hadoop-biji-pennywong = HadoopBijiPennywong.__main__:main
+
