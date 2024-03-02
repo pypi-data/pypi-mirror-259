@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: parsify
+Version: 1.5
+Summary: Parsing tool for massive parsing - stop writing many single parsers.
+Project-URL: Homepage, https://github.com/lukasanukvari/parsify
+Author-email: Luka Sosiashvili <luksosiashvili@gmail.com>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+To Be Created
