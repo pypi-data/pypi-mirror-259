@@ -1,0 +1,4 @@
+[console_scripts]
+MitXianxingdaishuBijiZishi = MitXianxingdaishuBijiZishi.__main__:main
+mit-xianxingdaishu-biji-zishi = MitXianxingdaishuBijiZishi.__main__:main
+
