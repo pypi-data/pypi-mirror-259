@@ -1,0 +1,4 @@
+[console_scripts]
+RandomAlgorithmSarielHarPeled = RandomAlgorithmSarielHarPeled.__main__:main
+random-algorithm-sariel-har-peled = RandomAlgorithmSarielHarPeled.__main__:main
+
