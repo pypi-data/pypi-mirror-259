@@ -1,0 +1,4 @@
+[console_scripts]
+ShegongYanjiuzuWenzhangZhengli2017223 = ShegongYanjiuzuWenzhangZhengli2017223.__main__:main
+shegong-yanjiuzu-wenzhang-zhengli-2017-2-23 = ShegongYanjiuzuWenzhangZhengli2017223.__main__:main
+
