@@ -1,0 +1,10 @@
+LICENCE
+README.md
+pyproject.toml
+BinResearchTools.egg-info/PKG-INFO
+BinResearchTools.egg-info/SOURCES.txt
+BinResearchTools.egg-info/dependency_links.txt
+BinResearchTools.egg-info/requires.txt
+BinResearchTools.egg-info/top_level.txt
+general/__init__.py
+general/file_tool.py
