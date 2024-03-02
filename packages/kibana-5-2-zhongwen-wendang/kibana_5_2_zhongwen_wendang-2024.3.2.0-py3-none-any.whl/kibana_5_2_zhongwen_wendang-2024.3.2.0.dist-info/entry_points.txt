@@ -1,0 +1,4 @@
+[console_scripts]
+Kibana52ZhongwenWendang = Kibana52ZhongwenWendang.__main__:main
+kibana-5-2-zhongwen-wendang = Kibana52ZhongwenWendang.__main__:main
+
