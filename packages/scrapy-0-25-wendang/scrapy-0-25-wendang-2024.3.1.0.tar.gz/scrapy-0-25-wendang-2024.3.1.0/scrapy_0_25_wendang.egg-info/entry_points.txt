@@ -1,0 +1,3 @@
+[console_scripts]
+Scrapy025Wendang = Scrapy025Wendang.__main__:main
+scrapy-0-25-wendang = Scrapy025Wendang.__main__:main
