@@ -1,0 +1,3 @@
+[console_scripts]
+TheforgerSWin32ApiJiaochengDierBanJiantizhongwen = TheforgerSWin32ApiJiaochengDierBanJiantizhongwen.__main__:main
+theforger-s-win32-api-jiaocheng-dier-ban-jiantizhongwen = TheforgerSWin32ApiJiaochengDierBanJiantizhongwen.__main__:main
