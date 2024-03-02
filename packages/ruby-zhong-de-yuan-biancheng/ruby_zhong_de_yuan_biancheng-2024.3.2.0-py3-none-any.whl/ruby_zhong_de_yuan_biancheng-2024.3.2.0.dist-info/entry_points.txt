@@ -1,0 +1,3 @@
+[console_scripts]
+RubyZhongDeYuanBiancheng = RubyZhongDeYuanBiancheng.__main__:main
+ruby-zhong-de-yuan-biancheng = RubyZhongDeYuanBiancheng.__main__:main
