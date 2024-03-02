@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: linera
+Version: 0.0.0
+Summary: Linera SDK in Python
+Author: yallxe
+License: MIT
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# linera
