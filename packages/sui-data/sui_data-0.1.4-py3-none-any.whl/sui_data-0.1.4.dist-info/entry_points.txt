@@ -1,0 +1,2 @@
+[console_scripts]
+sui = sui_data.cli:cli
