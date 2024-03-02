@@ -1,0 +1,4 @@
+[console_scripts]
+ExtZhongwenShoucePjq = ExtZhongwenShoucePjq.__main__:main
+ext-zhongwen-shouce-pjq = ExtZhongwenShoucePjq.__main__:main
+

@@ -1,0 +1,12 @@
+README.md
+setup.py
+ExtZhongwenShoucePjq/README.md
+ExtZhongwenShoucePjq/__init__.py
+ExtZhongwenShoucePjq/__main__.py
+ExtZhongwenShoucePjq/file.pdf
+ExtZhongwenShoucePjq/index.html
+ext_zhongwen_shouce_pjq.egg-info/PKG-INFO
+ext_zhongwen_shouce_pjq.egg-info/SOURCES.txt
+ext_zhongwen_shouce_pjq.egg-info/dependency_links.txt
+ext_zhongwen_shouce_pjq.egg-info/entry_points.txt
+ext_zhongwen_shouce_pjq.egg-info/top_level.txt
