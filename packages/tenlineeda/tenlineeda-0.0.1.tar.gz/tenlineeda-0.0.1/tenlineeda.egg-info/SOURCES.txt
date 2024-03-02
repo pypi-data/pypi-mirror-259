@@ -1,0 +1,5 @@
+setup.py
+tenlineeda.egg-info/PKG-INFO
+tenlineeda.egg-info/SOURCES.txt
+tenlineeda.egg-info/dependency_links.txt
+tenlineeda.egg-info/top_level.txt
