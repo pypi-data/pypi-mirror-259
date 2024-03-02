@@ -1,0 +1,3 @@
+[console_scripts]
+TypescriptHandbookZhongwenban = TypescriptHandbookZhongwenban.__main__:main
+typescript-handbook-zhongwenban = TypescriptHandbookZhongwenban.__main__:main
