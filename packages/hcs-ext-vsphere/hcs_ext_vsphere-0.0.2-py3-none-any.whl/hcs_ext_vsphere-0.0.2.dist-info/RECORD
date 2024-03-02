@@ -1,0 +1,14 @@
+hcs_ext_vsphere/provider/__init__.py,sha256=0l8PAW3Ejumqf-VgOlmzeksEVD5_2HYSFOrankrDdas,62
+hcs_ext_vsphere/provider/lib_ovf.py,sha256=nar5JR2unU11feTCcso4TyYyNKf6S9AedcXojo7WeYc,1332
+hcs_ext_vsphere/provider/vm.py,sha256=O7X7c6vBwZERhgQpnRqxug3szGDRbkBCRTPxkKAOz_w,1855
+hcs_ext_vsphere/provider/vc/__init__.py,sha256=eRFmYprR3YPwjUJd2g-FD8UJGU__e0OEvfzIDYojdac,67
+hcs_ext_vsphere/provider/vc/contentlib.py,sha256=7PnXJU8JM-Ea8o7-pvFwcqrOJS25Js4dEtmAjYkh5-c,1876
+hcs_ext_vsphere/provider/vc/datacenter.py,sha256=p8O1awsEkrOsOqbt2pw8Rawj39YAR_xrmXjuQz7lv_w,181
+hcs_ext_vsphere/provider/vc/govc.py,sha256=Iqzp1UUQs_gRm_165FDlS_XrCxdetnYUzNLz3yZ_1ks,1977
+hcs_ext_vsphere/provider/vc/service.py,sha256=EkdNi9JcAYPMF4nWVAqDD6154kITt1ZtdHnwNsAqRzM,319
+hcs_ext_vsphere/provider/vc/vm.py,sha256=jLt5ZX2Th2aWHLSMWUQEvYH1YbJTQNKYf1MbQbRBiJQ,1717
+hcs_ext_vsphere/templates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hcs_ext_vsphere-0.0.2.dist-info/METADATA,sha256=O_PVtxL94VTP3qdlePJyt4iHEbj_mTTxZ2a6tqrVfwQ,870
+hcs_ext_vsphere-0.0.2.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+hcs_ext_vsphere-0.0.2.dist-info/top_level.txt,sha256=vPVS2-I6p3PapBT4sVpFlK-3I3oxVrZkkzAfa3_Dt1Q,16
+hcs_ext_vsphere-0.0.2.dist-info/RECORD,,
