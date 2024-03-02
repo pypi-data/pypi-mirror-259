@@ -1,0 +1,3 @@
+[console_scripts]
+PhpAnquanJichuXiangjie = PhpAnquanJichuXiangjie.__main__:main
+php-anquan-jichu-xiangjie = PhpAnquanJichuXiangjie.__main__:main
