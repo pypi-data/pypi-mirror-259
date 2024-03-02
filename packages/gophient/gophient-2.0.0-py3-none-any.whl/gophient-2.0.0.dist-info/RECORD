@@ -1,0 +1,8 @@
+gophient/__init__.py,sha256=wJp0b9gLGbKTbP-N3CRoNPLlIoZR-MpDdusiC3bkyQ0,434
+gophient/const.py,sha256=6d8C7v_hmS3LC3LsQfXda9jsAGV4jfTo8yFl204tWJk,668
+gophient/exc.py,sha256=5AcjqPtheCUkwcAxlBZpV98yaYjCMc2Eb_DwA9X74F4,881
+gophient/types.py,sha256=lGoeq_O0gadvLbQf_OF6s6JIyT4MB0R7aM91bHvbvYw,5700
+gophient-2.0.0.dist-info/LICENSE,sha256=2FWUOVhsUWVOw8aOW01jo_0fh0ufeWmwbc1SXo1X8_0,1078
+gophient-2.0.0.dist-info/METADATA,sha256=S69oUhuSKmw4qhbiivPgCC2VAz22XmW1OhTuRgZ6tqY,2951
+gophient-2.0.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+gophient-2.0.0.dist-info/RECORD,,
