@@ -1,0 +1,3 @@
+[console_scripts]
+Html5Specification = Html5Specification.__main__:main
+html5-specification = Html5Specification.__main__:main
