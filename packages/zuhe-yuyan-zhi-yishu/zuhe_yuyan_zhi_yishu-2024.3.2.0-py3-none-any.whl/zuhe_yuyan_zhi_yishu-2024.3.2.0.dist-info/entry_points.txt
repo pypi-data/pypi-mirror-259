@@ -1,0 +1,4 @@
+[console_scripts]
+ZuheYuyanZhiYishu = ZuheYuyanZhiYishu.__main__:main
+zuhe-yuyan-zhi-yishu = ZuheYuyanZhiYishu.__main__:main
+
