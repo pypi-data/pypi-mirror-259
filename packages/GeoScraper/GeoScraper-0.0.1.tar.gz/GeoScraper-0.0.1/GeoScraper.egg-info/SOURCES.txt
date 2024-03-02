@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+GeoScraper/__init__.py
+GeoScraper.egg-info/PKG-INFO
+GeoScraper.egg-info/SOURCES.txt
+GeoScraper.egg-info/dependency_links.txt
+GeoScraper.egg-info/requires.txt
+GeoScraper.egg-info/top_level.txt
