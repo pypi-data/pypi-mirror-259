@@ -1,0 +1,3 @@
+[console_scripts]
+IntroductionToProgrammingUsingJava7e = IntroductionToProgrammingUsingJava7e.__main__:main
+introduction-to-programming-using-java-7e = IntroductionToProgrammingUsingJava7e.__main__:main
