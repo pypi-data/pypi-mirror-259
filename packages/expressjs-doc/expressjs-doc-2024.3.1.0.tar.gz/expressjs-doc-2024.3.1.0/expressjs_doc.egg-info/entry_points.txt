@@ -1,0 +1,3 @@
+[console_scripts]
+ExpressjsDoc = ExpressjsDoc.__main__:main
+expressjs-doc = ExpressjsDoc.__main__:main
