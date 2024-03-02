@@ -1,0 +1,4 @@
+[console_scripts]
+Vs2010MfcBianchengRumenJiZhuomi = Vs2010MfcBianchengRumenJiZhuomi.__main__:main
+vs2010-mfc-biancheng-rumen-ji-zhuomi = Vs2010MfcBianchengRumenJiZhuomi.__main__:main
+
