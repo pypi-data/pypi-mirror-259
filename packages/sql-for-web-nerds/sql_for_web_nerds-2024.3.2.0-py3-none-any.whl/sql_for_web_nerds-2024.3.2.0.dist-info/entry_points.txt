@@ -1,0 +1,4 @@
+[console_scripts]
+SqlForWebNerds = SqlForWebNerds.__main__:main
+sql-for-web-nerds = SqlForWebNerds.__main__:main
+
