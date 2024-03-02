@@ -1,0 +1,4 @@
+[console_scripts]
+JavaBingfaDeYishuInfoq = JavaBingfaDeYishuInfoq.__main__:main
+java-bingfa-de-yishu-infoq = JavaBingfaDeYishuInfoq.__main__:main
+
