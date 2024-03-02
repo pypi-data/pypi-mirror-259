@@ -1,0 +1,4 @@
+[console_scripts]
+QmlbookZhongwenban = QmlbookZhongwenban.__main__:main
+qmlbook-zhongwenban = QmlbookZhongwenban.__main__:main
+
