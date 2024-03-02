@@ -1,0 +1,4 @@
+[console_scripts]
+ImobilebbsCodesmithJiaocheng = ImobilebbsCodesmithJiaocheng.__main__:main
+imobilebbs-codesmith-jiaocheng = ImobilebbsCodesmithJiaocheng.__main__:main
+
