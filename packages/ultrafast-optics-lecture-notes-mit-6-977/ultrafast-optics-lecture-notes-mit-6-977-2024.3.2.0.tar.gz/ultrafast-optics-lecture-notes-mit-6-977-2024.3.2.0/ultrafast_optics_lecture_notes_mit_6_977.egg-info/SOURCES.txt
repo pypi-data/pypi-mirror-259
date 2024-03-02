@@ -1,0 +1,12 @@
+README.md
+setup.py
+UltrafastOpticsLectureNotesMit6977/README.md
+UltrafastOpticsLectureNotesMit6977/__init__.py
+UltrafastOpticsLectureNotesMit6977/__main__.py
+UltrafastOpticsLectureNotesMit6977/file.pdf
+UltrafastOpticsLectureNotesMit6977/index.html
+ultrafast_optics_lecture_notes_mit_6_977.egg-info/PKG-INFO
+ultrafast_optics_lecture_notes_mit_6_977.egg-info/SOURCES.txt
+ultrafast_optics_lecture_notes_mit_6_977.egg-info/dependency_links.txt
+ultrafast_optics_lecture_notes_mit_6_977.egg-info/entry_points.txt
+ultrafast_optics_lecture_notes_mit_6_977.egg-info/top_level.txt
