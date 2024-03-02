@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+kitsai/__init__.py
+kitsai/token.py
+kitsai.egg-info/PKG-INFO
+kitsai.egg-info/SOURCES.txt
+kitsai.egg-info/dependency_links.txt
+kitsai.egg-info/top_level.txt
