@@ -1,0 +1,3 @@
+[console_scripts]
+QianrushiLinuxZhishiku = QianrushiLinuxZhishiku.__main__:main
+qianrushi-linux-zhishiku = QianrushiLinuxZhishiku.__main__:main
