@@ -1,0 +1,3 @@
+[console_scripts]
+SphinxZhongwenWendang = SphinxZhongwenWendang.__main__:main
+sphinx-zhongwen-wendang = SphinxZhongwenWendang.__main__:main
