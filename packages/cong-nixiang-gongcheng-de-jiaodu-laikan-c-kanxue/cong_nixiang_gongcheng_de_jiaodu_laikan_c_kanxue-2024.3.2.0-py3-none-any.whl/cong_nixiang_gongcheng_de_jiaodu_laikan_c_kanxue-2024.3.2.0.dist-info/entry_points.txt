@@ -1,0 +1,4 @@
+[console_scripts]
+CongNixiangGongchengDeJiaoduLaikanCKanxue = CongNixiangGongchengDeJiaoduLaikanCKanxue.__main__:main
+cong-nixiang-gongcheng-de-jiaodu-laikan-c-kanxue = CongNixiangGongchengDeJiaoduLaikanCKanxue.__main__:main
+
