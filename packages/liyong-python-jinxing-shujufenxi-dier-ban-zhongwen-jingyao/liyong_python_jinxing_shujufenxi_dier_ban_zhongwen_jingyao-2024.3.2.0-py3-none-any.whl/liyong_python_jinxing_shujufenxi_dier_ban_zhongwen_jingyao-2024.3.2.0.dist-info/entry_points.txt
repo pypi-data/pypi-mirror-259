@@ -1,0 +1,4 @@
+[console_scripts]
+LiyongPythonJinxingShujufenxiDierBanZhongwenJingyao = LiyongPythonJinxingShujufenxiDierBanZhongwenJingyao.__main__:main
+liyong-python-jinxing-shujufenxi-dier-ban-zhongwen-jingyao = LiyongPythonJinxingShujufenxiDierBanZhongwenJingyao.__main__:main
+
