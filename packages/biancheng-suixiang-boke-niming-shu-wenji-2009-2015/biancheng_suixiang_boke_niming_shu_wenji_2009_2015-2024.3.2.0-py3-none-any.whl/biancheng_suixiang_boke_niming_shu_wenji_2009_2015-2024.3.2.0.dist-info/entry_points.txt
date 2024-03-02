@@ -1,0 +1,4 @@
+[console_scripts]
+BianchengSuixiangBokeNimingShuWenji20092015 = BianchengSuixiangBokeNimingShuWenji20092015.__main__:main
+biancheng-suixiang-boke-niming-shu-wenji-2009-2015 = BianchengSuixiangBokeNimingShuWenji20092015.__main__:main
+
