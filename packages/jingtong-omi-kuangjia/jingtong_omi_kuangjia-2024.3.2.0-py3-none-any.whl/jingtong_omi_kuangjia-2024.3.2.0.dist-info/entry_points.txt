@@ -1,0 +1,4 @@
+[console_scripts]
+JingtongOmiKuangjia = JingtongOmiKuangjia.__main__:main
+jingtong-omi-kuangjia = JingtongOmiKuangjia.__main__:main
+
