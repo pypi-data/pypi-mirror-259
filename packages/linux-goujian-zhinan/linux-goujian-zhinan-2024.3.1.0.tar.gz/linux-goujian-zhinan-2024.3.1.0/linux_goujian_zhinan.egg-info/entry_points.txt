@@ -1,0 +1,3 @@
+[console_scripts]
+LinuxGoujianZhinan = LinuxGoujianZhinan.__main__:main
+linux-goujian-zhinan = LinuxGoujianZhinan.__main__:main
