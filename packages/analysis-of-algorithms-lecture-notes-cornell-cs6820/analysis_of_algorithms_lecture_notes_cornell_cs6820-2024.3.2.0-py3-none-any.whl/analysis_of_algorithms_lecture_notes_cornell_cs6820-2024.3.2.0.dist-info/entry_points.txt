@@ -1,0 +1,4 @@
+[console_scripts]
+AnalysisOfAlgorithmsLectureNotesCornellCs6820 = AnalysisOfAlgorithmsLectureNotesCornellCs6820.__main__:main
+analysis-of-algorithms-lecture-notes-cornell-cs6820 = AnalysisOfAlgorithmsLectureNotesCornellCs6820.__main__:main
+
