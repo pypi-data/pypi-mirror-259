@@ -1,0 +1,4 @@
+[console_scripts]
+AbstractInterpretation = AbstractInterpretation.__main__:main
+abstract-interpretation = AbstractInterpretation.__main__:main
+
