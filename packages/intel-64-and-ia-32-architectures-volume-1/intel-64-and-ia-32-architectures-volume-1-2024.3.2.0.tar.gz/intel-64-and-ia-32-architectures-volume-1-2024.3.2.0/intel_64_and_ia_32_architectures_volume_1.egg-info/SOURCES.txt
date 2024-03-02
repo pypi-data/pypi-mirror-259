@@ -1,0 +1,12 @@
+README.md
+setup.py
+Intel64AndIa32ArchitecturesVolume1/README.md
+Intel64AndIa32ArchitecturesVolume1/__init__.py
+Intel64AndIa32ArchitecturesVolume1/__main__.py
+Intel64AndIa32ArchitecturesVolume1/file.pdf
+Intel64AndIa32ArchitecturesVolume1/index.html
+intel_64_and_ia_32_architectures_volume_1.egg-info/PKG-INFO
+intel_64_and_ia_32_architectures_volume_1.egg-info/SOURCES.txt
+intel_64_and_ia_32_architectures_volume_1.egg-info/dependency_links.txt
+intel_64_and_ia_32_architectures_volume_1.egg-info/entry_points.txt
+intel_64_and_ia_32_architectures_volume_1.egg-info/top_level.txt
