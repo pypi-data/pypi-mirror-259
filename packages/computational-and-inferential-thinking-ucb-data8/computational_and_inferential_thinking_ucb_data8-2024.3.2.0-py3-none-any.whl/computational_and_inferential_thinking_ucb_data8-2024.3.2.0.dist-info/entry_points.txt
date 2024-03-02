@@ -1,0 +1,4 @@
+[console_scripts]
+ComputationalAndInferentialThinkingUcbData8 = ComputationalAndInferentialThinkingUcbData8.__main__:main
+computational-and-inferential-thinking-ucb-data8 = ComputationalAndInferentialThinkingUcbData8.__main__:main
+
