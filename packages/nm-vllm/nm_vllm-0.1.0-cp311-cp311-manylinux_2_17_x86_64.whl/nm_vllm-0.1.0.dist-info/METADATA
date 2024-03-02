@@ -1,0 +1,116 @@
+Metadata-Version: 2.1
+Name: nm-vllm
+Version: 0.1.0
+Summary: A high-throughput and memory-efficient inference and serving engine for LLMs
+Home-page: https://github.com/neuralmagic/nm-vllm
+Author: vLLM Team, Neural Magic
+Author-email: support@neuralmagic.com
+License: Neural Magic Community License
+Project-URL: Homepage, https://github.com/neuralmagic/nm-vllm
+Project-URL: Documentation, https://vllm.readthedocs.io/en/latest/
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: licenses/LICENSE.apache
+License-File: licenses/LICENSE.awq
+License-File: licenses/LICENSE.fastertransformer
+License-File: licenses/LICENSE.gptq
+License-File: licenses/LICENSE.marlin
+License-File: licenses/LICENSE.punica
+License-File: licenses/LICENSE.squeezellm
+License-File: licenses/LICENSE.tensorrtllm
+License-File: licenses/LICENSE.vllm
+Requires-Dist: ninja
+Requires-Dist: psutil
+Requires-Dist: ray >=2.9
+Requires-Dist: sentencepiece
+Requires-Dist: numpy
+Requires-Dist: torch ==2.1.2
+Requires-Dist: transformers >=4.38.0
+Requires-Dist: xformers ==0.0.23.post1
+Requires-Dist: fastapi
+Requires-Dist: uvicorn[standard]
+Requires-Dist: pydantic >=2.0
+Requires-Dist: aioprometheus[starlette]
+Requires-Dist: pynvml ==11.5.0
+Requires-Dist: triton >=2.1.0
+Requires-Dist: cupy-cuda12x ==12.1.0
+Provides-Extra: sparse
+Requires-Dist: nm-magic-wand ; extra == 'sparse'
+Provides-Extra: sparsity
+Requires-Dist: nm-magic-wand ; extra == 'sparsity'
+
+# Neural Magic vLLM
+
+## About
+
+[vLLM](https://github.com/vllm-project/vllm) is a fast and easy-to-use library for LLM inference and serving that Neural Magic regularly lands upstream improvements to. This fork is our opinionated focus on the latest LLM optimizations, such as quantization and sparsity.
+
+## Installation
+
+`nm-vllm` is a Python library that contained pre-compiled C++ and CUDA (12.1) binaries.
+
+Install it using pip:
+```bash
+pip install nm-vllm
+```
+
+In order to use the weight-sparsity kernels, like through `sparsity="sparse_w16a16"`, install the extras using:
+```bash
+pip install nm-vllm[sparsity]
+```
+
+You can also build and install `nm-vllm` from source (this will take ~10 minutes):
+```bash
+git clone https://github.com/neuralmagic/nm-vllm.git
+cd nm-vllm
+pip install -e .
+```
+
+## Quickstart
+
+There are many sparse models already pushed up on our HF organization profiles, [neuralmagic](https://huggingface.co/neuralmagic) and [nm-testing](https://huggingface.co/nm-testing). You can find [this collection of SparseGPT models ready for inference](https://huggingface.co/collections/nm-testing/sparsegpt-llms-65ca6def5495933ab05cd439).
+
+Here is a smoke test using a small test `llama2-110M` model train on storytelling:
+
+```python
+from vllm import LLM, SamplingParams
+
+model = LLM(
+    "nm-testing/llama2.c-stories110M-pruned2.4", 
+    sparsity="sparse_w16a16",   # If left off, model will be loaded as dense
+)
+
+sampling_params = SamplingParams(max_tokens=100, temperature=0)
+outputs = model.generate("Hello my name is", sampling_params=sampling_params)
+print(outputs[0].outputs[0].text)
+```
+
+Here is a more realistic example of running a 50% sparse OpenHermes 2.5 Mistral 7B model finetuned for instruction-following:
+
+```python
+from vllm import LLM, SamplingParams
+
+model = LLM(
+    "nm-testing/OpenHermes-2.5-Mistral-7B-pruned50",
+    sparsity="sparse_w16a16",
+    max_model_len=1024
+)
+
+sampling_params = SamplingParams(max_tokens=100, temperature=0)
+outputs = model.generate("Hello my name is", sampling_params=sampling_params)
+print(outputs[0].outputs[0].text)
+```
+
+You can also quickly use the same flow with an OpenAI-compatible model server:
+```bash
+python -m vllm.entrypoints.openai.api_server \
+    --model nm-testing/OpenHermes-2.5-Mistral-7B-pruned50 \
+    --sparsity sparse_w16a16
+```
