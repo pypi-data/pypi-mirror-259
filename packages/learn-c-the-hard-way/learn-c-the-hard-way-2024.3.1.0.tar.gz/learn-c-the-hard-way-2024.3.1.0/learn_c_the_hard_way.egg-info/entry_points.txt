@@ -1,0 +1,3 @@
+[console_scripts]
+LearnCTheHardWay = LearnCTheHardWay.__main__:main
+learn-c-the-hard-way = LearnCTheHardWay.__main__:main
