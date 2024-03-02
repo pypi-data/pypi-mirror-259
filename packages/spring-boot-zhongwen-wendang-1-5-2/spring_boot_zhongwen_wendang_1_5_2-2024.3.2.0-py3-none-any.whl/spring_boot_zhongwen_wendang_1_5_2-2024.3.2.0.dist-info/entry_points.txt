@@ -1,0 +1,4 @@
+[console_scripts]
+SpringBootZhongwenWendang152 = SpringBootZhongwenWendang152.__main__:main
+spring-boot-zhongwen-wendang-1-5-2 = SpringBootZhongwenWendang152.__main__:main
+
