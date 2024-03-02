@@ -1,0 +1,4 @@
+[console_scripts]
+NumpyZhongwenWendang11120170215 = NumpyZhongwenWendang11120170215.__main__:main
+numpy-zhongwen-wendang-1-11-20170215 = NumpyZhongwenWendang11120170215.__main__:main
+
