@@ -1,0 +1,4 @@
+[console_scripts]
+HomekitAppKaifaZhinan = HomekitAppKaifaZhinan.__main__:main
+homekit-app-kaifa-zhinan = HomekitAppKaifaZhinan.__main__:main
+
