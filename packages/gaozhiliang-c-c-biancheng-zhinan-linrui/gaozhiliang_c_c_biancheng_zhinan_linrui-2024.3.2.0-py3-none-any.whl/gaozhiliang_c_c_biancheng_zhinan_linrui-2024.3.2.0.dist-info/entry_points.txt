@@ -1,0 +1,4 @@
+[console_scripts]
+GaozhiliangCCBianchengZhinanLinrui = GaozhiliangCCBianchengZhinanLinrui.__main__:main
+gaozhiliang-c-c-biancheng-zhinan-linrui = GaozhiliangCCBianchengZhinanLinrui.__main__:main
+
