@@ -1,0 +1,4 @@
+[console_scripts]
+MofanShujuchuliJiaocheng2017510 = MofanShujuchuliJiaocheng2017510.__main__:main
+mofan-shujuchuli-jiaocheng-2017-5-10 = MofanShujuchuliJiaocheng2017510.__main__:main
+
