@@ -1,0 +1,4 @@
+[console_scripts]
+MatplotlibRumenjiaocheng = MatplotlibRumenjiaocheng.__main__:main
+matplotlib-rumenjiaocheng = MatplotlibRumenjiaocheng.__main__:main
+
