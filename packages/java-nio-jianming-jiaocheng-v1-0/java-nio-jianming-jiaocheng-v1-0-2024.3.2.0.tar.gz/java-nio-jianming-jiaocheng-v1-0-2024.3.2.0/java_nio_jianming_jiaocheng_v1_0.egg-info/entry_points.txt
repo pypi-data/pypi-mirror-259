@@ -1,0 +1,3 @@
+[console_scripts]
+JavaNioJianmingJiaochengV10 = JavaNioJianmingJiaochengV10.__main__:main
+java-nio-jianming-jiaocheng-v1-0 = JavaNioJianmingJiaochengV10.__main__:main
