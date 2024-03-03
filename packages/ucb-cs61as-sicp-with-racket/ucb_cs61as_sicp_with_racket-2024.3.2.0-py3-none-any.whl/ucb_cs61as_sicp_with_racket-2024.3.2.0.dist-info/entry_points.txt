@@ -1,0 +1,4 @@
+[console_scripts]
+UcbCs61asSicpWithRacket = UcbCs61asSicpWithRacket.__main__:main
+ucb-cs61as-sicp-with-racket = UcbCs61asSicpWithRacket.__main__:main
+
