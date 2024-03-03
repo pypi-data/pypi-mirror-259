@@ -1,0 +1,4 @@
+[console_scripts]
+Xv6ZhongwenWendang = Xv6ZhongwenWendang.__main__:main
+xv6-zhongwen-wendang = Xv6ZhongwenWendang.__main__:main
+
