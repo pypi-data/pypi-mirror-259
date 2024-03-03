@@ -1,0 +1,12 @@
+sgs/__init__.py,sha256=zL4VERguMPBSPT4KHV4ggAP0IZ1ggaXtR_lC4HRDqtQ,761
+sgs/const.py,sha256=v6pnw0JcZS_Vm3FvIEj4DT1r9ovrmL5Q5Fc50CdVm_w,2651
+sgs/database.py,sha256=0I3j6DtgMOt60VuXgtQ4TlmzdNLa5mB5IEQRZRvBKxk,2607
+sgs/inspection.py,sha256=hzFEeleC_MbNHq5Ct3srvevG238EmzerzATXsyd4BsQ,3697
+sgs/main.py,sha256=8QRCsqpISSSkQu4WEjd5jXFhyA4ICFx93pZ0aDe2TjE,3993
+sgs/search.py,sha256=AwWC2HQZ7OMcMRFWsD11joso4JlrEfv14qXWHFB4KKI,4191
+sgs/utils.py,sha256=HUs89Y2700HKs4bFflq_L4xUFRSSReEOTN-TE32Zyqs,3134
+semgrep_search-1.0.1.dist-info/COPYING,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+semgrep_search-1.0.1.dist-info/METADATA,sha256=Ili-wu2irmDZbzguDQJHrKx2ThupFDNZ68OpyHIJBww,3197
+semgrep_search-1.0.1.dist-info/WHEEL,sha256=sP946D7jFCHeNz5Iq4fL4Lu-PrWrFsgfLXbbkciIZwg,88
+semgrep_search-1.0.1.dist-info/entry_points.txt,sha256=zzZTlXZyWMw58pgb2hLfId6Nu_tDlvUhmndQfkBBaoM,37
+semgrep_search-1.0.1.dist-info/RECORD,,
