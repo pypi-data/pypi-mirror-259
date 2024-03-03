@@ -1,0 +1,12 @@
+README.md
+setup.py
+QuantumComputingLectureNotesAmsterdam/README.md
+QuantumComputingLectureNotesAmsterdam/__init__.py
+QuantumComputingLectureNotesAmsterdam/__main__.py
+QuantumComputingLectureNotesAmsterdam/file.pdf
+QuantumComputingLectureNotesAmsterdam/index.html
+quantum_computing_lecture_notes_amsterdam.egg-info/PKG-INFO
+quantum_computing_lecture_notes_amsterdam.egg-info/SOURCES.txt
+quantum_computing_lecture_notes_amsterdam.egg-info/dependency_links.txt
+quantum_computing_lecture_notes_amsterdam.egg-info/entry_points.txt
+quantum_computing_lecture_notes_amsterdam.egg-info/top_level.txt
