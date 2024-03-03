@@ -1,0 +1,4 @@
+[console_scripts]
+TransitionToOoProgrammingLectureNotesCornellCs1130 = TransitionToOoProgrammingLectureNotesCornellCs1130.__main__:main
+transition-to-oo-programming-lecture-notes-cornell-cs1130 = TransitionToOoProgrammingLectureNotesCornellCs1130.__main__:main
+
