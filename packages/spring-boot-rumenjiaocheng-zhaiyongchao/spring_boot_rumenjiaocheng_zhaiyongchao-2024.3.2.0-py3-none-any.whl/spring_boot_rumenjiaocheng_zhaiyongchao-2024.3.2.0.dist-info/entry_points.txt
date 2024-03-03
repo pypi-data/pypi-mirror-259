@@ -1,0 +1,4 @@
+[console_scripts]
+SpringBootRumenjiaochengZhaiyongchao = SpringBootRumenjiaochengZhaiyongchao.__main__:main
+spring-boot-rumenjiaocheng-zhaiyongchao = SpringBootRumenjiaochengZhaiyongchao.__main__:main
+
