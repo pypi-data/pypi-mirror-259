@@ -1,0 +1,4 @@
+[console_scripts]
+TheDesignAndAnalysisOfAlgorithms = TheDesignAndAnalysisOfAlgorithms.__main__:main
+the-design-and-analysis-of-algorithms = TheDesignAndAnalysisOfAlgorithms.__main__:main
+
