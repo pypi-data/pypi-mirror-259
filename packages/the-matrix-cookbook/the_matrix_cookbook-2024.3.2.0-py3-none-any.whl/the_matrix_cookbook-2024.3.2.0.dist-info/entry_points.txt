@@ -1,0 +1,4 @@
+[console_scripts]
+TheMatrixCookbook = TheMatrixCookbook.__main__:main
+the-matrix-cookbook = TheMatrixCookbook.__main__:main
+
