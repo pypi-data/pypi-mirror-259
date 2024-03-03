@@ -1,0 +1,15 @@
+t:
+t0 = Atom[arg_0]
+t1 = Atom[t0]
+InstructionReturn(atom=t1)
+InstructionReturn(atom=0)
+
+main:
+t3 = 1
+InstructionFunctionCall(dest=t2, ritual=t, args=[t3])
+t5 = 2
+InstructionFunctionCall(dest=t4, ritual=t, args=[t5])
+t1 = t2 + t4
+t0 = Atom[t1]
+InstructionReturn(atom=0)
+
