@@ -1,0 +1,4 @@
+[console_scripts]
+PandasGuanfangJiaocheng10FenzhongGaodingPandasPandasMijiXuexiPandas = PandasGuanfangJiaocheng10FenzhongGaodingPandasPandasMijiXuexiPandas.__main__:main
+pandas-guanfang-jiaocheng-10-fenzhong-gaoding-pandas-pandas-miji-xuexi-pandas = PandasGuanfangJiaocheng10FenzhongGaodingPandasPandasMijiXuexiPandas.__main__:main
+
