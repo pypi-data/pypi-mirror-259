@@ -1,0 +1,3 @@
+requests
+lxml
+cli-oauth2
