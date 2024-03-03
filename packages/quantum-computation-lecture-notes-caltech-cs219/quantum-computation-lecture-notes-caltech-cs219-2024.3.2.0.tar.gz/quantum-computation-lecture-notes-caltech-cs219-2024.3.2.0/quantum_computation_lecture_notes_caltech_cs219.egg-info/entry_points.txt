@@ -1,0 +1,4 @@
+[console_scripts]
+QuantumComputationLectureNotesCaltechCs219 = QuantumComputationLectureNotesCaltechCs219.__main__:main
+quantum-computation-lecture-notes-caltech-cs219 = QuantumComputationLectureNotesCaltechCs219.__main__:main
+

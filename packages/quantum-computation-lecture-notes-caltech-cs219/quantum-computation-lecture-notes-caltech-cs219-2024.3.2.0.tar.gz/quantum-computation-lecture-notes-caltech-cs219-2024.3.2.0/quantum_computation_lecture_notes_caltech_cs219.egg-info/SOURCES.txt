@@ -1,0 +1,12 @@
+README.md
+setup.py
+QuantumComputationLectureNotesCaltechCs219/README.md
+QuantumComputationLectureNotesCaltechCs219/__init__.py
+QuantumComputationLectureNotesCaltechCs219/__main__.py
+QuantumComputationLectureNotesCaltechCs219/file.pdf
+QuantumComputationLectureNotesCaltechCs219/index.html
+quantum_computation_lecture_notes_caltech_cs219.egg-info/PKG-INFO
+quantum_computation_lecture_notes_caltech_cs219.egg-info/SOURCES.txt
+quantum_computation_lecture_notes_caltech_cs219.egg-info/dependency_links.txt
+quantum_computation_lecture_notes_caltech_cs219.egg-info/entry_points.txt
+quantum_computation_lecture_notes_caltech_cs219.egg-info/top_level.txt
