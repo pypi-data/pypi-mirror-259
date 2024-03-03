@@ -1,0 +1,4 @@
+[console_scripts]
+JavaKaifaLiqiMyeclipseQuanmianXiangjieBeifengWang = JavaKaifaLiqiMyeclipseQuanmianXiangjieBeifengWang.__main__:main
+java-kaifa-liqi-myeclipse-quanmian-xiangjie-beifeng-wang = JavaKaifaLiqiMyeclipseQuanmianXiangjieBeifengWang.__main__:main
+
