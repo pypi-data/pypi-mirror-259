@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: logos_lang
+Version: 0.0.1
+Summary: The Logos programming language
+Project-URL: Homepage, https://github.com/JanmanX/Logos
+Project-URL: Issues, https://github.com/JanmanX/Logos/issues
+Author-email: Jan Meznik <jan@meznik.dk>
+License-File: LICENSE
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Requires-Dist: antlr4-python3-runtime
+Requires-Dist: antlr4-tools
+Description-Content-Type: text/markdown
+
+# Logos
