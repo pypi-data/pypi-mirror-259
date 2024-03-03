@@ -1,0 +1,12 @@
+README.md
+setup.py
+NihaoC/README.md
+NihaoC/__init__.py
+NihaoC/__main__.py
+NihaoC/file.pdf
+NihaoC/index.html
+nihao_c.egg-info/PKG-INFO
+nihao_c.egg-info/SOURCES.txt
+nihao_c.egg-info/dependency_links.txt
+nihao_c.egg-info/entry_points.txt
+nihao_c.egg-info/top_level.txt
