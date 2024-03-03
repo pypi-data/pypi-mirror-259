@@ -1,0 +1,12 @@
+README.md
+setup.py
+TheDatacenterAsAComputer/README.md
+TheDatacenterAsAComputer/__init__.py
+TheDatacenterAsAComputer/__main__.py
+TheDatacenterAsAComputer/file.pdf
+TheDatacenterAsAComputer/index.html
+the_datacenter_as_a_computer.egg-info/PKG-INFO
+the_datacenter_as_a_computer.egg-info/SOURCES.txt
+the_datacenter_as_a_computer.egg-info/dependency_links.txt
+the_datacenter_as_a_computer.egg-info/entry_points.txt
+the_datacenter_as_a_computer.egg-info/top_level.txt

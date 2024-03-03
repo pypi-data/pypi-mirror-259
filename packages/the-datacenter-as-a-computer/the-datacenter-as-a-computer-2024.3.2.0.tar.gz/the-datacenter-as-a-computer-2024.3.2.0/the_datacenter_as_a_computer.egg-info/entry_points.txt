@@ -1,0 +1,4 @@
+[console_scripts]
+TheDatacenterAsAComputer = TheDatacenterAsAComputer.__main__:main
+the-datacenter-as-a-computer = TheDatacenterAsAComputer.__main__:main
+
