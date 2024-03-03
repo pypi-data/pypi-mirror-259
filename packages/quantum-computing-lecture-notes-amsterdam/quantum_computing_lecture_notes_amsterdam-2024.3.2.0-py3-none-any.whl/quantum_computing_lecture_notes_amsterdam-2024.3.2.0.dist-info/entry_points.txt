@@ -1,0 +1,4 @@
+[console_scripts]
+QuantumComputingLectureNotesAmsterdam = QuantumComputingLectureNotesAmsterdam.__main__:main
+quantum-computing-lecture-notes-amsterdam = QuantumComputingLectureNotesAmsterdam.__main__:main
+
