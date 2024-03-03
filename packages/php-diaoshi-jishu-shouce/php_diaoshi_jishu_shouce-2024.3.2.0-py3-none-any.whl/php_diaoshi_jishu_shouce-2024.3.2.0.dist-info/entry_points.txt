@@ -1,0 +1,4 @@
+[console_scripts]
+PhpDiaoshiJishuShouce = PhpDiaoshiJishuShouce.__main__:main
+php-diaoshi-jishu-shouce = PhpDiaoshiJishuShouce.__main__:main
+
