@@ -1,0 +1,9 @@
+databox/__init__.py,sha256=OKMR6iChHGR1AeRWYUuhnYrYGs3k4DDtRZoXesNobIw,46
+databox/databox.py,sha256=zIz_Vh89R9FjXwvambeLQwZQByu8_-3aQGpLWvuEHJU,7524
+dwb/__init__.py,sha256=JXem_VY0DUt86v-TJEdaIgSbL2h80KuD6OGGDTLuncg,26
+dwb/cli.py,sha256=MasyiQ5j3Zx6s1YehxQoNR_R_IH8Ym7aVjlevA5Jur8,199
+miro_dataworkbench-0.1.3.dist-info/METADATA,sha256=KsMr48BUYo_F4tx3tJzK1Q250PuNce3_oz28w4P5ZCA,498
+miro_dataworkbench-0.1.3.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+miro_dataworkbench-0.1.3.dist-info/entry_points.txt,sha256=4PefMI-ZydS2W3_Syp_oPMAImUJq69fd_Fyv9bQi2gM,37
+miro_dataworkbench-0.1.3.dist-info/top_level.txt,sha256=o7iICT-6BonulZ8yfdDUKxL7lg00lcCU1dWvNTkfh9Y,12
+miro_dataworkbench-0.1.3.dist-info/RECORD,,
