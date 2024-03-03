@@ -1,0 +1,2 @@
+[nbdev]
+utils_qgofer = utils_qgofer._modidx:d

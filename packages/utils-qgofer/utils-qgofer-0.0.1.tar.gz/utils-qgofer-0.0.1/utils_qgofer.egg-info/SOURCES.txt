@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+utils_qgofer/__init__.py
+utils_qgofer/_modidx.py
+utils_qgofer/core.py
+utils_qgofer.egg-info/PKG-INFO
+utils_qgofer.egg-info/SOURCES.txt
+utils_qgofer.egg-info/dependency_links.txt
+utils_qgofer.egg-info/entry_points.txt
+utils_qgofer.egg-info/not-zip-safe
+utils_qgofer.egg-info/requires.txt
+utils_qgofer.egg-info/top_level.txt
