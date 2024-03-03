@@ -1,0 +1,11 @@
+pytexmk/__init__.py,sha256=ith5oQ_fhQEGEfXtdsaV0YvykOXdhdZv0MrgX4XG1DU,1940
+pytexmk/__main__.py,sha256=2enQDmC3TlkvMMVgn4avOXkdumjmBlD6MNFTrlyli34,7949
+pytexmk/additional_operation.py,sha256=yYEGz_4ljEG-Z7om31soYc_FdhXWDvRkuN-Pn95grSU,9493
+pytexmk/compile_model.py,sha256=uruLPQimubeqElcN4LOknf43GTFY7aml5Trv9IXCDqQ,7107
+pytexmk/version.py,sha256=tforwnvuERlGJKm5-ea0vs8H8rhoc-Cj1moUaLAINiw,1896
+pytexmk-0.2.10.240302.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+pytexmk-0.2.10.240302.dist-info/METADATA,sha256=nN1v0hSQyFfZ2-7ihH_l2zVghiLu5ok7RnGfIV4tq1g,6176
+pytexmk-0.2.10.240302.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+pytexmk-0.2.10.240302.dist-info/entry_points.txt,sha256=NldquSgQEixdxwichy3cRKFexnX-vNfaUEn8TEOgIGc,41
+pytexmk-0.2.10.240302.dist-info/top_level.txt,sha256=hFwe5tscsUPwEtAn2-5ePIjwhkYvbChHRLk2DmgM6z8,8
+pytexmk-0.2.10.240302.dist-info/RECORD,,
