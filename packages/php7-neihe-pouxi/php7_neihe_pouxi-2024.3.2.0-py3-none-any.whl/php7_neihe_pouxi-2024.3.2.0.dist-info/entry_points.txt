@@ -1,0 +1,4 @@
+[console_scripts]
+Php7NeihePouxi = Php7NeihePouxi.__main__:main
+php7-neihe-pouxi = Php7NeihePouxi.__main__:main
+
