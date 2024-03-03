@@ -1,0 +1,4 @@
+[console_scripts]
+MdnHtmlWendang20170730 = MdnHtmlWendang20170730.__main__:main
+mdn-html-wendang-20170730 = MdnHtmlWendang20170730.__main__:main
+
