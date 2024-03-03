@@ -1,0 +1,4 @@
+[console_scripts]
+ComputerAndInternetSecurityLectureNotesSyracuseCis643644 = ComputerAndInternetSecurityLectureNotesSyracuseCis643644.__main__:main
+computer-and-internet-security-lecture-notes-syracuse-cis643-644 = ComputerAndInternetSecurityLectureNotesSyracuseCis643644.__main__:main
+
