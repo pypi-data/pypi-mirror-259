@@ -1,0 +1,16 @@
+namespacelib/__init__.py,sha256=CcXuhVAvdXCEvIfoFFymVcY6xmuOBdsA0f1KH7gFTGQ,261
+namespacelib/_version.py,sha256=qGbsYy4KiK-T9938pDVRD2UXDk1UAHCy_70hCA7DncU,232
+namespacelib/codemeta.py,sha256=qUlcL0Jfw88b7AHvlRae6NTWXMcODZJ_1M_QuLNHKRk,1485
+namespacelib/core.py,sha256=MA52sHDjZ2TBMO5ylQ24_hLRzIx_1PFPonbBUZQSqR4,5375
+namespacelib/m4i.py,sha256=hOuDmMkqmxF7ReG25TRpWuw5ZdejTQDKjJznFlIp2ec,12857
+namespacelib/obo.py,sha256=NgHfoOKKKRYTX-h19D6D7J0rrREDa_B69G4F3VGGUh0,2907
+namespacelib/pivmeta.py,sha256=1G2pxyd3_DrulqrLcUc1KD22iYbSpYYAkCzCtOVzby8,12604
+namespacelib/qudt_kind.py,sha256=VufQFUlZZZgk_EN4x-mFNAg5zutQV1RE9BDSiaeXz2k,1979527
+namespacelib/qudt_unit.py,sha256=j2AYzMCFyeKgflM9gjVJGJyjbGt5eW38T5XqwsACTwQ,2428299
+namespacelib/schema.py,sha256=RCONz_hSi19duCaIEHUa_8WoQ5veLGT3IaXPmU-44mM,1085607
+namespacelib/ssno.py,sha256=arAXVeWWTI2XCgK8DLNffbHDFKm-6y7CNv_kMgKETZA,1394
+namespacelib-0.4.0.dist-info/LICENSE,sha256=LTqCPstC3v6vxy6rdGlifIxmr2yg0gHcJsBWgaQSmfM,1092
+namespacelib-0.4.0.dist-info/METADATA,sha256=pp32cMu_2EsLwwc42S8K0eInLqeZcchDxiuV9p34cFI,2767
+namespacelib-0.4.0.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+namespacelib-0.4.0.dist-info/top_level.txt,sha256=A6T-GB3dX3IAbcJm5yDXEsi_0_q8uk1246m_wGS0tCE,13
+namespacelib-0.4.0.dist-info/RECORD,,
