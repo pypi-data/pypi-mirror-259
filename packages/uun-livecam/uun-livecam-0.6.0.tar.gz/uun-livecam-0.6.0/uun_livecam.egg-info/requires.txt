@@ -1,0 +1,3 @@
+uun-iot>=0.11.0
+onvif-zeep
+python-crontab
