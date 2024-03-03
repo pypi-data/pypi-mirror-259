@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: scikit-learn-guanfang-wendang-shili
+Version: 2024.3.2.0
+Summary: Scikit Learn 官方文档：示例
+Home-page: https://github.com/apachecn/scikit-learn-guanfang-wendang-shili
+Author: ApacheCN
+Author-email: apachecn@163.com
+License: UNKNOWN
+Description: # Scikit Learn 官方文档：示例
+        
+        ## 下载
+        
+        ### Docker
+        
+        ```
+        docker pull apachecn0/scikit-learn-guanfang-wendang-shili
+        docker run -tid -p <port>:80 apachecn0/scikit-learn-guanfang-wendang-shili
+        # 访问 http://localhost:{port} 查看文档
+        ```
+        
+        ### PYPI
+        
+        ```
+        pip install scikit-learn-guanfang-wendang-shili
+        scikit-learn-guanfang-wendang-shili <port>
+        # 访问 http://localhost:{port} 查看文档
+        ```
+        
+        ### NPM
+        
+        ```
+        npm install -g scikit-learn-guanfang-wendang-shili
+        scikit-learn-guanfang-wendang-shili <port>
+        # 访问 http://localhost:{port} 查看文档
+        ```
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: Other/Proprietary License
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Text Processing :: Markup :: Markdown
+Classifier: Topic :: Text Processing :: Markup :: HTML
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development :: Documentation
+Classifier: Topic :: Documentation
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
