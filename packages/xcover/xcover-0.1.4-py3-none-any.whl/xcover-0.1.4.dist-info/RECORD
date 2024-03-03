@@ -1,0 +1,10 @@
+xcover/__init__.py,sha256=wVjtCu71jl74It6srvBBm6xWpY72oQoO5DmvK7ZbeO4,282
+xcover/dancing_cells.py,sha256=3-J8lH7-jyp3eBSc4YrTleBGx2bwmfp4iGH-iz51TkY,8656
+xcover/io.py,sha256=DGhPtNStvbm04zbA8EWkpliVO5IrVKOIkC5YJZum2XA,1140
+xcover/solvers.py,sha256=acUffp-nBR5PW_GGy9rk99bPIIuOylXjCyAjparjtgM,4864
+xcover/utils.py,sha256=TcS5RZY2m5Qjno07RFj0Q1sHo4osX3nqsUMC-bLoehQ,2157
+xcover-0.1.4.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+xcover-0.1.4.dist-info/METADATA,sha256=WhTegP6MYWMiiHykQCEr9ArAQqUN9lJXV2UHnmGGWRI,5161
+xcover-0.1.4.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+xcover-0.1.4.dist-info/top_level.txt,sha256=GWEMlQexxiwgiuEC0Z-JIF-19WqsO_sZwTUwMtlWrO0,7
+xcover-0.1.4.dist-info/RECORD,,
