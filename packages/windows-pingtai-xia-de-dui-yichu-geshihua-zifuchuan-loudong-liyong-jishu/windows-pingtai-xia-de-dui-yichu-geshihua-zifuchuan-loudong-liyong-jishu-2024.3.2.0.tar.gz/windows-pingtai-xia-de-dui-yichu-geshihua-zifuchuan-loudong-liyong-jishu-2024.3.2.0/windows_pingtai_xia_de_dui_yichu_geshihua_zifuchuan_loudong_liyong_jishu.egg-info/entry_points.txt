@@ -1,0 +1,4 @@
+[console_scripts]
+WindowsPingtaiXiaDeDuiYichuGeshihuaZifuchuanLoudongLiyongJishu = WindowsPingtaiXiaDeDuiYichuGeshihuaZifuchuanLoudongLiyongJishu.__main__:main
+windows-pingtai-xia-de-dui-yichu-geshihua-zifuchuan-loudong-liyong-jishu = WindowsPingtaiXiaDeDuiYichuGeshihuaZifuchuanLoudongLiyongJishu.__main__:main
+
