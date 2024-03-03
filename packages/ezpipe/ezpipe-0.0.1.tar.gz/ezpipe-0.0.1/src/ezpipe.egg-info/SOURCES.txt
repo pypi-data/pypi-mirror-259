@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/ez_pipe/__init__.py
+src/ez_pipe/main.py
+src/ezpipe.egg-info/PKG-INFO
+src/ezpipe.egg-info/SOURCES.txt
+src/ezpipe.egg-info/dependency_links.txt
+src/ezpipe.egg-info/top_level.txt

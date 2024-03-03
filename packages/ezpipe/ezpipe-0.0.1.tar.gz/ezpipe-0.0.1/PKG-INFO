@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ezpipe
+Version: 0.0.1
+Summary: First attempt at an easy to use package to put data into a vector database
+Author-email: Yujian Tang <ytang07@gmail.com>
+Project-URL: Homepage, https://github.com/ytang07/ez_pipe
+Project-URL: Issues, https://github.com/ytang07/ez_pipe/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ez_pipe
+An easy way to pipe data
