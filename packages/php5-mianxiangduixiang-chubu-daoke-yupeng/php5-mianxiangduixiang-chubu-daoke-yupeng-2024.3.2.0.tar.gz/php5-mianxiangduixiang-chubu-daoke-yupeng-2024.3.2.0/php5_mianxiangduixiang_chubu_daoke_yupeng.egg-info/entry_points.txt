@@ -1,0 +1,4 @@
+[console_scripts]
+Php5MianxiangduixiangChubuDaokeYupeng = Php5MianxiangduixiangChubuDaokeYupeng.__main__:main
+php5-mianxiangduixiang-chubu-daoke-yupeng = Php5MianxiangduixiangChubuDaokeYupeng.__main__:main
+
