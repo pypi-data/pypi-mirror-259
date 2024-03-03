@@ -1,0 +1,4 @@
+[console_scripts]
+OperatingSystemsAndMiddlewareSupportingControlledInteraction = OperatingSystemsAndMiddlewareSupportingControlledInteraction.__main__:main
+operating-systems-and-middleware-supporting-controlled-interaction = OperatingSystemsAndMiddlewareSupportingControlledInteraction.__main__:main
+
