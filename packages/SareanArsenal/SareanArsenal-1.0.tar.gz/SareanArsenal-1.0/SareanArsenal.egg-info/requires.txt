@@ -1,0 +1,5 @@
+requests
+time
+kuai_log
+pyzbar
+pillow
