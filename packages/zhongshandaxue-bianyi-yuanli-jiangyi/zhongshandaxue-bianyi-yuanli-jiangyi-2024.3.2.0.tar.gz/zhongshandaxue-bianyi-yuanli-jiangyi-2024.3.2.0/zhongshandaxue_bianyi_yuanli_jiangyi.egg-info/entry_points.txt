@@ -1,0 +1,4 @@
+[console_scripts]
+ZhongshandaxueBianyiYuanliJiangyi = ZhongshandaxueBianyiYuanliJiangyi.__main__:main
+zhongshandaxue-bianyi-yuanli-jiangyi = ZhongshandaxueBianyiYuanliJiangyi.__main__:main
+
