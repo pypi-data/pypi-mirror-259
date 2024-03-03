@@ -1,0 +1,4 @@
+[console_scripts]
+Spring20HexinjishuYuZuijiaShijian = Spring20HexinjishuYuZuijiaShijian.__main__:main
+spring-2-0-hexinjishu-yu-zuijia-shijian = Spring20HexinjishuYuZuijiaShijian.__main__:main
+
