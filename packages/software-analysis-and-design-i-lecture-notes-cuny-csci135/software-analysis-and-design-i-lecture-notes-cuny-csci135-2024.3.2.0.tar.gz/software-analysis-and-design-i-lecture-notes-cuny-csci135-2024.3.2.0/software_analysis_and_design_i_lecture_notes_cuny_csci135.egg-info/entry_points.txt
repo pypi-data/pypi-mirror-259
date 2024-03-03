@@ -1,0 +1,4 @@
+[console_scripts]
+SoftwareAnalysisAndDesignILectureNotesCunyCsci135 = SoftwareAnalysisAndDesignILectureNotesCunyCsci135.__main__:main
+software-analysis-and-design-i-lecture-notes-cuny-csci135 = SoftwareAnalysisAndDesignILectureNotesCunyCsci135.__main__:main
+
