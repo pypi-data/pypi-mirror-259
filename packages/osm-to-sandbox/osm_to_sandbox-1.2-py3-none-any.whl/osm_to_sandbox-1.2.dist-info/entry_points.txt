@@ -1,0 +1,2 @@
+[console_scripts]
+osm_to_sandbox = osm_to_sandbox.osm_to_sandbox:cli
