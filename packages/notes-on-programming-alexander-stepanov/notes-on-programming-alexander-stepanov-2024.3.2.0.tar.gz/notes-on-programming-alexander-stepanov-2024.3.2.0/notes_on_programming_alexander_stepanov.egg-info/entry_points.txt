@@ -1,0 +1,4 @@
+[console_scripts]
+NotesOnProgrammingAlexanderStepanov = NotesOnProgrammingAlexanderStepanov.__main__:main
+notes-on-programming-alexander-stepanov = NotesOnProgrammingAlexanderStepanov.__main__:main
+

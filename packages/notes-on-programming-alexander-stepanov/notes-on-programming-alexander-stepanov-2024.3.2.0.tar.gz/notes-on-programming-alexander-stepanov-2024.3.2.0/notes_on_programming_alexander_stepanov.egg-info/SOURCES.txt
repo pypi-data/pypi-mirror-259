@@ -1,0 +1,12 @@
+README.md
+setup.py
+NotesOnProgrammingAlexanderStepanov/README.md
+NotesOnProgrammingAlexanderStepanov/__init__.py
+NotesOnProgrammingAlexanderStepanov/__main__.py
+NotesOnProgrammingAlexanderStepanov/file.pdf
+NotesOnProgrammingAlexanderStepanov/index.html
+notes_on_programming_alexander_stepanov.egg-info/PKG-INFO
+notes_on_programming_alexander_stepanov.egg-info/SOURCES.txt
+notes_on_programming_alexander_stepanov.egg-info/dependency_links.txt
+notes_on_programming_alexander_stepanov.egg-info/entry_points.txt
+notes_on_programming_alexander_stepanov.egg-info/top_level.txt
