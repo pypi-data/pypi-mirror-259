@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: rhdzmota_extension_hello_world
+Version: 0.1.0
+Summary: RHDZMOTA Extension App: hello_world
+Home-page: https://github.com/rhdzmota/package.rhdzmota.com
+Author: Rodrigo H. Mota
+Author-email: info@rhdzmota.com
+License: TBD
+Classifier: Typing :: Typed
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.10, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# RHDZMOTA EXT: hello_world
+
+
