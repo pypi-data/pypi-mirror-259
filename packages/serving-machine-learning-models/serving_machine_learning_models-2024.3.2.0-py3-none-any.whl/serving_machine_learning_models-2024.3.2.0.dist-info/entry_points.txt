@@ -1,0 +1,4 @@
+[console_scripts]
+ServingMachineLearningModels = ServingMachineLearningModels.__main__:main
+serving-machine-learning-models = ServingMachineLearningModels.__main__:main
+
