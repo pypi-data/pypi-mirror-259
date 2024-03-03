@@ -1,0 +1,4 @@
+[console_scripts]
+SitanfuCs183bYcChuangyeKeWenzibanChuangjian = SitanfuCs183bYcChuangyeKeWenzibanChuangjian.__main__:main
+sitanfu-cs183b-yc-chuangye-ke-wenziban-chuangjian = SitanfuCs183bYcChuangyeKeWenzibanChuangjian.__main__:main
+
