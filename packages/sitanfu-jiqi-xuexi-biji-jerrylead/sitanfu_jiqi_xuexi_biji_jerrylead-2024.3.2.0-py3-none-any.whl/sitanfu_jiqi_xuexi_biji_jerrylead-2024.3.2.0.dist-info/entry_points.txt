@@ -1,0 +1,4 @@
+[console_scripts]
+SitanfuJiqiXuexiBijiJerrylead = SitanfuJiqiXuexiBijiJerrylead.__main__:main
+sitanfu-jiqi-xuexi-biji-jerrylead = SitanfuJiqiXuexiBijiJerrylead.__main__:main
+
