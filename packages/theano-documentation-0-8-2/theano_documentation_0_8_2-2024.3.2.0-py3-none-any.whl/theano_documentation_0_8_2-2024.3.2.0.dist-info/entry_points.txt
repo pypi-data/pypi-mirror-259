@@ -1,0 +1,4 @@
+[console_scripts]
+TheanoDocumentation082 = TheanoDocumentation082.__main__:main
+theano-documentation-0-8-2 = TheanoDocumentation082.__main__:main
+
