@@ -1,0 +1,12 @@
+README.md
+setup.py
+TypeSystemsLucaCardelli/README.md
+TypeSystemsLucaCardelli/__init__.py
+TypeSystemsLucaCardelli/__main__.py
+TypeSystemsLucaCardelli/file.pdf
+TypeSystemsLucaCardelli/index.html
+type_systems_luca_cardelli.egg-info/PKG-INFO
+type_systems_luca_cardelli.egg-info/SOURCES.txt
+type_systems_luca_cardelli.egg-info/dependency_links.txt
+type_systems_luca_cardelli.egg-info/entry_points.txt
+type_systems_luca_cardelli.egg-info/top_level.txt
