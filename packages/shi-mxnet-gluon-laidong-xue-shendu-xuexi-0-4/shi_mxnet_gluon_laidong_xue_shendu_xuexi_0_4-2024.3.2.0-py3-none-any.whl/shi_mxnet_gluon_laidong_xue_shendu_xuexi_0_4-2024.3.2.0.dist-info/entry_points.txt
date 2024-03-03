@@ -1,0 +1,4 @@
+[console_scripts]
+ShiMxnetGluonLaidongXueShenduXuexi04 = ShiMxnetGluonLaidongXueShenduXuexi04.__main__:main
+shi-mxnet-gluon-laidong-xue-shendu-xuexi-0-4 = ShiMxnetGluonLaidongXueShenduXuexi04.__main__:main
+
