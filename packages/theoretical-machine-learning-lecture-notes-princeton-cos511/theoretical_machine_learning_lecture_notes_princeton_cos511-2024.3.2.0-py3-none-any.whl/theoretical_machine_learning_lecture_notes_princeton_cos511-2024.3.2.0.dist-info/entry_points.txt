@@ -1,0 +1,4 @@
+[console_scripts]
+TheoreticalMachineLearningLectureNotesPrincetonCos511 = TheoreticalMachineLearningLectureNotesPrincetonCos511.__main__:main
+theoretical-machine-learning-lecture-notes-princeton-cos511 = TheoreticalMachineLearningLectureNotesPrincetonCos511.__main__:main
+
