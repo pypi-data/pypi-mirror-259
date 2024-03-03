@@ -1,0 +1,4 @@
+[console_scripts]
+ThreeJsRumenZhinan = ThreeJsRumenZhinan.__main__:main
+three-js-rumen-zhinan = ThreeJsRumenZhinan.__main__:main
+
