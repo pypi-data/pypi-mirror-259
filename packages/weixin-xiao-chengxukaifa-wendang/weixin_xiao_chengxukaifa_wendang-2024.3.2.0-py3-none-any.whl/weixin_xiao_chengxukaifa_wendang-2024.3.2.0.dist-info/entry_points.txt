@@ -1,0 +1,4 @@
+[console_scripts]
+WeixinXiaoChengxukaifaWendang = WeixinXiaoChengxukaifaWendang.__main__:main
+weixin-xiao-chengxukaifa-wendang = WeixinXiaoChengxukaifaWendang.__main__:main
+
