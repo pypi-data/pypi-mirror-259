@@ -1,0 +1,4 @@
+[console_scripts]
+QukuaiLianJishuZhinan090 = QukuaiLianJishuZhinan090.__main__:main
+qukuai-lian-jishu-zhinan-0-9-0 = QukuaiLianJishuZhinan090.__main__:main
+
