@@ -1,0 +1,4 @@
+[console_scripts]
+LoudongYinxingDaKaMianduimianFenxiangHuizong114Qi = LoudongYinxingDaKaMianduimianFenxiangHuizong114Qi.__main__:main
+loudong-yinxing-da-ka-mianduimian-fenxiang-huizong-1-14-qi = LoudongYinxingDaKaMianduimianFenxiangHuizong114Qi.__main__:main
+
