@@ -1,0 +1,12 @@
+README.md
+setup.py
+ParsingTechniquesAPracticalGuide/README.md
+ParsingTechniquesAPracticalGuide/__init__.py
+ParsingTechniquesAPracticalGuide/__main__.py
+ParsingTechniquesAPracticalGuide/file.pdf
+ParsingTechniquesAPracticalGuide/index.html
+parsing_techniques_a_practical_guide.egg-info/PKG-INFO
+parsing_techniques_a_practical_guide.egg-info/SOURCES.txt
+parsing_techniques_a_practical_guide.egg-info/dependency_links.txt
+parsing_techniques_a_practical_guide.egg-info/entry_points.txt
+parsing_techniques_a_practical_guide.egg-info/top_level.txt
