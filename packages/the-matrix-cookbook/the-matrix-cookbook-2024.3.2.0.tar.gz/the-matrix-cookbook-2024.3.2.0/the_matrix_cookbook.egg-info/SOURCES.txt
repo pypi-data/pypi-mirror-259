@@ -1,0 +1,12 @@
+README.md
+setup.py
+TheMatrixCookbook/README.md
+TheMatrixCookbook/__init__.py
+TheMatrixCookbook/__main__.py
+TheMatrixCookbook/file.pdf
+TheMatrixCookbook/index.html
+the_matrix_cookbook.egg-info/PKG-INFO
+the_matrix_cookbook.egg-info/SOURCES.txt
+the_matrix_cookbook.egg-info/dependency_links.txt
+the_matrix_cookbook.egg-info/entry_points.txt
+the_matrix_cookbook.egg-info/top_level.txt
