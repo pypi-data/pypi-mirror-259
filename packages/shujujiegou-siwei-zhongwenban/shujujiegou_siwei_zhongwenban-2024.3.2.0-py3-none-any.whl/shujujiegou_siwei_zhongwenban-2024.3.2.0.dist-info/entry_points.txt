@@ -1,0 +1,4 @@
+[console_scripts]
+ShujujiegouSiweiZhongwenban = ShujujiegouSiweiZhongwenban.__main__:main
+shujujiegou-siwei-zhongwenban = ShujujiegouSiweiZhongwenban.__main__:main
+
