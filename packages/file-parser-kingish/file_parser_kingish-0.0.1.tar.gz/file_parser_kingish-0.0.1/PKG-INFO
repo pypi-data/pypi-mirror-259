@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: file_parser_kingish
+Version: 0.0.1
+Summary: A Python script for parsing and extracting info from text or pdf file
+Home-page: https://github.com/Priyansh-03/File_parser_Pypi
+Author: Priyansh Srivastava
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown

@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.cfg
+src/file_parser_kingish.egg-info/PKG-INFO
+src/file_parser_kingish.egg-info/SOURCES.txt
+src/file_parser_kingish.egg-info/dependency_links.txt
+src/file_parser_kingish.egg-info/entry_points.txt
+src/file_parser_kingish.egg-info/top_level.txt
+src/file_parser_package/__init__.py
+src/file_parser_package/file_parser.py
