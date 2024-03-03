@@ -1,0 +1,4 @@
+[console_scripts]
+TutorialspointApexJiaocheng = TutorialspointApexJiaocheng.__main__:main
+tutorialspoint-apex-jiaocheng = TutorialspointApexJiaocheng.__main__:main
+
