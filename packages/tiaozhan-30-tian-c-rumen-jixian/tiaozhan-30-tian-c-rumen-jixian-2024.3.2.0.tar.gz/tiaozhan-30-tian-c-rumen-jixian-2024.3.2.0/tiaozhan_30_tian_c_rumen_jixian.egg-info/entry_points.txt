@@ -1,0 +1,4 @@
+[console_scripts]
+Tiaozhan30TianCRumenJixian = Tiaozhan30TianCRumenJixian.__main__:main
+tiaozhan-30-tian-c-rumen-jixian = Tiaozhan30TianCRumenJixian.__main__:main
+
