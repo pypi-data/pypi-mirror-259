@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+scprotein/__init__.py
+scprotein/model.py
+scprotein/prototype_loss.py
+scprotein/utils.py
+scprotein.egg-info/PKG-INFO
+scprotein.egg-info/SOURCES.txt
+scprotein.egg-info/dependency_links.txt
+scprotein.egg-info/requires.txt
+scprotein.egg-info/top_level.txt
+scprotein/peptide_uncertainty_estimation/__init__.py
+scprotein/peptide_uncertainty_estimation/multi_task_heteroscedastic_regression_loss.py
+scprotein/peptide_uncertainty_estimation/multi_task_heteroscedastic_regression_model.py
+scprotein/peptide_uncertainty_estimation/peptide_uncertainty_utils.py

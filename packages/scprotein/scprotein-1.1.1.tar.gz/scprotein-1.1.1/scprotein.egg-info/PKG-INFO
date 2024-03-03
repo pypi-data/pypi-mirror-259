@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: scprotein
+Version: 1.1.1
+Summary: scprotein is a deep contrastive learning framework for single-cell proteomics embedding.
+Home-page: https://github.com/TencentAILabHealthcare/scPROTEIN
+Author: LiWei
+Author-email: nkuweili@mail.nankai.edu.cn
+License: Apache
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8
