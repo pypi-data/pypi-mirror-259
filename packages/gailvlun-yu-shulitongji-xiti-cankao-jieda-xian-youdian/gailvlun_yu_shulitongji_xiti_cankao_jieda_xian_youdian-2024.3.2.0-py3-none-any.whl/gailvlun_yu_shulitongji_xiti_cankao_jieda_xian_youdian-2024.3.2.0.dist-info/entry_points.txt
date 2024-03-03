@@ -1,0 +1,4 @@
+[console_scripts]
+GailvlunYuShulitongjiXitiCankaoJiedaXianYoudian = GailvlunYuShulitongjiXitiCankaoJiedaXianYoudian.__main__:main
+gailvlun-yu-shulitongji-xiti-cankao-jieda-xian-youdian = GailvlunYuShulitongjiXitiCankaoJiedaXianYoudian.__main__:main
+
