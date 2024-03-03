@@ -1,0 +1,5 @@
+longport-1.0.13.dist-info/METADATA,sha256=W7zHwhSPVjXV9o1MlinkQeSUItBR6xcnPLuerUJ7eIE,3182
+longport-1.0.13.dist-info/WHEEL,sha256=UV9zG4LLu5aozZ4CLlFrx0g296T6XFIH7lrdHjOZdds,106
+longport/__init__.py,sha256=hOVPhH0Z8NUE1RO23og3GiqfB9qfuPfZGEmclh5YPws,115
+longport/longport.cpython-311-darwin.so,sha256=M5aQCJx8HMwDHK0xclGbnPSfn-0-vDOOiDBDKxvBpDE,10950968
+longport-1.0.13.dist-info/RECORD,,
