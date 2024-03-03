@@ -1,0 +1,4 @@
+[console_scripts]
+Spring232KaifaJianmingJiaochengZhangyong = Spring232KaifaJianmingJiaochengZhangyong.__main__:main
+spring-2-3-2-kaifa-jianming-jiaocheng-zhangyong = Spring232KaifaJianmingJiaochengZhangyong.__main__:main
+
