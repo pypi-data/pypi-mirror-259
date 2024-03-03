@@ -1,0 +1,117 @@
+Metadata-Version: 2.1
+Name: encrypted-config
+Version: 0.2.0
+Summary: Read and write partially encrypted configuration files.
+Home-page: https://github.com/mbdevpl/encrypted-config
+Download-URL: 
+Author: Mateusz Bysiek
+Author-email: mateusz.bysiek@gmail.com
+Maintainer: Mateusz Bysiek
+Maintainer-email: mateusz.bysiek@gmail.com
+License: Apache License 2.0
+Keywords: config,encryption,rsa,security
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Communications :: File Sharing
+Classifier: Topic :: Security :: Cryptography
+Classifier: Topic :: Utilities
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst; charset=UTF-8
+License-File: LICENSE
+License-File: NOTICE
+Requires-Dist: rsa~=4.9
+Requires-Dist: version-query~=1.5
+
+.. role:: python(code)
+    :language: python
+
+
+================
+encrypted-config
+================
+
+Read and write partially encrypted configuration files.
+
+.. image:: https://img.shields.io/pypi/v/encrypted-config.svg
+    :target: https://pypi.org/project/encrypted-config
+    :alt: package version from PyPI
+
+.. image:: https://github.com/mbdevpl/encrypted-config/actions/workflows/python.yml/badge.svg?branch=main
+    :target: https://github.com/mbdevpl/encrypted-config/actions
+    :alt: build status from GitHub
+
+.. image:: https://codecov.io/gh/mbdevpl/encrypted-config/branch/main/graph/badge.svg
+    :target: https://codecov.io/gh/mbdevpl/encrypted-config
+    :alt: test coverage from Codecov
+
+.. image:: https://api.codacy.com/project/badge/Grade/ba21a054e3cf4f278ad1822017ef1987
+    :target: https://app.codacy.com/gh/mbdevpl/encrypted-config
+    :alt: grade from Codacy
+
+.. image:: https://img.shields.io/github/license/mbdevpl/encrypted-config.svg
+    :target: https://github.com/mbdevpl/encrypted-config/blob/v0.2.0/NOTICE
+    :alt: license
+
+At present, it is simply an encrypted JSON I/O library.
+
+Because of asymmetric encryption, it enables users to create encrypted configuration files readable only by the target application.
+
+.. contents::
+    :backlinks: none
+
+
+How to use
+==========
+
+
+As a library
+------------
+
+.. code:: python
+
+    import encrypted_config
+
+
+Details are to be decided.
+
+As a command-line tool
+----------------------
+
+To be decided.
+
+
+How to NOT use
+==============
+
+Running this library on an system to which anyone else has access is not secure.
+
+If anyone else can access your private key, they can also decrypt the configuration.
+
+
+Algorithms
+==========
+
+The library relies on RSA.
+
+
+Requirements
+============
+
+Python version 3.8 or later.
+
+Python libraries as specified in `requirements.txt <https://github.com/mbdevpl/encrypted-config/blob/v0.2.0/requirements.txt>`_.
+
+Building and running tests additionally requires packages listed in `<test_requirements.txt>`_.
+
+Tested on Linux, macOS and Windows.
