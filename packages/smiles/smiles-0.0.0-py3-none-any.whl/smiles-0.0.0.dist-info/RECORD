@@ -1,0 +1,6 @@
+smiles/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+smiles/app.py,sha256=0HeQIhSI7LkC8YId7VIg9hDzzK-D5LtoY1k8HHS42Wg,322
+smiles/templates/input_form.html,sha256=NFWUMDtH-E9KK3EG7I1QsN8NkVr-KaclE1AwBRo7cqM,104
+smiles-0.0.0.dist-info/METADATA,sha256=-lC7VOmwIbVU3-AGX-fvRCm_ASXkqxQlMFIIBEwkkJs,449
+smiles-0.0.0.dist-info/WHEEL,sha256=FMvqSimYX_P7y0a7UY-_Mc83r5zkBZsCYPm7Lr0Bsq4,88
+smiles-0.0.0.dist-info/RECORD,,
