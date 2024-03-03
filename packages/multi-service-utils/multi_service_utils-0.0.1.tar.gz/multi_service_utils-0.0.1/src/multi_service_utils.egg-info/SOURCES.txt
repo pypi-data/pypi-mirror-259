@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/multi_service_utils.egg-info/PKG-INFO
+src/multi_service_utils.egg-info/SOURCES.txt
+src/multi_service_utils.egg-info/dependency_links.txt
+src/multi_service_utils.egg-info/requires.txt
+src/multi_service_utils.egg-info/top_level.txt
