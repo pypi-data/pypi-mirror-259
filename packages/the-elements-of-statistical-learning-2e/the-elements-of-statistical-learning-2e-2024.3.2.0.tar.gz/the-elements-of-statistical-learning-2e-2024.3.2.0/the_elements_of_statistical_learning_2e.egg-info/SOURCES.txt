@@ -1,0 +1,12 @@
+README.md
+setup.py
+TheElementsOfStatisticalLearning2e/README.md
+TheElementsOfStatisticalLearning2e/__init__.py
+TheElementsOfStatisticalLearning2e/__main__.py
+TheElementsOfStatisticalLearning2e/file.pdf
+TheElementsOfStatisticalLearning2e/index.html
+the_elements_of_statistical_learning_2e.egg-info/PKG-INFO
+the_elements_of_statistical_learning_2e.egg-info/SOURCES.txt
+the_elements_of_statistical_learning_2e.egg-info/dependency_links.txt
+the_elements_of_statistical_learning_2e.egg-info/entry_points.txt
+the_elements_of_statistical_learning_2e.egg-info/top_level.txt
