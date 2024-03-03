@@ -1,0 +1,6 @@
+promplate_pyodide-0.0.2a2.dist-info/METADATA,sha256=hB6ofL4D3X6I4mcRLn1o3mMnOYzkgytX4CiOQ7i_Cdo,1082
+promplate_pyodide-0.0.2a2.dist-info/WHEEL,sha256=N2J68yzZqJh3mI_Wg92rwhw0rtJDFpZj9bwQIMJgaVg,90
+promplate_pyodide/__init__.py,sha256=_MMXTI99LDppqZwWBt1mB0xr0xUXPugj8PUaeSPhbtw,2209
+promplate_pyodide/utils/openai.py,sha256=irAEOipqC7pxpUQtrxWD9ly6KidSetCU1jtJEQy5Rkg,1366
+promplate_pyodide/utils/proxy.py,sha256=YGTGZEKH9HU4AQ-oPu1s6UwvOvuCXN2Hk5U8TYkmdQY,155
+promplate_pyodide-0.0.2a2.dist-info/RECORD,,
