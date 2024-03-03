@@ -1,0 +1,4 @@
+[console_scripts]
+ScapyZhongwenWendang = ScapyZhongwenWendang.__main__:main
+scapy-zhongwen-wendang = ScapyZhongwenWendang.__main__:main
+
