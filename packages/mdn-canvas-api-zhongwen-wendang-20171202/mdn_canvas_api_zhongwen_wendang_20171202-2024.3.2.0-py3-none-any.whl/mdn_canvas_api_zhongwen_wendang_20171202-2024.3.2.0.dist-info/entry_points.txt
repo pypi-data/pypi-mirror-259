@@ -1,0 +1,4 @@
+[console_scripts]
+MdnCanvasApiZhongwenWendang20171202 = MdnCanvasApiZhongwenWendang20171202.__main__:main
+mdn-canvas-api-zhongwen-wendang-20171202 = MdnCanvasApiZhongwenWendang20171202.__main__:main
+
