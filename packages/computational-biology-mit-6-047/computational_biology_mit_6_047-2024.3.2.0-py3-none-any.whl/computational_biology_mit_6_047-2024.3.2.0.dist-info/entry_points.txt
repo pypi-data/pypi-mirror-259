@@ -1,0 +1,4 @@
+[console_scripts]
+ComputationalBiologyMit6047 = ComputationalBiologyMit6047.__main__:main
+computational-biology-mit-6-047 = ComputationalBiologyMit6047.__main__:main
+
