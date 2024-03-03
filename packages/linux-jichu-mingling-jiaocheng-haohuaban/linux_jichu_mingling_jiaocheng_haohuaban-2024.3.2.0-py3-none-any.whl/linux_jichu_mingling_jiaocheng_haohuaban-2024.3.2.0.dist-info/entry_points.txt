@@ -1,0 +1,4 @@
+[console_scripts]
+LinuxJichuMinglingJiaochengHaohuaban = LinuxJichuMinglingJiaochengHaohuaban.__main__:main
+linux-jichu-mingling-jiaocheng-haohuaban = LinuxJichuMinglingJiaochengHaohuaban.__main__:main
+
