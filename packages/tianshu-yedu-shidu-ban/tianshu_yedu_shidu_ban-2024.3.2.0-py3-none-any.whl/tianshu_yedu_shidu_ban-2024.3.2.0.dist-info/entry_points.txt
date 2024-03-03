@@ -1,0 +1,4 @@
+[console_scripts]
+TianshuYeduShiduBan = TianshuYeduShiduBan.__main__:main
+tianshu-yedu-shidu-ban = TianshuYeduShiduBan.__main__:main
+
