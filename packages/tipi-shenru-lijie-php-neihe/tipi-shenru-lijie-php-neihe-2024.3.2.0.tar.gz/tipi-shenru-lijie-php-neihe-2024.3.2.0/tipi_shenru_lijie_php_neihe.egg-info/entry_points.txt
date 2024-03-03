@@ -1,0 +1,4 @@
+[console_scripts]
+TipiShenruLijiePhpNeihe = TipiShenruLijiePhpNeihe.__main__:main
+tipi-shenru-lijie-php-neihe = TipiShenruLijiePhpNeihe.__main__:main
+
