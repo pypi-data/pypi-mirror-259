@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "pylibhack"
+version = "1.0.0"
+description = "Чтобы узнать функции вызовите в коде pylibhack.help()"
+authors = ["s3al4er"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
