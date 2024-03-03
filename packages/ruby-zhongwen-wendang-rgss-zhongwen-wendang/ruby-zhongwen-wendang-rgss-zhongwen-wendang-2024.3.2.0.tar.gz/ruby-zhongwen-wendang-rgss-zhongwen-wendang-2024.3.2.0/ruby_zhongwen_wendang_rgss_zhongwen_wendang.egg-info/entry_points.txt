@@ -1,0 +1,4 @@
+[console_scripts]
+RubyZhongwenWendangRgssZhongwenWendang = RubyZhongwenWendangRgssZhongwenWendang.__main__:main
+ruby-zhongwen-wendang-rgss-zhongwen-wendang = RubyZhongwenWendangRgssZhongwenWendang.__main__:main
+
