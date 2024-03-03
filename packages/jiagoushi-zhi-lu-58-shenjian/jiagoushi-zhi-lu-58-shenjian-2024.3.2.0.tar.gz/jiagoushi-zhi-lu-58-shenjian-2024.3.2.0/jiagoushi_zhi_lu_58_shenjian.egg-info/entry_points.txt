@@ -1,0 +1,4 @@
+[console_scripts]
+JiagoushiZhiLu58Shenjian = JiagoushiZhiLu58Shenjian.__main__:main
+jiagoushi-zhi-lu-58-shenjian = JiagoushiZhiLu58Shenjian.__main__:main
+
