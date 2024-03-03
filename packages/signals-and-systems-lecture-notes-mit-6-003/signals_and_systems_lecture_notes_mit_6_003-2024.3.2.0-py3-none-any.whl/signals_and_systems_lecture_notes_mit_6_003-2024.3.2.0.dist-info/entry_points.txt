@@ -1,0 +1,4 @@
+[console_scripts]
+SignalsAndSystemsLectureNotesMit6003 = SignalsAndSystemsLectureNotesMit6003.__main__:main
+signals-and-systems-lecture-notes-mit-6-003 = SignalsAndSystemsLectureNotesMit6003.__main__:main
+
