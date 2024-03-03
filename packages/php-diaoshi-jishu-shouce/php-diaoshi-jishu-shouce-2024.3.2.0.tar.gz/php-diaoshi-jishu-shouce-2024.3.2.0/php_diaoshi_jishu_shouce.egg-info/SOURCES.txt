@@ -1,0 +1,12 @@
+README.md
+setup.py
+PhpDiaoshiJishuShouce/README.md
+PhpDiaoshiJishuShouce/__init__.py
+PhpDiaoshiJishuShouce/__main__.py
+PhpDiaoshiJishuShouce/file.pdf
+PhpDiaoshiJishuShouce/index.html
+php_diaoshi_jishu_shouce.egg-info/PKG-INFO
+php_diaoshi_jishu_shouce.egg-info/SOURCES.txt
+php_diaoshi_jishu_shouce.egg-info/dependency_links.txt
+php_diaoshi_jishu_shouce.egg-info/entry_points.txt
+php_diaoshi_jishu_shouce.egg-info/top_level.txt
