@@ -1,0 +1,4 @@
+[console_scripts]
+KafkaZhongwenWendang0100 = KafkaZhongwenWendang0100.__main__:main
+kafka-zhongwen-wendang-0-10-0 = KafkaZhongwenWendang0100.__main__:main
+
