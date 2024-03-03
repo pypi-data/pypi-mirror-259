@@ -1,0 +1,4 @@
+[console_scripts]
+TheanoZhongwenWendang0920170304 = TheanoZhongwenWendang0920170304.__main__:main
+theano-zhongwen-wendang-0-9-20170304 = TheanoZhongwenWendang0920170304.__main__:main
+
