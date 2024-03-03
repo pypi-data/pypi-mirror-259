@@ -1,0 +1,4 @@
+[console_scripts]
+LinuxCaozuoxitongXiaCYuyanBianchengRumen007xiong = LinuxCaozuoxitongXiaCYuyanBianchengRumen007xiong.__main__:main
+linux-caozuoxitong-xia-c-yuyan-biancheng-rumen-007xiong = LinuxCaozuoxitongXiaCYuyanBianchengRumen007xiong.__main__:main
+
