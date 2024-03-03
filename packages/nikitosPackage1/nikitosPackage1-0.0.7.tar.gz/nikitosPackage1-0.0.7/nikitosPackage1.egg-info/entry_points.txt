@@ -1,0 +1,2 @@
+[console_scripts]
+nikitosCommand = nikitosPackage.hello_module:main
