@@ -1,0 +1,4 @@
+[console_scripts]
+PhpJiaochengConglingkaishiXueShejimoshiQianfengJiaoyu = PhpJiaochengConglingkaishiXueShejimoshiQianfengJiaoyu.__main__:main
+php-jiaocheng-conglingkaishi-xue-shejimoshi-qianfeng-jiaoyu = PhpJiaochengConglingkaishiXueShejimoshiQianfengJiaoyu.__main__:main
+
