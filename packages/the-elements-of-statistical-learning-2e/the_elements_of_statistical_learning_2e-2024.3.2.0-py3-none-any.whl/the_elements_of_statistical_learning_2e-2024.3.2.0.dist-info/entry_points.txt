@@ -1,0 +1,4 @@
+[console_scripts]
+TheElementsOfStatisticalLearning2e = TheElementsOfStatisticalLearning2e.__main__:main
+the-elements-of-statistical-learning-2e = TheElementsOfStatisticalLearning2e.__main__:main
+
