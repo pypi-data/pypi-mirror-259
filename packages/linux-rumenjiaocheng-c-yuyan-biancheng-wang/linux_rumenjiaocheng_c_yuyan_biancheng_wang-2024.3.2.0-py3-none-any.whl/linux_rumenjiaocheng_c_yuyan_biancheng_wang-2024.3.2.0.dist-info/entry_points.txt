@@ -1,0 +1,4 @@
+[console_scripts]
+LinuxRumenjiaochengCYuyanBianchengWang = LinuxRumenjiaochengCYuyanBianchengWang.__main__:main
+linux-rumenjiaocheng-c-yuyan-biancheng-wang = LinuxRumenjiaochengCYuyanBianchengWang.__main__:main
+
