@@ -1,0 +1,4 @@
+[console_scripts]
+PianWeifenfangchengJianmingJiaochengZju = PianWeifenfangchengJianmingJiaochengZju.__main__:main
+pian-weifenfangcheng-jianming-jiaocheng-zju = PianWeifenfangchengJianmingJiaochengZju.__main__:main
+
