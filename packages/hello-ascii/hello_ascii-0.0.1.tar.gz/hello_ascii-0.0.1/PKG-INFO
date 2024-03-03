@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: hello_ascii
+Version: 0.0.1
+Summary: a simple hello world with ascii
+Home-page: 
+Author: 
+Author-email: 
+License: MIT
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: MacOS
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+Several examples of hello world.
+
+
+Change Log
+============
+0.0.1 (Mar 02, 2024)
+ — — — — — — — — — -
+- First Release

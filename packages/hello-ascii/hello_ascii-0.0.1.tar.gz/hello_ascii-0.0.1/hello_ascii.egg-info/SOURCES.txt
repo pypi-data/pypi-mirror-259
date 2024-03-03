@@ -1,0 +1,17 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+hello.py
+hello_ascii.py
+hello_colorama.py
+hello_interactive.py
+hello_turtle.py
+rename.py
+requirements.txt
+setup.py
+hello_ascii/__init__.py
+hello_ascii.egg-info/PKG-INFO
+hello_ascii.egg-info/SOURCES.txt
+hello_ascii.egg-info/dependency_links.txt
+hello_ascii.egg-info/top_level.txt
