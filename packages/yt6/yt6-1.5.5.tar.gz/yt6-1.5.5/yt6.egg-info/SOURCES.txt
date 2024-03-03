@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+yt6/__init__.py
+yt6/__main__.py
+yt6/yt6.py
+yt6.egg-info/PKG-INFO
+yt6.egg-info/SOURCES.txt
+yt6.egg-info/dependency_links.txt
+yt6.egg-info/entry_points.txt
+yt6.egg-info/requires.txt
+yt6.egg-info/top_level.txt
