@@ -1,0 +1,4 @@
+[console_scripts]
+RailsZhinan = RailsZhinan.__main__:main
+rails-zhinan = RailsZhinan.__main__:main
+
