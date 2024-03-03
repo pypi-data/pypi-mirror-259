@@ -1,0 +1,4 @@
+[console_scripts]
+SanyueJiqiXuexiZaixianBanBijiFrankShaw = SanyueJiqiXuexiZaixianBanBijiFrankShaw.__main__:main
+sanyue-jiqi-xuexi-zaixian-ban-biji-frank-shaw = SanyueJiqiXuexiZaixianBanBijiFrankShaw.__main__:main
+
