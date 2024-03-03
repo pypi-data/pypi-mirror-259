@@ -1,0 +1,4 @@
+[console_scripts]
+TinyPythonEs6Notebook = TinyPythonEs6Notebook.__main__:main
+tiny-python-es6-notebook = TinyPythonEs6Notebook.__main__:main
+
