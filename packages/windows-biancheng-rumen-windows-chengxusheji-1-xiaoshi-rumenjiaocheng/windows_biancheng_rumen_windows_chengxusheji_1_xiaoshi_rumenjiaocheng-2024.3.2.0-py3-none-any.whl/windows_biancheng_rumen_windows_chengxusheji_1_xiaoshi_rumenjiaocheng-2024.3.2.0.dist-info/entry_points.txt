@@ -1,0 +1,4 @@
+[console_scripts]
+WindowsBianchengRumenWindowsChengxusheji1XiaoshiRumenjiaocheng = WindowsBianchengRumenWindowsChengxusheji1XiaoshiRumenjiaocheng.__main__:main
+windows-biancheng-rumen-windows-chengxusheji-1-xiaoshi-rumenjiaocheng = WindowsBianchengRumenWindowsChengxusheji1XiaoshiRumenjiaocheng.__main__:main
+
