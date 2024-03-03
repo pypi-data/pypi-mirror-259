@@ -1,0 +1,4 @@
+[console_scripts]
+Php2pythonApiCankao2017925 = Php2pythonApiCankao2017925.__main__:main
+php2python-api-cankao-2017-9-25 = Php2pythonApiCankao2017925.__main__:main
+
