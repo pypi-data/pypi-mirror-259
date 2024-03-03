@@ -1,0 +1,4 @@
+[console_scripts]
+PhotoshopJiaochengBixueJiqiao = PhotoshopJiaochengBixueJiqiao.__main__:main
+photoshop-jiaocheng-bixue-jiqiao = PhotoshopJiaochengBixueJiqiao.__main__:main
+

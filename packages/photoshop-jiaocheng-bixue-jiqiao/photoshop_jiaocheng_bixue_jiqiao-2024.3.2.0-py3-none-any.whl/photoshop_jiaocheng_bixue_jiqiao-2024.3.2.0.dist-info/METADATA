@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: photoshop-jiaocheng-bixue-jiqiao
+Version: 2024.3.2.0
+Summary: Photoshop 教程：必学技巧
+Home-page: https://github.com/apachecn/photoshop-jiaocheng-bixue-jiqiao
+Author: ApacheCN
+Author-email: apachecn@163.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: Other/Proprietary License
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Text Processing :: Markup :: Markdown
+Classifier: Topic :: Text Processing :: Markup :: HTML
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development :: Documentation
+Classifier: Topic :: Documentation
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Photoshop 教程：必学技巧
+
+## 下载
+
+### Docker
+
+```
+docker pull apachecn0/photoshop-jiaocheng-bixue-jiqiao
+docker run -tid -p <port>:80 apachecn0/photoshop-jiaocheng-bixue-jiqiao
+# 访问 http://localhost:{port} 查看文档
+```
+
+### PYPI
+
+```
+pip install photoshop-jiaocheng-bixue-jiqiao
+photoshop-jiaocheng-bixue-jiqiao <port>
+# 访问 http://localhost:{port} 查看文档
+```
+
+### NPM
+
+```
+npm install -g photoshop-jiaocheng-bixue-jiqiao
+photoshop-jiaocheng-bixue-jiqiao <port>
+# 访问 http://localhost:{port} 查看文档
+```
+
