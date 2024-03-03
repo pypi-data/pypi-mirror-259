@@ -1,0 +1,4 @@
+[console_scripts]
+Sqlalchemy11Documentation = Sqlalchemy11Documentation.__main__:main
+sqlalchemy-1-1-documentation = Sqlalchemy11Documentation.__main__:main
+
