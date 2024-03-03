@@ -1,0 +1,4 @@
+[console_scripts]
+OpencvGuanfangJiaochengZhongwenbanPython = OpencvGuanfangJiaochengZhongwenbanPython.__main__:main
+opencv-guanfang-jiaocheng-zhongwenban-python = OpencvGuanfangJiaochengZhongwenbanPython.__main__:main
+
