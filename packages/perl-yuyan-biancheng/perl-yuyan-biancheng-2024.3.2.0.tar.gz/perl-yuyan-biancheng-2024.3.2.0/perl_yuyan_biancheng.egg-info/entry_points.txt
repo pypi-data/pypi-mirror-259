@@ -1,0 +1,4 @@
+[console_scripts]
+PerlYuyanBiancheng = PerlYuyanBiancheng.__main__:main
+perl-yuyan-biancheng = PerlYuyanBiancheng.__main__:main
+
