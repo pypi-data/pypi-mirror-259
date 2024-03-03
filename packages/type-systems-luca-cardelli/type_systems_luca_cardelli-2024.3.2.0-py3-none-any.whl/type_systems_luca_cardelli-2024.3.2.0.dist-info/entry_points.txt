@@ -1,0 +1,4 @@
+[console_scripts]
+TypeSystemsLucaCardelli = TypeSystemsLucaCardelli.__main__:main
+type-systems-luca-cardelli = TypeSystemsLucaCardelli.__main__:main
+
