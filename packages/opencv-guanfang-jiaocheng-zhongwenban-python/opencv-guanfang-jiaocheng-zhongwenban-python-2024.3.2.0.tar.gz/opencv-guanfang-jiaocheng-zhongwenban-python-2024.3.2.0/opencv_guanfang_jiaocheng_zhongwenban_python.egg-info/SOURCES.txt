@@ -1,0 +1,12 @@
+README.md
+setup.py
+OpencvGuanfangJiaochengZhongwenbanPython/README.md
+OpencvGuanfangJiaochengZhongwenbanPython/__init__.py
+OpencvGuanfangJiaochengZhongwenbanPython/__main__.py
+OpencvGuanfangJiaochengZhongwenbanPython/file.pdf
+OpencvGuanfangJiaochengZhongwenbanPython/index.html
+opencv_guanfang_jiaocheng_zhongwenban_python.egg-info/PKG-INFO
+opencv_guanfang_jiaocheng_zhongwenban_python.egg-info/SOURCES.txt
+opencv_guanfang_jiaocheng_zhongwenban_python.egg-info/dependency_links.txt
+opencv_guanfang_jiaocheng_zhongwenban_python.egg-info/entry_points.txt
+opencv_guanfang_jiaocheng_zhongwenban_python.egg-info/top_level.txt
