@@ -1,0 +1,4 @@
+[console_scripts]
+TypescriptDeepDive = TypescriptDeepDive.__main__:main
+typescript-deep-dive = TypescriptDeepDive.__main__:main
+
