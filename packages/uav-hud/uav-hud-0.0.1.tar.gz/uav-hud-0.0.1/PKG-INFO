@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: uav-hud
+Version: 0.0.1
+Summary: A frame wrapper project that adds hud for UAVs.
+Home-page: https://github.com/0EA/uav-hud
+Author: Nurullah Eren Acar
+Author-email: n.erenacar13@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# UAV HUD OpenCV

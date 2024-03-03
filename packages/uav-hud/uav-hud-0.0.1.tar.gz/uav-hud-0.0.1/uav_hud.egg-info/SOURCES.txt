@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+core/__init__.py
+core/frame_modifier.py
+uav_hud.egg-info/PKG-INFO
+uav_hud.egg-info/SOURCES.txt
+uav_hud.egg-info/dependency_links.txt
+uav_hud.egg-info/top_level.txt
