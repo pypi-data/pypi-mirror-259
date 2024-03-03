@@ -1,0 +1,4 @@
+[console_scripts]
+RicequantLianghuaJiaocheng = RicequantLianghuaJiaocheng.__main__:main
+ricequant-lianghua-jiaocheng = RicequantLianghuaJiaocheng.__main__:main
+
