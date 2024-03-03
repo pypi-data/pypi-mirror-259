@@ -1,0 +1,4 @@
+[console_scripts]
+MdnHttpZhongwenWendang20171202 = MdnHttpZhongwenWendang20171202.__main__:main
+mdn-http-zhongwen-wendang-20171202 = MdnHttpZhongwenWendang20171202.__main__:main
+
