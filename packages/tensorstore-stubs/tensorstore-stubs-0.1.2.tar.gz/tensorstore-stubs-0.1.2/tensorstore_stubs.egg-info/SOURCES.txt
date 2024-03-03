@@ -1,0 +1,16 @@
+.gitignore
+LICENSE
+README.md
+build_draft.py
+pyproject.toml
+tensorstore-stubs/__init__.pyi
+tensorstore-stubs/_tensorstore.pyi
+tensorstore-stubs/py.typed
+tensorstore-stubs-draft/.gitignore
+tensorstore-stubs-draft/.gitkeep
+tensorstore-stubs-draft/_tensorstore.0.1.53.json
+tensorstore_stubs.egg-info/PKG-INFO
+tensorstore_stubs.egg-info/SOURCES.txt
+tensorstore_stubs.egg-info/dependency_links.txt
+tensorstore_stubs.egg-info/requires.txt
+tensorstore_stubs.egg-info/top_level.txt
