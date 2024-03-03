@@ -1,0 +1,12 @@
+README.md
+setup.py
+TheanoDocumentation082/README.md
+TheanoDocumentation082/__init__.py
+TheanoDocumentation082/__main__.py
+TheanoDocumentation082/file.pdf
+TheanoDocumentation082/index.html
+theano_documentation_0_8_2.egg-info/PKG-INFO
+theano_documentation_0_8_2.egg-info/SOURCES.txt
+theano_documentation_0_8_2.egg-info/dependency_links.txt
+theano_documentation_0_8_2.egg-info/entry_points.txt
+theano_documentation_0_8_2.egg-info/top_level.txt
