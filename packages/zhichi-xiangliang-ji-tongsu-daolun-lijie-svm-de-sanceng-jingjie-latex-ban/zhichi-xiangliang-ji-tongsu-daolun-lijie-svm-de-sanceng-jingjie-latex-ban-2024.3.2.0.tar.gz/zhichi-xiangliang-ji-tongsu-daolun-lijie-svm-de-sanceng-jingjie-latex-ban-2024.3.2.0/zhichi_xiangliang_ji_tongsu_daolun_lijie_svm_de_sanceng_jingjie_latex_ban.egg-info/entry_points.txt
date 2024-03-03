@@ -1,0 +1,4 @@
+[console_scripts]
+ZhichiXiangliangJiTongsuDaolunLijieSvmDeSancengJingjieLatexBan = ZhichiXiangliangJiTongsuDaolunLijieSvmDeSancengJingjieLatexBan.__main__:main
+zhichi-xiangliang-ji-tongsu-daolun-lijie-svm-de-sanceng-jingjie-latex-ban = ZhichiXiangliangJiTongsuDaolunLijieSvmDeSancengJingjieLatexBan.__main__:main
+
