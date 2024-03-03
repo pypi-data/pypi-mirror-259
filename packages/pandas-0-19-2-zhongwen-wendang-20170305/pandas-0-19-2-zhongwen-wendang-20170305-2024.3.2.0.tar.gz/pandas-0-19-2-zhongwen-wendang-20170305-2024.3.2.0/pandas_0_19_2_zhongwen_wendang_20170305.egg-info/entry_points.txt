@@ -1,0 +1,4 @@
+[console_scripts]
+Pandas0192ZhongwenWendang20170305 = Pandas0192ZhongwenWendang20170305.__main__:main
+pandas-0-19-2-zhongwen-wendang-20170305 = Pandas0192ZhongwenWendang20170305.__main__:main
+
