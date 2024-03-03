@@ -1,0 +1,4 @@
+[console_scripts]
+Sicp2eMit6001 = Sicp2eMit6001.__main__:main
+sicp-2e-mit-6-001 = Sicp2eMit6001.__main__:main
+
