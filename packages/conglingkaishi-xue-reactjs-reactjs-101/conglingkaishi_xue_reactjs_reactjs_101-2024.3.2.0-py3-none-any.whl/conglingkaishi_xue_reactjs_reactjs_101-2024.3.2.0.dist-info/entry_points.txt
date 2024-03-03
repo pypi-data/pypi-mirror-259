@@ -1,0 +1,4 @@
+[console_scripts]
+ConglingkaishiXueReactjsReactjs101 = ConglingkaishiXueReactjsReactjs101.__main__:main
+conglingkaishi-xue-reactjs-reactjs-101 = ConglingkaishiXueReactjsReactjs101.__main__:main
+
