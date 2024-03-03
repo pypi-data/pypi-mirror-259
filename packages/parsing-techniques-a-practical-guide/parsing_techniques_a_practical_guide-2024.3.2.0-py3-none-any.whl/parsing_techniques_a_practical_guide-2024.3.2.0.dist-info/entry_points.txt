@@ -1,0 +1,4 @@
+[console_scripts]
+ParsingTechniquesAPracticalGuide = ParsingTechniquesAPracticalGuide.__main__:main
+parsing-techniques-a-practical-guide = ParsingTechniquesAPracticalGuide.__main__:main
+
