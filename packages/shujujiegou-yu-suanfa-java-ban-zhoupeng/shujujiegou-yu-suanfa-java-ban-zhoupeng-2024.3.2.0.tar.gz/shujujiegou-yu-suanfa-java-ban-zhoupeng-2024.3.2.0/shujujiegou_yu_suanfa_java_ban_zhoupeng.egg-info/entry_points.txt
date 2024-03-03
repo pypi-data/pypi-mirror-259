@@ -1,0 +1,4 @@
+[console_scripts]
+ShujujiegouYuSuanfaJavaBanZhoupeng = ShujujiegouYuSuanfaJavaBanZhoupeng.__main__:main
+shujujiegou-yu-suanfa-java-ban-zhoupeng = ShujujiegouYuSuanfaJavaBanZhoupeng.__main__:main
+
