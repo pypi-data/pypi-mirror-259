@@ -1,0 +1,4 @@
+[console_scripts]
+JavaJichujiaochengJavaKuaiche = JavaJichujiaochengJavaKuaiche.__main__:main
+java-jichujiaocheng-java-kuaiche = JavaJichujiaochengJavaKuaiche.__main__:main
+
