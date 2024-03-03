@@ -1,0 +1,4 @@
+[console_scripts]
+OperatingSystemsThreeEasyPieces = OperatingSystemsThreeEasyPieces.__main__:main
+operating-systems-three-easy-pieces = OperatingSystemsThreeEasyPieces.__main__:main
+
