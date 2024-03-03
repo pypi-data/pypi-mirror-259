@@ -1,0 +1,4 @@
+[console_scripts]
+JavaGongchengshiShiliCankaoshouceLiaoQingyuan = JavaGongchengshiShiliCankaoshouceLiaoQingyuan.__main__:main
+java-gongchengshi-shili-cankaoshouce-liao-qingyuan = JavaGongchengshiShiliCankaoshouceLiaoQingyuan.__main__:main
+
