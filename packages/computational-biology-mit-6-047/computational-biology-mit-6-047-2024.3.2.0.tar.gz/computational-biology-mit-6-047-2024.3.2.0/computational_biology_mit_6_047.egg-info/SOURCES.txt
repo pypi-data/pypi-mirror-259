@@ -1,0 +1,12 @@
+README.md
+setup.py
+ComputationalBiologyMit6047/README.md
+ComputationalBiologyMit6047/__init__.py
+ComputationalBiologyMit6047/__main__.py
+ComputationalBiologyMit6047/file.pdf
+ComputationalBiologyMit6047/index.html
+computational_biology_mit_6_047.egg-info/PKG-INFO
+computational_biology_mit_6_047.egg-info/SOURCES.txt
+computational_biology_mit_6_047.egg-info/dependency_links.txt
+computational_biology_mit_6_047.egg-info/entry_points.txt
+computational_biology_mit_6_047.egg-info/top_level.txt
