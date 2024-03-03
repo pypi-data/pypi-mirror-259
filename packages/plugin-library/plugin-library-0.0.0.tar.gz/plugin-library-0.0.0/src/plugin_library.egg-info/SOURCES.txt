@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/plugin_library.egg-info/PKG-INFO
+src/plugin_library.egg-info/SOURCES.txt
+src/plugin_library.egg-info/dependency_links.txt
+src/plugin_library.egg-info/requires.txt
+src/plugin_library.egg-info/top_level.txt
+src/pluginlib/__init__.py
