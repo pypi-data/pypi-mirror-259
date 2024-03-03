@@ -1,0 +1,4 @@
+[console_scripts]
+JianZhiOfferTijieJeancheng = JianZhiOfferTijieJeancheng.__main__:main
+jian-zhi-offer-tijie-jeancheng = JianZhiOfferTijieJeancheng.__main__:main
+
