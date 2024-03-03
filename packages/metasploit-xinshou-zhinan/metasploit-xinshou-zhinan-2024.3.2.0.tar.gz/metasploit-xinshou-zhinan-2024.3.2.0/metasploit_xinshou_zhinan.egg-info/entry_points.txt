@@ -1,0 +1,4 @@
+[console_scripts]
+MetasploitXinshouZhinan = MetasploitXinshouZhinan.__main__:main
+metasploit-xinshou-zhinan = MetasploitXinshouZhinan.__main__:main
+

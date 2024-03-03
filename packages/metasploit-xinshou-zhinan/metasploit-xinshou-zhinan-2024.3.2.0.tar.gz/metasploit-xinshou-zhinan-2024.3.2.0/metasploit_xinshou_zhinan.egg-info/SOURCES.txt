@@ -1,0 +1,12 @@
+README.md
+setup.py
+MetasploitXinshouZhinan/README.md
+MetasploitXinshouZhinan/__init__.py
+MetasploitXinshouZhinan/__main__.py
+MetasploitXinshouZhinan/file.pdf
+MetasploitXinshouZhinan/index.html
+metasploit_xinshou_zhinan.egg-info/PKG-INFO
+metasploit_xinshou_zhinan.egg-info/SOURCES.txt
+metasploit_xinshou_zhinan.egg-info/dependency_links.txt
+metasploit_xinshou_zhinan.egg-info/entry_points.txt
+metasploit_xinshou_zhinan.egg-info/top_level.txt
