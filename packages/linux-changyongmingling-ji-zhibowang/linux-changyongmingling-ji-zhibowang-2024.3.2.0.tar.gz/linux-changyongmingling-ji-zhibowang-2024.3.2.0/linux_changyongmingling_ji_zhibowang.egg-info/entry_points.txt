@@ -1,0 +1,4 @@
+[console_scripts]
+LinuxChangyongminglingJiZhibowang = LinuxChangyongminglingJiZhibowang.__main__:main
+linux-changyongmingling-ji-zhibowang = LinuxChangyongminglingJiZhibowang.__main__:main
+
