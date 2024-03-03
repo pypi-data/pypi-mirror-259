@@ -1,0 +1,4 @@
+[console_scripts]
+ShenruqianchuShejimoshiAi92 = ShenruqianchuShejimoshiAi92.__main__:main
+shenruqianchu-shejimoshi-ai92 = ShenruqianchuShejimoshiAi92.__main__:main
+

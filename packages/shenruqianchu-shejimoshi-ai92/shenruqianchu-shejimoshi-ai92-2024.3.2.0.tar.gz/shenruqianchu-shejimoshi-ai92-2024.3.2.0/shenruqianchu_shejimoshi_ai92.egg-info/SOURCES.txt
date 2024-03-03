@@ -1,0 +1,12 @@
+README.md
+setup.py
+ShenruqianchuShejimoshiAi92/README.md
+ShenruqianchuShejimoshiAi92/__init__.py
+ShenruqianchuShejimoshiAi92/__main__.py
+ShenruqianchuShejimoshiAi92/file.pdf
+ShenruqianchuShejimoshiAi92/index.html
+shenruqianchu_shejimoshi_ai92.egg-info/PKG-INFO
+shenruqianchu_shejimoshi_ai92.egg-info/SOURCES.txt
+shenruqianchu_shejimoshi_ai92.egg-info/dependency_links.txt
+shenruqianchu_shejimoshi_ai92.egg-info/entry_points.txt
+shenruqianchu_shejimoshi_ai92.egg-info/top_level.txt
