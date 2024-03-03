@@ -1,0 +1,4 @@
+[console_scripts]
+MdnJavascriptCankaoWendang201726 = MdnJavascriptCankaoWendang201726.__main__:main
+mdn-javascript-cankao-wendang-2017-2-6 = MdnJavascriptCankaoWendang201726.__main__:main
+
