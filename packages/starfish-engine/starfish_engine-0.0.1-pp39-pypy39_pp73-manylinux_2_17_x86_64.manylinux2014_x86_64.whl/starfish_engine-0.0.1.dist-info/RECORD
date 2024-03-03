@@ -1,0 +1,6 @@
+starfish_engine-0.0.1.dist-info/METADATA,sha256=s4peJ64klXPxS2W214h7OBL6t60dXgkynZdDjLGfARw,325
+starfish_engine-0.0.1.dist-info/WHEEL,sha256=YX2wkOJR6v6pB7SCrROnYsslsiNcBNMd9KGvfM2XSL4,134
+starfish/__init__.py,sha256=HnKcmpiIfUbJBJ6EukKvLTwa1J-grZXrTq1HeB3rCeo,255
+starfish/engine.pyi,sha256=GvhWkYAag66zlWVXZ6xoitujvl-kE23ttaR18o3rgec,4180
+starfish/engine.pypy39-pp73-x86_64-linux-gnu.so,sha256=F8y0d-H8WimPScu8fctvw9UBumIiOJhXZIplj0xYBcM,2901192
+starfish_engine-0.0.1.dist-info/RECORD,,
