@@ -1,0 +1,4 @@
+[console_scripts]
+NihaoC = NihaoC.__main__:main
+nihao-c = NihaoC.__main__:main
+
