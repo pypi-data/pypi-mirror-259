@@ -1,0 +1,4 @@
+[console_scripts]
+JavascriptZhengzebiaodashiMiniShu = JavascriptZhengzebiaodashiMiniShu.__main__:main
+javascript-zhengzebiaodashi-mini-shu = JavascriptZhengzebiaodashiMiniShu.__main__:main
+
