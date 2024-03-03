@@ -1,0 +1,4 @@
+[console_scripts]
+OllydbgZhongwenBangzhuShouce201 = OllydbgZhongwenBangzhuShouce201.__main__:main
+ollydbg-zhongwen-bangzhu-shouce-2-0-1 = OllydbgZhongwenBangzhuShouce201.__main__:main
+
