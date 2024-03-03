@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "shdw-node-stats"
+version = "0.1.0"
+description = "A tool to fetch and record ShadowDrive node statistics from an API and save them to a CSV file."
+authors = [{ name = "AnyNodes", email = "anynodes@outlook.com" }]
+readme = "README.md"
+license = { text = "MIT" }
+keywords = ["API", "ShadowDrive", "statistics", "CSV"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "requests>=2.25.1"
+]
+
+[project.scripts]
+node-stats = "NodeStats.py"
