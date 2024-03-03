@@ -1,0 +1,4 @@
+[console_scripts]
+WeiShengwuXinxixueShejiDePythonJiaocheng = WeiShengwuXinxixueShejiDePythonJiaocheng.__main__:main
+wei-shengwu-xinxixue-sheji-de-python-jiaocheng = WeiShengwuXinxixueShejiDePythonJiaocheng.__main__:main
+
