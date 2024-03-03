@@ -1,0 +1,4 @@
+[console_scripts]
+RuanjianGoujianShijian01 = RuanjianGoujianShijian01.__main__:main
+ruanjian-goujian-shijian-0-1 = RuanjianGoujianShijian01.__main__:main
+
