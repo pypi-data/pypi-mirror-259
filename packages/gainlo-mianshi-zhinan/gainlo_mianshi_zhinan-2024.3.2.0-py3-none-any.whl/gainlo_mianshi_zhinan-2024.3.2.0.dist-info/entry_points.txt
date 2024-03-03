@@ -1,0 +1,4 @@
+[console_scripts]
+GainloMianshiZhinan = GainloMianshiZhinan.__main__:main
+gainlo-mianshi-zhinan = GainloMianshiZhinan.__main__:main
+
