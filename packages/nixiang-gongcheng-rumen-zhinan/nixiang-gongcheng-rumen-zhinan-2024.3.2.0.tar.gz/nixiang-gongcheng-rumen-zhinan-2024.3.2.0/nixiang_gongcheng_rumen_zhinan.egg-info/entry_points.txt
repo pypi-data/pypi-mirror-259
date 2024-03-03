@@ -1,0 +1,4 @@
+[console_scripts]
+NixiangGongchengRumenZhinan = NixiangGongchengRumenZhinan.__main__:main
+nixiang-gongcheng-rumen-zhinan = NixiangGongchengRumenZhinan.__main__:main
+
