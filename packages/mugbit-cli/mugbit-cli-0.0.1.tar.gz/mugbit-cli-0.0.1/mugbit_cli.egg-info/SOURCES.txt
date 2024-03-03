@@ -1,0 +1,7 @@
+LICENSE
+setup.py
+mugbit_cli.egg-info/PKG-INFO
+mugbit_cli.egg-info/SOURCES.txt
+mugbit_cli.egg-info/dependency_links.txt
+mugbit_cli.egg-info/requires.txt
+mugbit_cli.egg-info/top_level.txt

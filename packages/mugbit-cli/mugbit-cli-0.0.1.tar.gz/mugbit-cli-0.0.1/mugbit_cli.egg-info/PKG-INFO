@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: mugbit-cli
+Version: 0.0.1
+Summary: create your document with the power of A.I.
+Author: Harsh Kale
+Author-email: harshmkale.2004@gmail.com
+Keywords: generate documents with A.I.,Artificial Intelligence,MS document with A.I.,MugBit CLI,Harsh Kale,A.I. Document,Create Documents with A.I.,Document Template,AI and Document
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: Babel==2.14.0
+Requires-Dist: certifi==2024.2.2
+Requires-Dist: charset-normalizer==3.3.2
+Requires-Dist: colorama==0.4.6
+Requires-Dist: docxcompose==1.4.0
+Requires-Dist: docxtpl==0.16.8
+Requires-Dist: idna==3.6
+Requires-Dist: Jinja2==3.1.3
+Requires-Dist: lxml==5.1.0
+Requires-Dist: MarkupSafe==2.1.5
+Requires-Dist: python-docx==1.1.0
+Requires-Dist: requests==2.31.0
+Requires-Dist: setuptools==69.1.1
+Requires-Dist: six==1.16.0
+Requires-Dist: tqdm==4.66.2
+Requires-Dist: typing_extensions==4.10.0
+Requires-Dist: urllib3==2.2.1
+
+MugBit CLI involves creating a versatile document generation system with dynamic placeholders. Users can create customizable templates with placeholders, which are then extracted. The placeholders' values are obtained from the user through input prompts and used to fill the placeholders using an AI API. The resulting data is inserted into the document, and the final document is generated and saved. This allows users to dynamically tailor document content by interacting with an AI-based system through a user-friendly interface.
+
+MugBit CLI relies on leveraging Artificial Intelligence for the creation of documents, PowerPoint presentations, and template filling. Our goal is to simplify, ease, and enhance the user experience, making their lives more convenient. MugBit CLI relies on Python as its underlying framework, with the backbone of its functionality deriving from the potent Gemini AI by Google.
