@@ -1,0 +1,4 @@
+[console_scripts]
+RuheXuePythonLiSansi = RuheXuePythonLiSansi.__main__:main
+ruhe-xue-python-li-sansi = RuheXuePythonLiSansi.__main__:main
+
