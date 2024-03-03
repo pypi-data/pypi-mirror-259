@@ -1,0 +1,17 @@
+[package]
+name = "filon"
+version = "1.2.0"
+edition = "2021"
+license = "GPL-3.0-or-later"
+description = "Highly oscillatory quadrature in Rust"
+repository = "https://github.com/alexhroom/filon"
+readme = "README.md"
+keywords = ["quadrature", "integration"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+name = "filon"
+crate-type = ["lib"]
+
+[dependencies]
+num-complex = "0.4.4"

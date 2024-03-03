@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: pyfilon
+Version: 1.3.0
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Summary: Filon quadrature for highly oscillatory integrals
+License: GPL-3.0-or-later
+Requires-Python: >=3.8
