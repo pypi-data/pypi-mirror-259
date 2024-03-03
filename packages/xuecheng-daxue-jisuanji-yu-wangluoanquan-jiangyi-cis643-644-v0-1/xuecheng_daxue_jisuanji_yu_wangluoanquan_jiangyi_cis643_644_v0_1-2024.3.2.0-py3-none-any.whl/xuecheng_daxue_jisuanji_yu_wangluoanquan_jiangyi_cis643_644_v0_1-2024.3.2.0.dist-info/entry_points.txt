@@ -1,0 +1,4 @@
+[console_scripts]
+XuechengDaxueJisuanjiYuWangluoanquanJiangyiCis643644V01 = XuechengDaxueJisuanjiYuWangluoanquanJiangyiCis643644V01.__main__:main
+xuecheng-daxue-jisuanji-yu-wangluoanquan-jiangyi-cis643-644-v0-1 = XuechengDaxueJisuanjiYuWangluoanquanJiangyiCis643644V01.__main__:main
+
