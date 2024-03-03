@@ -1,0 +1,4 @@
+[console_scripts]
+YansuanfaBiji201710 = YansuanfaBiji201710.__main__:main
+yansuanfa-biji-201710 = YansuanfaBiji201710.__main__:main
+
