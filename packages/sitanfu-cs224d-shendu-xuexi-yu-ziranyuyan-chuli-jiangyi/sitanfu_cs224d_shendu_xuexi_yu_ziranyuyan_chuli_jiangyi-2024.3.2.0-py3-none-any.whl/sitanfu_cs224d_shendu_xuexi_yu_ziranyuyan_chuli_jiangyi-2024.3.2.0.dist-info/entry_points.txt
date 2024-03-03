@@ -1,0 +1,4 @@
+[console_scripts]
+SitanfuCs224dShenduXuexiYuZiranyuyanChuliJiangyi = SitanfuCs224dShenduXuexiYuZiranyuyanChuliJiangyi.__main__:main
+sitanfu-cs224d-shendu-xuexi-yu-ziranyuyan-chuli-jiangyi = SitanfuCs224dShenduXuexiYuZiranyuyanChuliJiangyi.__main__:main
+
