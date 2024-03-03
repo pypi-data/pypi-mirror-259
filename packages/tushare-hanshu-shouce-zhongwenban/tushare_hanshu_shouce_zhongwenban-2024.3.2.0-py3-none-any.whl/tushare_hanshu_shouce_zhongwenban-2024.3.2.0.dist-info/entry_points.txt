@@ -1,0 +1,4 @@
+[console_scripts]
+TushareHanshuShouceZhongwenban = TushareHanshuShouceZhongwenban.__main__:main
+tushare-hanshu-shouce-zhongwenban = TushareHanshuShouceZhongwenban.__main__:main
+
