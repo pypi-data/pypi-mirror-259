@@ -1,0 +1,4 @@
+[console_scripts]
+ScikitLearnGuanfangWendangShili = ScikitLearnGuanfangWendangShili.__main__:main
+scikit-learn-guanfang-wendang-shili = ScikitLearnGuanfangWendangShili.__main__:main
+
