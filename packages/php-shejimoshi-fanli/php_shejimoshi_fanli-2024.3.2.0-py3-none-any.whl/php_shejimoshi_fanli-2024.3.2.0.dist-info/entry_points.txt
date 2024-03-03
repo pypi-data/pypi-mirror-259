@@ -1,0 +1,4 @@
+[console_scripts]
+PhpShejimoshiFanli = PhpShejimoshiFanli.__main__:main
+php-shejimoshi-fanli = PhpShejimoshiFanli.__main__:main
+
