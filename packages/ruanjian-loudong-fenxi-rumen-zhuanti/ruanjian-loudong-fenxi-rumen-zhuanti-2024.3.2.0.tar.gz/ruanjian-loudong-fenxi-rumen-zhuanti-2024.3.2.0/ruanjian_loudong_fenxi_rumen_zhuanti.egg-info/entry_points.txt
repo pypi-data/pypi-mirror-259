@@ -1,0 +1,4 @@
+[console_scripts]
+RuanjianLoudongFenxiRumenZhuanti = RuanjianLoudongFenxiRumenZhuanti.__main__:main
+ruanjian-loudong-fenxi-rumen-zhuanti = RuanjianLoudongFenxiRumenZhuanti.__main__:main
+
