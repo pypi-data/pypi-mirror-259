@@ -1,0 +1,13 @@
+dns_client/__init__.py,sha256=VUF7CTuKZHXpBGou7V0tOyVZ_0PppPFU2TdpXcbMFQY,472
+dns_client/__main__.py,sha256=lnfaMIAFhRCdXi2qHEF6SRzGeOib5Yf089XEGBDDCZo,2860
+dns_client/client.py,sha256=uSCw3HAo-5gubH69m2tCxR6W3gb3rIMRkgTDq5hF-5Q,5733
+dns_client/errors.py,sha256=2bKOOwchTWCnsAnpOsOWobghZGOiaqvu58W0Gw8JWcE,836
+dns_client/log.py,sha256=RKJ1SA_esRmLjnb3Spdf9G9X5G0pSEjRwgrg7mrrrIc,67
+dns_client/protocol.py,sha256=AsvNP592PGxlsUqLNvFP_KYbOA9IqWRHpSwvSa6jxuk,12029
+dns_client/utils.py,sha256=TwTDyc1SqJYq4Waw32TIDThO4oEkmDEkZ2WKgfl87wM,4039
+dns_client/adapters/requests.py,sha256=0kyla_SLtLy3kS6_CtiI6xDtaBOtLXmQX3lxHefX014,1956
+dns_client-0.1.9.dist-info/LICENSE,sha256=u7bNZ7RlUly5_IygLEfl0DLP3fA8CoxsJOqhTg4zZzY,13
+dns_client-0.1.9.dist-info/METADATA,sha256=ZQKK6JDpnCzjETObnTP4XMutmWL_d40v2a2VfLJstro,3677
+dns_client-0.1.9.dist-info/WHEEL,sha256=oiQVh_5PnQM0E3gPdiz09WCNmwiHDMaGer_elqB3coM,92
+dns_client-0.1.9.dist-info/top_level.txt,sha256=3sLwyCGz6-U_ldd6XYsXJmnSaGeOLsjb3xj1Ftv-ve0,11
+dns_client-0.1.9.dist-info/RECORD,,
