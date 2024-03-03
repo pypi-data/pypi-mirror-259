@@ -1,0 +1,4 @@
+[console_scripts]
+ShuxueZhimeiLangchaoZhidianGugeHeibanbao = ShuxueZhimeiLangchaoZhidianGugeHeibanbao.__main__:main
+shuxue-zhimei-langchao-zhidian-guge-heibanbao = ShuxueZhimeiLangchaoZhidianGugeHeibanbao.__main__:main
+
