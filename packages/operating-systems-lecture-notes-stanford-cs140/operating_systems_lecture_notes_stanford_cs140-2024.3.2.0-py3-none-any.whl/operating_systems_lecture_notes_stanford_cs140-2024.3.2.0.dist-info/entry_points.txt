@@ -1,0 +1,4 @@
+[console_scripts]
+OperatingSystemsLectureNotesStanfordCs140 = OperatingSystemsLectureNotesStanfordCs140.__main__:main
+operating-systems-lecture-notes-stanford-cs140 = OperatingSystemsLectureNotesStanfordCs140.__main__:main
+
