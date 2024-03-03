@@ -1,0 +1,4 @@
+[console_scripts]
+LinuxYunweiRumenDaoGaojiQuantaoXilie = LinuxYunweiRumenDaoGaojiQuantaoXilie.__main__:main
+linux-yunwei-rumen-dao-gaoji-quantao-xilie = LinuxYunweiRumenDaoGaojiQuantaoXilie.__main__:main
+
