@@ -1,0 +1,4 @@
+[console_scripts]
+XitongShejiRumen = XitongShejiRumen.__main__:main
+xitong-sheji-rumen = XitongShejiRumen.__main__:main
+
