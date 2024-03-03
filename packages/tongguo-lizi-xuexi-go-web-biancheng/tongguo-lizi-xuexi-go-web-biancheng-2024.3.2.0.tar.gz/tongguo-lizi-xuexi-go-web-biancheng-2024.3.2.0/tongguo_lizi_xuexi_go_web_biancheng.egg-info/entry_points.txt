@@ -1,0 +1,4 @@
+[console_scripts]
+TongguoLiziXuexiGoWebBiancheng = TongguoLiziXuexiGoWebBiancheng.__main__:main
+tongguo-lizi-xuexi-go-web-biancheng = TongguoLiziXuexiGoWebBiancheng.__main__:main
+
